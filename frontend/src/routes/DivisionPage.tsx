@@ -379,28 +379,15 @@ export function DivisionPage() {
       <section className="panel" id="ranking-methodology">
         <h3>How SoS and Power Rankings Are Calculated</h3>
         <p className="meta">
-          Rankings are computed per selected grade/gender from final games (games with both scores present).
-          Team record and PF/PA use all linked final games for that team.
+          In plain terms: every team starts equal, gains points for wins, and loses points for losses.
+          Beating strong teams helps more than beating weak teams, and close games count less than blowouts.
         </p>
         <ul className="method-list">
-          <li>Elo starts at <code>1500</code> for each ranked team.</li>
-          <li>
-            Expected result for home team:
-            <code> 1 / (1 + 10^((elo_away - elo_home)/400))</code>
-          </li>
-          <li>
-            Margin multiplier:
-            <code> log(mov + 1) * (2.2 / ((elo_diff * 0.001) + 2.2))</code>, with <code>K=20</code>.
-          </li>
-          <li>
-            SoS (Strength of Schedule): average final Elo of opponents faced by each team.
-          </li>
-          <li>
-            Power Rating: <code>0.75 * Elo + 0.25 * SoS</code>.
-          </li>
-          <li>
-            Rank order: descending Power, with Elo and point differential used as tie-breakers.
-          </li>
+          <li><strong>Step 1:</strong> Every team starts at 1500.</li>
+          <li><strong>Step 2:</strong> After each game, ratings move up or down based on who won and by how much.</li>
+          <li><strong>Step 3:</strong> SoS (Strength of Schedule) is the average rating of your opponents.</li>
+          <li><strong>Step 4:</strong> Power Rating = 75% your rating + 25% your SoS.</li>
+          <li><strong>Final ranking:</strong> Teams are sorted by Power Rating (highest first).</li>
         </ul>
       </section>
     </div>
