@@ -37,6 +37,22 @@
       "opponent_name": "D5T-Newton (orange)"
     },
     {
+      "gameno": "380384",
+      "date": "2026-02-21",
+      "dow": "Sat",
+      "starttime": "12:15 PM",
+      "location": "Winchester High School (Court 1)",
+      "divisionno": "7273",
+      "home_teamno": "43459",
+      "away_teamno": "44222",
+      "home_score": 9,
+      "away_score": 18,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43459",
+      "opponent_name": "D5T-Winchester (black)"
+    },
+    {
       "gameno": "380372",
       "date": "2026-02-08",
       "dow": "Sun",
@@ -166,22 +182,6 @@
     }
   ],
   "future_games": [
-    {
-      "gameno": "380384",
-      "date": "2026-02-21",
-      "dow": "Sat",
-      "starttime": "12:15 PM",
-      "location": "Winchester High School (Court 1)",
-      "divisionno": "7273",
-      "home_teamno": "43459",
-      "away_teamno": "44222",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43459",
-      "opponent_name": "D5T-Winchester (black)"
-    },
     {
       "gameno": "380405",
       "date": "2026-03-01",

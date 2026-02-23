@@ -21,6 +21,22 @@
   },
   "past_games": [
     {
+      "gameno": "380384",
+      "date": "2026-02-21",
+      "dow": "Sat",
+      "starttime": "12:15 PM",
+      "location": "Winchester High School (Court 1)",
+      "divisionno": "7273",
+      "home_teamno": "43459",
+      "away_teamno": "44222",
+      "home_score": 9,
+      "away_score": 18,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44222",
+      "opponent_name": "D5R-Southboro (white)"
+    },
+    {
       "gameno": "380373",
       "date": "2026-02-08",
       "dow": "Sun",
@@ -245,22 +261,6 @@
       "is_home": false,
       "opponent_teamno": "43543",
       "opponent_name": "D5Q-Northboro (red 1)"
-    },
-    {
-      "gameno": "380384",
-      "date": "2026-02-21",
-      "dow": "Sat",
-      "starttime": "12:15 PM",
-      "location": "Winchester High School (Court 1)",
-      "divisionno": "7273",
-      "home_teamno": "43459",
-      "away_teamno": "44222",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44222",
-      "opponent_name": "D5R-Southboro (white)"
     },
     {
       "gameno": "391980",

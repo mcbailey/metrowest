@@ -6,13 +6,13 @@
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 338,
-    "pa": 289,
-    "diff": 49,
-    "sos": 1496.978,
-    "power": 1559.89,
+    "pf": 368,
+    "pa": 325,
+    "diff": 43,
+    "sos": 1497.346,
+    "power": 1540.631,
     "rank": 1,
     "divisionno": "7178",
     "division_name": "7th Boys - Division 6",
@@ -20,6 +20,22 @@
     "gender": "M"
   },
   "past_games": [
+    {
+      "gameno": "388187",
+      "date": "2026-02-21",
+      "dow": "Sat",
+      "starttime": "5:40 PM",
+      "location": "Watertown Middle School",
+      "divisionno": "7178",
+      "home_teamno": "44072",
+      "away_teamno": "44298",
+      "home_score": 36,
+      "away_score": 30,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44072",
+      "opponent_name": "D6R-Watertown (red)"
+    },
     {
       "gameno": "380046",
       "date": "2026-02-15",
@@ -293,22 +309,6 @@
       "is_home": false,
       "opponent_teamno": "44937",
       "opponent_name": "D5Q-Blackstone-Millville (cummings)"
-    },
-    {
-      "gameno": "388187",
-      "date": "2026-02-21",
-      "dow": "Sat",
-      "starttime": "5:40 PM",
-      "location": "Watertown Middle School",
-      "divisionno": "7178",
-      "home_teamno": "44072",
-      "away_teamno": "44298",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44072",
-      "opponent_name": "D6R-Watertown (red)"
     },
     {
       "gameno": "380060",

@@ -11,13 +11,13 @@
       "name": "D6R-Belmont (navy)",
       "town": null,
       "wins": 7,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
-      "pf": 338,
-      "pa": 289,
-      "diff": 49,
-      "sos": 1496.978,
-      "power": 1559.89,
+      "pf": 368,
+      "pa": 325,
+      "diff": 43,
+      "sos": 1497.346,
+      "power": 1540.631,
       "rank": 1
     },
     {
@@ -30,8 +30,8 @@
       "pf": 269,
       "pa": 232,
       "diff": 37,
-      "sos": 1492.843,
-      "power": 1530.658,
+      "sos": 1495.71,
+      "power": 1531.375,
       "rank": 2
     },
     {
@@ -44,8 +44,8 @@
       "pf": 349,
       "pa": 334,
       "diff": 15,
-      "sos": 1512.538,
-      "power": 1520.355,
+      "sos": 1510.027,
+      "power": 1520.407,
       "rank": 3
     },
     {
@@ -63,6 +63,20 @@
       "rank": 4
     },
     {
+      "teamno": "44072",
+      "name": "D6R-Watertown (red)",
+      "town": null,
+      "wins": 3,
+      "losses": 6,
+      "ties": 0,
+      "pf": 286,
+      "pa": 313,
+      "diff": -27,
+      "sos": 1522.093,
+      "power": 1485.302,
+      "rank": 5
+    },
+    {
       "teamno": "45081",
       "name": "D6R-Reading (brown)",
       "town": null,
@@ -72,22 +86,8 @@
       "pf": 105,
       "pa": 129,
       "diff": -24,
-      "sos": 1521.512,
-      "power": 1473.926,
-      "rank": 5
-    },
-    {
-      "teamno": "44072",
-      "name": "D6R-Watertown (red)",
-      "town": null,
-      "wins": 2,
-      "losses": 6,
-      "ties": 0,
-      "pf": 250,
-      "pa": 283,
-      "diff": -33,
-      "sos": 1520.97,
-      "power": 1466.35,
+      "sos": 1515.288,
+      "power": 1472.37,
       "rank": 6
     },
     {
