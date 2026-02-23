@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { Filters, FilterState } from "../components/Filters";
 import { RankingsTable } from "../components/RankingsTable";
 import { loadJson } from "../data";
@@ -30,16 +31,61 @@ function extractSubgroup(teamName: string): string | undefined {
   return match?.[1];
 }
 
+function inferDivisionCode(teams: RankingTeam[]): string | undefined {
+  const counts: Record<string, number> = {};
+  for (const team of teams) {
+    const code = extractSubgroup(team.name);
+    if (!code) continue;
+    counts[code] = (counts[code] ?? 0) + 1;
+  }
+
+  return Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0]?.[0];
+}
+
 function sortAndRank(teams: DisplayTeam[]): DisplayTeam[] {
   const out = [...teams].sort((a, b) => b.power - a.power || b.sos - a.sos || b.diff - a.diff);
   return out.map((t, idx) => ({ ...t, rank: idx + 1 }));
 }
 
+function coerceFiltersFromQuery(index: IndexData, searchParams: URLSearchParams): FilterState {
+  const fallbackSeason = index.default.yrseason;
+  const requestedSeason = searchParams.get("season") ?? fallbackSeason;
+
+  const seasonEntry =
+    index.seasons.find((s) => s.yrseason === requestedSeason) ||
+    index.seasons.find((s) => s.yrseason === fallbackSeason) ||
+    index.seasons[0];
+
+  const season = seasonEntry?.yrseason ?? fallbackSeason;
+  const genderFromQuery = searchParams.get("gender");
+  const gender: "M" | "F" =
+    genderFromQuery === "M" || genderFromQuery === "F"
+      ? genderFromQuery
+      : seasonEntry?.genders.includes(index.default.gender)
+      ? index.default.gender
+      : (seasonEntry?.genders[0] ?? "M");
+
+  const gradeFromQuery = Number(searchParams.get("grade") ?? "");
+  const grade =
+    Number.isInteger(gradeFromQuery) && seasonEntry?.grades.includes(gradeFromQuery)
+      ? gradeFromQuery
+      : seasonEntry?.grades.includes(index.default.grade)
+      ? index.default.grade
+      : (seasonEntry?.grades[0] ?? 3);
+
+  const divisionno = searchParams.get("division") ?? "ALL";
+
+  return { season, gender, grade, divisionno };
+}
+
 export function DivisionPage() {
+  const [searchParams, setSearchParams] = useSearchParams();
+
   const [index, setIndex] = useState<IndexData | null>(null);
   const [filters, setFilters] = useState<FilterState | null>(null);
   const [divisions, setDivisions] = useState<DivisionsData | null>(null);
   const [display, setDisplay] = useState<DisplayPayload | null>(null);
+  const [divisionCodeByNo, setDivisionCodeByNo] = useState<Record<string, string>>({});
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -47,15 +93,26 @@ export function DivisionPage() {
       .then((data) => {
         setError(null);
         setIndex(data);
-        setFilters({
-          season: data.default.yrseason,
-          gender: data.default.gender,
-          grade: data.default.grade,
-          divisionno: "ALL",
-        });
+        setFilters(coerceFiltersFromQuery(data, searchParams));
       })
       .catch((err) => setError(String(err)));
   }, []);
+
+  useEffect(() => {
+    if (!filters) return;
+
+    const params = new URLSearchParams();
+    params.set("season", filters.season);
+    params.set("gender", filters.gender);
+    params.set("grade", String(filters.grade));
+    params.set("division", filters.divisionno || "ALL");
+
+    const next = params.toString();
+    const current = searchParams.toString();
+    if (next !== current) {
+      setSearchParams(params, { replace: true });
+    }
+  }, [filters, searchParams, setSearchParams]);
 
   useEffect(() => {
     if (!filters) return;
@@ -66,6 +123,7 @@ export function DivisionPage() {
         if (!active) return;
         setError(null);
         setDivisions(data);
+        setDivisionCodeByNo({});
 
         const valid = new Set([
           "ALL",
@@ -86,6 +144,50 @@ export function DivisionPage() {
       active = false;
     };
   }, [filters?.season, filters?.gender, filters?.grade]);
+
+  useEffect(() => {
+    if (!filters || !divisions) return;
+    const currentFilters = filters;
+    const currentDivisions = divisions;
+    let active = true;
+
+    async function loadDivisionCodes() {
+      const divisionNos = currentDivisions.divisions.map((d) => d.divisionno);
+      if (!divisionNos.length) {
+        if (active) setDivisionCodeByNo({});
+        return;
+      }
+
+      const results = await Promise.allSettled(
+        divisionNos.map((dno) =>
+          loadJson<DivisionRankingData>(
+            `data/${currentFilters.season}/${currentFilters.gender}/${currentFilters.grade}/division-${dno}.json`
+          )
+        )
+      );
+
+      if (!active) return;
+
+      const nextMap: Record<string, string> = {};
+      for (let i = 0; i < results.length; i += 1) {
+        const result = results[i];
+        if (result.status !== "fulfilled") continue;
+
+        const inferred = inferDivisionCode(result.value.rankings);
+        if (inferred) {
+          nextMap[divisionNos[i]] = inferred;
+        }
+      }
+
+      setDivisionCodeByNo(nextMap);
+    }
+
+    void loadDivisionCodes();
+
+    return () => {
+      active = false;
+    };
+  }, [filters?.season, filters?.gender, filters?.grade, divisions]);
 
   useEffect(() => {
     if (!filters || !divisions || !filters.divisionno) return;
@@ -219,11 +321,14 @@ export function DivisionPage() {
         const tierA = Number(a.divisiontier ?? 0);
         const tierB = Number(b.divisiontier ?? 0);
         if (tierA !== tierB) return tierA - tierB;
-        return a.name.localeCompare(b.name) || a.divisionno.localeCompare(b.divisionno);
+
+        const labelA = divisionCodeByNo[a.divisionno] ?? a.divisionno;
+        const labelB = divisionCodeByNo[b.divisionno] ?? b.divisionno;
+        return labelA.localeCompare(labelB) || a.divisionno.localeCompare(b.divisionno);
       })
       .map((d) => ({
         value: d.divisionno,
-        label: `${d.name} • ${d.divisionno}`,
+        label: divisionCodeByNo[d.divisionno] ?? d.divisionno,
       }));
 
     return [
@@ -231,7 +336,17 @@ export function DivisionPage() {
       ...tierOptions,
       ...singleDivisionOptions,
     ];
-  }, [divisions]);
+  }, [divisions, divisionCodeByNo]);
+
+  const queryString = useMemo(() => {
+    if (!filters) return "";
+    const params = new URLSearchParams();
+    params.set("season", filters.season);
+    params.set("gender", filters.gender);
+    params.set("grade", String(filters.grade));
+    params.set("division", filters.divisionno || "ALL");
+    return `?${params.toString()}`;
+  }, [filters]);
 
   if (error) return <p className="error">{error}</p>;
   if (!filters || !index || !divisions || !display) return <p>Loading data...</p>;
@@ -252,9 +367,42 @@ export function DivisionPage() {
       <section className="panel">
         <h2>{display.title}</h2>
         <p className="meta">{display.subtitle}</p>
+        <p className="meta compact">
+          <a className="method-link" href="#ranking-methodology">
+            Jump to SoS & Power ranking methodology
+          </a>
+        </p>
       </section>
 
-      <RankingsTable teams={display.teams} showGroup={display.showGroup} />
+      <RankingsTable teams={display.teams} showGroup={display.showGroup} queryString={queryString} />
+
+      <section className="panel" id="ranking-methodology">
+        <h3>How SoS and Power Rankings Are Calculated</h3>
+        <p className="meta">
+          Rankings are computed per selected grade/gender from final games (games with both scores present).
+          Team record and PF/PA use all linked final games for that team.
+        </p>
+        <ul className="method-list">
+          <li>Elo starts at <code>1500</code> for each ranked team.</li>
+          <li>
+            Expected result for home team:
+            <code> 1 / (1 + 10^((elo_away - elo_home)/400))</code>
+          </li>
+          <li>
+            Margin multiplier:
+            <code> log(mov + 1) * (2.2 / ((elo_diff * 0.001) + 2.2))</code>, with <code>K=20</code>.
+          </li>
+          <li>
+            SoS (Strength of Schedule): average final Elo of opponents faced by each team.
+          </li>
+          <li>
+            Power Rating: <code>0.75 * Elo + 0.25 * SoS</code>.
+          </li>
+          <li>
+            Rank order: descending Power, with Elo and point differential used as tie-breakers.
+          </li>
+        </ul>
+      </section>
     </div>
   );
 }

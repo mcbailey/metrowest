@@ -10,6 +10,7 @@ type DisplayTeam = RankingTeam & {
 type Props = {
   teams: DisplayTeam[];
   showGroup?: boolean;
+  queryString?: string;
 };
 
 type SortDir = "asc" | "desc";
@@ -37,7 +38,7 @@ function compareStrings(a: string | undefined, b: string | undefined): number {
   return (a ?? "").toLowerCase().localeCompare((b ?? "").toLowerCase());
 }
 
-export function RankingsTable({ teams, showGroup = false }: Props) {
+export function RankingsTable({ teams, showGroup = false, queryString = "" }: Props) {
   const navigate = useNavigate();
   const [sortKey, setSortKey] = useState<SortKey>("rank");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
@@ -149,7 +150,7 @@ export function RankingsTable({ teams, showGroup = false }: Props) {
               </button>
             </th>
             <th>
-              <button type="button" className="sort-btn" onClick={() => setSort("sos")}>
+              <button type="button" className="sort-btn" onClick={() => setSort("sos")}> 
                 SoS <span>{arrow("sos")}</span>
               </button>
             </th>
@@ -159,12 +160,12 @@ export function RankingsTable({ teams, showGroup = false }: Props) {
               </button>
             </th>
             <th>
-              <button type="button" className="sort-btn" onClick={() => setSort("pfg")}>
+              <button type="button" className="sort-btn" onClick={() => setSort("pfg")}> 
                 PF/G <span>{arrow("pfg")}</span>
               </button>
             </th>
             <th>
-              <button type="button" className="sort-btn" onClick={() => setSort("pag")}>
+              <button type="button" className="sort-btn" onClick={() => setSort("pag")}> 
                 PA/G <span>{arrow("pag")}</span>
               </button>
             </th>
@@ -179,7 +180,7 @@ export function RankingsTable({ teams, showGroup = false }: Props) {
           {sortedTeams.map((team) => {
             const gp = gamesPlayed(team);
             return (
-              <tr key={team.teamno} onClick={() => navigate(`/team/${team.teamno}`)}>
+              <tr key={team.teamno} onClick={() => navigate(`/team/${team.teamno}${queryString}`)}>
                 <td>{team.rank}</td>
                 {showGroup ? <td>{team.subgroup ?? "-"}</td> : null}
                 <td>{team.name}</td>

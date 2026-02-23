@@ -190,3 +190,31 @@ h3 {
   font-size: 0.72rem;
   color: #3563a6;
 }
+
+.method-link {
+  font-weight: 600;
+  color: #2058b6;
+  text-decoration: none;
+}
+
+.method-link:hover {
+  text-decoration: underline;
+}
+
+.method-list {
+  margin: 0.55rem 0 0;
+  padding-left: 1.15rem;
+  color: #22344d;
+}
+
+.method-list li {
+  margin: 0.3rem 0;
+}
+
+.method-list code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background: #f3f7ff;
+  border: 1px solid #d7e3f6;
+  border-radius: 4px;
+  padding: 0.05rem 0.28rem;
+}
