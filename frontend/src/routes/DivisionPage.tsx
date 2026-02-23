@@ -14,6 +14,7 @@ export function DivisionPage() {
   useEffect(() => {
     loadJson<IndexData>("data/index.json")
       .then((data) => {
+        setError(null);
         setIndex(data);
         setFilters({
           season: data.default.yrseason,
@@ -27,26 +28,38 @@ export function DivisionPage() {
 
   useEffect(() => {
     if (!filters) return;
+
     loadJson<DivisionsData>(`data/${filters.season}/${filters.gender}/${filters.grade}/divisions.json`)
       .then((data) => {
+        setError(null);
         setDivisions(data);
         const firstDivision = data.divisions[0]?.divisionno ?? "";
-        const requested = data.divisions.find((d) => d.divisionno === filters.divisionno)
+        const requested = data.divisions.some((d) => d.divisionno === filters.divisionno)
           ? filters.divisionno
           : firstDivision;
         setFilters((prev) => (prev ? { ...prev, divisionno: requested } : prev));
       })
-      .catch((err) => setError(String(err)));
+      .catch((err) => {
+        setDivisionData(null);
+        setError(String(err));
+      });
   }, [filters?.season, filters?.gender, filters?.grade]);
 
   useEffect(() => {
     if (!filters?.divisionno) return;
+
+    const isValidDivision = divisions?.divisions.some((d) => d.divisionno === filters.divisionno) ?? false;
+    if (!isValidDivision) return;
+
     loadJson<DivisionRankingData>(
       `data/${filters.season}/${filters.gender}/${filters.grade}/division-${filters.divisionno}.json`
     )
-      .then(setDivisionData)
+      .then((data) => {
+        setError(null);
+        setDivisionData(data);
+      })
       .catch((err) => setError(String(err)));
-  }, [filters?.season, filters?.gender, filters?.grade, filters?.divisionno]);
+  }, [filters?.season, filters?.gender, filters?.grade, filters?.divisionno, divisions]);
 
   const seasonOptions = useMemo(
     () => (index?.seasons ?? []).map((s) => ({ value: s.yrseason, label: s.label })),
