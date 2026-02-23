@@ -12,7 +12,7 @@ from .config import RANKING_CONFIG, SCRAPE_CONFIG
 from .db import (
     connect_db,
     get_divisions,
-    get_games_for_division,
+    get_games_for_teams,
     get_teams_for_division,
     init_db,
     replace_snapshots,
@@ -94,6 +94,12 @@ def _normalize_game(
             home_score, away_score = team_score, opp_score
         elif homeaway == "away":
             home_score, away_score = opp_score, team_score
+        elif home_teamno and away_teamno:
+            # Tournament/crossover games may use values like "Tourn" in homeaway.
+            if teamno == home_teamno:
+                home_score, away_score = team_score, opp_score
+            elif teamno == away_teamno:
+                home_score, away_score = opp_score, team_score
 
     status = "final" if home_score is not None and away_score is not None else "scheduled"
 
@@ -229,7 +235,9 @@ def scrape_season(
         teams = [dict(r) for r in get_teams_for_division(conn, divisionno)]
         if not teams:
             continue
-        games = [dict(r) for r in get_games_for_division(conn, divisionno)]
+
+        teamnos = [str(t["teamno"]) for t in teams]
+        games = [dict(r) for r in get_games_for_teams(conn, teamnos, yrseason)]
         ranked = compute_division_rankings(teams, games, RANKING_CONFIG)
 
         for row in ranked:

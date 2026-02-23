@@ -11,29 +11,15 @@
       "teamno": "44795",
       "name": "2ND GR-Walpole (blue)",
       "town": null,
-      "wins": 7,
-      "losses": 0,
-      "ties": 0,
-      "pf": 191,
-      "pa": 119,
-      "diff": 72,
-      "sos": 1490.655,
-      "power": 1604.432,
-      "rank": 1
-    },
-    {
-      "teamno": "43221",
-      "name": "2ND GR-FLBC",
-      "town": null,
-      "wins": 5,
+      "wins": 8,
       "losses": 1,
       "ties": 0,
-      "pf": 180,
-      "pa": 98,
-      "diff": 82,
-      "sos": 1478.124,
-      "power": 1555.625,
-      "rank": 2
+      "pf": 240,
+      "pa": 173,
+      "diff": 67,
+      "sos": 1492.099,
+      "power": 1591.409,
+      "rank": 1
     },
     {
       "teamno": "43835",
@@ -45,8 +31,22 @@
       "pf": 215,
       "pa": 154,
       "diff": 61,
-      "sos": 1478.017,
-      "power": 1546.513,
+      "sos": 1471.577,
+      "power": 1544.237,
+      "rank": 2
+    },
+    {
+      "teamno": "43221",
+      "name": "2ND GR-FLBC",
+      "town": null,
+      "wins": 5,
+      "losses": 2,
+      "ties": 0,
+      "pf": 197,
+      "pa": 120,
+      "diff": 77,
+      "sos": 1480.276,
+      "power": 1540.221,
       "rank": 3
     },
     {
@@ -59,8 +59,8 @@
       "pf": 125,
       "pa": 99,
       "diff": 26,
-      "sos": 1518.743,
-      "power": 1542.035,
+      "sos": 1511.091,
+      "power": 1539.528,
       "rank": 4
     },
     {
@@ -68,13 +68,13 @@
       "name": "2ND GR-Walpole (orange)",
       "town": null,
       "wins": 3,
-      "losses": 4,
+      "losses": 5,
       "ties": 1,
-      "pf": 151,
-      "pa": 174,
-      "diff": -23,
-      "sos": 1478.893,
-      "power": 1474.367,
+      "pf": 167,
+      "pa": 192,
+      "diff": -25,
+      "sos": 1479.594,
+      "power": 1467.991,
       "rank": 5
     },
     {
@@ -87,8 +87,8 @@
       "pf": 213,
       "pa": 277,
       "diff": -64,
-      "sos": 1485.237,
-      "power": 1427.704,
+      "sos": 1479.602,
+      "power": 1426.295,
       "rank": 6
     },
     {
@@ -101,8 +101,8 @@
       "pf": 158,
       "pa": 243,
       "diff": -85,
-      "sos": 1489.605,
-      "power": 1421.382,
+      "sos": 1483.959,
+      "power": 1419.971,
       "rank": 7
     },
     {
@@ -115,8 +115,8 @@
       "pf": 192,
       "pa": 261,
       "diff": -69,
-      "sos": 1490.301,
-      "power": 1405.336,
+      "sos": 1484.476,
+      "power": 1403.43,
       "rank": 8
     }
   ]
