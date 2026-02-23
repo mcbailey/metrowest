@@ -273,6 +273,27 @@ def get_games_for_division(conn: sqlite3.Connection, divisionno: str) -> list[sq
     )
 
 
+def get_games_for_teams(conn: sqlite3.Connection, teamnos: list[str], yrseason: str) -> list[sqlite3.Row]:
+    if not teamnos:
+        return []
+    placeholders = ",".join("?" for _ in teamnos)
+    params: list[Any] = [yrseason, *teamnos]
+    return list(
+        conn.execute(
+            f"""
+            SELECT DISTINCT g.gameno, g.yrseason, g.date, g.dow, g.starttime, g.location, g.divisionno,
+                            g.home_teamno, g.away_teamno, g.home_score, g.away_score, g.status, g.raw_json
+            FROM games g
+            JOIN team_games tg ON tg.gameno = g.gameno
+            WHERE g.yrseason = ?
+              AND tg.teamno IN ({placeholders})
+            ORDER BY COALESCE(g.date, '9999-12-31'), COALESCE(g.starttime, ''), g.gameno
+            """,
+            params,
+        )
+    )
+
+
 def replace_snapshots(conn: sqlite3.Connection, snapshot_date: str, rows: list[dict[str, Any]]) -> None:
     if not rows:
         return

@@ -30,16 +30,21 @@ def compute_division_rankings(
     games: list[dict],
     config: RankingConfig,
 ) -> list[dict]:
+    """
+    Compute ratings for teams in a division using all final games linked to those teams.
+    This keeps displayed W/L aligned with team-level schedules while ranking within the
+    target division's team set.
+    """
     team_ids = {str(t["teamno"]) for t in teams}
     stats = {tid: TeamStats(teamno=tid) for tid in team_ids}
-    elo = {tid: config.initial_elo for tid in team_ids}
+    elo: dict[str, float] = {tid: config.initial_elo for tid in team_ids}
     opponents: dict[str, list[str]] = defaultdict(list)
 
     final_games = []
     for g in games:
         home = str(g.get("home_teamno") or "")
         away = str(g.get("away_teamno") or "")
-        if home not in team_ids or away not in team_ids:
+        if home not in team_ids and away not in team_ids:
             continue
         if not _is_final_game(g):
             continue
@@ -51,22 +56,33 @@ def compute_division_rankings(
         hs = int(g["home_score"])
         as_ = int(g["away_score"])
 
-        stats[home].pf += hs
-        stats[home].pa += as_
-        stats[away].pf += as_
-        stats[away].pa += hs
+        elo.setdefault(home, config.initial_elo)
+        elo.setdefault(away, config.initial_elo)
+
+        if home in team_ids:
+            stats[home].pf += hs
+            stats[home].pa += as_
+        if away in team_ids:
+            stats[away].pf += as_
+            stats[away].pa += hs
 
         if hs > as_:
-            stats[home].wins += 1
-            stats[away].losses += 1
+            if home in team_ids:
+                stats[home].wins += 1
+            if away in team_ids:
+                stats[away].losses += 1
             result_home = 1.0
         elif hs < as_:
-            stats[home].losses += 1
-            stats[away].wins += 1
+            if home in team_ids:
+                stats[home].losses += 1
+            if away in team_ids:
+                stats[away].wins += 1
             result_home = 0.0
         else:
-            stats[home].ties += 1
-            stats[away].ties += 1
+            if home in team_ids:
+                stats[home].ties += 1
+            if away in team_ids:
+                stats[away].ties += 1
             result_home = 0.5
 
         expected_home = 1.0 / (1.0 + 10 ** ((elo[away] - elo[home]) / 400.0))
@@ -80,18 +96,20 @@ def compute_division_rankings(
         elo[home] += change
         elo[away] -= change
 
-        opponents[home].append(away)
-        opponents[away].append(home)
+        if home in team_ids:
+            opponents[home].append(away)
+        if away in team_ids:
+            opponents[away].append(home)
 
     sos = {}
     for tid in team_ids:
         opps = opponents.get(tid, [])
-        sos[tid] = sum(elo[o] for o in opps) / len(opps) if opps else config.initial_elo
+        sos[tid] = sum(elo.get(o, config.initial_elo) for o in opps) / len(opps) if opps else config.initial_elo
 
     rows = []
     for t in teams:
         tid = str(t["teamno"])
-        power = config.power_elo_weight * elo[tid] + config.power_sos_weight * sos[tid]
+        power = config.power_elo_weight * elo.get(tid, config.initial_elo) + config.power_sos_weight * sos[tid]
         st = stats[tid]
         rows.append(
             {
@@ -104,7 +122,7 @@ def compute_division_rankings(
                 "pf": st.pf,
                 "pa": st.pa,
                 "diff": st.diff,
-                "elo": elo[tid],
+                "elo": elo.get(tid, config.initial_elo),
                 "sos": sos[tid],
                 "power": power,
             }
