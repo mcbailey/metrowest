@@ -18,7 +18,7 @@
     "division_name": "6th Boys - Division 6",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 11,
+    "games_played_total": 12,
     "games_scheduled_total": 3
   },
   "past_games": [
@@ -230,6 +230,25 @@
       "is_home": false,
       "opponent_teamno": "43478",
       "opponent_name": "D5H-Somerset"
+    },
+    {
+      "gameno": "393883",
+      "date": "2025-11-22",
+      "dow": "Sat",
+      "starttime": "7:00 AM",
+      "location": "Mass Premier Courts",
+      "divisionno": "7208",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "45320",
+      "away_teamno": "44217",
+      "home_score": null,
+      "away_score": null,
+      "team_score": 48,
+      "opponent_score": 31,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45320",
+      "opponent_name": "D6J-Milton (black)"
     }
   ],
   "future_games": [

@@ -18,7 +18,7 @@
     "division_name": "8th Girls - Division 4",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 13,
+    "games_played_total": 14,
     "games_scheduled_total": 2
   },
   "past_games": [
@@ -251,22 +251,6 @@
       "opponent_name": "D2BH-Sharon (gold)"
     },
     {
-      "gameno": "393882",
-      "date": "2025-11-22",
-      "dow": "Sat",
-      "starttime": "10:10 AM",
-      "location": "Dana Barros",
-      "divisionno": "7241",
-      "home_teamno": "45332",
-      "away_teamno": "44428",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44428",
-      "opponent_name": "D4J-Norton (purple)"
-    },
-    {
       "gameno": "391928",
       "date": "2025-11-22",
       "dow": "Sat",
@@ -284,6 +268,25 @@
       "is_home": false,
       "opponent_teamno": "43337",
       "opponent_name": "D1/2H-Mansfield (white)"
+    },
+    {
+      "gameno": "393882",
+      "date": "2025-11-22",
+      "dow": "Sat",
+      "starttime": "10:10 AM",
+      "location": "Dana Barros",
+      "divisionno": "7241",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "45332",
+      "away_teamno": "44428",
+      "home_score": null,
+      "away_score": null,
+      "team_score": 41,
+      "opponent_score": 20,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44428",
+      "opponent_name": "D4J-Norton (purple)"
     }
   ],
   "future_games": [

@@ -18,7 +18,7 @@
     "division_name": "8th Girls - Division 4",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 10,
+    "games_played_total": 11,
     "games_scheduled_total": 3
   },
   "past_games": [
@@ -194,22 +194,6 @@
       "opponent_name": "D4J-North Attleboro (red)"
     },
     {
-      "gameno": "393882",
-      "date": "2025-11-22",
-      "dow": "Sat",
-      "starttime": "10:10 AM",
-      "location": "Dana Barros",
-      "divisionno": "7241",
-      "home_teamno": "45332",
-      "away_teamno": "44428",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45332",
-      "opponent_name": "D4J-Milton (white)"
-    },
-    {
       "gameno": "391931",
       "date": "2025-11-23",
       "dow": "Sun",
@@ -227,6 +211,25 @@
       "is_home": false,
       "opponent_teamno": "43337",
       "opponent_name": "D1/2H-Mansfield (white)"
+    },
+    {
+      "gameno": "393882",
+      "date": "2025-11-22",
+      "dow": "Sat",
+      "starttime": "10:10 AM",
+      "location": "Dana Barros",
+      "divisionno": "7241",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "45332",
+      "away_teamno": "44428",
+      "home_score": null,
+      "away_score": null,
+      "team_score": 41,
+      "opponent_score": 20,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45332",
+      "opponent_name": "D4J-Milton (white)"
     }
   ],
   "future_games": [
