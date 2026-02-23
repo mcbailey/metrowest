@@ -1,5 +1,5 @@
-import { Link, useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { Link, useLocation, useParams } from "react-router-dom";
+import { useEffect, useMemo, useState } from "react";
 import { loadJson } from "../data";
 import { IndexData, TeamData, TeamGame } from "../types";
 
@@ -44,8 +44,17 @@ function genderLabel(gender: "M" | "F" | null): string {
 
 export function TeamPage() {
   const { teamno } = useParams<{ teamno: string }>();
+  const location = useLocation();
+
   const [team, setTeam] = useState<TeamData | null>(null);
   const [error, setError] = useState<string | null>(null);
+
+  const seasonFromQuery = useMemo(() => {
+    const params = new URLSearchParams(location.search);
+    return params.get("season");
+  }, [location.search]);
+
+  const backTo = location.search ? `/${location.search}` : "/";
 
   useEffect(() => {
     if (!teamno) return;
@@ -54,7 +63,7 @@ export function TeamPage() {
       try {
         setError(null);
         const index = await loadJson<IndexData>("data/index.json");
-        const season = index.default.yrseason;
+        const season = seasonFromQuery || index.default.yrseason;
         const payload = await loadJson<TeamData>(`data/${season}/team-${teamno}.json`);
         setTeam(payload);
       } catch (err) {
@@ -63,7 +72,7 @@ export function TeamPage() {
     }
 
     void run();
-  }, [teamno]);
+  }, [teamno, seasonFromQuery]);
 
   if (error) return <p className="error">{error}</p>;
   if (!team) return <p>Loading team...</p>;
@@ -73,7 +82,7 @@ export function TeamPage() {
   return (
     <div className="stack">
       <p>
-        <Link to="/" className="home-link">
+        <Link to={backTo} className="home-link">
           Back to rankings
         </Link>
       </p>
