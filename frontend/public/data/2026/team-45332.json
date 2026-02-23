@@ -215,6 +215,22 @@
   ],
   "future_games": [
     {
+      "gameno": "393882",
+      "date": "2025-11-22",
+      "dow": "Sat",
+      "starttime": "10:10 AM",
+      "location": "Dana Barros",
+      "divisionno": "7241",
+      "home_teamno": "45332",
+      "away_teamno": "44428",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44428",
+      "opponent_name": "D4J-Norton (purple)"
+    },
+    {
       "gameno": "391928",
       "date": "2025-11-22",
       "dow": "Sat",
