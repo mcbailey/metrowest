@@ -4,6 +4,7 @@ import argparse
 import json
 from collections import defaultdict
 from pathlib import Path
+from typing import Any
 
 from .config import SCRAPE_CONFIG
 from .db import connect_db, latest_snapshot_date
@@ -13,6 +14,25 @@ from .util import ensure_dir
 def _write_json(path: Path, payload: object) -> None:
     ensure_dir(path.parent)
     path.write_text(json.dumps(payload, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
+
+
+def _safe_int(value: Any) -> int | None:
+    if value in (None, "", "--", "null"):
+        return None
+    try:
+        return int(str(value).strip())
+    except (TypeError, ValueError):
+        return None
+
+
+def _parse_raw(raw_json: str | None) -> dict[str, Any]:
+    if not raw_json:
+        return {}
+    try:
+        payload = json.loads(raw_json)
+        return payload if isinstance(payload, dict) else {}
+    except json.JSONDecodeError:
+        return {}
 
 
 def _snapshot_rows(conn, yrseason: str, snapshot_date: str):
@@ -60,6 +80,8 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
 
     divisions_by_group: dict[tuple[str, int], dict[str, dict]] = defaultdict(dict)
     division_rows: dict[str, list[dict]] = defaultdict(list)
+    division_meta_by_no: dict[str, dict[str, Any]] = {}
+
     for r in rows:
         key = (r["gender"], int(r["grade"]))
         dno = r["divisionno"]
@@ -69,6 +91,14 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
                 "name": r["division_name"],
                 "divisiontier": r.get("divisiontier"),
             }
+
+        division_meta_by_no[dno] = {
+            "division_name": r["division_name"],
+            "divisiontier": r.get("divisiontier"),
+            "grade": int(r["grade"]),
+            "gender": r["gender"],
+        }
+
         division_rows[dno].append(
             {
                 "teamno": r["teamno"],
@@ -111,12 +141,12 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
             "gender": gender,
             "grade": grade,
             "snapshot_date": snapshot_date,
-            "divisions": sorted(div_map.values(), key=lambda d: d["name"]),
+            "divisions": sorted(div_map.values(), key=lambda d: (d.get("divisiontier") or "", d["name"], d["divisionno"])),
         }
         _write_json(out_dir / yrseason / gender / str(grade) / "divisions.json", divisions_payload)
 
     for dno, teams in division_rows.items():
-        meta_row = next(r for r in rows if r["divisionno"] == dno)
+        meta_row = division_meta_by_no[dno]
         payload = {
             "yrseason": yrseason,
             "snapshot_date": snapshot_date,
@@ -124,6 +154,7 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
             "grade": int(meta_row["grade"]),
             "divisionno": dno,
             "division_name": meta_row["division_name"],
+            "divisiontier": meta_row.get("divisiontier"),
             "rankings": teams,
         }
         _write_json(out_dir / yrseason / meta_row["gender"] / str(meta_row["grade"]) / f"division-{dno}.json", payload)
@@ -137,50 +168,120 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
             )
         csv_path.write_text("\n".join(csv_lines) + "\n", encoding="utf-8")
 
-    teams_meta = {r["teamno"]: {"name": r["team_name"], "town": r["town"]} for r in rows}
-    games = list(
+    teams_meta = {
+        r["teamno"]: {
+            "name": r["team_name"],
+            "town": r["town"],
+            "divisionno": r["divisionno"],
+            "division_name": r["division_name"],
+            "divisiontier": r.get("divisiontier"),
+        }
+        for r in rows
+    }
+
+    linked_games = list(
         conn.execute(
             """
-            SELECT gameno, yrseason, date, dow, starttime, location, divisionno,
-                   home_teamno, away_teamno, home_score, away_score, status
-            FROM games
-            WHERE yrseason = ?
+            SELECT tg.teamno,
+                   tg.is_home AS linked_is_home,
+                   g.gameno, g.yrseason, g.date, g.dow, g.starttime, g.location, g.divisionno,
+                   g.home_teamno, g.away_teamno, g.home_score, g.away_score, g.status, g.raw_json
+            FROM team_games tg
+            JOIN games g ON g.gameno = tg.gameno
+            WHERE g.yrseason = ?
+            ORDER BY tg.teamno, COALESCE(g.date, '9999-12-31'), COALESCE(g.starttime, ''), g.gameno
             """,
             (yrseason,),
         )
     )
 
     by_team: dict[str, dict[str, list[dict]]] = {t: {"past": [], "future": []} for t in teams_meta}
-    for g in games:
-        game = dict(g)
-        home = game.get("home_teamno")
-        away = game.get("away_teamno")
-        participants = [t for t in (home, away) if t in by_team]
-        if not participants:
+    for row in linked_games:
+        game = dict(row)
+        tid = str(game["teamno"])
+        if tid not in by_team:
             continue
 
-        for tid in participants:
-            opp = away if tid == home else home
-            game_view = {
-                "gameno": game["gameno"],
-                "date": game["date"],
-                "dow": game["dow"],
-                "starttime": game["starttime"],
-                "location": game["location"],
-                "divisionno": game["divisionno"],
-                "home_teamno": home,
-                "away_teamno": away,
-                "home_score": game["home_score"],
-                "away_score": game["away_score"],
-                "status": game["status"],
-                "is_home": tid == home,
-                "opponent_teamno": opp,
-                "opponent_name": teams_meta.get(opp, {}).get("name", opp),
-            }
-            if game["status"] == "final" and game["home_score"] is not None and game["away_score"] is not None:
-                by_team[tid]["past"].append(game_view)
+        raw = _parse_raw(game.get("raw_json"))
+        home = game.get("home_teamno")
+        away = game.get("away_teamno")
+
+        is_home_value: bool | None
+        if game.get("linked_is_home") in (0, 1):
+            is_home_value = bool(game["linked_is_home"])
+        elif tid == home:
+            is_home_value = True
+        elif tid == away:
+            is_home_value = False
+        else:
+            is_home_value = None
+
+        opp_teamno: str | None = None
+        if tid == home:
+            opp_teamno = away
+        elif tid == away:
+            opp_teamno = home
+        else:
+            raw_opp = raw.get("opponentteamno") or raw.get("opponentteam")
+            if raw_opp not in (None, ""):
+                opp_teamno = str(raw_opp)
+
+        team_score: int | None = None
+        opp_score: int | None = None
+        if game.get("home_score") is not None and game.get("away_score") is not None and is_home_value is not None:
+            if is_home_value:
+                team_score = int(game["home_score"])
+                opp_score = int(game["away_score"])
             else:
-                by_team[tid]["future"].append(game_view)
+                team_score = int(game["away_score"])
+                opp_score = int(game["home_score"])
+        else:
+            team_score = _safe_int(raw.get("teamscore"))
+            opp_score = _safe_int(raw.get("opponentscore"))
+
+        final_status = game.get("status")
+        if team_score is not None and opp_score is not None:
+            final_status = "final"
+
+        divisionno = game.get("divisionno") or raw.get("divisionno") or teams_meta[tid].get("divisionno")
+        division_name = (
+            (division_meta_by_no.get(str(divisionno), {}).get("division_name") if divisionno else None)
+            or raw.get("divisionname")
+            or teams_meta[tid].get("division_name")
+        )
+
+        opponent_name = (
+            (teams_meta.get(str(opp_teamno), {}).get("name") if opp_teamno else None)
+            or raw.get("opponent")
+            or (raw.get("homename") if is_home_value is False else raw.get("awayname"))
+            or opp_teamno
+            or "Unknown"
+        )
+
+        game_view = {
+            "gameno": game["gameno"],
+            "date": game["date"],
+            "dow": game["dow"],
+            "starttime": game["starttime"],
+            "location": game["location"],
+            "divisionno": str(divisionno) if divisionno not in (None, "") else None,
+            "division_name": division_name,
+            "home_teamno": home,
+            "away_teamno": away,
+            "home_score": game["home_score"],
+            "away_score": game["away_score"],
+            "team_score": team_score,
+            "opponent_score": opp_score,
+            "status": final_status,
+            "is_home": is_home_value,
+            "opponent_teamno": str(opp_teamno) if opp_teamno not in (None, "") else None,
+            "opponent_name": opponent_name,
+        }
+
+        if team_score is not None and opp_score is not None:
+            by_team[tid]["past"].append(game_view)
+        else:
+            by_team[tid]["future"].append(game_view)
 
     for tid, bins in by_team.items():
         bins["past"].sort(key=lambda x: (x.get("date") or "", x.get("starttime") or ""), reverse=True)
@@ -201,6 +302,8 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
             "division_name": snapshot["division_name"] if snapshot else None,
             "grade": int(snapshot["grade"]) if snapshot else None,
             "gender": snapshot["gender"] if snapshot else None,
+            "games_played_total": len(bins["past"]),
+            "games_scheduled_total": len(bins["future"]),
         }
         payload = {
             "yrseason": yrseason,
