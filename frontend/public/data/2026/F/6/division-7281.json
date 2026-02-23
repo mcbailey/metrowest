@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 6,
+  "divisionno": "7281",
+  "division_name": "6th Girls - Division 3",
+  "rankings": [
+    {
+      "teamno": "44065",
+      "name": "D3M-Watertown (white)",
+      "town": null,
+      "wins": 6,
+      "losses": 0,
+      "ties": 0,
+      "pf": 188,
+      "pa": 131,
+      "diff": 57,
+      "sos": 1461.633,
+      "power": 1568.364,
+      "rank": 1
+    },
+    {
+      "teamno": "44242",
+      "name": "D3M-Wayland (black)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 141,
+      "pa": 118,
+      "diff": 23,
+      "sos": 1492.233,
+      "power": 1521.36,
+      "rank": 2
+    },
+    {
+      "teamno": "45438",
+      "name": "D3M-Cambridge",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 108,
+      "pa": 110,
+      "diff": -2,
+      "sos": 1525.823,
+      "power": 1499.895,
+      "rank": 3
+    },
+    {
+      "teamno": "43643",
+      "name": "D3M-Needham (gold)",
+      "town": null,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "pf": 108,
+      "pa": 142,
+      "diff": -34,
+      "sos": 1557.55,
+      "power": 1471.232,
+      "rank": 4
+    },
+    {
+      "teamno": "43942",
+      "name": "D3M-Brookline (red)",
+      "town": null,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "pf": 80,
+      "pa": 124,
+      "diff": -44,
+      "sos": 1579.65,
+      "power": 1468.372,
+      "rank": 5
+    }
+  ]
+}

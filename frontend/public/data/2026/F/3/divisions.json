@@ -1,0 +1,33 @@
+{
+  "yrseason": "2026",
+  "gender": "F",
+  "grade": 3,
+  "snapshot_date": "2026-02-23",
+  "divisions": [
+    {
+      "divisionno": "7635",
+      "name": "3rd Girls - Division 1",
+      "divisiontier": "1"
+    },
+    {
+      "divisionno": "7636",
+      "name": "3rd Girls - Division 1",
+      "divisiontier": "1"
+    },
+    {
+      "divisionno": "7637",
+      "name": "3rd Girls - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7638",
+      "name": "3rd Girls - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7102",
+      "name": "3rd Girls - Division 4",
+      "divisiontier": "4"
+    }
+  ]
+}

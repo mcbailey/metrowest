@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 8,
+  "divisionno": "7152",
+  "division_name": "8th Boys - Division 4",
+  "rankings": [
+    {
+      "teamno": "43118",
+      "name": "D4J-Seekonk (mahoney)",
+      "town": null,
+      "wins": 4,
+      "losses": 1,
+      "ties": 0,
+      "pf": 236,
+      "pa": 177,
+      "diff": 59,
+      "sos": 1460.342,
+      "power": 1546.028,
+      "rank": 1
+    },
+    {
+      "teamno": "43424",
+      "name": "D4J-Bridgewater (hinman)",
+      "town": null,
+      "wins": 4,
+      "losses": 1,
+      "ties": 0,
+      "pf": 242,
+      "pa": 221,
+      "diff": 21,
+      "sos": 1496.855,
+      "power": 1516.511,
+      "rank": 2
+    },
+    {
+      "teamno": "43930",
+      "name": "D4J-Taunton (martin)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 194,
+      "pa": 165,
+      "diff": 29,
+      "sos": 1495.323,
+      "power": 1512.861,
+      "rank": 3
+    },
+    {
+      "teamno": "44124",
+      "name": "D4J-Berkley",
+      "town": null,
+      "wins": 2,
+      "losses": 3,
+      "ties": 0,
+      "pf": 263,
+      "pa": 254,
+      "diff": 9,
+      "sos": 1503.145,
+      "power": 1506.291,
+      "rank": 4
+    },
+    {
+      "teamno": "43831",
+      "name": "D4J-Raynham (guillaumette)",
+      "town": null,
+      "wins": 0,
+      "losses": 5,
+      "ties": 0,
+      "pf": 167,
+      "pa": 285,
+      "diff": -118,
+      "sos": 1539.658,
+      "power": 1417.139,
+      "rank": 5
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 7,
+  "divisionno": "7260",
+  "division_name": "7th Girls - Division 4",
+  "rankings": [
+    {
+      "teamno": "44243",
+      "name": "D4Q-Wayland (black)",
+      "town": null,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "pf": 155,
+      "pa": 102,
+      "diff": 53,
+      "sos": 1478.062,
+      "power": 1560.33,
+      "rank": 1
+    },
+    {
+      "teamno": "43399",
+      "name": "D4Q-Natick",
+      "town": null,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "pf": 121,
+      "pa": 80,
+      "diff": 41,
+      "sos": 1517.813,
+      "power": 1532.623,
+      "rank": 2
+    },
+    {
+      "teamno": "43542",
+      "name": "D4Q-Northboro (red)",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 76,
+      "pa": 86,
+      "diff": -10,
+      "sos": 1511.438,
+      "power": 1490.591,
+      "rank": 3
+    },
+    {
+      "teamno": "45434",
+      "name": "D4Q-Cambridge",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 78,
+      "pa": 96,
+      "diff": -18,
+      "sos": 1511.438,
+      "power": 1489.393,
+      "rank": 4
+    },
+    {
+      "teamno": "44720",
+      "name": "D4Q-Weston",
+      "town": null,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "pf": 32,
+      "pa": 98,
+      "diff": -66,
+      "sos": 1517.813,
+      "power": 1436.205,
+      "rank": 5
+    }
+  ]
+}

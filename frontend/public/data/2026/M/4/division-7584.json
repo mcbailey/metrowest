@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 4,
+  "divisionno": "7584",
+  "division_name": "4th Boys - Division 6",
+  "rankings": [
+    {
+      "teamno": "44994",
+      "name": "D6M-Acushnet - Fairhaven (ryan)",
+      "town": null,
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pf": 177,
+      "pa": 139,
+      "diff": 38,
+      "sos": 1498.133,
+      "power": 1529.58,
+      "rank": 1
+    },
+    {
+      "teamno": "43265",
+      "name": "D6M-Dartmouth (white)",
+      "town": null,
+      "wins": 4,
+      "losses": 2,
+      "ties": 0,
+      "pf": 202,
+      "pa": 191,
+      "diff": 11,
+      "sos": 1500.419,
+      "power": 1523.151,
+      "rank": 2
+    },
+    {
+      "teamno": "43210",
+      "name": "D6M-FLBC (blue)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 132,
+      "pa": 133,
+      "diff": -1,
+      "sos": 1499.91,
+      "power": 1500.247,
+      "rank": 3
+    },
+    {
+      "teamno": "43133",
+      "name": "D6M-Barrington RI (blue)",
+      "town": null,
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pf": 152,
+      "pa": 174,
+      "diff": -22,
+      "sos": 1507.509,
+      "power": 1496.764,
+      "rank": 4
+    },
+    {
+      "teamno": "43154",
+      "name": "D6M-Seekonk (blessing)",
+      "town": null,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "pf": 143,
+      "pa": 169,
+      "diff": -26,
+      "sos": 1516.082,
+      "power": 1455.773,
+      "rank": 5
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 8,
+  "divisionno": "7248",
+  "division_name": "8th Girls - Division 3",
+  "rankings": [
+    {
+      "teamno": "45152",
+      "name": "D3K-Waltham Girls (red)",
+      "town": null,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "pf": 190,
+      "pa": 127,
+      "diff": 63,
+      "sos": 1482.562,
+      "power": 1547.955,
+      "rank": 1
+    },
+    {
+      "teamno": "44696",
+      "name": "D3K-Arlington (maroon)",
+      "town": null,
+      "wins": 5,
+      "losses": 1,
+      "ties": 0,
+      "pf": 232,
+      "pa": 183,
+      "diff": 49,
+      "sos": 1477.758,
+      "power": 1546.209,
+      "rank": 2
+    },
+    {
+      "teamno": "44368",
+      "name": "D3K-Belmont (maroon)",
+      "town": null,
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pf": 148,
+      "pa": 159,
+      "diff": -11,
+      "sos": 1514.28,
+      "power": 1501.789,
+      "rank": 3
+    },
+    {
+      "teamno": "45763",
+      "name": "D3K-Lexington (blue)",
+      "town": null,
+      "wins": 1,
+      "losses": 4,
+      "ties": 0,
+      "pf": 175,
+      "pa": 235,
+      "diff": -60,
+      "sos": 1526.216,
+      "power": 1460.014,
+      "rank": 4
+    },
+    {
+      "teamno": "44035",
+      "name": "D3K-Newton (black)",
+      "town": null,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "pf": 105,
+      "pa": 146,
+      "diff": -41,
+      "sos": 1518.587,
+      "power": 1448.885,
+      "rank": 5
+    }
+  ]
+}

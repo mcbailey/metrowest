@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 8,
+  "divisionno": "7247",
+  "division_name": "8th Girls - Division 3",
+  "rankings": [
+    {
+      "teamno": "45331",
+      "name": "D3J-Milton (red)",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 112,
+      "pa": 83,
+      "diff": 29,
+      "sos": 1499.404,
+      "power": 1549.011,
+      "rank": 1
+    },
+    {
+      "teamno": "44385",
+      "name": "D3J-Westborough",
+      "town": null,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "pf": 126,
+      "pa": 110,
+      "diff": 16,
+      "sos": 1493.152,
+      "power": 1518.831,
+      "rank": 2
+    },
+    {
+      "teamno": "44412",
+      "name": "D3J-Dedham (anderson)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 149,
+      "pa": 121,
+      "diff": 28,
+      "sos": 1493.651,
+      "power": 1517.461,
+      "rank": 3
+    },
+    {
+      "teamno": "44337",
+      "name": "D3J-Medway (blue)",
+      "town": null,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "pf": 93,
+      "pa": 126,
+      "diff": -33,
+      "sos": 1513.644,
+      "power": 1462.48,
+      "rank": 4
+    },
+    {
+      "teamno": "45263",
+      "name": "D3J-Medfield (luchini)",
+      "town": null,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "pf": 66,
+      "pa": 106,
+      "diff": -40,
+      "sos": 1499.404,
+      "power": 1452.031,
+      "rank": 5
+    }
+  ]
+}

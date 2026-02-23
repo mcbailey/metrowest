@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 5,
+  "divisionno": "7308",
+  "division_name": "5th Boys - Division 2",
+  "rankings": [
+    {
+      "teamno": "44874",
+      "name": "D2AJ-North Attleboro (red)",
+      "town": null,
+      "wins": 5,
+      "losses": 1,
+      "ties": 0,
+      "pf": 262,
+      "pa": 207,
+      "diff": 55,
+      "sos": 1478.76,
+      "power": 1557.208,
+      "rank": 1
+    },
+    {
+      "teamno": "44113",
+      "name": "D2AJ-Easton (black)",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 117,
+      "pa": 99,
+      "diff": 18,
+      "sos": 1497.989,
+      "power": 1537.828,
+      "rank": 2
+    },
+    {
+      "teamno": "44292",
+      "name": "D2AJ-King Philip",
+      "town": null,
+      "wins": 2,
+      "losses": 3,
+      "ties": 0,
+      "pf": 212,
+      "pa": 204,
+      "diff": 8,
+      "sos": 1516.473,
+      "power": 1504.863,
+      "rank": 3
+    },
+    {
+      "teamno": "44968",
+      "name": "D2AJ-Foxboro (blue)",
+      "town": null,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "pf": 133,
+      "pa": 160,
+      "diff": -27,
+      "sos": 1519.331,
+      "power": 1471.027,
+      "rank": 4
+    },
+    {
+      "teamno": "43294",
+      "name": "D2AJ-Franklin",
+      "town": null,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "pf": 130,
+      "pa": 184,
+      "diff": -54,
+      "sos": 1522.596,
+      "power": 1437.86,
+      "rank": 5
+    }
+  ]
+}

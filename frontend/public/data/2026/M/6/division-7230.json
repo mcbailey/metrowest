@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 6,
+  "divisionno": "7230",
+  "division_name": "6th Boys - Division 2",
+  "rankings": [
+    {
+      "teamno": "43205",
+      "name": "D2H-FLBC (white)",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 171,
+      "pa": 135,
+      "diff": 36,
+      "sos": 1481.613,
+      "power": 1542.206,
+      "rank": 1
+    },
+    {
+      "teamno": "43222",
+      "name": "D2H-Mansfield (white)",
+      "town": null,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "pf": 145,
+      "pa": 115,
+      "diff": 30,
+      "sos": 1512.884,
+      "power": 1530.315,
+      "rank": 2
+    },
+    {
+      "teamno": "44118",
+      "name": "D2H-Easton (black)",
+      "town": null,
+      "wins": 1,
+      "losses": 1,
+      "ties": 0,
+      "pf": 81,
+      "pa": 88,
+      "diff": -7,
+      "sos": 1480.673,
+      "power": 1489.737,
+      "rank": 3
+    },
+    {
+      "teamno": "45354",
+      "name": "D2H-West Bridgewater (ryan)",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 136,
+      "pa": 153,
+      "diff": -17,
+      "sos": 1507.917,
+      "power": 1489.598,
+      "rank": 4
+    },
+    {
+      "teamno": "44640",
+      "name": "D2H-Attleboro (blue)",
+      "town": null,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "pf": 123,
+      "pa": 165,
+      "diff": -42,
+      "sos": 1512.884,
+      "power": 1447.137,
+      "rank": 5
+    }
+  ]
+}

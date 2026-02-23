@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 7,
+  "divisionno": "7200",
+  "division_name": "7th Boys - Division 2",
+  "rankings": [
+    {
+      "teamno": "43937",
+      "name": "D2K-Brookline (red)",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 167,
+      "pa": 113,
+      "diff": 54,
+      "sos": 1463.524,
+      "power": 1552.579,
+      "rank": 1
+    },
+    {
+      "teamno": "45638",
+      "name": "D2K-Hopkinton (pantera7)",
+      "town": null,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "pf": 148,
+      "pa": 122,
+      "diff": 26,
+      "sos": 1463.524,
+      "power": 1511.254,
+      "rank": 2
+    },
+    {
+      "teamno": "44704",
+      "name": "D2K-Dover Sherborn (driscoll)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 214,
+      "pa": 216,
+      "diff": -2,
+      "sos": 1501.934,
+      "power": 1494.682,
+      "rank": 3
+    },
+    {
+      "teamno": "43918",
+      "name": "D2K-Westborough",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 154,
+      "pa": 166,
+      "diff": -12,
+      "sos": 1533.897,
+      "power": 1492.439,
+      "rank": 4
+    },
+    {
+      "teamno": "44634",
+      "name": "D2K-Ashland (blue)",
+      "town": null,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "pf": 106,
+      "pa": 172,
+      "diff": -66,
+      "sos": 1533.897,
+      "power": 1448.24,
+      "rank": 5
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "yrseason": "2026",
+  "gender": "F",
+  "grade": 4,
+  "snapshot_date": "2026-02-23",
+  "divisions": [
+    {
+      "divisionno": "7090",
+      "name": "4th Girls - Division 1",
+      "divisiontier": "1"
+    },
+    {
+      "divisionno": "7544",
+      "name": "4th Girls - Division 2",
+      "divisiontier": "2"
+    },
+    {
+      "divisionno": "7545",
+      "name": "4th Girls - Division 2",
+      "divisiontier": "2"
+    },
+    {
+      "divisionno": "7546",
+      "name": "4th Girls - Division 2",
+      "divisiontier": "2"
+    },
+    {
+      "divisionno": "7547",
+      "name": "4th Girls - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7548",
+      "name": "4th Girls - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7552",
+      "name": "4th Girls - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7553",
+      "name": "4th Girls - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7554",
+      "name": "4th Girls - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7549",
+      "name": "4th Girls - Division 6",
+      "divisiontier": "6"
+    },
+    {
+      "divisionno": "7551",
+      "name": "4th Girls - Division 6",
+      "divisiontier": "6"
+    },
+    {
+      "divisionno": "7555",
+      "name": "4th Girls - Division 7",
+      "divisiontier": "7"
+    },
+    {
+      "divisionno": "7557",
+      "name": "4th Girls - Division 7",
+      "divisiontier": "7"
+    },
+    {
+      "divisionno": "7558",
+      "name": "4th Girls - Division 7",
+      "divisiontier": "7"
+    },
+    {
+      "divisionno": "7559",
+      "name": "4th Girls - Division 7",
+      "divisiontier": "7"
+    }
+  ]
+}

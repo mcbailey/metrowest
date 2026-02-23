@@ -1,0 +1,83 @@
+{
+  "yrseason": "2026",
+  "gender": "F",
+  "grade": 6,
+  "snapshot_date": "2026-02-23",
+  "divisions": [
+    {
+      "divisionno": "7072",
+      "name": "6th Girls - Division 1",
+      "divisiontier": "1"
+    },
+    {
+      "divisionno": "7071",
+      "name": "6th Girls - Division 2",
+      "divisiontier": "2"
+    },
+    {
+      "divisionno": "7278",
+      "name": "6th Girls - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7279",
+      "name": "6th Girls - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7281",
+      "name": "6th Girls - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7282",
+      "name": "6th Girls - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7274",
+      "name": "6th Girls - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7276",
+      "name": "6th Girls - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7277",
+      "name": "6th Girls - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7267",
+      "name": "6th Girls - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7268",
+      "name": "6th Girls - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7270",
+      "name": "6th Girls - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7271",
+      "name": "6th Girls - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7272",
+      "name": "6th Girls - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7273",
+      "name": "6th Girls - Division 5",
+      "divisiontier": "5"
+    }
+  ]
+}

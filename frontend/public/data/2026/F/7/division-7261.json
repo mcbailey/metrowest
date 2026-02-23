@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 7,
+  "divisionno": "7261",
+  "division_name": "7th Girls - Division 4",
+  "rankings": [
+    {
+      "teamno": "45761",
+      "name": "D4R-Lexington (blue)",
+      "town": null,
+      "wins": 5,
+      "losses": 0,
+      "ties": 0,
+      "pf": 245,
+      "pa": 86,
+      "diff": 159,
+      "sos": 1475.648,
+      "power": 1601.416,
+      "rank": 1
+    },
+    {
+      "teamno": "44691",
+      "name": "D4R-Arlington (maroon)",
+      "town": null,
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pf": 144,
+      "pa": 147,
+      "diff": -3,
+      "sos": 1532.655,
+      "power": 1524.346,
+      "rank": 2
+    },
+    {
+      "teamno": "44389",
+      "name": "D4R-Belmont (white)",
+      "town": null,
+      "wins": 2,
+      "losses": 3,
+      "ties": 0,
+      "pf": 125,
+      "pa": 155,
+      "diff": -30,
+      "sos": 1510.318,
+      "power": 1480.069,
+      "rank": 3
+    },
+    {
+      "teamno": "44006",
+      "name": "D4R-Somerville",
+      "town": null,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "pf": 51,
+      "pa": 101,
+      "diff": -50,
+      "sos": 1544.967,
+      "power": 1463.71,
+      "rank": 4
+    },
+    {
+      "teamno": "43773",
+      "name": "D4R-Concord-Carlisle (maroon)",
+      "town": null,
+      "wins": 0,
+      "losses": 2,
+      "ties": 0,
+      "pf": 17,
+      "pa": 93,
+      "diff": -76,
+      "sos": 1556.662,
+      "power": 1460.521,
+      "rank": 5
+    }
+  ]
+}

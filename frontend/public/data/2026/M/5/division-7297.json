@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 5,
+  "divisionno": "7297",
+  "division_name": "5th Boys - Division 4",
+  "rankings": [
+    {
+      "teamno": "44976",
+      "name": "D4H-Acushnet - Fairhaven (tevares)",
+      "town": null,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "pf": 198,
+      "pa": 156,
+      "diff": 42,
+      "sos": 1479.104,
+      "power": 1557.464,
+      "rank": 1
+    },
+    {
+      "teamno": "43233",
+      "name": "D4H-Barnstable  (red)",
+      "town": null,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "pf": 163,
+      "pa": 152,
+      "diff": 11,
+      "sos": 1492.316,
+      "power": 1521.131,
+      "rank": 2
+    },
+    {
+      "teamno": "43202",
+      "name": "D4H-FLBC (white)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 214,
+      "pa": 166,
+      "diff": 48,
+      "sos": 1495.562,
+      "power": 1512.205,
+      "rank": 3
+    },
+    {
+      "teamno": "43203",
+      "name": "D4H-FLBC (blue)",
+      "town": null,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "pf": 143,
+      "pa": 185,
+      "diff": -42,
+      "sos": 1512.994,
+      "power": 1464.267,
+      "rank": 4
+    },
+    {
+      "teamno": "44639",
+      "name": "D4H-Attleboro (white)",
+      "town": null,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "pf": 120,
+      "pa": 179,
+      "diff": -59,
+      "sos": 1520.025,
+      "power": 1444.932,
+      "rank": 5
+    }
+  ]
+}

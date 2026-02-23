@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 6,
+  "divisionno": "7231",
+  "division_name": "6th Boys - Division 2",
+  "rankings": [
+    {
+      "teamno": "44462",
+      "name": "D2J-Walpole (a)",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 166,
+      "pa": 98,
+      "diff": 68,
+      "sos": 1481.325,
+      "power": 1560.785,
+      "rank": 1
+    },
+    {
+      "teamno": "45318",
+      "name": "D2J-Milton (red)",
+      "town": null,
+      "wins": 1,
+      "losses": 1,
+      "ties": 0,
+      "pf": 55,
+      "pa": 70,
+      "diff": -15,
+      "sos": 1529.881,
+      "power": 1498.776,
+      "rank": 2
+    },
+    {
+      "teamno": "43621",
+      "name": "D2J-Norwood (gold)",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 121,
+      "pa": 140,
+      "diff": -19,
+      "sos": 1509.505,
+      "power": 1489.684,
+      "rank": 3
+    },
+    {
+      "teamno": "44403",
+      "name": "D2J-Dedham (odonnell)",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 108,
+      "pa": 123,
+      "diff": -15,
+      "sos": 1519.586,
+      "power": 1484.263,
+      "rank": 4
+    },
+    {
+      "teamno": "44966",
+      "name": "D2J-Foxboro (blue)",
+      "town": null,
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "pf": 35,
+      "pa": 54,
+      "diff": -19,
+      "sos": 1483.077,
+      "power": 1472.335,
+      "rank": 5
+    }
+  ]
+}

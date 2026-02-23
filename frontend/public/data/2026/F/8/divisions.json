@@ -1,0 +1,83 @@
+{
+  "yrseason": "2026",
+  "gender": "F",
+  "grade": 8,
+  "snapshot_date": "2026-02-23",
+  "divisions": [
+    {
+      "divisionno": "7050",
+      "name": "8th Girls - Division 1",
+      "divisiontier": "1"
+    },
+    {
+      "divisionno": "7049",
+      "name": "8th Girls - Division 2",
+      "divisiontier": "2"
+    },
+    {
+      "divisionno": "7249",
+      "name": "8th Girls - Division 2",
+      "divisiontier": "2"
+    },
+    {
+      "divisionno": "7246",
+      "name": "8th Girls - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7247",
+      "name": "8th Girls - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7248",
+      "name": "8th Girls - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7240",
+      "name": "8th Girls - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7241",
+      "name": "8th Girls - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7243",
+      "name": "8th Girls - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7244",
+      "name": "8th Girls - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7245",
+      "name": "8th Girls - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7236",
+      "name": "8th Girls - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7237",
+      "name": "8th Girls - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7238",
+      "name": "8th Girls - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7239",
+      "name": "8th Girls - Division 5",
+      "divisiontier": "5"
+    }
+  ]
+}

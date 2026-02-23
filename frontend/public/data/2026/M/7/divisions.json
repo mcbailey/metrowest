@@ -1,0 +1,133 @@
+{
+  "yrseason": "2026",
+  "gender": "M",
+  "grade": 7,
+  "snapshot_date": "2026-02-23",
+  "divisions": [
+    {
+      "divisionno": "7203",
+      "name": "7th Boys - Division 1",
+      "divisiontier": "1"
+    },
+    {
+      "divisionno": "7204",
+      "name": "7th Boys - Division 1",
+      "divisiontier": "1"
+    },
+    {
+      "divisionno": "7198",
+      "name": "7th Boys - Division 2",
+      "divisiontier": "2"
+    },
+    {
+      "divisionno": "7199",
+      "name": "7th Boys - Division 2",
+      "divisiontier": "2"
+    },
+    {
+      "divisionno": "7200",
+      "name": "7th Boys - Division 2",
+      "divisiontier": "2"
+    },
+    {
+      "divisionno": "7201",
+      "name": "7th Boys - Division 2",
+      "divisiontier": "2"
+    },
+    {
+      "divisionno": "7193",
+      "name": "7th Boys - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7194",
+      "name": "7th Boys - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7195",
+      "name": "7th Boys - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7196",
+      "name": "7th Boys - Division 3",
+      "divisiontier": "3"
+    },
+    {
+      "divisionno": "7188",
+      "name": "7th Boys - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7189",
+      "name": "7th Boys - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7191",
+      "name": "7th Boys - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7192",
+      "name": "7th Boys - Division 4",
+      "divisiontier": "4"
+    },
+    {
+      "divisionno": "7179",
+      "name": "7th Boys - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7180",
+      "name": "7th Boys - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7182",
+      "name": "7th Boys - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7183",
+      "name": "7th Boys - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7185",
+      "name": "7th Boys - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7186",
+      "name": "7th Boys - Division 5",
+      "divisiontier": "5"
+    },
+    {
+      "divisionno": "7173",
+      "name": "7th Boys - Division 6",
+      "divisiontier": "6"
+    },
+    {
+      "divisionno": "7174",
+      "name": "7th Boys - Division 6",
+      "divisiontier": "6"
+    },
+    {
+      "divisionno": "7175",
+      "name": "7th Boys - Division 6",
+      "divisiontier": "6"
+    },
+    {
+      "divisionno": "7177",
+      "name": "7th Boys - Division 6",
+      "divisiontier": "6"
+    },
+    {
+      "divisionno": "7178",
+      "name": "7th Boys - Division 6",
+      "divisiontier": "6"
+    }
+  ]
+}

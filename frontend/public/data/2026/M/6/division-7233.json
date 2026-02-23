@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 6,
+  "divisionno": "7233",
+  "division_name": "6th Boys - Division 2",
+  "rankings": [
+    {
+      "teamno": "45437",
+      "name": "D2M-Cambridge",
+      "town": null,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "pf": 168,
+      "pa": 152,
+      "diff": 16,
+      "sos": 1496.114,
+      "power": 1521.663,
+      "rank": 1
+    },
+    {
+      "teamno": "44045",
+      "name": "D2M-Newton (black)",
+      "town": null,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "pf": 223,
+      "pa": 222,
+      "diff": 1,
+      "sos": 1495.312,
+      "power": 1512.891,
+      "rank": 2
+    },
+    {
+      "teamno": "43935",
+      "name": "D2M-Brookline (red)",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 163,
+      "pa": 157,
+      "diff": 6,
+      "sos": 1510.136,
+      "power": 1503.516,
+      "rank": 3
+    },
+    {
+      "teamno": "45249",
+      "name": "D2M-Waltham Boys (red)",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 138,
+      "pa": 142,
+      "diff": -4,
+      "sos": 1496.114,
+      "power": 1485.137,
+      "rank": 4
+    },
+    {
+      "teamno": "45504",
+      "name": "D2M-Everett",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 140,
+      "pa": 159,
+      "diff": -19,
+      "sos": 1510.136,
+      "power": 1478.746,
+      "rank": 5
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 5,
+  "divisionno": "7289",
+  "division_name": "5th Boys - Division 5",
+  "rankings": [
+    {
+      "teamno": "43852",
+      "name": "D5H-Westport (medeiros)",
+      "town": null,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "pf": 149,
+      "pa": 111,
+      "diff": 38,
+      "sos": 1473.676,
+      "power": 1553.316,
+      "rank": 1
+    },
+    {
+      "teamno": "43094",
+      "name": "D5H-Swansea (black)",
+      "town": null,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "pf": 117,
+      "pa": 91,
+      "diff": 26,
+      "sos": 1460.21,
+      "power": 1519.684,
+      "rank": 2
+    },
+    {
+      "teamno": "43114",
+      "name": "D5H-Barrington RI (blue)",
+      "town": null,
+      "wins": 3,
+      "losses": 3,
+      "ties": 0,
+      "pf": 212,
+      "pa": 188,
+      "diff": 24,
+      "sos": 1503.247,
+      "power": 1511.368,
+      "rank": 3
+    },
+    {
+      "teamno": "44824",
+      "name": "D5H-Bourne (purple/canfield)",
+      "town": null,
+      "wins": 2,
+      "losses": 3,
+      "ties": 0,
+      "pf": 150,
+      "pa": 185,
+      "diff": -35,
+      "sos": 1512.076,
+      "power": 1468.291,
+      "rank": 4
+    },
+    {
+      "teamno": "44285",
+      "name": "D5H-Rochester",
+      "town": null,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "pf": 104,
+      "pa": 157,
+      "diff": -53,
+      "sos": 1521.786,
+      "power": 1440.089,
+      "rank": 5
+    }
+  ]
+}

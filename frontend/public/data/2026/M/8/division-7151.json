@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 8,
+  "divisionno": "7151",
+  "division_name": "8th Boys - Division 4",
+  "rankings": [
+    {
+      "teamno": "43240",
+      "name": "D4H-Middleborough (colp)",
+      "town": null,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "pf": 245,
+      "pa": 150,
+      "diff": 95,
+      "sos": 1473.9,
+      "power": 1571.775,
+      "rank": 1
+    },
+    {
+      "teamno": "44822",
+      "name": "D4H-Bourne (purple and white)",
+      "town": null,
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pf": 245,
+      "pa": 229,
+      "diff": 16,
+      "sos": 1495.81,
+      "power": 1520.354,
+      "rank": 2
+    },
+    {
+      "teamno": "43127",
+      "name": "D4H-Barrington RI (gold)",
+      "town": null,
+      "wins": 3,
+      "losses": 3,
+      "ties": 0,
+      "pf": 280,
+      "pa": 249,
+      "diff": 31,
+      "sos": 1479.83,
+      "power": 1500.645,
+      "rank": 3
+    },
+    {
+      "teamno": "44494",
+      "name": "D4H-Wareham (lopes)",
+      "town": null,
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pf": 227,
+      "pa": 220,
+      "diff": 7,
+      "sos": 1471.314,
+      "power": 1493.92,
+      "rank": 4
+    },
+    {
+      "teamno": "43226",
+      "name": "D4H-Barnstable  (white)",
+      "town": null,
+      "wins": 0,
+      "losses": 6,
+      "ties": 0,
+      "pf": 200,
+      "pa": 349,
+      "diff": -149,
+      "sos": 1525.169,
+      "power": 1399.811,
+      "rank": 5
+    }
+  ]
+}

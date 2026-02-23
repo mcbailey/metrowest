@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 7,
+  "divisionno": "7204",
+  "division_name": "7th Boys - Division 1",
+  "rankings": [
+    {
+      "teamno": "43453",
+      "name": "D1J-Winchester (white)",
+      "town": null,
+      "wins": 6,
+      "losses": 0,
+      "ties": 0,
+      "pf": 369,
+      "pa": 245,
+      "diff": 124,
+      "sos": 1456.05,
+      "power": 1587.138,
+      "rank": 1
+    },
+    {
+      "teamno": "44615",
+      "name": "D1J-Hingham (white)",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 148,
+      "pa": 161,
+      "diff": -13,
+      "sos": 1586.835,
+      "power": 1513.188,
+      "rank": 2
+    },
+    {
+      "teamno": "45251",
+      "name": "D1J-Waltham Boys (red)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 203,
+      "pa": 198,
+      "diff": 5,
+      "sos": 1471.663,
+      "power": 1495.315,
+      "rank": 3
+    },
+    {
+      "teamno": "45313",
+      "name": "D1J-Milton (red)",
+      "town": null,
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pf": 214,
+      "pa": 225,
+      "diff": -11,
+      "sos": 1475.931,
+      "power": 1493.11,
+      "rank": 4
+    },
+    {
+      "teamno": "45534",
+      "name": "D1J-Lawrence",
+      "town": null,
+      "wins": 0,
+      "losses": 6,
+      "ties": 0,
+      "pf": 259,
+      "pa": 364,
+      "diff": -105,
+      "sos": 1544.289,
+      "power": 1419.941,
+      "rank": 5
+    }
+  ]
+}

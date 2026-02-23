@@ -1,0 +1,66 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 4,
+  "divisionno": "7572",
+  "division_name": "4th Boys - Division 1",
+  "rankings": [
+    {
+      "teamno": "44970",
+      "name": "D1M-Foxboro (blue)",
+      "town": null,
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "pf": 38,
+      "pa": 25,
+      "diff": 13,
+      "sos": 1473.609,
+      "power": 1513.195,
+      "rank": 1
+    },
+    {
+      "teamno": "44898",
+      "name": "D1M-North Attleboro (red)",
+      "town": null,
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "pf": 27,
+      "pa": 19,
+      "diff": 8,
+      "sos": 1478.028,
+      "power": 1510.986,
+      "rank": 2
+    },
+    {
+      "teamno": "43346",
+      "name": "D1M-Mansfield (white)",
+      "town": null,
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "pf": 19,
+      "pa": 27,
+      "diff": -8,
+      "sos": 1521.972,
+      "power": 1489.014,
+      "rank": 3
+    },
+    {
+      "teamno": "44109",
+      "name": "D1M-Easton (black)",
+      "town": null,
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "pf": 25,
+      "pa": 38,
+      "diff": -13,
+      "sos": 1526.391,
+      "power": 1486.805,
+      "rank": 4
+    }
+  ]
+}

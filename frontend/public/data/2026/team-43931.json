@@ -1,0 +1,24 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "teamno": "43931",
+  "team_name": "D1/2H-Taunton (machado)",
+  "town": null,
+  "summary": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "pf": 0,
+    "pa": 0,
+    "diff": 0,
+    "sos": 1500.0,
+    "power": 1500.0,
+    "rank": 5,
+    "divisionno": "7060",
+    "division_name": "7th Girls - Division 1",
+    "grade": 7,
+    "gender": "F"
+  },
+  "past_games": [],
+  "future_games": []
+}

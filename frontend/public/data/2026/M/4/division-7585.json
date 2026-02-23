@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 4,
+  "divisionno": "7585",
+  "division_name": "4th Boys - Division 6",
+  "rankings": [
+    {
+      "teamno": "43201",
+      "name": "D6N-FLBC (white)",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 112,
+      "pa": 68,
+      "diff": 44,
+      "sos": 1481.851,
+      "power": 1548.399,
+      "rank": 1
+    },
+    {
+      "teamno": "43350",
+      "name": "D6N-Dighton-Rehoboth",
+      "town": null,
+      "wins": 4,
+      "losses": 1,
+      "ties": 0,
+      "pf": 141,
+      "pa": 102,
+      "diff": 39,
+      "sos": 1466.94,
+      "power": 1537.303,
+      "rank": 2
+    },
+    {
+      "teamno": "43839",
+      "name": "D6N-Raynham (lyons)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 99,
+      "pa": 109,
+      "diff": -10,
+      "sos": 1502.666,
+      "power": 1492.668,
+      "rank": 3
+    },
+    {
+      "teamno": "43967",
+      "name": "D6N-Taunton (daye)",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 77,
+      "pa": 81,
+      "diff": -4,
+      "sos": 1481.851,
+      "power": 1483.363,
+      "rank": 4
+    },
+    {
+      "teamno": "44900",
+      "name": "D6N-North Attleboro (black)",
+      "town": null,
+      "wins": 0,
+      "losses": 5,
+      "ties": 0,
+      "pf": 89,
+      "pa": 158,
+      "diff": -69,
+      "sos": 1533.06,
+      "power": 1429.86,
+      "rank": 5
+    }
+  ]
+}

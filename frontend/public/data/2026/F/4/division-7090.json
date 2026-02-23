@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 4,
+  "divisionno": "7090",
+  "division_name": "4th Girls - Division 1",
+  "rankings": [
+    {
+      "teamno": "44896",
+      "name": "D1A-North Attleboro (red)",
+      "town": null,
+      "wins": 4,
+      "losses": 1,
+      "ties": 0,
+      "pf": 169,
+      "pa": 126,
+      "diff": 43,
+      "sos": 1497.655,
+      "power": 1553.759,
+      "rank": 1
+    },
+    {
+      "teamno": "43349",
+      "name": "D1A-Mansfield (white)",
+      "town": null,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "pf": 146,
+      "pa": 91,
+      "diff": 55,
+      "sos": 1520.419,
+      "power": 1550.656,
+      "rank": 2
+    },
+    {
+      "teamno": "43447",
+      "name": "D1A-Foxboro (blue)",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 53,
+      "pa": 79,
+      "diff": -26,
+      "sos": 1534.536,
+      "power": 1483.392,
+      "rank": 3
+    },
+    {
+      "teamno": "44469",
+      "name": "D1A-Walpole (a)",
+      "town": null,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "pf": 116,
+      "pa": 107,
+      "diff": 9,
+      "sos": 1507.397,
+      "power": 1479.658,
+      "rank": 4
+    },
+    {
+      "teamno": "45151",
+      "name": "D1A-Waltham Girls",
+      "town": null,
+      "wins": 0,
+      "losses": 2,
+      "ties": 0,
+      "pf": 15,
+      "pa": 96,
+      "diff": -81,
+      "sos": 1521.436,
+      "power": 1452.896,
+      "rank": 5
+    }
+  ]
+}

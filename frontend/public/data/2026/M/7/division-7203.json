@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 7,
+  "divisionno": "7203",
+  "division_name": "7th Boys - Division 1",
+  "rankings": [
+    {
+      "teamno": "43246",
+      "name": "D1H-Dartmouth (green)",
+      "town": null,
+      "wins": 6,
+      "losses": 1,
+      "ties": 0,
+      "pf": 434,
+      "pa": 370,
+      "diff": 64,
+      "sos": 1478.364,
+      "power": 1569.573,
+      "rank": 1
+    },
+    {
+      "teamno": "43928",
+      "name": "D1H-Taunton (pawlowski)",
+      "town": null,
+      "wins": 3,
+      "losses": 3,
+      "ties": 0,
+      "pf": 307,
+      "pa": 280,
+      "diff": 27,
+      "sos": 1513.825,
+      "power": 1527.017,
+      "rank": 2
+    },
+    {
+      "teamno": "45627",
+      "name": "D1H-New Bedford  (red)",
+      "town": null,
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pf": 286,
+      "pa": 258,
+      "diff": 28,
+      "sos": 1503.406,
+      "power": 1511.641,
+      "rank": 3
+    },
+    {
+      "teamno": "45770",
+      "name": "D1H-Fall River (tee)",
+      "town": null,
+      "wins": 2,
+      "losses": 5,
+      "ties": 0,
+      "pf": 399,
+      "pa": 439,
+      "diff": -40,
+      "sos": 1551.013,
+      "power": 1469.879,
+      "rank": 4
+    },
+    {
+      "teamno": "43415",
+      "name": "D1H-Brockton",
+      "town": null,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "pf": 111,
+      "pa": 190,
+      "diff": -79,
+      "sos": 1496.211,
+      "power": 1432.596,
+      "rank": 5
+    }
+  ]
+}

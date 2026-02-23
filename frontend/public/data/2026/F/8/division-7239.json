@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 8,
+  "divisionno": "7239",
+  "division_name": "8th Girls - Division 5",
+  "rankings": [
+    {
+      "teamno": "44004",
+      "name": "D5M-Chelsea",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 112,
+      "pa": 28,
+      "diff": 84,
+      "sos": 1452.284,
+      "power": 1547.604,
+      "rank": 1
+    },
+    {
+      "teamno": "44369",
+      "name": "D5M-Belmont (white)",
+      "town": null,
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pf": 155,
+      "pa": 88,
+      "diff": 67,
+      "sos": 1477.626,
+      "power": 1538.808,
+      "rank": 2
+    },
+    {
+      "teamno": "44282",
+      "name": "D5M-Wayland (orange)",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 122,
+      "pa": 40,
+      "diff": 82,
+      "sos": 1452.284,
+      "power": 1535.899,
+      "rank": 3
+    },
+    {
+      "teamno": "43452",
+      "name": "D5M-Winchester (black)",
+      "town": null,
+      "wins": 3,
+      "losses": 4,
+      "ties": 0,
+      "pf": 132,
+      "pa": 194,
+      "diff": -62,
+      "sos": 1473.216,
+      "power": 1453.801,
+      "rank": 4
+    },
+    {
+      "teamno": "44700",
+      "name": "D5M-Arlington (grey)",
+      "town": null,
+      "wins": 0,
+      "losses": 6,
+      "ties": 0,
+      "pf": 50,
+      "pa": 221,
+      "diff": -171,
+      "sos": 1507.39,
+      "power": 1389.588,
+      "rank": 5
+    }
+  ]
+}

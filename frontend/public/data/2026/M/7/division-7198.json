@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 7,
+  "divisionno": "7198",
+  "division_name": "7th Boys - Division 2",
+  "rankings": [
+    {
+      "teamno": "44868",
+      "name": "D2H-North Attleboro (red)",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 151,
+      "pa": 128,
+      "diff": 23,
+      "sos": 1501.563,
+      "power": 1546.755,
+      "rank": 1
+    },
+    {
+      "teamno": "43147",
+      "name": "D2H-Dighton-Rehoboth (green)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 237,
+      "pa": 210,
+      "diff": 27,
+      "sos": 1494.031,
+      "power": 1516.414,
+      "rank": 2
+    },
+    {
+      "teamno": "43475",
+      "name": "D2H-Somerset",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 224,
+      "pa": 230,
+      "diff": -6,
+      "sos": 1501.75,
+      "power": 1495.189,
+      "rank": 3
+    },
+    {
+      "teamno": "43341",
+      "name": "D2H-Monomoy (blue/porter)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 189,
+      "pa": 202,
+      "diff": -13,
+      "sos": 1503.047,
+      "power": 1491.62,
+      "rank": 4
+    },
+    {
+      "teamno": "43298",
+      "name": "D2H-Franklin",
+      "town": null,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "pf": 139,
+      "pa": 170,
+      "diff": -31,
+      "sos": 1501.563,
+      "power": 1450.51,
+      "rank": 5
+    }
+  ]
+}

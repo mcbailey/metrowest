@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 6,
+  "divisionno": "7273",
+  "division_name": "6th Girls - Division 5",
+  "rankings": [
+    {
+      "teamno": "44690",
+      "name": "D5T-Arlington (white)",
+      "town": null,
+      "wins": 7,
+      "losses": 1,
+      "ties": 0,
+      "pf": 179,
+      "pa": 135,
+      "diff": 44,
+      "sos": 1470.82,
+      "power": 1552.632,
+      "rank": 1
+    },
+    {
+      "teamno": "44772",
+      "name": "D5T-Belmont (navy)",
+      "town": null,
+      "wins": 5,
+      "losses": 3,
+      "ties": 0,
+      "pf": 202,
+      "pa": 120,
+      "diff": 82,
+      "sos": 1474.169,
+      "power": 1546.77,
+      "rank": 2
+    },
+    {
+      "teamno": "44032",
+      "name": "D5T-Newton (orange)",
+      "town": null,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "pf": 85,
+      "pa": 54,
+      "diff": 31,
+      "sos": 1486.91,
+      "power": 1535.997,
+      "rank": 3
+    },
+    {
+      "teamno": "44279",
+      "name": "D5T-Wayland (silver)",
+      "town": null,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "pf": 80,
+      "pa": 121,
+      "diff": -41,
+      "sos": 1513.873,
+      "power": 1461.849,
+      "rank": 4
+    },
+    {
+      "teamno": "43459",
+      "name": "D5T-Winchester (black)",
+      "town": null,
+      "wins": 0,
+      "losses": 8,
+      "ties": 0,
+      "pf": 97,
+      "pa": 213,
+      "diff": -116,
+      "sos": 1556.186,
+      "power": 1403.242,
+      "rank": 5
+    }
+  ]
+}

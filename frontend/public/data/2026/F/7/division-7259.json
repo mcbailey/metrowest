@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 7,
+  "divisionno": "7259",
+  "division_name": "7th Girls - Division 4",
+  "rankings": [
+    {
+      "teamno": "43548",
+      "name": "D4M-Millis",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 112,
+      "pa": 74,
+      "diff": 38,
+      "sos": 1498.41,
+      "power": 1552.743,
+      "rank": 1
+    },
+    {
+      "teamno": "43681",
+      "name": "D4M-Ashland (blue)",
+      "town": null,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "pf": 122,
+      "pa": 67,
+      "diff": 55,
+      "sos": 1491.507,
+      "power": 1527.337,
+      "rank": 2
+    },
+    {
+      "teamno": "44179",
+      "name": "D4M-Parkway  (red)",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 97,
+      "pa": 90,
+      "diff": 7,
+      "sos": 1491.507,
+      "power": 1487.525,
+      "rank": 3
+    },
+    {
+      "teamno": "45257",
+      "name": "D4M-Medfield (abba)",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 77,
+      "pa": 107,
+      "diff": -30,
+      "sos": 1532.111,
+      "power": 1485.342,
+      "rank": 4
+    },
+    {
+      "teamno": "44510",
+      "name": "D4M-Milford (red-kearnan)",
+      "town": null,
+      "wins": 0,
+      "losses": 2,
+      "ties": 0,
+      "pf": 32,
+      "pa": 102,
+      "diff": -70,
+      "sos": 1512.739,
+      "power": 1453.621,
+      "rank": 5
+    }
+  ]
+}

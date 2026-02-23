@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 7,
+  "divisionno": "7257",
+  "division_name": "7th Girls - Division 4",
+  "rankings": [
+    {
+      "teamno": "43551",
+      "name": "D4J-Bridgewater (pineo)",
+      "town": null,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "pf": 188,
+      "pa": 107,
+      "diff": 81,
+      "sos": 1473.929,
+      "power": 1571.696,
+      "rank": 1
+    },
+    {
+      "teamno": "44427",
+      "name": "D4J-Norton (purple)",
+      "town": null,
+      "wins": 4,
+      "losses": 1,
+      "ties": 0,
+      "pf": 221,
+      "pa": 166,
+      "diff": 55,
+      "sos": 1482.803,
+      "power": 1549.42,
+      "rank": 2
+    },
+    {
+      "teamno": "43174",
+      "name": "D4J-Seekonk",
+      "town": null,
+      "wins": 2,
+      "losses": 3,
+      "ties": 0,
+      "pf": 164,
+      "pa": 157,
+      "diff": 7,
+      "sos": 1517.197,
+      "power": 1493.529,
+      "rank": 3
+    },
+    {
+      "teamno": "43629",
+      "name": "D4J-Middleborough (edwards)",
+      "town": null,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "pf": 89,
+      "pa": 154,
+      "diff": -65,
+      "sos": 1553.85,
+      "power": 1453.788,
+      "rank": 4
+    },
+    {
+      "teamno": "44126",
+      "name": "D4J-Berkley",
+      "town": null,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "pf": 35,
+      "pa": 113,
+      "diff": -78,
+      "sos": 1553.85,
+      "power": 1451.975,
+      "rank": 5
+    }
+  ]
+}

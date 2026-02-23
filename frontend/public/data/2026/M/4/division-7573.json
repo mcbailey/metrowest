@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 4,
+  "divisionno": "7573",
+  "division_name": "4th Boys - Division 1",
+  "rankings": [
+    {
+      "teamno": "45258",
+      "name": "D1N-Waltham Boys (red)",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 146,
+      "pa": 75,
+      "diff": 71,
+      "sos": 1454.156,
+      "power": 1548.069,
+      "rank": 1
+    },
+    {
+      "teamno": "44040",
+      "name": "D1N-Newton (black)",
+      "town": null,
+      "wins": 2,
+      "losses": 0,
+      "ties": 0,
+      "pf": 79,
+      "pa": 38,
+      "diff": 41,
+      "sos": 1463.633,
+      "power": 1534.527,
+      "rank": 2
+    },
+    {
+      "teamno": "43310",
+      "name": "D1N-Franklin",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 123,
+      "pa": 142,
+      "diff": -19,
+      "sos": 1502.228,
+      "power": 1493.873,
+      "rank": 3
+    },
+    {
+      "teamno": "43767",
+      "name": "D1N-Needham (gold)",
+      "town": null,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "pf": 112,
+      "pa": 166,
+      "diff": -54,
+      "sos": 1515.956,
+      "power": 1456.122,
+      "rank": 4
+    },
+    {
+      "teamno": "45327",
+      "name": "D1N-Milton (red)",
+      "town": null,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "pf": 91,
+      "pa": 130,
+      "diff": -39,
+      "sos": 1502.213,
+      "power": 1451.956,
+      "rank": 5
+    }
+  ]
+}

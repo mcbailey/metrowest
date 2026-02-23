@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 3,
+  "divisionno": "7638",
+  "division_name": "3rd Girls - Division 3",
+  "rankings": [
+    {
+      "teamno": "44453",
+      "name": "D3N-Foxboro (gold)",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 128,
+      "pa": 31,
+      "diff": 97,
+      "sos": 1475.201,
+      "power": 1559.372,
+      "rank": 1
+    },
+    {
+      "teamno": "44394",
+      "name": "D3N-Medway (white)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 133,
+      "pa": 96,
+      "diff": 37,
+      "sos": 1494.88,
+      "power": 1514.079,
+      "rank": 2
+    },
+    {
+      "teamno": "44590",
+      "name": "D3N-King Philip (green)",
+      "town": null,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "pf": 69,
+      "pa": 61,
+      "diff": 8,
+      "sos": 1498.593,
+      "power": 1512.587,
+      "rank": 3
+    },
+    {
+      "teamno": "45157",
+      "name": "D3N-Waltham Girls",
+      "town": null,
+      "wins": 1,
+      "losses": 1,
+      "ties": 0,
+      "pf": 70,
+      "pa": 78,
+      "diff": -8,
+      "sos": 1454.175,
+      "power": 1478.77,
+      "rank": 4
+    },
+    {
+      "teamno": "44908",
+      "name": "D3N-North Attleboro (white)",
+      "town": null,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "pf": 54,
+      "pa": 188,
+      "diff": -134,
+      "sos": 1528.032,
+      "power": 1422.912,
+      "rank": 5
+    }
+  ]
+}

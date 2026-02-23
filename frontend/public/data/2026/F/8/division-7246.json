@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 8,
+  "divisionno": "7246",
+  "division_name": "8th Girls - Division 3",
+  "rankings": [
+    {
+      "teamno": "43270",
+      "name": "D3H-Dartmouth",
+      "town": null,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "pf": 190,
+      "pa": 150,
+      "diff": 40,
+      "sos": 1479.588,
+      "power": 1556.133,
+      "rank": 1
+    },
+    {
+      "teamno": "43596",
+      "name": "D3H-North Quincy (mergel)",
+      "town": null,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "pf": 120,
+      "pa": 108,
+      "diff": 12,
+      "sos": 1497.527,
+      "power": 1519.548,
+      "rank": 2
+    },
+    {
+      "teamno": "44479",
+      "name": "D3H-Walpole (a)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 147,
+      "pa": 160,
+      "diff": -13,
+      "sos": 1503.053,
+      "power": 1491.605,
+      "rank": 3
+    },
+    {
+      "teamno": "43308",
+      "name": "D3H-Franklin",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 109,
+      "pa": 115,
+      "diff": -6,
+      "sos": 1497.527,
+      "power": 1484.779,
+      "rank": 4
+    },
+    {
+      "teamno": "43892",
+      "name": "D3H-Canton (green)",
+      "town": null,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "pf": 134,
+      "pa": 167,
+      "diff": -33,
+      "sos": 1519.214,
+      "power": 1447.163,
+      "rank": 5
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 7,
+  "divisionno": "7256",
+  "division_name": "7th Girls - Division 4",
+  "rankings": [
+    {
+      "teamno": "43229",
+      "name": "D4H-Barnstable  (red)",
+      "town": null,
+      "wins": 4,
+      "losses": 1,
+      "ties": 0,
+      "pf": 265,
+      "pa": 176,
+      "diff": 89,
+      "sos": 1462.062,
+      "power": 1557.885,
+      "rank": 1
+    },
+    {
+      "teamno": "43343",
+      "name": "D4H-Monomoy (blue/goodnow)",
+      "town": null,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "pf": 214,
+      "pa": 144,
+      "diff": 70,
+      "sos": 1483.602,
+      "power": 1545.096,
+      "rank": 2
+    },
+    {
+      "teamno": "43130",
+      "name": "D4H-Barrington RI (gold)",
+      "town": null,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "pf": 111,
+      "pa": 125,
+      "diff": -14,
+      "sos": 1518.519,
+      "power": 1503.271,
+      "rank": 3
+    },
+    {
+      "teamno": "44982",
+      "name": "D4H-Acushnet - Fairhaven (ashley)",
+      "town": null,
+      "wins": 0,
+      "losses": 2,
+      "ties": 0,
+      "pf": 52,
+      "pa": 97,
+      "diff": -45,
+      "sos": 1577.71,
+      "power": 1479.118,
+      "rank": 4
+    },
+    {
+      "teamno": "43485",
+      "name": "D4H-Rochester",
+      "town": null,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "pf": 100,
+      "pa": 200,
+      "diff": -100,
+      "sos": 1560.859,
+      "power": 1440.317,
+      "rank": 5
+    }
+  ]
+}

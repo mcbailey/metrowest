@@ -1,0 +1,6 @@
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
+1,45099,"D6M-Framingham (gray)",3,0,0,131,70,61,1452.882,1545.301
+2,45645,"D6M-Hopkinton (levine)",2,0,0,113,37,76,1424.566,1530.078
+3,43540,"D6M-Northboro (white)",2,1,0,88,81,7,1475.08,1500.904
+4,44160,"D6M-Holliston (peterson)",1,3,0,92,141,-49,1512.219,1466.398
+5,44218,"D6M-Southboro (gold)",0,4,0,80,175,-95,1525.498,1429.881

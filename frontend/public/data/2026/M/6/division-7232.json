@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "M",
+  "grade": 6,
+  "divisionno": "7232",
+  "division_name": "6th Boys - Division 2",
+  "rankings": [
+    {
+      "teamno": "44204",
+      "name": "D2K-Southboro (maroon)",
+      "town": null,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "pf": 190,
+      "pa": 181,
+      "diff": 9,
+      "sos": 1493.984,
+      "power": 1516.545,
+      "rank": 1
+    },
+    {
+      "teamno": "45125",
+      "name": "D2K-Westwood",
+      "town": null,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "pf": 135,
+      "pa": 121,
+      "diff": 14,
+      "sos": 1494.928,
+      "power": 1507.783,
+      "rank": 2
+    },
+    {
+      "teamno": "44055",
+      "name": "D2K-Wellesley (a)",
+      "town": null,
+      "wins": 1,
+      "losses": 1,
+      "ties": 0,
+      "pf": 90,
+      "pa": 89,
+      "diff": 1,
+      "sos": 1505.3,
+      "power": 1503.687,
+      "rank": 3
+    },
+    {
+      "teamno": "45641",
+      "name": "D2K-Hopkinton (pantera6)",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 132,
+      "pa": 149,
+      "diff": -17,
+      "sos": 1513.094,
+      "power": 1493.175,
+      "rank": 4
+    },
+    {
+      "teamno": "44695",
+      "name": "D2K-Dover Sherborn (cecil)",
+      "town": null,
+      "wins": 0,
+      "losses": 2,
+      "ties": 0,
+      "pf": 97,
+      "pa": 104,
+      "diff": -7,
+      "sos": 1518.066,
+      "power": 1485.154,
+      "rank": 5
+    }
+  ]
+}

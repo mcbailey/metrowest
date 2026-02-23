@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 3,
+  "divisionno": "7637",
+  "division_name": "3rd Girls - Division 3",
+  "rankings": [
+    {
+      "teamno": "44452",
+      "name": "D3M-Foxboro (blue)",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 113,
+      "pa": 46,
+      "diff": 67,
+      "sos": 1478.462,
+      "power": 1545.303,
+      "rank": 1
+    },
+    {
+      "teamno": "44393",
+      "name": "D3M-Medway (blue)",
+      "town": null,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "pf": 92,
+      "pa": 62,
+      "diff": 30,
+      "sos": 1501.983,
+      "power": 1530.941,
+      "rank": 2
+    },
+    {
+      "teamno": "44591",
+      "name": "D3M-King Philip (gold)",
+      "town": null,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "pf": 108,
+      "pa": 101,
+      "diff": 7,
+      "sos": 1472.211,
+      "power": 1490.827,
+      "rank": 3
+    },
+    {
+      "teamno": "44429",
+      "name": "D3M-Norton",
+      "town": null,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "pf": 92,
+      "pa": 131,
+      "diff": -39,
+      "sos": 1500.745,
+      "power": 1465.28,
+      "rank": 4
+    },
+    {
+      "teamno": "43850",
+      "name": "D3M-Raynham (leclerc)",
+      "town": null,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "pf": 75,
+      "pa": 140,
+      "diff": -65,
+      "sos": 1514.667,
+      "power": 1459.667,
+      "rank": 5
+    }
+  ]
+}

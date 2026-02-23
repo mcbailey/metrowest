@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 6,
+  "divisionno": "7282",
+  "division_name": "6th Girls - Division 3",
+  "rankings": [
+    {
+      "teamno": "44387",
+      "name": "D3Q-Belmont (maroon)",
+      "town": null,
+      "wins": 6,
+      "losses": 3,
+      "ties": 0,
+      "pf": 217,
+      "pa": 167,
+      "diff": 50,
+      "sos": 1503.126,
+      "power": 1549.957,
+      "rank": 1
+    },
+    {
+      "teamno": "43458",
+      "name": "D3Q-Winchester (white)",
+      "town": null,
+      "wins": 7,
+      "losses": 3,
+      "ties": 0,
+      "pf": 241,
+      "pa": 228,
+      "diff": 13,
+      "sos": 1501.76,
+      "power": 1545.806,
+      "rank": 2
+    },
+    {
+      "teamno": "44447",
+      "name": "D3Q-Bedford (blue)",
+      "town": null,
+      "wins": 4,
+      "losses": 5,
+      "ties": 0,
+      "pf": 228,
+      "pa": 247,
+      "diff": -19,
+      "sos": 1488.994,
+      "power": 1474.107,
+      "rank": 3
+    },
+    {
+      "teamno": "44687",
+      "name": "D3Q-Arlington (maroon)",
+      "town": null,
+      "wins": 4,
+      "losses": 6,
+      "ties": 0,
+      "pf": 246,
+      "pa": 267,
+      "diff": -21,
+      "sos": 1523.428,
+      "power": 1472.946,
+      "rank": 4
+    },
+    {
+      "teamno": "45760",
+      "name": "D3Q-Lexington (blue)",
+      "town": null,
+      "wins": 1,
+      "losses": 5,
+      "ties": 0,
+      "pf": 139,
+      "pa": 162,
+      "diff": -23,
+      "sos": 1498.268,
+      "power": 1461.077,
+      "rank": 5
+    }
+  ]
+}

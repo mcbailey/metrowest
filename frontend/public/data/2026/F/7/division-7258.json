@@ -1,0 +1,80 @@
+{
+  "yrseason": "2026",
+  "snapshot_date": "2026-02-23",
+  "gender": "F",
+  "grade": 7,
+  "divisionno": "7258",
+  "division_name": "7th Girls - Division 4",
+  "rankings": [
+    {
+      "teamno": "43594",
+      "name": "D4K-North Quincy (scott)",
+      "town": null,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "pf": 115,
+      "pa": 66,
+      "diff": 49,
+      "sos": 1496.383,
+      "power": 1554.803,
+      "rank": 1
+    },
+    {
+      "teamno": "45335",
+      "name": "D4K-Milton (white)",
+      "town": null,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "pf": 99,
+      "pa": 77,
+      "diff": 22,
+      "sos": 1499.285,
+      "power": 1519.518,
+      "rank": 2
+    },
+    {
+      "teamno": "44604",
+      "name": "D4K-King Philip",
+      "town": null,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pf": 107,
+      "pa": 107,
+      "diff": 0,
+      "sos": 1512.371,
+      "power": 1493.345,
+      "rank": 3
+    },
+    {
+      "teamno": "44408",
+      "name": "D4K-Dedham (gallagher)",
+      "town": null,
+      "wins": 1,
+      "losses": 1,
+      "ties": 0,
+      "pf": 41,
+      "pa": 71,
+      "diff": -30,
+      "sos": 1505.426,
+      "power": 1483.269,
+      "rank": 4
+    },
+    {
+      "teamno": "43189",
+      "name": "D4K-Bellingham",
+      "town": null,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "pf": 83,
+      "pa": 124,
+      "diff": -41,
+      "sos": 1496.383,
+      "power": 1451.528,
+      "rank": 5
+    }
+  ]
+}
