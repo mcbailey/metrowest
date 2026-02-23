@@ -17,8 +17,30 @@
     "divisionno": "7060",
     "division_name": "7th Girls - Division 1",
     "grade": 7,
-    "gender": "F"
+    "gender": "F",
+    "games_played_total": 0,
+    "games_scheduled_total": 1
   },
   "past_games": [],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "HASH-8c07b3b9ec19ee931524",
+      "date": null,
+      "dow": null,
+      "starttime": null,
+      "location": null,
+      "divisionno": "7060",
+      "division_name": "7th Girls - Division 1",
+      "home_teamno": null,
+      "away_teamno": null,
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": null,
+      "opponent_teamno": null,
+      "opponent_name": "Unknown"
+    }
+  ]
 }

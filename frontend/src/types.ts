@@ -1,5 +1,5 @@
 export type IndexData = {
-  generated_at: string;
+  generated_at: string | null;
   default: { yrseason: string; gender: "M" | "F"; grade: number };
   seasons: Array<{
     yrseason: string;
@@ -39,6 +39,7 @@ export type DivisionRankingData = {
   grade: number;
   divisionno: string;
   division_name: string;
+  divisiontier?: string | null;
   rankings: RankingTeam[];
 };
 
@@ -62,6 +63,8 @@ export type TeamData = {
     division_name: string | null;
     grade: number | null;
     gender: "M" | "F" | null;
+    games_played_total?: number;
+    games_scheduled_total?: number;
   };
   past_games: TeamGame[];
   future_games: TeamGame[];
@@ -74,12 +77,15 @@ export type TeamGame = {
   starttime: string | null;
   location: string | null;
   divisionno: string | null;
+  division_name?: string | null;
   home_teamno: string | null;
   away_teamno: string | null;
   home_score: number | null;
   away_score: number | null;
+  team_score?: number | null;
+  opponent_score?: number | null;
   status: string;
-  is_home: boolean;
+  is_home: boolean | null;
   opponent_teamno: string | null;
   opponent_name: string | null;
 };
