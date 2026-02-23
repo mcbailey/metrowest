@@ -3,6 +3,14 @@ import { useEffect, useState } from "react";
 import { loadJson } from "../data";
 import { IndexData, TeamData } from "../types";
 
+function gamesPlayed(team: TeamData): number {
+  return team.summary.wins + team.summary.losses + team.summary.ties;
+}
+
+function avg(value: number, games: number): string {
+  return games > 0 ? (value / games).toFixed(1) : "0.0";
+}
+
 export function TeamPage() {
   const { teamno } = useParams<{ teamno: string }>();
   const [team, setTeam] = useState<TeamData | null>(null);
@@ -13,6 +21,7 @@ export function TeamPage() {
 
     async function run() {
       try {
+        setError(null);
         const index = await loadJson<IndexData>("data/index.json");
         const season = index.default.yrseason;
         const payload = await loadJson<TeamData>(`data/${season}/team-${teamno}.json`);
@@ -27,6 +36,8 @@ export function TeamPage() {
 
   if (error) return <p className="error">{error}</p>;
   if (!team) return <p>Loading team...</p>;
+
+  const gp = gamesPlayed(team);
 
   return (
     <div className="stack">
@@ -45,8 +56,8 @@ export function TeamPage() {
         </div>
         <div>SoS: {team.summary.sos.toFixed(1)}</div>
         <div>Power: {team.summary.power.toFixed(1)}</div>
-        <div>PF: {team.summary.pf}</div>
-        <div>PA: {team.summary.pa}</div>
+        <div>PF/G: {avg(team.summary.pf, gp)}</div>
+        <div>PA/G: {avg(team.summary.pa, gp)}</div>
         <div>Diff: {team.summary.diff}</div>
       </div>
 

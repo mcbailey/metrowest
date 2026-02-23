@@ -28,9 +28,13 @@ export function Filters({
 }: Props) {
   const update = (key: keyof FilterState) => (e: ChangeEvent<HTMLSelectElement>) => {
     const value = e.target.value;
+    const nextValue = key === "grade" ? Number(value) : value;
+
     onChange({
       ...filters,
-      [key]: key === "grade" ? Number(value) : value,
+      [key]: nextValue,
+      // Changing season/gender/grade invalidates the selected division.
+      ...(key === "divisionno" ? {} : { divisionno: "" }),
     });
   };
 
