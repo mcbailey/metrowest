@@ -264,7 +264,7 @@ def get_teams_for_division(conn: sqlite3.Connection, divisionno: str) -> list[sq
             FROM teams t
             JOIN divisions d ON d.divisionno = t.divisionno
             WHERE t.divisionno = ?
-            ORDER BY name
+            ORDER BY t.name
             """,
             (divisionno,),
         )
