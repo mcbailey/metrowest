@@ -11,12 +11,13 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .page {
-  max-width: 1180px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 1.2rem 1rem 2rem;
+  padding: 1.2rem clamp(0.75rem, 2vw, 1.25rem) 2rem;
 }
 
 .topbar {
