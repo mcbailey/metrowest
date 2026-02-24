@@ -83,10 +83,6 @@ function clampPercent(value: number): number {
   return Math.max(0, Math.min(100, value));
 }
 
-function expectedResult(myRating: number, oppRating: number): number {
-  return 1 / (1 + 10 ** ((oppRating - myRating) / 400));
-}
-
 function teamAndOpponentScores(g: TeamGame): { team: number | null; opp: number | null } {
   if (g.team_score !== undefined && g.opponent_score !== undefined) {
     return { team: g.team_score ?? null, opp: g.opponent_score ?? null };
@@ -236,6 +232,13 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
     for (const t of sorted.slice(-n)) bottom15ByTier.add(t.teamno);
   }
 
+  const overallTop25 = new Set<string>();
+  {
+    const sortedAll = [...rankedWithDivision].sort((a, b) => b.team.power - a.team.power);
+    const n = Math.max(1, Math.ceil(sortedAll.length * 0.25));
+    for (const rc of sortedAll.slice(0, n)) overallTop25.add(rc.team.teamno);
+  }
+
   const divisionPfPerGame = inDivision.rankings
     .map((t) => {
       const gp = rankingGamesPlayed(t);
@@ -270,7 +273,7 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
 
     const opponent = rankedByTeamNo.get(opponentTeamNo);
     const opponentPower = opponent?.team.power ?? 1500;
-    const expected = expectedResult(team.summary.power, opponentPower);
+    const powerGap = opponentPower - team.summary.power;
 
     const giantKiller =
       ownBaseline !== undefined &&
@@ -287,15 +290,19 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
     const apex = top15ByTier.has(opponentTeamNo);
     const floor = bottom15ByTier.has(opponentTeamNo);
 
-    const outperformer = expected < 0.4;
-    const stumble = expected > 0.7;
+    const outperformer = powerGap > 0;
+    const stumble = powerGap < 0;
 
     if (g.teamScore > g.oppScore && (giantKiller || apex || outperformer)) {
       qualityWins += 1;
       gameOutcomeTags[g.game.gameno] = "Quality Win";
     }
 
-    if (g.teamScore < g.oppScore && (dropLoss || floor || stumble)) {
+    const badLossCandidate = g.teamScore < g.oppScore && (dropLoss || floor || stumble);
+    const closeLoss = g.teamScore < g.oppScore && g.oppScore - g.teamScore <= 5;
+    const lostToTop25 = g.teamScore < g.oppScore && overallTop25.has(opponentTeamNo);
+
+    if (badLossCandidate && !closeLoss && !lostToTop25) {
       badLosses += 1;
       gameOutcomeTags[g.game.gameno] = "Bad Loss";
     }
@@ -536,9 +543,7 @@ export function TeamPage() {
         <section className="panel">
           <h3>Coach Insights</h3>
           <p className="meta compact">
-            Quality win rules: higher-division baseline win, top-15% opponent in their division tier, or upset win
-            (pre-game expected win &lt; 40%). Bad loss rules: lower-division baseline loss, bottom-15% opponent in their
-            division tier, or favored loss (expected win &gt; 70%).
+            Quality win rules: higher-division baseline win, top-15% opponent in their division tier, or beating a higher current-power opponent. Bad loss rules: lower-division baseline loss, bottom-15% opponent in their division tier, or losing to a lower current-power opponent. Bad-loss tags are suppressed for losses by 5 or fewer points and for losses to top-25% opponents overall.
           </p>
           <div className="summary-grid">
             <div>
