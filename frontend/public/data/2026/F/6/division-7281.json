@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "gender": "F",
   "grade": 6,
   "divisionno": "7281",
@@ -17,22 +17,22 @@
       "pf": 441,
       "pa": 288,
       "diff": 153,
-      "sos": 1476.536,
-      "power": 1626.017,
+      "sos": 1475.335,
+      "power": 1625.717,
       "rank": 1
     },
     {
       "teamno": "44242",
       "name": "D3M-Wayland (black)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 3,
       "ties": 0,
-      "pf": 413,
-      "pa": 295,
-      "diff": 118,
-      "sos": 1482.92,
-      "power": 1588.718,
+      "pf": 454,
+      "pa": 325,
+      "diff": 129,
+      "sos": 1484.398,
+      "power": 1602.602,
       "rank": 2
     },
     {
@@ -54,13 +54,13 @@
       "name": "D3M-Needham (gold)",
       "town": null,
       "wins": 6,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "pf": 271,
-      "pa": 233,
-      "diff": 38,
-      "sos": 1525.197,
-      "power": 1533.826,
+      "pf": 301,
+      "pa": 274,
+      "diff": 27,
+      "sos": 1538.68,
+      "power": 1523.682,
       "rank": 4
     },
     {
@@ -73,8 +73,8 @@
       "pf": 225,
       "pa": 283,
       "diff": -58,
-      "sos": 1513.602,
-      "power": 1439.189,
+      "sos": 1515.605,
+      "power": 1439.689,
       "rank": 5
     }
   ]

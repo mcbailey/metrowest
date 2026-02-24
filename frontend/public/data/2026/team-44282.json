@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "teamno": "44282",
   "team_name": "D5M-Wayland (orange)",
   "town": null,
@@ -19,7 +19,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 8,
-    "games_scheduled_total": 3
+    "games_scheduled_total": 4
   },
   "past_games": [
     {
@@ -232,6 +232,25 @@
       "is_home": false,
       "opponent_teamno": "45140",
       "opponent_name": "D5K-Westwood"
+    },
+    {
+      "gameno": "46388",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "5:05 PM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7239",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "0",
+      "away_teamno": "44282",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

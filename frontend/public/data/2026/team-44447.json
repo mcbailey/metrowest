@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "teamno": "44447",
   "team_name": "D3Q-Bedford (blue)",
   "town": null,
@@ -19,7 +19,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 18,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -403,6 +403,25 @@
       "is_home": false,
       "opponent_teamno": "43458",
       "opponent_name": "D3Q-Winchester (white)"
+    },
+    {
+      "gameno": "46164",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "12:45 PM",
+      "location": "Bedford Lane School",
+      "divisionno": "7282",
+      "division_name": "6th Girls - Division 3",
+      "home_teamno": "0",
+      "away_teamno": "44447",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

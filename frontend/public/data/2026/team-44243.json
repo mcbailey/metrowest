@@ -1,24 +1,24 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "teamno": "44243",
   "team_name": "D4Q-Wayland (black)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 1,
     "ties": 0,
-    "pf": 352,
-    "pa": 217,
-    "diff": 135,
-    "sos": 1478.626,
-    "power": 1605.079,
+    "pf": 394,
+    "pa": 232,
+    "diff": 162,
+    "sos": 1486.376,
+    "power": 1619.122,
     "rank": 1,
     "divisionno": "7260",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 9,
+    "games_played_total": 10,
     "games_scheduled_total": 4
   },
   "past_games": [
@@ -192,6 +192,25 @@
       "is_home": true,
       "opponent_teamno": "44720",
       "opponent_name": "D4Q-Weston"
+    },
+    {
+      "gameno": "393888",
+      "date": "2025-11-23",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Holliston High School",
+      "divisionno": "7260",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "43542",
+      "away_teamno": "44243",
+      "home_score": 15,
+      "away_score": 42,
+      "team_score": 42,
+      "opponent_score": 15,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43542",
+      "opponent_name": "D4Q-Northboro (red)"
     }
   ],
   "future_games": [

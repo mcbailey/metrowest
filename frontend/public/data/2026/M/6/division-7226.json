@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "gender": "M",
   "grade": 6,
   "divisionno": "7226",
@@ -17,8 +17,8 @@
       "pf": 577,
       "pa": 529,
       "diff": 48,
-      "sos": 1492.851,
-      "power": 1518.233,
+      "sos": 1491.628,
+      "power": 1517.928,
       "rank": 1
     },
     {
@@ -31,23 +31,9 @@
       "pf": 508,
       "pa": 521,
       "diff": -13,
-      "sos": 1467.544,
-      "power": 1495.589,
+      "sos": 1463.212,
+      "power": 1494.506,
       "rank": 2
-    },
-    {
-      "teamno": "43902",
-      "name": "D3J-Canton (green)",
-      "town": null,
-      "wins": 5,
-      "losses": 6,
-      "ties": 0,
-      "pf": 447,
-      "pa": 430,
-      "diff": 17,
-      "sos": 1479.713,
-      "power": 1494.32,
-      "rank": 3
     },
     {
       "teamno": "44580",
@@ -59,8 +45,22 @@
       "pf": 518,
       "pa": 526,
       "diff": -8,
-      "sos": 1471.93,
-      "power": 1485.548,
+      "sos": 1470.606,
+      "power": 1485.217,
+      "rank": 3
+    },
+    {
+      "teamno": "43902",
+      "name": "D3J-Canton (green)",
+      "town": null,
+      "wins": 5,
+      "losses": 7,
+      "ties": 0,
+      "pf": 480,
+      "pa": 470,
+      "diff": 10,
+      "sos": 1490.164,
+      "power": 1485.018,
       "rank": 4
     },
     {
@@ -87,8 +87,8 @@
       "pf": 496,
       "pa": 617,
       "diff": -121,
-      "sos": 1492.623,
-      "power": 1383.409,
+      "sos": 1491.299,
+      "power": 1383.078,
       "rank": 6
     },
     {

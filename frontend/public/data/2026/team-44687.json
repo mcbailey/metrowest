@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "teamno": "44687",
   "team_name": "D3Q-Arlington (maroon)",
   "town": null,
@@ -19,7 +19,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -384,6 +384,25 @@
       "is_home": true,
       "opponent_teamno": "45760",
       "opponent_name": "D3Q-Lexington (blue)"
+    },
+    {
+      "gameno": "46165",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Bedford Lane School",
+      "divisionno": "7277",
+      "division_name": "6th Girls - Division 4",
+      "home_teamno": "44687",
+      "away_teamno": "44721",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44721",
+      "opponent_name": "D4M-Weston"
     }
   ]
 }

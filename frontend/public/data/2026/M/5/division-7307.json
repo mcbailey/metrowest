@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "gender": "M",
   "grade": 5,
   "divisionno": "7307",
@@ -17,8 +17,8 @@
       "pf": 598,
       "pa": 528,
       "diff": 70,
-      "sos": 1485.721,
-      "power": 1568.164,
+      "sos": 1484.204,
+      "power": 1567.785,
       "rank": 1
     },
     {
@@ -31,23 +31,9 @@
       "pf": 697,
       "pa": 692,
       "diff": 5,
-      "sos": 1511.204,
-      "power": 1491.381,
+      "sos": 1508.777,
+      "power": 1490.774,
       "rank": 2
-    },
-    {
-      "teamno": "43165",
-      "name": "D2AH-Dighton-Rehoboth (green)",
-      "town": null,
-      "wins": 5,
-      "losses": 7,
-      "ties": 0,
-      "pf": 535,
-      "pa": 574,
-      "diff": -39,
-      "sos": 1490.894,
-      "power": 1474.512,
-      "rank": 3
     },
     {
       "teamno": "43262",
@@ -61,6 +47,20 @@
       "diff": -10,
       "sos": 1482.967,
       "power": 1466.56,
+      "rank": 3
+    },
+    {
+      "teamno": "43165",
+      "name": "D2AH-Dighton-Rehoboth (green)",
+      "town": null,
+      "wins": 5,
+      "losses": 8,
+      "ties": 0,
+      "pf": 582,
+      "pa": 628,
+      "diff": -46,
+      "sos": 1493.55,
+      "power": 1461.523,
       "rank": 4
     },
     {

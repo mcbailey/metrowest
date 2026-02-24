@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "gender": "M",
   "grade": 7,
   "divisionno": "7191",
@@ -22,20 +22,6 @@
       "rank": 1
     },
     {
-      "teamno": "43380",
-      "name": "D4M-Natick",
-      "town": null,
-      "wins": 5,
-      "losses": 6,
-      "ties": 0,
-      "pf": 460,
-      "pa": 440,
-      "diff": 20,
-      "sos": 1500.208,
-      "power": 1520.648,
-      "rank": 2
-    },
-    {
       "teamno": "44000",
       "name": "D4M-Somerville (blue)",
       "town": null,
@@ -47,6 +33,20 @@
       "diff": 34,
       "sos": 1484.516,
       "power": 1520.234,
+      "rank": 2
+    },
+    {
+      "teamno": "43380",
+      "name": "D4M-Natick",
+      "town": null,
+      "wins": 5,
+      "losses": 6,
+      "ties": 0,
+      "pf": 460,
+      "pa": 440,
+      "diff": 20,
+      "sos": 1497.949,
+      "power": 1520.083,
       "rank": 3
     },
     {
@@ -73,22 +73,22 @@
       "pf": 301,
       "pa": 325,
       "diff": -24,
-      "sos": 1520.128,
-      "power": 1494.924,
+      "sos": 1517.023,
+      "power": 1494.147,
       "rank": 5
     },
     {
       "teamno": "44711",
       "name": "D4M-Weston",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 8,
       "ties": 0,
-      "pf": 325,
-      "pa": 444,
-      "diff": -119,
-      "sos": 1538.419,
-      "power": 1395.748,
+      "pf": 380,
+      "pa": 488,
+      "diff": -108,
+      "sos": 1516.907,
+      "power": 1409.003,
       "rank": 6
     },
     {
@@ -96,13 +96,13 @@
       "name": "D4M-Westwood",
       "town": null,
       "wins": 1,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 294,
-      "pa": 472,
-      "diff": -178,
-      "sos": 1538.107,
-      "power": 1395.633,
+      "pf": 338,
+      "pa": 527,
+      "diff": -189,
+      "sos": 1521.6,
+      "power": 1372.873,
       "rank": 7
     }
   ]

@@ -1,25 +1,25 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "teamno": "45764",
   "team_name": "D6R-Lexington (white)",
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 310,
-    "pa": 501,
-    "diff": -191,
-    "sos": 1519.574,
-    "power": 1377.38,
+    "pf": 334,
+    "pa": 536,
+    "diff": -202,
+    "sos": 1519.8,
+    "power": 1368.432,
     "rank": 4,
     "divisionno": "7288",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 4
+    "games_played_total": 14,
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -78,6 +78,25 @@
       "is_home": true,
       "opponent_teamno": "44063",
       "opponent_name": "D6Q-Wellesley (c)"
+    },
+    {
+      "gameno": "382742",
+      "date": "2026-02-07",
+      "dow": "Sat",
+      "starttime": "3:45 PM",
+      "location": "Lexington - Diamond Middle School",
+      "divisionno": "7288",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "45764",
+      "away_teamno": "44723",
+      "home_score": 24,
+      "away_score": 35,
+      "team_score": 24,
+      "opponent_score": 35,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44723",
+      "opponent_name": "D5W-Arlington (grey)"
     },
     {
       "gameno": "377055",
@@ -308,25 +327,6 @@
       "is_home": false,
       "opponent_teamno": "43540",
       "opponent_name": "D6M-Northboro (white)"
-    },
-    {
-      "gameno": "382742",
-      "date": "2026-02-07",
-      "dow": "Sat",
-      "starttime": "3:45 PM",
-      "location": "Lexington - Diamond Middle School",
-      "divisionno": "7288",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "45764",
-      "away_teamno": "44723",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44723",
-      "opponent_name": "D5W-Arlington (grey)"
     },
     {
       "gameno": "377077",

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "gender": "F",
   "grade": 6,
   "divisionno": "7279",
@@ -11,14 +11,14 @@
       "teamno": "44181",
       "name": "D3J-Parkway  (red)",
       "town": null,
-      "wins": 9,
+      "wins": 10,
       "losses": 2,
       "ties": 0,
-      "pf": 430,
-      "pa": 296,
-      "diff": 134,
-      "sos": 1501.445,
-      "power": 1608.227,
+      "pf": 451,
+      "pa": 315,
+      "diff": 136,
+      "sos": 1487.152,
+      "power": 1606.718,
       "rank": 1
     },
     {
@@ -73,8 +73,8 @@
       "pf": 297,
       "pa": 318,
       "diff": -21,
-      "sos": 1494.8,
-      "power": 1461.116,
+      "sos": 1494.525,
+      "power": 1461.047,
       "rank": 5
     },
     {
@@ -101,8 +101,8 @@
       "pf": 284,
       "pa": 340,
       "diff": -56,
-      "sos": 1509.384,
-      "power": 1454.739,
+      "sos": 1509.634,
+      "power": 1454.801,
       "rank": 7
     },
     {
@@ -110,13 +110,13 @@
       "name": "D3J-Hopkinton (hinnenkamp)",
       "town": null,
       "wins": 1,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 181,
-      "pa": 312,
-      "diff": -131,
-      "sos": 1505.617,
-      "power": 1375.915,
+      "pf": 200,
+      "pa": 333,
+      "diff": -133,
+      "sos": 1518.431,
+      "power": 1377.055,
       "rank": 8
     }
   ]

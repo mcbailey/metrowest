@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "gender": "M",
   "grade": 6,
   "divisionno": "7224",
@@ -31,8 +31,8 @@
       "pf": 493,
       "pa": 356,
       "diff": 137,
-      "sos": 1506.809,
-      "power": 1556.664,
+      "sos": 1507.91,
+      "power": 1556.939,
       "rank": 2
     },
     {
@@ -59,22 +59,22 @@
       "pf": 559,
       "pa": 522,
       "diff": 37,
-      "sos": 1516.259,
-      "power": 1509.252,
+      "sos": 1517.36,
+      "power": 1509.527,
       "rank": 4
     },
     {
       "teamno": "44303",
       "name": "D4M-Belmont (white)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 10,
       "ties": 0,
-      "pf": 479,
-      "pa": 650,
-      "diff": -171,
-      "sos": 1483.844,
-      "power": 1437.747,
+      "pf": 529,
+      "pa": 698,
+      "diff": -169,
+      "sos": 1481.943,
+      "power": 1446.351,
       "rank": 5
     },
     {
@@ -87,8 +87,8 @@
       "pf": 580,
       "pa": 713,
       "diff": -133,
-      "sos": 1497.33,
-      "power": 1418.754,
+      "sos": 1498.605,
+      "power": 1419.073,
       "rank": 6
     }
   ]

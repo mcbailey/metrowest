@@ -1,24 +1,24 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "teamno": "43681",
   "team_name": "D4M-Ashland (blue)",
   "town": null,
   "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 4,
     "ties": 0,
-    "pf": 341,
-    "pa": 241,
-    "diff": 100,
-    "sos": 1490.862,
-    "power": 1537.838,
+    "pf": 360,
+    "pa": 256,
+    "diff": 104,
+    "sos": 1490.925,
+    "power": 1543.722,
     "rank": 2,
     "divisionno": "7259",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 10,
+    "games_played_total": 11,
     "games_scheduled_total": 2
   },
   "past_games": [
@@ -211,6 +211,25 @@
       "is_home": false,
       "opponent_teamno": "44510",
       "opponent_name": "D4M-Milford (red-kearnan)"
+    },
+    {
+      "gameno": "393887",
+      "date": "2025-11-22",
+      "dow": "Sat",
+      "starttime": "10:00 AM",
+      "location": "Ashland Middle School",
+      "divisionno": "7260",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "43542",
+      "away_teamno": "43681",
+      "home_score": 15,
+      "away_score": 19,
+      "team_score": 19,
+      "opponent_score": 15,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43542",
+      "opponent_name": "D4Q-Northboro (red)"
     }
   ],
   "future_games": [

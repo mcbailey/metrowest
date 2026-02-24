@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "teamno": "44036",
   "team_name": "D4Q-Newton (orange)",
   "town": null,
@@ -19,7 +19,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -251,6 +251,25 @@
       "is_home": false,
       "opponent_teamno": "44449",
       "opponent_name": "D4R-Bedford"
+    },
+    {
+      "gameno": "46391",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "3:45 PM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7245",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "44036",
+      "away_teamno": "44698",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44698",
+      "opponent_name": "D4R-Arlington (white)"
     }
   ]
 }

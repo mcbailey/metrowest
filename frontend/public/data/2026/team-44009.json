@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "teamno": "44009",
   "team_name": "D4R-Somerville",
   "town": null,
@@ -19,7 +19,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -270,6 +270,25 @@
       "is_home": false,
       "opponent_teamno": "45307",
       "opponent_name": "D4R-Medford (blue)"
+    },
+    {
+      "gameno": "46390",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "6:25 PM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7245",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "44009",
+      "away_teamno": "44155",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44155",
+      "opponent_name": "D4M-Holliston (mcadams -red)"
     }
   ]
 }

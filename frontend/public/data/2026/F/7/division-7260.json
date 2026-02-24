@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-23",
+  "snapshot_date": "2026-02-24",
   "gender": "F",
   "grade": 7,
   "divisionno": "7260",
@@ -11,14 +11,14 @@
       "teamno": "44243",
       "name": "D4Q-Wayland (black)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 1,
       "ties": 0,
-      "pf": 352,
-      "pa": 217,
-      "diff": 135,
-      "sos": 1478.626,
-      "power": 1605.079,
+      "pf": 394,
+      "pa": 232,
+      "diff": 162,
+      "sos": 1486.376,
+      "power": 1619.122,
       "rank": 1
     },
     {
@@ -31,22 +31,22 @@
       "pf": 476,
       "pa": 386,
       "diff": 90,
-      "sos": 1510.602,
-      "power": 1565.149,
+      "sos": 1511.354,
+      "power": 1566.055,
       "rank": 2
     },
     {
       "teamno": "43542",
       "name": "D4Q-Northboro (red)",
       "town": null,
-      "wins": 6,
-      "losses": 5,
+      "wins": 7,
+      "losses": 7,
       "ties": 0,
-      "pf": 287,
-      "pa": 258,
+      "pf": 359,
+      "pa": 330,
       "diff": 29,
-      "sos": 1498.683,
-      "power": 1540.661,
+      "sos": 1510.73,
+      "power": 1539.999,
       "rank": 3
     },
     {
@@ -59,8 +59,8 @@
       "pf": 317,
       "pa": 343,
       "diff": -26,
-      "sos": 1492.35,
-      "power": 1467.682,
+      "sos": 1494.567,
+      "power": 1469.016,
       "rank": 4
     },
     {
@@ -73,8 +73,8 @@
       "pf": 122,
       "pa": 285,
       "diff": -163,
-      "sos": 1520.896,
-      "power": 1367.623,
+      "sos": 1522.656,
+      "power": 1369.136,
       "rank": 5
     }
   ]
