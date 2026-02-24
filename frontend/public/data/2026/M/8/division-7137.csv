@@ -1,8 +1,8 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
-1,45729,"D6H-West Bridgewater (botelho)",8,2,0,400,273,127,1457.332,1590.711
-2,43968,"D6H-Taunton (hibbard)",9,6,0,807,568,239,1482.364,1544.715
-3,44152,"D6H-Easton (white)",6,5,0,415,390,25,1493.576,1505.388
-4,43137,"D6H-Seekonk (escaler)",5,5,0,306,301,5,1463.438,1492.257
-5,43128,"D6H-Barrington RI (blue)",4,6,0,297,362,-65,1469.4,1467.302
-6,43146,"D6H-Dighton-Rehoboth (white)",2,9,0,324,457,-133,1522.85,1413.497
-7,44877,"D6H-North Attleboro (black)",0,11,0,260,522,-262,1518.526,1340.594
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
+1,45729,"D6H-West Bridgewater (botelho)",8,2,0,400,273,127,1457.332,1590.711,28.6,286
+2,43968,"D6H-Taunton (hibbard)",9,6,0,807,568,239,1482.364,1544.715,29.5,295
+3,44152,"D6H-Easton (white)",6,5,0,415,390,25,1493.576,1505.388,21.6,237
+4,43137,"D6H-Seekonk (escaler)",5,5,0,306,301,5,1463.438,1492.257,19.0,190
+5,43128,"D6H-Barrington RI (blue)",4,6,0,297,362,-65,1469.4,1467.302,16.2,162
+6,43146,"D6H-Dighton-Rehoboth (white)",2,9,0,324,457,-133,1522.85,1413.497,10.5,115
+7,44877,"D6H-North Attleboro (black)",0,11,0,260,522,-262,1518.526,1340.594,5.0,55

@@ -1,6 +1,6 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
-1,43118,"D4J-Seekonk (mahoney)",9,2,0,577,438,139,1451.509,1592.283
-2,43424,"D4J-Bridgewater (hinman)",6,5,0,522,495,27,1492.232,1497.366
-3,44124,"D4J-Berkley",4,7,0,595,605,-10,1494.539,1482.889
-4,43930,"D4J-Taunton (martin)",7,14,1,911,988,-77,1515.111,1424.742
-5,43831,"D4J-Raynham (guillaumette)",1,11,0,383,666,-283,1519.338,1361.175
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
+1,43118,"D4J-Seekonk (mahoney)",9,2,0,577,438,139,1451.509,1592.283,72.3,795
+2,43424,"D4J-Bridgewater (hinman)",6,5,0,522,495,27,1492.232,1497.366,55.6,611
+3,44124,"D4J-Berkley",4,7,0,595,605,-10,1494.539,1482.889,45.2,497
+4,43930,"D4J-Taunton (martin)",7,14,1,911,988,-77,1515.111,1424.742,54.3,597
+5,43831,"D4J-Raynham (guillaumette)",1,11,0,383,666,-283,1519.338,1361.175,28.8,288

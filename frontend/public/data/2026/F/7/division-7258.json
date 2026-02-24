@@ -19,7 +19,9 @@
       "diff": 156,
       "sos": 1498.124,
       "power": 1614.345,
-      "rank": 1
+      "rank": 1,
+      "mw_rating": 73.5,
+      "mw_points": 735
     },
     {
       "teamno": "44604",
@@ -33,7 +35,9 @@
       "diff": 94,
       "sos": 1505.953,
       "power": 1569.109,
-      "rank": 2
+      "rank": 2,
+      "mw_rating": 60.6,
+      "mw_points": 666
     },
     {
       "teamno": "43594",
@@ -47,7 +51,9 @@
       "diff": 82,
       "sos": 1512.228,
       "power": 1548.707,
-      "rank": 3
+      "rank": 3,
+      "mw_rating": 61.3,
+      "mw_points": 674
     },
     {
       "teamno": "44408",
@@ -61,7 +67,9 @@
       "diff": -122,
       "sos": 1502.146,
       "power": 1421.328,
-      "rank": 4
+      "rank": 4,
+      "mw_rating": 36.5,
+      "mw_points": 401
     },
     {
       "teamno": "43189",
@@ -75,7 +83,9 @@
       "diff": -91,
       "sos": 1531.729,
       "power": 1398.923,
-      "rank": 5
+      "rank": 5,
+      "mw_rating": 23.3,
+      "mw_points": 210
     }
   ]
 }

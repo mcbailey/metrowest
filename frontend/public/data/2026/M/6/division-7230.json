@@ -19,7 +19,9 @@
       "diff": 58,
       "sos": 1510.393,
       "power": 1582.683,
-      "rank": 1
+      "rank": 1,
+      "mw_rating": 152.3,
+      "mw_points": 1675
     },
     {
       "teamno": "45354",
@@ -31,23 +33,27 @@
       "pf": 931,
       "pa": 821,
       "diff": 110,
-      "sos": 1496.845,
-      "power": 1573.809,
-      "rank": 2
+      "sos": 1495.391,
+      "power": 1573.446,
+      "rank": 2,
+      "mw_rating": 118.3,
+      "mw_points": 1065
     },
     {
       "teamno": "43205",
       "name": "D2H-FLBC (white)",
       "town": null,
       "wins": 6,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "pf": 476,
-      "pa": 412,
-      "diff": 64,
-      "sos": 1504.87,
-      "power": 1539.231,
-      "rank": 3
+      "pf": 516,
+      "pa": 465,
+      "diff": 51,
+      "sos": 1509.776,
+      "power": 1519.74,
+      "rank": 3,
+      "mw_rating": 114.2,
+      "mw_points": 1256
     },
     {
       "teamno": "44118",
@@ -59,9 +65,11 @@
       "pf": 502,
       "pa": 505,
       "diff": -3,
-      "sos": 1492.585,
-      "power": 1490.418,
-      "rank": 4
+      "sos": 1495.096,
+      "power": 1491.046,
+      "rank": 4,
+      "mw_rating": 110.2,
+      "mw_points": 1102
     },
     {
       "teamno": "44640",
@@ -73,9 +81,11 @@
       "pf": 512,
       "pa": 649,
       "diff": -137,
-      "sos": 1519.14,
-      "power": 1419.618,
-      "rank": 5
+      "sos": 1521.265,
+      "power": 1420.15,
+      "rank": 5,
+      "mw_rating": 82.8,
+      "mw_points": 745
     }
   ]
 }

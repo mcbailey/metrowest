@@ -1,7 +1,7 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
-1,44183,"D4M-Parkway  (red)",10,3,0,366,237,129,1495.706,1618.017
-2,44514,"D4M-Milford (red-chiccarelli)",7,3,0,199,166,33,1475.57,1536.657
-3,43706,"D4M-Ashland",6,4,0,249,218,31,1499.729,1535.683
-4,43903,"D4M-Southboro (maroon)",6,6,0,226,186,40,1496.915,1515.671
-5,45632,"D4M-Hopkinton (sakakeeny)",3,7,0,176,241,-65,1528.613,1440.76
-6,45633,"D4M-Hopkinton (selchan)",1,9,0,146,250,-104,1524.66,1401.545
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
+1,44183,"D4M-Parkway  (red)",10,3,0,366,237,129,1495.706,1618.017,77.1,771
+2,44514,"D4M-Milford (red-chiccarelli)",7,3,0,199,166,33,1475.57,1536.657,62.2,560
+3,43706,"D4M-Ashland",6,4,0,249,218,31,1499.729,1535.683,58.0,580
+4,43903,"D4M-Southboro (maroon)",6,6,0,226,186,40,1496.915,1515.671,58.9,589
+5,45632,"D4M-Hopkinton (sakakeeny)",3,7,0,176,241,-65,1528.613,1440.76,42.1,421
+6,45633,"D4M-Hopkinton (selchan)",1,9,0,146,250,-104,1524.66,1401.545,30.4,304

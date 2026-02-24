@@ -1,6 +1,6 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
-1,43209,"D5J-Middleborough (shanahan)",10,0,0,374,267,107,1494.606,1616.301
-2,43479,"D5J-Somerset",10,4,0,565,478,87,1484.51,1573.751
-3,43351,"D5J-Dighton-Rehoboth (white)",7,5,0,469,430,39,1495.104,1526.498
-4,43428,"D5J-Bridgewater (dwyer)",4,6,0,357,360,-3,1540.605,1500.848
-5,43969,"D5J-Taunton (garner)",2,8,0,277,399,-122,1510.872,1396.204
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
+1,43209,"D5J-Middleborough (shanahan)",10,0,0,374,267,107,1494.606,1616.301,55.8,558
+2,43479,"D5J-Somerset",10,4,0,565,478,87,1484.51,1573.751,43.6,480
+3,43351,"D5J-Dighton-Rehoboth (white)",7,5,0,469,430,39,1495.104,1526.498,34.6,381
+4,43428,"D5J-Bridgewater (dwyer)",4,6,0,357,360,-3,1540.605,1500.848,29.9,299
+5,43969,"D5J-Taunton (garner)",2,8,0,277,399,-122,1510.872,1396.204,19.0,190

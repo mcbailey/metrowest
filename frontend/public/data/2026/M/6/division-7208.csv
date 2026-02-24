@@ -1,7 +1,7 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
-1,44217,"D6M-Sharon (maroon-ip)",11,1,0,530,334,196,1477.936,1640.825
-2,44520,"D6M-Milford (white-larochelle)",8,3,0,410,265,145,1489.446,1573.777
-3,45321,"D6M-Milton (silver)",6,5,0,271,330,-59,1496.861,1473.089
-4,45244,"D6M-Medfield (brajtbord)",1,7,0,177,268,-91,1532.937,1428.212
-5,44165,"D6M-Holliston (donahue - black)",1,8,0,212,308,-96,1535.75,1416.817
-6,43782,"D6M-Millis (reed)",0,10,0,156,417,-261,1521.569,1349.666
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
+1,44217,"D6M-Sharon (maroon-ip)",11,1,0,530,334,196,1477.936,1640.825,35.3,353
+2,44520,"D6M-Milford (white-larochelle)",8,3,0,410,265,145,1489.446,1573.777,26.1,287
+3,45321,"D6M-Milton (silver)",6,5,0,271,330,-59,1496.861,1473.089,22.0,242
+4,45244,"D6M-Medfield (brajtbord)",1,7,0,177,268,-91,1532.937,1428.212,7.3,66
+5,44165,"D6M-Holliston (donahue - black)",1,8,0,212,308,-96,1535.75,1416.817,10.3,103
+6,43782,"D6M-Millis (reed)",0,10,0,156,417,-261,1521.569,1349.666,5.0,50

@@ -1,6 +1,6 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
-1,43314,"D6P-Franklin",8,3,0,254,178,76,1488.102,1580.314
-2,44175,"D6P-Holliston (king)",6,6,0,167,185,-18,1497.925,1516.028
-3,43348,"D6P-Mansfield (green)",6,5,0,235,236,-1,1498.443,1508.542
-4,45348,"D6P-Milton (white)",2,8,0,143,188,-45,1518.536,1440.395
-5,45144,"D6P-North Quincy (mcgillicuddy)",2,9,0,190,277,-87,1520.781,1415.037
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
+1,43314,"D6P-Franklin",8,3,0,254,178,76,1488.102,1580.314,44.8,493
+2,44175,"D6P-Holliston (king)",6,6,0,167,185,-18,1497.925,1516.028,46.8,515
+3,43348,"D6P-Mansfield (green)",6,5,0,235,236,-1,1498.443,1508.542,38.8,427
+4,45348,"D6P-Milton (white)",2,8,0,143,188,-45,1518.536,1440.395,25.8,258
+5,45144,"D6P-North Quincy (mcgillicuddy)",2,9,0,190,277,-87,1520.781,1415.037,21.4,235

@@ -19,21 +19,41 @@
       "diff": 176,
       "sos": 1497.38,
       "power": 1630.648,
-      "rank": 1
+      "rank": 1,
+      "mw_rating": 56.9,
+      "mw_points": 569
     },
     {
       "teamno": "44324",
       "name": "D5R-Medway (white)",
       "town": null,
-      "wins": 9,
+      "wins": 10,
       "losses": 1,
       "ties": 0,
-      "pf": 336,
-      "pa": 224,
-      "diff": 112,
-      "sos": 1478.668,
-      "power": 1598.631,
-      "rank": 2
+      "pf": 371,
+      "pa": 248,
+      "diff": 123,
+      "sos": 1472.389,
+      "power": 1604.195,
+      "rank": 2,
+      "mw_rating": 51.6,
+      "mw_points": 568
+    },
+    {
+      "teamno": "44396",
+      "name": "D5R-Dedham (landry)",
+      "town": null,
+      "wins": 7,
+      "losses": 4,
+      "ties": 0,
+      "pf": 369,
+      "pa": 297,
+      "diff": 72,
+      "sos": 1474.383,
+      "power": 1535.888,
+      "rank": 3,
+      "mw_rating": 40.1,
+      "mw_points": 441
     },
     {
       "teamno": "45042",
@@ -45,23 +65,11 @@
       "pf": 280,
       "pa": 246,
       "diff": 34,
-      "sos": 1491.354,
-      "power": 1528.881,
-      "rank": 3
-    },
-    {
-      "teamno": "44396",
-      "name": "D5R-Dedham (landry)",
-      "town": null,
-      "wins": 6,
-      "losses": 4,
-      "ties": 0,
-      "pf": 335,
-      "pa": 265,
-      "diff": 70,
-      "sos": 1472.752,
-      "power": 1528.5,
-      "rank": 4
+      "sos": 1491.334,
+      "power": 1528.876,
+      "rank": 4,
+      "mw_rating": 38.7,
+      "mw_points": 387
     },
     {
       "teamno": "44965",
@@ -73,23 +81,27 @@
       "pf": 249,
       "pa": 310,
       "diff": -61,
-      "sos": 1510.871,
-      "power": 1438.143,
-      "rank": 5
+      "sos": 1511.802,
+      "power": 1438.375,
+      "rank": 5,
+      "mw_rating": 23.7,
+      "mw_points": 237
     },
     {
       "teamno": "45121",
       "name": "D5R-Westwood",
       "town": null,
       "wins": 3,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 212,
-      "pa": 333,
-      "diff": -121,
-      "sos": 1485.182,
-      "power": 1428.65,
-      "rank": 6
+      "pf": 236,
+      "pa": 368,
+      "diff": -132,
+      "sos": 1502.408,
+      "power": 1425.823,
+      "rank": 6,
+      "mw_rating": 22.5,
+      "mw_points": 225
     },
     {
       "teamno": "44195",
@@ -101,9 +113,11 @@
       "pf": 179,
       "pa": 333,
       "diff": -154,
-      "sos": 1499.838,
-      "power": 1377.237,
-      "rank": 7
+      "sos": 1500.768,
+      "power": 1377.47,
+      "rank": 7,
+      "mw_rating": 15.6,
+      "mw_points": 156
     },
     {
       "teamno": "43546",
@@ -115,9 +129,11 @@
       "pf": 147,
       "pa": 313,
       "diff": -166,
-      "sos": 1501.085,
-      "power": 1359.638,
-      "rank": 8
+      "sos": 1502.119,
+      "power": 1359.896,
+      "rank": 8,
+      "mw_rating": 7.2,
+      "mw_points": 65
     }
   ]
 }

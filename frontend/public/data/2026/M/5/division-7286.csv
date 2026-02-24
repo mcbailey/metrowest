@@ -1,6 +1,6 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
-1,45645,"D6M-Hopkinton (levine)",12,0,0,603,238,365,1475.021,1672.754
-2,45099,"D6M-Framingham (gray)",7,2,0,337,210,127,1472.588,1582.124
-3,43540,"D6M-Northboro (white)",6,5,0,292,268,24,1477.656,1524.518
-4,44160,"D6M-Holliston (peterson)",2,8,0,255,337,-82,1525.856,1444.647
-5,44218,"D6M-Southboro (gold)",0,11,0,198,465,-267,1543.277,1351.292
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
+1,45645,"D6M-Hopkinton (levine)",12,0,0,603,238,365,1475.021,1672.754,40.8,449
+2,45099,"D6M-Framingham (gray)",7,2,0,337,210,127,1472.588,1582.124,31.7,285
+3,43540,"D6M-Northboro (white)",6,5,0,292,268,24,1477.656,1524.518,23.1,231
+4,44160,"D6M-Holliston (peterson)",2,8,0,255,337,-82,1525.856,1444.647,12.7,127
+5,44218,"D6M-Southboro (gold)",0,11,0,198,465,-267,1543.277,1351.292,5.0,55

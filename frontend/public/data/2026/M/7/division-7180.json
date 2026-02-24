@@ -8,32 +8,36 @@
   "divisiontier": "5",
   "rankings": [
     {
+      "teamno": "43299",
+      "name": "D5J-Franklin",
+      "town": null,
+      "wins": 10,
+      "losses": 3,
+      "ties": 0,
+      "pf": 523,
+      "pa": 396,
+      "diff": 127,
+      "sos": 1496.186,
+      "power": 1600.663,
+      "rank": 1,
+      "mw_rating": 52.1,
+      "mw_points": 573
+    },
+    {
       "teamno": "44870",
       "name": "D5J-North Attleboro (black)",
       "town": null,
       "wins": 8,
-      "losses": 2,
-      "ties": 0,
-      "pf": 450,
-      "pa": 341,
-      "diff": 109,
-      "sos": 1500.046,
-      "power": 1601.202,
-      "rank": 1
-    },
-    {
-      "teamno": "43299",
-      "name": "D5J-Franklin",
-      "town": null,
-      "wins": 9,
       "losses": 3,
       "ties": 0,
-      "pf": 475,
-      "pa": 362,
-      "diff": 113,
-      "sos": 1487.034,
-      "power": 1576.691,
-      "rank": 2
+      "pf": 484,
+      "pa": 389,
+      "diff": 95,
+      "sos": 1512.359,
+      "power": 1582.596,
+      "rank": 2,
+      "mw_rating": 38.7,
+      "mw_points": 387
     },
     {
       "teamno": "44132",
@@ -47,7 +51,9 @@
       "diff": 64,
       "sos": 1503.347,
       "power": 1549.673,
-      "rank": 3
+      "rank": 3,
+      "mw_rating": 43.2,
+      "mw_points": 432
     },
     {
       "teamno": "43955",
@@ -61,7 +67,9 @@
       "diff": 3,
       "sos": 1487.338,
       "power": 1500.105,
-      "rank": 4
+      "rank": 4,
+      "mw_rating": 19.3,
+      "mw_points": 193
     },
     {
       "teamno": "44466",
@@ -75,7 +83,9 @@
       "diff": 6,
       "sos": 1512.902,
       "power": 1500.071,
-      "rank": 5
+      "rank": 5,
+      "mw_rating": 29.6,
+      "mw_points": 266
     },
     {
       "teamno": "44583",
@@ -89,7 +99,9 @@
       "diff": -7,
       "sos": 1513.882,
       "power": 1484.284,
-      "rank": 6
+      "rank": 6,
+      "mw_rating": 24.6,
+      "mw_points": 221
     },
     {
       "teamno": "45146",
@@ -103,7 +115,9 @@
       "diff": -42,
       "sos": 1515.615,
       "power": 1459.596,
-      "rank": 7
+      "rank": 7,
+      "mw_rating": 24.0,
+      "mw_points": 240
     },
     {
       "teamno": "43612",
@@ -115,9 +129,11 @@
       "pf": 343,
       "pa": 488,
       "diff": -145,
-      "sos": 1511.534,
-      "power": 1377.609,
-      "rank": 8
+      "sos": 1514.162,
+      "power": 1378.266,
+      "rank": 8,
+      "mw_rating": 11.0,
+      "mw_points": 121
     }
   ]
 }

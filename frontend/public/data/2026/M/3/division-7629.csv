@@ -1,9 +1,9 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
-1,43756,"2NDH-Mansfield (black)",9,0,0,320,213,107,1534.148,1640.957
-2,45527,"2NDH-King Philip (gibbs)",8,2,0,390,287,103,1525.825,1610.243
-3,45520,"2NDH-Mass Premier (blue)",9,2,0,396,281,115,1503.306,1604.847
-4,45518,"2NDH-Mass Premier (attleboro)",7,3,0,366,306,60,1518.928,1565.92
-5,44793,"2NDH-Walpole (blue)",6,4,0,315,280,35,1509.289,1530.303
-6,45218,"2NDH-North Quincy (beqaj)",4,6,0,271,296,-25,1492.262,1465.822
-7,45783,"2NDH-Everett (red)",3,5,0,216,237,-21,1498.916,1465.765
-8,45715,"2NDH-West Bridgewater (barthelemy)",3,6,1,227,283,-56,1499.541,1439.145
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
+1,43756,"2NDH-Mansfield (black)",9,0,0,320,213,107,1534.148,1640.957,124.9,1124
+2,45527,"2NDH-King Philip (gibbs)",8,2,0,390,287,103,1525.825,1610.243,99.2,992
+3,45520,"2NDH-Mass Premier (blue)",9,2,0,396,281,115,1503.306,1604.847,101.7,1119
+4,45518,"2NDH-Mass Premier (attleboro)",7,3,0,366,306,60,1518.928,1565.92,93.7,937
+5,44793,"2NDH-Walpole (blue)",6,4,0,315,280,35,1509.289,1530.303,88.5,885
+6,45218,"2NDH-North Quincy (beqaj)",4,6,0,271,296,-25,1492.262,1465.822,71.7,717
+7,45783,"2NDH-Everett (red)",3,5,0,216,237,-21,1498.916,1465.765,70.8,566
+8,45715,"2NDH-West Bridgewater (barthelemy)",3,6,1,227,283,-56,1499.541,1439.145,60.4,604

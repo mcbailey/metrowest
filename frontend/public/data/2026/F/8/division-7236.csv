@@ -1,6 +1,6 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
-1,44367,"D5H-Easton (orange)",5,4,0,277,227,50,1470.197,1531.586
-2,43340,"D5H-Mansfield (green)",6,5,0,338,287,51,1487.132,1500.887
-3,43435,"D5H-Foxboro (gold)",4,4,0,344,317,27,1505.933,1492.296
-4,43555,"D5H-Bridgewater (librera)",1,9,0,211,322,-111,1501.712,1393.229
-5,44653,"D5H-Attleboro (white)",1,9,0,175,398,-223,1503.519,1371.231
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
+1,44367,"D5H-Easton (orange)",5,4,0,277,227,50,1470.197,1531.586,34.4,310
+2,43340,"D5H-Mansfield (green)",6,5,0,338,287,51,1487.132,1500.887,35.3,388
+3,43435,"D5H-Foxboro (gold)",4,4,0,344,317,27,1505.933,1492.296,43.5,348
+4,43555,"D5H-Bridgewater (librera)",1,9,0,211,322,-111,1501.712,1393.229,15.7,157
+5,44653,"D5H-Attleboro (white)",1,9,0,175,398,-223,1503.519,1371.231,16.2,162

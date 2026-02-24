@@ -17,9 +17,11 @@
       "pf": 425,
       "pa": 364,
       "diff": 61,
-      "sos": 1490.995,
-      "power": 1567.996,
-      "rank": 1
+      "sos": 1490.185,
+      "power": 1567.794,
+      "rank": 1,
+      "mw_rating": 43.0,
+      "mw_points": 473
     },
     {
       "teamno": "44044",
@@ -33,7 +35,9 @@
       "diff": 133,
       "sos": 1493.53,
       "power": 1566.448,
-      "rank": 2
+      "rank": 2,
+      "mw_rating": 52.1,
+      "mw_points": 521
     },
     {
       "teamno": "44378",
@@ -45,9 +49,11 @@
       "pf": 347,
       "pa": 314,
       "diff": 33,
-      "sos": 1494.329,
-      "power": 1535.207,
-      "rank": 3
+      "sos": 1495.286,
+      "power": 1535.446,
+      "rank": 3,
+      "mw_rating": 38.8,
+      "mw_points": 427
     },
     {
       "teamno": "45433",
@@ -59,9 +65,11 @@
       "pf": 399,
       "pa": 396,
       "diff": 3,
-      "sos": 1499.251,
-      "power": 1505.558,
-      "rank": 4
+      "sos": 1500.061,
+      "power": 1505.76,
+      "rank": 4,
+      "mw_rating": 31.6,
+      "mw_points": 316
     },
     {
       "teamno": "45088",
@@ -75,21 +83,25 @@
       "diff": -32,
       "sos": 1495.997,
       "power": 1489.514,
-      "rank": 5
+      "rank": 5,
+      "mw_rating": 30.1,
+      "mw_points": 271
     },
     {
       "teamno": "43934",
       "name": "D5T-Brookline (white)",
       "town": null,
       "wins": 3,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pf": 176,
-      "pa": 274,
-      "diff": -98,
-      "sos": 1499.674,
-      "power": 1455.229,
-      "rank": 6
+      "pf": 208,
+      "pa": 308,
+      "diff": -100,
+      "sos": 1495.662,
+      "power": 1446.331,
+      "rank": 6,
+      "mw_rating": 22.8,
+      "mw_points": 205
     },
     {
       "teamno": "44717",
@@ -101,9 +113,11 @@
       "pf": 200,
       "pa": 366,
       "diff": -166,
-      "sos": 1513.795,
-      "power": 1371.356,
-      "rank": 7
+      "sos": 1512.838,
+      "power": 1371.117,
+      "rank": 7,
+      "mw_rating": 14.5,
+      "mw_points": 159
     }
   ]
 }

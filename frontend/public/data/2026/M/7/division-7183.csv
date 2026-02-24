@@ -1,8 +1,8 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
-1,44170,"D5Q-Holliston (mcdonough - red)",10,0,0,389,209,180,1485.28,1637.664
-2,44635,"D5Q-Ashland (white)",6,5,0,431,324,107,1491.565,1546.836
-3,43920,"D5Q-Westborough",7,4,0,466,419,47,1514.341,1536.538
-4,45639,"D5Q-Hopkinton (spar7b)",6,6,0,494,417,77,1520.485,1533.88
-5,44937,"D5Q-Blackstone-Millville (cummings)",3,7,0,342,455,-113,1494.738,1438.418
-6,44705,"D5Q-Dover Sherborn (danielski)",2,8,0,293,365,-72,1526.589,1431.782
-7,45317,"D5Q-Milton (black)",3,7,0,307,423,-116,1514.9,1426.221
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
+1,44170,"D5Q-Holliston (mcdonough - red)",10,0,0,389,209,180,1485.28,1637.664,55.9,615
+2,44635,"D5Q-Ashland (white)",6,5,0,431,324,107,1491.565,1546.836,31.9,351
+3,43920,"D5Q-Westborough",7,4,0,466,419,47,1514.341,1536.538,42.1,421
+4,45639,"D5Q-Hopkinton (spar7b)",6,6,0,494,417,77,1520.485,1533.88,33.3,366
+5,44937,"D5Q-Blackstone-Millville (cummings)",3,7,0,342,455,-113,1494.738,1438.418,18.1,181
+6,44705,"D5Q-Dover Sherborn (danielski)",2,8,0,293,365,-72,1526.589,1431.782,14.9,149
+7,45317,"D5Q-Milton (black)",3,7,0,307,423,-116,1514.9,1426.221,21.1,232

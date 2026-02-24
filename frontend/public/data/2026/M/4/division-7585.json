@@ -17,9 +17,11 @@
       "pf": 315,
       "pa": 257,
       "diff": 58,
-      "sos": 1516.411,
-      "power": 1572.317,
-      "rank": 1
+      "sos": 1513.819,
+      "power": 1571.669,
+      "rank": 1,
+      "mw_rating": 28.9,
+      "mw_points": 260
     },
     {
       "teamno": "43350",
@@ -31,9 +33,11 @@
       "pf": 312,
       "pa": 277,
       "diff": 35,
-      "sos": 1479.236,
-      "power": 1533.136,
-      "rank": 2
+      "sos": 1477.116,
+      "power": 1532.605,
+      "rank": 2,
+      "mw_rating": 23.6,
+      "mw_points": 259
     },
     {
       "teamno": "43839",
@@ -47,35 +51,41 @@
       "diff": -55,
       "sos": 1507.522,
       "power": 1442.788,
-      "rank": 3
+      "rank": 3,
+      "mw_rating": 13.5,
+      "mw_points": 135
     },
     {
       "teamno": "43967",
       "name": "D6N-Taunton (daye)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 7,
       "ties": 0,
-      "pf": 231,
-      "pa": 320,
-      "diff": -89,
-      "sos": 1502.32,
-      "power": 1414.032,
-      "rank": 4
+      "pf": 263,
+      "pa": 337,
+      "diff": -74,
+      "sos": 1480.985,
+      "power": 1426.191,
+      "rank": 4,
+      "mw_rating": 13.2,
+      "mw_points": 132
     },
     {
       "teamno": "44900",
       "name": "D6N-North Attleboro (black)",
       "town": null,
       "wins": 0,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 161,
-      "pa": 299,
-      "diff": -138,
-      "sos": 1525.378,
-      "power": 1383.06,
-      "rank": 5
+      "pf": 178,
+      "pa": 331,
+      "diff": -153,
+      "sos": 1515.965,
+      "power": 1363.214,
+      "rank": 5,
+      "mw_rating": 5.0,
+      "mw_points": 50
     }
   ]
 }

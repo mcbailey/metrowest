@@ -1,6 +1,6 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
-1,43937,"D2K-Brookline (red)",11,1,0,609,442,167,1474.606,1631.073
-2,45638,"D2K-Hopkinton (pantera7)",9,2,0,544,447,97,1474.996,1596.672
-3,43918,"D2K-Westborough",9,10,0,900,944,-44,1506.247,1473.083
-4,44704,"D2K-Dover Sherborn (driscoll)",8,9,0,901,947,-46,1512.136,1458.065
-5,44634,"D2K-Ashland (blue)",3,10,0,544,656,-112,1522.434,1405.882
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
+1,43937,"D2K-Brookline (red)",11,1,0,609,442,167,1474.606,1631.073,159.7,1437
+2,45638,"D2K-Hopkinton (pantera7)",9,2,0,544,447,97,1474.996,1596.672,136.8,1368
+3,43918,"D2K-Westborough",9,10,0,900,944,-44,1506.247,1473.083,107.8,1078
+4,44704,"D2K-Dover Sherborn (driscoll)",8,9,0,901,947,-46,1512.136,1458.065,104.0,1040
+5,44634,"D2K-Ashland (blue)",3,10,0,544,656,-112,1522.434,1405.882,73.2,805

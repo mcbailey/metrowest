@@ -17,23 +17,27 @@
       "pf": 542,
       "pa": 399,
       "diff": 143,
-      "sos": 1469.307,
-      "power": 1613.539,
-      "rank": 1
+      "sos": 1470.82,
+      "power": 1613.918,
+      "rank": 1,
+      "mw_rating": 76.3,
+      "mw_points": 763
     },
     {
       "teamno": "43233",
       "name": "D4H-Barnstable  (red)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 2,
       "ties": 0,
-      "pf": 400,
-      "pa": 352,
-      "diff": 48,
-      "sos": 1489.927,
-      "power": 1570.97,
-      "rank": 2
+      "pf": 441,
+      "pa": 383,
+      "diff": 58,
+      "sos": 1489.329,
+      "power": 1583.307,
+      "rank": 2,
+      "mw_rating": 68.4,
+      "mw_points": 752
     },
     {
       "teamno": "43202",
@@ -45,9 +49,11 @@
       "pf": 496,
       "pa": 454,
       "diff": 42,
-      "sos": 1509.076,
-      "power": 1525.649,
-      "rank": 3
+      "sos": 1510.74,
+      "power": 1526.065,
+      "rank": 3,
+      "mw_rating": 60.2,
+      "mw_points": 602
     },
     {
       "teamno": "43203",
@@ -59,9 +65,11 @@
       "pf": 399,
       "pa": 389,
       "diff": 10,
-      "sos": 1483.867,
-      "power": 1496.826,
-      "rank": 4
+      "sos": 1485.532,
+      "power": 1497.242,
+      "rank": 4,
+      "mw_rating": 52.8,
+      "mw_points": 528
     },
     {
       "teamno": "44639",
@@ -73,9 +81,11 @@
       "pf": 352,
       "pa": 466,
       "diff": -114,
-      "sos": 1509.567,
-      "power": 1402.582,
-      "rank": 5
+      "sos": 1510.955,
+      "power": 1402.929,
+      "rank": 5,
+      "mw_rating": 35.6,
+      "mw_points": 356
     }
   ]
 }

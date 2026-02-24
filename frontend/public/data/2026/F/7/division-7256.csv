@@ -1,6 +1,6 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power
-1,43229,"D4H-Barnstable  (red)",10,1,0,584,369,215,1474.967,1628.573
-2,43343,"D4H-Monomoy (blue/goodnow)",7,2,0,493,318,175,1499.349,1603.342
-3,43130,"D4H-Barrington RI (gold)",8,3,0,421,338,83,1485.684,1563.207
-4,44982,"D4H-Acushnet - Fairhaven (ashley)",3,4,0,234,207,27,1509.261,1499.009
-5,43485,"D4H-Rochester",1,8,0,257,390,-133,1548.305,1423.267
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
+1,43229,"D4H-Barnstable  (red)",10,1,0,584,369,215,1474.967,1628.573,78.5,863
+2,43343,"D4H-Monomoy (blue/goodnow)",7,2,0,493,318,175,1499.349,1603.342,61.3,674
+3,43130,"D4H-Barrington RI (gold)",8,3,0,421,338,83,1485.684,1563.207,66.2,662
+4,44982,"D4H-Acushnet - Fairhaven (ashley)",3,4,0,234,207,27,1509.261,1499.009,50.1,351
+5,43485,"D4H-Rochester",1,8,0,257,390,-133,1548.305,1423.267,27.0,297
