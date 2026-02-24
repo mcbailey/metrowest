@@ -11,8 +11,9 @@
     "pf": 216,
     "pa": 237,
     "diff": -21,
-    "sos": 1498.916,
-    "power": 1465.765,
+    "sos": 1548.191,
+    "sos_adj": 1598.191,
+    "power": 1525.059,
     "rank": 7,
     "mw_rating": 70.8,
     "mw_points": 566,
@@ -21,7 +22,7 @@
     "grade": 3,
     "gender": "M",
     "games_played_total": 8,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -206,6 +207,25 @@
       "divisionno": "7630",
       "division_name": "3rd Boys - Division 3",
       "home_teamno": "45523",
+      "away_teamno": "46149",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "46149",
+      "opponent_name": "2NDM-Everett (white)"
+    },
+    {
+      "gameno": "44502",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "5:50 PM",
+      "location": "Jr. Dana Barros-2",
+      "divisionno": "7630",
+      "division_name": "3rd Boys - Division 3",
+      "home_teamno": "45219",
       "away_teamno": "45783",
       "home_score": null,
       "away_score": null,
@@ -213,8 +233,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "45523",
-      "opponent_name": "2NDM-Mass Premier (king philip)"
+      "opponent_teamno": "45219",
+      "opponent_name": "2NDM-North Quincy (costa)"
     }
   ]
 }

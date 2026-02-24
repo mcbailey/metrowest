@@ -11,8 +11,9 @@
     "pf": 154,
     "pa": 196,
     "diff": -42,
-    "sos": 1457.726,
-    "power": 1439.434,
+    "sos": 1523.504,
+    "sos_adj": 1573.504,
+    "power": 1535.017,
     "rank": 5,
     "mw_rating": 63.9,
     "mw_points": 447,
@@ -21,7 +22,7 @@
     "grade": 3,
     "gender": "M",
     "games_played_total": 7,
-    "games_scheduled_total": 3
+    "games_scheduled_total": 4
   },
   "past_games": [
     {
@@ -198,6 +199,25 @@
       "opponent_name": "D4P-North Quincy (jamieson)"
     },
     {
+      "gameno": "44501",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "3:30 PM",
+      "location": "Jr. Dana Barros-2",
+      "divisionno": "7630",
+      "division_name": "3rd Boys - Division 3",
+      "home_teamno": "45523",
+      "away_teamno": "46149",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45523",
+      "opponent_name": "2NDM-Mass Premier (king philip)"
+    },
+    {
       "gameno": "44500",
       "date": "2026-02-28",
       "dow": "Sat",
@@ -206,7 +226,7 @@
       "divisionno": "7630",
       "division_name": "3rd Boys - Division 3",
       "home_teamno": "45715",
-      "away_teamno": "46149",
+      "away_teamno": "45508",
       "home_score": null,
       "away_score": null,
       "team_score": null,

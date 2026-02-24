@@ -1,6 +1,6 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
-1,44994,"D6M-Acushnet - Fairhaven (ryan)",9,2,0,426,288,138,1500.848,1604.688,30.2,332
-2,43265,"D6M-Dartmouth (white)",8,4,0,401,331,70,1502.303,1569.754,24.5,269
-3,43210,"D6M-FLBC (blue)",6,3,0,313,267,46,1494.71,1549.683,25.1,226
-4,43133,"D6M-Barrington RI (blue)",5,5,0,295,320,-25,1521.722,1490.864,20.7,207
-5,43154,"D6M-Seekonk (blessing)",4,7,0,340,368,-28,1489.782,1466.37,15.2,167
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,sos_adj,power,mw_rating,mw_points
+1,44994,"D6M-Acushnet - Fairhaven (ryan)",9,2,0,426,288,138,1401.081,1301.081,1425.044,30.3,333
+2,43210,"D6M-FLBC (blue)",6,3,0,313,267,46,1395.112,1295.112,1416.555,25.2,227
+3,43265,"D6M-Dartmouth (white)",8,4,0,401,331,70,1401.222,1301.222,1408.38,24.6,270
+4,43133,"D6M-Barrington RI (blue)",5,5,0,295,320,-25,1411.796,1311.796,1372.245,20.8,208
+5,43154,"D6M-Seekonk (blessing)",4,7,0,340,368,-28,1392.188,1292.188,1362.967,15.3,168

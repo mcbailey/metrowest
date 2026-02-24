@@ -11,9 +11,10 @@
     "pf": 158,
     "pa": 243,
     "diff": -85,
-    "sos": 1483.959,
-    "power": 1419.971,
-    "rank": 7,
+    "sos": 1491.779,
+    "sos_adj": 1491.779,
+    "power": 1467.307,
+    "rank": 6,
     "mw_rating": 28.2,
     "mw_points": 254,
     "divisionno": "7102",
@@ -21,7 +22,7 @@
     "grade": 3,
     "gender": "F",
     "games_played_total": 9,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -215,6 +216,25 @@
       "is_home": false,
       "opponent_teamno": "45521",
       "opponent_name": "2ND GR-Mass Premier (norfolk)"
+    },
+    {
+      "gameno": "46453",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "2:20 PM",
+      "location": "Jr. Dana Barros-4",
+      "divisionno": "7102",
+      "division_name": "3rd Girls - Division 4",
+      "home_teamno": "45514",
+      "away_teamno": "43851",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45514",
+      "opponent_name": "2ND GR-Mansfield (green)"
     },
     {
       "gameno": "44539",

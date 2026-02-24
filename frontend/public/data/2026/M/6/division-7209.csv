@@ -1,7 +1,7 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
-1,43537,"D6Q-Northboro (white)",10,1,0,477,267,210,1469.225,1633.661,31.6,347
-2,45640,"D6Q-Hopkinton (donohue)",10,1,0,387,253,134,1484.516,1624.578,32.6,358
-3,44703,"D6Q-Dover Sherborn (shannon)",6,5,0,349,331,18,1508.229,1508.428,20.7,228
-4,44633,"D6Q-Ashland (white)",4,6,0,279,215,64,1501.678,1501.152,16.0,160
-5,44163,"D6Q-Holliston (lyskowski-white)",2,6,0,154,275,-121,1515.967,1430.203,11.8,94
-6,44373,"D6Q-Westborough (macomber)",2,8,0,204,351,-147,1529.057,1411.717,10.9,109
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,sos_adj,power,mw_rating,mw_points
+1,45640,"D6Q-Hopkinton (donohue)",10,1,0,387,253,134,1390.036,1290.036,1453.477,32.6,358
+2,43537,"D6Q-Northboro (white)",10,1,0,477,267,210,1381.604,1281.604,1451.797,31.6,347
+3,44703,"D6Q-Dover Sherborn (shannon)",6,5,0,349,331,18,1405.761,1305.761,1372.096,20.7,228
+4,44633,"D6Q-Ashland (white)",4,6,0,279,215,64,1404.958,1304.958,1358.538,16.0,160
+5,44163,"D6Q-Holliston (lyskowski-white)",2,6,0,154,275,-121,1406.807,1306.807,1343.577,11.8,94
+6,44373,"D6Q-Westborough (macomber)",2,8,0,204,351,-147,1414.576,1314.576,1340.546,10.9,109

@@ -11,9 +11,10 @@
     "pf": 358,
     "pa": 411,
     "diff": -53,
-    "sos": 1504.713,
-    "power": 1439.912,
-    "rank": 7,
+    "sos": 1601.604,
+    "sos_adj": 1696.604,
+    "power": 1583.707,
+    "rank": 8,
     "mw_rating": 105.3,
     "mw_points": 1053,
     "divisionno": "7098",
@@ -21,7 +22,7 @@
     "grade": 3,
     "gender": "M",
     "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -217,23 +218,42 @@
   ],
   "future_games": [
     {
+      "gameno": "44459",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "2:00 PM",
+      "location": "Jr Mass Premier-5",
+      "divisionno": "7633",
+      "division_name": "3rd Boys - Division 4",
+      "home_teamno": "44974",
+      "away_teamno": "45522",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44974",
+      "opponent_name": "D4P-Foxboro (gold)"
+    },
+    {
       "gameno": "44463",
       "date": "2026-03-01",
       "dow": "Sun",
-      "starttime": "3:10 PM",
-      "location": "Jr Mass Premier-4",
+      "starttime": "12:10 PM",
+      "location": "Jr Mass Premier-3",
       "divisionno": "7632",
       "division_name": "3rd Boys - Division 2",
-      "home_teamno": "45522",
-      "away_teamno": "43212",
+      "home_teamno": "43212",
+      "away_teamno": "44657",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "43212",
-      "opponent_name": "D2N-FLBC (white)"
+      "opponent_teamno": "44657",
+      "opponent_name": "D2M-Attleboro (black)"
     }
   ]
 }

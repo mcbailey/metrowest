@@ -11,9 +11,10 @@
     "pf": 196,
     "pa": 254,
     "diff": -58,
-    "sos": 1471.908,
-    "power": 1418.653,
-    "rank": 7,
+    "sos": 1530.296,
+    "sos_adj": 1580.296,
+    "power": 1517.55,
+    "rank": 6,
     "mw_rating": 59.7,
     "mw_points": 537,
     "divisionno": "7630",
@@ -225,15 +226,15 @@
       "divisionno": "7630",
       "division_name": "3rd Boys - Division 3",
       "home_teamno": "45523",
-      "away_teamno": "45783",
+      "away_teamno": "46149",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "45783",
-      "opponent_name": "2NDH-Everett (red)"
+      "opponent_teamno": "46149",
+      "opponent_name": "2NDM-Everett (white)"
     }
   ]
 }

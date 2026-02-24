@@ -1,6 +1,6 @@
-rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points
-1,43852,"D5H-Westport (medeiros)",7,3,0,385,336,49,1495.428,1565.688,41.9,419
-2,43094,"D5H-Swansea (black)",5,6,0,378,329,49,1486.536,1525.046,28.5,285
-3,43114,"D5H-Barrington RI (blue)",6,5,0,358,323,35,1497.32,1519.984,34.7,382
-4,44824,"D5H-Bourne (purple/canfield)",2,7,0,258,341,-83,1517.439,1415.766,23.0,230
-5,44285,"D5H-Rochester",1,8,0,240,352,-112,1527.357,1407.248,13.3,133
+rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,sos_adj,power,mw_rating,mw_points
+1,43852,"D5H-Westport (medeiros)",7,3,0,385,336,49,1446.396,1396.396,1477.996,41.9,419
+2,43094,"D5H-Swansea (black)",5,6,0,378,329,49,1442.309,1392.309,1448.11,28.5,285
+3,43114,"D5H-Barrington RI (blue)",6,5,0,358,323,35,1448.41,1398.41,1443.856,34.7,382
+4,44285,"D5H-Rochester",1,8,0,240,352,-112,1464.43,1414.43,1386.565,13.3,133
+5,44824,"D5H-Bourne (purple/canfield)",2,7,0,258,341,-83,1458.955,1408.955,1386.245,23.0,230
