@@ -508,7 +508,7 @@ export function TeamPage() {
     async function loadCompareDivisions() {
       try {
         const payload = await loadJson<DivisionsData>(
-          `data////divisions.json`
+          `data/${activeSeason}/${currentTeam.summary.gender}/${currentTeam.summary.grade}/divisions.json`
         );
         if (!active) return;
 
@@ -559,7 +559,7 @@ export function TeamPage() {
     async function loadTeamsInDivision() {
       try {
         const division = await loadJson<DivisionRankingData>(
-          `data////division-.json`
+          `data/${activeSeason}/${currentTeam.summary.gender}/${currentTeam.summary.grade}/division-${selectedCompareDivision}.json`
         );
         if (!active) return;
 
