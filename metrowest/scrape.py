@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+from dataclasses import replace
 import json
 import logging
 from datetime import date
@@ -162,6 +163,7 @@ def scrape_season(
     grades: list[int],
     genders: list[str],
     db_path: Path,
+    ranking_config = RANKING_CONFIG,
 ) -> None:
     api = SportsiteAPI(SCRAPE_CONFIG)
     conn = connect_db(db_path)
@@ -238,6 +240,20 @@ def scrape_season(
     snapshot_date = date.today().isoformat()
     snapshot_rows: list[dict[str, Any]] = []
     divisions = get_divisions(conn, yrseason)
+
+    team_meta_by_teamno = {
+        str(row["teamno"]): dict(row)
+        for row in conn.execute(
+            """
+            SELECT t.teamno, t.grade, t.gender, t.divisionno, d.divisiontier
+            FROM teams t
+            JOIN divisions d ON d.divisionno = t.divisionno
+            WHERE t.yrseason = ?
+            """,
+            (yrseason,),
+        )
+    }
+
     for division in divisions:
         divisionno = str(division["divisionno"])
         teams = [dict(r) for r in get_teams_for_division(conn, divisionno)]
@@ -246,7 +262,13 @@ def scrape_season(
 
         teamnos = [str(t["teamno"]) for t in teams]
         games = [dict(r) for r in get_games_for_teams(conn, teamnos, yrseason)]
-        ranked = compute_division_rankings(teams, games, RANKING_CONFIG)
+        ranked = compute_division_rankings(
+            teams,
+            games,
+            ranking_config,
+            team_meta_by_teamno=team_meta_by_teamno,
+            grade=int(division["grade"]),
+        )
 
         for row in ranked:
             standings_metrics = standings_metrics_by_team.get(str(row["teamno"]), {})
@@ -264,6 +286,7 @@ def scrape_season(
                     "pa": row["pa"],
                     "diff": row["diff"],
                     "sos": round(float(row["sos"]), 3),
+                    "sos_adj": round(float(row.get("sos_adj", row["sos"])), 3),
                     "power": round(float(row["power"]), 3),
                     "rank": int(row["rank"]),
                     "mw_rating": standings_metrics.get("mw_rating"),
@@ -283,6 +306,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--grades", default=None, help="Comma-separated grades, e.g. 3,4,5,6,7,8")
     parser.add_argument("--genders", default=None, help="Comma-separated genders, e.g. M,F")
     parser.add_argument("--db-path", default=str(SCRAPE_CONFIG.db_path))
+    parser.add_argument("--ranking-profile", choices=("classic", "division-aware"), default=RANKING_CONFIG.profile)
     parser.add_argument("--out-json", default=None, help="Optional output folder to also generate JSON")
     parser.add_argument("--log-level", default="INFO")
     return parser.parse_args()
@@ -294,7 +318,8 @@ def main() -> None:
     grades = parse_grades(args.grades, SCRAPE_CONFIG.default_grades)
     genders = parse_genders(args.genders, SCRAPE_CONFIG.default_genders)
     db_path = Path(args.db_path)
-    scrape_season(args.yrseason, grades, genders, db_path)
+    ranking_config = replace(RANKING_CONFIG, profile=args.ranking_profile)
+    scrape_season(args.yrseason, grades, genders, db_path, ranking_config=ranking_config)
 
     if args.out_json:
         from .build_json import build_json

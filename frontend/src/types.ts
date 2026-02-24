@@ -28,6 +28,7 @@ export type RankingTeam = {
   pa: number;
   diff: number;
   sos: number;
+  sos_adj?: number;
   power: number;
   rank: number;
   mw_rating?: number | null;
@@ -59,6 +60,7 @@ export type TeamData = {
     pa: number;
     diff: number;
     sos: number;
+    sos_adj?: number;
     power: number;
     rank: number | null;
     mw_rating?: number | null;

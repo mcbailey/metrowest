@@ -138,6 +138,8 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
   };
 
   const avgLabel = (value: number, games: number): string => avg(value, games).toFixed(1);
+  const sosTooltip = (team: DisplayTeam): string =>
+    `Division-adjusted SoS: ${(team.sos_adj ?? team.sos).toFixed(1)}`;
 
   return (
     <div className="table-wrap" ref={tableWrapRef}>
@@ -177,7 +179,12 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
               </button>
             </th>
             <th>
-              <button type="button" className="sort-btn" onClick={() => setSort("sos")}>
+              <button
+                type="button"
+                className="sort-btn"
+                onClick={() => setSort("sos")}
+                title="Hover SoS cells to see Division-Adjusted SoS"
+              >
                 SoS <span>{arrow("sos")}</span>
               </button>
             </th>
@@ -224,7 +231,7 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
                 <td>{team.wins}</td>
                 <td>{team.losses}</td>
                 <td>{team.ties}</td>
-                <td>{team.sos.toFixed(1)}</td>
+                <td title={sosTooltip(team)}>{team.sos.toFixed(1)}</td>
                 <td>{team.power.toFixed(1)}</td>
                 <td>{team.mw_rating === null || team.mw_rating === undefined ? "-" : team.mw_rating.toFixed(1)}</td>
                 <td>{team.mw_points === null || team.mw_points === undefined ? "-" : team.mw_points}</td>
