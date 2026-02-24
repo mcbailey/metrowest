@@ -28,6 +28,15 @@ def to_int(value: Any) -> int | None:
         return None
 
 
+def to_float(value: Any) -> float | None:
+    if value in (None, "", "null"):
+        return None
+    try:
+        return float(str(value).strip())
+    except (ValueError, TypeError):
+        return None
+
+
 def normalize_date(value: str | None) -> str | None:
     if not value:
         return None

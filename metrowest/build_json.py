@@ -35,12 +35,19 @@ def _parse_raw(raw_json: str | None) -> dict[str, Any]:
         return {}
 
 
-def _snapshot_rows(conn, yrseason: str, snapshot_date: str):
+def _snapshots_has_mw_columns(conn) -> bool:
+    cols = {row["name"] for row in conn.execute("PRAGMA table_info(snapshots)")}
+    return "mw_rating" in cols and "mw_points" in cols
+
+
+def _snapshot_rows(conn, yrseason: str, snapshot_date: str, include_mw: bool):
+    mw_cols = "s.mw_rating, s.mw_points," if include_mw else "NULL AS mw_rating, NULL AS mw_points,"
     return list(
         conn.execute(
-            """
+            f"""
             SELECT s.snapshot_date, s.yrseason, s.grade, s.gender, s.divisionno, s.teamno,
                    s.wins, s.losses, s.ties, s.pf, s.pa, s.diff, s.sos, s.power, s.rank,
+                   {mw_cols}
                    t.name AS team_name, t.town AS town,
                    d.name AS division_name, d.divisiontier
             FROM snapshots s
@@ -76,7 +83,8 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
         conn.close()
         return
 
-    rows = [dict(r) for r in _snapshot_rows(conn, yrseason, snapshot_date)]
+    include_mw = _snapshots_has_mw_columns(conn)
+    rows = [dict(r) for r in _snapshot_rows(conn, yrseason, snapshot_date, include_mw)]
 
     divisions_by_group: dict[tuple[str, int], dict[str, dict]] = defaultdict(dict)
     division_rows: dict[str, list[dict]] = defaultdict(list)
@@ -113,6 +121,8 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
                 "sos": round(float(r["sos"]), 3),
                 "power": round(float(r["power"]), 3),
                 "rank": r["rank"],
+                "mw_rating": round(float(r["mw_rating"]), 1) if r.get("mw_rating") is not None else None,
+                "mw_points": int(r["mw_points"]) if r.get("mw_points") is not None else None,
             }
         )
 
@@ -161,10 +171,10 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
 
         csv_path = out_dir / yrseason / meta_row["gender"] / str(meta_row["grade"]) / f"division-{dno}.csv"
         ensure_dir(csv_path.parent)
-        csv_lines = ["rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power"]
+        csv_lines = ["rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,power,mw_rating,mw_points"]
         for t in teams:
             csv_lines.append(
-                f"{t['rank']},{t['teamno']},\"{t['name']}\",{t['wins']},{t['losses']},{t['ties']},{t['pf']},{t['pa']},{t['diff']},{t['sos']},{t['power']}"
+                f"{t['rank']},{t['teamno']},\"{t['name']}\",{t['wins']},{t['losses']},{t['ties']},{t['pf']},{t['pa']},{t['diff']},{t['sos']},{t['power']},{t.get('mw_rating', '') if t.get('mw_rating') is not None else ''},{t.get('mw_points', '') if t.get('mw_points') is not None else ''}"
             )
         csv_path.write_text("\n".join(csv_lines) + "\n", encoding="utf-8")
 
@@ -298,6 +308,8 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
             "sos": round(float(snapshot["sos"]), 3) if snapshot else 0.0,
             "power": round(float(snapshot["power"]), 3) if snapshot else 0.0,
             "rank": snapshot["rank"] if snapshot else None,
+            "mw_rating": round(float(snapshot["mw_rating"]), 1) if snapshot and snapshot.get("mw_rating") is not None else None,
+            "mw_points": int(snapshot["mw_points"]) if snapshot and snapshot.get("mw_points") is not None else None,
             "divisionno": snapshot["divisionno"] if snapshot else None,
             "division_name": snapshot["division_name"] if snapshot else None,
             "grade": int(snapshot["grade"]) if snapshot else None,

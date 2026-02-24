@@ -23,7 +23,7 @@ from .db import (
     upsert_team_game,
 )
 from .ranking import compute_division_rankings
-from .util import game_hash_id, normalize_date, parse_genders, parse_grades, setup_logging, to_int
+from .util import game_hash_id, normalize_date, parse_genders, parse_grades, setup_logging, to_float, to_int
 
 LOG = logging.getLogger(__name__)
 
@@ -170,6 +170,8 @@ def scrape_season(
     upsert_season(conn, yrseason, f"Season {yrseason}", True)
     conn.commit()
 
+    standings_metrics_by_team: dict[str, dict[str, float | int | None]] = {}
+
     for gender in genders:
         for grade in grades:
             LOG.info("discovering divisions yrseason=%s grade=%s gender=%s", yrseason, grade, gender)
@@ -198,6 +200,12 @@ def scrape_season(
                     seen_teamnos.add(teamno)
                     team_name = str(t.get("teamname") or teamno).strip()
                     town = str(t.get("town") or "").strip() or None
+
+                    standings_metrics_by_team[teamno] = {
+                        "mw_rating": to_float(t.get("rankthisyr")),
+                        "mw_points": to_int(t.get("rankpoints")),
+                    }
+
                     upsert_team(conn, teamno, yrseason, grade, gender, divisionno, town, team_name)
 
                 for teamno in seen_teamnos:
@@ -241,6 +249,7 @@ def scrape_season(
         ranked = compute_division_rankings(teams, games, RANKING_CONFIG)
 
         for row in ranked:
+            standings_metrics = standings_metrics_by_team.get(str(row["teamno"]), {})
             snapshot_rows.append(
                 {
                     "yrseason": yrseason,
@@ -257,6 +266,8 @@ def scrape_season(
                     "sos": round(float(row["sos"]), 3),
                     "power": round(float(row["power"]), 3),
                     "rank": int(row["rank"]),
+                    "mw_rating": standings_metrics.get("mw_rating"),
+                    "mw_points": standings_metrics.get("mw_points"),
                 }
             )
 
