@@ -291,3 +291,24 @@ h3 {
   transform: translate(-50%, -50%);
   z-index: 3;
 }
+
+.game-tag {
+  display: inline-block;
+  padding: 0.12rem 0.42rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.game-tag-win {
+  color: #1f6a3b;
+  background: #e7f7ed;
+  border: 1px solid #b7e4c6;
+}
+
+.game-tag-loss {
+  color: #9e3042;
+  background: #fff1f3;
+  border: 1px solid #f4c5ce;
+}
