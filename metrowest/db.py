@@ -98,11 +98,20 @@ def init_db(conn: sqlite3.Connection) -> None:
           sos REAL NOT NULL,
           power REAL NOT NULL,
           rank INT NOT NULL,
+          mw_rating REAL,
+          mw_points INT,
           PRIMARY KEY(snapshot_date, teamno, divisionno)
         );
         CREATE INDEX IF NOT EXISTS idx_snapshots_division ON snapshots(snapshot_date, yrseason, gender, grade, divisionno);
         """
     )
+
+    snapshot_cols = {row["name"] for row in conn.execute("PRAGMA table_info(snapshots)")}
+    if "mw_rating" not in snapshot_cols:
+        conn.execute("ALTER TABLE snapshots ADD COLUMN mw_rating REAL")
+    if "mw_points" not in snapshot_cols:
+        conn.execute("ALTER TABLE snapshots ADD COLUMN mw_points INT")
+
     conn.commit()
 
 
@@ -303,8 +312,8 @@ def replace_snapshots(conn: sqlite3.Connection, snapshot_date: str, rows: list[d
         """
         INSERT INTO snapshots(
           snapshot_date, yrseason, grade, gender, divisionno, teamno,
-          wins, losses, ties, pf, pa, diff, sos, power, rank
-        ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+          wins, losses, ties, pf, pa, diff, sos, power, rank, mw_rating, mw_points
+        ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         [
             (
@@ -323,6 +332,8 @@ def replace_snapshots(conn: sqlite3.Connection, snapshot_date: str, rows: list[d
                 r["sos"],
                 r["power"],
                 r["rank"],
+                r.get("mw_rating"),
+                r.get("mw_points"),
             )
             for r in rows
         ],

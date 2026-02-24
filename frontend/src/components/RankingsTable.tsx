@@ -14,7 +14,20 @@ type Props = {
 };
 
 type SortDir = "asc" | "desc";
-type SortKey = "rank" | "subgroup" | "name" | "wins" | "losses" | "ties" | "sos" | "power" | "pfg" | "pag" | "diff";
+type SortKey =
+  | "rank"
+  | "subgroup"
+  | "name"
+  | "wins"
+  | "losses"
+  | "ties"
+  | "sos"
+  | "power"
+  | "mw_rating"
+  | "mw_points"
+  | "pfg"
+  | "pag"
+  | "diff";
 
 function gamesPlayed(team: RankingTeam): number {
   return team.wins + team.losses + team.ties;
@@ -25,10 +38,7 @@ function avg(value: number, games: number): number {
 }
 
 function defaultDirFor(key: SortKey): SortDir {
-  if (key === "name" || key === "subgroup" || key === "rank") {
-    return "asc";
-  }
-  if (key === "losses") {
+  if (key === "name" || key === "subgroup" || key === "rank" || key === "losses") {
     return "asc";
   }
   return "desc";
@@ -36,6 +46,10 @@ function defaultDirFor(key: SortKey): SortDir {
 
 function compareStrings(a: string | undefined, b: string | undefined): number {
   return (a ?? "").toLowerCase().localeCompare((b ?? "").toLowerCase());
+}
+
+function nullableNumber(value: number | null | undefined, missingValue: number): number {
+  return value === null || value === undefined ? missingValue : value;
 }
 
 export function RankingsTable({ teams, showGroup = false, queryString = "" }: Props) {
@@ -76,6 +90,12 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
           break;
         case "power":
           cmp = a.power - b.power;
+          break;
+        case "mw_rating":
+          cmp = nullableNumber(a.mw_rating, -1e9) - nullableNumber(b.mw_rating, -1e9);
+          break;
+        case "mw_points":
+          cmp = nullableNumber(a.mw_points, -1e9) - nullableNumber(b.mw_points, -1e9);
           break;
         case "pfg":
           cmp = avg(a.pf, aGp) - avg(b.pf, bGp);
@@ -150,7 +170,7 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
               </button>
             </th>
             <th>
-              <button type="button" className="sort-btn" onClick={() => setSort("sos")}> 
+              <button type="button" className="sort-btn" onClick={() => setSort("sos")}>
                 SoS <span>{arrow("sos")}</span>
               </button>
             </th>
@@ -160,12 +180,22 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
               </button>
             </th>
             <th>
-              <button type="button" className="sort-btn" onClick={() => setSort("pfg")}> 
+              <button type="button" className="sort-btn" onClick={() => setSort("mw_rating")}>
+                MW Rating <span>{arrow("mw_rating")}</span>
+              </button>
+            </th>
+            <th>
+              <button type="button" className="sort-btn" onClick={() => setSort("mw_points")}>
+                MW Points <span>{arrow("mw_points")}</span>
+              </button>
+            </th>
+            <th>
+              <button type="button" className="sort-btn" onClick={() => setSort("pfg")}>
                 PF/G <span>{arrow("pfg")}</span>
               </button>
             </th>
             <th>
-              <button type="button" className="sort-btn" onClick={() => setSort("pag")}> 
+              <button type="button" className="sort-btn" onClick={() => setSort("pag")}>
                 PA/G <span>{arrow("pag")}</span>
               </button>
             </th>
@@ -189,6 +219,8 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
                 <td>{team.ties}</td>
                 <td>{team.sos.toFixed(1)}</td>
                 <td>{team.power.toFixed(1)}</td>
+                <td>{team.mw_rating === null || team.mw_rating === undefined ? "-" : team.mw_rating.toFixed(1)}</td>
+                <td>{team.mw_points === null || team.mw_points === undefined ? "-" : team.mw_points}</td>
                 <td>{avgLabel(team.pf, gp)}</td>
                 <td>{avgLabel(team.pa, gp)}</td>
                 <td>{team.diff}</td>

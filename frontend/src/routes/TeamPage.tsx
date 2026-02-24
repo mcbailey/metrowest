@@ -38,6 +38,14 @@ type TeamInsights = {
   powerMax: number;
   volatilityMin: number;
   volatilityMax: number;
+  divisionFit: DivisionFit | null;
+};
+
+type DivisionFit = {
+  verdict: string;
+  explainer: string;
+  targetDivisionTier: number;
+  targetBaseline: number;
 };
 
 type CompareDivisionOption = {
@@ -349,6 +357,50 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
     for (const t of sorted.slice(-n)) bottom15ByTier.add(t.teamno);
   }
 
+  const currentDivisionTier = divisionTierByNo.get(divisionno) ?? null;
+  const tierBaselineByTier = new Map<number, number>();
+  for (const [tier, teams] of teamsByTier.entries()) {
+    const ratings = teams
+      .map((t) => t.mw_rating)
+      .filter((v): v is number => v !== null && v !== undefined && Number.isFinite(v));
+    if (ratings.length) {
+      tierBaselineByTier.set(tier, median(ratings));
+    }
+  }
+
+  let divisionFit: DivisionFit | null = null;
+  const currentMwRating = team.summary.mw_rating;
+  if (currentDivisionTier !== null && currentMwRating !== null && currentMwRating !== undefined) {
+    const higherTier = currentDivisionTier - 1;
+    const lowerTier = currentDivisionTier + 1;
+    const higherBaseline = tierBaselineByTier.get(higherTier);
+    const lowerBaseline = tierBaselineByTier.get(lowerTier);
+
+    if (higherBaseline !== undefined && currentMwRating > higherBaseline - 5) {
+      divisionFit = {
+        verdict: "Ready for Promotion",
+        targetDivisionTier: higherTier,
+        targetBaseline: higherBaseline,
+        explainer: `Your current rating (${currentMwRating.toFixed(1)}) is trending within the baseline range for Division ${higherTier}.`,
+      };
+    } else if (lowerBaseline !== undefined && currentMwRating < lowerBaseline + 5) {
+      divisionFit = {
+        verdict: "Division At Risk",
+        targetDivisionTier: lowerTier,
+        targetBaseline: lowerBaseline,
+        explainer: `Your current rating (${currentMwRating.toFixed(1)}) is trending within the baseline range for Division ${lowerTier}.`,
+      };
+    } else if (higherBaseline !== undefined || lowerBaseline !== undefined) {
+      const currentBaseline = tierBaselineByTier.get(currentDivisionTier) ?? currentMwRating;
+      divisionFit = {
+        verdict: "On Pace for Current Division",
+        targetDivisionTier: currentDivisionTier,
+        targetBaseline: currentBaseline,
+        explainer: `Your current rating (${currentMwRating.toFixed(1)}) is tracking with the Division ${currentDivisionTier} baseline.`,
+      };
+    }
+  }
+
   const overallTop25 = new Set<string>();
   {
     const sortedAll = [...rankedWithDivision].sort((a, b) => b.team.power - a.team.power);
@@ -473,6 +525,7 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
     powerMax,
     volatilityMin,
     volatilityMax,
+    divisionFit,
   };
 }
 
@@ -770,10 +823,22 @@ export function TeamPage() {
         </div>
         <div>SoS: {team.summary.sos.toFixed(1)}</div>
         <div>Power: {team.summary.power.toFixed(1)}</div>
+        <div>MW Rating: {team.summary.mw_rating === null || team.summary.mw_rating === undefined ? "-" : team.summary.mw_rating.toFixed(1)}</div>
+        <div>MW Points: {team.summary.mw_points === null || team.summary.mw_points === undefined ? "-" : team.summary.mw_points}</div>
         <div>PF/G: {avg(team.summary.pf, gp)}</div>
         <div>PA/G: {avg(team.summary.pa, gp)}</div>
         <div>Diff: {team.summary.diff}</div>
       </section>
+
+      {insights?.divisionFit ? (
+        <section className="panel">
+          <h3>Division Fit</h3>
+          <p className="meta compact"><strong>{insights.divisionFit.verdict}</strong></p>
+          <p className="meta">
+            {insights.divisionFit.explainer}
+          </p>
+        </section>
+      ) : null}
 
       <section className="panel">
         <h3>Past Games</h3>

@@ -30,6 +30,8 @@ export type RankingTeam = {
   sos: number;
   power: number;
   rank: number;
+  mw_rating?: number | null;
+  mw_points?: number | null;
 };
 
 export type DivisionRankingData = {
@@ -59,6 +61,8 @@ export type TeamData = {
     sos: number;
     power: number;
     rank: number | null;
+    mw_rating?: number | null;
+    mw_points?: number | null;
     divisionno: string | null;
     division_name: string | null;
     grade: number | null;
