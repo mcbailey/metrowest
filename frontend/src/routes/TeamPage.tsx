@@ -24,6 +24,7 @@ type TeamInsights = {
   divisionAvgPaPerGame: number;
   qualityWins: number;
   badLosses: number;
+  gameOutcomeTags: Record<string, "Quality Win" | "Bad Loss">;
   seasonMarginAvg: number;
   last3MarginAvg: number;
   trendDelta: number;
@@ -261,6 +262,7 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
   const finals = finalGames(team.past_games);
   let qualityWins = 0;
   let badLosses = 0;
+  const gameOutcomeTags: Record<string, "Quality Win" | "Bad Loss"> = {};
 
   for (const g of finals) {
     const opponentTeamNo = g.game.opponent_teamno;
@@ -290,10 +292,12 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
 
     if (g.teamScore > g.oppScore && (giantKiller || apex || outperformer)) {
       qualityWins += 1;
+      gameOutcomeTags[g.game.gameno] = "Quality Win";
     }
 
     if (g.teamScore < g.oppScore && (dropLoss || floor || stumble)) {
       badLosses += 1;
+      gameOutcomeTags[g.game.gameno] = "Bad Loss";
     }
   }
 
@@ -331,6 +335,7 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
     divisionAvgPaPerGame,
     qualityWins,
     badLosses,
+    gameOutcomeTags,
     seasonMarginAvg,
     last3MarginAvg,
     trendDelta,
@@ -466,12 +471,14 @@ export function TeamPage() {
                 <th>Team</th>
                 <th>Opp</th>
                 <th>W/L</th>
+                <th>Tag</th>
                 <th>Location</th>
               </tr>
             </thead>
             <tbody>
               {team.past_games.map((g) => {
                 const scores = teamAndOpponentScores(g);
+                const tag = insights?.gameOutcomeTags[g.gameno];
                 return (
                   <tr key={g.gameno}>
                     <td>{g.date ?? "TBD"}</td>
@@ -479,6 +486,15 @@ export function TeamPage() {
                     <td>{scores.team ?? "-"}</td>
                     <td>{scores.opp ?? "-"}</td>
                     <td>{outcome(scores.team, scores.opp)}</td>
+                    <td>
+                      {tag ? (
+                        <span className={`game-tag ${tag === "Quality Win" ? "game-tag-win" : "game-tag-loss"}`}>
+                          {tag}
+                        </span>
+                      ) : (
+                        "-"
+                      )}
+                    </td>
                     <td>{g.location ?? "TBD"}</td>
                   </tr>
                 );
