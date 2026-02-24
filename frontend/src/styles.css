@@ -237,8 +237,6 @@ h3 {
 .quadrant-map {
   --team-x: 50%;
   --team-y: 50%;
-  --median-x: 50%;
-  --median-y: 50%;
   position: relative;
   margin-top: 0.45rem;
   display: grid;
@@ -278,26 +276,6 @@ h3 {
 
 .quad-wildcard {
   background: #fff5e8;
-}
-
-.median-line {
-  position: absolute;
-  pointer-events: none;
-  z-index: 2;
-}
-
-.median-line-x {
-  left: var(--median-x);
-  top: 0;
-  bottom: 0;
-  border-left: 2px dashed #5878a8;
-}
-
-.median-line-y {
-  top: var(--median-y);
-  left: 0;
-  right: 0;
-  border-top: 2px dashed #5878a8;
 }
 
 .team-marker {
