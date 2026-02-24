@@ -11,6 +11,16 @@ export default function App() {
           Rankings
         </Link>
       </header>
+
+      <section className="notice-banner" role="note">
+        <p>
+          Data source: <a href="https://metrowestbball.com" target="_blank" rel="noreferrer">metrowestbball.com</a>. Updated daily.
+        </p>
+        <p>
+          Insights and analytics are best-effort and for entertainment and curiosity only. They are discussion starters for coaches and players, not formal evaluations. Keep youth sports fun.
+        </p>
+      </section>
+
       <main>
         <Routes>
           <Route path="/" element={<DivisionPage />} />
