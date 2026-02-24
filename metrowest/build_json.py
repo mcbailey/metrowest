@@ -63,7 +63,7 @@ def _snapshot_rows(conn, yrseason: str, snapshot_date: str, include_mw: bool, in
     )
 
 
-def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
+def build_json(db_path: Path, out_dir: Path, yrseason: str, ranking_profile: str | None = None) -> None:
     conn = connect_db(db_path)
     snapshot_date = latest_snapshot_date(conn, yrseason)
     if not snapshot_date:
@@ -71,6 +71,7 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
             out_dir / "index.json",
             {
                 "generated_at": None,
+                "ranking_profile": ranking_profile,
                 "default": {"yrseason": yrseason, "gender": "M", "grade": 3},
                 "seasons": [
                     {
@@ -139,6 +140,7 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str) -> None:
 
     index_payload = {
         "generated_at": snapshot_date,
+        "ranking_profile": ranking_profile,
         "default": {"yrseason": yrseason, "gender": default_gender, "grade": default_grade},
         "seasons": [
             {
@@ -346,12 +348,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--db-path", default=str(SCRAPE_CONFIG.db_path))
     parser.add_argument("--out", default="frontend/public/data")
     parser.add_argument("--yrseason", default=SCRAPE_CONFIG.default_yrseason)
+    parser.add_argument("--ranking-profile", choices=("classic", "division-aware"), default=None)
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    build_json(Path(args.db_path), Path(args.out), args.yrseason)
+    build_json(Path(args.db_path), Path(args.out), args.yrseason, ranking_profile=args.ranking_profile)
 
 
 if __name__ == "__main__":

@@ -93,7 +93,7 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
           cmp = a.ties - b.ties;
           break;
         case "sos":
-          cmp = a.sos - b.sos;
+          cmp = (a.sos_adj ?? a.sos) - (b.sos_adj ?? b.sos);
           break;
         case "power":
           cmp = a.power - b.power;
@@ -138,8 +138,8 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
   };
 
   const avgLabel = (value: number, games: number): string => avg(value, games).toFixed(1);
-  const sosTooltip = (team: DisplayTeam): string =>
-    `Division-adjusted SoS: ${(team.sos_adj ?? team.sos).toFixed(1)}`;
+  const sosValue = (team: DisplayTeam): number => team.sos_adj ?? team.sos;
+  const sosTooltip = (team: DisplayTeam): string => `Raw SoS: ${team.sos.toFixed(1)}`;
 
   return (
     <div className="table-wrap" ref={tableWrapRef}>
@@ -183,7 +183,7 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
                 type="button"
                 className="sort-btn"
                 onClick={() => setSort("sos")}
-                title="Hover SoS cells to see Division-Adjusted SoS"
+                title="Showing Division-Adjusted SoS. Hover cells to see Raw SoS."
               >
                 SoS <span>{arrow("sos")}</span>
               </button>
@@ -199,22 +199,26 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
               </button>
             </th>
             <th>
-              <button type="button" className="sort-btn" onClick={() => setSort("mw_points")}>
+              <button type="button" className="sort-btn" onClick={() => setSort("mw_points")}
+              >
                 MW Points <span>{arrow("mw_points")}</span>
               </button>
             </th>
             <th>
-              <button type="button" className="sort-btn" onClick={() => setSort("pfg")}>
+              <button type="button" className="sort-btn" onClick={() => setSort("pfg")}
+              >
                 PF/G <span>{arrow("pfg")}</span>
               </button>
             </th>
             <th>
-              <button type="button" className="sort-btn" onClick={() => setSort("pag")}>
+              <button type="button" className="sort-btn" onClick={() => setSort("pag")}
+              >
                 PA/G <span>{arrow("pag")}</span>
               </button>
             </th>
             <th>
-              <button type="button" className="sort-btn" onClick={() => setSort("diff")}>
+              <button type="button" className="sort-btn" onClick={() => setSort("diff")}
+              >
                 Diff <span>{arrow("diff")}</span>
               </button>
             </th>
@@ -231,7 +235,7 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
                 <td>{team.wins}</td>
                 <td>{team.losses}</td>
                 <td>{team.ties}</td>
-                <td title={sosTooltip(team)}>{team.sos.toFixed(1)}</td>
+                <td title={sosTooltip(team)}>{sosValue(team).toFixed(1)}</td>
                 <td>{team.power.toFixed(1)}</td>
                 <td>{team.mw_rating === null || team.mw_rating === undefined ? "-" : team.mw_rating.toFixed(1)}</td>
                 <td>{team.mw_points === null || team.mw_points === undefined ? "-" : team.mw_points}</td>
