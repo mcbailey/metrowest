@@ -45,6 +45,29 @@ body {
   color: #e7f0ff;
 }
 
+.notice-banner {
+  margin-bottom: 0.9rem;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid #c7d7f2;
+  border-radius: 10px;
+  background: #f4f8ff;
+  color: #2a3f5f;
+}
+
+.notice-banner p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.notice-banner p + p {
+  margin-top: 0.35rem;
+}
+
+.notice-banner a {
+  color: #1e4f8a;
+  font-weight: 600;
+}
+
 main {
   display: grid;
   gap: 0.9rem;
