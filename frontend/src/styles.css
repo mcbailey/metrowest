@@ -79,6 +79,7 @@ main {
 }
 
 .panel {
+  min-width: 0;
   background: #ffffff;
   border: 1px solid #d8e3f5;
   border-radius: 10px;
@@ -124,7 +125,10 @@ h3 {
 }
 
 .table-wrap {
+  width: 100%;
+  max-width: 100%;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .rankings,

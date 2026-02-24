@@ -374,7 +374,9 @@ export function DivisionPage() {
         </p>
       </section>
 
-      <RankingsTable teams={display.teams} showGroup={display.showGroup} queryString={queryString} />
+      <section className="panel">
+        <RankingsTable teams={display.teams} showGroup={display.showGroup} queryString={queryString} />
+      </section>
 
       <section className="panel" id="ranking-methodology">
         <h3>How SoS and Power Rankings Are Calculated</h3>
