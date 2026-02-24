@@ -218,3 +218,98 @@ h3 {
   border-radius: 4px;
   padding: 0.05rem 0.28rem;
 }
+
+.metric-note {
+  color: #4d607e;
+  font-weight: 500;
+  font-size: 0.85em;
+}
+
+.quadrant-block {
+  margin-top: 0.85rem;
+}
+
+.quadrant-block h4 {
+  margin: 0 0 0.3rem;
+  color: #1d3556;
+}
+
+.quadrant-map {
+  --team-x: 50%;
+  --team-y: 50%;
+  --median-x: 50%;
+  --median-y: 50%;
+  position: relative;
+  margin-top: 0.45rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  min-height: 260px;
+  border: 1px solid #cfe0f7;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f8fbff;
+}
+
+.quad-cell {
+  padding: 0.5rem;
+  font-size: 0.86rem;
+  color: #233754;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.quad-cell strong {
+  font-size: 0.92rem;
+}
+
+.quad-floor {
+  background: #eef6ff;
+}
+
+.quad-contender {
+  background: #e8f8ef;
+}
+
+.quad-underdog {
+  background: #f9edf0;
+}
+
+.quad-wildcard {
+  background: #fff5e8;
+}
+
+.median-line {
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.median-line-x {
+  left: var(--median-x);
+  top: 0;
+  bottom: 0;
+  border-left: 2px dashed #5878a8;
+}
+
+.median-line-y {
+  top: var(--median-y);
+  left: 0;
+  right: 0;
+  border-top: 2px dashed #5878a8;
+}
+
+.team-marker {
+  position: absolute;
+  left: var(--team-x);
+  top: var(--team-y);
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: #0e4aa7;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 2px rgba(14, 74, 167, 0.25);
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}

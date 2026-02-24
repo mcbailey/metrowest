@@ -1,14 +1,82 @@
 import { Link, useLocation, useParams } from "react-router-dom";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import { loadJson } from "../data";
-import { IndexData, TeamData, TeamGame } from "../types";
+import { DivisionRankingData, DivisionsData, IndexData, RankingTeam, TeamData, TeamGame } from "../types";
+
+type FinalGame = {
+  game: TeamGame;
+  teamScore: number;
+  oppScore: number;
+  ts: number;
+};
+
+type TeamInsights = {
+  offenseDelta: number;
+  defenseDelta: number;
+  divisionAvgPfPerGame: number;
+  divisionAvgPaPerGame: number;
+  qualityWins: number;
+  badLosses: number;
+  quartileSize: number;
+  seasonMarginAvg: number;
+  last3MarginAvg: number;
+  trendDelta: number;
+  trendLabel: string;
+  volatility: number;
+  divisionMedianVolatility: number;
+  divisionMedianPower: number;
+  quadrantLabel: string;
+  quadrantMeaning: string;
+  powerMin: number;
+  powerMax: number;
+  volatilityMin: number;
+  volatilityMax: number;
+};
 
 function gamesPlayed(team: TeamData): number {
   return team.summary.wins + team.summary.losses + team.summary.ties;
 }
 
+function rankingGamesPlayed(team: RankingTeam): number {
+  return team.wins + team.losses + team.ties;
+}
+
 function avg(value: number, games: number): string {
   return games > 0 ? (value / games).toFixed(1) : "0.0";
+}
+
+function signed(value: number): string {
+  return `${value >= 0 ? "+" : ""}${value.toFixed(1)}`;
+}
+
+function mean(values: number[]): number {
+  if (!values.length) return 0;
+  return values.reduce((sum, v) => sum + v, 0) / values.length;
+}
+
+function median(values: number[]): number {
+  if (!values.length) return 0;
+  const sorted = [...values].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  if (sorted.length % 2 === 0) {
+    return (sorted[mid - 1] + sorted[mid]) / 2;
+  }
+  return sorted[mid];
+}
+
+function stdDev(values: number[]): number {
+  if (!values.length) return 0;
+  const m = mean(values);
+  const variance = values.reduce((sum, v) => sum + (v - m) ** 2, 0) / values.length;
+  return Math.sqrt(variance);
+}
+
+function toPercent(value: number, min: number, max: number): number {
+  if (!Number.isFinite(value) || !Number.isFinite(min) || !Number.isFinite(max) || max <= min) {
+    return 50;
+  }
+  const raw = ((value - min) / (max - min)) * 100;
+  return Math.max(0, Math.min(100, raw));
 }
 
 function teamAndOpponentScores(g: TeamGame): { team: number | null; opp: number | null } {
@@ -29,6 +97,24 @@ function teamAndOpponentScores(g: TeamGame): { team: number | null; opp: number 
   return { team: null, opp: null };
 }
 
+function finalGames(games: TeamGame[]): FinalGame[] {
+  return games
+    .map((game) => {
+      const scores = teamAndOpponentScores(game);
+      if (scores.team === null || scores.opp === null) {
+        return null;
+      }
+      const ts = game.date ? Date.parse(game.date) : 0;
+      return {
+        game,
+        teamScore: scores.team,
+        oppScore: scores.opp,
+        ts: Number.isNaN(ts) ? 0 : ts,
+      };
+    })
+    .filter((g): g is FinalGame => g !== null);
+}
+
 function outcome(teamScore: number | null, oppScore: number | null): string {
   if (teamScore === null || oppScore === null) return "-";
   if (teamScore > oppScore) return "W";
@@ -42,11 +128,155 @@ function genderLabel(gender: "M" | "F" | null): string {
   return "-";
 }
 
+function trendLabel(delta: number): string {
+  if (delta >= 4) return "Heating up";
+  if (delta <= -4) return "Cooling off";
+  return "Steady";
+}
+
+function quadrant(highPower: boolean, highVolatility: boolean): { label: string; meaning: string } {
+  if (highPower && !highVolatility) {
+    return { label: "Contender", meaning: "High power and consistently steady." };
+  }
+  if (highPower && highVolatility) {
+    return { label: "Wildcard", meaning: "High ceiling, but less predictable game to game." };
+  }
+  if (!highPower && !highVolatility) {
+    return { label: "Floor-Raiser", meaning: "Usually performs to expectation with fewer swings." };
+  }
+  return { label: "Underdog", meaning: "Lower current power with wide outcomes possible." };
+}
+
+async function computeInsights(team: TeamData, season: string): Promise<TeamInsights | null> {
+  const grade = team.summary.grade;
+  const gender = team.summary.gender;
+  const divisionno = team.summary.divisionno;
+  if (grade === null || gender === null || divisionno === null) {
+    return null;
+  }
+
+  let divisions: DivisionsData;
+  try {
+    divisions = await loadJson<DivisionsData>(`data/${season}/${gender}/${grade}/divisions.json`);
+  } catch {
+    return null;
+  }
+
+  const divisionNos = divisions.divisions.map((d) => d.divisionno);
+  const divisionResults = await Promise.allSettled(
+    divisionNos.map((dno) => loadJson<DivisionRankingData>(`data/${season}/${gender}/${grade}/division-${dno}.json`))
+  );
+
+  const divisionDatasets = divisionResults
+    .filter((r): r is PromiseFulfilledResult<DivisionRankingData> => r.status === "fulfilled")
+    .map((r) => r.value);
+
+  if (!divisionDatasets.length) {
+    return null;
+  }
+
+  const allRankedTeams = divisionDatasets.flatMap((d) => d.rankings);
+  const inDivision = divisionDatasets.find((d) => d.divisionno === divisionno);
+
+  if (!inDivision || !inDivision.rankings.length) {
+    return null;
+  }
+
+  const divisionPfPerGame = inDivision.rankings
+    .map((t) => {
+      const gp = rankingGamesPlayed(t);
+      return gp > 0 ? t.pf / gp : 0;
+    })
+    .filter((v) => Number.isFinite(v));
+
+  const divisionPaPerGame = inDivision.rankings
+    .map((t) => {
+      const gp = rankingGamesPlayed(t);
+      return gp > 0 ? t.pa / gp : 0;
+    })
+    .filter((v) => Number.isFinite(v));
+
+  const teamGp = gamesPlayed(team);
+  const teamPfPerGame = teamGp > 0 ? team.summary.pf / teamGp : 0;
+  const teamPaPerGame = teamGp > 0 ? team.summary.pa / teamGp : 0;
+
+  const divisionAvgPfPerGame = mean(divisionPfPerGame);
+  const divisionAvgPaPerGame = mean(divisionPaPerGame);
+  const offenseDelta = teamPfPerGame - divisionAvgPfPerGame;
+  const defenseDelta = divisionAvgPaPerGame - teamPaPerGame;
+
+  const sortedByPower = [...allRankedTeams].sort((a, b) => b.power - a.power);
+  const quartileSize = Math.max(1, Math.ceil(sortedByPower.length * 0.25));
+  const topQuartile = new Set(sortedByPower.slice(0, quartileSize).map((t) => t.teamno));
+  const bottomQuartile = new Set(sortedByPower.slice(-quartileSize).map((t) => t.teamno));
+
+  const finals = finalGames(team.past_games);
+  let qualityWins = 0;
+  let badLosses = 0;
+  for (const g of finals) {
+    const opponent = g.game.opponent_teamno;
+    if (!opponent) continue;
+    if (g.teamScore > g.oppScore && topQuartile.has(opponent)) qualityWins += 1;
+    if (g.teamScore < g.oppScore && bottomQuartile.has(opponent)) badLosses += 1;
+  }
+
+  const margins = finals.map((g) => g.teamScore - g.oppScore);
+  const seasonMarginAvg = mean(margins);
+  const recent3 = [...finals].sort((a, b) => b.ts - a.ts).slice(0, 3);
+  const last3MarginAvg = mean(recent3.map((g) => g.teamScore - g.oppScore));
+  const trendDelta = last3MarginAvg - seasonMarginAvg;
+  const volatility = stdDev(margins);
+
+  const peerVolatilityResults = await Promise.allSettled(
+    inDivision.rankings.map((t) => loadJson<TeamData>(`data/${season}/team-${t.teamno}.json`))
+  );
+  const peerVolatility = peerVolatilityResults
+    .filter((r): r is PromiseFulfilledResult<TeamData> => r.status === "fulfilled")
+    .map((r) => stdDev(finalGames(r.value.past_games).map((g) => g.teamScore - g.oppScore)))
+    .filter((v) => Number.isFinite(v));
+
+  const powerValues = inDivision.rankings.map((t) => t.power).filter((v) => Number.isFinite(v));
+  const volatilityValues = peerVolatility.length ? peerVolatility : [volatility];
+
+  const divisionMedianPower = median(powerValues);
+  const divisionMedianVolatility = median(volatilityValues);
+  const powerMin = powerValues.length ? Math.min(...powerValues) : team.summary.power;
+  const powerMax = powerValues.length ? Math.max(...powerValues) : team.summary.power;
+  const volatilityMin = volatilityValues.length ? Math.min(...volatilityValues) : volatility;
+  const volatilityMax = volatilityValues.length ? Math.max(...volatilityValues) : volatility;
+
+  const q = quadrant(team.summary.power >= divisionMedianPower, volatility >= divisionMedianVolatility);
+
+  return {
+    offenseDelta,
+    defenseDelta,
+    divisionAvgPfPerGame,
+    divisionAvgPaPerGame,
+    qualityWins,
+    badLosses,
+    quartileSize,
+    seasonMarginAvg,
+    last3MarginAvg,
+    trendDelta,
+    trendLabel: trendLabel(trendDelta),
+    volatility,
+    divisionMedianVolatility,
+    divisionMedianPower,
+    quadrantLabel: q.label,
+    quadrantMeaning: q.meaning,
+    powerMin,
+    powerMax,
+    volatilityMin,
+    volatilityMax,
+  };
+}
+
 export function TeamPage() {
   const { teamno } = useParams<{ teamno: string }>();
   const location = useLocation();
 
   const [team, setTeam] = useState<TeamData | null>(null);
+  const [insights, setInsights] = useState<TeamInsights | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const seasonFromQuery = useMemo(() => {
@@ -62,10 +292,14 @@ export function TeamPage() {
     async function run() {
       try {
         setError(null);
+        setInsights(null);
         const index = await loadJson<IndexData>("data/index.json");
         const season = seasonFromQuery || index.default.yrseason;
         const payload = await loadJson<TeamData>(`data/${season}/team-${teamno}.json`);
         setTeam(payload);
+
+        const computed = await computeInsights(payload, season);
+        setInsights(computed);
       } catch (err) {
         setError(String(err));
       }
@@ -78,6 +312,28 @@ export function TeamPage() {
   if (!team) return <p>Loading team...</p>;
 
   const gp = gamesPlayed(team);
+
+  const teamX = insights ? toPercent(team.summary.power, insights.powerMin, insights.powerMax) : 50;
+  const medianX = insights
+    ? toPercent(insights.divisionMedianPower, insights.powerMin, insights.powerMax)
+    : 50;
+
+  const teamY = insights
+    ? 100 - toPercent(insights.volatility, insights.volatilityMin, insights.volatilityMax)
+    : 50;
+  const medianY = insights
+    ? 100 - toPercent(insights.divisionMedianVolatility, insights.volatilityMin, insights.volatilityMax)
+    : 50;
+
+  const quadrantStyle =
+    insights !== null
+      ? ({
+          ["--team-x" as string]: `${teamX}%`,
+          ["--team-y" as string]: `${teamY}%`,
+          ["--median-x" as string]: `${medianX}%`,
+          ["--median-y" as string]: `${medianY}%`,
+        } as CSSProperties)
+      : undefined;
 
   return (
     <div className="stack">
@@ -110,6 +366,76 @@ export function TeamPage() {
         <div>PA/G: {avg(team.summary.pa, gp)}</div>
         <div>Diff: {team.summary.diff}</div>
       </section>
+
+      {insights ? (
+        <section className="panel">
+          <h3>Coach Insights</h3>
+          <p className="meta compact">
+            Offense/defense compares to this subdivision. Quality wins and bad losses use top/bottom 25% across all{" "}
+            {genderLabel(team.summary.gender)} {team.summary.grade} teams.
+          </p>
+          <div className="summary-grid">
+            <div>
+              Offense vs peers: {signed(insights.offenseDelta)} pts/g
+              <span className="metric-note"> (avg {insights.divisionAvgPfPerGame.toFixed(1)})</span>
+            </div>
+            <div>
+              Defense vs peers: {signed(insights.defenseDelta)} pts/g
+              <span className="metric-note"> (avg {insights.divisionAvgPaPerGame.toFixed(1)})</span>
+            </div>
+            <div>
+              Quality wins: {insights.qualityWins}
+              <span className="metric-note"> (vs top {insights.quartileSize})</span>
+            </div>
+            <div>
+              Bad losses: {insights.badLosses}
+              <span className="metric-note"> (vs bottom {insights.quartileSize})</span>
+            </div>
+            <div>
+              Last-3 trend: {insights.trendLabel}
+              <span className="metric-note"> ({signed(insights.trendDelta)} margin vs season avg)</span>
+            </div>
+            <div>
+              Volatility: {insights.volatility.toFixed(1)}
+              <span className="metric-note"> (division median {insights.divisionMedianVolatility.toFixed(1)})</span>
+            </div>
+            <div>
+              Quadrant: {insights.quadrantLabel}
+              <span className="metric-note"> ({insights.quadrantMeaning})</span>
+            </div>
+            <div>
+              Last 3 margin: {signed(insights.last3MarginAvg)}
+              <span className="metric-note"> | Season margin: {signed(insights.seasonMarginAvg)}</span>
+            </div>
+          </div>
+
+          <div className="quadrant-block">
+            <h4>Quadrant Map</h4>
+            <p className="meta compact">Right = higher power. Top = lower volatility (more predictable).</p>
+            <div className="quadrant-map" style={quadrantStyle}>
+              <div className="quad-cell quad-floor">
+                <strong>Floor-Raiser</strong>
+                <span>Lower power, lower volatility</span>
+              </div>
+              <div className="quad-cell quad-contender">
+                <strong>Contender</strong>
+                <span>Higher power, lower volatility</span>
+              </div>
+              <div className="quad-cell quad-underdog">
+                <strong>Underdog</strong>
+                <span>Lower power, higher volatility</span>
+              </div>
+              <div className="quad-cell quad-wildcard">
+                <strong>Wildcard</strong>
+                <span>Higher power, higher volatility</span>
+              </div>
+              <div className="median-line median-line-x" />
+              <div className="median-line median-line-y" />
+              <div className="team-marker" title={`${team.team_name}: ${insights.quadrantLabel}`} />
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       <section className="panel">
         <h3>Past Games</h3>
