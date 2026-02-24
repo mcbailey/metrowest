@@ -71,12 +71,9 @@ function stdDev(values: number[]): number {
   return Math.sqrt(variance);
 }
 
-function toPercent(value: number, min: number, max: number): number {
-  if (!Number.isFinite(value) || !Number.isFinite(min) || !Number.isFinite(max) || max <= min) {
-    return 50;
-  }
-  const raw = ((value - min) / (max - min)) * 100;
-  return Math.max(0, Math.min(100, raw));
+function clampPercent(value: number): number {
+  if (!Number.isFinite(value)) return 50;
+  return Math.max(0, Math.min(100, value));
 }
 
 function teamAndOpponentScores(g: TeamGame): { team: number | null; opp: number | null } {
@@ -313,16 +310,30 @@ export function TeamPage() {
 
   const gp = gamesPlayed(team);
 
-  const teamX = insights ? toPercent(team.summary.power, insights.powerMin, insights.powerMax) : 50;
-  const medianX = insights
-    ? toPercent(insights.divisionMedianPower, insights.powerMin, insights.powerMax)
+  const teamX = insights
+    ? (() => {
+        const med = insights.divisionMedianPower;
+        const value = team.summary.power;
+        if (value >= med) {
+          const denom = Math.max(0.0001, insights.powerMax - med);
+          return clampPercent(50 + (50 * (value - med)) / denom);
+        }
+        const denom = Math.max(0.0001, med - insights.powerMin);
+        return clampPercent(50 - (50 * (med - value)) / denom);
+      })()
     : 50;
 
   const teamY = insights
-    ? 100 - toPercent(insights.volatility, insights.volatilityMin, insights.volatilityMax)
-    : 50;
-  const medianY = insights
-    ? 100 - toPercent(insights.divisionMedianVolatility, insights.volatilityMin, insights.volatilityMax)
+    ? (() => {
+        const med = insights.divisionMedianVolatility;
+        const value = insights.volatility;
+        if (value <= med) {
+          const denom = Math.max(0.0001, med - insights.volatilityMin);
+          return clampPercent(50 - (50 * (med - value)) / denom);
+        }
+        const denom = Math.max(0.0001, insights.volatilityMax - med);
+        return clampPercent(50 + (50 * (value - med)) / denom);
+      })()
     : 50;
 
   const quadrantStyle =
@@ -330,8 +341,6 @@ export function TeamPage() {
       ? ({
           ["--team-x" as string]: `${teamX}%`,
           ["--team-y" as string]: `${teamY}%`,
-          ["--median-x" as string]: `${medianX}%`,
-          ["--median-y" as string]: `${medianY}%`,
         } as CSSProperties)
       : undefined;
 
@@ -365,6 +374,66 @@ export function TeamPage() {
         <div>PF/G: {avg(team.summary.pf, gp)}</div>
         <div>PA/G: {avg(team.summary.pa, gp)}</div>
         <div>Diff: {team.summary.diff}</div>
+      </section>
+      <section className="panel">
+        <h3>Past Games</h3>
+        <div className="table-wrap">
+          <table className="games">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Opponent</th>
+                <th>Team</th>
+                <th>Opp</th>
+                <th>W/L</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              {team.past_games.map((g) => {
+                const scores = teamAndOpponentScores(g);
+                return (
+                  <tr key={g.gameno}>
+                    <td>{g.date ?? "TBD"}</td>
+                    <td>{g.opponent_name ?? "TBD"}</td>
+                    <td>{scores.team ?? "-"}</td>
+                    <td>{scores.opp ?? "-"}</td>
+                    <td>{outcome(scores.team, scores.opp)}</td>
+                    <td>{g.location ?? "TBD"}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="panel">
+        <h3>Future Games</h3>
+        <div className="table-wrap">
+          <table className="games">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Opponent</th>
+                <th>Home/Away</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              {team.future_games.map((g) => (
+                <tr key={g.gameno}>
+                  <td>{g.date ?? "TBD"}</td>
+                  <td>{g.starttime ?? "TBD"}</td>
+                  <td>{g.opponent_name ?? "TBD"}</td>
+                  <td>{g.is_home === null ? "TBD" : g.is_home ? "Home" : "Away"}</td>
+                  <td>{g.location ?? "TBD"}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
 
       {insights ? (
@@ -429,74 +498,11 @@ export function TeamPage() {
                 <strong>Wildcard</strong>
                 <span>Higher power, higher volatility</span>
               </div>
-              <div className="median-line median-line-x" />
-              <div className="median-line median-line-y" />
               <div className="team-marker" title={`${team.team_name}: ${insights.quadrantLabel}`} />
             </div>
           </div>
         </section>
       ) : null}
-
-      <section className="panel">
-        <h3>Past Games</h3>
-        <div className="table-wrap">
-          <table className="games">
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Opponent</th>
-                <th>Team</th>
-                <th>Opp</th>
-                <th>W/L</th>
-                <th>Location</th>
-              </tr>
-            </thead>
-            <tbody>
-              {team.past_games.map((g) => {
-                const scores = teamAndOpponentScores(g);
-                return (
-                  <tr key={g.gameno}>
-                    <td>{g.date ?? "TBD"}</td>
-                    <td>{g.opponent_name ?? "TBD"}</td>
-                    <td>{scores.team ?? "-"}</td>
-                    <td>{scores.opp ?? "-"}</td>
-                    <td>{outcome(scores.team, scores.opp)}</td>
-                    <td>{g.location ?? "TBD"}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="panel">
-        <h3>Future Games</h3>
-        <div className="table-wrap">
-          <table className="games">
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Opponent</th>
-                <th>Home/Away</th>
-                <th>Location</th>
-              </tr>
-            </thead>
-            <tbody>
-              {team.future_games.map((g) => (
-                <tr key={g.gameno}>
-                  <td>{g.date ?? "TBD"}</td>
-                  <td>{g.starttime ?? "TBD"}</td>
-                  <td>{g.opponent_name ?? "TBD"}</td>
-                  <td>{g.is_home === null ? "TBD" : g.is_home ? "Home" : "Away"}</td>
-                  <td>{g.location ?? "TBD"}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </section>
     </div>
   );
 }
