@@ -40,6 +40,12 @@ type TeamInsights = {
   volatilityMax: number;
 };
 
+type CompareDivisionOption = {
+  tier: string;
+  label: string;
+  divisionNos: string[];
+};
+
 type CompareTeamOption = {
   teamno: string;
   name: string;
@@ -96,6 +102,31 @@ function stdDev(values: number[]): number {
 function clampPercent(value: number): number {
   if (!Number.isFinite(value)) return 50;
   return Math.max(0, Math.min(100, value));
+}
+
+function topDivisionTier(division: { name: string; divisiontier?: string | null }): number | null {
+  const fromField = Number.parseInt(String(division.divisiontier ?? ""), 10);
+  if (Number.isFinite(fromField) && fromField > 0) {
+    return fromField;
+  }
+
+  const name = division.name ?? "";
+  const namePatterns = [
+    /\bDivision\s*([0-9]+)\b/i,
+    /\bDiv(?:ision)?\s*([0-9]+)\b/i,
+    /\bD([0-9]+)[A-Z]?\b/i,
+  ];
+
+  for (const pattern of namePatterns) {
+    const match = name.match(pattern);
+    if (!match) continue;
+    const parsed = Number.parseInt(match[1], 10);
+    if (Number.isFinite(parsed) && parsed > 0) {
+      return parsed;
+    }
+  }
+
+  return null;
 }
 
 function teamAndOpponentScores(g: TeamGame): { team: number | null; opp: number | null } {
@@ -453,8 +484,8 @@ export function TeamPage() {
   const [activeSeason, setActiveSeason] = useState<string | null>(null);
   const [insights, setInsights] = useState<TeamInsights | null>(null);
   const [compareError, setCompareError] = useState<string | null>(null);
-  const [compareDivisions, setCompareDivisions] = useState<DivisionsData["divisions"]>([]);
-  const [selectedCompareDivision, setSelectedCompareDivision] = useState<string>("");
+  const [compareDivisionOptions, setCompareDivisionOptions] = useState<CompareDivisionOption[]>([]);
+  const [selectedCompareDivisionTier, setSelectedCompareDivisionTier] = useState<string>("");
   const [compareTeams, setCompareTeams] = useState<CompareTeamOption[]>([]);
   const [selectedCompareTeam, setSelectedCompareTeam] = useState<string>("");
   const [compareTeamData, setCompareTeamData] = useState<TeamData | null>(null);
@@ -475,8 +506,8 @@ export function TeamPage() {
         setError(null);
         setCompareError(null);
         setInsights(null);
-        setCompareDivisions([]);
-        setSelectedCompareDivision("");
+        setCompareDivisionOptions([]);
+        setSelectedCompareDivisionTier("");
         setCompareTeams([]);
         setSelectedCompareTeam("");
         setCompareTeamData(null);
@@ -512,29 +543,38 @@ export function TeamPage() {
         );
         if (!active) return;
 
-        const sorted = [...payload.divisions].sort((a, b) => {
-          const ta = Number(a.divisiontier ?? 0);
-          const tb = Number(b.divisiontier ?? 0);
-          if (ta !== tb) return ta - tb;
-          return a.name.localeCompare(b.name) || a.divisionno.localeCompare(b.divisionno);
-        });
+        const grouped = new Map<number, Set<string>>();
+        for (const division of payload.divisions) {
+          const tier = topDivisionTier(division);
+          if (tier === null) continue;
+          const bucket = grouped.get(tier) ?? new Set<string>();
+          bucket.add(division.divisionno);
+          grouped.set(tier, bucket);
+        }
 
-        setCompareDivisions(sorted);
+        const options = [...grouped.entries()]
+          .sort((a, b) => a[0] - b[0])
+          .map(([tier, divisionNos]) => ({
+            tier: String(tier),
+            label: `Division ${tier}`,
+            divisionNos: [...divisionNos].sort((a, b) => a.localeCompare(b)),
+          }));
 
-        const ownDivision = currentTeam.summary.divisionno;
-        const firstOther = sorted.find((d) => d.divisionno !== ownDivision)?.divisionno;
-        const fallback = sorted[0]?.divisionno ?? "";
-        const defaultDivision = firstOther || fallback;
+        setCompareDivisionOptions(options);
 
-        setSelectedCompareDivision((prev) => {
-          const exists = sorted.some((d) => d.divisionno === prev);
-          return exists ? prev : defaultDivision;
+        const ownDivision = payload.divisions.find((d) => d.divisionno === currentTeam.summary.divisionno);
+        const ownTier = ownDivision ? topDivisionTier(ownDivision) : null;
+        const defaultTier = ownTier !== null ? String(ownTier) : (options[0]?.tier ?? "");
+
+        setSelectedCompareDivisionTier((prev) => {
+          const exists = options.some((d) => d.tier === prev);
+          return exists ? prev : defaultTier;
         });
         setCompareError(null);
       } catch (err) {
         if (!active) return;
-        setCompareDivisions([]);
-        setSelectedCompareDivision("");
+        setCompareDivisionOptions([]);
+        setSelectedCompareDivisionTier("");
         setCompareTeams([]);
         setSelectedCompareTeam("");
         setCompareTeamData(null);
@@ -550,23 +590,55 @@ export function TeamPage() {
   }, [team?.teamno, team?.summary.grade, team?.summary.gender, activeSeason]);
 
   useEffect(() => {
-    if (!team || !activeSeason || !selectedCompareDivision) return;
+    if (!team || !activeSeason || !selectedCompareDivisionTier) return;
     if (team.summary.grade === null || team.summary.gender === null) return;
     const currentTeam = team;
+    const selectedOption = compareDivisionOptions.find((option) => option.tier === selectedCompareDivisionTier);
+    if (!selectedOption) {
+      setCompareTeams([]);
+      setSelectedCompareTeam("");
+      setCompareTeamData(null);
+      return;
+    }
+
+    const selectedDivisionNos = selectedOption.divisionNos;
 
     let active = true;
 
     async function loadTeamsInDivision() {
       try {
-        const division = await loadJson<DivisionRankingData>(
-          `data/${activeSeason}/${currentTeam.summary.gender}/${currentTeam.summary.grade}/division-${selectedCompareDivision}.json`
+        const divisionResults = await Promise.allSettled(
+          selectedDivisionNos.map((divisionNo) =>
+            loadJson<DivisionRankingData>(
+              `data/${activeSeason}/${currentTeam.summary.gender}/${currentTeam.summary.grade}/division-${divisionNo}.json`
+            )
+          )
         );
         if (!active) return;
 
-        const options = division.rankings
-          .filter((t) => t.teamno !== currentTeam.teamno)
-          .map((t) => ({ teamno: t.teamno, name: t.name, rank: t.rank }))
-          .sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name));
+        type CompareCandidate = CompareTeamOption & { power: number };
+        const merged = new Map<string, CompareCandidate>();
+
+        for (const result of divisionResults) {
+          if (result.status !== "fulfilled") continue;
+          for (const teamRow of result.value.rankings) {
+            if (teamRow.teamno === currentTeam.teamno) continue;
+            const existing = merged.get(teamRow.teamno);
+            const candidate: CompareCandidate = {
+              teamno: teamRow.teamno,
+              name: teamRow.name,
+              rank: teamRow.rank,
+              power: teamRow.power,
+            };
+            if (!existing || candidate.power > existing.power) {
+              merged.set(teamRow.teamno, candidate);
+            }
+          }
+        }
+
+        const options = [...merged.values()]
+          .sort((a, b) => b.power - a.power || a.rank - b.rank || a.name.localeCompare(b.name))
+          .map(({ teamno, name, rank }) => ({ teamno, name, rank }));
 
         setCompareTeams(options);
         setSelectedCompareTeam((prev) => {
@@ -593,7 +665,14 @@ export function TeamPage() {
     return () => {
       active = false;
     };
-  }, [selectedCompareDivision, team?.teamno, team?.summary.grade, team?.summary.gender, activeSeason]);
+  }, [
+    selectedCompareDivisionTier,
+    compareDivisionOptions,
+    team?.teamno,
+    team?.summary.grade,
+    team?.summary.gender,
+    activeSeason,
+  ]);
 
   useEffect(() => {
     if (!activeSeason || !selectedCompareTeam) {
@@ -845,13 +924,13 @@ export function TeamPage() {
           <label>
             Division
             <select
-              value={selectedCompareDivision}
-              onChange={(e) => setSelectedCompareDivision(e.target.value)}
-              disabled={!compareDivisions.length}
+              value={selectedCompareDivisionTier}
+              onChange={(e) => setSelectedCompareDivisionTier(e.target.value)}
+              disabled={!compareDivisionOptions.length}
             >
-              {compareDivisions.map((d) => (
-                <option key={d.divisionno} value={d.divisionno}>
-                  {d.name} {d.divisiontier ? `- Div ${d.divisiontier}` : ""}
+              {compareDivisionOptions.map((d) => (
+                <option key={d.tier} value={d.tier}>
+                  {d.label}
                 </option>
               ))}
             </select>
