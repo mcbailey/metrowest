@@ -1,5 +1,6 @@
 export type IndexData = {
   generated_at: string | null;
+  ranking_profile?: "classic" | "division-aware" | string | null;
   default: { yrseason: string; gender: "M" | "F"; grade: number };
   seasons: Array<{
     yrseason: string;

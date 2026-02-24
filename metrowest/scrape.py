@@ -324,7 +324,12 @@ def main() -> None:
     if args.out_json:
         from .build_json import build_json
 
-        build_json(db_path=db_path, out_dir=Path(args.out_json), yrseason=args.yrseason)
+        build_json(
+            db_path=db_path,
+            out_dir=Path(args.out_json),
+            yrseason=args.yrseason,
+            ranking_profile=args.ranking_profile,
+        )
 
 
 if __name__ == "__main__":
