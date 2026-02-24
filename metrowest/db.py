@@ -96,6 +96,7 @@ def init_db(conn: sqlite3.Connection) -> None:
           pa INT NOT NULL,
           diff INT NOT NULL,
           sos REAL NOT NULL,
+          sos_adj REAL NOT NULL DEFAULT 0,
           power REAL NOT NULL,
           rank INT NOT NULL,
           mw_rating REAL,
@@ -111,6 +112,8 @@ def init_db(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE snapshots ADD COLUMN mw_rating REAL")
     if "mw_points" not in snapshot_cols:
         conn.execute("ALTER TABLE snapshots ADD COLUMN mw_points INT")
+    if "sos_adj" not in snapshot_cols:
+        conn.execute("ALTER TABLE snapshots ADD COLUMN sos_adj REAL NOT NULL DEFAULT 0")
 
     conn.commit()
 
@@ -257,9 +260,10 @@ def get_teams_for_division(conn: sqlite3.Connection, divisionno: str) -> list[sq
     return list(
         conn.execute(
             """
-            SELECT teamno, yrseason, grade, gender, divisionno, town, name
-            FROM teams
-            WHERE divisionno = ?
+            SELECT t.teamno, t.yrseason, t.grade, t.gender, t.divisionno, t.town, t.name, d.divisiontier
+            FROM teams t
+            JOIN divisions d ON d.divisionno = t.divisionno
+            WHERE t.divisionno = ?
             ORDER BY name
             """,
             (divisionno,),
@@ -312,8 +316,8 @@ def replace_snapshots(conn: sqlite3.Connection, snapshot_date: str, rows: list[d
         """
         INSERT INTO snapshots(
           snapshot_date, yrseason, grade, gender, divisionno, teamno,
-          wins, losses, ties, pf, pa, diff, sos, power, rank, mw_rating, mw_points
-        ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+          wins, losses, ties, pf, pa, diff, sos, sos_adj, power, rank, mw_rating, mw_points
+        ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         [
             (
@@ -330,6 +334,7 @@ def replace_snapshots(conn: sqlite3.Connection, snapshot_date: str, rows: list[d
                 r["pa"],
                 r["diff"],
                 r["sos"],
+                r.get("sos_adj", r["sos"]),
                 r["power"],
                 r["rank"],
                 r.get("mw_rating"),

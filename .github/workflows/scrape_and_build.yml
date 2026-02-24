@@ -30,6 +30,7 @@ jobs:
           python -m metrowest.scrape \
             --yrseason 2026 \
             --db-path data/metrowest.sqlite \
+            --ranking-profile division-aware \
             --out-json frontend/public/data \
             --log-level INFO
 

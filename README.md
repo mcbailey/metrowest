@@ -63,9 +63,23 @@ python -m metrowest.scrape \
   --grades 3,4,5,6,7,8 \
   --genders M,F \
   --db-path data/metrowest.sqlite \
+  --ranking-profile division-aware \
   --out-json frontend/public/data \
   --log-level INFO
 ```
+
+### Ranking Profile Flag
+
+`--ranking-profile` controls ranking math.
+
+- `division-aware` (default): division-anchored seeding, upset/top-division K adjustments, 15-point MOV cap, division-adjusted SoS, weekly regression toward division baseline.
+- `classic`: original flat-1500 Elo behavior.
+
+Flag locations:
+
+- Default value: `metrowest/config.py` (`RankingConfig.profile`)
+- CLI override: `metrowest/scrape.py` (`--ranking-profile`)
+- Daily automation value: `.github/workflows/scrape_and_build.yml`
 
 ### Behavior
 
@@ -78,13 +92,17 @@ python -m metrowest.scrape \
 
 ## Ranking Method
 
-For each division:
+For each division team set:
 
-1. Initialize Elo to 1500 for each team.
-2. Process final games chronologically with margin multiplier.
-3. SoS = average final Elo of opponents faced.
-4. Power = `0.75 * Elo + 0.25 * SoS`.
-5. Rank by descending Power.
+1. Seed Elo by division baseline (`division-aware`) or 1500 (`classic`).
+2. Process final games in order.
+3. Apply dynamic K in `division-aware`:
+   - upset boost when a lower division beats a higher division,
+   - reduced volatility for D1/D2 matchups,
+   - MOV multiplier capped at 15 points.
+4. Compute SoS from opponents, plus Division-Adjusted SoS.
+5. Regress ratings weekly toward each team’s division baseline (`division-aware`).
+6. Compute power and rank teams by descending power.
 
 ## JSON Output Contract
 
