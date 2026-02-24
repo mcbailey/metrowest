@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { RankingTeam } from "../types";
 
@@ -56,6 +56,13 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
   const navigate = useNavigate();
   const [sortKey, setSortKey] = useState<SortKey>("rank");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
+  const tableWrapRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (tableWrapRef.current) {
+      tableWrapRef.current.scrollLeft = 0;
+    }
+  }, [teams]);
 
   const sortedTeams = useMemo(() => {
     const out = [...teams];
@@ -133,7 +140,7 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
   const avgLabel = (value: number, games: number): string => avg(value, games).toFixed(1);
 
   return (
-    <div className="table-wrap">
+    <div className="table-wrap" ref={tableWrapRef}>
       <table className="rankings">
         <thead>
           <tr>
