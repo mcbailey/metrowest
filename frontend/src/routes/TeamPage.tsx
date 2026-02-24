@@ -40,6 +40,21 @@ type TeamInsights = {
   volatilityMax: number;
 };
 
+type CompareTeamOption = {
+  teamno: string;
+  name: string;
+  rank: number;
+};
+
+type ComparisonWinner = "left" | "right" | "tie";
+
+type ComparisonRow = {
+  metric: string;
+  leftDisplay: string;
+  rightDisplay: string;
+  winner: ComparisonWinner;
+};
+
 function gamesPlayed(team: TeamData): number {
   return team.summary.wins + team.summary.losses + team.summary.ties;
 }
@@ -149,6 +164,77 @@ function quadrant(highPower: boolean, highVolatility: boolean): { label: string;
     return { label: "Floor-Raiser", meaning: "Usually performs to expectation with fewer swings." };
   }
   return { label: "Underdog", meaning: "Lower current power with wide outcomes possible." };
+}
+
+function winPct(team: TeamData): number {
+  const gp = gamesPlayed(team);
+  if (gp <= 0) return 0;
+  return (team.summary.wins + team.summary.ties * 0.5) / gp;
+}
+
+function compareHigher(left: number, right: number): ComparisonWinner {
+  if (Math.abs(left - right) < 1e-9) return "tie";
+  return left > right ? "left" : "right";
+}
+
+function compareLower(left: number, right: number): ComparisonWinner {
+  if (Math.abs(left - right) < 1e-9) return "tie";
+  return left < right ? "left" : "right";
+}
+
+function compareRank(left: number | null, right: number | null): ComparisonWinner {
+  if (left === null && right === null) return "tie";
+  if (left === null) return "right";
+  if (right === null) return "left";
+  if (left === right) return "tie";
+  return left < right ? "left" : "right";
+}
+
+function buildComparisonRows(left: TeamData, right: TeamData): ComparisonRow[] {
+  const leftGp = gamesPlayed(left);
+  const rightGp = gamesPlayed(right);
+
+  const leftPf = leftGp > 0 ? left.summary.pf / leftGp : 0;
+  const rightPf = rightGp > 0 ? right.summary.pf / rightGp : 0;
+
+  const leftPa = leftGp > 0 ? left.summary.pa / leftGp : 0;
+  const rightPa = rightGp > 0 ? right.summary.pa / rightGp : 0;
+
+  const leftWp = winPct(left);
+  const rightWp = winPct(right);
+
+  return [
+    {
+      metric: "Avg Points For",
+      leftDisplay: leftPf.toFixed(1),
+      rightDisplay: rightPf.toFixed(1),
+      winner: compareHigher(leftPf, rightPf),
+    },
+    {
+      metric: "Avg Points Against",
+      leftDisplay: leftPa.toFixed(1),
+      rightDisplay: rightPa.toFixed(1),
+      winner: compareLower(leftPa, rightPa),
+    },
+    {
+      metric: "Win %",
+      leftDisplay: `${(leftWp * 100).toFixed(1)}%`,
+      rightDisplay: `${(rightWp * 100).toFixed(1)}%`,
+      winner: compareHigher(leftWp, rightWp),
+    },
+    {
+      metric: "Division Rank",
+      leftDisplay: left.summary.rank === null ? "-" : `#${left.summary.rank}`,
+      rightDisplay: right.summary.rank === null ? "-" : `#${right.summary.rank}`,
+      winner: compareRank(left.summary.rank, right.summary.rank),
+    },
+    {
+      metric: "SoS",
+      leftDisplay: left.summary.sos.toFixed(1),
+      rightDisplay: right.summary.sos.toFixed(1),
+      winner: compareHigher(left.summary.sos, right.summary.sos),
+    },
+  ];
 }
 
 async function computeInsights(team: TeamData, season: string): Promise<TeamInsights | null> {
@@ -364,7 +450,14 @@ export function TeamPage() {
   const location = useLocation();
 
   const [team, setTeam] = useState<TeamData | null>(null);
+  const [activeSeason, setActiveSeason] = useState<string | null>(null);
   const [insights, setInsights] = useState<TeamInsights | null>(null);
+  const [compareError, setCompareError] = useState<string | null>(null);
+  const [compareDivisions, setCompareDivisions] = useState<DivisionsData["divisions"]>([]);
+  const [selectedCompareDivision, setSelectedCompareDivision] = useState<string>("");
+  const [compareTeams, setCompareTeams] = useState<CompareTeamOption[]>([]);
+  const [selectedCompareTeam, setSelectedCompareTeam] = useState<string>("");
+  const [compareTeamData, setCompareTeamData] = useState<TeamData | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const seasonFromQuery = useMemo(() => {
@@ -380,9 +473,18 @@ export function TeamPage() {
     async function run() {
       try {
         setError(null);
+        setCompareError(null);
         setInsights(null);
+        setCompareDivisions([]);
+        setSelectedCompareDivision("");
+        setCompareTeams([]);
+        setSelectedCompareTeam("");
+        setCompareTeamData(null);
+
         const index = await loadJson<IndexData>("data/index.json");
         const season = seasonFromQuery || index.default.yrseason;
+        setActiveSeason(season);
+
         const payload = await loadJson<TeamData>(`data/${season}/team-${teamno}.json`);
         setTeam(payload);
 
@@ -395,6 +497,131 @@ export function TeamPage() {
 
     void run();
   }, [teamno, seasonFromQuery]);
+
+  useEffect(() => {
+    if (!team || !activeSeason) return;
+    if (team.summary.grade === null || team.summary.gender === null) return;
+    const currentTeam = team;
+
+    let active = true;
+
+    async function loadCompareDivisions() {
+      try {
+        const payload = await loadJson<DivisionsData>(
+          `data////divisions.json`
+        );
+        if (!active) return;
+
+        const sorted = [...payload.divisions].sort((a, b) => {
+          const ta = Number(a.divisiontier ?? 0);
+          const tb = Number(b.divisiontier ?? 0);
+          if (ta !== tb) return ta - tb;
+          return a.name.localeCompare(b.name) || a.divisionno.localeCompare(b.divisionno);
+        });
+
+        setCompareDivisions(sorted);
+
+        const ownDivision = currentTeam.summary.divisionno;
+        const firstOther = sorted.find((d) => d.divisionno !== ownDivision)?.divisionno;
+        const fallback = sorted[0]?.divisionno ?? "";
+        const defaultDivision = firstOther || fallback;
+
+        setSelectedCompareDivision((prev) => {
+          const exists = sorted.some((d) => d.divisionno === prev);
+          return exists ? prev : defaultDivision;
+        });
+        setCompareError(null);
+      } catch (err) {
+        if (!active) return;
+        setCompareDivisions([]);
+        setSelectedCompareDivision("");
+        setCompareTeams([]);
+        setSelectedCompareTeam("");
+        setCompareTeamData(null);
+        setCompareError(String(err));
+      }
+    }
+
+    void loadCompareDivisions();
+
+    return () => {
+      active = false;
+    };
+  }, [team?.teamno, team?.summary.grade, team?.summary.gender, activeSeason]);
+
+  useEffect(() => {
+    if (!team || !activeSeason || !selectedCompareDivision) return;
+    if (team.summary.grade === null || team.summary.gender === null) return;
+    const currentTeam = team;
+
+    let active = true;
+
+    async function loadTeamsInDivision() {
+      try {
+        const division = await loadJson<DivisionRankingData>(
+          `data////division-.json`
+        );
+        if (!active) return;
+
+        const options = division.rankings
+          .filter((t) => t.teamno !== currentTeam.teamno)
+          .map((t) => ({ teamno: t.teamno, name: t.name, rank: t.rank }))
+          .sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name));
+
+        setCompareTeams(options);
+        setSelectedCompareTeam((prev) => {
+          const exists = options.some((o) => o.teamno === prev);
+          return exists ? prev : (options[0]?.teamno ?? "");
+        });
+
+        if (!options.length) {
+          setCompareTeamData(null);
+        }
+
+        setCompareError(null);
+      } catch (err) {
+        if (!active) return;
+        setCompareTeams([]);
+        setSelectedCompareTeam("");
+        setCompareTeamData(null);
+        setCompareError(String(err));
+      }
+    }
+
+    void loadTeamsInDivision();
+
+    return () => {
+      active = false;
+    };
+  }, [selectedCompareDivision, team?.teamno, team?.summary.grade, team?.summary.gender, activeSeason]);
+
+  useEffect(() => {
+    if (!activeSeason || !selectedCompareTeam) {
+      setCompareTeamData(null);
+      return;
+    }
+
+    let active = true;
+
+    async function loadCompareTeam() {
+      try {
+        const payload = await loadJson<TeamData>(`data/${activeSeason}/team-${selectedCompareTeam}.json`);
+        if (!active) return;
+        setCompareTeamData(payload);
+        setCompareError(null);
+      } catch (err) {
+        if (!active) return;
+        setCompareTeamData(null);
+        setCompareError(String(err));
+      }
+    }
+
+    void loadCompareTeam();
+
+    return () => {
+      active = false;
+    };
+  }, [selectedCompareTeam, activeSeason]);
 
   if (error) return <p className="error">{error}</p>;
   if (!team) return <p>Loading team...</p>;
@@ -434,6 +661,8 @@ export function TeamPage() {
           ["--team-y" as string]: `${teamY}%`,
         } as CSSProperties)
       : undefined;
+
+  const comparisonRows = compareTeamData ? buildComparisonRows(team, compareTeamData) : [];
 
   return (
     <div className="stack">
@@ -605,6 +834,79 @@ export function TeamPage() {
           </div>
         </section>
       ) : null}
+
+      <section className="panel">
+        <h3>Compare With Another Team</h3>
+        <p className="meta compact">
+          Compare against teams in the same season, grade, and gender only.
+        </p>
+
+        <div className="compare-controls">
+          <label>
+            Division
+            <select
+              value={selectedCompareDivision}
+              onChange={(e) => setSelectedCompareDivision(e.target.value)}
+              disabled={!compareDivisions.length}
+            >
+              {compareDivisions.map((d) => (
+                <option key={d.divisionno} value={d.divisionno}>
+                  {d.name} {d.divisiontier ? `- Div ${d.divisiontier}` : ""}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label>
+            Team
+            <select
+              value={selectedCompareTeam}
+              onChange={(e) => setSelectedCompareTeam(e.target.value)}
+              disabled={!compareTeams.length}
+            >
+              {compareTeams.map((t) => (
+                <option key={t.teamno} value={t.teamno}>
+                  #{t.rank} {t.name}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
+
+        {compareError ? <p className="error">{compareError}</p> : null}
+
+        {compareTeamData ? (
+          <div className="table-wrap">
+            <table className="games compare-table">
+              <thead>
+                <tr>
+                  <th>Metric</th>
+                  <th>{team.team_name}</th>
+                  <th>{compareTeamData.team_name}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonRows.map((row) => {
+                  const leftClass =
+                    row.winner === "left" ? "compare-win" : row.winner === "right" ? "compare-lose" : "";
+                  const rightClass =
+                    row.winner === "right" ? "compare-win" : row.winner === "left" ? "compare-lose" : "";
+
+                  return (
+                    <tr key={row.metric}>
+                      <td>{row.metric}</td>
+                      <td className={leftClass}>{row.leftDisplay}</td>
+                      <td className={rightClass}>{row.rightDisplay}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        ) : (
+          <p className="meta compact">Choose a division and team to compare.</p>
+        )}
+      </section>
     </div>
   );
 }
