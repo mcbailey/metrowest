@@ -10,6 +10,13 @@ type FinalGame = {
   ts: number;
 };
 
+type RankedContext = {
+  team: RankingTeam;
+  divisionno: string;
+  divisionTier: number | null;
+  divisionBaseline: number | null;
+};
+
 type TeamInsights = {
   offenseDelta: number;
   defenseDelta: number;
@@ -17,7 +24,6 @@ type TeamInsights = {
   divisionAvgPaPerGame: number;
   qualityWins: number;
   badLosses: number;
-  quartileSize: number;
   seasonMarginAvg: number;
   last3MarginAvg: number;
   trendDelta: number;
@@ -74,6 +80,10 @@ function stdDev(values: number[]): number {
 function clampPercent(value: number): number {
   if (!Number.isFinite(value)) return 50;
   return Math.max(0, Math.min(100, value));
+}
+
+function expectedResult(myRating: number, oppRating: number): number {
+  return 1 / (1 + 10 ** ((oppRating - myRating) / 400));
 }
 
 function teamAndOpponentScores(g: TeamGame): { team: number | null; opp: number | null } {
@@ -159,6 +169,14 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
     return null;
   }
 
+  const divisionTierByNo = new Map<string, number>();
+  for (const d of divisions.divisions) {
+    const tier = Number(d.divisiontier ?? "");
+    if (Number.isFinite(tier)) {
+      divisionTierByNo.set(d.divisionno, tier);
+    }
+  }
+
   const divisionNos = divisions.divisions.map((d) => d.divisionno);
   const divisionResults = await Promise.allSettled(
     divisionNos.map((dno) => loadJson<DivisionRankingData>(`data/${season}/${gender}/${grade}/division-${dno}.json`))
@@ -172,11 +190,49 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
     return null;
   }
 
-  const allRankedTeams = divisionDatasets.flatMap((d) => d.rankings);
-  const inDivision = divisionDatasets.find((d) => d.divisionno === divisionno);
+  const divisionBaselineByNo = new Map<string, number>();
+  for (const ds of divisionDatasets) {
+    const values = ds.rankings.map((t) => t.power).filter((v) => Number.isFinite(v));
+    if (values.length) {
+      divisionBaselineByNo.set(ds.divisionno, median(values));
+    }
+  }
 
+  const rankedWithDivision: RankedContext[] = divisionDatasets.flatMap((d) =>
+    d.rankings.map((t) => ({
+      team: t,
+      divisionno: d.divisionno,
+      divisionTier: divisionTierByNo.get(d.divisionno) ?? null,
+      divisionBaseline: divisionBaselineByNo.get(d.divisionno) ?? null,
+    }))
+  );
+
+  const rankedByTeamNo = new Map<string, RankedContext>();
+  for (const rc of rankedWithDivision) {
+    rankedByTeamNo.set(rc.team.teamno, rc);
+  }
+
+  const inDivision = divisionDatasets.find((d) => d.divisionno === divisionno);
   if (!inDivision || !inDivision.rankings.length) {
     return null;
+  }
+
+  const ownBaseline = divisionBaselineByNo.get(divisionno);
+
+  const top15ByTier = new Set<string>();
+  const bottom15ByTier = new Set<string>();
+  const teamsByTier = new Map<number, RankingTeam[]>();
+  for (const rc of rankedWithDivision) {
+    if (rc.divisionTier === null) continue;
+    const arr = teamsByTier.get(rc.divisionTier) ?? [];
+    arr.push(rc.team);
+    teamsByTier.set(rc.divisionTier, arr);
+  }
+  for (const teams of teamsByTier.values()) {
+    const sorted = [...teams].sort((a, b) => b.power - a.power);
+    const n = Math.max(1, Math.ceil(sorted.length * 0.15));
+    for (const t of sorted.slice(0, n)) top15ByTier.add(t.teamno);
+    for (const t of sorted.slice(-n)) bottom15ByTier.add(t.teamno);
   }
 
   const divisionPfPerGame = inDivision.rankings
@@ -202,19 +258,43 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
   const offenseDelta = teamPfPerGame - divisionAvgPfPerGame;
   const defenseDelta = divisionAvgPaPerGame - teamPaPerGame;
 
-  const sortedByPower = [...allRankedTeams].sort((a, b) => b.power - a.power);
-  const quartileSize = Math.max(1, Math.ceil(sortedByPower.length * 0.25));
-  const topQuartile = new Set(sortedByPower.slice(0, quartileSize).map((t) => t.teamno));
-  const bottomQuartile = new Set(sortedByPower.slice(-quartileSize).map((t) => t.teamno));
-
   const finals = finalGames(team.past_games);
   let qualityWins = 0;
   let badLosses = 0;
+
   for (const g of finals) {
-    const opponent = g.game.opponent_teamno;
-    if (!opponent) continue;
-    if (g.teamScore > g.oppScore && topQuartile.has(opponent)) qualityWins += 1;
-    if (g.teamScore < g.oppScore && bottomQuartile.has(opponent)) badLosses += 1;
+    const opponentTeamNo = g.game.opponent_teamno;
+    if (!opponentTeamNo) continue;
+
+    const opponent = rankedByTeamNo.get(opponentTeamNo);
+    const opponentPower = opponent?.team.power ?? 1500;
+    const expected = expectedResult(team.summary.power, opponentPower);
+
+    const giantKiller =
+      ownBaseline !== undefined &&
+      opponent?.divisionBaseline !== null &&
+      opponent?.divisionBaseline !== undefined &&
+      opponent.divisionBaseline > ownBaseline;
+
+    const dropLoss =
+      ownBaseline !== undefined &&
+      opponent?.divisionBaseline !== null &&
+      opponent?.divisionBaseline !== undefined &&
+      opponent.divisionBaseline < ownBaseline;
+
+    const apex = top15ByTier.has(opponentTeamNo);
+    const floor = bottom15ByTier.has(opponentTeamNo);
+
+    const outperformer = expected < 0.4;
+    const stumble = expected > 0.7;
+
+    if (g.teamScore > g.oppScore && (giantKiller || apex || outperformer)) {
+      qualityWins += 1;
+    }
+
+    if (g.teamScore < g.oppScore && (dropLoss || floor || stumble)) {
+      badLosses += 1;
+    }
   }
 
   const margins = finals.map((g) => g.teamScore - g.oppScore);
@@ -251,7 +331,6 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
     divisionAvgPaPerGame,
     qualityWins,
     badLosses,
-    quartileSize,
     seasonMarginAvg,
     last3MarginAvg,
     trendDelta,
@@ -375,6 +454,7 @@ export function TeamPage() {
         <div>PA/G: {avg(team.summary.pa, gp)}</div>
         <div>Diff: {team.summary.diff}</div>
       </section>
+
       <section className="panel">
         <h3>Past Games</h3>
         <div className="table-wrap">
@@ -440,8 +520,9 @@ export function TeamPage() {
         <section className="panel">
           <h3>Coach Insights</h3>
           <p className="meta compact">
-            Offense/defense compares to this subdivision. Quality wins and bad losses use top/bottom 25% across all{" "}
-            {genderLabel(team.summary.gender)} {team.summary.grade} teams.
+            Quality win rules: higher-division baseline win, top-15% opponent in their division tier, or upset win
+            (pre-game expected win &lt; 40%). Bad loss rules: lower-division baseline loss, bottom-15% opponent in their
+            division tier, or favored loss (expected win &gt; 70%).
           </p>
           <div className="summary-grid">
             <div>
@@ -454,11 +535,11 @@ export function TeamPage() {
             </div>
             <div>
               Quality wins: {insights.qualityWins}
-              <span className="metric-note"> (vs top {insights.quartileSize})</span>
+              <span className="metric-note"> (weighted criteria)</span>
             </div>
             <div>
               Bad losses: {insights.badLosses}
-              <span className="metric-note"> (vs bottom {insights.quartileSize})</span>
+              <span className="metric-note"> (weighted criteria)</span>
             </div>
             <div>
               Last-3 trend: {insights.trendLabel}
