@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { Filters, FilterState } from "../components/Filters";
 import { RankingsTable } from "../components/RankingsTable";
 import { loadJson } from "../data";
@@ -351,7 +351,6 @@ export function DivisionPage() {
   if (error) return <p className="error">{error}</p>;
   if (!filters || !index || !divisions || !display) return <p>Loading data...</p>;
 
-  const isDivisionAware = index.ranking_profile !== "classic";
 
   return (
     <div className="stack">
@@ -370,9 +369,9 @@ export function DivisionPage() {
         <h2>{display.title}</h2>
         <p className="meta">{display.subtitle}</p>
         <p className="meta compact">
-          <a className="method-link" href="#ranking-methodology">
-            Jump to SoS & Power ranking methodology
-          </a>
+          <Link className="method-link" to={`/glossary${queryString}`}>
+            Open glossary of ranking terms
+          </Link>
         </p>
       </section>
 
@@ -380,39 +379,6 @@ export function DivisionPage() {
         <RankingsTable teams={display.teams} showGroup={display.showGroup} queryString={queryString} />
       </section>
 
-      <section className="panel" id="ranking-methodology">
-        <h3>How SoS and Power Rankings Are Calculated</h3>
-        {isDivisionAware ? (
-          <>
-            <p className="meta">
-              Ratings start near each division baseline, then move after each final game. Bigger cross-division upsets
-              matter more, top-division games are steadier, and margin impact is capped at 15 points.
-            </p>
-            <ul className="method-list">
-              <li><strong>Step 1:</strong> Teams start from a division baseline (4th grade uses a special baseline table).</li>
-              <li><strong>Step 2:</strong> Elo updates after each game, with upset boost when lower divisions beat higher divisions.</li>
-              <li><strong>Step 3:</strong> D1 and D2 matchups use a reduced K-factor to avoid overreacting to one game.</li>
-              <li><strong>Step 4:</strong> SoS is opponent average rating; Division-Adjusted SoS also reflects opponent division strength.</li>
-              <li><strong>Step 5:</strong> Ratings regress 10% weekly toward each team's division baseline.</li>
-              <li><strong>Final ranking:</strong> Teams are sorted by Power Rating (highest first).</li>
-            </ul>
-          </>
-        ) : (
-          <>
-            <p className="meta">
-              In plain terms: every team starts equal, gains points for wins, and loses points for losses.
-              Beating strong teams helps more than beating weak teams, and close games count less than blowouts.
-            </p>
-            <ul className="method-list">
-              <li><strong>Step 1:</strong> Every team starts at 1500.</li>
-              <li><strong>Step 2:</strong> After each game, ratings move up or down based on who won and by how much.</li>
-              <li><strong>Step 3:</strong> SoS (Strength of Schedule) is the average rating of your opponents.</li>
-              <li><strong>Step 4:</strong> Power Rating = 75% your rating + 25% your SoS.</li>
-              <li><strong>Final ranking:</strong> Teams are sorted by Power Rating (highest first).</li>
-            </ul>
-          </>
-        )}
-      </section>
     </div>
   );
 }

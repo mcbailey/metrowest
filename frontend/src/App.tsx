@@ -1,5 +1,6 @@
 import { Link, Route, Routes } from "react-router-dom";
 import { DivisionPage } from "./routes/DivisionPage";
+import { GlossaryPage } from "./routes/GlossaryPage";
 import { TeamPage } from "./routes/TeamPage";
 
 export default function App() {
@@ -7,9 +8,14 @@ export default function App() {
     <div className="page">
       <header className="topbar">
         <h1>Metrowest Youth Basketball Power Rankings</h1>
-        <Link to="/" className="home-link">
-          Rankings
-        </Link>
+        <nav className="topbar-links">
+          <Link to="/" className="home-link">
+            Rankings
+          </Link>
+          <Link to="/glossary" className="home-link">
+            Glossary
+          </Link>
+        </nav>
       </header>
 
       <section className="notice-banner" role="note">
@@ -24,6 +30,7 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<DivisionPage />} />
+          <Route path="/glossary" element={<GlossaryPage />} />
           <Route path="/team/:teamno" element={<TeamPage />} />
         </Routes>
       </main>
