@@ -288,7 +288,10 @@ function buildComparisonRows(left: TeamData, right: TeamData): ComparisonRow[] {
 }
 
 function scheduleGames(team: TeamData): TeamGame[] {
-  return [...team.past_games, ...team.future_games];
+  return [...team.past_games, ...team.future_games].filter((game) => {
+    const scores = teamAndOpponentScores(game);
+    return scores.team !== null && scores.opp !== null;
+  });
 }
 
 function buildConnectionGraph(teams: TeamData[], allowedTeamNos: Set<string>): Record<string, ConnectionEdge[]> {
