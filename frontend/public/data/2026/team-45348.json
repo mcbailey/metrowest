@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-24",
+  "snapshot_date": "2026-02-25",
   "teamno": "45348",
   "team_name": "D6P-Milton (white)",
   "town": null,
@@ -218,25 +218,6 @@
   ],
   "future_games": [
     {
-      "gameno": "384286",
-      "date": "2026-02-23",
-      "dow": "Mon",
-      "starttime": "6:10 PM",
-      "location": "Newton Country Day",
-      "divisionno": "7551",
-      "division_name": "4th Girls - Division 6",
-      "home_teamno": "44039",
-      "away_teamno": "45348",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44039",
-      "opponent_name": "D6Q-Newton (orange)"
-    },
-    {
       "gameno": "384336",
       "date": "2026-03-01",
       "dow": "Sun",
@@ -254,6 +235,25 @@
       "is_home": false,
       "opponent_teamno": "45268",
       "opponent_name": "D4M-Medfield (baker)"
+    },
+    {
+      "gameno": "384286",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "Bigelow Middle School",
+      "divisionno": "7551",
+      "division_name": "4th Girls - Division 6",
+      "home_teamno": "44039",
+      "away_teamno": "45348",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44039",
+      "opponent_name": "D6Q-Newton (orange)"
     }
   ]
 }

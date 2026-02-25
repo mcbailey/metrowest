@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-24",
+  "snapshot_date": "2026-02-25",
   "teamno": "44076",
   "team_name": "D2BJ-Wellesley (a)",
   "town": null,
@@ -238,10 +238,10 @@
   "future_games": [
     {
       "gameno": "373982",
-      "date": "2026-02-23",
-      "dow": "Mon",
-      "starttime": "7:45 PM",
-      "location": "Sprague School",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "6:15 PM",
+      "location": "Hardy Elem School",
       "divisionno": "7049",
       "division_name": "8th Girls - Division 2",
       "home_teamno": "44076",

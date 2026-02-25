@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-24",
+  "snapshot_date": "2026-02-25",
   "teamno": "44063",
   "team_name": "D6Q-Wellesley (c)",
   "town": null,
@@ -200,10 +200,10 @@
   "future_games": [
     {
       "gameno": "377122",
-      "date": "2026-01-25",
-      "dow": "Sun",
-      "starttime": "2:55 PM",
-      "location": "Winchester High School (Court 2)",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "6:55 PM",
+      "location": "Winchester High School (Court 3)",
       "divisionno": "7288",
       "division_name": "5th Boys - Division 6",
       "home_teamno": "45426",

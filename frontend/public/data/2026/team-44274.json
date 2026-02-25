@@ -1,28 +1,28 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-24",
+  "snapshot_date": "2026-02-25",
   "teamno": "44274",
   "team_name": "D6R-Wayland (silver)",
   "town": null,
   "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 5,
     "ties": 0,
-    "pf": 320,
-    "pa": 333,
-    "diff": -13,
-    "sos": 1412.951,
-    "sos_adj": 1312.951,
-    "power": 1369.317,
+    "pf": 364,
+    "pa": 346,
+    "diff": 18,
+    "sos": 1406.92,
+    "sos_adj": 1306.92,
+    "power": 1384.056,
     "rank": 4,
-    "mw_rating": 20.8,
-    "mw_points": 208,
+    "mw_rating": 21.8,
+    "mw_points": 240,
     "divisionno": "7210",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 2
+    "games_played_total": 11,
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": true,
       "opponent_teamno": "44307",
       "opponent_name": "D6T-Belmont (gray)"
+    },
+    {
+      "gameno": "377663",
+      "date": "2026-02-21",
+      "dow": "Sat",
+      "starttime": "1:45 PM",
+      "location": "Wayland Middle School",
+      "divisionno": "7211",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "44274",
+      "away_teamno": "45080",
+      "home_score": 44,
+      "away_score": 13,
+      "team_score": 44,
+      "opponent_score": 13,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45080",
+      "opponent_name": "D6T-Reading (decrescenzo)"
     },
     {
       "gameno": "377621",
@@ -217,25 +236,6 @@
     }
   ],
   "future_games": [
-    {
-      "gameno": "377663",
-      "date": "2026-02-21",
-      "dow": "Sat",
-      "starttime": "1:45 PM",
-      "location": "Wayland Middle School",
-      "divisionno": "7211",
-      "division_name": "6th Boys - Division 6",
-      "home_teamno": "44274",
-      "away_teamno": "45080",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45080",
-      "opponent_name": "D6T-Reading (decrescenzo)"
-    },
     {
       "gameno": "377687",
       "date": "2026-03-01",

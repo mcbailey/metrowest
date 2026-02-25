@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-24",
+  "snapshot_date": "2026-02-25",
   "teamno": "46149",
   "team_name": "2NDM-Everett (white)",
   "town": null,
@@ -199,25 +199,6 @@
       "opponent_name": "D4P-North Quincy (jamieson)"
     },
     {
-      "gameno": "44501",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "3:30 PM",
-      "location": "Jr. Dana Barros-2",
-      "divisionno": "7630",
-      "division_name": "3rd Boys - Division 3",
-      "home_teamno": "45523",
-      "away_teamno": "46149",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45523",
-      "opponent_name": "2NDM-Mass Premier (king philip)"
-    },
-    {
       "gameno": "44500",
       "date": "2026-02-28",
       "dow": "Sat",
@@ -235,6 +216,25 @@
       "is_home": false,
       "opponent_teamno": "45715",
       "opponent_name": "2NDH-West Bridgewater (barthelemy)"
+    },
+    {
+      "gameno": "44501",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "8:10 AM",
+      "location": "Jr Mass Premier-5",
+      "divisionno": "7630",
+      "division_name": "3rd Boys - Division 3",
+      "home_teamno": "45523",
+      "away_teamno": "46149",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45523",
+      "opponent_name": "2NDM-Mass Premier (king philip)"
     }
   ]
 }

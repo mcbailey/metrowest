@@ -1,28 +1,28 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-24",
+  "snapshot_date": "2026-02-25",
   "teamno": "43222",
   "team_name": "D2H-Mansfield (white)",
   "town": null,
   "summary": {
-    "wins": 16,
+    "wins": 17,
     "losses": 6,
     "ties": 0,
-    "pf": 1041,
-    "pa": 983,
-    "diff": 58,
-    "sos": 1588.951,
-    "sos_adj": 1675.314,
-    "power": 1653.389,
+    "pf": 1085,
+    "pa": 1025,
+    "diff": 60,
+    "sos": 1591.371,
+    "sos_adj": 1680.502,
+    "power": 1663.701,
     "rank": 1,
-    "mw_rating": 152.3,
-    "mw_points": 1675,
+    "mw_rating": 154.1,
+    "mw_points": 1695,
     "divisionno": "7230",
     "division_name": "6th Boys - Division 2",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 22,
-    "games_scheduled_total": 2
+    "games_played_total": 23,
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": true,
       "opponent_teamno": "44403",
       "opponent_name": "D2J-Dedham (odonnell)"
+    },
+    {
+      "gameno": "393714",
+      "date": "2026-02-21",
+      "dow": "Sat",
+      "starttime": "6:30 PM",
+      "location": "Mass Premier - 1",
+      "divisionno": "7230",
+      "division_name": "6th Boys - Division 2",
+      "home_teamno": "44871",
+      "away_teamno": "43222",
+      "home_score": 42,
+      "away_score": 44,
+      "team_score": 44,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44871",
+      "opponent_name": "D1H-North Attleboro (red)"
     },
     {
       "gameno": "393594",
@@ -445,25 +464,6 @@
     }
   ],
   "future_games": [
-    {
-      "gameno": "393714",
-      "date": "2026-02-21",
-      "dow": "Sat",
-      "starttime": "6:30 PM",
-      "location": "Mass Premier - 1",
-      "divisionno": "7230",
-      "division_name": "6th Boys - Division 2",
-      "home_teamno": "44871",
-      "away_teamno": "43222",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44871",
-      "opponent_name": "D1H-North Attleboro (red)"
-    },
     {
       "gameno": "374548",
       "date": "2026-03-01",
