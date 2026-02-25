@@ -951,6 +951,11 @@ export function TeamPage() {
     };
   }, [team?.teamno, team?.summary.grade, team?.summary.gender, activeSeason]);
 
+  const connectionPath = useMemo(() => {
+    if (!team || !selectedConnectionTeam) return null;
+    return findConnectionPath(connectionGraph, team.teamno, selectedConnectionTeam, 7);
+  }, [connectionGraph, selectedConnectionTeam, team?.teamno]);
+
   if (error) return <p className="error">{error}</p>;
   if (!team) return <p>Loading team...</p>;
 
@@ -991,11 +996,6 @@ export function TeamPage() {
       : undefined;
 
   const comparisonRows = compareTeamData ? buildComparisonRows(team, compareTeamData) : [];
-
-  const connectionPath = useMemo(() => {
-    if (!selectedConnectionTeam) return null;
-    return findConnectionPath(connectionGraph, team.teamno, selectedConnectionTeam, 7);
-  }, [connectionGraph, selectedConnectionTeam, team.teamno]);
 
   const selectedConnectionTeamName = selectedConnectionTeam
     ? (connectionTeamNameByNo[selectedConnectionTeam] ?? selectedConnectionTeam)
