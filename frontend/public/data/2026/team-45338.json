@@ -301,16 +301,16 @@
       "location": "South Middle School",
       "divisionno": "7072",
       "division_name": "6th Girls - Division 1",
-      "home_teamno": "45338",
-      "away_teamno": "46976",
+      "home_teamno": "45245",
+      "away_teamno": "45338",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "46976",
-      "opponent_name": "Braintree (6G)"
+      "is_home": false,
+      "opponent_teamno": "45245",
+      "opponent_name": "D2-Medfield (scannell)"
     },
     {
       "gameno": "387662",

@@ -11,9 +11,9 @@
     "pf": 798,
     "pa": 890,
     "diff": -92,
-    "sos": 1583.336,
-    "sos_adj": 1675.003,
-    "power": 1579.797,
+    "sos": 1584.529,
+    "sos_adj": 1676.196,
+    "power": 1580.024,
     "rank": 5,
     "mw_rating": 92.9,
     "mw_points": 1022,
@@ -378,15 +378,15 @@
       "divisionno": "7165",
       "division_name": "8th Boys - Division 2",
       "home_teamno": "43433",
-      "away_teamno": "47241",
+      "away_teamno": "43448",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "47241",
-      "opponent_name": "Cohasset (None)"
+      "opponent_teamno": "43448",
+      "opponent_name": "D3M-Winchester (white)"
     }
   ]
 }

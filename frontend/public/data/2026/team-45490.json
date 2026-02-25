@@ -6,14 +6,14 @@
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 329,
-    "pa": 354,
-    "diff": -25,
-    "sos": 1643.729,
-    "sos_adj": 1779.443,
-    "power": 1663.758,
+    "pf": 331,
+    "pa": 374,
+    "diff": -43,
+    "sos": 1647.756,
+    "sos_adj": 1785.256,
+    "power": 1661.336,
     "rank": 6,
     "mw_rating": 126.5,
     "mw_points": 1012,
@@ -21,8 +21,8 @@
     "division_name": "8th Girls - Division 1",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 7,
-    "games_scheduled_total": 4
+    "games_played_total": 8,
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -121,6 +121,25 @@
       "opponent_name": "D1/2-Easton (black)"
     },
     {
+      "gameno": "373929",
+      "date": "2025-12-20",
+      "dow": "Sat",
+      "starttime": "9:00 AM",
+      "location": "Longplex Court 2",
+      "divisionno": "7050",
+      "division_name": "8th Girls - Division 1",
+      "home_teamno": "45490",
+      "away_teamno": "43945",
+      "home_score": 2,
+      "away_score": 20,
+      "team_score": 2,
+      "opponent_score": 20,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43945",
+      "opponent_name": "D1/2-Brookline (red)"
+    },
+    {
       "gameno": "373917",
       "date": "2025-12-13",
       "dow": "Sat",
@@ -160,25 +179,6 @@
     }
   ],
   "future_games": [
-    {
-      "gameno": "373929",
-      "date": "2025-12-20",
-      "dow": "Sat",
-      "starttime": "9:00 AM",
-      "location": "Longplex Court 2",
-      "divisionno": "7050",
-      "division_name": "8th Girls - Division 1",
-      "home_teamno": "45490",
-      "away_teamno": "43945",
-      "home_score": null,
-      "away_score": null,
-      "team_score": 2,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43945",
-      "opponent_name": "D1/2-Brookline (red)"
-    },
     {
       "gameno": "373983",
       "date": "2026-01-31",

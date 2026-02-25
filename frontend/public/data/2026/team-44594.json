@@ -5,15 +5,15 @@
   "team_name": "D7N-King Philip",
   "town": null,
   "summary": {
-    "wins": 2,
+    "wins": 3,
     "losses": 8,
     "ties": 0,
-    "pf": 119,
+    "pf": 121,
     "pa": 184,
-    "diff": -65,
-    "sos": 1370.077,
-    "sos_adj": 1220.077,
-    "power": 1277.43,
+    "diff": -63,
+    "sos": 1365.894,
+    "sos_adj": 1215.894,
+    "power": 1281.301,
     "rank": 4,
     "mw_rating": 5.7,
     "mw_points": 63,
@@ -21,8 +21,8 @@
     "division_name": "4th Girls - Division 7",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 2
+    "games_played_total": 11,
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -100,6 +100,25 @@
       "is_home": false,
       "opponent_teamno": "43559",
       "opponent_name": "D7M-Bridgewater (holleran)"
+    },
+    {
+      "gameno": "384495",
+      "date": "2026-01-31",
+      "dow": "Sat",
+      "starttime": "1:00 PM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7559",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "44594",
+      "away_teamno": "43135",
+      "home_score": 2,
+      "away_score": 0,
+      "team_score": 2,
+      "opponent_score": 0,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43135",
+      "opponent_name": "D7M-Barrington RI (white)"
     },
     {
       "gameno": "384485",
@@ -217,25 +236,6 @@
     }
   ],
   "future_games": [
-    {
-      "gameno": "384495",
-      "date": "2026-01-31",
-      "dow": "Sat",
-      "starttime": "1:00 PM",
-      "location": "Mass Premier - 4",
-      "divisionno": "7559",
-      "division_name": "4th Girls - Division 7",
-      "home_teamno": "44594",
-      "away_teamno": "43135",
-      "home_score": null,
-      "away_score": null,
-      "team_score": 2,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43135",
-      "opponent_name": "D7M-Barrington RI (white)"
-    },
     {
       "gameno": "384562",
       "date": "2026-03-01",
