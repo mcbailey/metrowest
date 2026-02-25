@@ -69,6 +69,17 @@ type ComparisonRow = {
   winner: ComparisonWinner;
 };
 
+type ConnectionTeamOption = {
+  teamno: string;
+  name: string;
+};
+
+type ConnectionEdge = {
+  fromTeamno: string;
+  toTeamno: string;
+  game: TeamGame;
+};
+
 function gamesPlayed(team: TeamData): number {
   return team.summary.wins + team.summary.losses + team.summary.ties;
 }
@@ -274,6 +285,78 @@ function buildComparisonRows(left: TeamData, right: TeamData): ComparisonRow[] {
       winner: compareHigher(left.summary.sos, right.summary.sos),
     },
   ];
+}
+
+function scheduleGames(team: TeamData): TeamGame[] {
+  return [...team.past_games, ...team.future_games];
+}
+
+function buildConnectionGraph(teams: TeamData[], allowedTeamNos: Set<string>): Record<string, ConnectionEdge[]> {
+  const graph: Record<string, ConnectionEdge[]> = {};
+  const seen = new Set<string>();
+
+  for (const team of teams) {
+    const fromTeamno = team.teamno;
+    for (const game of scheduleGames(team)) {
+      const toTeamno = game.opponent_teamno;
+      if (!toTeamno || !allowedTeamNos.has(toTeamno) || toTeamno === fromTeamno) continue;
+
+      const key = fromTeamno + "|" + toTeamno + "|" + game.gameno;
+      if (seen.has(key)) continue;
+      seen.add(key);
+
+      if (!graph[fromTeamno]) graph[fromTeamno] = [];
+      graph[fromTeamno].push({
+        fromTeamno,
+        toTeamno,
+        game,
+      });
+    }
+  }
+
+  return graph;
+}
+
+function findConnectionPath(
+  graph: Record<string, ConnectionEdge[]>,
+  startTeamno: string,
+  targetTeamno: string,
+  maxDepth: number
+): ConnectionEdge[] | null {
+  if (startTeamno === targetTeamno) return [];
+
+  const queue: Array<{ teamno: string; path: ConnectionEdge[] }> = [{
+    teamno: startTeamno,
+    path: [],
+  }];
+  const bestDepth = new Map<string, number>();
+  bestDepth.set(startTeamno, 0);
+
+  while (queue.length > 0) {
+    const current = queue.shift();
+    if (!current) break;
+
+    if (current.path.length >= maxDepth) continue;
+
+    const edges = graph[current.teamno] ?? [];
+    for (const edge of edges) {
+      const nextPath = [...current.path, edge];
+      const nextDepth = nextPath.length;
+      const nextTeam = edge.toTeamno;
+
+      if (nextTeam === targetTeamno) {
+        return nextPath;
+      }
+
+      const prevBest = bestDepth.get(nextTeam);
+      if (prevBest !== undefined && prevBest <= nextDepth) continue;
+
+      bestDepth.set(nextTeam, nextDepth);
+      queue.push({ teamno: nextTeam, path: nextPath });
+    }
+  }
+
+  return null;
 }
 
 async function computeInsights(team: TeamData, season: string): Promise<TeamInsights | null> {
@@ -542,6 +625,12 @@ export function TeamPage() {
   const [compareTeams, setCompareTeams] = useState<CompareTeamOption[]>([]);
   const [selectedCompareTeam, setSelectedCompareTeam] = useState<string>("");
   const [compareTeamData, setCompareTeamData] = useState<TeamData | null>(null);
+  const [connectionLoading, setConnectionLoading] = useState<boolean>(false);
+  const [connectionError, setConnectionError] = useState<string | null>(null);
+  const [connectionTeamOptions, setConnectionTeamOptions] = useState<ConnectionTeamOption[]>([]);
+  const [selectedConnectionTeam, setSelectedConnectionTeam] = useState<string>("");
+  const [connectionGraph, setConnectionGraph] = useState<Record<string, ConnectionEdge[]>>({});
+  const [connectionTeamNameByNo, setConnectionTeamNameByNo] = useState<Record<string, string>>({});
   const [error, setError] = useState<string | null>(null);
 
   const seasonFromQuery = useMemo(() => {
@@ -564,6 +653,12 @@ export function TeamPage() {
         setCompareTeams([]);
         setSelectedCompareTeam("");
         setCompareTeamData(null);
+        setConnectionLoading(false);
+        setConnectionError(null);
+        setConnectionTeamOptions([]);
+        setSelectedConnectionTeam("");
+        setConnectionGraph({});
+        setConnectionTeamNameByNo({});
 
         const index = await loadJson<IndexData>("data/index.json");
         const season = seasonFromQuery || index.default.yrseason;
@@ -755,6 +850,107 @@ export function TeamPage() {
     };
   }, [selectedCompareTeam, activeSeason]);
 
+  useEffect(() => {
+    if (!team || !activeSeason) return;
+    if (team.summary.grade === null || team.summary.gender === null) return;
+
+    const currentTeam = team;
+    let active = true;
+
+    async function loadConnectionData() {
+      try {
+        setConnectionLoading(true);
+        setConnectionError(null);
+
+        const divisionsPath =
+          "data/" + activeSeason + "/" + currentTeam.summary.gender + "/" + currentTeam.summary.grade + "/divisions.json";
+        const payload = await loadJson<DivisionsData>(divisionsPath);
+        if (!active) return;
+
+        const divisionResults = await Promise.allSettled(
+          payload.divisions.map((division) => {
+            const divisionPath =
+              "data/" +
+              activeSeason +
+              "/" +
+              currentTeam.summary.gender +
+              "/" +
+              currentTeam.summary.grade +
+              "/division-" +
+              division.divisionno +
+              ".json";
+            return loadJson<DivisionRankingData>(divisionPath);
+          })
+        );
+        if (!active) return;
+
+        const teamNameByNo = new Map<string, string>();
+        teamNameByNo.set(currentTeam.teamno, currentTeam.team_name);
+
+        for (const result of divisionResults) {
+          if (result.status !== "fulfilled") continue;
+          for (const row of result.value.rankings) {
+            if (!teamNameByNo.has(row.teamno)) {
+              teamNameByNo.set(row.teamno, row.name);
+            }
+          }
+        }
+
+        const teamNos = [...teamNameByNo.keys()];
+        const teamDataResults = await Promise.allSettled(
+          teamNos.map((tno) => loadJson<TeamData>("data/" + activeSeason + "/team-" + tno + ".json"))
+        );
+        if (!active) return;
+
+        const teamPayloads = teamDataResults
+          .filter((r): r is PromiseFulfilledResult<TeamData> => r.status === "fulfilled")
+          .map((r) => r.value);
+
+        for (const tp of teamPayloads) {
+          if (!teamNameByNo.has(tp.teamno)) {
+            teamNameByNo.set(tp.teamno, tp.team_name);
+          }
+        }
+
+        const allowed = new Set(teamNos);
+        const graph = buildConnectionGraph(teamPayloads, allowed);
+
+        const options = teamNos
+          .filter((tno) => tno !== currentTeam.teamno)
+          .map((tno) => ({ teamno: tno, name: teamNameByNo.get(tno) ?? tno }))
+          .sort((a, b) => a.name.localeCompare(b.name));
+
+        const nameRecord: Record<string, string> = {};
+        for (const [tno, name] of teamNameByNo.entries()) {
+          nameRecord[tno] = name;
+        }
+
+        setConnectionGraph(graph);
+        setConnectionTeamNameByNo(nameRecord);
+        setConnectionTeamOptions(options);
+        setSelectedConnectionTeam((prev) => {
+          const exists = options.some((o) => o.teamno === prev);
+          return exists ? prev : (options[0]?.teamno ?? "");
+        });
+      } catch (err) {
+        if (!active) return;
+        setConnectionGraph({});
+        setConnectionTeamNameByNo({});
+        setConnectionTeamOptions([]);
+        setSelectedConnectionTeam("");
+        setConnectionError(String(err));
+      } finally {
+        if (active) setConnectionLoading(false);
+      }
+    }
+
+    void loadConnectionData();
+
+    return () => {
+      active = false;
+    };
+  }, [team?.teamno, team?.summary.grade, team?.summary.gender, activeSeason]);
+
   if (error) return <p className="error">{error}</p>;
   if (!team) return <p>Loading team...</p>;
 
@@ -795,6 +991,15 @@ export function TeamPage() {
       : undefined;
 
   const comparisonRows = compareTeamData ? buildComparisonRows(team, compareTeamData) : [];
+
+  const connectionPath = useMemo(() => {
+    if (!selectedConnectionTeam) return null;
+    return findConnectionPath(connectionGraph, team.teamno, selectedConnectionTeam, 7);
+  }, [connectionGraph, selectedConnectionTeam, team.teamno]);
+
+  const selectedConnectionTeamName = selectedConnectionTeam
+    ? (connectionTeamNameByNo[selectedConnectionTeam] ?? selectedConnectionTeam)
+    : "";
 
   return (
     <div className="stack">
@@ -1050,6 +1255,87 @@ export function TeamPage() {
         ) : (
           <p className="meta compact">Choose a division and team to compare.</p>
         )}
+      </section>
+
+      <section className="panel">
+        <h3>Team Connection Finder</h3>
+        <p className="meta compact">
+          Select another team in the same grade and gender to find the shortest schedule connection (up to 7 games).
+        </p>
+
+        <div className="compare-controls">
+          <label>
+            Team
+            <select
+              value={selectedConnectionTeam}
+              onChange={(e) => setSelectedConnectionTeam(e.target.value)}
+              disabled={connectionLoading || !connectionTeamOptions.length}
+            >
+              {connectionTeamOptions.map((opt) => (
+                <option key={opt.teamno} value={opt.teamno}>
+                  {opt.name}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
+
+        {connectionLoading ? <p className="meta compact">Loading teams and schedules...</p> : null}
+        {connectionError ? <p className="error">{connectionError}</p> : null}
+
+        {!connectionLoading && !connectionError && selectedConnectionTeam ? (
+          connectionPath ? (
+            connectionPath.length > 0 ? (
+              <>
+                <p className="meta compact">
+                  Connection found from <strong>{team.team_name}</strong> to <strong>{selectedConnectionTeamName}</strong> in {connectionPath.length} game
+                  {connectionPath.length === 1 ? "" : "s"}.
+                </p>
+                <div className="table-wrap">
+                  <table className="games">
+                    <thead>
+                      <tr>
+                        <th>Step</th>
+                        <th>Date</th>
+                        <th>Matchup</th>
+                        <th>Score</th>
+                        <th>Status</th>
+                        <th>Division</th>
+                        <th>Location</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {connectionPath.map((step, idx) => {
+                        const fromName = connectionTeamNameByNo[step.fromTeamno] ?? step.fromTeamno;
+                        const toName = connectionTeamNameByNo[step.toTeamno] ?? step.game.opponent_name ?? step.toTeamno;
+                        const scores = teamAndOpponentScores(step.game);
+                        const hasScore = scores.team !== null && scores.opp !== null;
+                        const scoreLabel = hasScore ? String(scores.team) + "-" + String(scores.opp) : "-";
+                        const statusLabel = hasScore ? "Final" : "Scheduled";
+
+                        return (
+                          <tr key={step.fromTeamno + "-" + step.toTeamno + "-" + step.game.gameno + "-" + String(idx)}>
+                            <td>{idx + 1}</td>
+                            <td>{step.game.date ?? "TBD"}</td>
+                            <td>{fromName} vs {toName}</td>
+                            <td>{scoreLabel}</td>
+                            <td>{statusLabel}</td>
+                            <td>{step.game.division_name ?? "-"}</td>
+                            <td>{step.game.location ?? "TBD"}</td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </>
+            ) : (
+              <p className="meta compact">Selected team is the same team.</p>
+            )
+          ) : (
+            <p className="meta compact">No connection found within 7 games.</p>
+          )
+        ) : null}
       </section>
     </div>
   );
