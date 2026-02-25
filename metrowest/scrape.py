@@ -47,14 +47,33 @@ def _normalize_game(
 ) -> dict[str, Any]:
     raw_home = row.get("hometeam")
     raw_away = row.get("awayteam")
-    home_teamno = str(raw_home) if raw_home not in (None, "") else None
-    away_teamno = str(raw_away) if raw_away not in (None, "") else None
+    raw_home_teamno = str(raw_home) if raw_home not in (None, "") else None
+    raw_away_teamno = str(raw_away) if raw_away not in (None, "") else None
 
     teamno = str(teamno)
     opponent_teamno = row.get("opponentteamno")
     opponent_teamno = str(opponent_teamno) if opponent_teamno not in (None, "") else None
 
-    homeaway = str(row.get("homeaway") or "").lower()
+    if not opponent_teamno:
+        if raw_home_teamno and raw_home_teamno != teamno:
+            opponent_teamno = raw_home_teamno
+        elif raw_away_teamno and raw_away_teamno != teamno:
+            opponent_teamno = raw_away_teamno
+
+    homeaway = str(row.get("homeaway") or "").strip().lower()
+
+    # Team schedule endpoints can return hometeam/awayteam in team-first order, which
+    # conflicts with the true home/away side. Trust explicit homeaway whenever present.
+    if homeaway == "home":
+        home_teamno = teamno
+        away_teamno = opponent_teamno or (raw_away_teamno if raw_away_teamno != teamno else raw_home_teamno)
+    elif homeaway == "away":
+        away_teamno = teamno
+        home_teamno = opponent_teamno or (raw_home_teamno if raw_home_teamno != teamno else raw_away_teamno)
+    else:
+        home_teamno = raw_home_teamno
+        away_teamno = raw_away_teamno
+
     if not home_teamno or not away_teamno:
         if homeaway == "home":
             home_teamno = home_teamno or teamno
@@ -82,25 +101,40 @@ def _normalize_game(
 
     team_score = to_int(row.get("teamscore"))
     opp_score = to_int(row.get("opponentscore"))
+
+    # Some responses provide scorehome as a comma pair like "69,50".
+    if team_score is None or opp_score is None:
+        pair_source = row.get("scorehome") or row.get("scoreaway")
+        pair_text = str(pair_source or "")
+        if "," in pair_text:
+            left, right = pair_text.split(",", 1)
+            left_i = to_int(left)
+            right_i = to_int(right)
+            if left_i is not None and right_i is not None:
+                if team_score is None:
+                    team_score = left_i
+                if opp_score is None:
+                    opp_score = right_i
+
     score_home = to_int(row.get("scorehome"))
     score_away = to_int(row.get("scoreaway"))
 
     home_score: int | None = None
     away_score: int | None = None
 
-    if score_home is not None and score_away is not None:
-        home_score, away_score = score_home, score_away
-    elif team_score is not None and opp_score is not None:
+    if team_score is not None and opp_score is not None:
         if homeaway == "home":
             home_score, away_score = team_score, opp_score
         elif homeaway == "away":
             home_score, away_score = opp_score, team_score
         elif home_teamno and away_teamno:
-            # Tournament/crossover games may use values like "Tourn" in homeaway.
             if teamno == home_teamno:
                 home_score, away_score = team_score, opp_score
             elif teamno == away_teamno:
                 home_score, away_score = opp_score, team_score
+
+    if home_score is None and away_score is None and score_home is not None and score_away is not None:
+        home_score, away_score = score_home, score_away
 
     status = "final" if home_score is not None and away_score is not None else "scheduled"
 
