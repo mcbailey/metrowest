@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-25",
+  "snapshot_date": "2026-02-26",
   "teamno": "43917",
   "team_name": "D5Q-Wellesley (c)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 10,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -222,6 +222,25 @@
       "date": "2026-02-15",
       "dow": "Sun",
       "starttime": "3:20 PM",
+      "location": "Everett Rec Center",
+      "divisionno": "7150",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "45502",
+      "away_teamno": "43917",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45502",
+      "opponent_name": "D5R-Everett"
+    },
+    {
+      "gameno": "393925",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "11:00 AM",
       "location": "Everett Rec Center",
       "divisionno": "7150",
       "division_name": "8th Boys - Division 5",

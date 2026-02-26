@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-25",
+  "snapshot_date": "2026-02-26",
   "gender": "M",
   "grade": 6,
   "divisionno": "7215",
@@ -17,12 +17,12 @@
       "pf": 419,
       "pa": 397,
       "diff": 22,
-      "sos": 1446.559,
-      "sos_adj": 1400.726,
-      "power": 1458.472,
+      "sos": 1446.592,
+      "sos_adj": 1400.759,
+      "power": 1458.42,
       "rank": 1,
-      "mw_rating": 34.7,
-      "mw_points": 382
+      "mw_rating": 34.8,
+      "mw_points": 383
     },
     {
       "teamno": "44463",
@@ -34,12 +34,12 @@
       "pf": 342,
       "pa": 297,
       "diff": 45,
-      "sos": 1456.238,
-      "sos_adj": 1415.329,
-      "power": 1458.071,
+      "sos": 1456.269,
+      "sos_adj": 1415.36,
+      "power": 1458.079,
       "rank": 2,
-      "mw_rating": 38.8,
-      "mw_points": 388
+      "mw_rating": 38.9,
+      "mw_points": 389
     },
     {
       "teamno": "43755",
@@ -51,12 +51,12 @@
       "pf": 432,
       "pa": 372,
       "diff": 60,
-      "sos": 1458.108,
-      "sos_adj": 1424.775,
-      "power": 1438.488,
+      "sos": 1458.124,
+      "sos_adj": 1424.791,
+      "power": 1438.496,
       "rank": 3,
-      "mw_rating": 42.1,
-      "mw_points": 421
+      "mw_rating": 42.2,
+      "mw_points": 422
     },
     {
       "teamno": "43623",
@@ -68,9 +68,9 @@
       "pf": 370,
       "pa": 416,
       "diff": -46,
-      "sos": 1443.11,
-      "sos_adj": 1397.656,
-      "power": 1403.143,
+      "sos": 1443.125,
+      "sos_adj": 1397.671,
+      "power": 1403.175,
       "rank": 4,
       "mw_rating": 24.5,
       "mw_points": 269
@@ -79,18 +79,18 @@
       "teamno": "43901",
       "name": "D5M-Canton (white)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 7,
       "ties": 0,
-      "pf": 276,
-      "pa": 329,
-      "diff": -53,
-      "sos": 1438.44,
-      "sos_adj": 1388.44,
-      "power": 1397.604,
+      "pf": 309,
+      "pa": 360,
+      "diff": -51,
+      "sos": 1430.677,
+      "sos_adj": 1380.677,
+      "power": 1396.624,
       "rank": 5,
-      "mw_rating": 19.7,
-      "mw_points": 177
+      "mw_rating": 20.2,
+      "mw_points": 182
     },
     {
       "teamno": "44404",
@@ -102,9 +102,9 @@
       "pf": 324,
       "pa": 454,
       "diff": -130,
-      "sos": 1450.31,
-      "sos_adj": 1404.855,
-      "power": 1387.538,
+      "sos": 1450.321,
+      "sos_adj": 1404.867,
+      "power": 1387.532,
       "rank": 6,
       "mw_rating": 19.2,
       "mw_points": 211
@@ -114,17 +114,17 @@
       "name": "D5M-Westwood",
       "town": null,
       "wins": 3,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 256,
-      "pa": 373,
-      "diff": -117,
-      "sos": 1444.621,
-      "sos_adj": 1399.166,
-      "power": 1371.772,
+      "pf": 287,
+      "pa": 406,
+      "diff": -119,
+      "sos": 1441.137,
+      "sos_adj": 1395.304,
+      "power": 1370.086,
       "rank": 7,
-      "mw_rating": 23.1,
-      "mw_points": 254
+      "mw_rating": 23.3,
+      "mw_points": 256
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-25",
+  "snapshot_date": "2026-02-26",
   "teamno": "44278",
   "team_name": "D5R-Wayland (orange)",
   "town": null,
@@ -200,10 +200,10 @@
   "future_games": [
     {
       "gameno": "380339",
-      "date": "2026-01-18",
-      "dow": "Sun",
-      "starttime": "4:15 PM",
-      "location": "Wayland High School - Front Court",
+      "date": "2026-02-27",
+      "dow": "Fri",
+      "starttime": "7:45 PM",
+      "location": "Wayland Middle School",
       "divisionno": "7272",
       "division_name": "6th Girls - Division 5",
       "home_teamno": "44278",

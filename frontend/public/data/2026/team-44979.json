@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-25",
+  "snapshot_date": "2026-02-26",
   "teamno": "44979",
   "team_name": "D4H-Acushnet - Fairhaven (myles)",
   "town": null,
@@ -238,10 +238,10 @@
   "future_games": [
     {
       "gameno": "379093",
-      "date": "2026-02-26",
-      "dow": "Thu",
-      "starttime": "6:40 PM",
-      "location": "Dana Barros Court 1",
+      "date": "2026-02-27",
+      "dow": "Fri",
+      "starttime": "7:35 PM",
+      "location": "East Elementary School",
       "divisionno": "7189",
       "division_name": "7th Boys - Division 4",
       "home_teamno": "43695",

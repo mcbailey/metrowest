@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-25",
+  "snapshot_date": "2026-02-26",
   "gender": "F",
   "grade": 6,
   "divisionno": "7268",
@@ -21,8 +21,8 @@
       "sos_adj": 1378.175,
       "power": 1520.048,
       "rank": 1,
-      "mw_rating": 56.2,
-      "mw_points": 618
+      "mw_rating": 56.3,
+      "mw_points": 619
     },
     {
       "teamno": "43900",
@@ -38,8 +38,8 @@
       "sos_adj": 1400.031,
       "power": 1464.17,
       "rank": 2,
-      "mw_rating": 37.2,
-      "mw_points": 372
+      "mw_rating": 37.3,
+      "mw_points": 373
     },
     {
       "teamno": "45341",
@@ -51,12 +51,29 @@
       "pf": 255,
       "pa": 252,
       "diff": 3,
-      "sos": 1450.956,
-      "sos_adj": 1400.956,
-      "power": 1433.593,
+      "sos": 1449.472,
+      "sos_adj": 1399.472,
+      "power": 1433.222,
       "rank": 3,
       "mw_rating": 30.2,
       "mw_points": 332
+    },
+    {
+      "teamno": "44476",
+      "name": "D5J-Walpole (b)",
+      "town": null,
+      "wins": 4,
+      "losses": 7,
+      "ties": 0,
+      "pf": 175,
+      "pa": 227,
+      "diff": -52,
+      "sos": 1450.953,
+      "sos_adj": 1400.953,
+      "power": 1428.342,
+      "rank": 4,
+      "mw_rating": 25.7,
+      "mw_points": 283
     },
     {
       "teamno": "43305",
@@ -71,43 +88,9 @@
       "sos": 1443.913,
       "sos_adj": 1393.913,
       "power": 1426.735,
-      "rank": 4,
-      "mw_rating": 27.2,
-      "mw_points": 272
-    },
-    {
-      "teamno": "44476",
-      "name": "D5J-Walpole (b)",
-      "town": null,
-      "wins": 3,
-      "losses": 7,
-      "ties": 0,
-      "pf": 152,
-      "pa": 215,
-      "diff": -63,
-      "sos": 1463.275,
-      "sos_adj": 1413.275,
-      "power": 1419.18,
       "rank": 5,
-      "mw_rating": 23.2,
-      "mw_points": 232
-    },
-    {
-      "teamno": "43355",
-      "name": "D5J-Norwood (blue)",
-      "town": null,
-      "wins": 0,
-      "losses": 10,
-      "ties": 0,
-      "pf": 109,
-      "pa": 358,
-      "diff": -249,
-      "sos": 1475.68,
-      "sos_adj": 1425.68,
-      "power": 1364.466,
-      "rank": 6,
-      "mw_rating": 10.0,
-      "mw_points": 100
+      "mw_rating": 27.3,
+      "mw_points": 273
     },
     {
       "teamno": "44599",
@@ -119,12 +102,29 @@
       "pf": 207,
       "pa": 390,
       "diff": -183,
-      "sos": 1477.03,
-      "sos_adj": 1430.602,
-      "power": 1358.873,
-      "rank": 7,
+      "sos": 1478.196,
+      "sos_adj": 1431.768,
+      "power": 1359.165,
+      "rank": 6,
       "mw_rating": 15.2,
       "mw_points": 167
+    },
+    {
+      "teamno": "43355",
+      "name": "D5J-Norwood (blue)",
+      "town": null,
+      "wins": 0,
+      "losses": 11,
+      "ties": 0,
+      "pf": 121,
+      "pa": 381,
+      "diff": -260,
+      "sos": 1472.206,
+      "sos_adj": 1422.206,
+      "power": 1351.354,
+      "rank": 7,
+      "mw_rating": 10.0,
+      "mw_points": 110
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-25",
+  "snapshot_date": "2026-02-26",
   "gender": "F",
   "grade": 8,
   "divisionno": "7240",
@@ -97,17 +97,17 @@
       "name": "D4H-Berkley",
       "town": null,
       "wins": 2,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 233,
-      "pa": 332,
-      "diff": -99,
-      "sos": 1489.244,
-      "sos_adj": 1484.244,
-      "power": 1453.228,
+      "pf": 250,
+      "pa": 386,
+      "diff": -136,
+      "sos": 1497.885,
+      "sos_adj": 1493.339,
+      "power": 1444.689,
       "rank": 6,
-      "mw_rating": 33.9,
-      "mw_points": 339
+      "mw_rating": 33.1,
+      "mw_points": 364
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-25",
+  "snapshot_date": "2026-02-26",
   "teamno": "45583",
   "team_name": "D4J-Stoughton",
   "town": null,
@@ -219,9 +219,9 @@
   "future_games": [
     {
       "gameno": "379074",
-      "date": "2026-01-25",
-      "dow": "Sun",
-      "starttime": "11:10 AM",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "12:00 AM",
       "location": "Stoughton O'Donnell Middle School",
       "divisionno": "7189",
       "division_name": "7th Boys - Division 4",
