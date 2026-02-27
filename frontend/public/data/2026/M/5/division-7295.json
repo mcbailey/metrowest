@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "gender": "M",
   "grade": 5,
   "divisionno": "7295",
@@ -45,18 +45,18 @@
       "teamno": "45088",
       "name": "D5T-Framingham (white)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 6,
       "ties": 0,
-      "pf": 300,
-      "pa": 332,
-      "diff": -32,
-      "sos": 1459.579,
-      "sos_adj": 1424.579,
-      "power": 1450.471,
+      "pf": 352,
+      "pa": 357,
+      "diff": -5,
+      "sos": 1456.742,
+      "sos_adj": 1420.379,
+      "power": 1465.637,
       "rank": 3,
-      "mw_rating": 30.1,
-      "mw_points": 271
+      "mw_rating": 32.2,
+      "mw_points": 322
     },
     {
       "teamno": "44378",
@@ -68,12 +68,12 @@
       "pf": 347,
       "pa": 314,
       "diff": 33,
-      "sos": 1445.524,
-      "sos_adj": 1390.978,
-      "power": 1444.102,
+      "sos": 1447.489,
+      "sos_adj": 1392.944,
+      "power": 1444.593,
       "rank": 4,
-      "mw_rating": 38.8,
-      "mw_points": 427
+      "mw_rating": 38.9,
+      "mw_points": 428
     },
     {
       "teamno": "45433",
@@ -85,12 +85,12 @@
       "pf": 399,
       "pa": 396,
       "diff": 3,
-      "sos": 1436.391,
-      "sos_adj": 1371.006,
-      "power": 1426.416,
+      "sos": 1438.054,
+      "sos_adj": 1372.669,
+      "power": 1426.832,
       "rank": 5,
-      "mw_rating": 31.6,
-      "mw_points": 316
+      "mw_rating": 31.7,
+      "mw_points": 317
     },
     {
       "teamno": "43934",

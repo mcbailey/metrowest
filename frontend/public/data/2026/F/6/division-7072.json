@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "gender": "F",
   "grade": 6,
   "divisionno": "7072",
@@ -17,12 +17,12 @@
       "pf": 523,
       "pa": 294,
       "diff": 229,
-      "sos": 1614.125,
-      "sos_adj": 1727.762,
-      "power": 1742.676,
+      "sos": 1613.149,
+      "sos_adj": 1726.786,
+      "power": 1735.108,
       "rank": 1,
-      "mw_rating": 184.9,
-      "mw_points": 1849
+      "mw_rating": 185.1,
+      "mw_points": 1851
     },
     {
       "teamno": "43441",
@@ -34,12 +34,12 @@
       "pf": 843,
       "pa": 596,
       "diff": 247,
-      "sos": 1579.951,
-      "sos_adj": 1664.734,
-      "power": 1692.816,
+      "sos": 1579.991,
+      "sos_adj": 1664.774,
+      "power": 1688.912,
       "rank": 2,
-      "mw_rating": 162.3,
-      "mw_points": 1623
+      "mw_rating": 162.6,
+      "mw_points": 1626
     },
     {
       "teamno": "43335",
@@ -51,29 +51,29 @@
       "pf": 566,
       "pa": 510,
       "diff": 56,
-      "sos": 1615.018,
-      "sos_adj": 1728.351,
-      "power": 1677.961,
+      "sos": 1614.85,
+      "sos_adj": 1728.183,
+      "power": 1677.081,
       "rank": 3,
-      "mw_rating": 152.7,
-      "mw_points": 1527
+      "mw_rating": 152.9,
+      "mw_points": 1529
     },
     {
       "teamno": "45338",
       "name": "D1-Milton (red)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 6,
       "ties": 0,
-      "pf": 508,
-      "pa": 444,
-      "diff": 64,
-      "sos": 1610.655,
-      "sos_adj": 1714.227,
-      "power": 1659.726,
+      "pf": 545,
+      "pa": 477,
+      "diff": 68,
+      "sos": 1607.535,
+      "sos_adj": 1710.868,
+      "power": 1667.168,
       "rank": 4,
-      "mw_rating": 133.7,
-      "mw_points": 1337
+      "mw_rating": 134.1,
+      "mw_points": 1341
     },
     {
       "teamno": "44785",
@@ -85,9 +85,9 @@
       "pf": 371,
       "pa": 399,
       "diff": -28,
-      "sos": 1617.53,
-      "sos_adj": 1721.696,
-      "power": 1656.977,
+      "sos": 1616.193,
+      "sos_adj": 1720.36,
+      "power": 1657.738,
       "rank": 5,
       "mw_rating": 125.5,
       "mw_points": 1004
@@ -102,9 +102,9 @@
       "pf": 445,
       "pa": 512,
       "diff": -67,
-      "sos": 1634.877,
-      "sos_adj": 1764.043,
-      "power": 1646.496,
+      "sos": 1634.306,
+      "sos_adj": 1763.472,
+      "power": 1649.555,
       "rank": 6,
       "mw_rating": 121.2,
       "mw_points": 1091
@@ -119,12 +119,12 @@
       "pf": 378,
       "pa": 427,
       "diff": -49,
-      "sos": 1623.846,
-      "sos_adj": 1742.027,
-      "power": 1641.601,
+      "sos": 1623.279,
+      "sos_adj": 1741.461,
+      "power": 1644.6,
       "rank": 7,
-      "mw_rating": 115.8,
-      "mw_points": 1158
+      "mw_rating": 115.9,
+      "mw_points": 1159
     }
   ]
 }

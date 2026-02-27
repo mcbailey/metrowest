@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "teamno": "43521",
   "team_name": "D3J-Hopkinton (hinnenkamp)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 200,
     "pa": 333,
     "diff": -133,
-    "sos": 1555.426,
-    "sos_adj": 1600.881,
-    "power": 1490.202,
+    "sos": 1555.196,
+    "sos_adj": 1600.65,
+    "power": 1490.005,
     "rank": 8,
     "mw_rating": 48.5,
     "mw_points": 533,
@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -236,6 +236,25 @@
     }
   ],
   "future_games": [
+    {
+      "gameno": "393930",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "1:45 PM",
+      "location": "Holliston Adams Middle School (Saturday)",
+      "divisionno": "7276",
+      "division_name": "6th Girls - Division 4",
+      "home_teamno": "44156",
+      "away_teamno": "43521",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44156",
+      "opponent_name": "D4K-Holliston (king-red 6th)"
+    },
     {
       "gameno": "375926",
       "date": "2026-03-01",

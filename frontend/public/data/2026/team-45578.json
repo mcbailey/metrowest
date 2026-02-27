@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "teamno": "45578",
   "team_name": "D1H-Stoughton",
   "town": null,
@@ -392,8 +392,8 @@
       "gameno": "374431",
       "date": "2026-03-01",
       "dow": "Sun",
-      "starttime": "9:20 AM",
-      "location": "Dighton Middle School",
+      "starttime": "11:30 AM",
+      "location": "Dana Barros-1",
       "divisionno": "7234",
       "division_name": "6th Boys - Division 1",
       "home_teamno": "43148",

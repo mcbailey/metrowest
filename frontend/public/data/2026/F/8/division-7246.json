@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "gender": "F",
   "grade": 8,
   "divisionno": "7246",
@@ -17,29 +17,29 @@
       "pf": 809,
       "pa": 658,
       "diff": 151,
-      "sos": 1535.99,
-      "sos_adj": 1581.228,
-      "power": 1641.595,
+      "sos": 1536.915,
+      "sos_adj": 1582.153,
+      "power": 1633.448,
       "rank": 1,
-      "mw_rating": 111.7,
-      "mw_points": 1117
+      "mw_rating": 111.9,
+      "mw_points": 1119
     },
     {
       "teamno": "43596",
       "name": "D3H-North Quincy (mergel)",
       "town": null,
       "wins": 7,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
-      "pf": 358,
-      "pa": 270,
-      "diff": 88,
-      "sos": 1551.924,
-      "sos_adj": 1601.924,
-      "power": 1612.784,
+      "pf": 402,
+      "pa": 319,
+      "diff": 83,
+      "sos": 1550.265,
+      "sos_adj": 1600.265,
+      "power": 1590.958,
       "rank": 2,
-      "mw_rating": 99.1,
-      "mw_points": 892
+      "mw_rating": 93.8,
+      "mw_points": 938
     },
     {
       "teamno": "44479",
@@ -51,29 +51,29 @@
       "pf": 379,
       "pa": 424,
       "diff": -45,
-      "sos": 1580.103,
-      "sos_adj": 1643.739,
-      "power": 1571.045,
+      "sos": 1578.456,
+      "sos_adj": 1642.093,
+      "power": 1570.872,
       "rank": 3,
-      "mw_rating": 89.4,
-      "mw_points": 894
+      "mw_rating": 89.5,
+      "mw_points": 895
     },
     {
       "teamno": "43308",
       "name": "D3H-Franklin",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 9,
       "ties": 0,
-      "pf": 399,
-      "pa": 446,
-      "diff": -47,
-      "sos": 1561.579,
-      "sos_adj": 1615.746,
-      "power": 1537.399,
+      "pf": 448,
+      "pa": 490,
+      "diff": -42,
+      "sos": 1562.916,
+      "sos_adj": 1616.762,
+      "power": 1556.988,
       "rank": 4,
-      "mw_rating": 63.9,
-      "mw_points": 767
+      "mw_rating": 68.1,
+      "mw_points": 885
     },
     {
       "teamno": "43892",
@@ -85,12 +85,12 @@
       "pf": 418,
       "pa": 528,
       "diff": -110,
-      "sos": 1574.414,
-      "sos_adj": 1632.747,
-      "power": 1511.297,
+      "sos": 1572.806,
+      "sos_adj": 1631.139,
+      "power": 1516.834,
       "rank": 5,
-      "mw_rating": 58.0,
-      "mw_points": 638
+      "mw_rating": 58.1,
+      "mw_points": 639
     }
   ]
 }

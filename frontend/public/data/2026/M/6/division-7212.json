@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "gender": "M",
   "grade": 6,
   "divisionno": "7212",
@@ -21,8 +21,8 @@
       "sos_adj": 1452.114,
       "power": 1568.378,
       "rank": 1,
-      "mw_rating": 67.8,
-      "mw_points": 746
+      "mw_rating": 67.9,
+      "mw_points": 747
     },
     {
       "teamno": "43478",
@@ -38,8 +38,8 @@
       "sos_adj": 1380.86,
       "power": 1507.967,
       "rank": 2,
-      "mw_rating": 47.8,
-      "mw_points": 526
+      "mw_rating": 47.9,
+      "mw_points": 527
     },
     {
       "teamno": "44978",
@@ -55,25 +55,25 @@
       "sos_adj": 1417.257,
       "power": 1445.236,
       "rank": 3,
-      "mw_rating": 24.6,
-      "mw_points": 221
+      "mw_rating": 24.7,
+      "mw_points": 222
     },
     {
       "teamno": "43234",
       "name": "D5H-Barnstable  (red)",
       "town": null,
       "wins": 5,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "pf": 334,
-      "pa": 365,
-      "diff": -31,
-      "sos": 1471.022,
-      "sos_adj": 1421.022,
-      "power": 1431.725,
+      "pf": 376,
+      "pa": 417,
+      "diff": -41,
+      "sos": 1467.443,
+      "sos_adj": 1417.443,
+      "power": 1413.219,
       "rank": 4,
-      "mw_rating": 34.4,
-      "mw_points": 310
+      "mw_rating": 32.0,
+      "mw_points": 320
     },
     {
       "teamno": "43432",
@@ -102,9 +102,9 @@
       "pf": 308,
       "pa": 433,
       "diff": -125,
-      "sos": 1456.111,
-      "sos_adj": 1406.111,
-      "power": 1372.523,
+      "sos": 1453.976,
+      "sos_adj": 1403.976,
+      "power": 1371.99,
       "rank": 6,
       "mw_rating": 17.9,
       "mw_points": 197

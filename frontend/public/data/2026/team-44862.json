@@ -1,28 +1,28 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "teamno": "44862",
   "team_name": "D1/2J-Hanover",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 6,
     "ties": 0,
-    "pf": 561,
-    "pa": 481,
-    "diff": 80,
-    "sos": 1608.127,
-    "sos_adj": 1708.127,
-    "power": 1669.831,
+    "pf": 606,
+    "pa": 523,
+    "diff": 83,
+    "sos": 1601.24,
+    "sos_adj": 1694.99,
+    "power": 1668.051,
     "rank": 5,
-    "mw_rating": 143.1,
-    "mw_points": 1431,
+    "mw_rating": 143.3,
+    "mw_points": 1433,
     "divisionno": "7265",
     "division_name": "7th Girls - Division 1",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -138,6 +138,25 @@
       "is_home": true,
       "opponent_teamno": "44205",
       "opponent_name": "D1/2H-Sharon (gold)"
+    },
+    {
+      "gameno": "393941",
+      "date": "2026-01-11",
+      "dow": "Sun",
+      "starttime": "11:30 AM",
+      "location": "Pembroke Community Middle School",
+      "divisionno": "7265",
+      "division_name": "7th Girls - Division 1",
+      "home_teamno": "44862",
+      "away_teamno": "47281",
+      "home_score": 45,
+      "away_score": 42,
+      "team_score": 45,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "47281",
+      "opponent_name": "Pembroke (blue)"
     },
     {
       "gameno": "373838",
@@ -312,6 +331,25 @@
     }
   ],
   "future_games": [
+    {
+      "gameno": "393940",
+      "date": "2026-01-04",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "Chapman Middle School",
+      "divisionno": "7265",
+      "division_name": "7th Girls - Division 1",
+      "home_teamno": "44862",
+      "away_teamno": "47280",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "47280",
+      "opponent_name": "Weymouth (7)"
+    },
     {
       "gameno": "373902",
       "date": "2026-03-01",

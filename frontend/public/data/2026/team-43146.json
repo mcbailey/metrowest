@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "teamno": "43146",
   "team_name": "D6H-Dighton-Rehoboth (white)",
   "town": null,
@@ -240,8 +240,8 @@
       "gameno": "379272",
       "date": "2026-03-01",
       "dow": "Sun",
-      "starttime": "11:40 AM",
-      "location": "Dighton Middle School",
+      "starttime": "12:40 PM",
+      "location": "Dana Barros-1",
       "divisionno": "7137",
       "division_name": "8th Boys - Division 6",
       "home_teamno": "43146",

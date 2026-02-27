@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "gender": "F",
   "grade": 6,
   "divisionno": "7071",
@@ -17,12 +17,12 @@
       "pf": 695,
       "pa": 364,
       "diff": 331,
-      "sos": 1593.926,
-      "sos_adj": 1693.926,
-      "power": 1729.271,
+      "sos": 1594.344,
+      "sos_adj": 1694.344,
+      "power": 1729.623,
       "rank": 1,
-      "mw_rating": 184.7,
-      "mw_points": 2032
+      "mw_rating": 185.1,
+      "mw_points": 2036
     },
     {
       "teamno": "45245",
@@ -34,12 +34,12 @@
       "pf": 504,
       "pa": 456,
       "diff": 48,
-      "sos": 1635.851,
-      "sos_adj": 1770.466,
-      "power": 1654.955,
+      "sos": 1636.463,
+      "sos_adj": 1771.078,
+      "power": 1655.462,
       "rank": 2,
-      "mw_rating": 153.5,
-      "mw_points": 1535
+      "mw_rating": 153.8,
+      "mw_points": 1538
     },
     {
       "teamno": "44031",
@@ -51,29 +51,29 @@
       "pf": 414,
       "pa": 379,
       "diff": 35,
-      "sos": 1619.939,
-      "sos_adj": 1733.576,
-      "power": 1652.24,
+      "sos": 1620.514,
+      "sos_adj": 1734.15,
+      "power": 1652.583,
       "rank": 3,
-      "mw_rating": 138.5,
-      "mw_points": 1385
+      "mw_rating": 138.7,
+      "mw_points": 1387
     },
     {
       "teamno": "43899",
       "name": "D2-Canton (green)",
       "town": null,
-      "wins": 2,
+      "wins": 4,
       "losses": 8,
       "ties": 0,
-      "pf": 293,
-      "pa": 380,
-      "diff": -87,
-      "sos": 1630.272,
-      "sos_adj": 1740.272,
-      "power": 1617.572,
+      "pf": 371,
+      "pa": 428,
+      "diff": -57,
+      "sos": 1614.497,
+      "sos_adj": 1714.497,
+      "power": 1614.519,
       "rank": 4,
-      "mw_rating": 89.7,
-      "mw_points": 807
+      "mw_rating": 91.9,
+      "mw_points": 827
     },
     {
       "teamno": "43685",
@@ -85,12 +85,12 @@
       "pf": 394,
       "pa": 541,
       "diff": -147,
-      "sos": 1626.107,
-      "sos_adj": 1733.25,
-      "power": 1612.82,
+      "sos": 1626.687,
+      "sos_adj": 1733.829,
+      "power": 1613.224,
       "rank": 5,
-      "mw_rating": 107.0,
-      "mw_points": 1177
+      "mw_rating": 107.2,
+      "mw_points": 1179
     },
     {
       "teamno": "43179",
@@ -102,9 +102,9 @@
       "pf": 511,
       "pa": 636,
       "diff": -125,
-      "sos": 1618.356,
-      "sos_adj": 1731.689,
-      "power": 1598.082,
+      "sos": 1618.538,
+      "sos_adj": 1731.871,
+      "power": 1598.193,
       "rank": 6,
       "mw_rating": 107.2,
       "mw_points": 1072

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "gender": "M",
   "grade": 4,
   "divisionno": "7576",
@@ -17,12 +17,12 @@
       "pf": 433,
       "pa": 353,
       "diff": 80,
-      "sos": 1622.595,
-      "sos_adj": 1768.428,
-      "power": 1712.445,
+      "sos": 1623.512,
+      "sos_adj": 1769.345,
+      "power": 1709.39,
       "rank": 1,
-      "mw_rating": 134.3,
-      "mw_points": 1477
+      "mw_rating": 134.4,
+      "mw_points": 1478
     },
     {
       "teamno": "45350",
@@ -34,12 +34,12 @@
       "pf": 418,
       "pa": 369,
       "diff": 49,
-      "sos": 1617.991,
-      "sos_adj": 1744.914,
-      "power": 1703.721,
+      "sos": 1620.183,
+      "sos_adj": 1747.106,
+      "power": 1701.269,
       "rank": 2,
-      "mw_rating": 136.7,
-      "mw_points": 1367
+      "mw_rating": 136.8,
+      "mw_points": 1368
     },
     {
       "teamno": "43466",
@@ -51,12 +51,12 @@
       "pf": 832,
       "pa": 579,
       "diff": 253,
-      "sos": 1595.061,
-      "sos_adj": 1692.788,
-      "power": 1675.625,
+      "sos": 1596.863,
+      "sos_adj": 1694.59,
+      "power": 1674.582,
       "rank": 3,
-      "mw_rating": 149.8,
-      "mw_points": 1498
+      "mw_rating": 149.9,
+      "mw_points": 1499
     },
     {
       "teamno": "44718",
@@ -68,12 +68,12 @@
       "pf": 455,
       "pa": 470,
       "diff": -15,
-      "sos": 1631.419,
-      "sos_adj": 1751.419,
-      "power": 1667.313,
+      "sos": 1631.403,
+      "sos_adj": 1751.403,
+      "power": 1668.113,
       "rank": 4,
-      "mw_rating": 132.9,
-      "mw_points": 1462
+      "mw_rating": 133.0,
+      "mw_points": 1463
     },
     {
       "teamno": "43711",
@@ -85,9 +85,9 @@
       "pf": 405,
       "pa": 463,
       "diff": -58,
-      "sos": 1637.069,
-      "sos_adj": 1779.927,
-      "power": 1663.254,
+      "sos": 1637.648,
+      "sos_adj": 1780.505,
+      "power": 1665.322,
       "rank": 5,
       "mw_rating": 113.2,
       "mw_points": 1132
@@ -102,46 +102,46 @@
       "pf": 577,
       "pa": 593,
       "diff": -16,
-      "sos": 1632.354,
-      "sos_adj": 1762.91,
-      "power": 1645.509,
+      "sos": 1633.113,
+      "sos_adj": 1763.668,
+      "power": 1648.971,
       "rank": 6,
-      "mw_rating": 114.9,
-      "mw_points": 1264
+      "mw_rating": 115.0,
+      "mw_points": 1265
     },
     {
       "teamno": "44058",
       "name": "D2P-Brookline (red)",
       "town": null,
       "wins": 2,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 299,
-      "pa": 433,
-      "diff": -134,
-      "sos": 1630.427,
-      "sos_adj": 1767.927,
-      "power": 1637.394,
+      "pf": 328,
+      "pa": 471,
+      "diff": -143,
+      "sos": 1629.612,
+      "sos_adj": 1768.073,
+      "power": 1628.973,
       "rank": 7,
-      "mw_rating": 86.5,
-      "mw_points": 865
+      "mw_rating": 87.2,
+      "mw_points": 872
     },
     {
       "teamno": "44353",
       "name": "D2P-Belmont (maroon)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 14,
       "ties": 0,
-      "pf": 716,
-      "pa": 815,
-      "diff": -99,
-      "sos": 1555.9,
-      "sos_adj": 1610.445,
-      "power": 1593.823,
+      "pf": 754,
+      "pa": 844,
+      "diff": -90,
+      "sos": 1556.931,
+      "sos_adj": 1615.627,
+      "power": 1612.414,
       "rank": 8,
-      "mw_rating": 77.7,
-      "mw_points": 777
+      "mw_rating": 79.2,
+      "mw_points": 792
     }
   ]
 }

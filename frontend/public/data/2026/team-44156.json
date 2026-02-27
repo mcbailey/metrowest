@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "teamno": "44156",
   "team_name": "D4K-Holliston (king-red 6th)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 8,
-    "games_scheduled_total": 4
+    "games_scheduled_total": 5
   },
   "past_games": [
     {
@@ -235,6 +235,25 @@
       "is_home": true,
       "opponent_teamno": "45340",
       "opponent_name": "D4K-Milton (silver)"
+    },
+    {
+      "gameno": "393930",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "1:45 PM",
+      "location": "Holliston Adams Middle School (Saturday)",
+      "divisionno": "7276",
+      "division_name": "6th Girls - Division 4",
+      "home_teamno": "44156",
+      "away_teamno": "43521",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43521",
+      "opponent_name": "D3J-Hopkinton (hinnenkamp)"
     },
     {
       "gameno": "376122",

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "gender": "M",
   "grade": 5,
   "divisionno": "7300",
@@ -17,9 +17,9 @@
       "pf": 738,
       "pa": 474,
       "diff": 264,
-      "sos": 1495.744,
-      "sos_adj": 1501.994,
-      "power": 1600.202,
+      "sos": 1494.909,
+      "sos_adj": 1501.159,
+      "power": 1599.994,
       "rank": 1,
       "mw_rating": 81.5,
       "mw_points": 896
@@ -28,18 +28,18 @@
       "teamno": "45085",
       "name": "D4M-Framingham (navy)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 3,
       "ties": 0,
-      "pf": 371,
-      "pa": 304,
-      "diff": 67,
-      "sos": 1488.205,
-      "sos_adj": 1493.76,
-      "power": 1537.548,
+      "pf": 441,
+      "pa": 338,
+      "diff": 103,
+      "sos": 1479.024,
+      "sos_adj": 1484.024,
+      "power": 1545.13,
       "rank": 2,
-      "mw_rating": 65.6,
-      "mw_points": 590
+      "mw_rating": 66.9,
+      "mw_points": 669
     },
     {
       "teamno": "44562",
@@ -55,8 +55,8 @@
       "sos_adj": 1512.995,
       "power": 1537.081,
       "rank": 3,
-      "mw_rating": 62.2,
-      "mw_points": 560
+      "mw_rating": 62.3,
+      "mw_points": 561
     },
     {
       "teamno": "43393",
@@ -76,23 +76,6 @@
       "mw_points": 426
     },
     {
-      "teamno": "44702",
-      "name": "D4M-Dover Sherborn (simek)",
-      "town": null,
-      "wins": 2,
-      "losses": 8,
-      "ties": 0,
-      "pf": 295,
-      "pa": 453,
-      "diff": -158,
-      "sos": 1505.715,
-      "sos_adj": 1505.715,
-      "power": 1433.74,
-      "rank": 5,
-      "mw_rating": 36.4,
-      "mw_points": 364
-    },
-    {
       "teamno": "44701",
       "name": "D4M-Dover Sherborn (feltus)",
       "town": null,
@@ -105,7 +88,7 @@
       "sos": 1490.848,
       "sos_adj": 1486.302,
       "power": 1426.342,
-      "rank": 6,
+      "rank": 5,
       "mw_rating": 44.0,
       "mw_points": 484
     },
@@ -119,12 +102,29 @@
       "pf": 286,
       "pa": 404,
       "diff": -118,
-      "sos": 1479.006,
-      "sos_adj": 1458.173,
-      "power": 1425.006,
-      "rank": 7,
+      "sos": 1480.119,
+      "sos_adj": 1459.286,
+      "power": 1425.284,
+      "rank": 6,
       "mw_rating": 30.3,
       "mw_points": 333
+    },
+    {
+      "teamno": "44702",
+      "name": "D4M-Dover Sherborn (simek)",
+      "town": null,
+      "wins": 2,
+      "losses": 9,
+      "ties": 0,
+      "pf": 329,
+      "pa": 523,
+      "diff": -194,
+      "sos": 1511.15,
+      "sos_adj": 1511.15,
+      "power": 1425.082,
+      "rank": 7,
+      "mw_rating": 35.4,
+      "mw_points": 389
     }
   ]
 }

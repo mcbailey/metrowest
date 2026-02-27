@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "gender": "M",
   "grade": 6,
   "divisionno": "7223",
@@ -17,12 +17,12 @@
       "pf": 549,
       "pa": 341,
       "diff": 208,
-      "sos": 1496.059,
-      "sos_adj": 1496.059,
-      "power": 1582.165,
+      "sos": 1497.09,
+      "sos_adj": 1497.09,
+      "power": 1582.423,
       "rank": 1,
-      "mw_rating": 83.3,
-      "mw_points": 833
+      "mw_rating": 83.4,
+      "mw_points": 834
     },
     {
       "teamno": "43678",
@@ -34,12 +34,12 @@
       "pf": 496,
       "pa": 360,
       "diff": 136,
-      "sos": 1488.048,
-      "sos_adj": 1478.957,
-      "power": 1555.767,
+      "sos": 1488.985,
+      "sos_adj": 1479.894,
+      "power": 1556.001,
       "rank": 2,
-      "mw_rating": 76.9,
-      "mw_points": 769
+      "mw_rating": 77.0,
+      "mw_points": 770
     },
     {
       "teamno": "44632",
@@ -51,12 +51,12 @@
       "pf": 389,
       "pa": 320,
       "diff": 69,
-      "sos": 1496.6,
-      "sos_adj": 1491.6,
-      "power": 1516.141,
+      "sos": 1497.631,
+      "sos_adj": 1492.631,
+      "power": 1516.398,
       "rank": 3,
-      "mw_rating": 57.3,
-      "mw_points": 573
+      "mw_rating": 57.4,
+      "mw_points": 574
     },
     {
       "teamno": "43780",
@@ -79,18 +79,18 @@
       "teamno": "44207",
       "name": "D4K-Southboro (white)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 8,
       "ties": 0,
-      "pf": 368,
-      "pa": 513,
-      "diff": -145,
-      "sos": 1488.863,
-      "sos_adj": 1468.03,
-      "power": 1449.584,
+      "pf": 407,
+      "pa": 550,
+      "diff": -143,
+      "sos": 1485.081,
+      "sos_adj": 1462.004,
+      "power": 1455.813,
       "rank": 5,
-      "mw_rating": 34.4,
-      "mw_points": 344
+      "mw_rating": 36.6,
+      "mw_points": 402
     },
     {
       "teamno": "45642",
@@ -102,12 +102,12 @@
       "pf": 332,
       "pa": 467,
       "diff": -135,
-      "sos": 1507.783,
-      "sos_adj": 1499.449,
-      "power": 1422.894,
+      "sos": 1508.642,
+      "sos_adj": 1500.309,
+      "power": 1423.108,
       "rank": 6,
-      "mw_rating": 34.1,
-      "mw_points": 375
+      "mw_rating": 34.2,
+      "mw_points": 376
     }
   ]
 }

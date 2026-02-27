@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "teamno": "45316",
   "team_name": "D5M-Milton (grey)",
   "town": null,
@@ -240,8 +240,8 @@
       "gameno": "379791",
       "date": "2026-03-01",
       "dow": "Sun",
-      "starttime": "9:30 AM",
-      "location": "Milton High School - Court 2",
+      "starttime": "12:30 PM",
+      "location": "Milton Academy RSG",
       "divisionno": "7183",
       "division_name": "7th Boys - Division 5",
       "home_teamno": "45317",

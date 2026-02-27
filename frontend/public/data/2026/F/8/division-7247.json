@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "gender": "F",
   "grade": 8,
   "divisionno": "7247",
@@ -17,12 +17,12 @@
       "pf": 427,
       "pa": 434,
       "diff": -7,
-      "sos": 1556.808,
-      "sos_adj": 1623.474,
-      "power": 1605.242,
+      "sos": 1559.364,
+      "sos_adj": 1626.031,
+      "power": 1602.194,
       "rank": 1,
-      "mw_rating": 104.2,
-      "mw_points": 1042
+      "mw_rating": 104.4,
+      "mw_points": 1044
     },
     {
       "teamno": "44412",
@@ -34,12 +34,12 @@
       "pf": 373,
       "pa": 338,
       "diff": 35,
-      "sos": 1554.572,
-      "sos_adj": 1614.572,
-      "power": 1585.677,
+      "sos": 1557.0,
+      "sos_adj": 1617.0,
+      "power": 1584.33,
       "rank": 2,
-      "mw_rating": 92.9,
-      "mw_points": 929
+      "mw_rating": 93.1,
+      "mw_points": 931
     },
     {
       "teamno": "44337",
@@ -51,12 +51,12 @@
       "pf": 322,
       "pa": 362,
       "diff": -40,
-      "sos": 1546.883,
-      "sos_adj": 1596.883,
-      "power": 1544.925,
+      "sos": 1549.08,
+      "sos_adj": 1599.08,
+      "power": 1547.153,
       "rank": 3,
-      "mw_rating": 82.3,
-      "mw_points": 823
+      "mw_rating": 82.4,
+      "mw_points": 824
     },
     {
       "teamno": "44385",
@@ -68,29 +68,29 @@
       "pf": 306,
       "pa": 352,
       "diff": -46,
-      "sos": 1561.283,
-      "sos_adj": 1616.283,
-      "power": 1530.183,
+      "sos": 1560.654,
+      "sos_adj": 1615.654,
+      "power": 1533.665,
       "rank": 4,
-      "mw_rating": 81.7,
-      "mw_points": 817
+      "mw_rating": 81.9,
+      "mw_points": 819
     },
     {
       "teamno": "45263",
       "name": "D3J-Medfield (luchini)",
       "town": null,
-      "wins": 0,
+      "wins": 1,
       "losses": 10,
       "ties": 0,
-      "pf": 251,
-      "pa": 369,
-      "diff": -118,
-      "sos": 1552.431,
-      "sos_adj": 1602.431,
-      "power": 1492.154,
+      "pf": 280,
+      "pa": 394,
+      "diff": -114,
+      "sos": 1549.766,
+      "sos_adj": 1599.766,
+      "power": 1512.72,
       "rank": 5,
-      "mw_rating": 45.0,
-      "mw_points": 450
+      "mw_rating": 46.0,
+      "mw_points": 460
     }
   ]
 }

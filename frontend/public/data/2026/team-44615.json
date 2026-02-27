@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-26",
+  "snapshot_date": "2026-02-27",
   "teamno": "44615",
   "team_name": "D1J-Hingham (white)",
   "town": null,
@@ -210,8 +210,8 @@
       "away_teamno": "44615",
       "home_score": null,
       "away_score": null,
-      "team_score": 2,
-      "opponent_score": null,
+      "team_score": null,
+      "opponent_score": 2,
       "status": "scheduled",
       "is_home": false,
       "opponent_teamno": "45251",
