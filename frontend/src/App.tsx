@@ -7,7 +7,13 @@ export default function App() {
   return (
     <div className="page">
       <header className="topbar">
-        <h1>Metrowest Youth Basketball Power Rankings</h1>
+        <div className="brand-wrap">
+          <img src="/mwstatslogo.png" alt="MWStats logo" className="brand-logo" />
+          <div className="brand-copy">
+            <p className="brand-kicker">MWStats.com</p>
+            <h1>Metrowest Youth Basketball Rankings</h1>
+          </div>
+        </div>
         <nav className="topbar-links">
           <Link to="/" className="home-link">
             Rankings
