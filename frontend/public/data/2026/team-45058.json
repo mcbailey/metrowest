@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-27",
+  "snapshot_date": "2026-02-28",
   "teamno": "45058",
   "team_name": "D5Q-Medfield (blanchette)",
   "town": null,
@@ -236,8 +236,8 @@
     },
     {
       "gameno": "393839",
-      "date": "2025-11-22",
-      "dow": "Sat",
+      "date": "2025-11-23",
+      "dow": "Sun",
       "starttime": "9:20 AM",
       "location": "Coakley Middle School",
       "divisionno": "7315",

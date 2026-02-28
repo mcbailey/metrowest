@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-27",
+  "snapshot_date": "2026-02-28",
   "gender": "M",
   "grade": 6,
   "divisionno": "7235",
@@ -17,12 +17,12 @@
       "pf": 645,
       "pa": 576,
       "diff": 69,
-      "sos": 1627.696,
-      "sos_adj": 1759.839,
-      "power": 1727.166,
+      "sos": 1628.141,
+      "sos_adj": 1760.284,
+      "power": 1722.306,
       "rank": 1,
-      "mw_rating": 181.9,
-      "mw_points": 2001
+      "mw_rating": 182.0,
+      "mw_points": 2002
     },
     {
       "teamno": "45533",
@@ -34,9 +34,9 @@
       "pf": 785,
       "pa": 667,
       "diff": 118,
-      "sos": 1594.544,
-      "sos_adj": 1697.878,
-      "power": 1710.252,
+      "sos": 1595.423,
+      "sos_adj": 1698.757,
+      "power": 1705.643,
       "rank": 2,
       "mw_rating": 174.1,
       "mw_points": 1915
@@ -51,9 +51,9 @@
       "pf": 1050,
       "pa": 906,
       "diff": 144,
-      "sos": 1619.647,
-      "sos_adj": 1740.7,
-      "power": 1689.336,
+      "sos": 1619.788,
+      "sos_adj": 1740.841,
+      "power": 1687.705,
       "rank": 3,
       "mw_rating": 186.9,
       "mw_points": 1869
@@ -68,9 +68,9 @@
       "pf": 696,
       "pa": 707,
       "diff": -11,
-      "sos": 1641.977,
-      "sos_adj": 1781.263,
-      "power": 1669.603,
+      "sos": 1640.45,
+      "sos_adj": 1779.735,
+      "power": 1670.542,
       "rank": 4,
       "mw_rating": 151.5,
       "mw_points": 1666
@@ -85,12 +85,12 @@
       "pf": 561,
       "pa": 623,
       "diff": -62,
-      "sos": 1646.912,
-      "sos_adj": 1787.821,
-      "power": 1653.908,
+      "sos": 1646.312,
+      "sos_adj": 1787.221,
+      "power": 1656.813,
       "rank": 5,
-      "mw_rating": 125.2,
-      "mw_points": 1377
+      "mw_rating": 125.3,
+      "mw_points": 1378
     },
     {
       "teamno": "43749",
@@ -102,9 +102,9 @@
       "pf": 587,
       "pa": 686,
       "diff": -99,
-      "sos": 1644.465,
-      "sos_adj": 1786.773,
-      "power": 1650.873,
+      "sos": 1644.25,
+      "sos_adj": 1786.557,
+      "power": 1654.151,
       "rank": 6,
       "mw_rating": 120.7,
       "mw_points": 1328
@@ -114,17 +114,17 @@
       "name": "D1J-Natick",
       "town": null,
       "wins": 9,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 739,
-      "pa": 802,
-      "diff": -63,
-      "sos": 1614.701,
-      "sos_adj": 1727.859,
-      "power": 1640.082,
+      "pf": 771,
+      "pa": 866,
+      "diff": -95,
+      "sos": 1617.053,
+      "sos_adj": 1732.053,
+      "power": 1630.854,
       "rank": 7,
-      "mw_rating": 152.3,
-      "mw_points": 1523
+      "mw_rating": 147.6,
+      "mw_points": 1623
     }
   ]
 }

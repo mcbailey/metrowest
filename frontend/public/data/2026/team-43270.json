@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-27",
+  "snapshot_date": "2026-02-28",
   "teamno": "43270",
   "team_name": "D3H-Dartmouth",
   "town": null,
@@ -431,7 +431,7 @@
       "date": "2026-03-01",
       "dow": "Sun",
       "starttime": "1:00 PM",
-      "location": "Dartmouth Middle School",
+      "location": "Longplex",
       "divisionno": "7246",
       "division_name": "8th Girls - Division 3",
       "home_teamno": "43270",

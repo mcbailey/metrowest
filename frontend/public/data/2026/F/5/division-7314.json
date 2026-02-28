@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-27",
+  "snapshot_date": "2026-02-28",
   "gender": "F",
   "grade": 5,
   "divisionno": "7314",
@@ -17,12 +17,12 @@
       "pf": 368,
       "pa": 255,
       "diff": 113,
-      "sos": 1440.976,
-      "sos_adj": 1394.548,
-      "power": 1505.147,
+      "sos": 1442.453,
+      "sos_adj": 1396.024,
+      "power": 1505.516,
       "rank": 1,
-      "mw_rating": 49.7,
-      "mw_points": 547
+      "mw_rating": 49.8,
+      "mw_points": 548
     },
     {
       "teamno": "44474",
@@ -34,9 +34,9 @@
       "pf": 311,
       "pa": 192,
       "diff": 119,
-      "sos": 1474.054,
-      "sos_adj": 1451.327,
-      "power": 1482.605,
+      "sos": 1472.174,
+      "sos_adj": 1449.447,
+      "power": 1482.135,
       "rank": 2,
       "mw_rating": 49.0,
       "mw_points": 539
@@ -55,8 +55,8 @@
       "sos_adj": 1398.172,
       "power": 1456.79,
       "rank": 3,
-      "mw_rating": 40.7,
-      "mw_points": 448
+      "mw_rating": 40.8,
+      "mw_points": 449
     },
     {
       "teamno": "43985",
@@ -68,12 +68,29 @@
       "pf": 285,
       "pa": 243,
       "diff": 42,
-      "sos": 1450.027,
-      "sos_adj": 1400.027,
-      "power": 1446.222,
+      "sos": 1451.75,
+      "sos_adj": 1401.75,
+      "power": 1446.653,
       "rank": 4,
-      "mw_rating": 33.0,
-      "mw_points": 330
+      "mw_rating": 33.1,
+      "mw_points": 331
+    },
+    {
+      "teamno": "43411",
+      "name": "D5M-Norwood (blue)",
+      "town": null,
+      "wins": 4,
+      "losses": 9,
+      "ties": 0,
+      "pf": 282,
+      "pa": 293,
+      "diff": -11,
+      "sos": 1462.468,
+      "sos_adj": 1416.314,
+      "power": 1432.592,
+      "rank": 5,
+      "mw_rating": 27.6,
+      "mw_points": 304
     },
     {
       "teamno": "45343",
@@ -88,43 +105,26 @@
       "sos": 1455.804,
       "sos_adj": 1410.35,
       "power": 1426.315,
-      "rank": 5,
+      "rank": 6,
       "mw_rating": 27.6,
       "mw_points": 304
-    },
-    {
-      "teamno": "43411",
-      "name": "D5M-Norwood (blue)",
-      "town": null,
-      "wins": 3,
-      "losses": 9,
-      "ties": 0,
-      "pf": 249,
-      "pa": 280,
-      "diff": -31,
-      "sos": 1471.928,
-      "sos_adj": 1426.094,
-      "power": 1419.529,
-      "rank": 6,
-      "mw_rating": 25.2,
-      "mw_points": 252
     },
     {
       "teamno": "44505",
       "name": "D5M-Easton (white)",
       "town": null,
       "wins": 1,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "pf": 99,
-      "pa": 258,
-      "diff": -159,
-      "sos": 1471.43,
-      "sos_adj": 1421.43,
-      "power": 1382.58,
+      "pf": 112,
+      "pa": 291,
+      "diff": -179,
+      "sos": 1467.717,
+      "sos_adj": 1417.717,
+      "power": 1366.144,
       "rank": 7,
-      "mw_rating": 15.8,
-      "mw_points": 126
+      "mw_rating": 15.1,
+      "mw_points": 136
     }
   ]
 }

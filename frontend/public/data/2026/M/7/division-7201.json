@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-27",
+  "snapshot_date": "2026-02-28",
   "gender": "M",
   "grade": 7,
   "divisionno": "7201",
@@ -11,18 +11,18 @@
       "teamno": "44739",
       "name": "D2M-Arlington (maroon)",
       "town": null,
-      "wins": 18,
+      "wins": 19,
       "losses": 8,
       "ties": 0,
-      "pf": 1339,
-      "pa": 1141,
-      "diff": 198,
-      "sos": 1568.282,
-      "sos_adj": 1650.975,
-      "power": 1662.305,
+      "pf": 1403,
+      "pa": 1192,
+      "diff": 211,
+      "sos": 1570.318,
+      "sos_adj": 1653.651,
+      "power": 1669.292,
       "rank": 1,
-      "mw_rating": 138.5,
-      "mw_points": 1385
+      "mw_rating": 140.2,
+      "mw_points": 1542
     },
     {
       "teamno": "44048",
@@ -34,12 +34,12 @@
       "pf": 827,
       "pa": 710,
       "diff": 117,
-      "sos": 1577.272,
-      "sos_adj": 1665.733,
-      "power": 1654.195,
+      "sos": 1578.391,
+      "sos_adj": 1666.852,
+      "power": 1650.698,
       "rank": 2,
-      "mw_rating": 140.4,
-      "mw_points": 1404
+      "mw_rating": 140.5,
+      "mw_points": 1405
     },
     {
       "teamno": "45435",
@@ -51,12 +51,12 @@
       "pf": 618,
       "pa": 651,
       "diff": -33,
-      "sos": 1627.245,
-      "sos_adj": 1734.937,
-      "power": 1630.5,
+      "sos": 1627.602,
+      "sos_adj": 1735.295,
+      "power": 1630.913,
       "rank": 3,
-      "mw_rating": 120.3,
-      "mw_points": 1203
+      "mw_rating": 120.5,
+      "mw_points": 1205
     },
     {
       "teamno": "43714",
@@ -68,12 +68,12 @@
       "pf": 726,
       "pa": 850,
       "diff": -124,
-      "sos": 1603.447,
-      "sos_adj": 1697.564,
-      "power": 1597.054,
+      "sos": 1605.167,
+      "sos_adj": 1699.284,
+      "power": 1600.217,
       "rank": 4,
-      "mw_rating": 96.0,
-      "mw_points": 1056
+      "mw_rating": 96.1,
+      "mw_points": 1057
     },
     {
       "teamno": "45503",
@@ -85,12 +85,12 @@
       "pf": 694,
       "pa": 722,
       "diff": -28,
-      "sos": 1589.554,
-      "sos_adj": 1674.17,
-      "power": 1577.551,
+      "sos": 1590.217,
+      "sos_adj": 1674.832,
+      "power": 1581.816,
       "rank": 5,
-      "mw_rating": 103.2,
-      "mw_points": 1135
+      "mw_rating": 103.3,
+      "mw_points": 1136
     },
     {
       "teamno": "44293",
@@ -102,9 +102,9 @@
       "pf": 798,
       "pa": 931,
       "diff": -133,
-      "sos": 1594.187,
-      "sos_adj": 1671.965,
-      "power": 1545.854,
+      "sos": 1595.051,
+      "sos_adj": 1672.829,
+      "power": 1553.284,
       "rank": 6,
       "mw_rating": 101.2,
       "mw_points": 1012
