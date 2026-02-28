@@ -17,12 +17,12 @@
       "pf": 419,
       "pa": 397,
       "diff": 22,
-      "sos": 1446.448,
-      "sos_adj": 1400.615,
-      "power": 1458.44,
+      "sos": 1448.868,
+      "sos_adj": 1403.035,
+      "power": 1456.966,
       "rank": 1,
-      "mw_rating": 34.8,
-      "mw_points": 383
+      "mw_rating": 34.9,
+      "mw_points": 384
     },
     {
       "teamno": "44463",
@@ -34,12 +34,12 @@
       "pf": 377,
       "pa": 340,
       "diff": 37,
-      "sos": 1460.035,
-      "sos_adj": 1418.368,
-      "power": 1444.547,
+      "sos": 1461.513,
+      "sos_adj": 1419.847,
+      "power": 1444.671,
       "rank": 2,
-      "mw_rating": 36.3,
-      "mw_points": 399
+      "mw_rating": 36.4,
+      "mw_points": 400
     },
     {
       "teamno": "43755",
@@ -51,12 +51,12 @@
       "pf": 473,
       "pa": 380,
       "diff": 93,
-      "sos": 1453.444,
-      "sos_adj": 1418.829,
-      "power": 1438.63,
+      "sos": 1456.16,
+      "sos_adj": 1421.544,
+      "power": 1439.666,
       "rank": 3,
-      "mw_rating": 42.7,
-      "mw_points": 427
+      "mw_rating": 42.8,
+      "mw_points": 428
     },
     {
       "teamno": "43623",
@@ -68,9 +68,9 @@
       "pf": 370,
       "pa": 416,
       "diff": -46,
-      "sos": 1441.251,
-      "sos_adj": 1395.797,
-      "power": 1402.649,
+      "sos": 1444.379,
+      "sos_adj": 1398.925,
+      "power": 1406.811,
       "rank": 4,
       "mw_rating": 24.5,
       "mw_points": 269
@@ -85,9 +85,9 @@
       "pf": 317,
       "pa": 401,
       "diff": -84,
-      "sos": 1430.438,
-      "sos_adj": 1380.438,
-      "power": 1394.075,
+      "sos": 1435.99,
+      "sos_adj": 1385.99,
+      "power": 1399.317,
       "rank": 5,
       "mw_rating": 20.3,
       "mw_points": 183
@@ -102,29 +102,29 @@
       "pf": 324,
       "pa": 454,
       "diff": -130,
-      "sos": 1448.481,
-      "sos_adj": 1403.027,
-      "power": 1387.141,
+      "sos": 1450.886,
+      "sos_adj": 1405.431,
+      "power": 1392.854,
       "rank": 6,
-      "mw_rating": 19.2,
-      "mw_points": 211
+      "mw_rating": 19.3,
+      "mw_points": 212
     },
     {
       "teamno": "45127",
       "name": "D5M-Westwood",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 9,
       "ties": 0,
-      "pf": 287,
-      "pa": 406,
-      "diff": -119,
-      "sos": 1440.749,
-      "sos_adj": 1394.915,
-      "power": 1370.004,
+      "pf": 318,
+      "pa": 431,
+      "diff": -113,
+      "sos": 1437.331,
+      "sos_adj": 1387.331,
+      "power": 1389.566,
       "rank": 7,
-      "mw_rating": 23.3,
-      "mw_points": 256
+      "mw_rating": 23.6,
+      "mw_points": 259
     }
   ]
 }

@@ -11,9 +11,9 @@
     "pf": 280,
     "pa": 238,
     "diff": 42,
-    "sos": 1627.368,
-    "sos_adj": 1747.368,
-    "power": 1710.721,
+    "sos": 1626.631,
+    "sos_adj": 1746.631,
+    "power": 1706.899,
     "rank": 2,
     "mw_rating": 124.0,
     "mw_points": 1240,
@@ -223,9 +223,9 @@
       "dow": "Sun",
       "starttime": "12:50 PM",
       "location": "Jr Mass Premier-4",
-      "divisionno": "7635",
-      "division_name": "3rd Girls - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7638",
+      "division_name": "3rd Girls - Division 3",
+      "home_teamno": "44908",
       "away_teamno": "44472",
       "home_score": null,
       "away_score": null,
@@ -233,8 +233,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44908",
+      "opponent_name": "D3N-North Attleboro (white)"
     }
   ]
 }

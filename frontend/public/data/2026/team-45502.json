@@ -5,24 +5,24 @@
   "team_name": "D5R-Everett",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 3,
     "ties": 0,
-    "pf": 536,
-    "pa": 535,
-    "diff": 1,
-    "sos": 1466.059,
-    "sos_adj": 1425.149,
-    "power": 1513.183,
+    "pf": 589,
+    "pa": 575,
+    "diff": 14,
+    "sos": 1462.157,
+    "sos_adj": 1420.49,
+    "power": 1521.718,
     "rank": 2,
-    "mw_rating": 45.3,
-    "mw_points": 453,
+    "mw_rating": 46.1,
+    "mw_points": 507,
     "divisionno": "7150",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 4
+    "games_played_total": 12,
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": true,
       "opponent_teamno": "45254",
       "opponent_name": "D5R-Waltham Boys (white)"
+    },
+    {
+      "gameno": "380998",
+      "date": "2026-02-15",
+      "dow": "Sun",
+      "starttime": "3:20 PM",
+      "location": "Everett Rec Center",
+      "divisionno": "7150",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "45502",
+      "away_teamno": "43917",
+      "home_score": 53,
+      "away_score": 40,
+      "team_score": 53,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43917",
+      "opponent_name": "D5Q-Wellesley (c)"
     },
     {
       "gameno": "381011",
@@ -236,25 +255,6 @@
     }
   ],
   "future_games": [
-    {
-      "gameno": "380998",
-      "date": "2026-02-15",
-      "dow": "Sun",
-      "starttime": "3:20 PM",
-      "location": "Everett Rec Center",
-      "divisionno": "7150",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "45502",
-      "away_teamno": "43917",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43917",
-      "opponent_name": "D5Q-Wellesley (c)"
-    },
     {
       "gameno": "393767",
       "date": "2026-02-21",

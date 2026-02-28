@@ -17,12 +17,12 @@
       "pf": 479,
       "pa": 344,
       "diff": 135,
-      "sos": 1492.786,
-      "sos_adj": 1492.786,
-      "power": 1541.919,
+      "sos": 1493.508,
+      "sos_adj": 1493.508,
+      "power": 1537.727,
       "rank": 1,
-      "mw_rating": 67.0,
-      "mw_points": 737
+      "mw_rating": 67.1,
+      "mw_points": 738
     },
     {
       "teamno": "43833",
@@ -34,12 +34,12 @@
       "pf": 406,
       "pa": 339,
       "diff": 67,
-      "sos": 1494.863,
-      "sos_adj": 1484.863,
-      "power": 1532.861,
+      "sos": 1496.405,
+      "sos_adj": 1486.405,
+      "power": 1529.582,
       "rank": 2,
-      "mw_rating": 66.9,
-      "mw_points": 669
+      "mw_rating": 67.0,
+      "mw_points": 670
     },
     {
       "teamno": "43095",
@@ -51,12 +51,12 @@
       "pf": 471,
       "pa": 439,
       "diff": 32,
-      "sos": 1500.731,
-      "sos_adj": 1496.185,
-      "power": 1514.265,
+      "sos": 1503.892,
+      "sos_adj": 1499.347,
+      "power": 1513.534,
       "rank": 3,
-      "mw_rating": 60.4,
-      "mw_points": 664
+      "mw_rating": 60.6,
+      "mw_points": 666
     },
     {
       "teamno": "44872",
@@ -68,12 +68,29 @@
       "pf": 421,
       "pa": 478,
       "diff": -57,
-      "sos": 1499.594,
-      "sos_adj": 1499.594,
-      "power": 1505.835,
+      "sos": 1501.195,
+      "sos_adj": 1501.195,
+      "power": 1505.642,
       "rank": 4,
-      "mw_rating": 48.7,
-      "mw_points": 536
+      "mw_rating": 48.8,
+      "mw_points": 537
+    },
+    {
+      "teamno": "44641",
+      "name": "D4H-Attleboro (white)",
+      "town": null,
+      "wins": 4,
+      "losses": 8,
+      "ties": 0,
+      "pf": 408,
+      "pa": 463,
+      "diff": -55,
+      "sos": 1503.398,
+      "sos_adj": 1495.065,
+      "power": 1462.597,
+      "rank": 5,
+      "mw_rating": 43.3,
+      "mw_points": 476
     },
     {
       "teamno": "43834",
@@ -85,29 +102,12 @@
       "pf": 242,
       "pa": 392,
       "diff": -150,
-      "sos": 1506.151,
-      "sos_adj": 1492.515,
-      "power": 1455.165,
-      "rank": 5,
+      "sos": 1506.017,
+      "sos_adj": 1492.381,
+      "power": 1459.428,
+      "rank": 6,
       "mw_rating": 35.2,
       "mw_points": 387
-    },
-    {
-      "teamno": "44641",
-      "name": "D4H-Attleboro (white)",
-      "town": null,
-      "wins": 3,
-      "losses": 8,
-      "ties": 0,
-      "pf": 368,
-      "pa": 429,
-      "diff": -61,
-      "sos": 1509.845,
-      "sos_adj": 1500.754,
-      "power": 1443.092,
-      "rank": 6,
-      "mw_rating": 39.4,
-      "mw_points": 394
     }
   ]
 }

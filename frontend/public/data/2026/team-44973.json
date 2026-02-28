@@ -11,12 +11,12 @@
     "pf": 407,
     "pa": 204,
     "diff": 203,
-    "sos": 1568.237,
-    "sos_adj": 1651.571,
-    "power": 1657.27,
+    "sos": 1572.386,
+    "sos_adj": 1655.719,
+    "power": 1646.37,
     "rank": 1,
-    "mw_rating": 147.8,
-    "mw_points": 1330,
+    "mw_rating": 148.1,
+    "mw_points": 1333,
     "divisionno": "7634",
     "division_name": "3rd Boys - Division 4",
     "grade": 3,
@@ -244,7 +244,7 @@
       "location": "Jr Mass Premier-6",
       "divisionno": "7634",
       "division_name": "3rd Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "44903",
       "away_teamno": "44973",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44903",
+      "opponent_name": "D1-North Attleboro (red)"
     }
   ]
 }

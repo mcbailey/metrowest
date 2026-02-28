@@ -5,26 +5,45 @@
   "team_name": "D5J-Easton (orange)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 1,
     "ties": 0,
-    "pf": 378,
-    "pa": 110,
-    "diff": 268,
-    "sos": 1431.238,
-    "sos_adj": 1381.238,
-    "power": 1507.777,
+    "pf": 397,
+    "pa": 122,
+    "diff": 275,
+    "sos": 1436.552,
+    "sos_adj": 1386.552,
+    "power": 1513.117,
     "rank": 1,
-    "mw_rating": 50.6,
-    "mw_points": 557,
+    "mw_rating": 51.5,
+    "mw_points": 618,
     "divisionno": "7312",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375807",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "11:10 AM",
+      "location": "Fairhaven Hastings Middle School",
+      "divisionno": "7312",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44945",
+      "away_teamno": "44502",
+      "home_score": 12,
+      "away_score": 19,
+      "team_score": 19,
+      "opponent_score": 12,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44945",
+      "opponent_name": "D5H-Acushnet - Fairhaven (josh)"
+    },
     {
       "gameno": "375824",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D5J-Sharon (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375807",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "11:10 AM",
-      "location": "Fairhaven Hastings Middle School",
-      "divisionno": "7312",
-      "division_name": "5th Girls - Division 5",
-      "home_teamno": "44945",
-      "away_teamno": "44502",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44945",
-      "opponent_name": "D5H-Acushnet - Fairhaven (josh)"
-    }
-  ]
+  "future_games": []
 }

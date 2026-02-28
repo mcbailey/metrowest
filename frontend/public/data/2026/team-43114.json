@@ -5,26 +5,45 @@
   "team_name": "D5H-Barrington RI (blue)",
   "town": null,
   "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 5,
     "ties": 0,
-    "pf": 358,
-    "pa": 323,
-    "diff": 35,
-    "sos": 1448.41,
-    "sos_adj": 1398.41,
-    "power": 1443.856,
+    "pf": 396,
+    "pa": 345,
+    "diff": 51,
+    "sos": 1437.977,
+    "sos_adj": 1387.977,
+    "power": 1454.449,
     "rank": 3,
-    "mw_rating": 34.7,
-    "mw_points": 382,
+    "mw_rating": 36.2,
+    "mw_points": 434,
     "divisionno": "7289",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376336",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "10:40 AM",
+      "location": "Old Rochester Junior High School",
+      "divisionno": "7289",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "44285",
+      "away_teamno": "43114",
+      "home_score": 22,
+      "away_score": 38,
+      "team_score": 38,
+      "opponent_score": 22,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44285",
+      "opponent_name": "D5H-Rochester"
+    },
     {
       "gameno": "376331",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D5H-Bourne (purple/canfield)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376336",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "10:40 AM",
-      "location": "Old Rochester Junior High School",
-      "divisionno": "7289",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "44285",
-      "away_teamno": "43114",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44285",
-      "opponent_name": "D5H-Rochester"
-    }
-  ]
+  "future_games": []
 }

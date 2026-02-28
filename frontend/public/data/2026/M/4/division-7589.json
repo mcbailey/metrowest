@@ -17,12 +17,12 @@
       "pf": 767,
       "pa": 414,
       "diff": 353,
-      "sos": 1393.729,
-      "sos_adj": 1304.256,
-      "power": 1478.775,
+      "sos": 1398.053,
+      "sos_adj": 1308.58,
+      "power": 1469.585,
       "rank": 1,
-      "mw_rating": 36.3,
-      "mw_points": 399
+      "mw_rating": 36.4,
+      "mw_points": 400
     },
     {
       "teamno": "45210",
@@ -34,9 +34,9 @@
       "pf": 311,
       "pa": 238,
       "diff": 73,
-      "sos": 1389.846,
-      "sos_adj": 1299.846,
-      "power": 1406.415,
+      "sos": 1391.861,
+      "sos_adj": 1301.861,
+      "power": 1403.773,
       "rank": 2,
       "mw_rating": 34.0,
       "mw_points": 340
@@ -51,12 +51,12 @@
       "pf": 406,
       "pa": 381,
       "diff": 25,
-      "sos": 1413.529,
-      "sos_adj": 1320.672,
-      "power": 1383.965,
+      "sos": 1414.685,
+      "sos_adj": 1321.828,
+      "power": 1383.874,
       "rank": 3,
-      "mw_rating": 28.0,
-      "mw_points": 308
+      "mw_rating": 28.1,
+      "mw_points": 309
     },
     {
       "teamno": "44763",
@@ -68,12 +68,29 @@
       "pf": 500,
       "pa": 519,
       "diff": -19,
-      "sos": 1394.286,
-      "sos_adj": 1283.175,
-      "power": 1356.049,
+      "sos": 1393.747,
+      "sos_adj": 1282.635,
+      "power": 1357.389,
       "rank": 4,
       "mw_rating": 16.6,
       "mw_points": 182
+    },
+    {
+      "teamno": "43719",
+      "name": "D6T-Concord-Carlisle (white)",
+      "town": null,
+      "wins": 2,
+      "losses": 13,
+      "ties": 0,
+      "pf": 292,
+      "pa": 542,
+      "diff": -250,
+      "sos": 1411.553,
+      "sos_adj": 1318.22,
+      "power": 1332.41,
+      "rank": 5,
+      "mw_rating": 11.2,
+      "mw_points": 123
     },
     {
       "teamno": "45079",
@@ -85,29 +102,12 @@
       "pf": 248,
       "pa": 326,
       "diff": -78,
-      "sos": 1407.336,
-      "sos_adj": 1302.791,
-      "power": 1321.038,
-      "rank": 5,
-      "mw_rating": 15.3,
-      "mw_points": 168
-    },
-    {
-      "teamno": "43719",
-      "name": "D6T-Concord-Carlisle (white)",
-      "town": null,
-      "wins": 1,
-      "losses": 13,
-      "ties": 0,
-      "pf": 267,
-      "pa": 525,
-      "diff": -258,
-      "sos": 1416.267,
-      "sos_adj": 1323.41,
-      "power": 1307.534,
+      "sos": 1408.432,
+      "sos_adj": 1303.886,
+      "power": 1326.778,
       "rank": 6,
-      "mw_rating": 8.9,
-      "mw_points": 89
+      "mw_rating": 15.4,
+      "mw_points": 169
     },
     {
       "teamno": "44451",
@@ -119,12 +119,12 @@
       "pf": 257,
       "pa": 587,
       "diff": -330,
-      "sos": 1394.423,
-      "sos_adj": 1275.673,
-      "power": 1268.871,
+      "sos": 1394.676,
+      "sos_adj": 1275.926,
+      "power": 1278.938,
       "rank": 7,
-      "mw_rating": 7.9,
-      "mw_points": 87
+      "mw_rating": 8.0,
+      "mw_points": 88
     }
   ]
 }

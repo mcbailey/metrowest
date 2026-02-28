@@ -68,9 +68,9 @@
       "pf": 270,
       "pa": 249,
       "diff": 21,
-      "sos": 1543.581,
-      "sos_adj": 1584.49,
-      "power": 1563.22,
+      "sos": 1542.258,
+      "sos_adj": 1583.167,
+      "power": 1562.889,
       "rank": 4,
       "mw_rating": 56.3,
       "mw_points": 563
@@ -97,17 +97,17 @@
       "name": "D3J-Millis (maroon)",
       "town": null,
       "wins": 1,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 190,
-      "pa": 265,
-      "diff": -75,
-      "sos": 1555.788,
-      "sos_adj": 1611.344,
-      "power": 1511.278,
+      "pf": 209,
+      "pa": 296,
+      "diff": -87,
+      "sos": 1560.354,
+      "sos_adj": 1615.354,
+      "power": 1501.368,
       "rank": 6,
-      "mw_rating": 55.9,
-      "mw_points": 503
+      "mw_rating": 54.8,
+      "mw_points": 548
     }
   ]
 }

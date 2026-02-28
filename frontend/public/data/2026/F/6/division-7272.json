@@ -17,12 +17,12 @@
       "pf": 344,
       "pa": 135,
       "diff": 209,
-      "sos": 1444.489,
-      "sos_adj": 1394.489,
-      "power": 1529.583,
+      "sos": 1446.389,
+      "sos_adj": 1396.389,
+      "power": 1530.058,
       "rank": 1,
-      "mw_rating": 56.8,
-      "mw_points": 568
+      "mw_rating": 57.0,
+      "mw_points": 570
     },
     {
       "teamno": "44434",
@@ -34,29 +34,29 @@
       "pf": 249,
       "pa": 199,
       "diff": 50,
-      "sos": 1449.312,
-      "sos_adj": 1399.312,
-      "power": 1467.21,
+      "sos": 1451.211,
+      "sos_adj": 1401.211,
+      "power": 1467.684,
       "rank": 2,
-      "mw_rating": 51.6,
-      "mw_points": 516
+      "mw_rating": 51.7,
+      "mw_points": 517
     },
     {
       "teamno": "43943",
       "name": "D5R-Brookline (white)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 6,
       "ties": 0,
-      "pf": 224,
-      "pa": 230,
-      "diff": -6,
-      "sos": 1449.277,
-      "sos_adj": 1399.277,
-      "power": 1445.363,
+      "pf": 245,
+      "pa": 243,
+      "diff": 2,
+      "sos": 1447.754,
+      "sos_adj": 1397.754,
+      "power": 1459.228,
       "rank": 3,
-      "mw_rating": 30.4,
-      "mw_points": 274
+      "mw_rating": 32.7,
+      "mw_points": 327
     },
     {
       "teamno": "44222",
@@ -68,12 +68,12 @@
       "pf": 227,
       "pa": 195,
       "diff": 32,
-      "sos": 1450.97,
-      "sos_adj": 1400.97,
-      "power": 1444.129,
+      "sos": 1452.87,
+      "sos_adj": 1402.87,
+      "power": 1444.604,
       "rank": 4,
-      "mw_rating": 31.9,
-      "mw_points": 319
+      "mw_rating": 32.0,
+      "mw_points": 320
     },
     {
       "teamno": "44993",
@@ -85,9 +85,9 @@
       "pf": 213,
       "pa": 268,
       "diff": -55,
-      "sos": 1453.919,
-      "sos_adj": 1403.919,
-      "power": 1420.883,
+      "sos": 1455.819,
+      "sos_adj": 1405.819,
+      "power": 1421.358,
       "rank": 5,
       "mw_rating": 32.1,
       "mw_points": 321
@@ -102,12 +102,12 @@
       "pf": 192,
       "pa": 290,
       "diff": -98,
-      "sos": 1459.066,
-      "sos_adj": 1409.066,
-      "power": 1395.566,
+      "sos": 1460.966,
+      "sos_adj": 1410.966,
+      "power": 1396.041,
       "rank": 6,
-      "mw_rating": 17.0,
-      "mw_points": 187
+      "mw_rating": 17.1,
+      "mw_points": 188
     }
   ]
 }

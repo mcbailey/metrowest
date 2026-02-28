@@ -8,6 +8,23 @@
   "divisiontier": "5",
   "rankings": [
     {
+      "teamno": "43463",
+      "name": "D5W-Winchester (black)",
+      "town": null,
+      "wins": 17,
+      "losses": 2,
+      "ties": 0,
+      "pf": 693,
+      "pa": 385,
+      "diff": 308,
+      "sos": 1429.618,
+      "sos_adj": 1376.986,
+      "power": 1493.006,
+      "rank": 1,
+      "mw_rating": 58.6,
+      "mw_points": 644
+    },
+    {
       "teamno": "44230",
       "name": "D5W-Wayland (orange)",
       "town": null,
@@ -20,26 +37,9 @@
       "sos": 1438.38,
       "sos_adj": 1388.38,
       "power": 1486.105,
-      "rank": 1,
-      "mw_rating": 48.3,
-      "mw_points": 483
-    },
-    {
-      "teamno": "43463",
-      "name": "D5W-Winchester (black)",
-      "town": null,
-      "wins": 16,
-      "losses": 2,
-      "ties": 0,
-      "pf": 663,
-      "pa": 361,
-      "diff": 302,
-      "sos": 1428.833,
-      "sos_adj": 1376.055,
-      "power": 1482.46,
       "rank": 2,
-      "mw_rating": 58.8,
-      "mw_points": 588
+      "mw_rating": 48.4,
+      "mw_points": 484
     },
     {
       "teamno": "44723",
@@ -51,12 +51,12 @@
       "pf": 491,
       "pa": 524,
       "diff": -33,
-      "sos": 1437.65,
-      "sos_adj": 1384.525,
-      "power": 1428.111,
+      "sos": 1440.228,
+      "sos_adj": 1387.103,
+      "power": 1428.756,
       "rank": 3,
-      "mw_rating": 28.1,
-      "mw_points": 309
+      "mw_rating": 28.2,
+      "mw_points": 310
     },
     {
       "teamno": "45256",
@@ -68,9 +68,9 @@
       "pf": 284,
       "pa": 344,
       "diff": -60,
-      "sos": 1435.531,
-      "sos_adj": 1385.531,
-      "power": 1414.863,
+      "sos": 1436.906,
+      "sos_adj": 1386.906,
+      "power": 1415.206,
       "rank": 4,
       "mw_rating": 23.3,
       "mw_points": 233
@@ -85,12 +85,12 @@
       "pf": 428,
       "pa": 503,
       "diff": -75,
-      "sos": 1435.9,
-      "sos_adj": 1368.253,
-      "power": 1405.083,
+      "sos": 1436.709,
+      "sos_adj": 1369.062,
+      "power": 1405.285,
       "rank": 5,
-      "mw_rating": 31.2,
-      "mw_points": 343
+      "mw_rating": 31.3,
+      "mw_points": 344
     },
     {
       "teamno": "45754",
@@ -102,9 +102,9 @@
       "pf": 401,
       "pa": 446,
       "diff": -45,
-      "sos": 1445.142,
-      "sos_adj": 1388.475,
-      "power": 1373.462,
+      "sos": 1446.059,
+      "sos_adj": 1389.392,
+      "power": 1373.691,
       "rank": 6,
       "mw_rating": 19.3,
       "mw_points": 193
@@ -119,9 +119,9 @@
       "pf": 149,
       "pa": 473,
       "diff": -324,
-      "sos": 1434.043,
-      "sos_adj": 1359.043,
-      "power": 1317.671,
+      "sos": 1435.418,
+      "sos_adj": 1360.418,
+      "power": 1318.015,
       "rank": 7,
       "mw_rating": 7.5,
       "mw_points": 75

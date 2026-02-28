@@ -17,12 +17,12 @@
       "pf": 358,
       "pa": 184,
       "diff": 174,
-      "sos": 1382.945,
-      "sos_adj": 1278.399,
-      "power": 1453.446,
+      "sos": 1385.899,
+      "sos_adj": 1281.353,
+      "power": 1445.8,
       "rank": 1,
-      "mw_rating": 32.1,
-      "mw_points": 353
+      "mw_rating": 32.2,
+      "mw_points": 354
     },
     {
       "teamno": "44272",
@@ -34,12 +34,12 @@
       "pf": 352,
       "pa": 298,
       "diff": 54,
-      "sos": 1395.315,
-      "sos_adj": 1295.315,
-      "power": 1391.393,
+      "sos": 1395.783,
+      "sos_adj": 1295.783,
+      "power": 1389.754,
       "rank": 2,
-      "mw_rating": 24.0,
-      "mw_points": 264
+      "mw_rating": 24.1,
+      "mw_points": 265
     },
     {
       "teamno": "45351",
@@ -51,12 +51,12 @@
       "pf": 382,
       "pa": 375,
       "diff": 7,
-      "sos": 1413.886,
-      "sos_adj": 1325.424,
-      "power": 1387.314,
+      "sos": 1413.651,
+      "sos_adj": 1325.189,
+      "power": 1386.659,
       "rank": 3,
-      "mw_rating": 23.4,
-      "mw_points": 234
+      "mw_rating": 23.5,
+      "mw_points": 235
     },
     {
       "teamno": "45259",
@@ -68,12 +68,12 @@
       "pf": 280,
       "pa": 320,
       "diff": -40,
-      "sos": 1378.433,
-      "sos_adj": 1278.433,
-      "power": 1351.599,
+      "sos": 1380.589,
+      "sos_adj": 1280.589,
+      "power": 1353.939,
       "rank": 4,
-      "mw_rating": 15.6,
-      "mw_points": 172
+      "mw_rating": 15.7,
+      "mw_points": 173
     },
     {
       "teamno": "44354",
@@ -85,12 +85,12 @@
       "pf": 537,
       "pa": 544,
       "diff": -7,
-      "sos": 1401.7,
-      "sos_adj": 1298.923,
-      "power": 1336.769,
+      "sos": 1403.334,
+      "sos_adj": 1300.556,
+      "power": 1340.974,
       "rank": 5,
-      "mw_rating": 13.8,
-      "mw_points": 152
+      "mw_rating": 13.9,
+      "mw_points": 153
     },
     {
       "teamno": "43995",
@@ -102,9 +102,9 @@
       "pf": 298,
       "pa": 374,
       "diff": -76,
-      "sos": 1402.794,
-      "sos_adj": 1298.248,
-      "power": 1334.939,
+      "sos": 1402.06,
+      "sos_adj": 1297.515,
+      "power": 1338.718,
       "rank": 6,
       "mw_rating": 10.9,
       "mw_points": 109
@@ -114,17 +114,17 @@
       "name": "D6R-Ashland (white)",
       "town": null,
       "wins": 3,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "pf": 206,
-      "pa": 294,
-      "diff": -88,
-      "sos": 1384.199,
-      "sos_adj": 1259.199,
-      "power": 1297.419,
+      "pf": 223,
+      "pa": 319,
+      "diff": -96,
+      "sos": 1380.455,
+      "sos_adj": 1257.728,
+      "power": 1289.74,
       "rank": 7,
-      "mw_rating": 9.5,
-      "mw_points": 95
+      "mw_rating": 9.3,
+      "mw_points": 102
     }
   ]
 }

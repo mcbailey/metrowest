@@ -11,12 +11,12 @@
     "pf": 320,
     "pa": 213,
     "diff": 107,
-    "sos": 1578.799,
-    "sos_adj": 1639.91,
-    "power": 1656.36,
+    "sos": 1577.03,
+    "sos_adj": 1638.141,
+    "power": 1647.53,
     "rank": 1,
-    "mw_rating": 124.9,
-    "mw_points": 1124,
+    "mw_rating": 125.0,
+    "mw_points": 1125,
     "divisionno": "7629",
     "division_name": "3rd Boys - Division 3",
     "grade": 3,
@@ -223,9 +223,9 @@
       "dow": "Sun",
       "starttime": "11:30 AM",
       "location": "Jr Mass Premier-6",
-      "divisionno": "7629",
+      "divisionno": "7630",
       "division_name": "3rd Boys - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "45714",
       "away_teamno": "43756",
       "home_score": null,
       "away_score": null,
@@ -233,8 +233,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45714",
+      "opponent_name": "2NDM-West Bridgewater (arel)"
     }
   ]
 }

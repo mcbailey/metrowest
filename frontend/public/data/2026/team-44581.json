@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 540,
-    "pa": 453,
-    "diff": 87,
-    "sos": 1444.423,
-    "sos_adj": 1394.423,
-    "power": 1486.604,
-    "rank": 2,
-    "mw_rating": 45.6,
-    "mw_points": 501,
+    "pf": 577,
+    "pa": 510,
+    "diff": 67,
+    "sos": 1448.345,
+    "sos_adj": 1398.345,
+    "power": 1460.699,
+    "rank": 4,
+    "mw_rating": 42.6,
+    "mw_points": 511,
     "divisionno": "7214",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378290",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "10:15 AM",
+      "location": "Longplex Court 2",
+      "divisionno": "7214",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "44808",
+      "away_teamno": "44581",
+      "home_score": 57,
+      "away_score": 37,
+      "team_score": 37,
+      "opponent_score": 57,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44808",
+      "opponent_name": "D5H-Fall River (hart)"
+    },
     {
       "gameno": "378308",
       "date": "2026-02-21",
@@ -292,25 +311,5 @@
       "opponent_name": "D6R-Newton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378290",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "10:15 AM",
-      "location": "Longplex Court 2",
-      "divisionno": "7214",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "44808",
-      "away_teamno": "44581",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44808",
-      "opponent_name": "D5H-Fall River (hart)"
-    }
-  ]
+  "future_games": []
 }

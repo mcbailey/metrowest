@@ -17,12 +17,12 @@
       "pf": 486,
       "pa": 244,
       "diff": 242,
-      "sos": 1348.732,
-      "sos_adj": 1223.732,
-      "power": 1421.955,
+      "sos": 1353.295,
+      "sos_adj": 1228.295,
+      "power": 1412.743,
       "rank": 1,
-      "mw_rating": 30.9,
-      "mw_points": 278
+      "mw_rating": 31.0,
+      "mw_points": 279
     },
     {
       "teamno": "45078",
@@ -34,12 +34,12 @@
       "pf": 343,
       "pa": 179,
       "diff": 164,
-      "sos": 1339.431,
-      "sos_adj": 1194.431,
-      "power": 1377.295,
+      "sos": 1340.987,
+      "sos_adj": 1195.987,
+      "power": 1371.066,
       "rank": 2,
-      "mw_rating": 21.4,
-      "mw_points": 214
+      "mw_rating": 21.5,
+      "mw_points": 215
     },
     {
       "teamno": "45077",
@@ -51,12 +51,12 @@
       "pf": 286,
       "pa": 237,
       "diff": 49,
-      "sos": 1346.349,
-      "sos_adj": 1196.349,
-      "power": 1339.002,
+      "sos": 1346.714,
+      "sos_adj": 1196.714,
+      "power": 1336.352,
       "rank": 3,
-      "mw_rating": 15.2,
-      "mw_points": 137
+      "mw_rating": 15.3,
+      "mw_points": 138
     },
     {
       "teamno": "45767",
@@ -68,12 +68,12 @@
       "pf": 337,
       "pa": 413,
       "diff": -76,
-      "sos": 1350.311,
-      "sos_adj": 1208.003,
-      "power": 1295.861,
+      "sos": 1352.836,
+      "sos_adj": 1210.528,
+      "power": 1298.356,
       "rank": 4,
-      "mw_rating": 8.0,
-      "mw_points": 72
+      "mw_rating": 8.1,
+      "mw_points": 73
     },
     {
       "teamno": "45277",
@@ -85,29 +85,29 @@
       "pf": 195,
       "pa": 334,
       "diff": -139,
-      "sos": 1359.366,
-      "sos_adj": 1209.366,
-      "power": 1276.093,
+      "sos": 1358.429,
+      "sos_adj": 1208.429,
+      "power": 1279.734,
       "rank": 5,
-      "mw_rating": 6.6,
-      "mw_points": 66
+      "mw_rating": 6.7,
+      "mw_points": 67
     },
     {
       "teamno": "44768",
       "name": "D7V-Arlington (red)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 12,
       "ties": 0,
-      "pf": 312,
-      "pa": 439,
-      "diff": -127,
-      "sos": 1366.627,
-      "sos_adj": 1216.627,
-      "power": 1246.704,
+      "pf": 330,
+      "pa": 455,
+      "diff": -125,
+      "sos": 1360.692,
+      "sos_adj": 1210.692,
+      "power": 1260.929,
       "rank": 6,
-      "mw_rating": 3.7,
-      "mw_points": 33
+      "mw_rating": 5.3,
+      "mw_points": 53
     }
   ]
 }

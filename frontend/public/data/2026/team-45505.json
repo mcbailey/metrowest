@@ -11,12 +11,12 @@
     "pf": 400,
     "pa": 290,
     "diff": 110,
-    "sos": 1608.578,
-    "sos_adj": 1708.578,
-    "power": 1711.97,
+    "sos": 1608.344,
+    "sos_adj": 1708.344,
+    "power": 1707.179,
     "rank": 1,
-    "mw_rating": 155.7,
-    "mw_points": 1557,
+    "mw_rating": 156.0,
+    "mw_points": 1560,
     "divisionno": "7098",
     "division_name": "3rd Boys - Division 1",
     "grade": 3,
@@ -223,9 +223,9 @@
       "dow": "Sun",
       "starttime": "10:20 AM",
       "location": "Jr Mass Premier-6",
-      "divisionno": "7098",
-      "division_name": "3rd Boys - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7632",
+      "division_name": "3rd Boys - Division 2",
+      "home_teamno": "44572",
       "away_teamno": "45505",
       "home_score": null,
       "away_score": null,
@@ -233,8 +233,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44572",
+      "opponent_name": "D2N-King Philip (green)"
     }
   ]
 }

@@ -17,9 +17,9 @@
       "pf": 1371,
       "pa": 1001,
       "diff": 370,
-      "sos": 1457.393,
-      "sos_adj": 1470.356,
-      "power": 1564.388,
+      "sos": 1456.911,
+      "sos_adj": 1469.874,
+      "power": 1564.268,
       "rank": 1,
       "mw_rating": 53.4,
       "mw_points": 534
@@ -38,8 +38,8 @@
       "sos_adj": 1412.543,
       "power": 1498.609,
       "rank": 2,
-      "mw_rating": 48.9,
-      "mw_points": 538
+      "mw_rating": 49.0,
+      "mw_points": 539
     },
     {
       "teamno": "43301",
@@ -55,8 +55,8 @@
       "sos_adj": 1404.234,
       "power": 1464.958,
       "rank": 3,
-      "mw_rating": 40.4,
-      "mw_points": 444
+      "mw_rating": 40.5,
+      "mw_points": 445
     },
     {
       "teamno": "44468",
@@ -68,9 +68,9 @@
       "pf": 680,
       "pa": 608,
       "diff": 72,
-      "sos": 1453.3,
-      "sos_adj": 1406.871,
-      "power": 1452.858,
+      "sos": 1452.371,
+      "sos_adj": 1405.943,
+      "power": 1452.626,
       "rank": 4,
       "mw_rating": 43.8,
       "mw_points": 482
@@ -102,29 +102,12 @@
       "pf": 332,
       "pa": 416,
       "diff": -84,
-      "sos": 1449.104,
-      "sos_adj": 1399.104,
-      "power": 1422.045,
+      "sos": 1447.804,
+      "sos_adj": 1397.804,
+      "power": 1421.72,
       "rank": 6,
       "mw_rating": 27.3,
       "mw_points": 273
-    },
-    {
-      "teamno": "44187",
-      "name": "D5J-Parkway  (white)",
-      "town": null,
-      "wins": 1,
-      "losses": 8,
-      "ties": 0,
-      "pf": 314,
-      "pa": 465,
-      "diff": -151,
-      "sos": 1478.186,
-      "sos_adj": 1428.186,
-      "power": 1393.321,
-      "rank": 7,
-      "mw_rating": 15.0,
-      "mw_points": 135
     },
     {
       "teamno": "44335",
@@ -139,9 +122,26 @@
       "sos": 1456.835,
       "sos_adj": 1402.668,
       "power": 1384.545,
-      "rank": 8,
+      "rank": 7,
       "mw_rating": 15.9,
       "mw_points": 175
+    },
+    {
+      "teamno": "44187",
+      "name": "D5J-Parkway  (white)",
+      "town": null,
+      "wins": 1,
+      "losses": 9,
+      "ties": 0,
+      "pf": 348,
+      "pa": 505,
+      "diff": -157,
+      "sos": 1477.164,
+      "sos_adj": 1427.164,
+      "power": 1383.314,
+      "rank": 8,
+      "mw_rating": 14.5,
+      "mw_points": 145
     }
   ]
 }

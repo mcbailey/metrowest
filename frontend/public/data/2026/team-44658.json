@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 204,
-    "pa": 251,
-    "diff": -47,
-    "sos": 1629.782,
-    "sos_adj": 1749.782,
-    "power": 1632.18,
+    "pf": 227,
+    "pa": 280,
+    "diff": -53,
+    "sos": 1632.998,
+    "sos_adj": 1755.725,
+    "power": 1629.449,
     "rank": 6,
-    "mw_rating": 118.0,
-    "mw_points": 1180,
+    "mw_rating": 116.4,
+    "mw_points": 1280,
     "divisionno": "7635",
     "division_name": "3rd Girls - Division 1",
     "grade": 3,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44507",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "1:10 PM",
+      "location": "Jr. Dana Barros-3",
+      "divisionno": "7636",
+      "division_name": "3rd Girls - Division 1",
+      "home_teamno": "45526",
+      "away_teamno": "44658",
+      "home_score": 29,
+      "away_score": 23,
+      "team_score": 23,
+      "opponent_score": 29,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45526",
+      "opponent_name": "D1J-Franklin"
+    },
     {
       "gameno": "393143",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D1J-Needham (navy)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44507",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "1:10 PM",
-      "location": "Jr. Dana Barros-3",
-      "divisionno": "7636",
-      "division_name": "3rd Girls - Division 1",
-      "home_teamno": "45526",
-      "away_teamno": "44658",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45526",
-      "opponent_name": "D1J-Franklin"
-    }
-  ]
+  "future_games": []
 }

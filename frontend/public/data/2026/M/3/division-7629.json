@@ -17,12 +17,12 @@
       "pf": 320,
       "pa": 213,
       "diff": 107,
-      "sos": 1578.799,
-      "sos_adj": 1639.91,
-      "power": 1656.36,
+      "sos": 1577.03,
+      "sos_adj": 1638.141,
+      "power": 1647.53,
       "rank": 1,
-      "mw_rating": 124.9,
-      "mw_points": 1124
+      "mw_rating": 125.0,
+      "mw_points": 1125
     },
     {
       "teamno": "45520",
@@ -34,12 +34,12 @@
       "pf": 396,
       "pa": 281,
       "diff": 115,
-      "sos": 1551.796,
-      "sos_adj": 1601.796,
-      "power": 1613.033,
+      "sos": 1549.386,
+      "sos_adj": 1599.386,
+      "power": 1607.422,
       "rank": 2,
-      "mw_rating": 101.7,
-      "mw_points": 1119
+      "mw_rating": 101.9,
+      "mw_points": 1121
     },
     {
       "teamno": "45527",
@@ -51,12 +51,12 @@
       "pf": 390,
       "pa": 287,
       "diff": 103,
-      "sos": 1559.794,
-      "sos_adj": 1604.794,
-      "power": 1609.5,
+      "sos": 1558.314,
+      "sos_adj": 1603.314,
+      "power": 1604.55,
       "rank": 3,
-      "mw_rating": 99.2,
-      "mw_points": 992
+      "mw_rating": 99.3,
+      "mw_points": 993
     },
     {
       "teamno": "45518",
@@ -68,12 +68,12 @@
       "pf": 366,
       "pa": 306,
       "diff": 60,
-      "sos": 1561.141,
-      "sos_adj": 1611.141,
-      "power": 1596.417,
+      "sos": 1562.481,
+      "sos_adj": 1612.481,
+      "power": 1593.639,
       "rank": 4,
-      "mw_rating": 93.7,
-      "mw_points": 937
+      "mw_rating": 93.9,
+      "mw_points": 939
     },
     {
       "teamno": "44793",
@@ -85,46 +85,29 @@
       "pf": 315,
       "pa": 280,
       "diff": 35,
-      "sos": 1559.674,
-      "sos_adj": 1614.674,
-      "power": 1593.763,
+      "sos": 1561.661,
+      "sos_adj": 1616.661,
+      "power": 1591.5,
       "rank": 5,
-      "mw_rating": 88.5,
-      "mw_points": 885
+      "mw_rating": 88.7,
+      "mw_points": 887
     },
     {
       "teamno": "45218",
       "name": "2NDH-North Quincy (beqaj)",
       "town": null,
       "wins": 4,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 271,
-      "pa": 296,
-      "diff": -25,
-      "sos": 1550.817,
-      "sos_adj": 1600.817,
-      "power": 1535.701,
+      "pf": 289,
+      "pa": 315,
+      "diff": -26,
+      "sos": 1549.404,
+      "sos_adj": 1599.404,
+      "power": 1533.478,
       "rank": 6,
-      "mw_rating": 71.7,
-      "mw_points": 717
-    },
-    {
-      "teamno": "45783",
-      "name": "2NDH-Everett (red)",
-      "town": null,
-      "wins": 3,
-      "losses": 5,
-      "ties": 0,
-      "pf": 216,
-      "pa": 237,
-      "diff": -21,
-      "sos": 1548.191,
-      "sos_adj": 1598.191,
-      "power": 1525.059,
-      "rank": 7,
-      "mw_rating": 70.8,
-      "mw_points": 566
+      "mw_rating": 69.4,
+      "mw_points": 763
     },
     {
       "teamno": "45715",
@@ -136,12 +119,29 @@
       "pf": 227,
       "pa": 283,
       "diff": -56,
-      "sos": 1548.723,
-      "sos_adj": 1598.723,
-      "power": 1523.95,
+      "sos": 1548.851,
+      "sos_adj": 1598.851,
+      "power": 1527.805,
+      "rank": 7,
+      "mw_rating": 60.5,
+      "mw_points": 605
+    },
+    {
+      "teamno": "45783",
+      "name": "2NDH-Everett (red)",
+      "town": null,
+      "wins": 3,
+      "losses": 6,
+      "ties": 0,
+      "pf": 216,
+      "pa": 257,
+      "diff": -41,
+      "sos": 1552.974,
+      "sos_adj": 1602.974,
+      "power": 1511.547,
       "rank": 8,
-      "mw_rating": 60.4,
-      "mw_points": 604
+      "mw_rating": 68.1,
+      "mw_points": 613
     }
   ]
 }

@@ -21,8 +21,8 @@
       "sos_adj": 1526.442,
       "power": 1610.775,
       "rank": 1,
-      "mw_rating": 107.5,
-      "mw_points": 1182
+      "mw_rating": 107.4,
+      "mw_points": 1181
     },
     {
       "teamno": "44323",
@@ -76,6 +76,23 @@
       "mw_points": 767
     },
     {
+      "teamno": "43950",
+      "name": "D3J-Norwood (gold)",
+      "town": null,
+      "wins": 2,
+      "losses": 9,
+      "ties": 0,
+      "pf": 369,
+      "pa": 461,
+      "diff": -92,
+      "sos": 1528.552,
+      "sos_adj": 1564.916,
+      "power": 1510.528,
+      "rank": 5,
+      "mw_rating": 51.0,
+      "mw_points": 561
+    },
+    {
       "teamno": "44196",
       "name": "D3J-Parkway  (red)",
       "town": null,
@@ -85,12 +102,12 @@
       "pf": 284,
       "pa": 378,
       "diff": -94,
-      "sos": 1538.378,
-      "sos_adj": 1588.378,
-      "power": 1509.09,
-      "rank": 5,
-      "mw_rating": 58.8,
-      "mw_points": 588
+      "sos": 1540.935,
+      "sos_adj": 1590.935,
+      "power": 1509.729,
+      "rank": 6,
+      "mw_rating": 58.9,
+      "mw_points": 589
     },
     {
       "teamno": "43982",
@@ -102,29 +119,12 @@
       "pf": 462,
       "pa": 616,
       "diff": -154,
-      "sos": 1547.196,
-      "sos_adj": 1590.053,
-      "power": 1503.204,
-      "rank": 6,
-      "mw_rating": 70.3,
-      "mw_points": 773
-    },
-    {
-      "teamno": "43950",
-      "name": "D3J-Norwood (gold)",
-      "town": null,
-      "wins": 1,
-      "losses": 9,
-      "ties": 0,
-      "pf": 326,
-      "pa": 429,
-      "diff": -103,
-      "sos": 1533.965,
-      "sos_adj": 1573.965,
-      "power": 1493.61,
+      "sos": 1549.022,
+      "sos_adj": 1591.879,
+      "power": 1503.661,
       "rank": 7,
-      "mw_rating": 47.7,
-      "mw_points": 477
+      "mw_rating": 70.4,
+      "mw_points": 774
     }
   ]
 }

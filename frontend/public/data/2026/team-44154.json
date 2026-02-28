@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 420,
-    "pa": 390,
-    "diff": 30,
-    "sos": 1556.987,
-    "sos_adj": 1621.987,
-    "power": 1587.824,
+    "pf": 447,
+    "pa": 431,
+    "diff": 16,
+    "sos": 1562.487,
+    "sos_adj": 1630.668,
+    "power": 1566.45,
     "rank": 2,
-    "mw_rating": 104.8,
-    "mw_points": 1048,
+    "mw_rating": 101.6,
+    "mw_points": 1118,
     "divisionno": "7634",
     "division_name": "3rd Boys - Division 4",
     "grade": 3,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44442",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "10:30 AM",
+      "location": "Jr Mass Premier-5",
+      "divisionno": "7634",
+      "division_name": "3rd Boys - Division 4",
+      "home_teamno": "44154",
+      "away_teamno": "44565",
+      "home_score": 27,
+      "away_score": 41,
+      "team_score": 27,
+      "opponent_score": 41,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44565",
+      "opponent_name": "D2M-Needham (blue)"
+    },
     {
       "gameno": "393171",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D4P-North Attleboro (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44442",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "10:30 AM",
-      "location": "Jr Mass Premier-5",
-      "divisionno": "7634",
-      "division_name": "3rd Boys - Division 4",
-      "home_teamno": "44154",
-      "away_teamno": "44565",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44565",
-      "opponent_name": "D2M-Needham (blue)"
-    }
-  ]
+  "future_games": []
 }

@@ -11,20 +11,39 @@
     "pf": 267,
     "pa": 247,
     "diff": 20,
-    "sos": 1540.606,
-    "sos_adj": 1590.606,
-    "power": 1586.211,
+    "sos": 1540.056,
+    "sos_adj": 1590.056,
+    "power": 1583.468,
     "rank": 2,
-    "mw_rating": 82.4,
-    "mw_points": 742,
+    "mw_rating": 82.6,
+    "mw_points": 743,
     "divisionno": "7630",
     "division_name": "3rd Boys - Division 3",
     "grade": 3,
     "gender": "M",
-    "games_played_total": 9,
-    "games_scheduled_total": 3
+    "games_played_total": 10,
+    "games_scheduled_total": 2
   },
   "past_games": [
+    {
+      "gameno": "44502",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "9:20 AM",
+      "location": "Jr Mass Premier-5",
+      "divisionno": "7630",
+      "division_name": "3rd Boys - Division 3",
+      "home_teamno": "45219",
+      "away_teamno": "45783",
+      "home_score": 20,
+      "away_score": 0,
+      "team_score": 0,
+      "opponent_score": 20,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45783",
+      "opponent_name": "2NDH-Everett (red)"
+    },
     {
       "gameno": "393152",
       "date": "2026-02-22",
@@ -235,25 +254,6 @@
       "is_home": false,
       "opponent_teamno": "45217",
       "opponent_name": "2NDM-North Quincy (nowill)"
-    },
-    {
-      "gameno": "44502",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "9:20 AM",
-      "location": "Jr Mass Premier-5",
-      "divisionno": "7630",
-      "division_name": "3rd Boys - Division 3",
-      "home_teamno": "45219",
-      "away_teamno": "45783",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45783",
-      "opponent_name": "2NDH-Everett (red)"
     }
   ]
 }

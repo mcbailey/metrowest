@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 410,
-    "pa": 522,
-    "diff": -112,
-    "sos": 1563.837,
-    "sos_adj": 1613.837,
-    "power": 1492.43,
+    "pf": 450,
+    "pa": 567,
+    "diff": -117,
+    "sos": 1558.805,
+    "sos_adj": 1608.805,
+    "power": 1488.318,
     "rank": 6,
-    "mw_rating": 50.9,
-    "mw_points": 560,
+    "mw_rating": 50.4,
+    "mw_points": 605,
     "divisionno": "7196",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376656",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "9:10 AM",
+      "location": "Clark Ave Middle School",
+      "divisionno": "7196",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "44001",
+      "away_teamno": "44049",
+      "home_score": 40,
+      "away_score": 45,
+      "team_score": 40,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44049",
+      "opponent_name": "D3M-Newton (orange)"
+    },
     {
       "gameno": "376651",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D3K-Milford (red-calzolaio)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376656",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "9:10 AM",
-      "location": "Clark Ave Middle School",
-      "divisionno": "7196",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "44001",
-      "away_teamno": "44049",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44049",
-      "opponent_name": "D3M-Newton (orange)"
-    }
-  ]
+  "future_games": []
 }
