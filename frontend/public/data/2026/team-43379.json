@@ -5,26 +5,45 @@
   "team_name": "D3M-Natick",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 8,
     "ties": 1,
-    "pf": 1024,
-    "pa": 889,
-    "diff": 135,
-    "sos": 1548.852,
-    "sos_adj": 1596.22,
-    "power": 1564.708,
-    "rank": 4,
-    "mw_rating": 88.3,
-    "mw_points": 971,
+    "pf": 1069,
+    "pa": 932,
+    "diff": 137,
+    "sos": 1549.851,
+    "sos_adj": 1597.351,
+    "power": 1573.113,
+    "rank": 3,
+    "mw_rating": 91.1,
+    "mw_points": 1093,
     "divisionno": "7196",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376655",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:40 AM",
+      "location": "Kennedy Middle School - Natick",
+      "divisionno": "7196",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "43379",
+      "away_teamno": "43897",
+      "home_score": 45,
+      "away_score": 43,
+      "team_score": 45,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43897",
+      "opponent_name": "D3K-Canton (green)"
+    },
     {
       "gameno": "376630",
       "date": "2026-02-28",
@@ -387,25 +406,5 @@
       "opponent_name": "D3K-Northboro (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376655",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:40 AM",
-      "location": "Kennedy Middle School - Natick",
-      "divisionno": "7196",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "43379",
-      "away_teamno": "43897",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43897",
-      "opponent_name": "D3K-Canton (green)"
-    }
-  ]
+  "future_games": []
 }

@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 374,
-    "pa": 474,
-    "diff": -100,
-    "sos": 1360.117,
-    "sos_adj": 1220.117,
-    "power": 1281.357,
-    "rank": 4,
-    "mw_rating": 7.6,
-    "mw_points": 76,
+    "pf": 386,
+    "pa": 504,
+    "diff": -118,
+    "sos": 1367.484,
+    "sos_adj": 1226.859,
+    "power": 1272.264,
+    "rank": 5,
+    "mw_rating": 7.0,
+    "mw_points": 77,
     "divisionno": "7595",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385722",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:45 AM",
+      "location": "Lexington - Clarke Middle School",
+      "divisionno": "7595",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "45767",
+      "away_teamno": "45078",
+      "home_score": 12,
+      "away_score": 30,
+      "team_score": 12,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45078",
+      "opponent_name": "D7V-Reading (mcgowen)"
+    },
     {
       "gameno": "385688",
       "date": "2026-02-28",
@@ -311,25 +330,5 @@
       "opponent_name": "D6T-Arlington (grey)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385722",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:45 AM",
-      "location": "Lexington - Clarke Middle School",
-      "divisionno": "7595",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "45767",
-      "away_teamno": "45078",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45078",
-      "opponent_name": "D7V-Reading (mcgowen)"
-    }
-  ]
+  "future_games": []
 }

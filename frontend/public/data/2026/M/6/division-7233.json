@@ -21,8 +21,8 @@
       "sos_adj": 1683.953,
       "power": 1674.106,
       "rank": 1,
-      "mw_rating": 131.5,
-      "mw_points": 1446
+      "mw_rating": 131.7,
+      "mw_points": 1449
     },
     {
       "teamno": "43935",
@@ -38,8 +38,8 @@
       "sos_adj": 1678.972,
       "power": 1665.016,
       "rank": 2,
-      "mw_rating": 136.4,
-      "mw_points": 1364
+      "mw_rating": 136.6,
+      "mw_points": 1366
     },
     {
       "teamno": "45249",
@@ -51,29 +51,29 @@
       "pf": 747,
       "pa": 728,
       "diff": 19,
-      "sos": 1598.77,
-      "sos_adj": 1705.436,
-      "power": 1655.945,
+      "sos": 1599.991,
+      "sos_adj": 1706.658,
+      "power": 1656.25,
       "rank": 3,
-      "mw_rating": 137.6,
-      "mw_points": 1513
+      "mw_rating": 137.8,
+      "mw_points": 1516
     },
     {
       "teamno": "44045",
       "name": "D2M-Newton (black)",
       "town": null,
       "wins": 6,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 590,
-      "pa": 609,
-      "diff": -19,
-      "sos": 1606.952,
-      "sos_adj": 1706.952,
-      "power": 1623.469,
+      "pf": 630,
+      "pa": 659,
+      "diff": -29,
+      "sos": 1606.232,
+      "sos_adj": 1706.232,
+      "power": 1609.55,
       "rank": 4,
-      "mw_rating": 115.8,
-      "mw_points": 1274
+      "mw_rating": 112.0,
+      "mw_points": 1344
     },
     {
       "teamno": "45504",

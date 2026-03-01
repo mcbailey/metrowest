@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 12,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 657,
-    "pa": 574,
-    "diff": 83,
-    "sos": 1547.865,
-    "sos_adj": 1607.865,
-    "power": 1631.19,
+    "pf": 700,
+    "pa": 619,
+    "diff": 81,
+    "sos": 1547.834,
+    "sos_adj": 1607.209,
+    "power": 1621.078,
     "rank": 2,
-    "mw_rating": 114.8,
-    "mw_points": 1263,
+    "mw_rating": 109.1,
+    "mw_points": 1309,
     "divisionno": "7195",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376655",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:40 AM",
+      "location": "Kennedy Middle School - Natick",
+      "divisionno": "7196",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "43379",
+      "away_teamno": "43897",
+      "home_score": 45,
+      "away_score": 43,
+      "team_score": 43,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43379",
+      "opponent_name": "D3M-Natick"
+    },
     {
       "gameno": "376647",
       "date": "2026-02-22",
@@ -311,25 +330,5 @@
       "opponent_name": "D2K-Brookline (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376655",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:40 AM",
-      "location": "Kennedy Middle School - Natick",
-      "divisionno": "7196",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "43379",
-      "away_teamno": "43897",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43379",
-      "opponent_name": "D3M-Natick"
-    }
-  ]
+  "future_games": []
 }

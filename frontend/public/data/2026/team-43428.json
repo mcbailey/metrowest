@@ -5,26 +5,45 @@
   "team_name": "D5J-Bridgewater (dwyer)",
   "town": null,
   "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 6,
     "ties": 0,
-    "pf": 398,
-    "pa": 372,
-    "diff": 26,
-    "sos": 1467.187,
-    "sos_adj": 1421.732,
-    "power": 1451.734,
+    "pf": 437,
+    "pa": 399,
+    "diff": 38,
+    "sos": 1456.03,
+    "sos_adj": 1410.197,
+    "power": 1460.353,
     "rank": 3,
-    "mw_rating": 32.2,
-    "mw_points": 354,
+    "mw_rating": 33.9,
+    "mw_points": 407,
     "divisionno": "7290",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376339",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "Taunton Martin Middle School",
+      "divisionno": "7290",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "43969",
+      "away_teamno": "43428",
+      "home_score": 27,
+      "away_score": 39,
+      "team_score": 39,
+      "opponent_score": 27,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43969",
+      "opponent_name": "D5J-Taunton (garner)"
+    },
     {
       "gameno": "376311",
       "date": "2026-02-28",
@@ -235,25 +254,5 @@
       "opponent_name": "D5J-Dighton-Rehoboth (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376339",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:00 PM",
-      "location": "Taunton Martin Middle School",
-      "divisionno": "7290",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "43969",
-      "away_teamno": "43428",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43969",
-      "opponent_name": "D5J-Taunton (garner)"
-    }
-  ]
+  "future_games": []
 }

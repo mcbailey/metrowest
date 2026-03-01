@@ -5,26 +5,45 @@
   "team_name": "D4R-Arlington (white)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 12,
     "ties": 0,
-    "pf": 873,
-    "pa": 919,
-    "diff": -46,
-    "sos": 1496.326,
-    "sos_adj": 1496.326,
-    "power": 1499.643,
+    "pf": 949,
+    "pa": 957,
+    "diff": -8,
+    "sos": 1495.316,
+    "sos_adj": 1495.316,
+    "power": 1518.054,
     "rank": 4,
-    "mw_rating": 52.3,
-    "mw_points": 575,
+    "mw_rating": 54.6,
+    "mw_points": 655,
     "divisionno": "7156",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 20,
-    "games_scheduled_total": 1
+    "games_played_total": 21,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380931",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "Norwood Savage Center(Sunday)",
+      "divisionno": "7156",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "43620",
+      "away_teamno": "44755",
+      "home_score": 38,
+      "away_score": 76,
+      "team_score": 76,
+      "opponent_score": 38,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43620",
+      "opponent_name": "D4Q-Norwood (blue)"
+    },
     {
       "gameno": "380914",
       "date": "2026-02-22",
@@ -406,25 +425,5 @@
       "opponent_name": "D3M-Belmont (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380931",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:00 PM",
-      "location": "Norwood Savage Center(Sunday)",
-      "divisionno": "7156",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "43620",
-      "away_teamno": "44755",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43620",
-      "opponent_name": "D4Q-Norwood (blue)"
-    }
-  ]
+  "future_games": []
 }

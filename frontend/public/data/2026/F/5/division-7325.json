@@ -17,12 +17,12 @@
       "pf": 396,
       "pa": 303,
       "diff": 93,
-      "sos": 1540.036,
-      "sos_adj": 1586.19,
-      "power": 1605.113,
+      "sos": 1541.295,
+      "sos_adj": 1587.449,
+      "power": 1605.428,
       "rank": 1,
-      "mw_rating": 94.8,
-      "mw_points": 1138
+      "mw_rating": 94.9,
+      "mw_points": 1139
     },
     {
       "teamno": "43549",
@@ -51,12 +51,12 @@
       "pf": 348,
       "pa": 346,
       "diff": 2,
-      "sos": 1570.801,
-      "sos_adj": 1635.086,
-      "power": 1579.896,
+      "sos": 1571.969,
+      "sos_adj": 1636.255,
+      "power": 1580.188,
       "rank": 3,
-      "mw_rating": 98.8,
-      "mw_points": 1186
+      "mw_rating": 98.9,
+      "mw_points": 1187
     },
     {
       "teamno": "43227",
@@ -68,12 +68,12 @@
       "pf": 338,
       "pa": 275,
       "diff": 63,
-      "sos": 1550.367,
-      "sos_adj": 1589.653,
-      "power": 1567.563,
+      "sos": 1551.536,
+      "sos_adj": 1590.821,
+      "power": 1567.855,
       "rank": 4,
-      "mw_rating": 78.7,
-      "mw_points": 866
+      "mw_rating": 78.8,
+      "mw_points": 867
     },
     {
       "teamno": "45123",
@@ -96,18 +96,18 @@
       "teamno": "45356",
       "name": "D3H-West Bridgewater (maher)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 10,
       "ties": 0,
-      "pf": 150,
-      "pa": 307,
-      "diff": -157,
-      "sos": 1561.208,
-      "sos_adj": 1602.875,
-      "power": 1503.616,
+      "pf": 174,
+      "pa": 327,
+      "diff": -153,
+      "sos": 1555.241,
+      "sos_adj": 1593.703,
+      "power": 1513.593,
       "rank": 6,
-      "mw_rating": 51.3,
-      "mw_points": 564
+      "mw_rating": 53.8,
+      "mw_points": 646
     }
   ]
 }

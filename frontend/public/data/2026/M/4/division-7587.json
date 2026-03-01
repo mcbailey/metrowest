@@ -21,8 +21,8 @@
       "sos_adj": 1287.582,
       "power": 1431.271,
       "rank": 1,
-      "mw_rating": 33.0,
-      "mw_points": 363
+      "mw_rating": 33.1,
+      "mw_points": 364
     },
     {
       "teamno": "44456",
@@ -38,8 +38,8 @@
       "sos_adj": 1299.292,
       "power": 1410.358,
       "rank": 2,
-      "mw_rating": 26.2,
-      "mw_points": 288
+      "mw_rating": 26.3,
+      "mw_points": 289
     },
     {
       "teamno": "44992",
@@ -51,12 +51,12 @@
       "pf": 224,
       "pa": 289,
       "diff": -65,
-      "sos": 1374.914,
-      "sos_adj": 1265.823,
-      "power": 1364.975,
+      "sos": 1373.569,
+      "sos_adj": 1264.478,
+      "power": 1364.639,
       "rank": 3,
-      "mw_rating": 13.3,
-      "mw_points": 146
+      "mw_rating": 13.4,
+      "mw_points": 147
     },
     {
       "teamno": "44987",
@@ -72,25 +72,25 @@
       "sos_adj": 1304.612,
       "power": 1346.15,
       "rank": 4,
-      "mw_rating": 15.8,
-      "mw_points": 174
+      "mw_rating": 15.9,
+      "mw_points": 175
     },
     {
       "teamno": "44988",
       "name": "D6Q-Dover Sherborn (quinn)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 9,
       "ties": 0,
-      "pf": 280,
-      "pa": 352,
-      "diff": -72,
-      "sos": 1392.549,
-      "sos_adj": 1278.913,
-      "power": 1325.1,
+      "pf": 308,
+      "pa": 374,
+      "diff": -66,
+      "sos": 1383.383,
+      "sos_adj": 1270.883,
+      "power": 1334.184,
       "rank": 5,
-      "mw_rating": 7.7,
-      "mw_points": 85
+      "mw_rating": 9.8,
+      "mw_points": 118
     },
     {
       "teamno": "43994",
@@ -102,29 +102,29 @@
       "pf": 224,
       "pa": 391,
       "diff": -167,
-      "sos": 1404.148,
-      "sos_adj": 1290.512,
-      "power": 1315.499,
+      "sos": 1405.493,
+      "sos_adj": 1291.856,
+      "power": 1315.835,
       "rank": 6,
-      "mw_rating": 8.1,
-      "mw_points": 89
+      "mw_rating": 8.2,
+      "mw_points": 90
     },
     {
       "teamno": "43993",
       "name": "D6Q-Canton (green)",
       "town": null,
       "wins": 1,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 187,
-      "pa": 407,
-      "diff": -220,
-      "sos": 1407.69,
-      "sos_adj": 1299.356,
-      "power": 1297.848,
+      "pf": 209,
+      "pa": 435,
+      "diff": -226,
+      "sos": 1403.658,
+      "sos_adj": 1295.966,
+      "power": 1285.908,
       "rank": 7,
       "mw_rating": 5.7,
-      "mw_points": 63
+      "mw_points": 68
     }
   ]
 }

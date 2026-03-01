@@ -5,26 +5,45 @@
   "team_name": "D3H-Attleboro (blue)",
   "town": null,
   "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 9,
     "ties": 0,
-    "pf": 435,
-    "pa": 422,
-    "diff": 13,
-    "sos": 1556.69,
-    "sos_adj": 1610.024,
-    "power": 1564.618,
+    "pf": 465,
+    "pa": 451,
+    "diff": 14,
+    "sos": 1559.814,
+    "sos_adj": 1612.939,
+    "power": 1571.175,
     "rank": 4,
-    "mw_rating": 82.9,
-    "mw_points": 912,
+    "mw_rating": 85.9,
+    "mw_points": 1031,
     "divisionno": "7278",
     "division_name": "6th Girls - Division 3",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375922",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:45 AM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7278",
+      "division_name": "6th Girls - Division 3",
+      "home_teamno": "44650",
+      "away_teamno": "44475",
+      "home_score": 30,
+      "away_score": 29,
+      "team_score": 30,
+      "opponent_score": 29,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44475",
+      "opponent_name": "D3H-Walpole (a)"
+    },
     {
       "gameno": "375929",
       "date": "2026-02-22",
@@ -311,25 +330,5 @@
       "opponent_name": "D3H-King Philip"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375922",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:45 AM",
-      "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7278",
-      "division_name": "6th Girls - Division 3",
-      "home_teamno": "44650",
-      "away_teamno": "44475",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44475",
-      "opponent_name": "D3H-Walpole (a)"
-    }
-  ]
+  "future_games": []
 }

@@ -17,9 +17,9 @@
       "pf": 332,
       "pa": 185,
       "diff": 147,
-      "sos": 1435.956,
-      "sos_adj": 1390.123,
-      "power": 1509.394,
+      "sos": 1434.91,
+      "sos_adj": 1389.077,
+      "power": 1509.132,
       "rank": 1,
       "mw_rating": 45.8,
       "mw_points": 549
@@ -114,17 +114,17 @@
       "name": "D5H-Raynham (b. leclerc)",
       "town": null,
       "wins": 1,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 123,
-      "pa": 310,
-      "diff": -187,
-      "sos": 1456.725,
-      "sos_adj": 1406.725,
-      "power": 1367.753,
+      "pf": 129,
+      "pa": 354,
+      "diff": -225,
+      "sos": 1462.159,
+      "sos_adj": 1412.159,
+      "power": 1359.698,
       "rank": 7,
-      "mw_rating": 13.8,
-      "mw_points": 152
+      "mw_rating": 13.5,
+      "mw_points": 162
     }
   ]
 }

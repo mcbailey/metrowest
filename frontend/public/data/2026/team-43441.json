@@ -5,26 +5,45 @@
   "team_name": "D1-Foxboro (blue)",
   "town": null,
   "summary": {
-    "wins": 16,
+    "wins": 17,
     "losses": 8,
     "ties": 0,
-    "pf": 872,
-    "pa": 635,
-    "diff": 237,
-    "sos": 1582.381,
-    "sos_adj": 1667.798,
-    "power": 1664.38,
-    "rank": 4,
-    "mw_rating": 154.4,
-    "mw_points": 1698,
+    "pf": 920,
+    "pa": 663,
+    "diff": 257,
+    "sos": 1582.926,
+    "sos_adj": 1670.926,
+    "power": 1677.402,
+    "rank": 3,
+    "mw_rating": 158.5,
+    "mw_points": 1902,
     "divisionno": "7072",
     "division_name": "6th Girls - Division 1",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 24,
-    "games_scheduled_total": 1
+    "games_played_total": 25,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "387659",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "Seekonk - Hurley Middle School",
+      "divisionno": "7072",
+      "division_name": "6th Girls - Division 1",
+      "home_teamno": "43172",
+      "away_teamno": "43441",
+      "home_score": 28,
+      "away_score": 48,
+      "team_score": 48,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43172",
+      "opponent_name": "D1-Seekonk (blue)"
+    },
     {
       "gameno": "387629",
       "date": "2026-02-28",
@@ -482,25 +501,5 @@
       "opponent_name": "D2-Medfield (scannell)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "387659",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:00 PM",
-      "location": "Seekonk - Hurley Middle School",
-      "divisionno": "7072",
-      "division_name": "6th Girls - Division 1",
-      "home_teamno": "43172",
-      "away_teamno": "43441",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43172",
-      "opponent_name": "D1-Seekonk (blue)"
-    }
-  ]
+  "future_games": []
 }

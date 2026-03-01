@@ -5,26 +5,45 @@
   "team_name": "D5H-Bourne (purple and white)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 3,
     "ties": 0,
-    "pf": 458,
-    "pa": 383,
-    "diff": 75,
-    "sos": 1455.997,
-    "sos_adj": 1400.997,
-    "power": 1478.83,
+    "pf": 506,
+    "pa": 430,
+    "diff": 76,
+    "sos": 1451.01,
+    "sos_adj": 1396.465,
+    "power": 1480.765,
     "rank": 3,
-    "mw_rating": 40.9,
-    "mw_points": 409,
+    "mw_rating": 42.2,
+    "mw_points": 464,
     "divisionno": "7179",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379883",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:10 AM",
+      "location": "Bourne Middle School",
+      "divisionno": "7179",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "44821",
+      "away_teamno": "44643",
+      "home_score": 48,
+      "away_score": 47,
+      "team_score": 48,
+      "opponent_score": 47,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44643",
+      "opponent_name": "D5H-Attleboro (white)"
+    },
     {
       "gameno": "379877",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D5J-Easton (orange)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379883",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:10 AM",
-      "location": "Bourne Middle School",
-      "divisionno": "7179",
-      "division_name": "7th Boys - Division 5",
-      "home_teamno": "44821",
-      "away_teamno": "44643",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44643",
-      "opponent_name": "D5H-Attleboro (white)"
-    }
-  ]
+  "future_games": []
 }

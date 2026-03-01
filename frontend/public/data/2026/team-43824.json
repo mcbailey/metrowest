@@ -6,23 +6,23 @@
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 304,
-    "pa": 301,
-    "diff": 3,
-    "sos": 1457.044,
-    "sos_adj": 1407.044,
-    "power": 1429.661,
+    "pf": 323,
+    "pa": 329,
+    "diff": -6,
+    "sos": 1462.775,
+    "sos_adj": 1412.775,
+    "power": 1429.062,
     "rank": 4,
-    "mw_rating": 37.4,
-    "mw_points": 449,
+    "mw_rating": 37.6,
+    "mw_points": 451,
     "divisionno": "7267",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
     {
@@ -273,6 +273,25 @@
       "opponent_name": "D5J-Walpole (b)"
     },
     {
+      "gameno": "393979",
+      "date": "2025-11-28",
+      "dow": "Fri",
+      "starttime": "4:20 PM",
+      "location": "Mass premiere ",
+      "divisionno": "7267",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "43336",
+      "away_teamno": "43824",
+      "home_score": 28,
+      "away_score": 19,
+      "team_score": 19,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43336",
+      "opponent_name": "D5H-Mansfield (green)"
+    },
+    {
       "gameno": "393928",
       "date": "2025-11-22",
       "dow": "Sat",
@@ -292,25 +311,5 @@
       "opponent_name": "D5J-Canton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "393979",
-      "date": "2025-11-28",
-      "dow": "Fri",
-      "starttime": "4:20 PM",
-      "location": "Mass premiere ",
-      "divisionno": "7267",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "43336",
-      "away_teamno": "43824",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43336",
-      "opponent_name": "D5H-Mansfield (green)"
-    }
-  ]
+  "future_games": []
 }

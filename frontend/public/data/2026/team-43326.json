@@ -6,23 +6,23 @@
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 707,
-    "pa": 822,
-    "diff": -115,
-    "sos": 1537.614,
-    "sos_adj": 1584.489,
-    "power": 1535.339,
-    "rank": 3,
-    "mw_rating": 79.1,
-    "mw_points": 870,
+    "pf": 747,
+    "pa": 879,
+    "diff": -132,
+    "sos": 1542.14,
+    "sos_adj": 1589.199,
+    "power": 1522.992,
+    "rank": 5,
+    "mw_rating": 76.3,
+    "mw_points": 915,
     "divisionno": "7194",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": true,
       "opponent_teamno": "44129",
       "opponent_name": "D3J-Easton (black)"
+    },
+    {
+      "gameno": "374786",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:45 AM",
+      "location": "Attleboro Brennan Middle School",
+      "divisionno": "7194",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "44642",
+      "away_teamno": "43326",
+      "home_score": 57,
+      "away_score": 40,
+      "team_score": 40,
+      "opponent_score": 57,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44642",
+      "opponent_name": "D3H-Attleboro (blue)"
     },
     {
       "gameno": "374818",
@@ -311,25 +330,5 @@
       "opponent_name": "D3J-Easton (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374786",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:45 AM",
-      "location": "Attleboro Brennan Middle School",
-      "divisionno": "7194",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "44642",
-      "away_teamno": "43326",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44642",
-      "opponent_name": "D3H-Attleboro (blue)"
-    }
-  ]
+  "future_games": []
 }

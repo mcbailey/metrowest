@@ -5,26 +5,45 @@
   "team_name": "D7V-Reading (zoia)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 3,
     "ties": 0,
-    "pf": 317,
-    "pa": 267,
-    "diff": 50,
-    "sos": 1346.603,
-    "sos_adj": 1196.603,
-    "power": 1340.544,
+    "pf": 364,
+    "pa": 292,
+    "diff": 72,
+    "sos": 1345.609,
+    "sos_adj": 1200.154,
+    "power": 1367.077,
     "rank": 3,
-    "mw_rating": 16.5,
-    "mw_points": 165,
+    "mw_rating": 18.2,
+    "mw_points": 200,
     "divisionno": "7595",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "386216",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:15 AM",
+      "location": "Bedford Davis School",
+      "divisionno": "7595",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44451",
+      "away_teamno": "45077",
+      "home_score": 25,
+      "away_score": 47,
+      "team_score": 47,
+      "opponent_score": 25,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44451",
+      "opponent_name": "D6T-Bedford (white)"
+    },
     {
       "gameno": "385684",
       "date": "2026-02-28",
@@ -216,25 +235,5 @@
       "opponent_name": "D7T-Natick"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "386216",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:15 AM",
-      "location": "Bedford Davis School",
-      "divisionno": "7595",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44451",
-      "away_teamno": "45077",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44451",
-      "opponent_name": "D6T-Bedford (white)"
-    }
-  ]
+  "future_games": []
 }

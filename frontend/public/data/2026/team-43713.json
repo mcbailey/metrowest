@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 571,
-    "pa": 501,
-    "diff": 70,
-    "sos": 1473.168,
-    "sos_adj": 1441.918,
-    "power": 1436.827,
+    "pf": 602,
+    "pa": 541,
+    "diff": 61,
+    "sos": 1475.706,
+    "sos_adj": 1446.294,
+    "power": 1425.688,
     "rank": 4,
-    "mw_rating": 41.8,
-    "mw_points": 418,
+    "mw_rating": 40.3,
+    "mw_points": 443,
     "divisionno": "7220",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380695",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:10 AM",
+      "location": "Middlesex School - JV Court",
+      "divisionno": "7220",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43713",
+      "away_teamno": "44519",
+      "home_score": 31,
+      "away_score": 40,
+      "team_score": 31,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44519",
+      "opponent_name": "D4K-Milford (red-buchan)"
+    },
     {
       "gameno": "380682",
       "date": "2026-02-22",
@@ -330,25 +349,5 @@
       "opponent_name": "D5T-Somerville (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380695",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:10 AM",
-      "location": "Middlesex School - JV Court",
-      "divisionno": "7220",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "43713",
-      "away_teamno": "44519",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44519",
-      "opponent_name": "D4K-Milford (red-buchan)"
-    }
-  ]
+  "future_games": []
 }

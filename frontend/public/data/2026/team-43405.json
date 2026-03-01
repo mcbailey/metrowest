@@ -5,26 +5,45 @@
   "team_name": "D5Q-Natick",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 3,
     "ties": 0,
-    "pf": 279,
-    "pa": 213,
-    "diff": 66,
-    "sos": 1448.447,
-    "sos_adj": 1406.139,
-    "power": 1471.364,
+    "pf": 303,
+    "pa": 230,
+    "diff": 73,
+    "sos": 1448.543,
+    "sos_adj": 1409.257,
+    "power": 1491.461,
     "rank": 2,
-    "mw_rating": 51.6,
-    "mw_points": 516,
+    "mw_rating": 54.0,
+    "mw_points": 594,
     "divisionno": "7271",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "392368",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:40 AM",
+      "location": "Millis High School",
+      "divisionno": "7271",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "43779",
+      "away_teamno": "43405",
+      "home_score": 17,
+      "away_score": 24,
+      "team_score": 24,
+      "opponent_score": 17,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43779",
+      "opponent_name": "D4K-Millis"
+    },
     {
       "gameno": "392012",
       "date": "2026-02-28",
@@ -273,25 +292,5 @@
       "opponent_name": "D5M-Needham (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "392368",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:40 AM",
-      "location": "Millis High School",
-      "divisionno": "7271",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "43779",
-      "away_teamno": "43405",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43779",
-      "opponent_name": "D4K-Millis"
-    }
-  ]
+  "future_games": []
 }

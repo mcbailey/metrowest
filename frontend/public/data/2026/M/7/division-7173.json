@@ -17,9 +17,9 @@
       "pf": 564,
       "pa": 418,
       "diff": 146,
-      "sos": 1398.386,
-      "sos_adj": 1306.079,
-      "power": 1437.472,
+      "sos": 1397.177,
+      "sos_adj": 1304.87,
+      "power": 1437.169,
       "rank": 1,
       "mw_rating": 28.7,
       "mw_points": 287
@@ -34,12 +34,12 @@
       "pf": 411,
       "pa": 405,
       "diff": 6,
-      "sos": 1410.205,
-      "sos_adj": 1325.589,
-      "power": 1432.418,
+      "sos": 1411.414,
+      "sos_adj": 1326.798,
+      "power": 1432.721,
       "rank": 2,
-      "mw_rating": 31.4,
-      "mw_points": 377
+      "mw_rating": 31.5,
+      "mw_points": 378
     },
     {
       "teamno": "43327",
@@ -51,9 +51,9 @@
       "pf": 452,
       "pa": 345,
       "diff": 107,
-      "sos": 1423.391,
-      "sos_adj": 1350.663,
-      "power": 1419.972,
+      "sos": 1421.962,
+      "sos_adj": 1349.234,
+      "power": 1419.614,
       "rank": 3,
       "mw_rating": 34.3,
       "mw_points": 377
@@ -62,18 +62,18 @@
       "teamno": "43832",
       "name": "D6H-Raynham (maddock-b)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 4,
       "ties": 0,
-      "pf": 378,
-      "pa": 282,
-      "diff": 96,
-      "sos": 1389.818,
-      "sos_adj": 1289.818,
-      "power": 1402.253,
+      "pf": 425,
+      "pa": 317,
+      "diff": 108,
+      "sos": 1387.284,
+      "sos_adj": 1287.284,
+      "power": 1413.409,
       "rank": 4,
-      "mw_rating": 22.4,
-      "mw_points": 224
+      "mw_rating": 23.4,
+      "mw_points": 257
     },
     {
       "teamno": "43111",
@@ -102,12 +102,12 @@
       "pf": 304,
       "pa": 318,
       "diff": -14,
-      "sos": 1400.513,
-      "sos_adj": 1300.513,
-      "power": 1374.051,
+      "sos": 1402.085,
+      "sos_adj": 1302.085,
+      "power": 1374.444,
       "rank": 6,
-      "mw_rating": 26.7,
-      "mw_points": 267
+      "mw_rating": 26.8,
+      "mw_points": 268
     },
     {
       "teamno": "43319",
@@ -119,12 +119,12 @@
       "pf": 308,
       "pa": 371,
       "diff": -63,
-      "sos": 1425.238,
-      "sos_adj": 1334.329,
-      "power": 1347.577,
+      "sos": 1426.667,
+      "sos_adj": 1335.758,
+      "power": 1347.935,
       "rank": 7,
-      "mw_rating": 18.6,
-      "mw_points": 205
+      "mw_rating": 18.7,
+      "mw_points": 206
     }
   ]
 }

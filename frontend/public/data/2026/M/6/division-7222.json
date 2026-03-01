@@ -21,8 +21,8 @@
       "sos_adj": 1475.706,
       "power": 1565.04,
       "rank": 1,
-      "mw_rating": 75.7,
-      "mw_points": 833
+      "mw_rating": 75.9,
+      "mw_points": 835
     },
     {
       "teamno": "45319",
@@ -51,12 +51,12 @@
       "pf": 381,
       "pa": 412,
       "diff": -31,
-      "sos": 1510.696,
-      "sos_adj": 1506.529,
-      "power": 1500.425,
+      "sos": 1515.069,
+      "sos_adj": 1510.902,
+      "power": 1501.519,
       "rank": 3,
-      "mw_rating": 53.5,
-      "mw_points": 642
+      "mw_rating": 53.7,
+      "mw_points": 644
     },
     {
       "teamno": "43781",
@@ -68,9 +68,9 @@
       "pf": 370,
       "pa": 423,
       "diff": -53,
-      "sos": 1483.633,
-      "sos_adj": 1462.8,
-      "power": 1496.368,
+      "sos": 1485.82,
+      "sos_adj": 1464.986,
+      "power": 1496.915,
       "rank": 4,
       "mw_rating": 36.3,
       "mw_points": 399
@@ -85,29 +85,29 @@
       "pf": 430,
       "pa": 425,
       "diff": 5,
-      "sos": 1520.041,
-      "sos_adj": 1515.496,
-      "power": 1489.401,
+      "sos": 1524.812,
+      "sos_adj": 1520.266,
+      "power": 1490.594,
       "rank": 5,
-      "mw_rating": 56.0,
-      "mw_points": 616
+      "mw_rating": 56.2,
+      "mw_points": 618
     },
     {
       "teamno": "44193",
       "name": "D4J-Parkway  (white)",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 7,
       "ties": 0,
-      "pf": 334,
-      "pa": 407,
-      "diff": -73,
-      "sos": 1492.405,
-      "sos_adj": 1477.405,
-      "power": 1442.237,
+      "pf": 370,
+      "pa": 428,
+      "diff": -58,
+      "sos": 1485.196,
+      "sos_adj": 1467.015,
+      "power": 1459.319,
       "rank": 6,
-      "mw_rating": 35.0,
-      "mw_points": 350
+      "mw_rating": 37.1,
+      "mw_points": 408
     }
   ]
 }

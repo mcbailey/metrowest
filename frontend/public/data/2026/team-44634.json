@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 544,
-    "pa": 656,
-    "diff": -112,
-    "sos": 1584.725,
-    "sos_adj": 1657.802,
-    "power": 1542.171,
+    "pf": 578,
+    "pa": 706,
+    "diff": -128,
+    "sos": 1587.778,
+    "sos_adj": 1662.778,
+    "power": 1533.347,
     "rank": 5,
-    "mw_rating": 73.3,
-    "mw_points": 806,
+    "mw_rating": 73.1,
+    "mw_points": 877,
     "divisionno": "7200",
     "division_name": "7th Boys - Division 2",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374750",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:30 AM",
+      "location": "Ashland High School",
+      "divisionno": "7201",
+      "division_name": "7th Boys - Division 2",
+      "home_teamno": "44634",
+      "away_teamno": "45435",
+      "home_score": 34,
+      "away_score": 50,
+      "team_score": 34,
+      "opponent_score": 50,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45435",
+      "opponent_name": "D2M-Cambridge"
+    },
     {
       "gameno": "376647",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D3M-Natick"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374750",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:30 AM",
-      "location": "Ashland High School",
-      "divisionno": "7201",
-      "division_name": "7th Boys - Division 2",
-      "home_teamno": "44634",
-      "away_teamno": "45435",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45435",
-      "opponent_name": "D2M-Cambridge"
-    }
-  ]
+  "future_games": []
 }

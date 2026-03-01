@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 277,
-    "pa": 399,
-    "diff": -122,
-    "sos": 1456.15,
-    "sos_adj": 1406.15,
-    "power": 1374.524,
+    "pf": 304,
+    "pa": 438,
+    "diff": -134,
+    "sos": 1459.447,
+    "sos_adj": 1409.447,
+    "power": 1363.846,
     "rank": 5,
-    "mw_rating": 19.2,
-    "mw_points": 192,
+    "mw_rating": 18.4,
+    "mw_points": 202,
     "divisionno": "7290",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376339",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "Taunton Martin Middle School",
+      "divisionno": "7290",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "43969",
+      "away_teamno": "43428",
+      "home_score": 27,
+      "away_score": 39,
+      "team_score": 27,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43428",
+      "opponent_name": "D5J-Bridgewater (dwyer)"
+    },
     {
       "gameno": "376333",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D5H-Swansea (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376339",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:00 PM",
-      "location": "Taunton Martin Middle School",
-      "divisionno": "7290",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "43969",
-      "away_teamno": "43428",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43428",
-      "opponent_name": "D5J-Bridgewater (dwyer)"
-    }
-  ]
+  "future_games": []
 }

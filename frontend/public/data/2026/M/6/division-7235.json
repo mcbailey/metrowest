@@ -25,6 +25,23 @@
       "mw_points": 2002
     },
     {
+      "teamno": "44301",
+      "name": "D1J-Belmont (maroon)",
+      "town": null,
+      "wins": 16,
+      "losses": 5,
+      "ties": 0,
+      "pf": 1146,
+      "pa": 980,
+      "diff": 166,
+      "sos": 1618.268,
+      "sos_adj": 1742.078,
+      "power": 1708.317,
+      "rank": 2,
+      "mw_rating": 190.0,
+      "mw_points": 2280
+    },
+    {
       "teamno": "45533",
       "name": "D1J-Lawrence",
       "town": null,
@@ -37,26 +54,9 @@
       "sos": 1596.294,
       "sos_adj": 1699.628,
       "power": 1705.861,
-      "rank": 2,
+      "rank": 3,
       "mw_rating": 174.2,
       "mw_points": 1916
-    },
-    {
-      "teamno": "44301",
-      "name": "D1J-Belmont (maroon)",
-      "town": null,
-      "wins": 15,
-      "losses": 5,
-      "ties": 0,
-      "pf": 1104,
-      "pa": 954,
-      "diff": 150,
-      "sos": 1620.726,
-      "sos_adj": 1743.226,
-      "power": 1698.102,
-      "rank": 3,
-      "mw_rating": 188.3,
-      "mw_points": 2071
     },
     {
       "teamno": "44192",
@@ -89,8 +89,8 @@
       "sos_adj": 1788.409,
       "power": 1657.11,
       "rank": 5,
-      "mw_rating": 125.4,
-      "mw_points": 1379
+      "mw_rating": 125.5,
+      "mw_points": 1380
     },
     {
       "teamno": "43749",
@@ -114,17 +114,17 @@
       "name": "D1J-Natick",
       "town": null,
       "wins": 9,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 771,
-      "pa": 866,
-      "diff": -95,
-      "sos": 1617.053,
-      "sos_adj": 1732.053,
-      "power": 1630.854,
+      "pf": 797,
+      "pa": 908,
+      "diff": -111,
+      "sos": 1621.53,
+      "sos_adj": 1738.197,
+      "power": 1621.888,
       "rank": 7,
-      "mw_rating": 147.6,
-      "mw_points": 1623
+      "mw_rating": 143.6,
+      "mw_points": 1723
     }
   ]
 }

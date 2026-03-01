@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 187,
-    "pa": 407,
-    "diff": -220,
-    "sos": 1407.69,
-    "sos_adj": 1299.356,
-    "power": 1297.848,
+    "pf": 209,
+    "pa": 435,
+    "diff": -226,
+    "sos": 1403.658,
+    "sos_adj": 1295.966,
+    "power": 1285.908,
     "rank": 7,
     "mw_rating": 5.7,
-    "mw_points": 63,
+    "mw_points": 68,
     "divisionno": "7587",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "386131",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:45 AM",
+      "location": "Canton Galvin Middle School",
+      "divisionno": "7587",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "43993",
+      "away_teamno": "44988",
+      "home_score": 22,
+      "away_score": 28,
+      "team_score": 22,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44988",
+      "opponent_name": "D6Q-Dover Sherborn (quinn)"
+    },
     {
       "gameno": "386123",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D5R-Needham (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "386131",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:45 AM",
-      "location": "Canton Galvin Middle School",
-      "divisionno": "7587",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "43993",
-      "away_teamno": "44988",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44988",
-      "opponent_name": "D6Q-Dover Sherborn (quinn)"
-    }
-  ]
+  "future_games": []
 }

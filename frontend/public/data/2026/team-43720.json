@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 623,
-    "pa": 613,
-    "diff": 10,
-    "sos": 1443.756,
-    "sos_adj": 1402.579,
-    "power": 1407.404,
+    "pf": 661,
+    "pa": 654,
+    "diff": 7,
+    "sos": 1445.391,
+    "sos_adj": 1403.724,
+    "power": 1400.143,
     "rank": 5,
-    "mw_rating": 33.2,
-    "mw_points": 332,
+    "mw_rating": 31.1,
+    "mw_points": 342,
     "divisionno": "7218",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380694",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:30 PM",
+      "location": "Middlesex School - Varsity Court",
+      "divisionno": "7220",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43720",
+      "away_teamno": "45509",
+      "home_score": 38,
+      "away_score": 41,
+      "team_score": 38,
+      "opponent_score": 41,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45509",
+      "opponent_name": "D5W-Everett"
+    },
     {
       "gameno": "380673",
       "date": "2026-02-28",
@@ -349,25 +368,5 @@
       "opponent_name": "D5W-Lexington (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380694",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:30 PM",
-      "location": "Middlesex School - Varsity Court",
-      "divisionno": "7220",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "43720",
-      "away_teamno": "45509",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45509",
-      "opponent_name": "D5W-Everett"
-    }
-  ]
+  "future_games": []
 }

@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 672,
-    "pa": 802,
-    "diff": -130,
-    "sos": 1592.084,
-    "sos_adj": 1681.37,
-    "power": 1591.495,
-    "rank": 6,
-    "mw_rating": 98.5,
-    "mw_points": 985,
+    "pf": 742,
+    "pa": 879,
+    "diff": -137,
+    "sos": 1593.455,
+    "sos_adj": 1683.455,
+    "power": 1584.718,
+    "rank": 7,
+    "mw_rating": 96.0,
+    "mw_points": 1056,
     "divisionno": "7164",
     "division_name": "8th Boys - Division 2",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375034",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:15 AM",
+      "location": "Southborough Trottier Middle School",
+      "divisionno": "7165",
+      "division_name": "8th Boys - Division 2",
+      "home_teamno": "43859",
+      "away_teamno": "45664",
+      "home_score": 70,
+      "away_score": 77,
+      "team_score": 70,
+      "opponent_score": 77,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45664",
+      "opponent_name": "D2K-Malden"
+    },
     {
       "gameno": "379695",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "D2K-Concord-Carlisle (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375034",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:15 AM",
-      "location": "Southborough Trottier Middle School",
-      "divisionno": "7165",
-      "division_name": "8th Boys - Division 2",
-      "home_teamno": "43859",
-      "away_teamno": "45664",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45664",
-      "opponent_name": "D2K-Malden"
-    }
-  ]
+  "future_games": []
 }

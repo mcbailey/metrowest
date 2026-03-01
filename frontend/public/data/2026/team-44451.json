@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 12,
+    "losses": 13,
     "ties": 0,
-    "pf": 257,
-    "pa": 587,
-    "diff": -330,
-    "sos": 1395.586,
-    "sos_adj": 1276.836,
-    "power": 1279.166,
+    "pf": 282,
+    "pa": 634,
+    "diff": -352,
+    "sos": 1394.526,
+    "sos_adj": 1273.938,
+    "power": 1257.765,
     "rank": 7,
-    "mw_rating": 8.0,
-    "mw_points": 88,
+    "mw_rating": 7.4,
+    "mw_points": 89,
     "divisionno": "7589",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "386216",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:15 AM",
+      "location": "Bedford Davis School",
+      "divisionno": "7595",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44451",
+      "away_teamno": "45077",
+      "home_score": 25,
+      "away_score": 47,
+      "team_score": 25,
+      "opponent_score": 47,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45077",
+      "opponent_name": "D7V-Reading (zoia)"
+    },
     {
       "gameno": "385711",
       "date": "2026-02-22",
@@ -330,25 +349,5 @@
       "opponent_name": "D7V-Concord-Carlisle (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "386216",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:15 AM",
-      "location": "Bedford Davis School",
-      "divisionno": "7595",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44451",
-      "away_teamno": "45077",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45077",
-      "opponent_name": "D7V-Reading (zoia)"
-    }
-  ]
+  "future_games": []
 }

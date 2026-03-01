@@ -21,25 +21,25 @@
       "sos_adj": 1386.552,
       "power": 1513.117,
       "rank": 1,
-      "mw_rating": 51.7,
-      "mw_points": 620
+      "mw_rating": 51.8,
+      "mw_points": 621
     },
     {
       "teamno": "43334",
       "name": "D5J-Mansfield (green)",
       "town": null,
-      "wins": 9,
+      "wins": 10,
       "losses": 2,
       "ties": 0,
-      "pf": 309,
-      "pa": 133,
-      "diff": 176,
-      "sos": 1462.672,
-      "sos_adj": 1421.763,
-      "power": 1486.002,
+      "pf": 353,
+      "pa": 139,
+      "diff": 214,
+      "sos": 1457.375,
+      "sos_adj": 1415.709,
+      "power": 1497.303,
       "rank": 2,
       "mw_rating": 51.5,
-      "mw_points": 566
+      "mw_points": 618
     },
     {
       "teamno": "44211",
@@ -119,9 +119,9 @@
       "pf": 90,
       "pa": 334,
       "diff": -244,
-      "sos": 1458.788,
-      "sos_adj": 1413.333,
-      "power": 1358.429,
+      "sos": 1457.234,
+      "sos_adj": 1411.78,
+      "power": 1358.04,
       "rank": 7,
       "mw_rating": 15.4,
       "mw_points": 169

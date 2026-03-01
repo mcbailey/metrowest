@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 811,
-    "pa": 862,
-    "diff": -51,
-    "sos": 1549.253,
-    "sos_adj": 1605.135,
-    "power": 1526.495,
-    "rank": 7,
-    "mw_rating": 71.0,
-    "mw_points": 781,
+    "pf": 847,
+    "pa": 935,
+    "diff": -88,
+    "sos": 1556.384,
+    "sos_adj": 1611.94,
+    "power": 1518.443,
+    "rank": 8,
+    "mw_rating": 68.8,
+    "mw_points": 826,
     "divisionno": "7159",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379703",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:10 PM",
+      "location": "Hardy Elem School",
+      "divisionno": "7159",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "43916",
+      "away_teamno": "44186",
+      "home_score": 36,
+      "away_score": 73,
+      "team_score": 36,
+      "opponent_score": 73,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44186",
+      "opponent_name": "D3K-Parkway  (red)"
+    },
     {
       "gameno": "379670",
       "date": "2026-02-28",
@@ -349,25 +368,5 @@
       "opponent_name": "D3H-Somerset (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379703",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:10 PM",
-      "location": "Hardy Elem School",
-      "divisionno": "7159",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "43916",
-      "away_teamno": "44186",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44186",
-      "opponent_name": "D3K-Parkway  (red)"
-    }
-  ]
+  "future_games": []
 }

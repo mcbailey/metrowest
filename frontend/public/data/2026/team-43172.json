@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 378,
-    "pa": 427,
-    "diff": -49,
-    "sos": 1627.559,
-    "sos_adj": 1745.741,
-    "power": 1645.67,
+    "pf": 406,
+    "pa": 475,
+    "diff": -69,
+    "sos": 1631.892,
+    "sos_adj": 1752.726,
+    "power": 1635.176,
     "rank": 7,
-    "mw_rating": 116.1,
-    "mw_points": 1161,
+    "mw_rating": 114.6,
+    "mw_points": 1261,
     "divisionno": "7072",
     "division_name": "6th Girls - Division 1",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "387659",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "Seekonk - Hurley Middle School",
+      "divisionno": "7072",
+      "division_name": "6th Girls - Division 1",
+      "home_teamno": "43172",
+      "away_teamno": "43441",
+      "home_score": 28,
+      "away_score": 48,
+      "team_score": 28,
+      "opponent_score": 48,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43441",
+      "opponent_name": "D1-Foxboro (blue)"
+    },
     {
       "gameno": "387651",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D3H-Attleboro (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "387659",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:00 PM",
-      "location": "Seekonk - Hurley Middle School",
-      "divisionno": "7072",
-      "division_name": "6th Girls - Division 1",
-      "home_teamno": "43172",
-      "away_teamno": "43441",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43441",
-      "opponent_name": "D1-Foxboro (blue)"
-    }
-  ]
+  "future_games": []
 }

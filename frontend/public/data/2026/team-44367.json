@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 309,
-    "pa": 233,
-    "diff": 76,
-    "sos": 1431.565,
-    "sos_adj": 1381.565,
-    "power": 1475.02,
+    "pf": 330,
+    "pa": 256,
+    "diff": 74,
+    "sos": 1439.598,
+    "sos_adj": 1394.144,
+    "power": 1470.716,
     "rank": 1,
-    "mw_rating": 36.5,
-    "mw_points": 365,
+    "mw_rating": 35.5,
+    "mw_points": 390,
     "divisionno": "7236",
     "division_name": "8th Girls - Division 5",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380268",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:30 AM",
+      "location": "Dana Barros-4",
+      "divisionno": "7236",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "44367",
+      "away_teamno": "44878",
+      "home_score": 21,
+      "away_score": 23,
+      "team_score": 21,
+      "opponent_score": 23,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44878",
+      "opponent_name": "D4J-North Attleboro (red)"
+    },
     {
       "gameno": "380262",
       "date": "2026-02-28",
@@ -216,25 +235,5 @@
       "opponent_name": "D5H-Foxboro (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380268",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:30 AM",
-      "location": "Dana Barros-4",
-      "divisionno": "7236",
-      "division_name": "8th Girls - Division 5",
-      "home_teamno": "44367",
-      "away_teamno": "44878",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44878",
-      "opponent_name": "D4J-North Attleboro (red)"
-    }
-  ]
+  "future_games": []
 }

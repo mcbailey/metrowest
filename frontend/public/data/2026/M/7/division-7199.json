@@ -17,12 +17,12 @@
       "pf": 918,
       "pa": 821,
       "diff": 97,
-      "sos": 1589.173,
-      "sos_adj": 1683.617,
-      "power": 1676.75,
+      "sos": 1590.444,
+      "sos_adj": 1684.888,
+      "power": 1677.067,
       "rank": 1,
-      "mw_rating": 145.4,
-      "mw_points": 1745
+      "mw_rating": 145.5,
+      "mw_points": 1746
     },
     {
       "teamno": "43582",
@@ -34,12 +34,12 @@
       "pf": 944,
       "pa": 858,
       "diff": 86,
-      "sos": 1564.346,
-      "sos_adj": 1631.013,
-      "power": 1629.431,
+      "sos": 1565.617,
+      "sos_adj": 1632.284,
+      "power": 1629.748,
       "rank": 2,
-      "mw_rating": 138.4,
-      "mw_points": 1522
+      "mw_rating": 138.6,
+      "mw_points": 1524
     },
     {
       "teamno": "43608",
@@ -51,12 +51,12 @@
       "pf": 621,
       "pa": 640,
       "diff": -19,
-      "sos": 1594.796,
-      "sos_adj": 1687.104,
-      "power": 1619.969,
+      "sos": 1596.557,
+      "sos_adj": 1688.864,
+      "power": 1620.409,
       "rank": 3,
-      "mw_rating": 104.1,
-      "mw_points": 1249
+      "mw_rating": 104.2,
+      "mw_points": 1250
     },
     {
       "teamno": "45131",
@@ -68,12 +68,29 @@
       "pf": 709,
       "pa": 765,
       "diff": -56,
-      "sos": 1594.348,
-      "sos_adj": 1687.681,
-      "power": 1619.489,
+      "sos": 1595.873,
+      "sos_adj": 1689.207,
+      "power": 1619.871,
       "rank": 4,
-      "mw_rating": 106.3,
-      "mw_points": 1276
+      "mw_rating": 106.4,
+      "mw_points": 1277
+    },
+    {
+      "teamno": "44189",
+      "name": "D2J-Parkway  (red)",
+      "town": null,
+      "wins": 7,
+      "losses": 8,
+      "ties": 0,
+      "pf": 825,
+      "pa": 795,
+      "diff": 30,
+      "sos": 1601.572,
+      "sos_adj": 1698.238,
+      "power": 1616.071,
+      "rank": 5,
+      "mw_rating": 115.0,
+      "mw_points": 1380
     },
     {
       "teamno": "43742",
@@ -88,26 +105,9 @@
       "sos": 1621.752,
       "sos_adj": 1725.598,
       "power": 1606.164,
-      "rank": 5,
+      "rank": 6,
       "mw_rating": 100.2,
       "mw_points": 1202
-    },
-    {
-      "teamno": "44189",
-      "name": "D2J-Parkway  (red)",
-      "town": null,
-      "wins": 6,
-      "losses": 8,
-      "ties": 0,
-      "pf": 756,
-      "pa": 763,
-      "diff": -7,
-      "sos": 1602.983,
-      "sos_adj": 1699.412,
-      "power": 1599.203,
-      "rank": 6,
-      "mw_rating": 111.1,
-      "mw_points": 1222
     }
   ]
 }

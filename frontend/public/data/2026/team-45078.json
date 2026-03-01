@@ -5,26 +5,45 @@
   "team_name": "D7V-Reading (mcgowen)",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 1,
     "ties": 0,
-    "pf": 343,
-    "pa": 179,
-    "diff": 164,
-    "sos": 1340.987,
-    "sos_adj": 1195.987,
-    "power": 1371.066,
+    "pf": 373,
+    "pa": 191,
+    "diff": 182,
+    "sos": 1336.116,
+    "sos_adj": 1190.661,
+    "power": 1380.512,
     "rank": 2,
-    "mw_rating": 21.8,
-    "mw_points": 218,
+    "mw_rating": 22.0,
+    "mw_points": 242,
     "divisionno": "7595",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385722",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:45 AM",
+      "location": "Lexington - Clarke Middle School",
+      "divisionno": "7595",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "45767",
+      "away_teamno": "45078",
+      "home_score": 12,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 12,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45767",
+      "opponent_name": "D7V-Lexington (gold)"
+    },
     {
       "gameno": "385717",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D7T-Milford (white-santomenna)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385722",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:45 AM",
-      "location": "Lexington - Clarke Middle School",
-      "divisionno": "7595",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "45767",
-      "away_teamno": "45078",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45767",
-      "opponent_name": "D7V-Lexington (gold)"
-    }
-  ]
+  "future_games": []
 }

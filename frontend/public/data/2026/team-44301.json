@@ -5,26 +5,45 @@
   "team_name": "D1J-Belmont (maroon)",
   "town": null,
   "summary": {
-    "wins": 15,
+    "wins": 16,
     "losses": 5,
     "ties": 0,
-    "pf": 1104,
-    "pa": 954,
-    "diff": 150,
-    "sos": 1620.726,
-    "sos_adj": 1743.226,
-    "power": 1698.102,
-    "rank": 3,
-    "mw_rating": 188.3,
-    "mw_points": 2071,
+    "pf": 1146,
+    "pa": 980,
+    "diff": 166,
+    "sos": 1618.268,
+    "sos_adj": 1742.078,
+    "power": 1708.317,
+    "rank": 2,
+    "mw_rating": 190.0,
+    "mw_points": 2280,
     "divisionno": "7235",
     "division_name": "6th Boys - Division 1",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 20,
-    "games_scheduled_total": 1
+    "games_played_total": 21,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374436",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:30 AM",
+      "location": "Natick Community Center",
+      "divisionno": "7235",
+      "division_name": "6th Boys - Division 1",
+      "home_teamno": "43384",
+      "away_teamno": "44301",
+      "home_score": 26,
+      "away_score": 42,
+      "team_score": 42,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43384",
+      "opponent_name": "D1J-Natick"
+    },
     {
       "gameno": "374409",
       "date": "2026-02-28",
@@ -406,25 +425,5 @@
       "opponent_name": "Grafton (GREEN) 6B D1S"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374436",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:30 AM",
-      "location": "Natick Community Center",
-      "divisionno": "7235",
-      "division_name": "6th Boys - Division 1",
-      "home_teamno": "43384",
-      "away_teamno": "44301",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43384",
-      "opponent_name": "D1J-Natick"
-    }
-  ]
+  "future_games": []
 }

@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 416,
-    "pa": 324,
-    "diff": 92,
-    "sos": 1558.502,
-    "sos_adj": 1616.835,
-    "power": 1615.037,
+    "pf": 445,
+    "pa": 354,
+    "diff": 91,
+    "sos": 1558.406,
+    "sos_adj": 1616.098,
+    "power": 1609.025,
     "rank": 3,
-    "mw_rating": 104.0,
-    "mw_points": 1144,
+    "mw_rating": 99.1,
+    "mw_points": 1189,
     "divisionno": "7278",
     "division_name": "6th Girls - Division 3",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375922",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:45 AM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7278",
+      "division_name": "6th Girls - Division 3",
+      "home_teamno": "44650",
+      "away_teamno": "44475",
+      "home_score": 30,
+      "away_score": 29,
+      "team_score": 29,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44650",
+      "opponent_name": "D3H-Attleboro (blue)"
+    },
     {
       "gameno": "375931",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D3J-Westwood"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375922",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:45 AM",
-      "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7278",
-      "division_name": "6th Girls - Division 3",
-      "home_teamno": "44650",
-      "away_teamno": "44475",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44650",
-      "opponent_name": "D3H-Attleboro (blue)"
-    }
-  ]
+  "future_games": []
 }

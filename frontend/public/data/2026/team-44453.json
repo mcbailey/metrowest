@@ -263,7 +263,7 @@
       "location": "Jr Mass Premier-2",
       "divisionno": "7638",
       "division_name": "3rd Girls - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "44471",
       "away_teamno": "44453",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44471",
+      "opponent_name": "D1J-Walpole (orange)"
     }
   ]
 }
