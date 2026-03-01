@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "46149",
   "team_name": "2NDM-Everett (white)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 171,
     "pa": 217,
     "diff": -46,
-    "sos": 1529.973,
-    "sos_adj": 1579.973,
-    "power": 1526.922,
+    "sos": 1529.844,
+    "sos_adj": 1579.844,
+    "power": 1526.89,
     "rank": 7,
     "mw_rating": 61.6,
     "mw_points": 493,
@@ -21,8 +21,8 @@
     "division_name": "3rd Boys - Division 3",
     "grade": 3,
     "gender": "M",
-    "games_played_total": 8,
-    "games_scheduled_total": 3
+    "games_played_total": 9,
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": false,
       "opponent_teamno": "45523",
       "opponent_name": "2NDM-Mass Premier (king philip)"
+    },
+    {
+      "gameno": "44500",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "4:40 PM",
+      "location": "Jr. Dana Barros-2",
+      "divisionno": "7630",
+      "division_name": "3rd Boys - Division 3",
+      "home_teamno": "45715",
+      "away_teamno": "45508",
+      "home_score": 36,
+      "away_score": 32,
+      "team_score": 32,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45715",
+      "opponent_name": "2NDH-West Bridgewater (barthelemy)"
     },
     {
       "gameno": "393151",
@@ -216,25 +235,6 @@
       "is_home": true,
       "opponent_teamno": "45215",
       "opponent_name": "D4P-North Quincy (jamieson)"
-    },
-    {
-      "gameno": "44500",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "4:40 PM",
-      "location": "Jr. Dana Barros-2",
-      "divisionno": "7630",
-      "division_name": "3rd Boys - Division 3",
-      "home_teamno": "45715",
-      "away_teamno": "45508",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45715",
-      "opponent_name": "2NDH-West Bridgewater (barthelemy)"
     }
   ]
 }

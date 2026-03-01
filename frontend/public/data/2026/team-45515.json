@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "45515",
   "team_name": "D1-Mass Premier (macchi)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 440,
     "pa": 375,
     "diff": 65,
-    "sos": 1575.572,
-    "sos_adj": 1670.572,
-    "power": 1679.813,
+    "sos": 1576.597,
+    "sos_adj": 1671.597,
+    "power": 1680.069,
     "rank": 2,
-    "mw_rating": 116.4,
-    "mw_points": 1164,
+    "mw_rating": 116.6,
+    "mw_points": 1166,
     "divisionno": "7098",
     "division_name": "3rd Boys - Division 1",
     "grade": 3,
@@ -242,9 +242,9 @@
       "dow": "Sun",
       "starttime": "8:10 AM",
       "location": "Jr Mass Premier-5",
-      "divisionno": "7098",
-      "division_name": "3rd Boys - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7634",
+      "division_name": "3rd Boys - Division 4",
+      "home_teamno": "44392",
       "away_teamno": "45515",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44392",
+      "opponent_name": "D4R-Medway (white)"
     }
   ]
 }

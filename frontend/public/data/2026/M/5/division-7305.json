@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "M",
   "grade": 5,
   "divisionno": "7305",
@@ -17,9 +17,9 @@
       "pf": 833,
       "pa": 730,
       "diff": 103,
-      "sos": 1555.404,
-      "sos_adj": 1615.93,
-      "power": 1617.726,
+      "sos": 1555.916,
+      "sos_adj": 1616.443,
+      "power": 1612.73,
       "rank": 1,
       "mw_rating": 101.7,
       "mw_points": 1017
@@ -34,12 +34,12 @@
       "pf": 484,
       "pa": 355,
       "diff": 129,
-      "sos": 1540.527,
-      "sos_adj": 1585.981,
-      "power": 1584.85,
+      "sos": 1543.013,
+      "sos_adj": 1588.467,
+      "power": 1582.886,
       "rank": 2,
-      "mw_rating": 86.6,
-      "mw_points": 953
+      "mw_rating": 86.7,
+      "mw_points": 954
     },
     {
       "teamno": "44043",
@@ -51,12 +51,12 @@
       "pf": 542,
       "pa": 526,
       "diff": 16,
-      "sos": 1539.829,
-      "sos_adj": 1578.29,
-      "power": 1562.894,
+      "sos": 1539.692,
+      "sos_adj": 1578.153,
+      "power": 1562.278,
       "rank": 3,
-      "mw_rating": 82.0,
-      "mw_points": 902
+      "mw_rating": 82.1,
+      "mw_points": 903
     },
     {
       "teamno": "43462",
@@ -68,9 +68,9 @@
       "pf": 634,
       "pa": 664,
       "diff": -30,
-      "sos": 1550.423,
-      "sos_adj": 1600.423,
-      "power": 1552.518,
+      "sos": 1550.38,
+      "sos_adj": 1600.38,
+      "power": 1553.516,
       "rank": 4,
       "mw_rating": 84.3,
       "mw_points": 927
@@ -80,17 +80,17 @@
       "name": "D3K-Lincoln-Sudbury (blue)",
       "town": null,
       "wins": 6,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 498,
-      "pa": 534,
-      "diff": -36,
-      "sos": 1563.792,
-      "sos_adj": 1620.935,
-      "power": 1536.178,
+      "pf": 532,
+      "pa": 593,
+      "diff": -61,
+      "sos": 1563.418,
+      "sos_adj": 1620.085,
+      "power": 1522.677,
       "rank": 5,
-      "mw_rating": 83.3,
-      "mw_points": 833
+      "mw_rating": 79.8,
+      "mw_points": 878
     },
     {
       "teamno": "43933",
@@ -102,12 +102,12 @@
       "pf": 420,
       "pa": 520,
       "diff": -100,
-      "sos": 1565.455,
-      "sos_adj": 1619.301,
-      "power": 1503.271,
+      "sos": 1564.294,
+      "sos_adj": 1618.14,
+      "power": 1509.387,
       "rank": 6,
-      "mw_rating": 65.8,
-      "mw_points": 658
+      "mw_rating": 65.9,
+      "mw_points": 659
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "M",
   "grade": 7,
   "divisionno": "7180",
@@ -21,8 +21,8 @@
       "sos_adj": 1404.114,
       "power": 1489.459,
       "rank": 1,
-      "mw_rating": 52.4,
-      "mw_points": 576
+      "mw_rating": 52.5,
+      "mw_points": 577
     },
     {
       "teamno": "44870",
@@ -51,12 +51,12 @@
       "pf": 580,
       "pa": 522,
       "diff": 58,
-      "sos": 1457.433,
-      "sos_adj": 1414.576,
-      "power": 1447.293,
+      "sos": 1458.354,
+      "sos_adj": 1415.497,
+      "power": 1447.524,
       "rank": 3,
-      "mw_rating": 40.4,
-      "mw_points": 444
+      "mw_rating": 40.5,
+      "mw_points": 445
     },
     {
       "teamno": "44583",
@@ -68,12 +68,29 @@
       "pf": 396,
       "pa": 402,
       "diff": -6,
-      "sos": 1450.589,
-      "sos_adj": 1400.589,
-      "power": 1441.443,
+      "sos": 1451.879,
+      "sos_adj": 1401.879,
+      "power": 1441.765,
       "rank": 4,
-      "mw_rating": 27.8,
-      "mw_points": 278
+      "mw_rating": 27.9,
+      "mw_points": 279
+    },
+    {
+      "teamno": "43955",
+      "name": "D5J-Foxboro (gold)",
+      "town": null,
+      "wins": 5,
+      "losses": 6,
+      "ties": 0,
+      "pf": 415,
+      "pa": 407,
+      "diff": 8,
+      "sos": 1415.842,
+      "sos_adj": 1338.569,
+      "power": 1440.146,
+      "rank": 5,
+      "mw_rating": 21.1,
+      "mw_points": 232
     },
     {
       "teamno": "44466",
@@ -85,29 +102,12 @@
       "pf": 371,
       "pa": 359,
       "diff": 12,
-      "sos": 1453.982,
-      "sos_adj": 1398.982,
-      "power": 1438.358,
-      "rank": 5,
-      "mw_rating": 32.5,
-      "mw_points": 325
-    },
-    {
-      "teamno": "43955",
-      "name": "D5J-Foxboro (gold)",
-      "town": null,
-      "wins": 4,
-      "losses": 6,
-      "ties": 0,
-      "pf": 380,
-      "pa": 377,
-      "diff": 3,
-      "sos": 1418.716,
-      "sos_adj": 1343.716,
-      "power": 1431.76,
+      "sos": 1455.271,
+      "sos_adj": 1400.271,
+      "power": 1438.68,
       "rank": 6,
-      "mw_rating": 19.3,
-      "mw_points": 193
+      "mw_rating": 32.7,
+      "mw_points": 327
     },
     {
       "teamno": "45146",

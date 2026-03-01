@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "43238",
   "team_name": "D5M-Barnstable  (red)",
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 161,
-    "pa": 311,
-    "diff": -150,
-    "sos": 1421.624,
-    "sos_adj": 1335.26,
-    "power": 1370.763,
+    "pf": 173,
+    "pa": 347,
+    "diff": -174,
+    "sos": 1432.787,
+    "sos_adj": 1349.454,
+    "power": 1369.691,
     "rank": 6,
-    "mw_rating": 11.0,
-    "mw_points": 110,
+    "mw_rating": 10.9,
+    "mw_points": 120,
     "divisionno": "7552",
     "division_name": "4th Girls - Division 5",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "387990",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "4:45 PM",
+      "location": "Hyannis Youth and Community Center",
+      "divisionno": "7552",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "43238",
+      "away_teamno": "43556",
+      "home_score": 12,
+      "away_score": 36,
+      "team_score": 12,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43556",
+      "opponent_name": "D5M-Bridgewater (belz)"
+    },
     {
       "gameno": "384974",
       "date": "2026-02-15",
@@ -235,25 +254,5 @@
       "opponent_name": "D5M-FLBC"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "387990",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "4:45 PM",
-      "location": "Hyannis Youth and Community Center",
-      "divisionno": "7552",
-      "division_name": "4th Girls - Division 5",
-      "home_teamno": "43238",
-      "away_teamno": "43556",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43556",
-      "opponent_name": "D5M-Bridgewater (belz)"
-    }
-  ]
+  "future_games": []
 }

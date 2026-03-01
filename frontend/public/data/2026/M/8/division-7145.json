@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "M",
   "grade": 8,
   "divisionno": "7145",
@@ -17,12 +17,12 @@
       "pf": 490,
       "pa": 256,
       "diff": 234,
-      "sos": 1450.745,
-      "sos_adj": 1413.245,
-      "power": 1515.918,
+      "sos": 1453.205,
+      "sos_adj": 1415.705,
+      "power": 1516.533,
       "rank": 1,
-      "mw_rating": 62.8,
-      "mw_points": 502
+      "mw_rating": 63.0,
+      "mw_points": 504
     },
     {
       "teamno": "44981",
@@ -38,8 +38,8 @@
       "sos_adj": 1397.787,
       "power": 1505.805,
       "rank": 2,
-      "mw_rating": 51.8,
-      "mw_points": 570
+      "mw_rating": 52.0,
+      "mw_points": 572
     },
     {
       "teamno": "43252",
@@ -55,8 +55,8 @@
       "sos_adj": 1382.867,
       "power": 1483.211,
       "rank": 3,
-      "mw_rating": 39.7,
-      "mw_points": 437
+      "mw_rating": 40.0,
+      "mw_points": 440
     },
     {
       "teamno": "43098",
@@ -68,29 +68,12 @@
       "pf": 416,
       "pa": 495,
       "diff": -79,
-      "sos": 1466.311,
-      "sos_adj": 1416.311,
-      "power": 1425.047,
+      "sos": 1464.521,
+      "sos_adj": 1414.521,
+      "power": 1424.599,
       "rank": 4,
       "mw_rating": 26.6,
       "mw_points": 293
-    },
-    {
-      "teamno": "44645",
-      "name": "D5H-Attleboro (white)",
-      "town": null,
-      "wins": 2,
-      "losses": 8,
-      "ties": 0,
-      "pf": 372,
-      "pa": 469,
-      "diff": -97,
-      "sos": 1470.684,
-      "sos_adj": 1430.684,
-      "power": 1419.642,
-      "rank": 5,
-      "mw_rating": 21.7,
-      "mw_points": 195
     },
     {
       "teamno": "43331",
@@ -105,9 +88,26 @@
       "sos": 1448.541,
       "sos_adj": 1394.695,
       "power": 1407.498,
-      "rank": 6,
+      "rank": 5,
       "mw_rating": 25.3,
       "mw_points": 303
+    },
+    {
+      "teamno": "44645",
+      "name": "D5H-Attleboro (white)",
+      "town": null,
+      "wins": 2,
+      "losses": 9,
+      "ties": 0,
+      "pf": 409,
+      "pa": 515,
+      "diff": -106,
+      "sos": 1468.742,
+      "sos_adj": 1427.832,
+      "power": 1404.167,
+      "rank": 6,
+      "mw_rating": 20.5,
+      "mw_points": 205
     },
     {
       "teamno": "43477",
@@ -136,12 +136,12 @@
       "pf": 355,
       "pa": 539,
       "diff": -184,
-      "sos": 1454.363,
-      "sos_adj": 1399.818,
-      "power": 1385.559,
+      "sos": 1452.574,
+      "sos_adj": 1398.029,
+      "power": 1385.111,
       "rank": 8,
-      "mw_rating": 16.6,
-      "mw_points": 183
+      "mw_rating": 16.7,
+      "mw_points": 184
     }
   ]
 }

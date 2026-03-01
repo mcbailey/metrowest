@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "M",
   "grade": 5,
   "divisionno": "7289",
@@ -38,8 +38,8 @@
       "sos_adj": 1402.472,
       "power": 1455.81,
       "rank": 2,
-      "mw_rating": 39.2,
-      "mw_points": 431
+      "mw_rating": 39.3,
+      "mw_points": 432
     },
     {
       "teamno": "43114",
@@ -51,9 +51,9 @@
       "pf": 396,
       "pa": 345,
       "diff": 51,
-      "sos": 1437.977,
-      "sos_adj": 1387.977,
-      "power": 1454.449,
+      "sos": 1436.549,
+      "sos_adj": 1386.549,
+      "power": 1454.092,
       "rank": 3,
       "mw_rating": 36.2,
       "mw_points": 434
@@ -68,9 +68,9 @@
       "pf": 258,
       "pa": 341,
       "diff": -83,
-      "sos": 1460.115,
-      "sos_adj": 1410.115,
-      "power": 1391.884,
+      "sos": 1458.211,
+      "sos_adj": 1408.211,
+      "power": 1391.408,
       "rank": 4,
       "mw_rating": 23.1,
       "mw_points": 231
@@ -80,17 +80,17 @@
       "name": "D5H-Rochester",
       "town": null,
       "wins": 1,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 262,
-      "pa": 390,
-      "diff": -128,
-      "sos": 1466.199,
-      "sos_adj": 1416.199,
-      "power": 1378.585,
+      "pf": 274,
+      "pa": 431,
+      "diff": -157,
+      "sos": 1466.889,
+      "sos_adj": 1416.889,
+      "power": 1365.906,
       "rank": 5,
-      "mw_rating": 13.0,
-      "mw_points": 143
+      "mw_rating": 12.8,
+      "mw_points": 153
     }
   ]
 }

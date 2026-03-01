@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "M",
   "grade": 4,
   "divisionno": "7574",
@@ -21,8 +21,8 @@
       "sos_adj": 1708.393,
       "power": 1707.821,
       "rank": 1,
-      "mw_rating": 157.6,
-      "mw_points": 1576
+      "mw_rating": 157.7,
+      "mw_points": 1577
     },
     {
       "teamno": "43132",
@@ -38,8 +38,8 @@
       "sos_adj": 1783.674,
       "power": 1700.159,
       "rank": 2,
-      "mw_rating": 115.5,
-      "mw_points": 1270
+      "mw_rating": 115.6,
+      "mw_points": 1271
     },
     {
       "teamno": "44419",
@@ -51,12 +51,12 @@
       "pf": 372,
       "pa": 356,
       "diff": 16,
-      "sos": 1642.422,
-      "sos_adj": 1782.422,
-      "power": 1688.634,
+      "sos": 1643.16,
+      "sos_adj": 1783.16,
+      "power": 1688.819,
       "rank": 3,
-      "mw_rating": 120.2,
-      "mw_points": 1202
+      "mw_rating": 120.5,
+      "mw_points": 1205
     },
     {
       "teamno": "46243",
@@ -68,9 +68,9 @@
       "pf": 369,
       "pa": 279,
       "diff": 90,
-      "sos": 1592.707,
-      "sos_adj": 1714.929,
-      "power": 1685.485,
+      "sos": 1591.887,
+      "sos_adj": 1714.11,
+      "power": 1685.28,
       "rank": 4,
       "mw_rating": 129.7,
       "mw_points": 1167
@@ -89,42 +89,25 @@
       "sos_adj": 1754.361,
       "power": 1656.259,
       "rank": 5,
-      "mw_rating": 109.8,
-      "mw_points": 1098
+      "mw_rating": 109.9,
+      "mw_points": 1099
     },
     {
       "teamno": "43838",
       "name": "D2M-Raynham (barry)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 8,
       "ties": 0,
-      "pf": 363,
-      "pa": 398,
-      "diff": -35,
-      "sos": 1617.727,
-      "sos_adj": 1737.727,
-      "power": 1649.914,
+      "pf": 403,
+      "pa": 435,
+      "diff": -32,
+      "sos": 1610.555,
+      "sos_adj": 1733.282,
+      "power": 1654.332,
       "rank": 6,
-      "mw_rating": 82.4,
-      "mw_points": 824
-    },
-    {
-      "teamno": "43966",
-      "name": "D2M-Taunton (jackson)",
-      "town": null,
-      "wins": 1,
-      "losses": 12,
-      "ties": 0,
-      "pf": 302,
-      "pa": 535,
-      "diff": -233,
-      "sos": 1637.24,
-      "sos_adj": 1764.163,
-      "power": 1600.696,
-      "rank": 7,
-      "mw_rating": 90.3,
-      "mw_points": 903
+      "mw_rating": 88.6,
+      "mw_points": 975
     },
     {
       "teamno": "43171",
@@ -139,9 +122,26 @@
       "sos": 1587.54,
       "sos_adj": 1670.874,
       "power": 1598.302,
-      "rank": 8,
+      "rank": 7,
       "mw_rating": 70.3,
       "mw_points": 844
+    },
+    {
+      "teamno": "43966",
+      "name": "D2M-Taunton (jackson)",
+      "town": null,
+      "wins": 1,
+      "losses": 13,
+      "ties": 0,
+      "pf": 339,
+      "pa": 575,
+      "diff": -236,
+      "sos": 1636.581,
+      "sos_adj": 1765.152,
+      "power": 1595.415,
+      "rank": 8,
+      "mw_rating": 88.5,
+      "mw_points": 973
     },
     {
       "teamno": "43425",
@@ -157,8 +157,8 @@
       "sos_adj": 1731.342,
       "power": 1585.464,
       "rank": 9,
-      "mw_rating": 103.9,
-      "mw_points": 1143
+      "mw_rating": 104.1,
+      "mw_points": 1145
     }
   ]
 }

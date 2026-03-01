@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "F",
   "grade": 7,
   "divisionno": "7251",
@@ -17,12 +17,12 @@
       "pf": 305,
       "pa": 167,
       "diff": 138,
-      "sos": 1428.02,
-      "sos_adj": 1378.02,
-      "power": 1497.547,
+      "sos": 1426.102,
+      "sos_adj": 1376.102,
+      "power": 1497.067,
       "rank": 1,
-      "mw_rating": 55.7,
-      "mw_points": 557
+      "mw_rating": 55.8,
+      "mw_points": 558
     },
     {
       "teamno": "44340",
@@ -34,9 +34,9 @@
       "pf": 318,
       "pa": 263,
       "diff": 55,
-      "sos": 1438.207,
-      "sos_adj": 1392.752,
-      "power": 1464.603,
+      "sos": 1436.463,
+      "sos_adj": 1391.008,
+      "power": 1464.167,
       "rank": 2,
       "mw_rating": 35.1,
       "mw_points": 386
@@ -51,12 +51,12 @@
       "pf": 361,
       "pa": 237,
       "diff": 124,
-      "sos": 1447.897,
-      "sos_adj": 1401.744,
-      "power": 1454.18,
+      "sos": 1446.422,
+      "sos_adj": 1400.268,
+      "power": 1453.812,
       "rank": 3,
-      "mw_rating": 43.6,
-      "mw_points": 480
+      "mw_rating": 43.7,
+      "mw_points": 481
     },
     {
       "teamno": "45336",
@@ -72,8 +72,8 @@
       "sos_adj": 1401.664,
       "power": 1419.058,
       "rank": 4,
-      "mw_rating": 30.6,
-      "mw_points": 336
+      "mw_rating": 30.7,
+      "mw_points": 338
     },
     {
       "teamno": "43896",
@@ -93,23 +93,6 @@
       "mw_points": 243
     },
     {
-      "teamno": "44158",
-      "name": "D5J-Holliston (cooper-red 7th)",
-      "town": null,
-      "wins": 2,
-      "losses": 9,
-      "ties": 0,
-      "pf": 201,
-      "pa": 285,
-      "diff": -84,
-      "sos": 1455.404,
-      "sos_adj": 1405.404,
-      "power": 1400.76,
-      "rank": 6,
-      "mw_rating": 19.3,
-      "mw_points": 193
-    },
-    {
       "teamno": "44773",
       "name": "D5J-Dover Sherborn (anderson)",
       "town": null,
@@ -119,10 +102,10 @@
       "pf": 227,
       "pa": 388,
       "diff": -161,
-      "sos": 1454.768,
-      "sos_adj": 1409.314,
-      "power": 1399.886,
-      "rank": 7,
+      "sos": 1453.024,
+      "sos_adj": 1407.57,
+      "power": 1399.45,
+      "rank": 6,
       "mw_rating": 19.8,
       "mw_points": 218
     },
@@ -139,9 +122,26 @@
       "sos": 1458.759,
       "sos_adj": 1415.902,
       "power": 1398.878,
-      "rank": 8,
+      "rank": 7,
       "mw_rating": 22.6,
       "mw_points": 249
+    },
+    {
+      "teamno": "44158",
+      "name": "D5J-Holliston (cooper-red 7th)",
+      "town": null,
+      "wins": 2,
+      "losses": 10,
+      "ties": 0,
+      "pf": 214,
+      "pa": 323,
+      "diff": -109,
+      "sos": 1457.764,
+      "sos_adj": 1407.764,
+      "power": 1386.964,
+      "rank": 8,
+      "mw_rating": 18.5,
+      "mw_points": 203
     }
   ]
 }

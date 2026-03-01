@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "44567",
   "team_name": "D1H-Needham (gold)",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1760.368,
     "power": 1705.36,
     "rank": 3,
-    "mw_rating": 149.5,
-    "mw_points": 1495,
+    "mw_rating": 149.6,
+    "mw_points": 1496,
     "divisionno": "7635",
     "division_name": "3rd Girls - Division 1",
     "grade": 3,
@@ -242,9 +242,9 @@
       "dow": "Sun",
       "starttime": "10:30 AM",
       "location": "Jr Mass Premier-4",
-      "divisionno": "7635",
-      "division_name": "3rd Girls - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7638",
+      "division_name": "3rd Girls - Division 3",
+      "home_teamno": "44453",
       "away_teamno": "44567",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44453",
+      "opponent_name": "D3N-Foxboro (gold)"
     }
   ]
 }

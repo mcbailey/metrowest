@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "44656",
   "team_name": "D2N-Attleboro (white)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 1,
+    "losses": 2,
     "ties": 0,
-    "pf": 349,
-    "pa": 282,
-    "diff": 67,
-    "sos": 1588.574,
-    "sos_adj": 1668.574,
-    "power": 1661.728,
-    "rank": 3,
-    "mw_rating": 141.1,
-    "mw_points": 1270,
+    "pf": 389,
+    "pa": 324,
+    "diff": 65,
+    "sos": 1582.628,
+    "sos_adj": 1655.355,
+    "power": 1641.043,
+    "rank": 4,
+    "mw_rating": 129.6,
+    "mw_points": 1296,
     "divisionno": "7632",
     "division_name": "3rd Boys - Division 2",
     "grade": 3,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44441",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "5:50 PM",
+      "location": "Jr. Dana Barros-1",
+      "divisionno": "7633",
+      "division_name": "3rd Boys - Division 4",
+      "home_teamno": "44391",
+      "away_teamno": "44656",
+      "home_score": 42,
+      "away_score": 40,
+      "team_score": 40,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44391",
+      "opponent_name": "D4P-Medway (blue)"
+    },
     {
       "gameno": "393170",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D2N-King Philip (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44441",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "5:50 PM",
-      "location": "Jr. Dana Barros-1",
-      "divisionno": "7633",
-      "division_name": "3rd Boys - Division 4",
-      "home_teamno": "44391",
-      "away_teamno": "44656",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44391",
-      "opponent_name": "D4P-Medway (blue)"
-    }
-  ]
+  "future_games": []
 }

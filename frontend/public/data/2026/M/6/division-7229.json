@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "M",
   "grade": 6,
   "divisionno": "7229",
@@ -21,25 +21,25 @@
       "sos_adj": 1579.239,
       "power": 1637.284,
       "rank": 1,
-      "mw_rating": 113.3,
-      "mw_points": 1246
+      "mw_rating": 113.5,
+      "mw_points": 1248
     },
     {
       "teamno": "44728",
       "name": "D3Q-Arlington (maroon)",
       "town": null,
-      "wins": 10,
+      "wins": 11,
       "losses": 8,
       "ties": 0,
-      "pf": 835,
-      "pa": 782,
-      "diff": 53,
-      "sos": 1545.199,
-      "sos_adj": 1603.532,
-      "power": 1601.209,
+      "pf": 877,
+      "pa": 822,
+      "diff": 55,
+      "sos": 1537.773,
+      "sos_adj": 1595.668,
+      "power": 1602.599,
       "rank": 2,
-      "mw_rating": 89.0,
-      "mw_points": 979
+      "mw_rating": 89.1,
+      "mw_points": 980
     },
     {
       "teamno": "45516",
@@ -51,12 +51,12 @@
       "pf": 786,
       "pa": 680,
       "diff": 106,
-      "sos": 1557.09,
-      "sos_adj": 1603.965,
-      "power": 1596.21,
+      "sos": 1557.383,
+      "sos_adj": 1604.258,
+      "power": 1596.283,
       "rank": 3,
-      "mw_rating": 109.7,
-      "mw_points": 1097
+      "mw_rating": 109.9,
+      "mw_points": 1099
     },
     {
       "teamno": "45755",
@@ -68,12 +68,12 @@
       "pf": 700,
       "pa": 645,
       "diff": 55,
-      "sos": 1524.127,
-      "sos_adj": 1567.877,
-      "power": 1585.198,
+      "sos": 1524.1,
+      "sos_adj": 1567.85,
+      "power": 1585.191,
       "rank": 4,
-      "mw_rating": 89.6,
-      "mw_points": 986
+      "mw_rating": 89.7,
+      "mw_points": 987
     },
     {
       "teamno": "43712",
@@ -85,12 +85,12 @@
       "pf": 810,
       "pa": 679,
       "diff": 131,
-      "sos": 1542.271,
-      "sos_adj": 1601.095,
-      "power": 1574.782,
+      "sos": 1541.97,
+      "sos_adj": 1600.794,
+      "power": 1574.867,
       "rank": 5,
-      "mw_rating": 93.8,
-      "mw_points": 1032
+      "mw_rating": 94.0,
+      "mw_points": 1034
     },
     {
       "teamno": "44438",
@@ -114,17 +114,17 @@
       "name": "D3Q-Winchester (white)",
       "town": null,
       "wins": 3,
-      "losses": 20,
+      "losses": 21,
       "ties": 0,
-      "pf": 790,
-      "pa": 1015,
-      "diff": -225,
-      "sos": 1562.463,
-      "sos_adj": 1610.289,
-      "power": 1469.393,
+      "pf": 830,
+      "pa": 1057,
+      "diff": -227,
+      "sos": 1564.818,
+      "sos_adj": 1612.734,
+      "power": 1466.488,
       "rank": 7,
-      "mw_rating": 53.9,
-      "mw_points": 593
+      "mw_rating": 54.0,
+      "mw_points": 594
     }
   ]
 }

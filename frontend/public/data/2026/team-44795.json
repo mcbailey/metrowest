@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "44795",
   "team_name": "2ND GR-Walpole (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 240,
     "pa": 173,
     "diff": 67,
-    "sos": 1503.596,
-    "sos_adj": 1514.707,
-    "power": 1562.356,
+    "sos": 1506.967,
+    "sos_adj": 1518.078,
+    "power": 1557.331,
     "rank": 1,
-    "mw_rating": 80.0,
-    "mw_points": 800,
+    "mw_rating": 80.5,
+    "mw_points": 805,
     "divisionno": "7102",
     "division_name": "3rd Girls - Division 4",
     "grade": 3,
@@ -244,7 +244,7 @@
       "location": "Jr Mass Premier-2",
       "divisionno": "7102",
       "division_name": "3rd Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "43835",
       "away_teamno": "44795",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43835",
+      "opponent_name": "2ND GR-Westport (sadeck)"
     }
   ]
 }

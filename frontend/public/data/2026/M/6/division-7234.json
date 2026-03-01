@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "M",
   "grade": 6,
   "divisionno": "7234",
@@ -38,8 +38,8 @@
       "sos_adj": 1780.735,
       "power": 1744.153,
       "rank": 2,
-      "mw_rating": 192.2,
-      "mw_points": 2114
+      "mw_rating": 192.3,
+      "mw_points": 2115
     },
     {
       "teamno": "43148",
@@ -55,8 +55,8 @@
       "sos_adj": 1791.965,
       "power": 1696.978,
       "rank": 3,
-      "mw_rating": 171.9,
-      "mw_points": 1719
+      "mw_rating": 172.0,
+      "mw_points": 1720
     },
     {
       "teamno": "44871",
@@ -97,17 +97,17 @@
       "name": "D1H-Acushnet - Fairhaven (vardo)",
       "town": null,
       "wins": 2,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 430,
-      "pa": 537,
-      "diff": -107,
-      "sos": 1655.301,
-      "sos_adj": 1805.301,
-      "power": 1646.808,
+      "pf": 478,
+      "pa": 591,
+      "diff": -113,
+      "sos": 1656.079,
+      "sos_adj": 1806.079,
+      "power": 1638.694,
       "rank": 6,
-      "mw_rating": 121.2,
-      "mw_points": 1212
+      "mw_rating": 119.3,
+      "mw_points": 1312
     },
     {
       "teamno": "43926",

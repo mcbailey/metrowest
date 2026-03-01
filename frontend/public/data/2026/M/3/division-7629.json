@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "M",
   "grade": 3,
   "divisionno": "7629",
@@ -21,8 +21,8 @@
       "sos_adj": 1638.141,
       "power": 1647.53,
       "rank": 1,
-      "mw_rating": 125.0,
-      "mw_points": 1125
+      "mw_rating": 125.1,
+      "mw_points": 1126
     },
     {
       "teamno": "45520",
@@ -38,8 +38,8 @@
       "sos_adj": 1599.386,
       "power": 1607.422,
       "rank": 2,
-      "mw_rating": 101.9,
-      "mw_points": 1121
+      "mw_rating": 102.1,
+      "mw_points": 1123
     },
     {
       "teamno": "45527",
@@ -51,12 +51,12 @@
       "pf": 390,
       "pa": 287,
       "diff": 103,
-      "sos": 1558.314,
-      "sos_adj": 1603.314,
-      "power": 1604.55,
+      "sos": 1559.815,
+      "sos_adj": 1604.815,
+      "power": 1604.925,
       "rank": 3,
-      "mw_rating": 99.3,
-      "mw_points": 993
+      "mw_rating": 99.4,
+      "mw_points": 994
     },
     {
       "teamno": "45518",
@@ -68,12 +68,12 @@
       "pf": 366,
       "pa": 306,
       "diff": 60,
-      "sos": 1562.481,
-      "sos_adj": 1612.481,
-      "power": 1593.639,
+      "sos": 1560.98,
+      "sos_adj": 1610.98,
+      "power": 1593.263,
       "rank": 4,
-      "mw_rating": 93.9,
-      "mw_points": 939
+      "mw_rating": 94.0,
+      "mw_points": 940
     },
     {
       "teamno": "44793",
@@ -85,12 +85,29 @@
       "pf": 315,
       "pa": 280,
       "diff": 35,
-      "sos": 1561.661,
-      "sos_adj": 1616.661,
-      "power": 1591.5,
+      "sos": 1563.162,
+      "sos_adj": 1618.162,
+      "power": 1591.875,
       "rank": 5,
-      "mw_rating": 88.7,
-      "mw_points": 887
+      "mw_rating": 88.9,
+      "mw_points": 889
+    },
+    {
+      "teamno": "45715",
+      "name": "2NDH-West Bridgewater (barthelemy)",
+      "town": null,
+      "wins": 4,
+      "losses": 6,
+      "ties": 1,
+      "pf": 263,
+      "pa": 315,
+      "diff": -52,
+      "sos": 1544.307,
+      "sos_adj": 1594.307,
+      "power": 1537.927,
+      "rank": 6,
+      "mw_rating": 65.3,
+      "mw_points": 718
     },
     {
       "teamno": "45218",
@@ -102,29 +119,12 @@
       "pf": 289,
       "pa": 315,
       "diff": -26,
-      "sos": 1549.404,
-      "sos_adj": 1599.404,
-      "power": 1533.478,
-      "rank": 6,
+      "sos": 1548.04,
+      "sos_adj": 1598.04,
+      "power": 1533.137,
+      "rank": 7,
       "mw_rating": 69.4,
       "mw_points": 763
-    },
-    {
-      "teamno": "45715",
-      "name": "2NDH-West Bridgewater (barthelemy)",
-      "town": null,
-      "wins": 3,
-      "losses": 6,
-      "ties": 1,
-      "pf": 227,
-      "pa": 283,
-      "diff": -56,
-      "sos": 1548.851,
-      "sos_adj": 1598.851,
-      "power": 1527.805,
-      "rank": 7,
-      "mw_rating": 60.5,
-      "mw_points": 605
     },
     {
       "teamno": "45783",
@@ -136,12 +136,12 @@
       "pf": 216,
       "pa": 257,
       "diff": -41,
-      "sos": 1552.974,
-      "sos_adj": 1602.974,
-      "power": 1511.547,
+      "sos": 1554.642,
+      "sos_adj": 1604.642,
+      "power": 1511.964,
       "rank": 8,
-      "mw_rating": 68.1,
-      "mw_points": 613
+      "mw_rating": 68.2,
+      "mw_points": 614
     }
   ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "45277",
   "team_name": "D7V-Medford (white)",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 195,
-    "pa": 334,
-    "diff": -139,
-    "sos": 1358.429,
-    "sos_adj": 1208.429,
-    "power": 1279.734,
+    "pf": 216,
+    "pa": 379,
+    "diff": -163,
+    "sos": 1360.378,
+    "sos_adj": 1210.378,
+    "power": 1265.602,
     "rank": 5,
-    "mw_rating": 6.7,
-    "mw_points": 67,
+    "mw_rating": 6.2,
+    "mw_points": 68,
     "divisionno": "7595",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385687",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "1:10 PM",
+      "location": "Natick Community Center",
+      "divisionno": "7595",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "43408",
+      "away_teamno": "45277",
+      "home_score": 45,
+      "away_score": 21,
+      "team_score": 21,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43408",
+      "opponent_name": "D7T-Natick"
+    },
     {
       "gameno": "385715",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D7T-Medway (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385687",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "1:10 PM",
-      "location": "Natick Community Center",
-      "divisionno": "7595",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "43408",
-      "away_teamno": "45277",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43408",
-      "opponent_name": "D7T-Natick"
-    }
-  ]
+  "future_games": []
 }

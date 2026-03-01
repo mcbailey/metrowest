@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "43233",
   "team_name": "D4H-Barnstable  (red)",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 2,
     "ties": 0,
-    "pf": 441,
-    "pa": 383,
-    "diff": 58,
-    "sos": 1480.287,
-    "sos_adj": 1471.196,
-    "power": 1544.251,
-    "rank": 2,
-    "mw_rating": 68.5,
-    "mw_points": 753,
+    "pf": 492,
+    "pa": 428,
+    "diff": 64,
+    "sos": 1486.503,
+    "sos_adj": 1478.17,
+    "power": 1554.914,
+    "rank": 1,
+    "mw_rating": 70.1,
+    "mw_points": 841,
     "divisionno": "7297",
     "division_name": "5th Boys - Division 4",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "389242",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "5:10 PM",
+      "location": "Barnstable High School",
+      "divisionno": "7297",
+      "division_name": "5th Boys - Division 4",
+      "home_teamno": "43233",
+      "away_teamno": "44976",
+      "home_score": 51,
+      "away_score": 45,
+      "team_score": 51,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44976",
+      "opponent_name": "D4H-Acushnet - Fairhaven (tevares)"
+    },
     {
       "gameno": "378784",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D4H-Acushnet - Fairhaven (tevares)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "389242",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "5:10 PM",
-      "location": "Barnstable High School",
-      "divisionno": "7297",
-      "division_name": "5th Boys - Division 4",
-      "home_teamno": "43233",
-      "away_teamno": "44976",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44976",
-      "opponent_name": "D4H-Acushnet - Fairhaven (tevares)"
-    }
-  ]
+  "future_games": []
 }

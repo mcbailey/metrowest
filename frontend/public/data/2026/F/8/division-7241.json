@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "F",
   "grade": 8,
   "divisionno": "7241",
@@ -21,8 +21,8 @@
       "sos_adj": 1522.621,
       "power": 1588.474,
       "rank": 1,
-      "mw_rating": 83.7,
-      "mw_points": 837
+      "mw_rating": 83.8,
+      "mw_points": 838
     },
     {
       "teamno": "45586",
@@ -38,8 +38,8 @@
       "sos_adj": 1496.683,
       "power": 1516.076,
       "rank": 2,
-      "mw_rating": 53.7,
-      "mw_points": 483
+      "mw_rating": 53.8,
+      "mw_points": 484
     },
     {
       "teamno": "45332",
@@ -59,6 +59,23 @@
       "mw_points": 584
     },
     {
+      "teamno": "44178",
+      "name": "D4J-Parkway  (red)",
+      "town": null,
+      "wins": 6,
+      "losses": 5,
+      "ties": 0,
+      "pf": 444,
+      "pa": 425,
+      "diff": 19,
+      "sos": 1502.897,
+      "sos_adj": 1498.352,
+      "power": 1507.713,
+      "rank": 4,
+      "mw_rating": 53.4,
+      "mw_points": 587
+    },
+    {
       "teamno": "45139",
       "name": "D4J-Westwood",
       "town": null,
@@ -71,26 +88,9 @@
       "sos": 1509.269,
       "sos_adj": 1509.269,
       "power": 1498.81,
-      "rank": 4,
+      "rank": 5,
       "mw_rating": 47.7,
       "mw_points": 477
-    },
-    {
-      "teamno": "44178",
-      "name": "D4J-Parkway  (red)",
-      "town": null,
-      "wins": 5,
-      "losses": 5,
-      "ties": 0,
-      "pf": 396,
-      "pa": 381,
-      "diff": 15,
-      "sos": 1505.935,
-      "sos_adj": 1500.935,
-      "power": 1497.914,
-      "rank": 5,
-      "mw_rating": 50.6,
-      "mw_points": 506
     },
     {
       "teamno": "44878",
@@ -102,9 +102,9 @@
       "pf": 279,
       "pa": 453,
       "diff": -174,
-      "sos": 1477.539,
-      "sos_adj": 1452.539,
-      "power": 1485.856,
+      "sos": 1476.378,
+      "sos_adj": 1451.378,
+      "power": 1485.566,
       "rank": 6,
       "mw_rating": 38.6,
       "mw_points": 425

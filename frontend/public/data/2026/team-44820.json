@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "44820",
   "team_name": "D2M-Bourne (purple/burke)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 283,
     "pa": 353,
     "diff": -70,
-    "sos": 1592.586,
-    "sos_adj": 1681.475,
-    "power": 1611.04,
-    "rank": 6,
-    "mw_rating": 99.0,
-    "mw_points": 891,
+    "sos": 1588.079,
+    "sos_adj": 1676.968,
+    "power": 1609.913,
+    "rank": 5,
+    "mw_rating": 99.1,
+    "mw_points": 892,
     "divisionno": "7631",
     "division_name": "3rd Boys - Division 2",
     "grade": 3,
@@ -223,9 +223,9 @@
       "dow": "Sun",
       "starttime": "12:50 PM",
       "location": "Jr Mass Premier-5",
-      "divisionno": "7631",
-      "division_name": "3rd Boys - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7634",
+      "division_name": "3rd Boys - Division 4",
+      "home_teamno": "44432",
       "away_teamno": "44820",
       "home_score": null,
       "away_score": null,
@@ -233,8 +233,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44432",
+      "opponent_name": "D4R-Norton (white)"
     }
   ]
 }

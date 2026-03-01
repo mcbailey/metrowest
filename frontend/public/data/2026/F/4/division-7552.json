@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "F",
   "grade": 4,
   "divisionno": "7552",
@@ -11,18 +11,18 @@
       "teamno": "43556",
       "name": "D5M-Bridgewater (belz)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 4,
       "ties": 0,
-      "pf": 309,
-      "pa": 245,
-      "diff": 64,
-      "sos": 1474.057,
-      "sos_adj": 1457.391,
-      "power": 1525.66,
+      "pf": 345,
+      "pa": 257,
+      "diff": 88,
+      "sos": 1466.412,
+      "sos_adj": 1447.181,
+      "power": 1525.401,
       "rank": 1,
-      "mw_rating": 58.5,
-      "mw_points": 585
+      "mw_rating": 58.1,
+      "mw_points": 639
     },
     {
       "teamno": "43161",
@@ -34,12 +34,12 @@
       "pf": 217,
       "pa": 142,
       "diff": 75,
-      "sos": 1459.867,
-      "sos_adj": 1424.867,
-      "power": 1499.979,
+      "sos": 1460.38,
+      "sos_adj": 1425.38,
+      "power": 1494.481,
       "rank": 2,
-      "mw_rating": 60.7,
-      "mw_points": 607
+      "mw_rating": 60.9,
+      "mw_points": 609
     },
     {
       "teamno": "43168",
@@ -51,12 +51,12 @@
       "pf": 196,
       "pa": 189,
       "diff": 7,
-      "sos": 1437.315,
-      "sos_adj": 1387.315,
-      "power": 1440.455,
+      "sos": 1437.294,
+      "sos_adj": 1387.294,
+      "power": 1439.837,
       "rank": 3,
-      "mw_rating": 22.4,
-      "mw_points": 202
+      "mw_rating": 22.6,
+      "mw_points": 203
     },
     {
       "teamno": "43218",
@@ -68,9 +68,9 @@
       "pf": 222,
       "pa": 189,
       "diff": 33,
-      "sos": 1450.507,
-      "sos_adj": 1400.507,
-      "power": 1433.831,
+      "sos": 1449.284,
+      "sos_adj": 1399.284,
+      "power": 1433.905,
       "rank": 4,
       "mw_rating": 25.7,
       "mw_points": 283
@@ -85,29 +85,29 @@
       "pf": 206,
       "pa": 224,
       "diff": -18,
-      "sos": 1473.466,
-      "sos_adj": 1423.466,
-      "power": 1423.452,
+      "sos": 1472.293,
+      "sos_adj": 1422.293,
+      "power": 1425.15,
       "rank": 5,
       "mw_rating": 30.6,
-      "mw_points": 336
+      "mw_points": 337
     },
     {
       "teamno": "43238",
       "name": "D5M-Barnstable  (red)",
       "town": null,
       "wins": 2,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 161,
-      "pa": 311,
-      "diff": -150,
-      "sos": 1421.624,
-      "sos_adj": 1335.26,
-      "power": 1370.763,
+      "pf": 173,
+      "pa": 347,
+      "diff": -174,
+      "sos": 1432.787,
+      "sos_adj": 1349.454,
+      "power": 1369.691,
       "rank": 6,
-      "mw_rating": 11.0,
-      "mw_points": 110
+      "mw_rating": 10.9,
+      "mw_points": 120
     }
   ]
 }

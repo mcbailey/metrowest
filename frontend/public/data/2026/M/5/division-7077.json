@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "M",
   "grade": 5,
   "divisionno": "7077",
@@ -17,12 +17,12 @@
       "pf": 1336,
       "pa": 726,
       "diff": 610,
-      "sos": 1551.939,
-      "sos_adj": 1603.791,
-      "power": 1729.772,
+      "sos": 1552.406,
+      "sos_adj": 1604.257,
+      "power": 1729.889,
       "rank": 1,
-      "mw_rating": 199.4,
-      "mw_points": 2193
+      "mw_rating": 199.5,
+      "mw_points": 2194
     },
     {
       "teamno": "44042",
@@ -38,25 +38,25 @@
       "sos_adj": 1689.696,
       "power": 1719.756,
       "rank": 2,
-      "mw_rating": 190.4,
-      "mw_points": 2094
+      "mw_rating": 190.5,
+      "mw_points": 2095
     },
     {
       "teamno": "43093",
       "name": "D1-Swansea (gold)",
       "town": null,
-      "wins": 9,
+      "wins": 10,
       "losses": 5,
       "ties": 0,
-      "pf": 645,
-      "pa": 535,
-      "diff": 110,
-      "sos": 1620.516,
-      "sos_adj": 1734.802,
-      "power": 1707.59,
+      "pf": 702,
+      "pa": 578,
+      "diff": 124,
+      "sos": 1617.636,
+      "sos_adj": 1730.969,
+      "power": 1716.085,
       "rank": 3,
-      "mw_rating": 153.4,
-      "mw_points": 1534
+      "mw_rating": 153.6,
+      "mw_points": 1689
     },
     {
       "teamno": "44229",
@@ -85,9 +85,9 @@
       "pf": 695,
       "pa": 618,
       "diff": 77,
-      "sos": 1627.464,
-      "sos_adj": 1736.287,
-      "power": 1665.972,
+      "sos": 1628.205,
+      "sos_adj": 1737.029,
+      "power": 1666.158,
       "rank": 5,
       "mw_rating": 141.7,
       "mw_points": 1559
@@ -119,9 +119,9 @@
       "pf": 331,
       "pa": 495,
       "diff": -164,
-      "sos": 1654.873,
-      "sos_adj": 1779.873,
-      "power": 1627.598,
+      "sos": 1656.134,
+      "sos_adj": 1781.134,
+      "power": 1627.913,
       "rank": 7,
       "mw_rating": 103.5,
       "mw_points": 1035

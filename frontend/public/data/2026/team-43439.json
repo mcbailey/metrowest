@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "43439",
   "team_name": "D1/2H-Foxboro (blue)",
   "town": null,
   "summary": {
-    "wins": 16,
+    "wins": 17,
     "losses": 2,
     "ties": 0,
-    "pf": 970,
-    "pa": 671,
-    "diff": 299,
-    "sos": 1613.497,
-    "sos_adj": 1732.942,
-    "power": 1751.7,
+    "pf": 1027,
+    "pa": 711,
+    "diff": 316,
+    "sos": 1615.545,
+    "sos_adj": 1736.598,
+    "power": 1755.62,
     "rank": 1,
-    "mw_rating": 216.5,
-    "mw_points": 2165,
+    "mw_rating": 216.2,
+    "mw_points": 2378,
     "divisionno": "7060",
     "division_name": "7th Girls - Division 1",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373885",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "6:45 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7060",
+      "division_name": "7th Girls - Division 1",
+      "home_teamno": "43337",
+      "away_teamno": "43439",
+      "home_score": 40,
+      "away_score": 57,
+      "team_score": 57,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43337",
+      "opponent_name": "D1/2H-Mansfield (white)"
+    },
     {
       "gameno": "373891",
       "date": "2026-02-22",
@@ -368,25 +387,5 @@
       "opponent_name": "Bedford 7th (NH)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373885",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "6:45 PM",
-      "location": "Mass Premier - 2",
-      "divisionno": "7060",
-      "division_name": "7th Girls - Division 1",
-      "home_teamno": "43337",
-      "away_teamno": "43439",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43337",
-      "opponent_name": "D1/2H-Mansfield (white)"
-    }
-  ]
+  "future_games": []
 }

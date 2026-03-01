@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "M",
   "grade": 6,
   "divisionno": "7217",
@@ -11,18 +11,18 @@
       "teamno": "44162",
       "name": "D5R-Holliston (gum - red)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 2,
       "ties": 0,
-      "pf": 490,
-      "pa": 275,
-      "diff": 215,
-      "sos": 1450.205,
-      "sos_adj": 1400.205,
-      "power": 1507.334,
+      "pf": 526,
+      "pa": 294,
+      "diff": 232,
+      "sos": 1450.979,
+      "sos_adj": 1400.979,
+      "power": 1515.605,
       "rank": 1,
-      "mw_rating": 47.8,
-      "mw_points": 478
+      "mw_rating": 48.7,
+      "mw_points": 536
     },
     {
       "teamno": "45428",
@@ -34,9 +34,9 @@
       "pf": 561,
       "pa": 354,
       "diff": 207,
-      "sos": 1451.272,
-      "sos_adj": 1408.415,
-      "power": 1506.191,
+      "sos": 1451.859,
+      "sos_adj": 1409.002,
+      "power": 1499.679,
       "rank": 2,
       "mw_rating": 48.5,
       "mw_points": 533
@@ -51,12 +51,12 @@
       "pf": 447,
       "pa": 398,
       "diff": 49,
-      "sos": 1445.498,
-      "sos_adj": 1390.953,
-      "power": 1458.218,
+      "sos": 1445.494,
+      "sos_adj": 1390.948,
+      "power": 1455.919,
       "rank": 3,
-      "mw_rating": 41.8,
-      "mw_points": 460
+      "mw_rating": 41.9,
+      "mw_points": 461
     },
     {
       "teamno": "45243",
@@ -68,12 +68,12 @@
       "pf": 390,
       "pa": 371,
       "diff": 19,
-      "sos": 1470.436,
-      "sos_adj": 1424.602,
-      "power": 1439.093,
+      "sos": 1468.809,
+      "sos_adj": 1422.975,
+      "power": 1439.142,
       "rank": 4,
-      "mw_rating": 41.3,
-      "mw_points": 454
+      "mw_rating": 41.4,
+      "mw_points": 455
     },
     {
       "teamno": "44330",
@@ -85,9 +85,9 @@
       "pf": 392,
       "pa": 430,
       "diff": -38,
-      "sos": 1450.948,
-      "sos_adj": 1400.948,
-      "power": 1425.188,
+      "sos": 1452.678,
+      "sos_adj": 1402.678,
+      "power": 1426.876,
       "rank": 5,
       "mw_rating": 29.6,
       "mw_points": 325
@@ -102,9 +102,9 @@
       "pf": 307,
       "pa": 401,
       "diff": -94,
-      "sos": 1472.156,
-      "sos_adj": 1417.156,
-      "power": 1391.555,
+      "sos": 1469.44,
+      "sos_adj": 1414.44,
+      "power": 1395.899,
       "rank": 6,
       "mw_rating": 18.4,
       "mw_points": 184
@@ -119,12 +119,12 @@
       "pf": 204,
       "pa": 343,
       "diff": -139,
-      "sos": 1446.7,
-      "sos_adj": 1380.034,
-      "power": 1378.143,
+      "sos": 1445.364,
+      "sos_adj": 1378.697,
+      "power": 1383.246,
       "rank": 7,
-      "mw_rating": 14.8,
-      "mw_points": 133
+      "mw_rating": 14.9,
+      "mw_points": 134
     }
   ]
 }

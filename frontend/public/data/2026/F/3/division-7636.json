@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "F",
   "grade": 3,
   "divisionno": "7636",
@@ -17,29 +17,29 @@
       "pf": 229,
       "pa": 162,
       "diff": 67,
-      "sos": 1614.376,
-      "sos_adj": 1731.042,
-      "power": 1703.624,
+      "sos": 1616.43,
+      "sos_adj": 1733.096,
+      "power": 1704.138,
       "rank": 1,
-      "mw_rating": 167.6,
-      "mw_points": 1508
+      "mw_rating": 168.0,
+      "mw_points": 1512
     },
     {
       "teamno": "45512",
       "name": "D1J-Mansfield (white)",
       "town": null,
-      "wins": 7,
+      "wins": 8,
       "losses": 3,
       "ties": 1,
-      "pf": 275,
-      "pa": 231,
-      "diff": 44,
-      "sos": 1612.275,
-      "sos_adj": 1716.821,
-      "power": 1654.529,
+      "pf": 311,
+      "pa": 247,
+      "diff": 64,
+      "sos": 1604.664,
+      "sos_adj": 1704.664,
+      "power": 1665.354,
       "rank": 2,
-      "mw_rating": 148.7,
-      "mw_points": 1487
+      "mw_rating": 145.7,
+      "mw_points": 1603
     },
     {
       "teamno": "45526",
@@ -51,12 +51,12 @@
       "pf": 275,
       "pa": 285,
       "diff": -10,
-      "sos": 1614.782,
-      "sos_adj": 1737.509,
-      "power": 1652.015,
+      "sos": 1616.462,
+      "sos_adj": 1739.189,
+      "power": 1652.435,
       "rank": 3,
-      "mw_rating": 125.5,
-      "mw_points": 1380
+      "mw_rating": 125.6,
+      "mw_points": 1381
     },
     {
       "teamno": "44659",
@@ -68,12 +68,12 @@
       "pf": 169,
       "pa": 192,
       "diff": -23,
-      "sos": 1614.86,
-      "sos_adj": 1739.86,
-      "power": 1644.27,
+      "sos": 1615.849,
+      "sos_adj": 1740.849,
+      "power": 1644.518,
       "rank": 4,
-      "mw_rating": 107.4,
-      "mw_points": 859
+      "mw_rating": 107.6,
+      "mw_points": 861
     },
     {
       "teamno": "43557",
@@ -85,29 +85,29 @@
       "pf": 181,
       "pa": 206,
       "diff": -25,
-      "sos": 1611.56,
-      "sos_adj": 1728.227,
-      "power": 1631.636,
+      "sos": 1612.44,
+      "sos_adj": 1729.106,
+      "power": 1631.856,
       "rank": 5,
-      "mw_rating": 95.8,
-      "mw_points": 862
+      "mw_rating": 95.9,
+      "mw_points": 863
     },
     {
       "teamno": "44566",
       "name": "D1J-Needham (navy)",
       "town": null,
       "wins": 4,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 196,
-      "pa": 234,
-      "diff": -38,
-      "sos": 1626.874,
-      "sos_adj": 1746.874,
-      "power": 1626.537,
+      "pf": 229,
+      "pa": 268,
+      "diff": -39,
+      "sos": 1621.789,
+      "sos_adj": 1735.425,
+      "power": 1615.746,
       "rank": 6,
-      "mw_rating": 124.9,
-      "mw_points": 1124
+      "mw_rating": 116.9,
+      "mw_points": 1169
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "F",
   "grade": 5,
   "divisionno": "7312",
@@ -21,8 +21,8 @@
       "sos_adj": 1386.552,
       "power": 1513.117,
       "rank": 1,
-      "mw_rating": 51.5,
-      "mw_points": 618
+      "mw_rating": 51.6,
+      "mw_points": 619
     },
     {
       "teamno": "43334",
@@ -34,9 +34,9 @@
       "pf": 309,
       "pa": 133,
       "diff": 176,
-      "sos": 1464.831,
-      "sos_adj": 1423.922,
-      "power": 1486.542,
+      "sos": 1462.672,
+      "sos_adj": 1421.763,
+      "power": 1486.002,
       "rank": 2,
       "mw_rating": 51.4,
       "mw_points": 565
@@ -46,17 +46,17 @@
       "name": "D5J-Sharon (maroon)",
       "town": null,
       "wins": 6,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pf": 257,
-      "pa": 217,
-      "diff": 40,
-      "sos": 1448.671,
-      "sos_adj": 1403.217,
-      "power": 1457.225,
+      "pf": 271,
+      "pa": 253,
+      "diff": 18,
+      "sos": 1453.956,
+      "sos_adj": 1408.122,
+      "power": 1440.638,
       "rank": 3,
-      "mw_rating": 35.2,
-      "mw_points": 387
+      "mw_rating": 33.2,
+      "mw_points": 398
     },
     {
       "teamno": "45731",
@@ -72,8 +72,8 @@
       "sos_adj": 1404.96,
       "power": 1424.073,
       "rank": 4,
-      "mw_rating": 27.6,
-      "mw_points": 276
+      "mw_rating": 27.7,
+      "mw_points": 277
     },
     {
       "teamno": "43303",
@@ -89,42 +89,42 @@
       "sos_adj": 1404.241,
       "power": 1417.508,
       "rank": 5,
-      "mw_rating": 31.7,
-      "mw_points": 317
+      "mw_rating": 31.8,
+      "mw_points": 318
     },
     {
       "teamno": "44597",
       "name": "D5J-King Philip",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 9,
       "ties": 0,
-      "pf": 146,
-      "pa": 373,
-      "diff": -227,
-      "sos": 1466.619,
-      "sos_adj": 1421.619,
-      "power": 1388.257,
+      "pf": 171,
+      "pa": 380,
+      "diff": -209,
+      "sos": 1455.12,
+      "sos_adj": 1409.665,
+      "power": 1403.07,
       "rank": 6,
-      "mw_rating": 16.0,
-      "mw_points": 160
+      "mw_rating": 19.3,
+      "mw_points": 212
     },
     {
       "teamno": "44881",
       "name": "D5J-North Attleboro (black)",
       "town": null,
       "wins": 1,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 83,
-      "pa": 309,
-      "diff": -226,
-      "sos": 1464.579,
-      "sos_adj": 1419.579,
-      "power": 1377.792,
+      "pf": 90,
+      "pa": 334,
+      "diff": -244,
+      "sos": 1458.788,
+      "sos_adj": 1413.333,
+      "power": 1358.429,
       "rank": 7,
-      "mw_rating": 15.9,
-      "mw_points": 159
+      "mw_rating": 15.4,
+      "mw_points": 169
     }
   ]
 }

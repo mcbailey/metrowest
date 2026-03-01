@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "44471",
   "team_name": "D1J-Walpole (orange)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 229,
     "pa": 162,
     "diff": 67,
-    "sos": 1614.376,
-    "sos_adj": 1731.042,
-    "power": 1703.624,
+    "sos": 1616.43,
+    "sos_adj": 1733.096,
+    "power": 1704.138,
     "rank": 1,
-    "mw_rating": 167.6,
-    "mw_points": 1508,
+    "mw_rating": 168.0,
+    "mw_points": 1512,
     "divisionno": "7636",
     "division_name": "3rd Girls - Division 1",
     "grade": 3,
@@ -223,9 +223,9 @@
       "dow": "Sun",
       "starttime": "11:40 AM",
       "location": "Jr Mass Premier-4",
-      "divisionno": "7636",
-      "division_name": "3rd Girls - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7638",
+      "division_name": "3rd Girls - Division 3",
+      "home_teamno": "44394",
       "away_teamno": "44471",
       "home_score": null,
       "away_score": null,
@@ -233,8 +233,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44394",
+      "opponent_name": "D3N-Medway (white)"
     }
   ]
 }

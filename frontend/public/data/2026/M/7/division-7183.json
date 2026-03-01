@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "M",
   "grade": 7,
   "divisionno": "7183",
@@ -17,12 +17,12 @@
       "pf": 389,
       "pa": 209,
       "diff": 180,
-      "sos": 1441.346,
-      "sos_adj": 1391.346,
-      "power": 1503.537,
+      "sos": 1443.456,
+      "sos_adj": 1393.456,
+      "power": 1504.064,
       "rank": 1,
-      "mw_rating": 56.0,
-      "mw_points": 616
+      "mw_rating": 56.1,
+      "mw_points": 617
     },
     {
       "teamno": "44635",
@@ -34,12 +34,12 @@
       "pf": 431,
       "pa": 324,
       "diff": 107,
-      "sos": 1436.321,
-      "sos_adj": 1377.23,
-      "power": 1445.885,
+      "sos": 1438.238,
+      "sos_adj": 1379.147,
+      "power": 1446.365,
       "rank": 2,
-      "mw_rating": 31.9,
-      "mw_points": 351
+      "mw_rating": 32.0,
+      "mw_points": 352
     },
     {
       "teamno": "45639",
@@ -68,12 +68,29 @@
       "pf": 510,
       "pa": 486,
       "diff": 24,
-      "sos": 1458.432,
-      "sos_adj": 1408.432,
-      "power": 1431.015,
+      "sos": 1460.19,
+      "sos_adj": 1410.19,
+      "power": 1431.455,
       "rank": 4,
-      "mw_rating": 39.2,
-      "mw_points": 431
+      "mw_rating": 39.3,
+      "mw_points": 432
+    },
+    {
+      "teamno": "44705",
+      "name": "D5Q-Dover Sherborn (danielski)",
+      "town": null,
+      "wins": 3,
+      "losses": 8,
+      "ties": 0,
+      "pf": 346,
+      "pa": 409,
+      "diff": -63,
+      "sos": 1445.905,
+      "sos_adj": 1382.269,
+      "power": 1411.534,
+      "rank": 5,
+      "mw_rating": 17.0,
+      "mw_points": 187
     },
     {
       "teamno": "45317",
@@ -85,12 +102,12 @@
       "pf": 307,
       "pa": 423,
       "diff": -116,
-      "sos": 1453.0,
-      "sos_adj": 1403.0,
-      "power": 1403.587,
-      "rank": 5,
-      "mw_rating": 21.1,
-      "mw_points": 232
+      "sos": 1455.11,
+      "sos_adj": 1405.11,
+      "power": 1404.114,
+      "rank": 6,
+      "mw_rating": 21.2,
+      "mw_points": 233
     },
     {
       "teamno": "44937",
@@ -105,26 +122,9 @@
       "sos": 1433.407,
       "sos_adj": 1368.407,
       "power": 1400.417,
-      "rank": 6,
+      "rank": 7,
       "mw_rating": 18.1,
       "mw_points": 181
-    },
-    {
-      "teamno": "44705",
-      "name": "D5Q-Dover Sherborn (danielski)",
-      "town": null,
-      "wins": 2,
-      "losses": 8,
-      "ties": 0,
-      "pf": 293,
-      "pa": 365,
-      "diff": -72,
-      "sos": 1452.605,
-      "sos_adj": 1392.605,
-      "power": 1398.298,
-      "rank": 7,
-      "mw_rating": 14.9,
-      "mw_points": 149
     }
   ]
 }

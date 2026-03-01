@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "43122",
   "team_name": "D3H-Seekonk (holland)",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1636.078,
     "power": 1638.815,
     "rank": 2,
-    "mw_rating": 99.9,
-    "mw_points": 1099,
+    "mw_rating": 100.0,
+    "mw_points": 1100,
     "divisionno": "7303",
     "division_name": "5th Boys - Division 3",
     "grade": 5,

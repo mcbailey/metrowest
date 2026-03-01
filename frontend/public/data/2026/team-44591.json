@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "44591",
   "team_name": "D3M-King Philip (gold)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 285,
-    "pa": 277,
-    "diff": 8,
-    "sos": 1561.832,
-    "sos_adj": 1626.832,
-    "power": 1539.76,
-    "rank": 4,
-    "mw_rating": 84.8,
-    "mw_points": 848,
+    "pf": 301,
+    "pa": 313,
+    "diff": -12,
+    "sos": 1569.657,
+    "sos_adj": 1642.385,
+    "power": 1533.298,
+    "rank": 5,
+    "mw_rating": 86.3,
+    "mw_points": 949,
     "divisionno": "7637",
     "division_name": "3rd Girls - Division 3",
     "grade": 3,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44508",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "2:20 PM",
+      "location": "Jr. Dana Barros-3",
+      "divisionno": "7637",
+      "division_name": "3rd Girls - Division 3",
+      "home_teamno": "44591",
+      "away_teamno": "45512",
+      "home_score": 16,
+      "away_score": 36,
+      "team_score": 16,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45512",
+      "opponent_name": "D1J-Mansfield (white)"
+    },
     {
       "gameno": "393139",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D3M-Norton"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44508",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "2:20 PM",
-      "location": "Jr. Dana Barros-3",
-      "divisionno": "7637",
-      "division_name": "3rd Girls - Division 3",
-      "home_teamno": "44591",
-      "away_teamno": "45512",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45512",
-      "opponent_name": "D1J-Mansfield (white)"
-    }
-  ]
+  "future_games": []
 }

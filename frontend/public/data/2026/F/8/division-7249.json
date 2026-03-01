@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "F",
   "grade": 8,
   "divisionno": "7249",
@@ -17,12 +17,29 @@
       "pf": 543,
       "pa": 533,
       "diff": 10,
-      "sos": 1593.026,
-      "sos_adj": 1697.571,
-      "power": 1629.827,
+      "sos": 1596.014,
+      "sos_adj": 1700.559,
+      "power": 1630.03,
       "rank": 1,
-      "mw_rating": 122.2,
-      "mw_points": 1222
+      "mw_rating": 122.4,
+      "mw_points": 1224
+    },
+    {
+      "teamno": "43554",
+      "name": "D2BH-Bridgewater (skorohod)",
+      "town": null,
+      "wins": 4,
+      "losses": 6,
+      "ties": 0,
+      "pf": 386,
+      "pa": 415,
+      "diff": -29,
+      "sos": 1602.687,
+      "sos_adj": 1712.687,
+      "power": 1624.545,
+      "rank": 2,
+      "mw_rating": 110.1,
+      "mw_points": 1101
     },
     {
       "teamno": "43692",
@@ -34,29 +51,12 @@
       "pf": 646,
       "pa": 633,
       "diff": 13,
-      "sos": 1561.765,
-      "sos_adj": 1631.765,
-      "power": 1613.788,
-      "rank": 2,
+      "sos": 1563.935,
+      "sos_adj": 1633.935,
+      "power": 1613.746,
+      "rank": 3,
       "mw_rating": 102.3,
       "mw_points": 1023
-    },
-    {
-      "teamno": "43554",
-      "name": "D2BH-Bridgewater (skorohod)",
-      "town": null,
-      "wins": 3,
-      "losses": 6,
-      "ties": 0,
-      "pf": 353,
-      "pa": 394,
-      "diff": -41,
-      "sos": 1604.577,
-      "sos_adj": 1715.688,
-      "power": 1608.06,
-      "rank": 3,
-      "mw_rating": 105.3,
-      "mw_points": 948
     },
     {
       "teamno": "44606",
@@ -68,9 +68,9 @@
       "pf": 374,
       "pa": 376,
       "diff": -2,
-      "sos": 1594.461,
-      "sos_adj": 1694.461,
-      "power": 1607.443,
+      "sos": 1599.503,
+      "sos_adj": 1699.503,
+      "power": 1610.321,
       "rank": 4,
       "mw_rating": 120.2,
       "mw_points": 1082
@@ -85,12 +85,12 @@
       "pf": 497,
       "pa": 529,
       "diff": -32,
-      "sos": 1596.376,
-      "sos_adj": 1696.376,
-      "power": 1599.974,
+      "sos": 1598.575,
+      "sos_adj": 1698.575,
+      "power": 1602.936,
       "rank": 5,
-      "mw_rating": 104.7,
-      "mw_points": 1047
+      "mw_rating": 104.8,
+      "mw_points": 1048
     },
     {
       "teamno": "43157",
@@ -102,12 +102,12 @@
       "pf": 338,
       "pa": 398,
       "diff": -60,
-      "sos": 1600.779,
-      "sos_adj": 1705.779,
-      "power": 1591.138,
+      "sos": 1603.221,
+      "sos_adj": 1708.221,
+      "power": 1595.279,
       "rank": 6,
-      "mw_rating": 98.8,
-      "mw_points": 988
+      "mw_rating": 99.0,
+      "mw_points": 990
     }
   ]
 }

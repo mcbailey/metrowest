@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "F",
   "grade": 7,
   "divisionno": "7262",
@@ -17,12 +17,12 @@
       "pf": 500,
       "pa": 237,
       "diff": 263,
-      "sos": 1544.62,
-      "sos_adj": 1603.711,
-      "power": 1630.041,
+      "sos": 1548.391,
+      "sos_adj": 1607.482,
+      "power": 1630.984,
       "rank": 1,
-      "mw_rating": 115.9,
-      "mw_points": 1159
+      "mw_rating": 116.1,
+      "mw_points": 1161
     },
     {
       "teamno": "43215",
@@ -34,12 +34,12 @@
       "pf": 333,
       "pa": 268,
       "diff": 65,
-      "sos": 1539.189,
-      "sos_adj": 1589.189,
-      "power": 1602.744,
+      "sos": 1543.337,
+      "sos_adj": 1593.337,
+      "power": 1603.781,
       "rank": 2,
-      "mw_rating": 93.8,
-      "mw_points": 938
+      "mw_rating": 93.9,
+      "mw_points": 939
     },
     {
       "teamno": "43306",
@@ -51,12 +51,12 @@
       "pf": 404,
       "pa": 357,
       "diff": 47,
-      "sos": 1567.292,
-      "sos_adj": 1633.959,
-      "power": 1588.376,
+      "sos": 1570.749,
+      "sos_adj": 1637.416,
+      "power": 1589.24,
       "rank": 3,
-      "mw_rating": 90.8,
-      "mw_points": 999
+      "mw_rating": 91.0,
+      "mw_points": 1001
     },
     {
       "teamno": "46204",
@@ -72,8 +72,8 @@
       "sos_adj": 1491.201,
       "power": 1572.796,
       "rank": 4,
-      "mw_rating": 65.9,
-      "mw_points": 527
+      "mw_rating": 66.1,
+      "mw_points": 529
     },
     {
       "teamno": "44477",
@@ -85,12 +85,29 @@
       "pf": 480,
       "pa": 465,
       "diff": 15,
-      "sos": 1549.07,
-      "sos_adj": 1609.784,
-      "power": 1561.93,
+      "sos": 1550.552,
+      "sos_adj": 1611.266,
+      "power": 1562.3,
       "rank": 5,
       "mw_rating": 91.9,
       "mw_points": 1011
+    },
+    {
+      "teamno": "43843",
+      "name": "D3H-Raynham (kinney)",
+      "town": null,
+      "wins": 4,
+      "losses": 7,
+      "ties": 0,
+      "pf": 348,
+      "pa": 445,
+      "diff": -97,
+      "sos": 1563.13,
+      "sos_adj": 1613.13,
+      "power": 1559.695,
+      "rank": 6,
+      "mw_rating": 70.5,
+      "mw_points": 775
     },
     {
       "teamno": "45134",
@@ -102,29 +119,12 @@
       "pf": 325,
       "pa": 413,
       "diff": -88,
-      "sos": 1561.966,
-      "sos_adj": 1628.633,
-      "power": 1559.215,
-      "rank": 6,
-      "mw_rating": 88.0,
-      "mw_points": 880
-    },
-    {
-      "teamno": "43843",
-      "name": "D3H-Raynham (kinney)",
-      "town": null,
-      "wins": 3,
-      "losses": 7,
-      "ties": 0,
-      "pf": 304,
-      "pa": 408,
-      "diff": -104,
-      "sos": 1566.517,
-      "sos_adj": 1616.517,
-      "power": 1544.987,
+      "sos": 1563.694,
+      "sos_adj": 1630.361,
+      "power": 1559.647,
       "rank": 7,
-      "mw_rating": 66.1,
-      "mw_points": 661
+      "mw_rating": 88.1,
+      "mw_points": 881
     },
     {
       "teamno": "43895",
@@ -136,12 +136,12 @@
       "pf": 452,
       "pa": 496,
       "diff": -44,
-      "sos": 1540.967,
-      "sos_adj": 1587.395,
-      "power": 1514.495,
+      "sos": 1542.448,
+      "sos_adj": 1588.877,
+      "power": 1514.865,
       "rank": 8,
-      "mw_rating": 59.2,
-      "mw_points": 651
+      "mw_rating": 59.3,
+      "mw_points": 652
     },
     {
       "teamno": "43090",
@@ -153,9 +153,9 @@
       "pf": 311,
       "pa": 475,
       "diff": -164,
-      "sos": 1549.726,
-      "sos_adj": 1599.726,
-      "power": 1490.726,
+      "sos": 1551.454,
+      "sos_adj": 1601.454,
+      "power": 1491.158,
       "rank": 9,
       "mw_rating": 51.6,
       "mw_points": 568

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "gender": "F",
   "grade": 4,
   "divisionno": "7553",
@@ -17,12 +17,12 @@
       "pf": 246,
       "pa": 145,
       "diff": 101,
-      "sos": 1437.385,
-      "sos_adj": 1401.021,
-      "power": 1473.229,
+      "sos": 1435.731,
+      "sos_adj": 1399.368,
+      "power": 1472.816,
       "rank": 1,
-      "mw_rating": 49.8,
-      "mw_points": 548
+      "mw_rating": 49.9,
+      "mw_points": 549
     },
     {
       "teamno": "45346",
@@ -45,18 +45,18 @@
       "teamno": "43683",
       "name": "D5N-Needham (blue)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 5,
       "ties": 0,
-      "pf": 164,
-      "pa": 169,
-      "diff": -5,
-      "sos": 1454.341,
-      "sos_adj": 1404.341,
-      "power": 1419.568,
+      "pf": 189,
+      "pa": 179,
+      "diff": 10,
+      "sos": 1441.816,
+      "sos_adj": 1391.816,
+      "power": 1430.08,
       "rank": 3,
-      "mw_rating": 29.9,
-      "mw_points": 269
+      "mw_rating": 32.0,
+      "mw_points": 320
     },
     {
       "teamno": "44371",
@@ -97,17 +97,17 @@
       "name": "D5N-Milford (red-calzoloia)",
       "town": null,
       "wins": 0,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 87,
-      "pa": 298,
-      "diff": -211,
-      "sos": 1458.46,
-      "sos_adj": 1408.46,
-      "power": 1362.573,
+      "pf": 97,
+      "pa": 323,
+      "diff": -226,
+      "sos": 1457.04,
+      "sos_adj": 1407.04,
+      "power": 1348.574,
       "rank": 6,
       "mw_rating": 10.0,
-      "mw_points": 100
+      "mw_points": 110
     }
   ]
 }

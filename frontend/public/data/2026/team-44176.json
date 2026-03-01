@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-02-28",
+  "snapshot_date": "2026-03-01",
   "teamno": "44176",
   "team_name": "D6Q-Holliston (marien)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 168,
-    "pa": 216,
-    "diff": -48,
-    "sos": 1425.029,
-    "sos_adj": 1356.847,
-    "power": 1411.749,
+    "pf": 187,
+    "pa": 239,
+    "diff": -52,
+    "sos": 1432.866,
+    "sos_adj": 1370.366,
+    "power": 1404.451,
     "rank": 3,
-    "mw_rating": 29.6,
-    "mw_points": 296,
+    "mw_rating": 29.2,
+    "mw_points": 321,
     "divisionno": "7551",
     "division_name": "4th Girls - Division 6",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384339",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "3:00 PM",
+      "location": "Holliston Adams Middle School (Saturday)",
+      "divisionno": "7551",
+      "division_name": "4th Girls - Division 6",
+      "home_teamno": "44176",
+      "away_teamno": "45118",
+      "home_score": 19,
+      "away_score": 23,
+      "team_score": 19,
+      "opponent_score": 23,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45118",
+      "opponent_name": "D4N-Westwood (white)"
+    },
     {
       "gameno": "384330",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D4N-Westwood (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384339",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "3:00 PM",
-      "location": "Holliston Adams Middle School (Saturday)",
-      "divisionno": "7551",
-      "division_name": "4th Girls - Division 6",
-      "home_teamno": "44176",
-      "away_teamno": "45118",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45118",
-      "opponent_name": "D4N-Westwood (white)"
-    }
-  ]
+  "future_games": []
 }
