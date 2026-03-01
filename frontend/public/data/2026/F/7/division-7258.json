@@ -11,18 +11,18 @@
       "teamno": "45335",
       "name": "D4K-Milton (white)",
       "town": null,
-      "wins": 9,
+      "wins": 10,
       "losses": 1,
       "ties": 0,
-      "pf": 409,
-      "pa": 253,
-      "diff": 156,
-      "sos": 1493.424,
-      "sos_adj": 1488.424,
-      "power": 1551.996,
+      "pf": 453,
+      "pa": 264,
+      "diff": 189,
+      "sos": 1493.831,
+      "sos_adj": 1489.286,
+      "power": 1567.233,
       "rank": 1,
-      "mw_rating": 74.3,
-      "mw_points": 743
+      "mw_rating": 75.3,
+      "mw_points": 828
     },
     {
       "teamno": "44604",
@@ -55,8 +55,8 @@
       "sos_adj": 1507.226,
       "power": 1515.484,
       "rank": 3,
-      "mw_rating": 61.6,
-      "mw_points": 677
+      "mw_rating": 61.7,
+      "mw_points": 679
     },
     {
       "teamno": "44408",

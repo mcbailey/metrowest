@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 614,
-    "pa": 594,
-    "diff": 20,
-    "sos": 1428.122,
-    "sos_adj": 1375.49,
-    "power": 1464.504,
-    "rank": 2,
-    "mw_rating": 30.7,
-    "mw_points": 307,
+    "pf": 640,
+    "pa": 637,
+    "diff": 3,
+    "sos": 1431.128,
+    "sos_adj": 1378.628,
+    "power": 1442.934,
+    "rank": 3,
+    "mw_rating": 28.8,
+    "mw_points": 317,
     "divisionno": "7220",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380691",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:50 PM",
+      "location": "Natick Community Center",
+      "divisionno": "7220",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43388",
+      "away_teamno": "45756",
+      "home_score": 43,
+      "away_score": 26,
+      "team_score": 26,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43388",
+      "opponent_name": "D5T-Natick"
+    },
     {
       "gameno": "383582",
       "date": "2026-02-28",
@@ -368,25 +387,5 @@
       "opponent_name": "D5T-Concord-Carlisle (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380691",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:50 PM",
-      "location": "Natick Community Center",
-      "divisionno": "7220",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "43388",
-      "away_teamno": "45756",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43388",
-      "opponent_name": "D5T-Natick"
-    }
-  ]
+  "future_games": []
 }

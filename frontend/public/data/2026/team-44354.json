@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 13,
+    "losses": 14,
     "ties": 0,
-    "pf": 557,
-    "pa": 563,
-    "diff": -6,
-    "sos": 1400.198,
-    "sos_adj": 1294.935,
-    "power": 1344.257,
-    "rank": 5,
-    "mw_rating": 14.1,
-    "mw_points": 155,
+    "pf": 580,
+    "pa": 599,
+    "diff": -19,
+    "sos": 1401.535,
+    "sos_adj": 1296.535,
+    "power": 1329.818,
+    "rank": 6,
+    "mw_rating": 13.3,
+    "mw_points": 160,
     "divisionno": "7588",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "386211",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:30 PM",
+      "location": "Sudbury Fieldhouse-Court 2",
+      "divisionno": "7588",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "45351",
+      "away_teamno": "44354",
+      "home_score": 36,
+      "away_score": 23,
+      "team_score": 23,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45351",
+      "opponent_name": "D6R-Lincoln-Sudbury (red)"
+    },
     {
       "gameno": "386287",
       "date": "2026-02-28",
@@ -387,25 +406,5 @@
       "opponent_name": "D4Q-Arlington (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "386211",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:30 PM",
-      "location": "Sudbury Fieldhouse-Court 2",
-      "divisionno": "7588",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "45351",
-      "away_teamno": "44354",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45351",
-      "opponent_name": "D6R-Lincoln-Sudbury (red)"
-    }
-  ]
+  "future_games": []
 }

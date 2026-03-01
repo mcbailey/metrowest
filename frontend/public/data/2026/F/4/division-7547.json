@@ -21,25 +21,8 @@
       "sos_adj": 1406.304,
       "power": 1532.964,
       "rank": 1,
-      "mw_rating": 55.8,
-      "mw_points": 614
-    },
-    {
-      "teamno": "43603",
-      "name": "D4M-Norwood (white)",
-      "town": null,
-      "wins": 9,
-      "losses": 3,
-      "ties": 0,
-      "pf": 240,
-      "pa": 198,
-      "diff": 42,
-      "sos": 1446.848,
-      "sos_adj": 1401.014,
-      "power": 1507.307,
-      "rank": 2,
-      "mw_rating": 49.6,
-      "mw_points": 545
+      "mw_rating": 55.9,
+      "mw_points": 615
     },
     {
       "teamno": "43991",
@@ -54,9 +37,26 @@
       "sos": 1485.211,
       "sos_adj": 1465.98,
       "power": 1501.582,
+      "rank": 2,
+      "mw_rating": 59.9,
+      "mw_points": 719
+    },
+    {
+      "teamno": "43603",
+      "name": "D4M-Norwood (white)",
+      "town": null,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "pf": 256,
+      "pa": 226,
+      "diff": 30,
+      "sos": 1450.868,
+      "sos_adj": 1400.868,
+      "power": 1473.573,
       "rank": 3,
-      "mw_rating": 59.8,
-      "mw_points": 718
+      "mw_rating": 45.8,
+      "mw_points": 550
     },
     {
       "teamno": "45116",

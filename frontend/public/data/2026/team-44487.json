@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 274,
-    "pa": 395,
-    "diff": -121,
-    "sos": 1562.071,
-    "sos_adj": 1608.225,
-    "power": 1507.093,
-    "rank": 6,
-    "mw_rating": 57.7,
-    "mw_points": 635,
+    "pf": 301,
+    "pa": 427,
+    "diff": -126,
+    "sos": 1559.815,
+    "sos_adj": 1606.244,
+    "power": 1496.399,
+    "rank": 7,
+    "mw_rating": 56.7,
+    "mw_points": 680,
     "divisionno": "7278",
     "division_name": "6th Girls - Division 3",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375923",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:15 AM",
+      "location": "Dana Barros-3",
+      "divisionno": "7278",
+      "division_name": "6th Girls - Division 3",
+      "home_teamno": "44487",
+      "away_teamno": "43592",
+      "home_score": 27,
+      "away_score": 32,
+      "team_score": 27,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43592",
+      "opponent_name": "D3H-North Quincy (nahas)"
+    },
     {
       "gameno": "375931",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D3H-King Philip"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375923",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:15 AM",
-      "location": "Dana Barros-3",
-      "divisionno": "7278",
-      "division_name": "6th Girls - Division 3",
-      "home_teamno": "44487",
-      "away_teamno": "43592",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43592",
-      "opponent_name": "D3H-North Quincy (nahas)"
-    }
-  ]
+  "future_games": []
 }

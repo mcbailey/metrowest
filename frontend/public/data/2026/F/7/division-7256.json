@@ -25,6 +25,23 @@
       "mw_points": 953
     },
     {
+      "teamno": "43130",
+      "name": "D4H-Barrington RI (gold)",
+      "town": null,
+      "wins": 10,
+      "losses": 3,
+      "ties": 0,
+      "pf": 514,
+      "pa": 397,
+      "diff": 117,
+      "sos": 1486.55,
+      "sos_adj": 1486.55,
+      "power": 1546.93,
+      "rank": 2,
+      "mw_rating": 68.4,
+      "mw_points": 821
+    },
+    {
       "teamno": "43343",
       "name": "D4H-Monomoy (blue/goodnow)",
       "town": null,
@@ -37,26 +54,9 @@
       "sos": 1516.669,
       "sos_adj": 1521.214,
       "power": 1545.227,
-      "rank": 2,
-      "mw_rating": 53.7,
-      "mw_points": 806
-    },
-    {
-      "teamno": "43130",
-      "name": "D4H-Barrington RI (gold)",
-      "town": null,
-      "wins": 9,
-      "losses": 3,
-      "ties": 0,
-      "pf": 459,
-      "pa": 375,
-      "diff": 84,
-      "sos": 1492.895,
-      "sos_adj": 1492.895,
-      "power": 1536.756,
       "rank": 3,
-      "mw_rating": 67.6,
-      "mw_points": 744
+      "mw_rating": 53.8,
+      "mw_points": 807
     },
     {
       "teamno": "44982",

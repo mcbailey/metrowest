@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 291,
-    "pa": 418,
-    "diff": -127,
-    "sos": 1411.36,
-    "sos_adj": 1321.36,
-    "power": 1349.478,
+    "pf": 325,
+    "pa": 455,
+    "diff": -130,
+    "sos": 1409.68,
+    "sos_adj": 1318.771,
+    "power": 1343.234,
     "rank": 5,
-    "mw_rating": 11.7,
-    "mw_points": 117,
+    "mw_rating": 11.1,
+    "mw_points": 122,
     "divisionno": "7174",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377792",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Dana Barros-3",
+      "divisionno": "7175",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44135",
+      "away_teamno": "45649",
+      "home_score": 34,
+      "away_score": 37,
+      "team_score": 34,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45649",
+      "opponent_name": "D6K-Hopkinton (pereira)"
+    },
     {
       "gameno": "377781",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D6J-West Bridgewater (wiech)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377792",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:00 PM",
-      "location": "Dana Barros-3",
-      "divisionno": "7175",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44135",
-      "away_teamno": "45649",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45649",
-      "opponent_name": "D6K-Hopkinton (pereira)"
-    }
-  ]
+  "future_games": []
 }

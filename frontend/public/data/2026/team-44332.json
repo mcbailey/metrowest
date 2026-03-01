@@ -5,26 +5,45 @@
   "team_name": "D5M-Medway (white)",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 7,
     "ties": 0,
-    "pf": 569,
-    "pa": 569,
-    "diff": 0,
-    "sos": 1460.595,
-    "sos_adj": 1419.97,
-    "power": 1472.818,
-    "rank": 3,
-    "mw_rating": 40.6,
-    "mw_points": 446,
+    "pf": 605,
+    "pa": 591,
+    "diff": 14,
+    "sos": 1456.558,
+    "sos_adj": 1412.441,
+    "power": 1484.37,
+    "rank": 2,
+    "mw_rating": 40.3,
+    "mw_points": 484,
     "divisionno": "7182",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377793",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:20 PM",
+      "location": "Sharon East Elem School",
+      "divisionno": "7174",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "43700",
+      "away_teamno": "44332",
+      "home_score": 22,
+      "away_score": 36,
+      "team_score": 36,
+      "opponent_score": 22,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43700",
+      "opponent_name": "D6J-Sharon (maroon-sekuler)"
+    },
     {
       "gameno": "379782",
       "date": "2026-02-22",
@@ -330,25 +349,5 @@
       "opponent_name": "D5H-Dighton-Rehoboth (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377793",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:20 PM",
-      "location": "Sharon East Elem School",
-      "divisionno": "7174",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "43700",
-      "away_teamno": "44332",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43700",
-      "opponent_name": "D6J-Sharon (maroon-sekuler)"
-    }
-  ]
+  "future_games": []
 }

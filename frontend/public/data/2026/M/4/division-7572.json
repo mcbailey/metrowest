@@ -17,9 +17,9 @@
       "pf": 468,
       "pa": 420,
       "diff": 48,
-      "sos": 1643.628,
-      "sos_adj": 1785.935,
-      "power": 1667.373,
+      "sos": 1641.209,
+      "sos_adj": 1783.517,
+      "power": 1666.768,
       "rank": 1,
       "mw_rating": 128.8,
       "mw_points": 1546
@@ -29,17 +29,17 @@
       "name": "D1M-North Attleboro (red)",
       "town": null,
       "wins": 17,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pf": 782,
-      "pa": 615,
-      "diff": 167,
-      "sos": 1592.413,
-      "sos_adj": 1690.141,
-      "power": 1666.331,
+      "pf": 836,
+      "pa": 672,
+      "diff": 164,
+      "sos": 1595.6,
+      "sos_adj": 1695.6,
+      "power": 1655.907,
       "rank": 2,
-      "mw_rating": 149.3,
-      "mw_points": 1642
+      "mw_rating": 142.7,
+      "mw_points": 1712
     },
     {
       "teamno": "44109",
@@ -55,8 +55,8 @@
       "sos_adj": 1734.182,
       "power": 1646.026,
       "rank": 3,
-      "mw_rating": 124.4,
-      "mw_points": 1368
+      "mw_rating": 124.5,
+      "mw_points": 1369
     },
     {
       "teamno": "44970",
@@ -68,12 +68,12 @@
       "pf": 573,
       "pa": 564,
       "diff": 9,
-      "sos": 1615.29,
-      "sos_adj": 1718.231,
-      "power": 1609.474,
+      "sos": 1612.516,
+      "sos_adj": 1715.457,
+      "power": 1608.781,
       "rank": 4,
       "mw_rating": 143.6,
-      "mw_points": 1579
+      "mw_points": 1580
     }
   ]
 }

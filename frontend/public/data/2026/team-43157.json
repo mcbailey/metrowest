@@ -5,26 +5,45 @@
   "team_name": "D2BH-Dighton-Rehoboth",
   "town": null,
   "summary": {
-    "wins": 3,
+    "wins": 4,
     "losses": 7,
     "ties": 0,
-    "pf": 338,
-    "pa": 398,
-    "diff": -60,
-    "sos": 1600.986,
-    "sos_adj": 1705.986,
-    "power": 1594.72,
-    "rank": 6,
-    "mw_rating": 99.1,
-    "mw_points": 991,
+    "pf": 383,
+    "pa": 440,
+    "diff": -57,
+    "sos": 1598.386,
+    "sos_adj": 1702.931,
+    "power": 1602.498,
+    "rank": 4,
+    "mw_rating": 104.1,
+    "mw_points": 1145,
     "divisionno": "7249",
     "division_name": "8th Girls - Division 2",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374033",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:45 PM",
+      "location": "Bridgwater Middle School",
+      "divisionno": "7249",
+      "division_name": "8th Girls - Division 2",
+      "home_teamno": "43554",
+      "away_teamno": "43157",
+      "home_score": 42,
+      "away_score": 45,
+      "team_score": 45,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43554",
+      "opponent_name": "D2BH-Bridgewater (skorohod)"
+    },
     {
       "gameno": "374026",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D1/2-Millis (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374033",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:45 PM",
-      "location": "Bridgwater Middle School",
-      "divisionno": "7249",
-      "division_name": "8th Girls - Division 2",
-      "home_teamno": "43554",
-      "away_teamno": "43157",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43554",
-      "opponent_name": "D2BH-Bridgewater (skorohod)"
-    }
-  ]
+  "future_games": []
 }

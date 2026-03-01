@@ -17,9 +17,9 @@
       "pf": 641,
       "pa": 456,
       "diff": 185,
-      "sos": 1469.596,
-      "sos_adj": 1457.096,
-      "power": 1556.287,
+      "sos": 1468.151,
+      "sos_adj": 1455.651,
+      "power": 1555.925,
       "rank": 1,
       "mw_rating": 70.6,
       "mw_points": 776
@@ -28,18 +28,18 @@
       "teamno": "43997",
       "name": "D4R-Somerville (blue)",
       "town": null,
-      "wins": 9,
+      "wins": 10,
       "losses": 2,
       "ties": 0,
-      "pf": 474,
-      "pa": 405,
-      "diff": 69,
-      "sos": 1488.38,
-      "sos_adj": 1488.38,
-      "power": 1534.104,
+      "pf": 527,
+      "pa": 436,
+      "diff": 91,
+      "sos": 1484.685,
+      "sos_adj": 1484.685,
+      "power": 1546.187,
       "rank": 2,
-      "mw_rating": 70.5,
-      "mw_points": 705
+      "mw_rating": 71.6,
+      "mw_points": 788
     },
     {
       "teamno": "45105",
@@ -55,8 +55,8 @@
       "sos_adj": 1486.349,
       "power": 1529.508,
       "rank": 3,
-      "mw_rating": 54.4,
-      "mw_points": 598
+      "mw_rating": 54.5,
+      "mw_points": 599
     },
     {
       "teamno": "44755",
@@ -68,12 +68,12 @@
       "pf": 949,
       "pa": 957,
       "diff": -8,
-      "sos": 1495.316,
-      "sos_adj": 1495.316,
-      "power": 1518.054,
+      "sos": 1496.142,
+      "sos_adj": 1496.142,
+      "power": 1518.26,
       "rank": 4,
-      "mw_rating": 54.6,
-      "mw_points": 655
+      "mw_rating": 54.7,
+      "mw_points": 656
     },
     {
       "teamno": "44780",
@@ -89,8 +89,8 @@
       "sos_adj": 1485.352,
       "power": 1495.075,
       "rank": 5,
-      "mw_rating": 53.1,
-      "mw_points": 637
+      "mw_rating": 53.2,
+      "mw_points": 638
     },
     {
       "teamno": "43717",
@@ -102,29 +102,29 @@
       "pf": 784,
       "pa": 753,
       "diff": 31,
-      "sos": 1493.938,
-      "sos_adj": 1491.16,
-      "power": 1457.002,
+      "sos": 1492.223,
+      "sos_adj": 1489.445,
+      "power": 1456.573,
       "rank": 6,
-      "mw_rating": 49.7,
-      "mw_points": 596
+      "mw_rating": 49.8,
+      "mw_points": 597
     },
     {
       "teamno": "43434",
       "name": "D4R-Lexington (gold)",
       "town": null,
       "wins": 5,
-      "losses": 12,
+      "losses": 13,
       "ties": 0,
-      "pf": 696,
-      "pa": 803,
-      "diff": -107,
-      "sos": 1496.059,
-      "sos_adj": 1481.353,
-      "power": 1399.827,
+      "pf": 718,
+      "pa": 866,
+      "diff": -148,
+      "sos": 1498.686,
+      "sos_adj": 1484.797,
+      "power": 1390.542,
       "rank": 7,
-      "mw_rating": 31.5,
-      "mw_points": 346
+      "mw_rating": 30.9,
+      "mw_points": 371
     }
   ]
 }

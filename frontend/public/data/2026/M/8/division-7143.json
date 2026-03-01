@@ -17,12 +17,12 @@
       "pf": 733,
       "pa": 630,
       "diff": 103,
-      "sos": 1408.746,
-      "sos_adj": 1319.272,
-      "power": 1443.726,
+      "sos": 1409.755,
+      "sos_adj": 1320.281,
+      "power": 1443.978,
       "rank": 1,
-      "mw_rating": 36.0,
-      "mw_points": 324
+      "mw_rating": 36.2,
+      "mw_points": 326
     },
     {
       "teamno": "44759",
@@ -34,12 +34,29 @@
       "pf": 513,
       "pa": 427,
       "diff": 86,
-      "sos": 1391.355,
-      "sos_adj": 1291.355,
-      "power": 1403.481,
+      "sos": 1392.852,
+      "sos_adj": 1292.852,
+      "power": 1402.623,
       "rank": 2,
       "mw_rating": 21.6,
       "mw_points": 237
+    },
+    {
+      "teamno": "45765",
+      "name": "D6W-Lexington (white)",
+      "town": null,
+      "wins": 8,
+      "losses": 8,
+      "ties": 0,
+      "pf": 515,
+      "pa": 547,
+      "diff": -32,
+      "sos": 1406.473,
+      "sos_adj": 1312.723,
+      "power": 1386.622,
+      "rank": 3,
+      "mw_rating": 25.5,
+      "mw_points": 255
     },
     {
       "teamno": "45305",
@@ -54,26 +71,9 @@
       "sos": 1384.289,
       "sos_adj": 1284.289,
       "power": 1374.726,
-      "rank": 3,
-      "mw_rating": 26.2,
-      "mw_points": 262
-    },
-    {
-      "teamno": "45765",
-      "name": "D6W-Lexington (white)",
-      "town": null,
-      "wins": 7,
-      "losses": 8,
-      "ties": 0,
-      "pf": 465,
-      "pa": 524,
-      "diff": -59,
-      "sos": 1413.317,
-      "sos_adj": 1319.984,
-      "power": 1372.823,
       "rank": 4,
-      "mw_rating": 24.9,
-      "mw_points": 224
+      "mw_rating": 26.3,
+      "mw_points": 263
     },
     {
       "teamno": "44275",
@@ -106,8 +106,8 @@
       "sos_adj": 1296.013,
       "power": 1341.153,
       "rank": 6,
-      "mw_rating": 16.2,
-      "mw_points": 146
+      "mw_rating": 16.3,
+      "mw_points": 147
     },
     {
       "teamno": "44444",
@@ -123,8 +123,8 @@
       "sos_adj": 1304.794,
       "power": 1305.653,
       "rank": 7,
-      "mw_rating": 11.9,
-      "mw_points": 107
+      "mw_rating": 12.0,
+      "mw_points": 108
     }
   ]
 }

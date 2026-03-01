@@ -21,8 +21,8 @@
       "sos_adj": 1278.605,
       "power": 1433.12,
       "rank": 1,
-      "mw_rating": 29.4,
-      "mw_points": 323
+      "mw_rating": 29.5,
+      "mw_points": 324
     },
     {
       "teamno": "43968",
@@ -39,7 +39,7 @@
       "power": 1414.624,
       "rank": 2,
       "mw_rating": 36.6,
-      "mw_points": 402
+      "mw_points": 403
     },
     {
       "teamno": "44152",
@@ -55,8 +55,8 @@
       "sos_adj": 1305.246,
       "power": 1395.005,
       "rank": 3,
-      "mw_rating": 22.8,
-      "mw_points": 274
+      "mw_rating": 22.9,
+      "mw_points": 275
     },
     {
       "teamno": "43137",
@@ -72,25 +72,25 @@
       "sos_adj": 1292.437,
       "power": 1351.425,
       "rank": 4,
-      "mw_rating": 16.7,
-      "mw_points": 200
+      "mw_rating": 16.8,
+      "mw_points": 201
     },
     {
       "teamno": "43146",
       "name": "D6H-Dighton-Rehoboth (white)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 9,
       "ties": 0,
-      "pf": 324,
-      "pa": 457,
-      "diff": -133,
-      "sos": 1409.898,
-      "sos_adj": 1309.898,
-      "power": 1341.711,
+      "pf": 357,
+      "pa": 484,
+      "diff": -127,
+      "sos": 1398.677,
+      "sos_adj": 1298.677,
+      "power": 1349.083,
       "rank": 5,
-      "mw_rating": 10.5,
-      "mw_points": 115
+      "mw_rating": 12.2,
+      "mw_points": 146
     },
     {
       "teamno": "43128",
@@ -106,25 +106,25 @@
       "sos_adj": 1295.272,
       "power": 1337.843,
       "rank": 6,
-      "mw_rating": 14.3,
-      "mw_points": 172
+      "mw_rating": 14.4,
+      "mw_points": 173
     },
     {
       "teamno": "44877",
       "name": "D6H-North Attleboro (black)",
       "town": null,
       "wins": 0,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 260,
-      "pa": 522,
-      "diff": -262,
-      "sos": 1409.014,
-      "sos_adj": 1309.014,
-      "power": 1293.871,
+      "pf": 287,
+      "pa": 555,
+      "diff": -268,
+      "sos": 1405.42,
+      "sos_adj": 1305.42,
+      "power": 1282.795,
       "rank": 7,
       "mw_rating": 5.0,
-      "mw_points": 55
+      "mw_points": 60
     }
   ]
 }

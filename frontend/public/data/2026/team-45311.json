@@ -5,26 +5,45 @@
   "team_name": "D5Q-Milton (gold)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 3,
     "ties": 0,
-    "pf": 480,
-    "pa": 426,
-    "diff": 54,
-    "sos": 1448.748,
-    "sos_adj": 1407.839,
-    "power": 1483.917,
-    "rank": 1,
-    "mw_rating": 46.6,
-    "mw_points": 512,
+    "pf": 540,
+    "pa": 464,
+    "diff": 76,
+    "sos": 1441.061,
+    "sos_adj": 1399.395,
+    "power": 1488.298,
+    "rank": 2,
+    "mw_rating": 47.3,
+    "mw_points": 567,
     "divisionno": "7149",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "381013",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:30 PM",
+      "location": "Hardy Elem School",
+      "divisionno": "7149",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "43917",
+      "away_teamno": "45311",
+      "home_score": 38,
+      "away_score": 60,
+      "team_score": 60,
+      "opponent_score": 38,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43917",
+      "opponent_name": "D5Q-Wellesley (c)"
+    },
     {
       "gameno": "380999",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D5R-Waltham Boys (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "381013",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:30 PM",
-      "location": "Hardy Elem School",
-      "divisionno": "7149",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "43917",
-      "away_teamno": "45311",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43917",
-      "opponent_name": "D5Q-Wellesley (c)"
-    }
-  ]
+  "future_games": []
 }

@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 422,
-    "pa": 322,
-    "diff": 100,
-    "sos": 1420.99,
-    "sos_adj": 1335.276,
-    "power": 1386.469,
+    "pf": 457,
+    "pa": 360,
+    "diff": 97,
+    "sos": 1422.194,
+    "sos_adj": 1335.528,
+    "power": 1378.0,
     "rank": 5,
-    "mw_rating": 23.1,
-    "mw_points": 254,
+    "mw_rating": 21.6,
+    "mw_points": 259,
     "divisionno": "7586",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "386128",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:30 AM",
+      "location": "Dana Barros-2",
+      "divisionno": "7586",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "44110",
+      "away_teamno": "44971",
+      "home_score": 38,
+      "away_score": 35,
+      "team_score": 35,
+      "opponent_score": 38,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44110",
+      "opponent_name": "D6P-Easton (orange)"
+    },
     {
       "gameno": "386119",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "D5R-Parkway  (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "386128",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:30 AM",
-      "location": "Dana Barros-2",
-      "divisionno": "7586",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "44110",
-      "away_teamno": "44971",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44110",
-      "opponent_name": "D6P-Easton (orange)"
-    }
-  ]
+  "future_games": []
 }

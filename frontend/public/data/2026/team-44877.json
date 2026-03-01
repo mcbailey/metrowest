@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 0,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 260,
-    "pa": 522,
-    "diff": -262,
-    "sos": 1409.014,
-    "sos_adj": 1309.014,
-    "power": 1293.871,
+    "pf": 287,
+    "pa": 555,
+    "diff": -268,
+    "sos": 1405.42,
+    "sos_adj": 1305.42,
+    "power": 1282.795,
     "rank": 7,
     "mw_rating": 5.0,
-    "mw_points": 55,
+    "mw_points": 60,
     "divisionno": "7137",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379272",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:40 PM",
+      "location": "Dana Barros-1",
+      "divisionno": "7137",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "43146",
+      "away_teamno": "44877",
+      "home_score": 33,
+      "away_score": 27,
+      "team_score": 27,
+      "opponent_score": 33,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43146",
+      "opponent_name": "D6H-Dighton-Rehoboth (white)"
+    },
     {
       "gameno": "379267",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D6H-West Bridgewater (botelho)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379272",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:40 PM",
-      "location": "Dana Barros-1",
-      "divisionno": "7137",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "43146",
-      "away_teamno": "44877",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43146",
-      "opponent_name": "D6H-Dighton-Rehoboth (white)"
-    }
-  ]
+  "future_games": []
 }

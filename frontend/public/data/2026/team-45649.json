@@ -5,26 +5,45 @@
   "team_name": "D6K-Hopkinton (pereira)",
   "town": null,
   "summary": {
-    "wins": 3,
+    "wins": 4,
     "losses": 7,
     "ties": 0,
-    "pf": 309,
-    "pa": 313,
-    "diff": -4,
-    "sos": 1400.102,
-    "sos_adj": 1305.102,
-    "power": 1352.542,
+    "pf": 346,
+    "pa": 347,
+    "diff": -1,
+    "sos": 1398.824,
+    "sos_adj": 1303.369,
+    "power": 1362.577,
     "rank": 3,
-    "mw_rating": 13.6,
-    "mw_points": 136,
+    "mw_rating": 15.4,
+    "mw_points": 169,
     "divisionno": "7175",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377792",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Dana Barros-3",
+      "divisionno": "7175",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44135",
+      "away_teamno": "45649",
+      "home_score": 34,
+      "away_score": 37,
+      "team_score": 37,
+      "opponent_score": 34,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44135",
+      "opponent_name": "D6J-Easton (white)"
+    },
     {
       "gameno": "377786",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D6K-Medway (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377792",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:00 PM",
-      "location": "Dana Barros-3",
-      "divisionno": "7175",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44135",
-      "away_teamno": "45649",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44135",
-      "opponent_name": "D6J-Easton (white)"
-    }
-  ]
+  "future_games": []
 }

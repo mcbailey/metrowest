@@ -21,8 +21,8 @@
       "sos_adj": 1389.077,
       "power": 1509.132,
       "rank": 1,
-      "mw_rating": 45.8,
-      "mw_points": 549
+      "mw_rating": 45.9,
+      "mw_points": 551
     },
     {
       "teamno": "44945",
@@ -38,8 +38,8 @@
       "sos_adj": 1397.521,
       "power": 1481.361,
       "rank": 2,
-      "mw_rating": 47.9,
-      "mw_points": 575
+      "mw_rating": 48.0,
+      "mw_points": 576
     },
     {
       "teamno": "43173",
@@ -56,7 +56,7 @@
       "power": 1467.502,
       "rank": 3,
       "mw_rating": 39.3,
-      "mw_points": 471
+      "mw_points": 472
     },
     {
       "teamno": "43136",
@@ -68,12 +68,12 @@
       "pf": 246,
       "pa": 180,
       "diff": 66,
-      "sos": 1450.798,
-      "sos_adj": 1400.798,
-      "power": 1461.327,
+      "sos": 1451.959,
+      "sos_adj": 1401.959,
+      "power": 1461.618,
       "rank": 4,
-      "mw_rating": 34.3,
-      "mw_points": 377
+      "mw_rating": 34.4,
+      "mw_points": 378
     },
     {
       "teamno": "43550",
@@ -96,18 +96,18 @@
       "teamno": "44454",
       "name": "D5H-Barnstable  (white)",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 8,
       "ties": 0,
-      "pf": 144,
-      "pa": 289,
-      "diff": -145,
-      "sos": 1458.744,
-      "sos_adj": 1408.744,
-      "power": 1380.385,
+      "pf": 173,
+      "pa": 316,
+      "diff": -143,
+      "sos": 1456.771,
+      "sos_adj": 1406.771,
+      "power": 1389.467,
       "rank": 6,
-      "mw_rating": 21.6,
-      "mw_points": 238
+      "mw_rating": 24.4,
+      "mw_points": 293
     },
     {
       "teamno": "43847",

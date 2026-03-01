@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 544,
-    "pa": 617,
-    "diff": -73,
-    "sos": 1451.379,
-    "sos_adj": 1401.379,
-    "power": 1392.085,
+    "pf": 578,
+    "pa": 676,
+    "diff": -98,
+    "sos": 1448.843,
+    "sos_adj": 1398.843,
+    "power": 1372.496,
     "rank": 7,
-    "mw_rating": 28.4,
-    "mw_points": 312,
+    "mw_rating": 26.8,
+    "mw_points": 322,
     "divisionno": "7145",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379376",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:30 AM",
+      "location": "Somerset Middle School",
+      "divisionno": "7145",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "43477",
+      "away_teamno": "44645",
+      "home_score": 34,
+      "away_score": 59,
+      "team_score": 34,
+      "opponent_score": 59,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44645",
+      "opponent_name": "D5H-Attleboro (white)"
+    },
     {
       "gameno": "379366",
       "date": "2026-02-22",
@@ -311,25 +330,5 @@
       "opponent_name": "D6T-Lincoln-Sudbury (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379376",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:30 AM",
-      "location": "Somerset Middle School",
-      "divisionno": "7145",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "43477",
-      "away_teamno": "44645",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44645",
-      "opponent_name": "D5H-Attleboro (white)"
-    }
-  ]
+  "future_games": []
 }

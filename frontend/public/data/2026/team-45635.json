@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 510,
-    "pa": 601,
-    "diff": -91,
-    "sos": 1562.035,
-    "sos_adj": 1612.035,
-    "power": 1519.21,
-    "rank": 7,
-    "mw_rating": 71.3,
-    "mw_points": 784,
+    "pf": 548,
+    "pa": 649,
+    "diff": -101,
+    "sos": 1559.203,
+    "sos_adj": 1609.203,
+    "power": 1503.487,
+    "rank": 8,
+    "mw_rating": 69.1,
+    "mw_points": 829,
     "divisionno": "7159",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379706",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:00 PM",
+      "location": "Hopkinton-Hopkins School",
+      "divisionno": "7159",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "45635",
+      "away_teamno": "43786",
+      "home_score": 38,
+      "away_score": 48,
+      "team_score": 38,
+      "opponent_score": 48,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43786",
+      "opponent_name": "D3K-Millis"
+    },
     {
       "gameno": "379697",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D3M-Revere"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379706",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:00 PM",
-      "location": "Hopkinton-Hopkins School",
-      "divisionno": "7159",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "45635",
-      "away_teamno": "43786",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43786",
-      "opponent_name": "D3K-Millis"
-    }
-  ]
+  "future_games": []
 }

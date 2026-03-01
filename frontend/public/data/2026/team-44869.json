@@ -5,26 +5,45 @@
   "team_name": "D3H-North Attleboro (white)",
   "town": null,
   "summary": {
-    "wins": 12,
+    "wins": 13,
     "losses": 7,
     "ties": 0,
-    "pf": 917,
-    "pa": 811,
-    "diff": 106,
-    "sos": 1524.562,
-    "sos_adj": 1553.51,
-    "power": 1572.103,
+    "pf": 961,
+    "pa": 850,
+    "diff": 111,
+    "sos": 1527.282,
+    "sos_adj": 1557.282,
+    "power": 1586.843,
     "rank": 3,
-    "mw_rating": 89.4,
-    "mw_points": 983,
+    "mw_rating": 91.9,
+    "mw_points": 1103,
     "divisionno": "7193",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374821",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:15 PM",
+      "location": "Attleboro Brennan Middle School",
+      "divisionno": "7193",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "44642",
+      "away_teamno": "44869",
+      "home_score": 39,
+      "away_score": 44,
+      "team_score": 44,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44642",
+      "opponent_name": "D3H-Attleboro (blue)"
+    },
     {
       "gameno": "374816",
       "date": "2026-02-22",
@@ -387,25 +406,5 @@
       "opponent_name": "D4J-Sharon (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374821",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:15 PM",
-      "location": "Attleboro Brennan Middle School",
-      "divisionno": "7193",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "44642",
-      "away_teamno": "44869",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44642",
-      "opponent_name": "D3H-Attleboro (blue)"
-    }
-  ]
+  "future_games": []
 }

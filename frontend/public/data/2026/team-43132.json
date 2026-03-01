@@ -5,26 +5,45 @@
   "team_name": "D2M-Barrington RI (gold)",
   "town": null,
   "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 5,
     "ties": 0,
-    "pf": 486,
-    "pa": 413,
-    "diff": 73,
-    "sos": 1634.851,
-    "sos_adj": 1784.851,
-    "power": 1700.453,
+    "pf": 543,
+    "pa": 467,
+    "diff": 76,
+    "sos": 1635.517,
+    "sos_adj": 1781.35,
+    "power": 1710.391,
     "rank": 2,
-    "mw_rating": 115.6,
-    "mw_points": 1272,
+    "mw_rating": 124.1,
+    "mw_points": 1489,
     "divisionno": "7574",
     "division_name": "4th Boys - Division 2",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385420",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:20 PM",
+      "location": "Mansfield Fieldhouse -2",
+      "divisionno": "7574",
+      "division_name": "4th Boys - Division 2",
+      "home_teamno": "44898",
+      "away_teamno": "43132",
+      "home_score": 54,
+      "away_score": 57,
+      "team_score": 57,
+      "opponent_score": 54,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44898",
+      "opponent_name": "D1M-North Attleboro (red)"
+    },
     {
       "gameno": "389972",
       "date": "2026-02-28",
@@ -235,25 +254,5 @@
       "opponent_name": "D2M-Raynham (barry)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385420",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:20 PM",
-      "location": "Mansfield Fieldhouse -2",
-      "divisionno": "7574",
-      "division_name": "4th Boys - Division 2",
-      "home_teamno": "44898",
-      "away_teamno": "43132",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44898",
-      "opponent_name": "D1M-North Attleboro (red)"
-    }
-  ]
+  "future_games": []
 }

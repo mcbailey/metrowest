@@ -21,8 +21,8 @@
       "sos_adj": 1388.11,
       "power": 1497.653,
       "rank": 1,
-      "mw_rating": 47.4,
-      "mw_points": 521
+      "mw_rating": 47.5,
+      "mw_points": 522
     },
     {
       "teamno": "44964",
@@ -55,8 +55,8 @@
       "sos_adj": 1408.875,
       "power": 1410.939,
       "rank": 3,
-      "mw_rating": 26.2,
-      "mw_points": 288
+      "mw_rating": 26.3,
+      "mw_points": 289
     },
     {
       "teamno": "45130",
@@ -72,25 +72,8 @@
       "sos_adj": 1402.272,
       "power": 1409.509,
       "rank": 4,
-      "mw_rating": 30.8,
-      "mw_points": 339
-    },
-    {
-      "teamno": "44342",
-      "name": "D5M-Medway (white)",
-      "town": null,
-      "wins": 2,
-      "losses": 9,
-      "ties": 0,
-      "pf": 183,
-      "pa": 244,
-      "diff": -61,
-      "sos": 1458.309,
-      "sos_adj": 1408.309,
-      "power": 1391.127,
-      "rank": 5,
-      "mw_rating": 18.3,
-      "mw_points": 201
+      "mw_rating": 30.9,
+      "mw_points": 340
     },
     {
       "teamno": "43644",
@@ -105,9 +88,26 @@
       "sos": 1482.598,
       "sos_adj": 1448.223,
       "power": 1385.953,
-      "rank": 6,
+      "rank": 5,
       "mw_rating": 23.5,
       "mw_points": 258
+    },
+    {
+      "teamno": "44342",
+      "name": "D5M-Medway (white)",
+      "town": null,
+      "wins": 2,
+      "losses": 10,
+      "ties": 0,
+      "pf": 200,
+      "pa": 270,
+      "diff": -70,
+      "sos": 1457.785,
+      "sos_adj": 1407.785,
+      "power": 1378.218,
+      "rank": 6,
+      "mw_rating": 17.6,
+      "mw_points": 211
     }
   ]
 }

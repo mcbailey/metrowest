@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 653,
-    "pa": 575,
-    "diff": 78,
-    "sos": 1583.085,
-    "sos_adj": 1671.32,
-    "power": 1631.102,
+    "pf": 674,
+    "pa": 605,
+    "diff": 69,
+    "sos": 1584.995,
+    "sos_adj": 1673.884,
+    "power": 1617.526,
     "rank": 4,
-    "mw_rating": 113.1,
-    "mw_points": 1244,
+    "mw_rating": 109.5,
+    "mw_points": 1314,
     "divisionno": "7310",
     "division_name": "5th Boys - Division 2",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374346",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:00 AM",
+      "location": "Kennedy Middle School - Natick",
+      "divisionno": "7310",
+      "division_name": "5th Boys - Division 2",
+      "home_teamno": "43390",
+      "away_teamno": "44436",
+      "home_score": 30,
+      "away_score": 21,
+      "team_score": 21,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43390",
+      "opponent_name": "D2K-Natick"
+    },
     {
       "gameno": "374340",
       "date": "2026-02-22",
@@ -349,25 +368,5 @@
       "opponent_name": "D2M-Lawrence"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374346",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:00 AM",
-      "location": "Kennedy Middle School - Natick",
-      "divisionno": "7310",
-      "division_name": "5th Boys - Division 2",
-      "home_teamno": "43390",
-      "away_teamno": "44436",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43390",
-      "opponent_name": "D2K-Natick"
-    }
-  ]
+  "future_games": []
 }

@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 428,
-    "pa": 421,
-    "diff": 7,
-    "sos": 1546.327,
-    "sos_adj": 1592.481,
-    "power": 1593.119,
+    "pf": 463,
+    "pa": 459,
+    "diff": 4,
+    "sos": 1545.422,
+    "sos_adj": 1591.851,
+    "power": 1580.921,
     "rank": 3,
-    "mw_rating": 77.2,
-    "mw_points": 849,
+    "mw_rating": 74.5,
+    "mw_points": 894,
     "divisionno": "7304",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378681",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:20 AM",
+      "location": "Medway Middle School (Old Gym)",
+      "divisionno": "7304",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "44323",
+      "away_teamno": "45016",
+      "home_score": 35,
+      "away_score": 38,
+      "team_score": 35,
+      "opponent_score": 38,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45016",
+      "opponent_name": "D3J-Medfield (allen)"
+    },
     {
       "gameno": "378665",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D1-Wayland (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378681",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:20 AM",
-      "location": "Medway Middle School (Old Gym)",
-      "divisionno": "7304",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "44323",
-      "away_teamno": "45016",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45016",
-      "opponent_name": "D3J-Medfield (allen)"
-    }
-  ]
+  "future_games": []
 }

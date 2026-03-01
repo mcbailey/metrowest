@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 240,
-    "pa": 198,
-    "diff": 42,
-    "sos": 1446.848,
-    "sos_adj": 1401.014,
-    "power": 1507.307,
-    "rank": 2,
-    "mw_rating": 49.6,
-    "mw_points": 545,
+    "pf": 256,
+    "pa": 226,
+    "diff": 30,
+    "sos": 1450.868,
+    "sos_adj": 1400.868,
+    "power": 1473.573,
+    "rank": 3,
+    "mw_rating": 45.8,
+    "mw_points": 550,
     "divisionno": "7547",
     "division_name": "4th Girls - Division 4",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384334",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:30 PM",
+      "location": "Franklin Sullivan Middle School",
+      "divisionno": "7549",
+      "division_name": "4th Girls - Division 6",
+      "home_teamno": "43314",
+      "away_teamno": "43603",
+      "home_score": 28,
+      "away_score": 16,
+      "team_score": 16,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43314",
+      "opponent_name": "D6P-Franklin"
+    },
     {
       "gameno": "384323",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D6P-North Quincy (mcgillicuddy)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384334",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:30 PM",
-      "location": "Franklin Sullivan Middle School",
-      "divisionno": "7549",
-      "division_name": "4th Girls - Division 6",
-      "home_teamno": "43314",
-      "away_teamno": "43603",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43314",
-      "opponent_name": "D6P-Franklin"
-    }
-  ]
+  "future_games": []
 }

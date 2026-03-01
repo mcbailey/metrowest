@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 391,
-    "pa": 439,
-    "diff": -48,
-    "sos": 1507.859,
-    "sos_adj": 1503.692,
-    "power": 1497.402,
+    "pf": 402,
+    "pa": 483,
+    "diff": -81,
+    "sos": 1512.437,
+    "sos_adj": 1508.591,
+    "power": 1482.602,
     "rank": 4,
-    "mw_rating": 58.5,
-    "mw_points": 643,
+    "mw_rating": 55.7,
+    "mw_points": 668,
     "divisionno": "7259",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377309",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:45 AM",
+      "location": "Medfield High School",
+      "divisionno": "7259",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "45257",
+      "away_teamno": "45335",
+      "home_score": 11,
+      "away_score": 44,
+      "team_score": 11,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45335",
+      "opponent_name": "D4K-Milton (white)"
+    },
     {
       "gameno": "377263",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D3H-Canton (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377309",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:45 AM",
-      "location": "Medfield High School",
-      "divisionno": "7259",
-      "division_name": "7th Girls - Division 4",
-      "home_teamno": "45257",
-      "away_teamno": "45335",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45335",
-      "opponent_name": "D4K-Milton (white)"
-    }
-  ]
+  "future_games": []
 }

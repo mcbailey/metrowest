@@ -5,26 +5,45 @@
   "team_name": "D3J-Medfield (allen)",
   "town": null,
   "summary": {
-    "wins": 4,
+    "wins": 5,
     "losses": 8,
     "ties": 0,
-    "pf": 451,
-    "pa": 496,
-    "diff": -45,
-    "sos": 1553.219,
-    "sos_adj": 1594.886,
-    "power": 1536.926,
+    "pf": 489,
+    "pa": 531,
+    "diff": -42,
+    "sos": 1555.07,
+    "sos_adj": 1597.377,
+    "power": 1549.59,
     "rank": 4,
-    "mw_rating": 69.7,
-    "mw_points": 767,
+    "mw_rating": 73.6,
+    "mw_points": 883,
     "divisionno": "7304",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378681",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:20 AM",
+      "location": "Medway Middle School (Old Gym)",
+      "divisionno": "7304",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "44323",
+      "away_teamno": "45016",
+      "home_score": 35,
+      "away_score": 38,
+      "team_score": 38,
+      "opponent_score": 35,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44323",
+      "opponent_name": "D3J-Medway (blue)"
+    },
     {
       "gameno": "378667",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D3J-Westwood"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378681",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:20 AM",
-      "location": "Medway Middle School (Old Gym)",
-      "divisionno": "7304",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "44323",
-      "away_teamno": "45016",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44323",
-      "opponent_name": "D3J-Medway (blue)"
-    }
-  ]
+  "future_games": []
 }

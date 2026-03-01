@@ -17,12 +17,12 @@
       "pf": 622,
       "pa": 411,
       "diff": 211,
-      "sos": 1533.784,
-      "sos_adj": 1579.239,
-      "power": 1637.284,
+      "sos": 1536.263,
+      "sos_adj": 1581.717,
+      "power": 1637.904,
       "rank": 1,
-      "mw_rating": 113.6,
-      "mw_points": 1249
+      "mw_rating": 113.7,
+      "mw_points": 1251
     },
     {
       "teamno": "44728",
@@ -38,8 +38,8 @@
       "sos_adj": 1595.668,
       "power": 1602.599,
       "rank": 2,
-      "mw_rating": 89.2,
-      "mw_points": 981
+      "mw_rating": 89.3,
+      "mw_points": 982
     },
     {
       "teamno": "45516",
@@ -55,41 +55,41 @@
       "sos_adj": 1604.258,
       "power": 1596.283,
       "rank": 3,
-      "mw_rating": 109.9,
-      "mw_points": 1099
+      "mw_rating": 110.1,
+      "mw_points": 1101
+    },
+    {
+      "teamno": "43712",
+      "name": "D3Q-Concord-Carlisle (maroon)",
+      "town": null,
+      "wins": 12,
+      "losses": 6,
+      "ties": 0,
+      "pf": 869,
+      "pa": 723,
+      "diff": 146,
+      "sos": 1543.178,
+      "sos_adj": 1601.511,
+      "power": 1595.495,
+      "rank": 4,
+      "mw_rating": 96.3,
+      "mw_points": 1155
     },
     {
       "teamno": "45755",
       "name": "D3Q-Lexington (blue)",
       "town": null,
       "wins": 10,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 700,
-      "pa": 645,
-      "diff": 55,
-      "sos": 1524.1,
-      "sos_adj": 1567.85,
-      "power": 1585.191,
-      "rank": 4,
-      "mw_rating": 89.9,
-      "mw_points": 989
-    },
-    {
-      "teamno": "43712",
-      "name": "D3Q-Concord-Carlisle (maroon)",
-      "town": null,
-      "wins": 11,
-      "losses": 6,
-      "ties": 0,
-      "pf": 810,
-      "pa": 679,
-      "diff": 131,
-      "sos": 1541.97,
-      "sos_adj": 1600.794,
-      "power": 1574.867,
+      "pf": 744,
+      "pa": 704,
+      "diff": 40,
+      "sos": 1528.182,
+      "sos_adj": 1572.299,
+      "power": 1565.855,
       "rank": 5,
-      "mw_rating": 94.0,
+      "mw_rating": 86.2,
       "mw_points": 1034
     },
     {
@@ -106,8 +106,8 @@
       "sos_adj": 1599.203,
       "power": 1531.352,
       "rank": 6,
-      "mw_rating": 78.8,
-      "mw_points": 867
+      "mw_rating": 78.9,
+      "mw_points": 868
     },
     {
       "teamno": "43460",
@@ -119,9 +119,9 @@
       "pf": 830,
       "pa": 1057,
       "diff": -227,
-      "sos": 1564.818,
-      "sos_adj": 1612.734,
-      "power": 1466.488,
+      "sos": 1565.954,
+      "sos_adj": 1613.87,
+      "power": 1466.772,
       "rank": 7,
       "mw_rating": 54.1,
       "mw_points": 595

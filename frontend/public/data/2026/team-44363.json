@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 286,
-    "pa": 445,
-    "diff": -159,
-    "sos": 1515.847,
-    "sos_adj": 1529.483,
-    "power": 1430.433,
+    "pf": 306,
+    "pa": 487,
+    "diff": -181,
+    "sos": 1519.226,
+    "sos_adj": 1531.726,
+    "power": 1420.072,
     "rank": 7,
-    "mw_rating": 34.3,
-    "mw_points": 377,
+    "mw_rating": 33.5,
+    "mw_points": 402,
     "divisionno": "7579",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385898",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:30 PM",
+      "location": "Holliston Adams Middle School (Sunday)",
+      "divisionno": "7579",
+      "division_name": "4th Boys - Division 4",
+      "home_teamno": "44363",
+      "away_teamno": "45652",
+      "home_score": 20,
+      "away_score": 42,
+      "team_score": 20,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45652",
+      "opponent_name": "D4P-Hopkinton (klotsche4)"
+    },
     {
       "gameno": "385891",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D4Q-Southboro (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385898",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:30 PM",
-      "location": "Holliston Adams Middle School (Sunday)",
-      "divisionno": "7579",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "44363",
-      "away_teamno": "45652",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45652",
-      "opponent_name": "D4P-Hopkinton (klotsche4)"
-    }
-  ]
+  "future_games": []
 }

@@ -5,24 +5,24 @@
   "team_name": "D6H-Seekonk (valletta)",
   "town": null,
   "summary": {
-    "wins": 3,
-    "losses": 7,
+    "wins": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 275,
-    "pa": 291,
-    "diff": -16,
-    "sos": 1424.569,
-    "sos_adj": 1324.569,
-    "power": 1334.397,
-    "rank": 5,
-    "mw_rating": 14.8,
-    "mw_points": 148,
+    "pf": 311,
+    "pa": 306,
+    "diff": 5,
+    "sos": 1415.721,
+    "sos_adj": 1315.721,
+    "power": 1367.121,
+    "rank": 4,
+    "mw_rating": 18.8,
+    "mw_points": 207,
     "divisionno": "7283",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
     {
@@ -54,14 +54,33 @@
       "division_name": "5th Boys - Division 6",
       "home_teamno": "44433",
       "away_teamno": "43106",
-      "home_score": 30,
-      "away_score": 20,
-      "team_score": 20,
-      "opponent_score": 30,
+      "home_score": 20,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 20,
       "status": "final",
       "is_home": false,
       "opponent_teamno": "44433",
       "opponent_name": "D6H-Norton"
+    },
+    {
+      "gameno": "378848",
+      "date": "2026-02-22",
+      "dow": "Sun",
+      "starttime": "10:45 AM",
+      "location": "Van Norman Field House (Seekonk) - Court #1",
+      "divisionno": "7284",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "43106",
+      "away_teamno": "44395",
+      "home_score": 26,
+      "away_score": 25,
+      "team_score": 26,
+      "opponent_score": 25,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44395",
+      "opponent_name": "D6J-Dedham (chiang)"
     },
     {
       "gameno": "378844",
@@ -216,25 +235,5 @@
       "opponent_name": "D6H-Raynham (mccauley)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378848",
-      "date": "2026-02-22",
-      "dow": "Sun",
-      "starttime": "10:45 AM",
-      "location": "Van Norman Field House (Seekonk) - Court #1",
-      "divisionno": "7284",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "43106",
-      "away_teamno": "44395",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44395",
-      "opponent_name": "D6J-Dedham (chiang)"
-    }
-  ]
+  "future_games": []
 }

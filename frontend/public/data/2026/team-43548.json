@@ -5,26 +5,45 @@
   "team_name": "D4M-Millis",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 2,
     "ties": 0,
-    "pf": 371,
-    "pa": 271,
-    "diff": 100,
-    "sos": 1501.73,
-    "sos_adj": 1501.73,
-    "power": 1557.897,
+    "pf": 404,
+    "pa": 283,
+    "diff": 121,
+    "sos": 1491.947,
+    "sos_adj": 1491.947,
+    "power": 1563.634,
     "rank": 1,
-    "mw_rating": 73.2,
-    "mw_points": 805,
+    "mw_rating": 73.5,
+    "mw_points": 882,
     "divisionno": "7259",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377311",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:45 AM",
+      "location": "Woodland Elementary School",
+      "divisionno": "7259",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "44510",
+      "away_teamno": "43548",
+      "home_score": 12,
+      "away_score": 33,
+      "team_score": 33,
+      "opponent_score": 12,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44510",
+      "opponent_name": "D4M-Milford (red-kearnan)"
+    },
     {
       "gameno": "377306",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D4M-Medfield (abba)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377311",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:45 AM",
-      "location": "Woodland Elementary School",
-      "divisionno": "7259",
-      "division_name": "7th Girls - Division 4",
-      "home_teamno": "44510",
-      "away_teamno": "43548",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44510",
-      "opponent_name": "D4M-Milford (red-kearnan)"
-    }
-  ]
+  "future_games": []
 }

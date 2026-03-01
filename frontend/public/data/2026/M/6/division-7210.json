@@ -17,29 +17,29 @@
       "pf": 635,
       "pa": 369,
       "diff": 266,
-      "sos": 1432.162,
-      "sos_adj": 1364.305,
-      "power": 1512.609,
+      "sos": 1433.675,
+      "sos_adj": 1365.818,
+      "power": 1512.987,
       "rank": 1,
       "mw_rating": 46.8,
-      "mw_points": 561
+      "mw_points": 562
     },
     {
       "teamno": "44057",
       "name": "D6R-Wellesley (c)",
       "town": null,
-      "wins": 9,
+      "wins": 10,
       "losses": 2,
       "ties": 0,
-      "pf": 516,
-      "pa": 327,
-      "diff": 189,
-      "sos": 1424.594,
-      "sos_adj": 1347.321,
-      "power": 1450.167,
+      "pf": 569,
+      "pa": 351,
+      "diff": 218,
+      "sos": 1424.324,
+      "sos_adj": 1345.157,
+      "power": 1465.511,
       "rank": 2,
-      "mw_rating": 38.3,
-      "mw_points": 421
+      "mw_rating": 38.4,
+      "mw_points": 461
     },
     {
       "teamno": "44070",
@@ -51,9 +51,9 @@
       "pf": 512,
       "pa": 652,
       "diff": -140,
-      "sos": 1417.127,
-      "sos_adj": 1335.877,
-      "power": 1398.331,
+      "sos": 1416.722,
+      "sos_adj": 1335.472,
+      "power": 1398.229,
       "rank": 3,
       "mw_rating": 19.7,
       "mw_points": 236
@@ -62,18 +62,18 @@
       "teamno": "44274",
       "name": "D6R-Wayland (silver)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 5,
       "ties": 0,
-      "pf": 364,
-      "pa": 346,
-      "diff": 18,
-      "sos": 1412.181,
-      "sos_adj": 1312.181,
-      "power": 1384.639,
+      "pf": 395,
+      "pa": 376,
+      "diff": 19,
+      "sos": 1410.469,
+      "sos_adj": 1310.469,
+      "power": 1389.072,
       "rank": 4,
-      "mw_rating": 22.3,
-      "mw_points": 245
+      "mw_rating": 23.9,
+      "mw_points": 287
     },
     {
       "teamno": "45872",
@@ -106,8 +106,8 @@
       "sos_adj": 1317.113,
       "power": 1376.05,
       "rank": 6,
-      "mw_rating": 18.4,
-      "mw_points": 202
+      "mw_rating": 18.5,
+      "mw_points": 203
     }
   ]
 }

@@ -17,12 +17,12 @@
       "pf": 452,
       "pa": 328,
       "diff": 124,
-      "sos": 1407.304,
-      "sos_adj": 1328.138,
-      "power": 1456.961,
+      "sos": 1407.324,
+      "sos_adj": 1328.157,
+      "power": 1456.966,
       "rank": 1,
-      "mw_rating": 41.4,
-      "mw_points": 414
+      "mw_rating": 41.5,
+      "mw_points": 415
     },
     {
       "teamno": "45324",
@@ -38,8 +38,8 @@
       "sos_adj": 1294.404,
       "power": 1431.534,
       "rank": 2,
-      "mw_rating": 26.4,
-      "mw_points": 290
+      "mw_rating": 26.5,
+      "mw_points": 291
     },
     {
       "teamno": "44161",
@@ -51,12 +51,12 @@
       "pf": 323,
       "pa": 277,
       "diff": 46,
-      "sos": 1405.796,
-      "sos_adj": 1310.796,
-      "power": 1412.079,
+      "sos": 1405.775,
+      "sos_adj": 1310.775,
+      "power": 1412.055,
       "rank": 3,
-      "mw_rating": 24.6,
-      "mw_points": 246
+      "mw_rating": 24.7,
+      "mw_points": 247
     },
     {
       "teamno": "44631",
@@ -68,12 +68,12 @@
       "pf": 317,
       "pa": 318,
       "diff": -1,
-      "sos": 1407.046,
-      "sos_adj": 1311.212,
-      "power": 1397.817,
+      "sos": 1406.634,
+      "sos_adj": 1310.8,
+      "power": 1397.538,
       "rank": 4,
-      "mw_rating": 24.0,
-      "mw_points": 288
+      "mw_rating": 23.9,
+      "mw_points": 287
     },
     {
       "teamno": "43984",
@@ -85,29 +85,29 @@
       "pf": 361,
       "pa": 425,
       "diff": -64,
-      "sos": 1419.058,
-      "sos_adj": 1322.904,
-      "power": 1361.179,
+      "sos": 1418.663,
+      "sos_adj": 1322.509,
+      "power": 1361.08,
       "rank": 5,
       "mw_rating": 13.6,
-      "mw_points": 150
+      "mw_points": 149
     },
     {
       "teamno": "44395",
       "name": "D6J-Dedham (chiang)",
       "town": null,
       "wins": 1,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 250,
-      "pa": 322,
-      "diff": -72,
-      "sos": 1426.385,
-      "sos_adj": 1326.385,
-      "power": 1337.575,
+      "pf": 275,
+      "pa": 348,
+      "diff": -73,
+      "sos": 1421.93,
+      "sos_adj": 1321.93,
+      "power": 1332.79,
       "rank": 6,
-      "mw_rating": 8.0,
-      "mw_points": 80
+      "mw_rating": 7.7,
+      "mw_points": 85
     }
   ]
 }

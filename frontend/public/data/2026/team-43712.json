@@ -5,26 +5,45 @@
   "team_name": "D3Q-Concord-Carlisle (maroon)",
   "town": null,
   "summary": {
-    "wins": 11,
+    "wins": 12,
     "losses": 6,
     "ties": 0,
-    "pf": 810,
-    "pa": 679,
-    "diff": 131,
-    "sos": 1541.97,
-    "sos_adj": 1600.794,
-    "power": 1574.867,
-    "rank": 5,
-    "mw_rating": 94.0,
-    "mw_points": 1034,
+    "pf": 869,
+    "pa": 723,
+    "diff": 146,
+    "sos": 1543.178,
+    "sos_adj": 1601.511,
+    "power": 1595.495,
+    "rank": 4,
+    "mw_rating": 96.3,
+    "mw_points": 1155,
     "divisionno": "7229",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378942",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:00 PM",
+      "location": "Lexington - Diamond Middle School",
+      "divisionno": "7229",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "45755",
+      "away_teamno": "43712",
+      "home_score": 44,
+      "away_score": 59,
+      "team_score": 59,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45755",
+      "opponent_name": "D3Q-Lexington (blue)"
+    },
     {
       "gameno": "378926",
       "date": "2026-02-28",
@@ -349,25 +368,5 @@
       "opponent_name": "D3Q-Bedford (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378942",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:00 PM",
-      "location": "Lexington - Diamond Middle School",
-      "divisionno": "7229",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "45755",
-      "away_teamno": "43712",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45755",
-      "opponent_name": "D3Q-Lexington (blue)"
-    }
-  ]
+  "future_games": []
 }

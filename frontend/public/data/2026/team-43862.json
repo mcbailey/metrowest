@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 6,
+    "losses": 7,
     "ties": 1,
-    "pf": 428,
-    "pa": 479,
-    "diff": -51,
-    "sos": 1457.285,
-    "sos_adj": 1415.618,
-    "power": 1425.098,
+    "pf": 458,
+    "pa": 539,
+    "diff": -81,
+    "sos": 1461.983,
+    "sos_adj": 1419.676,
+    "power": 1413.504,
     "rank": 5,
-    "mw_rating": 31.5,
-    "mw_points": 346,
+    "mw_rating": 29.8,
+    "mw_points": 357,
     "divisionno": "7149",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "381015",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:30 PM",
+      "location": "Dover Sherborn High School",
+      "divisionno": "7149",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "44996",
+      "away_teamno": "43862",
+      "home_score": 60,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 60,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44996",
+      "opponent_name": "D5Q-Dover Sherborn (cavallaro)"
+    },
     {
       "gameno": "380999",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "Marlboro (black) 8B D2S"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "381015",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:30 PM",
-      "location": "Dover Sherborn High School",
-      "divisionno": "7149",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "44996",
-      "away_teamno": "43862",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44996",
-      "opponent_name": "D5Q-Dover Sherborn (cavallaro)"
-    }
-  ]
+  "future_games": []
 }

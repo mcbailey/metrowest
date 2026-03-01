@@ -21,8 +21,8 @@
       "sos_adj": 1185.299,
       "power": 1381.35,
       "rank": 1,
-      "mw_rating": 22.5,
-      "mw_points": 247
+      "mw_rating": 22.6,
+      "mw_points": 248
     },
     {
       "teamno": "43787",
@@ -42,23 +42,6 @@
       "mw_points": 197
     },
     {
-      "teamno": "45347",
-      "name": "D7P-Milton (silver)",
-      "town": null,
-      "wins": 7,
-      "losses": 7,
-      "ties": 0,
-      "pf": 196,
-      "pa": 167,
-      "diff": 29,
-      "sos": 1382.806,
-      "sos_adj": 1264.949,
-      "power": 1340.663,
-      "rank": 3,
-      "mw_rating": 12.5,
-      "mw_points": 137
-    },
-    {
       "teamno": "43499",
       "name": "D7P-Northboro (red)",
       "town": null,
@@ -71,9 +54,26 @@
       "sos": 1377.172,
       "sos_adj": 1250.249,
       "power": 1332.882,
+      "rank": 3,
+      "mw_rating": 16.0,
+      "mw_points": 192
+    },
+    {
+      "teamno": "45347",
+      "name": "D7P-Milton (silver)",
+      "town": null,
+      "wins": 7,
+      "losses": 8,
+      "ties": 0,
+      "pf": 204,
+      "pa": 187,
+      "diff": 17,
+      "sos": 1382.297,
+      "sos_adj": 1262.297,
+      "power": 1321.712,
       "rank": 4,
-      "mw_rating": 15.9,
-      "mw_points": 191
+      "mw_rating": 11.5,
+      "mw_points": 138
     },
     {
       "teamno": "44198",
@@ -85,9 +85,9 @@
       "pf": 152,
       "pa": 168,
       "diff": -16,
-      "sos": 1356.24,
-      "sos_adj": 1215.331,
-      "power": 1299.838,
+      "sos": 1351.807,
+      "sos_adj": 1210.898,
+      "power": 1298.729,
       "rank": 5,
       "mw_rating": 12.0,
       "mw_points": 132
@@ -119,9 +119,9 @@
       "pf": 134,
       "pa": 228,
       "diff": -94,
-      "sos": 1364.4,
-      "sos_adj": 1214.4,
-      "power": 1261.237,
+      "sos": 1362.183,
+      "sos_adj": 1212.183,
+      "power": 1260.683,
       "rank": 7,
       "mw_rating": 4.4,
       "mw_points": 48

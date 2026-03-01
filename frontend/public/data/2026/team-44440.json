@@ -5,26 +5,45 @@
   "team_name": "D3M-Bedford (blue)",
   "town": null,
   "summary": {
-    "wins": 12,
+    "wins": 13,
     "losses": 8,
     "ties": 0,
-    "pf": 1011,
-    "pa": 959,
-    "diff": 52,
-    "sos": 1574.874,
-    "sos_adj": 1642.374,
-    "power": 1624.723,
+    "pf": 1072,
+    "pa": 987,
+    "diff": 85,
+    "sos": 1573.425,
+    "sos_adj": 1640.091,
+    "power": 1639.236,
     "rank": 1,
-    "mw_rating": 106.6,
-    "mw_points": 1172,
+    "mw_rating": 107.5,
+    "mw_points": 1290,
     "divisionno": "7196",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 20,
-    "games_scheduled_total": 1
+    "games_played_total": 21,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376657",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "Wellesley Middle School",
+      "divisionno": "7196",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "43907",
+      "away_teamno": "44440",
+      "home_score": 28,
+      "away_score": 61,
+      "team_score": 61,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43907",
+      "opponent_name": "D3M-Wellesley (a)"
+    },
     {
       "gameno": "376630",
       "date": "2026-02-28",
@@ -406,25 +425,5 @@
       "opponent_name": "D2M-Arlington (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376657",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:00 PM",
-      "location": "Wellesley Middle School",
-      "divisionno": "7196",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "43907",
-      "away_teamno": "44440",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43907",
-      "opponent_name": "D3M-Wellesley (a)"
-    }
-  ]
+  "future_games": []
 }

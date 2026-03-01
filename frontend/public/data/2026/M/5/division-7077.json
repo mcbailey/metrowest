@@ -17,12 +17,12 @@
       "pf": 1441,
       "pa": 767,
       "diff": 674,
-      "sos": 1554.81,
-      "sos_adj": 1608.258,
-      "power": 1746.451,
+      "sos": 1555.134,
+      "sos_adj": 1608.582,
+      "power": 1746.532,
       "rank": 1,
-      "mw_rating": 201.2,
-      "mw_points": 2414
+      "mw_rating": 201.3,
+      "mw_points": 2415
     },
     {
       "teamno": "44042",
@@ -34,29 +34,29 @@
       "pf": 1168,
       "pa": 807,
       "diff": 361,
-      "sos": 1599.748,
-      "sos_adj": 1688.878,
-      "power": 1727.985,
+      "sos": 1600.156,
+      "sos_adj": 1689.286,
+      "power": 1728.087,
       "rank": 2,
-      "mw_rating": 187.3,
-      "mw_points": 2248
+      "mw_rating": 187.4,
+      "mw_points": 2249
     },
     {
       "teamno": "43093",
       "name": "D1-Swansea (gold)",
       "town": null,
-      "wins": 10,
+      "wins": 11,
       "losses": 5,
       "ties": 0,
-      "pf": 702,
-      "pa": 578,
-      "diff": 124,
-      "sos": 1619.769,
-      "sos_adj": 1733.102,
-      "power": 1716.618,
+      "pf": 767,
+      "pa": 636,
+      "diff": 131,
+      "sos": 1616.002,
+      "sos_adj": 1728.502,
+      "power": 1722.513,
       "rank": 3,
-      "mw_rating": 153.6,
-      "mw_points": 1689
+      "mw_rating": 154.2,
+      "mw_points": 1850
     },
     {
       "teamno": "44229",
@@ -68,12 +68,12 @@
       "pf": 931,
       "pa": 797,
       "diff": 134,
-      "sos": 1610.709,
-      "sos_adj": 1706.361,
-      "power": 1681.183,
+      "sos": 1609.931,
+      "sos_adj": 1705.584,
+      "power": 1680.988,
       "rank": 4,
       "mw_rating": 149.3,
-      "mw_points": 1791
+      "mw_points": 1792
     },
     {
       "teamno": "43759",
@@ -85,29 +85,12 @@
       "pf": 695,
       "pa": 618,
       "diff": 77,
-      "sos": 1629.709,
-      "sos_adj": 1738.533,
-      "power": 1666.534,
+      "sos": 1629.21,
+      "sos_adj": 1738.034,
+      "power": 1666.409,
       "rank": 5,
-      "mw_rating": 141.7,
-      "mw_points": 1559
-    },
-    {
-      "teamno": "43625",
-      "name": "D1-Hingham (black)",
-      "town": null,
-      "wins": 14,
-      "losses": 10,
-      "ties": 0,
-      "pf": 1157,
-      "pa": 969,
-      "diff": 188,
-      "sos": 1556.575,
-      "sos_adj": 1610.741,
-      "power": 1632.746,
-      "rank": 6,
-      "mw_rating": 165.6,
-      "mw_points": 1656
+      "mw_rating": 141.9,
+      "mw_points": 1561
     },
     {
       "teamno": "45577",
@@ -119,12 +102,12 @@
       "pf": 331,
       "pa": 495,
       "diff": -164,
-      "sos": 1656.85,
-      "sos_adj": 1781.85,
-      "power": 1628.092,
-      "rank": 7,
-      "mw_rating": 103.5,
-      "mw_points": 1035
+      "sos": 1656.001,
+      "sos_adj": 1781.001,
+      "power": 1627.88,
+      "rank": 6,
+      "mw_rating": 103.6,
+      "mw_points": 1036
     },
     {
       "teamno": "43925",
@@ -136,12 +119,29 @@
       "pf": 406,
       "pa": 594,
       "diff": -188,
-      "sos": 1639.043,
-      "sos_adj": 1754.428,
-      "power": 1619.673,
+      "sos": 1638.39,
+      "sos_adj": 1753.775,
+      "power": 1619.51,
+      "rank": 7,
+      "mw_rating": 103.0,
+      "mw_points": 1133
+    },
+    {
+      "teamno": "43625",
+      "name": "D1-Hingham (black)",
+      "town": null,
+      "wins": 14,
+      "losses": 11,
+      "ties": 0,
+      "pf": 1214,
+      "pa": 1029,
+      "diff": 185,
+      "sos": 1556.545,
+      "sos_adj": 1608.545,
+      "power": 1618.786,
       "rank": 8,
-      "mw_rating": 102.9,
-      "mw_points": 1132
+      "mw_rating": 166.7,
+      "mw_points": 1667
     }
   ]
 }

@@ -17,29 +17,29 @@
       "pf": 555,
       "pa": 270,
       "diff": 285,
-      "sos": 1540.959,
-      "sos_adj": 1599.292,
-      "power": 1642.665,
+      "sos": 1542.709,
+      "sos_adj": 1601.043,
+      "power": 1643.102,
       "rank": 1,
       "mw_rating": 116.6,
-      "mw_points": 1282
+      "mw_points": 1283
     },
     {
       "teamno": "43306",
       "name": "D3H-Franklin",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 6,
       "ties": 0,
-      "pf": 404,
-      "pa": 357,
-      "diff": 47,
-      "sos": 1564.613,
-      "sos_adj": 1631.28,
-      "power": 1587.706,
+      "pf": 448,
+      "pa": 384,
+      "diff": 64,
+      "sos": 1560.278,
+      "sos_adj": 1625.663,
+      "power": 1602.056,
       "rank": 2,
-      "mw_rating": 91.0,
-      "mw_points": 1001
+      "mw_rating": 92.9,
+      "mw_points": 1115
     },
     {
       "teamno": "43215",
@@ -51,12 +51,12 @@
       "pf": 369,
       "pa": 314,
       "diff": 55,
-      "sos": 1544.781,
-      "sos_adj": 1594.781,
-      "power": 1584.793,
+      "sos": 1548.601,
+      "sos_adj": 1598.601,
+      "power": 1585.747,
       "rank": 3,
-      "mw_rating": 89.5,
-      "mw_points": 984
+      "mw_rating": 89.6,
+      "mw_points": 985
     },
     {
       "teamno": "46204",
@@ -72,8 +72,8 @@
       "sos_adj": 1491.201,
       "power": 1572.796,
       "rank": 4,
-      "mw_rating": 66.1,
-      "mw_points": 529
+      "mw_rating": 66.3,
+      "mw_points": 530
     },
     {
       "teamno": "44477",
@@ -85,12 +85,12 @@
       "pf": 480,
       "pa": 465,
       "diff": 15,
-      "sos": 1547.135,
-      "sos_adj": 1607.849,
-      "power": 1561.446,
+      "sos": 1550.136,
+      "sos_adj": 1610.85,
+      "power": 1562.196,
       "rank": 5,
-      "mw_rating": 91.9,
-      "mw_points": 1011
+      "mw_rating": 92.0,
+      "mw_points": 1012
     },
     {
       "teamno": "43843",
@@ -102,9 +102,9 @@
       "pf": 348,
       "pa": 445,
       "diff": -97,
-      "sos": 1558.1,
-      "sos_adj": 1608.1,
-      "power": 1558.438,
+      "sos": 1560.01,
+      "sos_adj": 1610.01,
+      "power": 1558.915,
       "rank": 6,
       "mw_rating": 70.5,
       "mw_points": 775
@@ -119,12 +119,12 @@
       "pf": 382,
       "pa": 490,
       "diff": -108,
-      "sos": 1564.536,
-      "sos_adj": 1628.822,
-      "power": 1529.011,
+      "sos": 1566.036,
+      "sos_adj": 1630.322,
+      "power": 1529.387,
       "rank": 7,
-      "mw_rating": 80.9,
-      "mw_points": 971
+      "mw_rating": 81.0,
+      "mw_points": 972
     },
     {
       "teamno": "43895",
@@ -136,9 +136,9 @@
       "pf": 452,
       "pa": 496,
       "diff": -44,
-      "sos": 1534.843,
-      "sos_adj": 1581.272,
-      "power": 1512.964,
+      "sos": 1536.344,
+      "sos_adj": 1582.772,
+      "power": 1513.339,
       "rank": 8,
       "mw_rating": 59.3,
       "mw_points": 652
@@ -153,9 +153,9 @@
       "pf": 311,
       "pa": 475,
       "diff": -164,
-      "sos": 1547.856,
-      "sos_adj": 1597.856,
-      "power": 1490.259,
+      "sos": 1549.606,
+      "sos_adj": 1599.606,
+      "power": 1490.696,
       "rank": 9,
       "mw_rating": 51.6,
       "mw_points": 568

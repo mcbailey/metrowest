@@ -8,6 +8,23 @@
   "divisiontier": "5",
   "rankings": [
     {
+      "teamno": "45344",
+      "name": "D5Q-Milton (silver)",
+      "town": null,
+      "wins": 8,
+      "losses": 4,
+      "ties": 0,
+      "pf": 315,
+      "pa": 223,
+      "diff": 92,
+      "sos": 1442.585,
+      "sos_adj": 1392.585,
+      "power": 1496.689,
+      "rank": 1,
+      "mw_rating": 40.3,
+      "mw_points": 483
+    },
+    {
       "teamno": "43986",
       "name": "D5Q-Canton (white)",
       "town": null,
@@ -17,29 +34,12 @@
       "pf": 266,
       "pa": 196,
       "diff": 70,
-      "sos": 1444.79,
-      "sos_adj": 1394.79,
-      "power": 1494.425,
-      "rank": 1,
-      "mw_rating": 56.8,
-      "mw_points": 568
-    },
-    {
-      "teamno": "45344",
-      "name": "D5Q-Milton (silver)",
-      "town": null,
-      "wins": 7,
-      "losses": 4,
-      "ties": 0,
-      "pf": 294,
-      "pa": 206,
-      "diff": 88,
-      "sos": 1441.728,
-      "sos_adj": 1391.728,
-      "power": 1487.79,
+      "sos": 1443.825,
+      "sos_adj": 1393.825,
+      "power": 1494.184,
       "rank": 2,
-      "mw_rating": 38.4,
-      "mw_points": 422
+      "mw_rating": 56.9,
+      "mw_points": 569
     },
     {
       "teamno": "43778",
@@ -55,8 +55,8 @@
       "sos_adj": 1397.437,
       "power": 1459.217,
       "rank": 3,
-      "mw_rating": 38.5,
-      "mw_points": 423
+      "mw_rating": 38.6,
+      "mw_points": 424
     },
     {
       "teamno": "43856",
@@ -85,9 +85,9 @@
       "pf": 199,
       "pa": 216,
       "diff": -17,
-      "sos": 1451.736,
-      "sos_adj": 1405.903,
-      "power": 1412.936,
+      "sos": 1452.701,
+      "sos_adj": 1406.868,
+      "power": 1413.177,
       "rank": 5,
       "mw_rating": 30.8,
       "mw_points": 369

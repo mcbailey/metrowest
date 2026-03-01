@@ -21,8 +21,8 @@
       "sos_adj": 1496.981,
       "power": 1538.225,
       "rank": 1,
-      "mw_rating": 61.8,
-      "mw_points": 680
+      "mw_rating": 62.0,
+      "mw_points": 682
     },
     {
       "teamno": "45101",
@@ -38,8 +38,8 @@
       "sos_adj": 1480.337,
       "power": 1525.34,
       "rank": 2,
-      "mw_rating": 60.1,
-      "mw_points": 661
+      "mw_rating": 60.2,
+      "mw_points": 662
     },
     {
       "teamno": "44056",
@@ -51,12 +51,12 @@
       "pf": 559,
       "pa": 522,
       "diff": 37,
-      "sos": 1524.761,
-      "sos_adj": 1542.943,
-      "power": 1505.803,
+      "sos": 1526.684,
+      "sos_adj": 1544.865,
+      "power": 1506.283,
       "rank": 3,
-      "mw_rating": 64.9,
-      "mw_points": 714
+      "mw_rating": 65.0,
+      "mw_points": 715
     },
     {
       "teamno": "43386",
@@ -68,46 +68,46 @@
       "pf": 663,
       "pa": 616,
       "diff": 47,
-      "sos": 1481.712,
-      "sos_adj": 1465.045,
-      "power": 1491.449,
+      "sos": 1480.537,
+      "sos_adj": 1463.87,
+      "power": 1491.155,
       "rank": 4,
-      "mw_rating": 52.2,
-      "mw_points": 574
+      "mw_rating": 52.3,
+      "mw_points": 575
     },
     {
       "teamno": "44303",
       "name": "D4M-Belmont (white)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 11,
       "ties": 0,
-      "pf": 568,
-      "pa": 753,
-      "diff": -185,
-      "sos": 1479.486,
-      "sos_adj": 1467.722,
-      "power": 1463.11,
+      "pf": 624,
+      "pa": 796,
+      "diff": -172,
+      "sos": 1472.118,
+      "sos_adj": 1461.007,
+      "power": 1477.293,
       "rank": 5,
-      "mw_rating": 45.4,
-      "mw_points": 454
+      "mw_rating": 48.7,
+      "mw_points": 536
     },
     {
       "teamno": "44730",
       "name": "D4M-Arlington (white)",
       "town": null,
       "wins": 5,
-      "losses": 14,
+      "losses": 15,
       "ties": 0,
-      "pf": 580,
-      "pa": 713,
-      "diff": -133,
-      "sos": 1485.177,
-      "sos_adj": 1472.019,
-      "power": 1441.592,
+      "pf": 623,
+      "pa": 769,
+      "diff": -146,
+      "sos": 1488.226,
+      "sos_adj": 1475.726,
+      "power": 1426.657,
       "rank": 6,
-      "mw_rating": 35.6,
-      "mw_points": 356
+      "mw_rating": 34.6,
+      "mw_points": 381
     }
   ]
 }

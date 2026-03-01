@@ -17,12 +17,12 @@
       "pf": 432,
       "pa": 226,
       "diff": 206,
-      "sos": 1444.065,
-      "sos_adj": 1394.065,
-      "power": 1518.178,
+      "sos": 1445.401,
+      "sos_adj": 1395.401,
+      "power": 1518.513,
       "rank": 1,
-      "mw_rating": 56.4,
-      "mw_points": 677
+      "mw_rating": 56.6,
+      "mw_points": 679
     },
     {
       "teamno": "45639",
@@ -38,8 +38,8 @@
       "sos_adj": 1407.034,
       "power": 1460.289,
       "rank": 2,
-      "mw_rating": 35.1,
-      "mw_points": 421
+      "mw_rating": 35.2,
+      "mw_points": 422
     },
     {
       "teamno": "43920",
@@ -51,12 +51,12 @@
       "pf": 575,
       "pa": 518,
       "diff": 57,
-      "sos": 1454.685,
-      "sos_adj": 1404.685,
-      "power": 1446.921,
+      "sos": 1453.554,
+      "sos_adj": 1403.554,
+      "power": 1446.638,
       "rank": 3,
-      "mw_rating": 40.5,
-      "mw_points": 486
+      "mw_rating": 40.6,
+      "mw_points": 487
     },
     {
       "teamno": "44635",
@@ -73,24 +73,7 @@
       "power": 1435.587,
       "rank": 4,
       "mw_rating": 30.3,
-      "mw_points": 363
-    },
-    {
-      "teamno": "45317",
-      "name": "D5Q-Milton (black)",
-      "town": null,
-      "wins": 3,
-      "losses": 7,
-      "ties": 0,
-      "pf": 307,
-      "pa": 423,
-      "diff": -116,
-      "sos": 1453.248,
-      "sos_adj": 1403.248,
-      "power": 1403.649,
-      "rank": 5,
-      "mw_rating": 21.2,
-      "mw_points": 233
+      "mw_points": 364
     },
     {
       "teamno": "44705",
@@ -102,12 +85,29 @@
       "pf": 378,
       "pa": 460,
       "diff": -82,
-      "sos": 1450.455,
-      "sos_adj": 1387.955,
-      "power": 1396.613,
+      "sos": 1449.229,
+      "sos_adj": 1386.729,
+      "power": 1396.306,
+      "rank": 5,
+      "mw_rating": 16.5,
+      "mw_points": 198
+    },
+    {
+      "teamno": "45317",
+      "name": "D5Q-Milton (black)",
+      "town": null,
+      "wins": 3,
+      "losses": 8,
+      "ties": 0,
+      "pf": 340,
+      "pa": 461,
+      "diff": -121,
+      "sos": 1452.284,
+      "sos_adj": 1402.284,
+      "power": 1392.38,
       "rank": 6,
-      "mw_rating": 16.4,
-      "mw_points": 197
+      "mw_rating": 20.3,
+      "mw_points": 243
     },
     {
       "teamno": "44937",

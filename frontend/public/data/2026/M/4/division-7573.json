@@ -17,12 +17,12 @@
       "pf": 979,
       "pa": 484,
       "diff": 495,
-      "sos": 1607.488,
-      "sos_adj": 1715.383,
-      "power": 1730.073,
+      "sos": 1607.727,
+      "sos_adj": 1715.622,
+      "power": 1730.133,
       "rank": 1,
-      "mw_rating": 191.5,
-      "mw_points": 2298
+      "mw_rating": 191.6,
+      "mw_points": 2299
     },
     {
       "teamno": "44040",
@@ -38,25 +38,25 @@
       "sos_adj": 1717.645,
       "power": 1727.124,
       "rank": 2,
-      "mw_rating": 181.4,
-      "mw_points": 1995
+      "mw_rating": 181.5,
+      "mw_points": 1996
     },
     {
       "teamno": "43767",
       "name": "D1N-Needham (gold)",
       "town": null,
-      "wins": 10,
+      "wins": 11,
       "losses": 3,
       "ties": 0,
-      "pf": 507,
-      "pa": 418,
-      "diff": 89,
-      "sos": 1640.123,
-      "sos_adj": 1770.892,
-      "power": 1684.781,
+      "pf": 549,
+      "pa": 459,
+      "diff": 90,
+      "sos": 1639.564,
+      "sos_adj": 1771.707,
+      "power": 1688.397,
       "rank": 3,
-      "mw_rating": 152.6,
-      "mw_points": 1679
+      "mw_rating": 152.8,
+      "mw_points": 1834
     },
     {
       "teamno": "43310",
@@ -68,12 +68,12 @@
       "pf": 629,
       "pa": 610,
       "diff": 19,
-      "sos": 1629.425,
-      "sos_adj": 1744.13,
-      "power": 1656.849,
+      "sos": 1629.692,
+      "sos_adj": 1744.398,
+      "power": 1656.916,
       "rank": 4,
-      "mw_rating": 150.8,
-      "mw_points": 1810
+      "mw_rating": 150.9,
+      "mw_points": 1811
     },
     {
       "teamno": "45327",

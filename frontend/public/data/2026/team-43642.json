@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 4,
+    "losses": 5,
     "ties": 1,
-    "pf": 388,
-    "pa": 280,
-    "diff": 108,
-    "sos": 1445.811,
-    "sos_adj": 1399.144,
-    "power": 1483.506,
+    "pf": 405,
+    "pa": 301,
+    "diff": 104,
+    "sos": 1449.117,
+    "sos_adj": 1402.242,
+    "power": 1472.237,
     "rank": 2,
-    "mw_rating": 50.0,
-    "mw_points": 550,
+    "mw_rating": 46.7,
+    "mw_points": 560,
     "divisionno": "7314",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375819",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:50 AM",
+      "location": "Milton High School - Court 3",
+      "divisionno": "7315",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "45344",
+      "away_teamno": "43642",
+      "home_score": 21,
+      "away_score": 17,
+      "team_score": 17,
+      "opponent_score": 21,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45344",
+      "opponent_name": "D5Q-Milton (silver)"
+    },
     {
       "gameno": "393272",
       "date": "2026-02-28",
@@ -311,25 +330,5 @@
       "opponent_name": "D5Q-Canton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375819",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:50 AM",
-      "location": "Milton High School - Court 3",
-      "divisionno": "7315",
-      "division_name": "5th Girls - Division 5",
-      "home_teamno": "45344",
-      "away_teamno": "43642",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45344",
-      "opponent_name": "D5Q-Milton (silver)"
-    }
-  ]
+  "future_games": []
 }

@@ -17,12 +17,12 @@
       "pf": 566,
       "pa": 412,
       "diff": 154,
-      "sos": 1446.441,
-      "sos_adj": 1396.441,
-      "power": 1499.857,
+      "sos": 1448.601,
+      "sos_adj": 1398.601,
+      "power": 1500.397,
       "rank": 1,
-      "mw_rating": 51.4,
-      "mw_points": 617
+      "mw_rating": 51.5,
+      "mw_points": 618
     },
     {
       "teamno": "44870",
@@ -51,12 +51,12 @@
       "pf": 446,
       "pa": 444,
       "diff": 2,
-      "sos": 1451.562,
-      "sos_adj": 1401.562,
-      "power": 1456.321,
+      "sos": 1454.31,
+      "sos_adj": 1404.31,
+      "power": 1457.008,
       "rank": 3,
-      "mw_rating": 30.5,
-      "mw_points": 335
+      "mw_rating": 30.6,
+      "mw_points": 336
     },
     {
       "teamno": "44132",
@@ -68,12 +68,12 @@
       "pf": 580,
       "pa": 522,
       "diff": 58,
-      "sos": 1459.527,
-      "sos_adj": 1416.67,
-      "power": 1447.817,
+      "sos": 1461.687,
+      "sos_adj": 1418.829,
+      "power": 1448.357,
       "rank": 4,
-      "mw_rating": 40.6,
-      "mw_points": 447
+      "mw_rating": 40.7,
+      "mw_points": 448
     },
     {
       "teamno": "43955",
@@ -89,8 +89,8 @@
       "sos_adj": 1338.569,
       "power": 1440.146,
       "rank": 5,
-      "mw_rating": 21.1,
-      "mw_points": 232
+      "mw_rating": 21.3,
+      "mw_points": 234
     },
     {
       "teamno": "44466",
@@ -119,29 +119,29 @@
       "pf": 349,
       "pa": 391,
       "diff": -42,
-      "sos": 1455.317,
-      "sos_adj": 1405.317,
-      "power": 1416.413,
+      "sos": 1458.34,
+      "sos_adj": 1408.34,
+      "power": 1417.168,
       "rank": 7,
-      "mw_rating": 24.1,
-      "mw_points": 241
+      "mw_rating": 24.2,
+      "mw_points": 242
     },
     {
       "teamno": "43612",
       "name": "D5J-Norwood (white)",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 10,
       "ties": 0,
-      "pf": 343,
-      "pa": 488,
-      "diff": -145,
-      "sos": 1450.021,
-      "sos_adj": 1386.385,
-      "power": 1358.33,
+      "pf": 394,
+      "pa": 506,
+      "diff": -112,
+      "sos": 1443.333,
+      "sos_adj": 1376.667,
+      "power": 1378.574,
       "rank": 8,
-      "mw_rating": 11.0,
-      "mw_points": 121
+      "mw_rating": 13.3,
+      "mw_points": 159
     }
   ]
 }

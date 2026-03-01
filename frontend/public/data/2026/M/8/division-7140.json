@@ -17,12 +17,12 @@
       "pf": 513,
       "pa": 393,
       "diff": 120,
-      "sos": 1393.414,
-      "sos_adj": 1293.414,
-      "power": 1445.227,
+      "sos": 1395.534,
+      "sos_adj": 1295.534,
+      "power": 1445.757,
       "rank": 1,
-      "mw_rating": 30.3,
-      "mw_points": 333
+      "mw_rating": 30.4,
+      "mw_points": 334
     },
     {
       "teamno": "43532",
@@ -39,7 +39,7 @@
       "power": 1442.98,
       "rank": 2,
       "mw_rating": 30.3,
-      "mw_points": 363
+      "mw_points": 364
     },
     {
       "teamno": "44336",
@@ -55,8 +55,25 @@
       "sos_adj": 1298.743,
       "power": 1363.143,
       "rank": 3,
-      "mw_rating": 19.5,
-      "mw_points": 214
+      "mw_rating": 19.6,
+      "mw_points": 215
+    },
+    {
+      "teamno": "44382",
+      "name": "D6M-Westborough",
+      "town": null,
+      "wins": 5,
+      "losses": 7,
+      "ties": 0,
+      "pf": 401,
+      "pa": 463,
+      "diff": -62,
+      "sos": 1403.369,
+      "sos_adj": 1303.369,
+      "power": 1361.351,
+      "rank": 4,
+      "mw_rating": 17.1,
+      "mw_points": 205
     },
     {
       "teamno": "44997",
@@ -71,26 +88,9 @@
       "sos": 1401.55,
       "sos_adj": 1301.55,
       "power": 1351.31,
-      "rank": 4,
+      "rank": 5,
       "mw_rating": 19.7,
       "mw_points": 236
-    },
-    {
-      "teamno": "44382",
-      "name": "D6M-Westborough",
-      "town": null,
-      "wins": 4,
-      "losses": 7,
-      "ties": 0,
-      "pf": 352,
-      "pa": 438,
-      "diff": -86,
-      "sos": 1411.297,
-      "sos_adj": 1311.297,
-      "power": 1345.844,
-      "rank": 5,
-      "mw_rating": 15.7,
-      "mw_points": 173
     },
     {
       "teamno": "43887",
@@ -114,17 +114,17 @@
       "name": "D6M-Hopkinton (clifford)",
       "town": null,
       "wins": 1,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 303,
-      "pa": 441,
-      "diff": -138,
-      "sos": 1397.458,
-      "sos_adj": 1297.458,
-      "power": 1328.978,
+      "pf": 328,
+      "pa": 490,
+      "diff": -162,
+      "sos": 1395.933,
+      "sos_adj": 1295.933,
+      "power": 1311.108,
       "rank": 7,
-      "mw_rating": 7.7,
-      "mw_points": 77
+      "mw_rating": 7.5,
+      "mw_points": 82
     }
   ]
 }

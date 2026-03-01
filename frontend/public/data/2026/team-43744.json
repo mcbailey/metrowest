@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 377,
-    "pa": 420,
-    "diff": -43,
-    "sos": 1503.229,
-    "sos_adj": 1498.229,
-    "power": 1453.368,
-    "rank": 5,
-    "mw_rating": 45.9,
-    "mw_points": 459,
+    "pf": 405,
+    "pa": 469,
+    "diff": -64,
+    "sos": 1505.583,
+    "sos_adj": 1501.037,
+    "power": 1440.661,
+    "rank": 6,
+    "mw_rating": 44.0,
+    "mw_points": 484,
     "divisionno": "7191",
     "division_name": "7th Boys - Division 4",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379930",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:15 AM",
+      "location": "Lexington - Diamond Middle School",
+      "divisionno": "7192",
+      "division_name": "7th Boys - Division 4",
+      "home_teamno": "45757",
+      "away_teamno": "43744",
+      "home_score": 49,
+      "away_score": 28,
+      "team_score": 28,
+      "opponent_score": 49,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45757",
+      "opponent_name": "D4Q-Lexington (blue)"
+    },
     {
       "gameno": "379971",
       "date": "2026-03-01",
@@ -216,25 +235,5 @@
       "opponent_name": "D4M-Westwood"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379930",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:15 AM",
-      "location": "Lexington - Diamond Middle School",
-      "divisionno": "7192",
-      "division_name": "7th Boys - Division 4",
-      "home_teamno": "45757",
-      "away_teamno": "43744",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45757",
-      "opponent_name": "D4Q-Lexington (blue)"
-    }
-  ]
+  "future_games": []
 }

@@ -8,6 +8,23 @@
   "divisiontier": "1",
   "rankings": [
     {
+      "teamno": "43929",
+      "name": "D1H-Taunton (banks)",
+      "town": null,
+      "wins": 12,
+      "losses": 3,
+      "ties": 0,
+      "pf": 858,
+      "pa": 735,
+      "diff": 123,
+      "sos": 1607.726,
+      "sos_adj": 1717.726,
+      "power": 1723.151,
+      "rank": 1,
+      "mw_rating": 168.6,
+      "mw_points": 1854
+    },
+    {
       "teamno": "43735",
       "name": "D1H-Needham (gold)",
       "town": null,
@@ -20,26 +37,9 @@
       "sos": 1646.646,
       "sos_adj": 1791.091,
       "power": 1715.442,
-      "rank": 1,
+      "rank": 2,
       "mw_rating": 166.6,
       "mw_points": 1499
-    },
-    {
-      "teamno": "43929",
-      "name": "D1H-Taunton (banks)",
-      "town": null,
-      "wins": 11,
-      "losses": 3,
-      "ties": 0,
-      "pf": 793,
-      "pa": 685,
-      "diff": 108,
-      "sos": 1607.524,
-      "sos_adj": 1714.667,
-      "power": 1711.91,
-      "rank": 2,
-      "mw_rating": 164.9,
-      "mw_points": 1649
     },
     {
       "teamno": "43586",
@@ -72,8 +72,8 @@
       "sos_adj": 1600.803,
       "power": 1692.982,
       "rank": 4,
-      "mw_rating": 199.2,
-      "mw_points": 1793
+      "mw_rating": 199.3,
+      "mw_points": 1794
     },
     {
       "teamno": "43414",
@@ -89,8 +89,8 @@
       "sos_adj": 1805.12,
       "power": 1691.107,
       "rank": 5,
-      "mw_rating": 165.1,
-      "mw_points": 1651
+      "mw_rating": 165.2,
+      "mw_points": 1652
     },
     {
       "teamno": "44995",
@@ -102,9 +102,9 @@
       "pf": 846,
       "pa": 876,
       "diff": -30,
-      "sos": 1628.142,
-      "sos_adj": 1756.267,
-      "power": 1663.611,
+      "sos": 1627.269,
+      "sos_adj": 1755.394,
+      "power": 1663.393,
       "rank": 6,
       "mw_rating": 173.0,
       "mw_points": 1903
@@ -114,17 +114,17 @@
       "name": "D1H-Wellesley (a)",
       "town": null,
       "wins": 5,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 672,
-      "pa": 686,
-      "diff": -14,
-      "sos": 1638.072,
-      "sos_adj": 1772.687,
-      "power": 1661.564,
+      "pf": 722,
+      "pa": 751,
+      "diff": -29,
+      "sos": 1644.278,
+      "sos_adj": 1779.992,
+      "power": 1652.914,
       "rank": 7,
-      "mw_rating": 136.4,
-      "mw_points": 1364
+      "mw_rating": 133.1,
+      "mw_points": 1464
     }
   ]
 }

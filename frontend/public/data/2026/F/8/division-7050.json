@@ -17,12 +17,12 @@
       "pf": 490,
       "pa": 369,
       "diff": 121,
-      "sos": 1654.853,
-      "sos_adj": 1799.853,
-      "power": 1723.647,
+      "sos": 1656.397,
+      "sos_adj": 1801.397,
+      "power": 1724.033,
       "rank": 1,
-      "mw_rating": 192.3,
-      "mw_points": 1923
+      "mw_rating": 192.4,
+      "mw_points": 1924
     },
     {
       "teamno": "43436",
@@ -38,8 +38,8 @@
       "sos_adj": 1796.958,
       "power": 1720.369,
       "rank": 2,
-      "mw_rating": 187.0,
-      "mw_points": 1870
+      "mw_rating": 187.2,
+      "mw_points": 1872
     },
     {
       "teamno": "43776",
@@ -51,29 +51,29 @@
       "pf": 481,
       "pa": 337,
       "diff": 144,
-      "sos": 1619.788,
-      "sos_adj": 1747.061,
-      "power": 1719.096,
+      "sos": 1621.192,
+      "sos_adj": 1748.465,
+      "power": 1719.447,
       "rank": 3,
-      "mw_rating": 164.4,
-      "mw_points": 1808
+      "mw_rating": 164.6,
+      "mw_points": 1810
     },
     {
       "teamno": "43945",
       "name": "D1/2-Brookline (red)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 5,
       "ties": 0,
-      "pf": 521,
-      "pa": 447,
-      "diff": 74,
-      "sos": 1625.179,
-      "sos_adj": 1752.452,
-      "power": 1688.292,
+      "pf": 576,
+      "pa": 480,
+      "diff": 96,
+      "sos": 1621.626,
+      "sos_adj": 1746.626,
+      "power": 1698.415,
       "rank": 4,
-      "mw_rating": 97.9,
-      "mw_points": 979
+      "mw_rating": 103.3,
+      "mw_points": 1136
     },
     {
       "teamno": "43339",
@@ -85,12 +85,12 @@
       "pf": 500,
       "pa": 509,
       "diff": -9,
-      "sos": 1639.605,
-      "sos_adj": 1780.514,
-      "power": 1682.07,
+      "sos": 1641.008,
+      "sos_adj": 1781.917,
+      "power": 1682.421,
       "rank": 5,
-      "mw_rating": 154.4,
-      "mw_points": 1544
+      "mw_rating": 154.5,
+      "mw_points": 1545
     },
     {
       "teamno": "45490",
@@ -102,12 +102,12 @@
       "pf": 331,
       "pa": 354,
       "diff": -23,
-      "sos": 1645.927,
-      "sos_adj": 1783.427,
-      "power": 1668.559,
+      "sos": 1647.857,
+      "sos_adj": 1785.357,
+      "power": 1669.041,
       "rank": 6,
-      "mw_rating": 126.6,
-      "mw_points": 1013
+      "mw_rating": 126.9,
+      "mw_points": 1015
     },
     {
       "teamno": "44983",
@@ -119,9 +119,9 @@
       "pf": 458,
       "pa": 571,
       "diff": -113,
-      "sos": 1660.655,
-      "sos_adj": 1797.019,
-      "power": 1630.734,
+      "sos": 1662.059,
+      "sos_adj": 1798.423,
+      "power": 1631.085,
       "rank": 7,
       "mw_rating": 105.5,
       "mw_points": 1160

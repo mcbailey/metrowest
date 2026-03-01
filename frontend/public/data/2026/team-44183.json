@@ -5,26 +5,45 @@
   "team_name": "D4M-Parkway  (red)",
   "town": null,
   "summary": {
-    "wins": 11,
+    "wins": 12,
     "losses": 3,
     "ties": 0,
-    "pf": 409,
-    "pa": 250,
-    "diff": 159,
-    "sos": 1499.221,
-    "sos_adj": 1506.364,
-    "power": 1570.492,
+    "pf": 446,
+    "pa": 268,
+    "diff": 178,
+    "sos": 1493.638,
+    "sos_adj": 1500.305,
+    "power": 1577.828,
     "rank": 1,
-    "mw_rating": 77.4,
-    "mw_points": 851,
+    "mw_rating": 77.8,
+    "mw_points": 933,
     "divisionno": "7322",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373801",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:45 AM",
+      "location": "Hopkinton Doyle Gym",
+      "divisionno": "7322",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "45632",
+      "away_teamno": "44183",
+      "home_score": 18,
+      "away_score": 37,
+      "team_score": 37,
+      "opponent_score": 18,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45632",
+      "opponent_name": "D4M-Hopkinton (sakakeeny)"
+    },
     {
       "gameno": "373791",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "Chelmsford (Marroon A)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373801",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:45 AM",
-      "location": "Hopkinton Doyle Gym",
-      "divisionno": "7322",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "45632",
-      "away_teamno": "44183",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45632",
-      "opponent_name": "D4M-Hopkinton (sakakeeny)"
-    }
-  ]
+  "future_games": []
 }

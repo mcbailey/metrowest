@@ -17,12 +17,12 @@
       "pf": 496,
       "pa": 321,
       "diff": 175,
-      "sos": 1543.833,
-      "sos_adj": 1593.833,
-      "power": 1634.298,
+      "sos": 1542.862,
+      "sos_adj": 1592.862,
+      "power": 1634.055,
       "rank": 1,
-      "mw_rating": 112.3,
-      "mw_points": 1235
+      "mw_rating": 112.6,
+      "mw_points": 1239
     },
     {
       "teamno": "43304",
@@ -38,8 +38,8 @@
       "sos_adj": 1610.525,
       "power": 1621.977,
       "rank": 2,
-      "mw_rating": 98.3,
-      "mw_points": 1180
+      "mw_rating": 98.4,
+      "mw_points": 1181
     },
     {
       "teamno": "44475",
@@ -55,8 +55,8 @@
       "sos_adj": 1616.098,
       "power": 1609.025,
       "rank": 3,
-      "mw_rating": 99.1,
-      "mw_points": 1189
+      "mw_rating": 99.2,
+      "mw_points": 1190
     },
     {
       "teamno": "44650",
@@ -72,42 +72,25 @@
       "sos_adj": 1612.939,
       "power": 1571.175,
       "rank": 4,
-      "mw_rating": 85.9,
-      "mw_points": 1031
+      "mw_rating": 86.3,
+      "mw_points": 1035
     },
     {
       "teamno": "43592",
       "name": "D3H-North Quincy (nahas)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 6,
       "ties": 0,
-      "pf": 261,
-      "pa": 343,
-      "diff": -82,
-      "sos": 1556.936,
-      "sos_adj": 1611.482,
-      "power": 1540.539,
+      "pf": 293,
+      "pa": 370,
+      "diff": -77,
+      "sos": 1548.84,
+      "sos_adj": 1603.007,
+      "power": 1548.618,
       "rank": 5,
-      "mw_rating": 78.4,
-      "mw_points": 862
-    },
-    {
-      "teamno": "44487",
-      "name": "D3H-Easton (black)",
-      "town": null,
-      "wins": 2,
-      "losses": 11,
-      "ties": 0,
-      "pf": 274,
-      "pa": 395,
-      "diff": -121,
-      "sos": 1562.071,
-      "sos_adj": 1608.225,
-      "power": 1507.093,
-      "rank": 6,
-      "mw_rating": 57.7,
-      "mw_points": 635
+      "mw_rating": 81.2,
+      "mw_points": 974
     },
     {
       "teamno": "43552",
@@ -122,9 +105,26 @@
       "sos": 1546.085,
       "sos_adj": 1600.631,
       "power": 1505.135,
+      "rank": 6,
+      "mw_rating": 65.8,
+      "mw_points": 724
+    },
+    {
+      "teamno": "44487",
+      "name": "D3H-Easton (black)",
+      "town": null,
+      "wins": 2,
+      "losses": 12,
+      "ties": 0,
+      "pf": 301,
+      "pa": 427,
+      "diff": -126,
+      "sos": 1559.815,
+      "sos_adj": 1606.244,
+      "power": 1496.399,
       "rank": 7,
-      "mw_rating": 65.7,
-      "mw_points": 723
+      "mw_rating": 56.7,
+      "mw_points": 680
     },
     {
       "teamno": "43129",

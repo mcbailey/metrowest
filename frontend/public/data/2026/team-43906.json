@@ -5,26 +5,45 @@
   "team_name": "D6Q-Wellesley (b)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 2,
     "ties": 0,
-    "pf": 376,
-    "pa": 302,
-    "diff": 74,
-    "sos": 1398.412,
-    "sos_adj": 1303.412,
-    "power": 1400.503,
-    "rank": 2,
-    "mw_rating": 31.0,
-    "mw_points": 310,
+    "pf": 424,
+    "pa": 330,
+    "diff": 94,
+    "sos": 1395.826,
+    "sos_adj": 1300.371,
+    "power": 1415.641,
+    "rank": 1,
+    "mw_rating": 31.4,
+    "mw_points": 345,
     "divisionno": "7177",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380056",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:45 PM",
+      "location": "Southborough Mary Finn School",
+      "divisionno": "7177",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "43873",
+      "away_teamno": "43906",
+      "home_score": 28,
+      "away_score": 48,
+      "team_score": 48,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43873",
+      "opponent_name": "D6Q-Southboro (white)"
+    },
     {
       "gameno": "379873",
       "date": "2026-02-28",
@@ -216,25 +235,5 @@
       "opponent_name": "D6Q-Framingham (gray)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380056",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:45 PM",
-      "location": "Southborough Mary Finn School",
-      "divisionno": "7177",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "43873",
-      "away_teamno": "43906",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43873",
-      "opponent_name": "D6Q-Southboro (white)"
-    }
-  ]
+  "future_games": []
 }

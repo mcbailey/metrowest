@@ -5,26 +5,45 @@
   "team_name": "D7P-Attleboro (white)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 1,
     "ties": 0,
-    "pf": 327,
-    "pa": 178,
-    "diff": 149,
-    "sos": 1348.266,
-    "sos_adj": 1207.357,
-    "power": 1369.792,
+    "pf": 364,
+    "pa": 196,
+    "diff": 168,
+    "sos": 1348.784,
+    "sos_adj": 1207.117,
+    "power": 1385.164,
     "rank": 1,
-    "mw_rating": 22.5,
-    "mw_points": 247,
+    "mw_rating": 22.7,
+    "mw_points": 272,
     "divisionno": "7591",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385632",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:00 PM",
+      "location": "Attleboro Brennan Middle School",
+      "divisionno": "7592",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44636",
+      "away_teamno": "45441",
+      "home_score": 37,
+      "away_score": 18,
+      "team_score": 37,
+      "opponent_score": 18,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45441",
+      "opponent_name": "D7Q-Milton (grey)"
+    },
     {
       "gameno": "385623",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D7R-Parkway  (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385632",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:00 PM",
-      "location": "Attleboro Brennan Middle School",
-      "divisionno": "7592",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44636",
-      "away_teamno": "45441",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45441",
-      "opponent_name": "D7Q-Milton (grey)"
-    }
-  ]
+  "future_games": []
 }

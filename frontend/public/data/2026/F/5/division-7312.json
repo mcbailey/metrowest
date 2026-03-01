@@ -17,12 +17,12 @@
       "pf": 397,
       "pa": 122,
       "diff": 275,
-      "sos": 1436.552,
-      "sos_adj": 1386.552,
-      "power": 1513.117,
+      "sos": 1435.186,
+      "sos_adj": 1385.186,
+      "power": 1512.776,
       "rank": 1,
       "mw_rating": 51.8,
-      "mw_points": 621
+      "mw_points": 622
     },
     {
       "teamno": "43334",
@@ -34,12 +34,12 @@
       "pf": 353,
       "pa": 139,
       "diff": 214,
-      "sos": 1457.375,
-      "sos_adj": 1415.709,
-      "power": 1497.303,
+      "sos": 1456.009,
+      "sos_adj": 1414.343,
+      "power": 1496.962,
       "rank": 2,
-      "mw_rating": 51.5,
-      "mw_points": 618
+      "mw_rating": 51.6,
+      "mw_points": 619
     },
     {
       "teamno": "44211",
@@ -55,42 +55,42 @@
       "sos_adj": 1408.122,
       "power": 1440.638,
       "rank": 3,
-      "mw_rating": 33.2,
-      "mw_points": 398
+      "mw_rating": 33.3,
+      "mw_points": 399
     },
     {
       "teamno": "45731",
       "name": "D5J-West Bridgewater (spillane)",
       "town": null,
       "wins": 4,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 156,
-      "pa": 294,
-      "diff": -138,
-      "sos": 1454.96,
-      "sos_adj": 1404.96,
-      "power": 1424.073,
+      "pf": 183,
+      "pa": 323,
+      "diff": -140,
+      "sos": 1451.114,
+      "sos_adj": 1401.114,
+      "power": 1414.897,
       "rank": 4,
-      "mw_rating": 27.7,
-      "mw_points": 277
+      "mw_rating": 26.1,
+      "mw_points": 287
     },
     {
       "teamno": "43303",
       "name": "D5J-Franklin",
       "town": null,
       "wins": 5,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 216,
-      "pa": 204,
-      "diff": 12,
-      "sos": 1454.241,
-      "sos_adj": 1404.241,
-      "power": 1417.508,
+      "pf": 226,
+      "pa": 234,
+      "diff": -8,
+      "sos": 1461.68,
+      "sos_adj": 1415.847,
+      "power": 1408.116,
       "rank": 5,
-      "mw_rating": 31.8,
-      "mw_points": 318
+      "mw_rating": 31.2,
+      "mw_points": 343
     },
     {
       "teamno": "44597",
@@ -123,8 +123,8 @@
       "sos_adj": 1411.78,
       "power": 1358.04,
       "rank": 7,
-      "mw_rating": 15.4,
-      "mw_points": 169
+      "mw_rating": 15.5,
+      "mw_points": 170
     }
   ]
 }

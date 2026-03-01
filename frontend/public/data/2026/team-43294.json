@@ -5,26 +5,45 @@
   "team_name": "D2AJ-Franklin",
   "town": null,
   "summary": {
-    "wins": 3,
+    "wins": 4,
     "losses": 13,
     "ties": 0,
-    "pf": 537,
-    "pa": 694,
-    "diff": -157,
-    "sos": 1612.85,
-    "sos_adj": 1719.1,
-    "power": 1559.153,
+    "pf": 575,
+    "pa": 727,
+    "diff": -152,
+    "sos": 1607.288,
+    "sos_adj": 1713.17,
+    "power": 1568.889,
     "rank": 5,
-    "mw_rating": 92.6,
-    "mw_points": 1018,
+    "mw_rating": 97.8,
+    "mw_points": 1173,
     "divisionno": "7308",
     "division_name": "5th Boys - Division 2",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374272",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:15 PM",
+      "location": "King Philip Jackson School (Plainville)",
+      "divisionno": "7308",
+      "division_name": "5th Boys - Division 2",
+      "home_teamno": "44292",
+      "away_teamno": "43294",
+      "home_score": 33,
+      "away_score": 38,
+      "team_score": 38,
+      "opponent_score": 33,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44292",
+      "opponent_name": "D2AJ-King Philip"
+    },
     {
       "gameno": "376852",
       "date": "2026-02-22",
@@ -330,25 +349,5 @@
       "opponent_name": "D2AJ-King Philip"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374272",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:15 PM",
-      "location": "King Philip Jackson School (Plainville)",
-      "divisionno": "7308",
-      "division_name": "5th Boys - Division 2",
-      "home_teamno": "44292",
-      "away_teamno": "43294",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44292",
-      "opponent_name": "D2AJ-King Philip"
-    }
-  ]
+  "future_games": []
 }

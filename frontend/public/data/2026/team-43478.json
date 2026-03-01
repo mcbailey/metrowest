@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 14,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 720,
-    "pa": 537,
-    "diff": 183,
-    "sos": 1436.766,
-    "sos_adj": 1377.391,
-    "power": 1499.575,
+    "pf": 759,
+    "pa": 585,
+    "diff": 174,
+    "sos": 1439.181,
+    "sos_adj": 1380.357,
+    "power": 1479.455,
     "rank": 2,
-    "mw_rating": 48.2,
-    "mw_points": 530,
+    "mw_rating": 45.1,
+    "mw_points": 541,
     "divisionno": "7212",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378291",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:20 PM",
+      "location": "Bellingham High School",
+      "divisionno": "7214",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43184",
+      "away_teamno": "43478",
+      "home_score": 48,
+      "away_score": 39,
+      "team_score": 39,
+      "opponent_score": 48,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43184",
+      "opponent_name": "D5K-Bellingham"
+    },
     {
       "gameno": "378304",
       "date": "2026-02-22",
@@ -330,25 +349,5 @@
       "opponent_name": "D6R-Newton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378291",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:20 PM",
-      "location": "Bellingham High School",
-      "divisionno": "7214",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "43184",
-      "away_teamno": "43478",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43184",
-      "opponent_name": "D5K-Bellingham"
-    }
-  ]
+  "future_games": []
 }

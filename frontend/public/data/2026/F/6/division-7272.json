@@ -21,8 +21,25 @@
       "sos_adj": 1396.389,
       "power": 1530.058,
       "rank": 1,
-      "mw_rating": 57.4,
-      "mw_points": 574
+      "mw_rating": 57.5,
+      "mw_points": 575
+    },
+    {
+      "teamno": "43943",
+      "name": "D5R-Brookline (white)",
+      "town": null,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "pf": 277,
+      "pa": 255,
+      "diff": 22,
+      "sos": 1446.22,
+      "sos_adj": 1396.22,
+      "power": 1475.54,
+      "rank": 2,
+      "mw_rating": 35.5,
+      "mw_points": 390
     },
     {
       "teamno": "44434",
@@ -37,26 +54,9 @@
       "sos": 1451.211,
       "sos_adj": 1401.211,
       "power": 1467.684,
-      "rank": 2,
-      "mw_rating": 51.9,
-      "mw_points": 519
-    },
-    {
-      "teamno": "43943",
-      "name": "D5R-Brookline (white)",
-      "town": null,
-      "wins": 6,
-      "losses": 6,
-      "ties": 0,
-      "pf": 245,
-      "pa": 243,
-      "diff": 2,
-      "sos": 1447.754,
-      "sos_adj": 1397.754,
-      "power": 1459.228,
       "rank": 3,
-      "mw_rating": 32.7,
-      "mw_points": 327
+      "mw_rating": 52.0,
+      "mw_points": 520
     },
     {
       "teamno": "44222",
@@ -72,8 +72,8 @@
       "sos_adj": 1400.054,
       "power": 1450.567,
       "rank": 4,
-      "mw_rating": 34.4,
-      "mw_points": 378
+      "mw_rating": 34.5,
+      "mw_points": 379
     },
     {
       "teamno": "44993",
@@ -102,12 +102,12 @@
       "pf": 192,
       "pa": 290,
       "diff": -98,
-      "sos": 1460.966,
-      "sos_adj": 1410.966,
-      "power": 1396.041,
+      "sos": 1463.192,
+      "sos_adj": 1413.192,
+      "power": 1396.598,
       "rank": 6,
-      "mw_rating": 17.1,
-      "mw_points": 188
+      "mw_rating": 17.2,
+      "mw_points": 189
     }
   ]
 }

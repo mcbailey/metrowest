@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 227,
-    "pa": 254,
-    "diff": -27,
-    "sos": 1641.693,
-    "sos_adj": 1787.148,
-    "power": 1659.491,
+    "pf": 236,
+    "pa": 288,
+    "diff": -52,
+    "sos": 1644.1,
+    "sos_adj": 1789.933,
+    "power": 1647.183,
     "rank": 4,
-    "mw_rating": 97.3,
-    "mw_points": 1070,
+    "mw_rating": 95.0,
+    "mw_points": 1140,
     "divisionno": "7545",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384062",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:30 PM",
+      "location": "North Quincy High School (Ct 2)",
+      "divisionno": "7545",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "43600",
+      "away_teamno": "44346",
+      "home_score": 34,
+      "away_score": 9,
+      "team_score": 9,
+      "opponent_score": 34,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43600",
+      "opponent_name": "D2L-North Quincy (costa)"
+    },
     {
       "gameno": "384055",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D2M-Natick"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384062",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:30 PM",
-      "location": "North Quincy High School (Ct 2)",
-      "divisionno": "7545",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "43600",
-      "away_teamno": "44346",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43600",
-      "opponent_name": "D2L-North Quincy (costa)"
-    }
-  ]
+  "future_games": []
 }

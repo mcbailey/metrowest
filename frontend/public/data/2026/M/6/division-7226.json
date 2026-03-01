@@ -8,6 +8,23 @@
   "divisiontier": "3",
   "rankings": [
     {
+      "teamno": "45145",
+      "name": "D3J-North Quincy (regan)",
+      "town": null,
+      "wins": 7,
+      "losses": 5,
+      "ties": 0,
+      "pf": 583,
+      "pa": 560,
+      "diff": 23,
+      "sos": 1524.614,
+      "sos_adj": 1574.614,
+      "power": 1574.307,
+      "rank": 1,
+      "mw_rating": 85.7,
+      "mw_points": 1028
+    },
+    {
       "teamno": "44421",
       "name": "D3J-Norton (purple)",
       "town": null,
@@ -20,26 +37,9 @@
       "sos": 1523.76,
       "sos_adj": 1565.427,
       "power": 1570.128,
-      "rank": 1,
-      "mw_rating": 84.6,
-      "mw_points": 931
-    },
-    {
-      "teamno": "45145",
-      "name": "D3J-North Quincy (regan)",
-      "town": null,
-      "wins": 6,
-      "losses": 5,
-      "ties": 0,
-      "pf": 508,
-      "pa": 521,
-      "diff": -13,
-      "sos": 1533.045,
-      "sos_adj": 1583.045,
-      "power": 1564.745,
       "rank": 2,
-      "mw_rating": 83.5,
-      "mw_points": 918
+      "mw_rating": 84.7,
+      "mw_points": 932
     },
     {
       "teamno": "43691",
@@ -51,9 +51,9 @@
       "pf": 614,
       "pa": 573,
       "diff": 41,
-      "sos": 1562.696,
-      "sos_adj": 1626.981,
-      "power": 1558.281,
+      "sos": 1561.584,
+      "sos_adj": 1625.87,
+      "power": 1558.003,
       "rank": 3,
       "mw_rating": 90.1,
       "mw_points": 991
@@ -68,12 +68,12 @@
       "pf": 564,
       "pa": 518,
       "diff": 46,
-      "sos": 1539.666,
-      "sos_adj": 1589.666,
-      "power": 1554.875,
+      "sos": 1540.778,
+      "sos_adj": 1590.778,
+      "power": 1555.153,
       "rank": 4,
-      "mw_rating": 81.0,
-      "mw_points": 891
+      "mw_rating": 81.2,
+      "mw_points": 893
     },
     {
       "teamno": "44580",
@@ -102,29 +102,29 @@
       "pf": 496,
       "pa": 617,
       "diff": -121,
-      "sos": 1560.949,
-      "sos_adj": 1619.282,
-      "power": 1506.374,
+      "sos": 1562.246,
+      "sos_adj": 1620.579,
+      "power": 1506.698,
       "rank": 6,
-      "mw_rating": 60.3,
-      "mw_points": 663
+      "mw_rating": 60.4,
+      "mw_points": 664
     },
     {
       "teamno": "45242",
       "name": "D3J-Medfield (taverni)",
       "town": null,
       "wins": 0,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 377,
-      "pa": 580,
-      "diff": -203,
-      "sos": 1553.068,
-      "sos_adj": 1603.068,
-      "power": 1486.339,
+      "pf": 416,
+      "pa": 655,
+      "diff": -239,
+      "sos": 1554.829,
+      "sos_adj": 1604.829,
+      "power": 1475.109,
       "rank": 7,
-      "mw_rating": 45.9,
-      "mw_points": 459
+      "mw_rating": 45.8,
+      "mw_points": 504
     }
   ]
 }

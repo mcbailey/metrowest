@@ -21,8 +21,8 @@
       "sos_adj": 1701.16,
       "power": 1703.359,
       "rank": 1,
-      "mw_rating": 180.1,
-      "mw_points": 1981
+      "mw_rating": 180.4,
+      "mw_points": 1984
     },
     {
       "teamno": "44874",
@@ -34,12 +34,12 @@
       "pf": 759,
       "pa": 595,
       "diff": 164,
-      "sos": 1566.745,
-      "sos_adj": 1641.745,
-      "power": 1655.07,
+      "sos": 1565.914,
+      "sos_adj": 1640.914,
+      "power": 1654.862,
       "rank": 2,
-      "mw_rating": 133.4,
-      "mw_points": 1467
+      "mw_rating": 133.5,
+      "mw_points": 1468
     },
     {
       "teamno": "44968",
@@ -55,42 +55,42 @@
       "sos_adj": 1695.876,
       "power": 1609.613,
       "rank": 3,
-      "mw_rating": 105.7,
-      "mw_points": 1163
+      "mw_rating": 105.8,
+      "mw_points": 1164
     },
     {
       "teamno": "44292",
       "name": "D2AJ-King Philip",
       "town": null,
       "wins": 5,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 593,
-      "pa": 652,
-      "diff": -59,
-      "sos": 1609.482,
-      "sos_adj": 1709.482,
-      "power": 1588.529,
+      "pf": 626,
+      "pa": 690,
+      "diff": -64,
+      "sos": 1604.567,
+      "sos_adj": 1704.567,
+      "power": 1576.081,
       "rank": 4,
-      "mw_rating": 103.8,
-      "mw_points": 1142
+      "mw_rating": 101.2,
+      "mw_points": 1214
     },
     {
       "teamno": "43294",
       "name": "D2AJ-Franklin",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 13,
       "ties": 0,
-      "pf": 537,
-      "pa": 694,
-      "diff": -157,
-      "sos": 1612.85,
-      "sos_adj": 1719.1,
-      "power": 1559.153,
+      "pf": 575,
+      "pa": 727,
+      "diff": -152,
+      "sos": 1607.288,
+      "sos_adj": 1713.17,
+      "power": 1568.889,
       "rank": 5,
-      "mw_rating": 92.6,
-      "mw_points": 1018
+      "mw_rating": 97.8,
+      "mw_points": 1173
     }
   ]
 }

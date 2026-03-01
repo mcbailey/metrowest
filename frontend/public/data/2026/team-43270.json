@@ -5,26 +5,45 @@
   "team_name": "D3H-Dartmouth",
   "town": null,
   "summary": {
-    "wins": 16,
+    "wins": 17,
     "losses": 5,
     "ties": 0,
-    "pf": 809,
-    "pa": 658,
-    "diff": 151,
-    "sos": 1537.967,
-    "sos_adj": 1583.205,
-    "power": 1633.711,
+    "pf": 848,
+    "pa": 684,
+    "diff": 164,
+    "sos": 1539.912,
+    "sos_adj": 1587.64,
+    "power": 1657.22,
     "rank": 1,
-    "mw_rating": 112.0,
-    "mw_points": 1120,
+    "mw_rating": 116.4,
+    "mw_points": 1280,
     "divisionno": "7246",
     "division_name": "8th Girls - Division 3",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 21,
-    "games_scheduled_total": 1
+    "games_played_total": 22,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380155",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:00 PM",
+      "location": "Longplex",
+      "divisionno": "7246",
+      "division_name": "8th Girls - Division 3",
+      "home_teamno": "43270",
+      "away_teamno": "43692",
+      "home_score": 39,
+      "away_score": 26,
+      "team_score": 39,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43692",
+      "opponent_name": "D2BH-Sharon (gold)"
+    },
     {
       "gameno": "380131",
       "date": "2026-02-22",
@@ -425,25 +444,5 @@
       "opponent_name": "Plymouth (PGBL 7A)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380155",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:00 PM",
-      "location": "Longplex",
-      "divisionno": "7246",
-      "division_name": "8th Girls - Division 3",
-      "home_teamno": "43270",
-      "away_teamno": "43692",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43692",
-      "opponent_name": "D2BH-Sharon (gold)"
-    }
-  ]
+  "future_games": []
 }

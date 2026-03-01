@@ -28,18 +28,18 @@
       "teamno": "43935",
       "name": "D2M-Brookline (red)",
       "town": null,
-      "wins": 13,
+      "wins": 14,
       "losses": 4,
       "ties": 0,
-      "pf": 942,
-      "pa": 720,
-      "diff": 222,
-      "sos": 1590.736,
-      "sos_adj": 1678.972,
-      "power": 1665.016,
+      "pf": 998,
+      "pa": 761,
+      "diff": 237,
+      "sos": 1586.548,
+      "sos_adj": 1675.437,
+      "power": 1672.494,
       "rank": 2,
-      "mw_rating": 136.6,
-      "mw_points": 1366
+      "mw_rating": 138.0,
+      "mw_points": 1518
     },
     {
       "teamno": "45249",
@@ -55,8 +55,8 @@
       "sos_adj": 1706.658,
       "power": 1656.25,
       "rank": 3,
-      "mw_rating": 137.8,
-      "mw_points": 1516
+      "mw_rating": 137.9,
+      "mw_points": 1517
     },
     {
       "teamno": "44045",
@@ -72,25 +72,25 @@
       "sos_adj": 1706.232,
       "power": 1609.55,
       "rank": 4,
-      "mw_rating": 112.0,
-      "mw_points": 1344
+      "mw_rating": 112.1,
+      "mw_points": 1345
     },
     {
       "teamno": "45504",
       "name": "D2M-Everett",
       "town": null,
       "wins": 2,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 472,
-      "pa": 637,
-      "diff": -165,
-      "sos": 1608.178,
-      "sos_adj": 1708.178,
-      "power": 1571.915,
+      "pf": 513,
+      "pa": 693,
+      "diff": -180,
+      "sos": 1613.05,
+      "sos_adj": 1713.05,
+      "power": 1564.772,
       "rank": 5,
-      "mw_rating": 89.3,
-      "mw_points": 982
+      "mw_rating": 87.7,
+      "mw_points": 1052
     }
   ]
 }

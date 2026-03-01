@@ -17,12 +17,29 @@
       "pf": 595,
       "pa": 313,
       "diff": 282,
-      "sos": 1510.821,
-      "sos_adj": 1523.321,
-      "power": 1588.648,
+      "sos": 1513.019,
+      "sos_adj": 1525.519,
+      "power": 1589.198,
       "rank": 1,
-      "mw_rating": 84.0,
-      "mw_points": 840
+      "mw_rating": 84.2,
+      "mw_points": 842
+    },
+    {
+      "teamno": "45332",
+      "name": "D4J-Milton (white)",
+      "town": null,
+      "wins": 7,
+      "losses": 9,
+      "ties": 0,
+      "pf": 454,
+      "pa": 516,
+      "diff": -62,
+      "sos": 1518.243,
+      "sos_adj": 1530.743,
+      "power": 1532.827,
+      "rank": 2,
+      "mw_rating": 55.7,
+      "mw_points": 668
     },
     {
       "teamno": "44178",
@@ -37,43 +54,26 @@
       "sos": 1499.99,
       "sos_adj": 1495.823,
       "power": 1517.326,
-      "rank": 2,
+      "rank": 3,
       "mw_rating": 55.8,
-      "mw_points": 669
+      "mw_points": 670
     },
     {
       "teamno": "45586",
       "name": "D4J-Stoughton",
       "town": null,
       "wins": 5,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "pf": 318,
-      "pa": 302,
-      "diff": 16,
-      "sos": 1502.239,
-      "sos_adj": 1496.683,
-      "power": 1516.076,
-      "rank": 3,
-      "mw_rating": 53.9,
-      "mw_points": 485
-    },
-    {
-      "teamno": "45332",
-      "name": "D4J-Milton (white)",
-      "town": null,
-      "wins": 6,
-      "losses": 9,
-      "ties": 0,
-      "pf": 412,
-      "pa": 491,
-      "diff": -79,
-      "sos": 1521.474,
-      "sos_adj": 1534.808,
-      "power": 1514.053,
+      "pf": 343,
+      "pa": 344,
+      "diff": -1,
+      "sos": 1508.006,
+      "sos_adj": 1503.006,
+      "power": 1497.866,
       "rank": 4,
-      "mw_rating": 53.3,
-      "mw_points": 586
+      "mw_rating": 51.1,
+      "mw_points": 511
     },
     {
       "teamno": "44878",
@@ -106,8 +106,8 @@
       "sos_adj": 1512.376,
       "power": 1489.341,
       "rank": 6,
-      "mw_rating": 45.7,
-      "mw_points": 503
+      "mw_rating": 45.8,
+      "mw_points": 504
     }
   ]
 }

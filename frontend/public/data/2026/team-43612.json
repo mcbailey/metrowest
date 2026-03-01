@@ -5,26 +5,45 @@
   "team_name": "D5J-Norwood (white)",
   "town": null,
   "summary": {
-    "wins": 1,
+    "wins": 2,
     "losses": 10,
     "ties": 0,
-    "pf": 343,
-    "pa": 488,
-    "diff": -145,
-    "sos": 1450.021,
-    "sos_adj": 1386.385,
-    "power": 1358.33,
+    "pf": 394,
+    "pa": 506,
+    "diff": -112,
+    "sos": 1443.333,
+    "sos_adj": 1376.667,
+    "power": 1378.574,
     "rank": 8,
-    "mw_rating": 11.0,
-    "mw_points": 121,
+    "mw_rating": 13.3,
+    "mw_points": 159,
     "divisionno": "7180",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "389547",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:50 AM",
+      "location": "\u201cOLD\u201d Westport High School",
+      "divisionno": "7173",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "43840",
+      "away_teamno": "43612",
+      "home_score": 18,
+      "away_score": 51,
+      "team_score": 51,
+      "opponent_score": 18,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43840",
+      "opponent_name": "D6H-Westport (gallant)"
+    },
     {
       "gameno": "379880",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D5H-FLBC (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "389547",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:50 AM",
-      "location": "\u201cOLD\u201d Westport High School",
-      "divisionno": "7173",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "43840",
-      "away_teamno": "43612",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43840",
-      "opponent_name": "D6H-Westport (gallant)"
-    }
-  ]
+  "future_games": []
 }
