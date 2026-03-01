@@ -7,22 +7,22 @@
   "summary": {
     "wins": 4,
     "losses": 6,
-    "ties": 0,
+    "ties": 1,
     "pf": 291,
     "pa": 313,
     "diff": -22,
-    "sos": 1533.48,
-    "sos_adj": 1583.48,
-    "power": 1526.193,
-    "rank": 5,
-    "mw_rating": 72.7,
-    "mw_points": 727,
+    "sos": 1534.707,
+    "sos_adj": 1584.707,
+    "power": 1526.886,
+    "rank": 6,
+    "mw_rating": 66.4,
+    "mw_points": 730,
     "divisionno": "7263",
     "division_name": "7th Girls - Division 3",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 2
+    "games_played_total": 11,
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": false,
       "opponent_teamno": "43843",
       "opponent_name": "D3H-Raynham (kinney)"
+    },
+    {
+      "gameno": "378158",
+      "date": "2026-02-22",
+      "dow": "Sun",
+      "starttime": "8:30 AM",
+      "location": "Dover Sherborn High School",
+      "divisionno": "7263",
+      "division_name": "7th Girls - Division 3",
+      "home_teamno": "44771",
+      "away_teamno": "45153",
+      "home_score": 0,
+      "away_score": 0,
+      "team_score": 0,
+      "opponent_score": 0,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44771",
+      "opponent_name": "D3J-Dover Sherborn (case)"
     },
     {
       "gameno": "378144",
@@ -217,25 +236,6 @@
     }
   ],
   "future_games": [
-    {
-      "gameno": "378158",
-      "date": "2026-02-22",
-      "dow": "Sun",
-      "starttime": "8:30 AM",
-      "location": "Dover Sherborn High School",
-      "divisionno": "7263",
-      "division_name": "7th Girls - Division 3",
-      "home_teamno": "44771",
-      "away_teamno": "45153",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44771",
-      "opponent_name": "D3J-Dover Sherborn (case)"
-    },
     {
       "gameno": "378164",
       "date": "2026-03-01",

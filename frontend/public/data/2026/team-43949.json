@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 459,
-    "pa": 448,
-    "diff": 11,
-    "sos": 1547.484,
-    "sos_adj": 1601.65,
-    "power": 1583.648,
+    "pf": 483,
+    "pa": 489,
+    "diff": -6,
+    "sos": 1553.67,
+    "sos_adj": 1607.516,
+    "power": 1568.298,
     "rank": 3,
-    "mw_rating": 88.8,
-    "mw_points": 977,
+    "mw_rating": 85.2,
+    "mw_points": 1022,
     "divisionno": "7279",
     "division_name": "6th Girls - Division 3",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375925",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:10 AM",
+      "location": "Westwood High School",
+      "divisionno": "7279",
+      "division_name": "6th Girls - Division 3",
+      "home_teamno": "45129",
+      "away_teamno": "43949",
+      "home_score": 41,
+      "away_score": 24,
+      "team_score": 24,
+      "opponent_score": 41,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45129",
+      "opponent_name": "D3J-Westwood"
+    },
     {
       "gameno": "375932",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D2-Canton (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375925",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:10 AM",
-      "location": "Westwood High School",
-      "divisionno": "7279",
-      "division_name": "6th Girls - Division 3",
-      "home_teamno": "45129",
-      "away_teamno": "43949",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45129",
-      "opponent_name": "D3J-Westwood"
-    }
-  ]
+  "future_games": []
 }

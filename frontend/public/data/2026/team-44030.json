@@ -5,26 +5,45 @@
   "team_name": "D5W-Newton (orange)",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 1,
     "ties": 0,
-    "pf": 276,
-    "pa": 146,
-    "diff": 130,
-    "sos": 1442.716,
-    "sos_adj": 1392.716,
-    "power": 1497.377,
+    "pf": 296,
+    "pa": 163,
+    "diff": 133,
+    "sos": 1444.039,
+    "sos_adj": 1394.039,
+    "power": 1504.899,
     "rank": 1,
-    "mw_rating": 51.4,
-    "mw_points": 514,
+    "mw_rating": 52.5,
+    "mw_points": 577,
     "divisionno": "7318",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380488",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:20 AM",
+      "location": "Newton Boys and Girls Club",
+      "divisionno": "7318",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44030",
+      "away_teamno": "44174",
+      "home_score": 20,
+      "away_score": 17,
+      "team_score": 20,
+      "opponent_score": 17,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44174",
+      "opponent_name": "D5T-Holliston (ennis)"
+    },
     {
       "gameno": "380475",
       "date": "2026-02-26",
@@ -216,25 +235,5 @@
       "opponent_name": "D5T-Wellesley (b)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380488",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:20 AM",
-      "location": "Newton Boys and Girls Club",
-      "divisionno": "7318",
-      "division_name": "5th Girls - Division 5",
-      "home_teamno": "44030",
-      "away_teamno": "44174",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44174",
-      "opponent_name": "D5T-Holliston (ennis)"
-    }
-  ]
+  "future_games": []
 }

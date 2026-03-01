@@ -21,8 +21,8 @@
       "sos_adj": 1621.829,
       "power": 1606.487,
       "rank": 1,
-      "mw_rating": 106.1,
-      "mw_points": 1167
+      "mw_rating": 106.2,
+      "mw_points": 1168
     },
     {
       "teamno": "44343",
@@ -38,8 +38,8 @@
       "sos_adj": 1597.701,
       "power": 1593.586,
       "rank": 2,
-      "mw_rating": 88.6,
-      "mw_points": 975
+      "mw_rating": 88.7,
+      "mw_points": 976
     },
     {
       "teamno": "44084",
@@ -55,25 +55,25 @@
       "sos_adj": 1604.625,
       "power": 1589.132,
       "rank": 3,
-      "mw_rating": 89.4,
-      "mw_points": 983
+      "mw_rating": 89.5,
+      "mw_points": 984
     },
     {
       "teamno": "45054",
       "name": "D3J-Medfield (hatten)",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 8,
       "ties": 0,
-      "pf": 270,
-      "pa": 249,
-      "diff": 21,
-      "sos": 1543.924,
-      "sos_adj": 1584.833,
-      "power": 1562.846,
+      "pf": 305,
+      "pa": 268,
+      "diff": 37,
+      "sos": 1534.984,
+      "sos_adj": 1576.65,
+      "power": 1574.075,
       "rank": 4,
-      "mw_rating": 56.4,
-      "mw_points": 564
+      "mw_rating": 61.5,
+      "mw_points": 676
     },
     {
       "teamno": "44386",
@@ -89,25 +89,25 @@
       "sos_adj": 1558.766,
       "power": 1535.82,
       "rank": 5,
-      "mw_rating": 73.2,
-      "mw_points": 732
+      "mw_rating": 73.3,
+      "mw_points": 733
     },
     {
       "teamno": "43777",
       "name": "D3J-Millis (maroon)",
       "town": null,
       "wins": 1,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 209,
-      "pa": 296,
-      "diff": -87,
-      "sos": 1561.8,
-      "sos_adj": 1616.8,
-      "power": 1508.227,
+      "pf": 228,
+      "pa": 331,
+      "diff": -103,
+      "sos": 1564.447,
+      "sos_adj": 1618.992,
+      "power": 1495.501,
       "rank": 6,
-      "mw_rating": 54.8,
-      "mw_points": 548
+      "mw_rating": 54.0,
+      "mw_points": 594
     }
   ]
 }

@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 221,
-    "pa": 484,
-    "diff": -263,
-    "sos": 1471.821,
-    "sos_adj": 1442.655,
-    "power": 1374.36,
+    "pf": 250,
+    "pa": 536,
+    "diff": -286,
+    "sos": 1470.849,
+    "sos_adj": 1440.08,
+    "power": 1360.856,
     "rank": 9,
-    "mw_rating": 15.8,
-    "mw_points": 158,
+    "mw_rating": 15.3,
+    "mw_points": 168,
     "divisionno": "7581",
     "division_name": "4th Boys - Division 5",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385483",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:15 AM",
+      "location": "Bridgewater Mitchell Elementary ",
+      "divisionno": "7581",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "43426",
+      "away_teamno": "43628",
+      "home_score": 29,
+      "away_score": 52,
+      "team_score": 29,
+      "opponent_score": 52,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43628",
+      "opponent_name": "D5M-Middleborough (hufault)"
+    },
     {
       "gameno": "393862",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D5M-New Bedford"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385483",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:15 AM",
-      "location": "Bridgewater Mitchell Elementary ",
-      "divisionno": "7581",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "43426",
-      "away_teamno": "43628",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43628",
-      "opponent_name": "D5M-Middleborough (hufault)"
-    }
-  ]
+  "future_games": []
 }

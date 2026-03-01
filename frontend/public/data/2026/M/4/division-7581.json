@@ -21,8 +21,8 @@
       "sos_adj": 1392.83,
       "power": 1506.251,
       "rank": 1,
-      "mw_rating": 51.4,
-      "mw_points": 514
+      "mw_rating": 51.5,
+      "mw_points": 515
     },
     {
       "teamno": "44493",
@@ -34,12 +34,12 @@
       "pf": 419,
       "pa": 310,
       "diff": 109,
-      "sos": 1435.443,
-      "sos_adj": 1385.443,
-      "power": 1496.541,
+      "sos": 1437.158,
+      "sos_adj": 1387.158,
+      "power": 1496.97,
       "rank": 2,
-      "mw_rating": 46.2,
-      "mw_points": 462
+      "mw_rating": 46.3,
+      "mw_points": 463
     },
     {
       "teamno": "43827",
@@ -55,25 +55,25 @@
       "sos_adj": 1400.515,
       "power": 1471.559,
       "rank": 3,
-      "mw_rating": 46.2,
-      "mw_points": 462
+      "mw_rating": 46.3,
+      "mw_points": 463
     },
     {
       "teamno": "43628",
       "name": "D5M-Middleborough (hufault)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 5,
       "ties": 0,
-      "pf": 353,
-      "pa": 349,
-      "diff": 4,
-      "sos": 1462.946,
-      "sos_adj": 1412.946,
-      "power": 1434.765,
+      "pf": 405,
+      "pa": 378,
+      "diff": 27,
+      "sos": 1451.265,
+      "sos_adj": 1401.265,
+      "power": 1444.705,
       "rank": 4,
-      "mw_rating": 32.7,
-      "mw_points": 327
+      "mw_rating": 34.5,
+      "mw_points": 379
     },
     {
       "teamno": "43138",
@@ -90,7 +90,7 @@
       "power": 1430.576,
       "rank": 5,
       "mw_rating": 29.6,
-      "mw_points": 325
+      "mw_points": 326
     },
     {
       "teamno": "44283",
@@ -107,7 +107,7 @@
       "power": 1425.951,
       "rank": 6,
       "mw_rating": 31.8,
-      "mw_points": 381
+      "mw_points": 382
     },
     {
       "teamno": "45629",
@@ -136,9 +136,9 @@
       "pf": 259,
       "pa": 426,
       "diff": -167,
-      "sos": 1450.81,
-      "sos_adj": 1400.81,
-      "power": 1400.456,
+      "sos": 1449.095,
+      "sos_adj": 1399.095,
+      "power": 1400.027,
       "rank": 8,
       "mw_rating": 22.5,
       "mw_points": 225
@@ -148,17 +148,17 @@
       "name": "D5M-Bridgewater (rizzitano)",
       "town": null,
       "wins": 1,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 221,
-      "pa": 484,
-      "diff": -263,
-      "sos": 1471.821,
-      "sos_adj": 1442.655,
-      "power": 1374.36,
+      "pf": 250,
+      "pa": 536,
+      "diff": -286,
+      "sos": 1470.849,
+      "sos_adj": 1440.08,
+      "power": 1360.856,
       "rank": 9,
-      "mw_rating": 15.8,
-      "mw_points": 158
+      "mw_rating": 15.3,
+      "mw_points": 168
     }
   ]
 }

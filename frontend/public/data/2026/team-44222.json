@@ -5,26 +5,45 @@
   "team_name": "D5R-Southboro (white)",
   "town": null,
   "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 5,
     "ties": 0,
-    "pf": 227,
-    "pa": 195,
-    "diff": 32,
-    "sos": 1452.87,
-    "sos_adj": 1402.87,
-    "power": 1444.604,
+    "pf": 243,
+    "pa": 209,
+    "diff": 34,
+    "sos": 1450.054,
+    "sos_adj": 1400.054,
+    "power": 1450.567,
     "rank": 4,
-    "mw_rating": 32.0,
-    "mw_points": 320,
+    "mw_rating": 34.4,
+    "mw_points": 378,
     "divisionno": "7272",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380405",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:00 AM",
+      "location": "Southborough Trottier Middle School",
+      "divisionno": "7273",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "44222",
+      "away_teamno": "44772",
+      "home_score": 16,
+      "away_score": 14,
+      "team_score": 16,
+      "opponent_score": 14,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44772",
+      "opponent_name": "D5T-Belmont (navy)"
+    },
     {
       "gameno": "380394",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D5R-Northboro (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380405",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:00 AM",
-      "location": "Southborough Trottier Middle School",
-      "divisionno": "7273",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "44222",
-      "away_teamno": "44772",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44772",
-      "opponent_name": "D5T-Belmont (navy)"
-    }
-  ]
+  "future_games": []
 }

@@ -17,29 +17,29 @@
       "pf": 431,
       "pa": 310,
       "diff": 121,
-      "sos": 1404.845,
-      "sos_adj": 1313.179,
-      "power": 1433.3,
+      "sos": 1403.68,
+      "sos_adj": 1312.013,
+      "power": 1433.009,
       "rank": 1,
-      "mw_rating": 32.1,
-      "mw_points": 353
+      "mw_rating": 32.3,
+      "mw_points": 355
     },
     {
       "teamno": "44159",
       "name": "D6K-Holliston (flannery)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 4,
       "ties": 0,
-      "pf": 285,
-      "pa": 292,
-      "diff": -7,
-      "sos": 1412.753,
-      "sos_adj": 1322.753,
-      "power": 1409.465,
+      "pf": 312,
+      "pa": 310,
+      "diff": 2,
+      "sos": 1403.347,
+      "sos_adj": 1312.438,
+      "power": 1417.377,
       "rank": 2,
-      "mw_rating": 26.8,
-      "mw_points": 268
+      "mw_rating": 27.2,
+      "mw_points": 299
     },
     {
       "teamno": "43983",
@@ -55,25 +55,25 @@
       "sos_adj": 1309.06,
       "power": 1402.795,
       "rank": 3,
-      "mw_rating": 29.0,
-      "mw_points": 319
+      "mw_rating": 29.3,
+      "mw_points": 322
     },
     {
       "teamno": "45326",
       "name": "D6K-Milton (grey)",
       "town": null,
       "wins": 5,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 338,
-      "pa": 460,
-      "diff": -122,
-      "sos": 1421.941,
-      "sos_adj": 1337.325,
-      "power": 1384.705,
+      "pf": 361,
+      "pa": 490,
+      "diff": -129,
+      "sos": 1419.796,
+      "sos_adj": 1334.082,
+      "power": 1368.313,
       "rank": 4,
-      "mw_rating": 19.6,
-      "mw_points": 216
+      "mw_rating": 18.5,
+      "mw_points": 222
     },
     {
       "teamno": "45122",
@@ -89,8 +89,8 @@
       "sos_adj": 1313.837,
       "power": 1329.064,
       "rank": 5,
-      "mw_rating": 10.5,
-      "mw_points": 105
+      "mw_rating": 10.6,
+      "mw_points": 106
     }
   ]
 }

@@ -5,26 +5,45 @@
   "team_name": "D3H-North Attleboro (red)",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 3,
     "ties": 0,
-    "pf": 349,
-    "pa": 285,
-    "diff": 64,
-    "sos": 1547.583,
-    "sos_adj": 1597.583,
-    "power": 1596.052,
-    "rank": 2,
-    "mw_rating": 95.8,
-    "mw_points": 1054,
+    "pf": 396,
+    "pa": 303,
+    "diff": 93,
+    "sos": 1540.036,
+    "sos_adj": 1586.19,
+    "power": 1605.113,
+    "rank": 1,
+    "mw_rating": 94.8,
+    "mw_points": 1138,
     "divisionno": "7325",
     "division_name": "5th Girls - Division 3",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "392445",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:15 AM",
+      "location": "North Attleboro Middle School",
+      "divisionno": "7320",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "44879",
+      "away_teamno": "43446",
+      "home_score": 47,
+      "away_score": 18,
+      "team_score": 47,
+      "opponent_score": 18,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43446",
+      "opponent_name": "D4J-Foxboro (blue)"
+    },
     {
       "gameno": "373602",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D1A-Mansfield (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "392445",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:15 AM",
-      "location": "North Attleboro Middle School",
-      "divisionno": "7320",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "44879",
-      "away_teamno": "43446",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43446",
-      "opponent_name": "D4J-Foxboro (blue)"
-    }
-  ]
+  "future_games": []
 }

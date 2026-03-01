@@ -21,8 +21,8 @@
       "sos_adj": 1390.639,
       "power": 1535.394,
       "rank": 1,
-      "mw_rating": 59.1,
-      "mw_points": 709
+      "mw_rating": 59.3,
+      "mw_points": 711
     },
     {
       "teamno": "45302",
@@ -38,8 +38,8 @@
       "sos_adj": 1412.957,
       "power": 1478.97,
       "rank": 2,
-      "mw_rating": 43.7,
-      "mw_points": 481
+      "mw_rating": 43.9,
+      "mw_points": 483
     },
     {
       "teamno": "44050",
@@ -51,9 +51,9 @@
       "pf": 445,
       "pa": 356,
       "diff": 89,
-      "sos": 1464.146,
-      "sos_adj": 1429.146,
-      "power": 1466.459,
+      "sos": 1461.882,
+      "sos_adj": 1426.882,
+      "power": 1465.893,
       "rank": 3,
       "mw_rating": 48.1,
       "mw_points": 481
@@ -62,18 +62,18 @@
       "teamno": "43383",
       "name": "D5T-Natick",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 5,
       "ties": 0,
-      "pf": 333,
-      "pa": 335,
-      "diff": -2,
-      "sos": 1451.117,
-      "sos_adj": 1401.117,
-      "power": 1437.138,
+      "pf": 370,
+      "pa": 353,
+      "diff": 17,
+      "sos": 1444.513,
+      "sos_adj": 1394.513,
+      "power": 1452.468,
       "rank": 4,
-      "mw_rating": 33.6,
-      "mw_points": 336
+      "mw_rating": 36.0,
+      "mw_points": 396
     },
     {
       "teamno": "44776",
@@ -90,24 +90,24 @@
       "power": 1426.819,
       "rank": 5,
       "mw_rating": 31.6,
-      "mw_points": 347
+      "mw_points": 348
     },
     {
       "teamno": "45315",
       "name": "D5T-Milton (silver)",
       "town": null,
       "wins": 8,
-      "losses": 16,
+      "losses": 17,
       "ties": 0,
-      "pf": 756,
-      "pa": 951,
-      "diff": -195,
-      "sos": 1439.794,
-      "sos_adj": 1387.71,
-      "power": 1414.75,
+      "pf": 774,
+      "pa": 988,
+      "diff": -214,
+      "sos": 1441.979,
+      "sos_adj": 1389.979,
+      "power": 1398.336,
       "rank": 6,
-      "mw_rating": 21.2,
-      "mw_points": 233
+      "mw_rating": 20.3,
+      "mw_points": 243
     }
   ]
 }

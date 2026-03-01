@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 338,
-    "pa": 460,
-    "diff": -122,
-    "sos": 1421.941,
-    "sos_adj": 1337.325,
-    "power": 1384.705,
+    "pf": 361,
+    "pa": 490,
+    "diff": -129,
+    "sos": 1419.796,
+    "sos_adj": 1334.082,
+    "power": 1368.313,
     "rank": 4,
-    "mw_rating": 19.6,
-    "mw_points": 216,
+    "mw_rating": 18.5,
+    "mw_points": 222,
     "divisionno": "7285",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377073",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:40 AM",
+      "location": "Milton High School - Court 3",
+      "divisionno": "7286",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "45326",
+      "away_teamno": "44160",
+      "home_score": 23,
+      "away_score": 30,
+      "team_score": 23,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44160",
+      "opponent_name": "D6M-Holliston (peterson)"
+    },
     {
       "gameno": "377099",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D5Q-King Philip"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377073",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:40 AM",
-      "location": "Milton High School - Court 3",
-      "divisionno": "7286",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "45326",
-      "away_teamno": "44160",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44160",
-      "opponent_name": "D6M-Holliston (peterson)"
-    }
-  ]
+  "future_games": []
 }

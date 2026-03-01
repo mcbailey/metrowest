@@ -5,26 +5,45 @@
   "team_name": "D6T-Winchester (black)",
   "town": null,
   "summary": {
-    "wins": 18,
+    "wins": 19,
     "losses": 2,
     "ties": 0,
-    "pf": 800,
-    "pa": 438,
-    "diff": 362,
-    "sos": 1399.31,
-    "sos_adj": 1309.31,
-    "power": 1480.691,
+    "pf": 846,
+    "pa": 456,
+    "diff": 390,
+    "sos": 1399.322,
+    "sos_adj": 1306.465,
+    "power": 1492.254,
     "rank": 1,
-    "mw_rating": 36.7,
-    "mw_points": 404,
+    "mw_rating": 36.2,
+    "mw_points": 434,
     "divisionno": "7589",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 20,
-    "games_scheduled_total": 1
+    "games_played_total": 21,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385724",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:30 AM",
+      "location": "Middlesex School - JV Court",
+      "divisionno": "7595",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "43718",
+      "away_teamno": "43467",
+      "home_score": 18,
+      "away_score": 46,
+      "team_score": 46,
+      "opponent_score": 18,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43718",
+      "opponent_name": "D7V-Concord-Carlisle (gold)"
+    },
     {
       "gameno": "390015",
       "date": "2026-02-28",
@@ -406,25 +425,5 @@
       "opponent_name": "D7T-Watertown (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385724",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:30 AM",
-      "location": "Middlesex School - JV Court",
-      "divisionno": "7595",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "43718",
-      "away_teamno": "43467",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43718",
-      "opponent_name": "D7V-Concord-Carlisle (gold)"
-    }
-  ]
+  "future_games": []
 }

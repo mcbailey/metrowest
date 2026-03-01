@@ -5,26 +5,45 @@
   "team_name": "D3H-Middleborough (bascom)",
   "town": null,
   "summary": {
-    "wins": 4,
+    "wins": 5,
     "losses": 9,
     "ties": 0,
-    "pf": 560,
-    "pa": 653,
-    "diff": -93,
-    "sos": 1546.068,
-    "sos_adj": 1588.376,
-    "power": 1486.568,
-    "rank": 6,
-    "mw_rating": 66.9,
-    "mw_points": 736,
+    "pf": 624,
+    "pa": 696,
+    "diff": -72,
+    "sos": 1536.829,
+    "sos_adj": 1579.686,
+    "power": 1511.195,
+    "rank": 4,
+    "mw_rating": 70.8,
+    "mw_points": 849,
     "divisionno": "7193",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374820",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:15 AM",
+      "location": "Middleborough Early Childhood Center (MECC)",
+      "divisionno": "7193",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "43318",
+      "away_teamno": "43422",
+      "home_score": 64,
+      "away_score": 43,
+      "team_score": 64,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43422",
+      "opponent_name": "D3H-Bridgewater (driscoll)"
+    },
     {
       "gameno": "374730",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D5H-Dighton-Rehoboth (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374820",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:15 AM",
-      "location": "Middleborough Early Childhood Center (MECC)",
-      "divisionno": "7193",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "43318",
-      "away_teamno": "43422",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43422",
-      "opponent_name": "D3H-Bridgewater (driscoll)"
-    }
-  ]
+  "future_games": []
 }

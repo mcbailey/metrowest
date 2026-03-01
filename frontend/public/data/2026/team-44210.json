@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 0,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 79,
-    "pa": 366,
-    "diff": -287,
-    "sos": 1463.312,
-    "sos_adj": 1413.312,
-    "power": 1367.641,
+    "pf": 89,
+    "pa": 399,
+    "diff": -310,
+    "sos": 1462.277,
+    "sos_adj": 1412.277,
+    "power": 1354.0,
     "rank": 7,
     "mw_rating": 10.0,
-    "mw_points": 100,
+    "mw_points": 110,
     "divisionno": "7317",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380487",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:30 AM",
+      "location": "Southborough Mary Finn School",
+      "divisionno": "7317",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44210",
+      "away_teamno": "43370",
+      "home_score": 10,
+      "away_score": 33,
+      "team_score": 10,
+      "opponent_score": 33,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43370",
+      "opponent_name": "D5T-Natick"
+    },
     {
       "gameno": "380479",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D5W-Arlington (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380487",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:30 AM",
-      "location": "Southborough Mary Finn School",
-      "divisionno": "7317",
-      "division_name": "5th Girls - Division 5",
-      "home_teamno": "44210",
-      "away_teamno": "43370",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43370",
-      "opponent_name": "D5T-Natick"
-    }
-  ]
+  "future_games": []
 }

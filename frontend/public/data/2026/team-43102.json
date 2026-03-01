@@ -5,26 +5,45 @@
   "team_name": "D2M-Swansea",
   "town": null,
   "summary": {
-    "wins": 4,
+    "wins": 5,
     "losses": 7,
     "ties": 0,
-    "pf": 375,
-    "pa": 412,
-    "diff": -37,
-    "sos": 1627.088,
-    "sos_adj": 1754.361,
-    "power": 1656.259,
+    "pf": 422,
+    "pa": 454,
+    "diff": -32,
+    "sos": 1618.565,
+    "sos_adj": 1747.731,
+    "power": 1661.426,
     "rank": 5,
-    "mw_rating": 109.9,
-    "mw_points": 1099,
+    "mw_rating": 113.6,
+    "mw_points": 1250,
     "divisionno": "7574",
     "division_name": "4th Boys - Division 2",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385421",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:20 AM",
+      "location": "Swansea YMCA ",
+      "divisionno": "7574",
+      "division_name": "4th Boys - Division 2",
+      "home_teamno": "43102",
+      "away_teamno": "43966",
+      "home_score": 47,
+      "away_score": 42,
+      "team_score": 47,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43966",
+      "opponent_name": "D2M-Taunton (jackson)"
+    },
     {
       "gameno": "385403",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D4P-Natick (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385421",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:20 AM",
-      "location": "Swansea YMCA ",
-      "divisionno": "7574",
-      "division_name": "4th Boys - Division 2",
-      "home_teamno": "43102",
-      "away_teamno": "43966",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43966",
-      "opponent_name": "D2M-Taunton (jackson)"
-    }
-  ]
+  "future_games": []
 }

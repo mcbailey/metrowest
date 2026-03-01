@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 315,
-    "pa": 258,
-    "diff": 57,
-    "sos": 1540.03,
-    "sos_adj": 1590.03,
-    "power": 1587.959,
-    "rank": 2,
-    "mw_rating": 88.6,
-    "mw_points": 974,
+    "pf": 343,
+    "pa": 297,
+    "diff": 46,
+    "sos": 1549.529,
+    "sos_adj": 1599.529,
+    "power": 1575.171,
+    "rank": 3,
+    "mw_rating": 84.9,
+    "mw_points": 1019,
     "divisionno": "7630",
     "division_name": "3rd Boys - Division 3",
     "grade": 3,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44493",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:00 AM",
+      "location": "Jr Mass Premier-3",
+      "divisionno": "7630",
+      "division_name": "3rd Boys - Division 3",
+      "home_teamno": "45529",
+      "away_teamno": "45518",
+      "home_score": 28,
+      "away_score": 39,
+      "team_score": 28,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45518",
+      "opponent_name": "2NDH-Mass Premier (attleboro)"
+    },
     {
       "gameno": "390442",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "2NDM-Walpole (orange)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44493",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:00 AM",
-      "location": "Jr Mass Premier-3",
-      "divisionno": "7630",
-      "division_name": "3rd Boys - Division 3",
-      "home_teamno": "45529",
-      "away_teamno": "45518",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45518",
-      "opponent_name": "2NDH-Mass Premier (attleboro)"
-    }
-  ]
+  "future_games": []
 }

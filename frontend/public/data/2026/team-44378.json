@@ -5,26 +5,45 @@
   "team_name": "D5T-Westborough",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 4,
     "ties": 0,
-    "pf": 347,
-    "pa": 314,
-    "diff": 33,
-    "sos": 1449.629,
-    "sos_adj": 1395.083,
-    "power": 1445.128,
-    "rank": 4,
-    "mw_rating": 39.0,
-    "mw_points": 429,
+    "pf": 393,
+    "pa": 341,
+    "diff": 52,
+    "sos": 1444.32,
+    "sos_adj": 1390.154,
+    "power": 1458.877,
+    "rank": 3,
+    "mw_rating": 40.3,
+    "mw_points": 484,
     "divisionno": "7295",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376978",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:10 AM",
+      "location": "Westborough Gibbons Middle School",
+      "divisionno": "7295",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "44378",
+      "away_teamno": "45121",
+      "home_score": 46,
+      "away_score": 27,
+      "team_score": 46,
+      "opponent_score": 27,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45121",
+      "opponent_name": "D5R-Westwood"
+    },
     {
       "gameno": "376971",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D5W-Winchester (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376978",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:10 AM",
-      "location": "Westborough Gibbons Middle School",
-      "divisionno": "7295",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "44378",
-      "away_teamno": "45121",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45121",
-      "opponent_name": "D5R-Westwood"
-    }
-  ]
+  "future_games": []
 }

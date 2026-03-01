@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 532,
-    "pa": 593,
-    "diff": -61,
-    "sos": 1563.418,
-    "sos_adj": 1620.085,
-    "power": 1522.677,
+    "pf": 563,
+    "pa": 635,
+    "diff": -72,
+    "sos": 1565.478,
+    "sos_adj": 1621.728,
+    "power": 1511.582,
     "rank": 5,
-    "mw_rating": 79.8,
-    "mw_points": 878,
+    "mw_rating": 76.9,
+    "mw_points": 923,
     "divisionno": "7305",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378682",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:50 AM",
+      "location": "Hardy Elem School",
+      "divisionno": "7305",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "44061",
+      "away_teamno": "45431",
+      "home_score": 42,
+      "away_score": 31,
+      "team_score": 31,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44061",
+      "opponent_name": "D3K-Wellesley ((a))"
+    },
     {
       "gameno": "378660",
       "date": "2026-02-28",
@@ -311,25 +330,5 @@
       "opponent_name": "D5Q-King Philip"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378682",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:50 AM",
-      "location": "Hardy Elem School",
-      "divisionno": "7305",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "44061",
-      "away_teamno": "45431",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44061",
-      "opponent_name": "D3K-Wellesley ((a))"
-    }
-  ]
+  "future_games": []
 }

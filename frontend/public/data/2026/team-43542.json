@@ -5,26 +5,45 @@
   "team_name": "D4Q-Northboro (red)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 9,
     "ties": 0,
-    "pf": 431,
-    "pa": 402,
-    "diff": 29,
-    "sos": 1505.04,
-    "sos_adj": 1499.157,
-    "power": 1541.376,
+    "pf": 461,
+    "pa": 427,
+    "diff": 34,
+    "sos": 1504.501,
+    "sos_adj": 1498.945,
+    "power": 1545.771,
     "rank": 3,
-    "mw_rating": 56.3,
-    "mw_points": 619,
+    "mw_rating": 58.6,
+    "mw_points": 703,
     "divisionno": "7260",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377312",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:00 AM",
+      "location": "Frisoli Youth Center",
+      "divisionno": "7260",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "45434",
+      "away_teamno": "43542",
+      "home_score": 25,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 25,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45434",
+      "opponent_name": "D4Q-Cambridge"
+    },
     {
       "gameno": "377298",
       "date": "2026-02-22",
@@ -349,25 +368,5 @@
       "opponent_name": "D4M-Ashland (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377312",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:00 AM",
-      "location": "Frisoli Youth Center",
-      "divisionno": "7260",
-      "division_name": "7th Girls - Division 4",
-      "home_teamno": "45434",
-      "away_teamno": "43542",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45434",
-      "opponent_name": "D4Q-Cambridge"
-    }
-  ]
+  "future_games": []
 }

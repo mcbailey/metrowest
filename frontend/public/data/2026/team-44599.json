@@ -5,26 +5,45 @@
   "team_name": "D5J-King Philip",
   "town": null,
   "summary": {
-    "wins": 1,
+    "wins": 2,
     "losses": 13,
     "ties": 0,
-    "pf": 207,
-    "pa": 390,
-    "diff": -183,
-    "sos": 1475.439,
-    "sos_adj": 1429.011,
-    "power": 1366.917,
+    "pf": 235,
+    "pa": 403,
+    "diff": -168,
+    "sos": 1464.783,
+    "sos_adj": 1418.116,
+    "power": 1382.477,
     "rank": 6,
-    "mw_rating": 15.2,
-    "mw_points": 167,
+    "mw_rating": 18.2,
+    "mw_points": 218,
     "divisionno": "7268",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376218",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "King Philip Middle School (Norfolk)",
+      "divisionno": "7268",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "44599",
+      "away_teamno": "43355",
+      "home_score": 28,
+      "away_score": 13,
+      "team_score": 28,
+      "opponent_score": 13,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43355",
+      "opponent_name": "D5J-Norwood (blue)"
+    },
     {
       "gameno": "376210",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "Portsmouth 6G D1"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376218",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:00 AM",
-      "location": "King Philip Middle School (Norfolk)",
-      "divisionno": "7268",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "44599",
-      "away_teamno": "43355",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43355",
-      "opponent_name": "D5J-Norwood (blue)"
-    }
-  ]
+  "future_games": []
 }

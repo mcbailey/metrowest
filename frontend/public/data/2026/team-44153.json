@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 387,
-    "pa": 317,
-    "diff": 70,
-    "sos": 1615.048,
-    "sos_adj": 1728.684,
-    "power": 1683.629,
+    "pf": 411,
+    "pa": 361,
+    "diff": 50,
+    "sos": 1616.173,
+    "sos_adj": 1728.673,
+    "power": 1665.197,
     "rank": 1,
-    "mw_rating": 154.0,
-    "mw_points": 1694,
+    "mw_rating": 147.1,
+    "mw_points": 1765,
     "divisionno": "7632",
     "division_name": "3rd Boys - Division 2",
     "grade": 3,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44450",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "Jr Mass Premier-6",
+      "divisionno": "7632",
+      "division_name": "3rd Boys - Division 2",
+      "home_teamno": "43230",
+      "away_teamno": "44153",
+      "home_score": 44,
+      "away_score": 24,
+      "team_score": 24,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43230",
+      "opponent_name": "D2M-Barnstable  (red)"
+    },
     {
       "gameno": "393167",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D2N-King Philip (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44450",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:00 AM",
-      "location": "Jr Mass Premier-6",
-      "divisionno": "7632",
-      "division_name": "3rd Boys - Division 2",
-      "home_teamno": "43230",
-      "away_teamno": "44153",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43230",
-      "opponent_name": "D2M-Barnstable  (red)"
-    }
-  ]
+  "future_games": []
 }

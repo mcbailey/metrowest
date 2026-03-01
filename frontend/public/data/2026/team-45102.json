@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 12,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 729,
-    "pa": 601,
-    "diff": 128,
-    "sos": 1554.427,
-    "sos_adj": 1607.76,
-    "power": 1638.825,
+    "pf": 783,
+    "pa": 660,
+    "diff": 123,
+    "sos": 1554.571,
+    "sos_adj": 1604.571,
+    "power": 1604.877,
     "rank": 3,
-    "mw_rating": 101.1,
-    "mw_points": 1112,
+    "mw_rating": 94.9,
+    "mw_points": 1139,
     "divisionno": "7195",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379972",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:15 AM",
+      "location": "Rumney Marsh Academy",
+      "divisionno": "7192",
+      "division_name": "7th Boys - Division 4",
+      "home_teamno": "45486",
+      "away_teamno": "45102",
+      "home_score": 59,
+      "away_score": 54,
+      "team_score": 54,
+      "opponent_score": 59,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45486",
+      "opponent_name": "D4Q-Revere"
+    },
     {
       "gameno": "376646",
       "date": "2026-02-22",
@@ -311,25 +330,5 @@
       "opponent_name": "D3J-King Philip"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379972",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:15 AM",
-      "location": "Rumney Marsh Academy",
-      "divisionno": "7192",
-      "division_name": "7th Boys - Division 4",
-      "home_teamno": "45486",
-      "away_teamno": "45102",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45486",
-      "opponent_name": "D4Q-Revere"
-    }
-  ]
+  "future_games": []
 }

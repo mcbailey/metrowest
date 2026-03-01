@@ -5,26 +5,45 @@
   "team_name": "D5J-Canton (white)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 5,
     "ties": 0,
-    "pf": 347,
-    "pa": 253,
-    "diff": 94,
-    "sos": 1450.684,
-    "sos_adj": 1400.684,
-    "power": 1475.267,
+    "pf": 382,
+    "pa": 273,
+    "diff": 109,
+    "sos": 1448.468,
+    "sos_adj": 1398.468,
+    "power": 1489.376,
     "rank": 2,
-    "mw_rating": 39.0,
-    "mw_points": 429,
+    "mw_rating": 40.5,
+    "mw_points": 486,
     "divisionno": "7268",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376217",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:45 AM",
+      "location": "Dana Barros-5",
+      "divisionno": "7268",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "43900",
+      "away_teamno": "43305",
+      "home_score": 35,
+      "away_score": 20,
+      "team_score": 35,
+      "opponent_score": 20,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43305",
+      "opponent_name": "D5J-Franklin"
+    },
     {
       "gameno": "376178",
       "date": "2026-02-28",
@@ -273,25 +292,5 @@
       "opponent_name": "D5H-North Attleboro (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376217",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:45 AM",
-      "location": "Dana Barros-5",
-      "divisionno": "7268",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "43900",
-      "away_teamno": "43305",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43305",
-      "opponent_name": "D5J-Franklin"
-    }
-  ]
+  "future_games": []
 }

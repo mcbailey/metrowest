@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 12,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 593,
-    "pa": 507,
-    "diff": 86,
-    "sos": 1510.352,
-    "sos_adj": 1527.018,
-    "power": 1561.869,
+    "pf": 614,
+    "pa": 543,
+    "diff": 71,
+    "sos": 1520.934,
+    "sos_adj": 1544.618,
+    "power": 1547.486,
     "rank": 1,
-    "mw_rating": 65.6,
-    "mw_points": 721,
+    "mw_rating": 66.0,
+    "mw_points": 792,
     "divisionno": "7578",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385432",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:30 AM",
+      "location": "Belmont Day School - Gold Gym",
+      "divisionno": "7578",
+      "division_name": "4th Boys - Division 4",
+      "home_teamno": "44353",
+      "away_teamno": "43764",
+      "home_score": 36,
+      "away_score": 21,
+      "team_score": 21,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44353",
+      "opponent_name": "D2P-Belmont (maroon)"
+    },
     {
       "gameno": "385803",
       "date": "2026-02-22",
@@ -368,25 +387,5 @@
       "opponent_name": "D6Q-Walpole (b)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385432",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:30 AM",
-      "location": "Belmont Day School - Gold Gym",
-      "divisionno": "7578",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "44353",
-      "away_teamno": "43764",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44353",
-      "opponent_name": "D2P-Belmont (maroon)"
-    }
-  ]
+  "future_games": []
 }

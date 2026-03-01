@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 0,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 98,
-    "pa": 285,
-    "diff": -187,
-    "sos": 1381.168,
-    "sos_adj": 1231.168,
-    "power": 1247.283,
+    "pf": 102,
+    "pa": 314,
+    "diff": -212,
+    "sos": 1379.818,
+    "sos_adj": 1229.818,
+    "power": 1242.186,
     "rank": 6,
     "mw_rating": 1.0,
-    "mw_points": 10,
+    "mw_points": 11,
     "divisionno": "7559",
     "division_name": "4th Girls - Division 7",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384558",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:30 AM",
+      "location": "\u201cOLD\u201d Westport High School",
+      "divisionno": "7559",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "43828",
+      "away_teamno": "44416",
+      "home_score": 29,
+      "away_score": 4,
+      "team_score": 4,
+      "opponent_score": 29,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43828",
+      "opponent_name": "D7M-Westport (levesque)"
+    },
     {
       "gameno": "384542",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D7N-North Attleboro (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384558",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:30 AM",
-      "location": "\u201cOLD\u201d Westport High School",
-      "divisionno": "7559",
-      "division_name": "4th Girls - Division 7",
-      "home_teamno": "43828",
-      "away_teamno": "44416",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43828",
-      "opponent_name": "D7M-Westport (levesque)"
-    }
-  ]
+  "future_games": []
 }

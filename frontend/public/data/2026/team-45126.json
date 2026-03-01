@@ -5,26 +5,45 @@
   "team_name": "D4J-Westwood",
   "town": null,
   "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 6,
     "ties": 0,
-    "pf": 339,
-    "pa": 381,
-    "diff": -42,
-    "sos": 1515.703,
-    "sos_adj": 1511.158,
-    "power": 1482.764,
-    "rank": 5,
-    "mw_rating": 50.8,
-    "mw_points": 559,
+    "pf": 381,
+    "pa": 412,
+    "diff": -31,
+    "sos": 1510.696,
+    "sos_adj": 1506.529,
+    "power": 1500.425,
+    "rank": 3,
+    "mw_rating": 53.5,
+    "mw_points": 642,
     "divisionno": "7222",
     "division_name": "6th Boys - Division 4",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376409",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:30 AM",
+      "location": "Pine Hill Elementary",
+      "divisionno": "7222",
+      "division_name": "6th Boys - Division 4",
+      "home_teamno": "45126",
+      "away_teamno": "44464",
+      "home_score": 42,
+      "away_score": 31,
+      "team_score": 42,
+      "opponent_score": 31,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44464",
+      "opponent_name": "D4J-Walpole (b)"
+    },
     {
       "gameno": "376380",
       "date": "2026-02-28",
@@ -235,25 +254,5 @@
       "opponent_name": "D4J-Millis (dequattro)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376409",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:30 AM",
-      "location": "Pine Hill Elementary",
-      "divisionno": "7222",
-      "division_name": "6th Boys - Division 4",
-      "home_teamno": "45126",
-      "away_teamno": "44464",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44464",
-      "opponent_name": "D4J-Walpole (b)"
-    }
-  ]
+  "future_games": []
 }

@@ -5,26 +5,45 @@
   "team_name": "D7V-Arlington (red)",
   "town": null,
   "summary": {
-    "wins": 3,
+    "wins": 4,
     "losses": 12,
     "ties": 0,
-    "pf": 330,
-    "pa": 455,
-    "diff": -125,
-    "sos": 1360.326,
-    "sos_adj": 1210.326,
-    "power": 1260.838,
-    "rank": 6,
-    "mw_rating": 5.3,
-    "mw_points": 53,
+    "pf": 353,
+    "pa": 472,
+    "diff": -119,
+    "sos": 1355.198,
+    "sos_adj": 1205.198,
+    "power": 1277.116,
+    "rank": 5,
+    "mw_rating": 7.0,
+    "mw_points": 77,
     "divisionno": "7595",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385721",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:15 AM",
+      "location": "Hardy Elementary School",
+      "divisionno": "7595",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44768",
+      "away_teamno": "44320",
+      "home_score": 23,
+      "away_score": 17,
+      "team_score": 23,
+      "opponent_score": 17,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44320",
+      "opponent_name": "D7T-Medway (blue)"
+    },
     {
       "gameno": "385686",
       "date": "2026-02-28",
@@ -311,25 +330,5 @@
       "opponent_name": "D7T-Arlington (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385721",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:15 AM",
-      "location": "Hardy Elementary School",
-      "divisionno": "7595",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44768",
-      "away_teamno": "44320",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44320",
-      "opponent_name": "D7T-Medway (blue)"
-    }
-  ]
+  "future_games": []
 }

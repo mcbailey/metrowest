@@ -21,8 +21,8 @@
       "sos_adj": 1502.263,
       "power": 1573.398,
       "rank": 1,
-      "mw_rating": 79.3,
-      "mw_points": 872
+      "mw_rating": 79.6,
+      "mw_points": 875
     },
     {
       "teamno": "45309",
@@ -38,8 +38,8 @@
       "sos_adj": 1526.273,
       "power": 1568.011,
       "rank": 2,
-      "mw_rating": 68.9,
-      "mw_points": 758
+      "mw_rating": 69.1,
+      "mw_points": 760
     },
     {
       "teamno": "43588",
@@ -55,8 +55,8 @@
       "sos_adj": 1481.303,
       "power": 1542.898,
       "rank": 3,
-      "mw_rating": 72.2,
-      "mw_points": 794
+      "mw_rating": 72.5,
+      "mw_points": 797
     },
     {
       "teamno": "44866",
@@ -68,9 +68,9 @@
       "pf": 731,
       "pa": 690,
       "diff": 41,
-      "sos": 1501.22,
-      "sos_adj": 1507.102,
-      "power": 1480.022,
+      "sos": 1500.341,
+      "sos_adj": 1506.223,
+      "power": 1479.803,
       "rank": 4,
       "mw_rating": 62.6,
       "mw_points": 689
@@ -114,17 +114,17 @@
       "name": "D4M-Easton (orange)",
       "town": null,
       "wins": 1,
-      "losses": 12,
+      "losses": 13,
       "ties": 0,
-      "pf": 458,
-      "pa": 695,
-      "diff": -237,
-      "sos": 1503.721,
-      "sos_adj": 1503.721,
-      "power": 1431.982,
+      "pf": 498,
+      "pa": 748,
+      "diff": -250,
+      "sos": 1505.768,
+      "sos_adj": 1505.768,
+      "power": 1421.287,
       "rank": 7,
-      "mw_rating": 30.6,
-      "mw_points": 336
+      "mw_rating": 30.1,
+      "mw_points": 361
     }
   ]
 }

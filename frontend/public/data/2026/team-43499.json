@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 206,
-    "pa": 176,
-    "diff": 30,
-    "sos": 1377.334,
-    "sos_adj": 1252.334,
-    "power": 1352.207,
-    "rank": 3,
-    "mw_rating": 17.3,
-    "mw_points": 190,
+    "pf": 215,
+    "pa": 197,
+    "diff": 18,
+    "sos": 1377.172,
+    "sos_adj": 1250.249,
+    "power": 1332.882,
+    "rank": 4,
+    "mw_rating": 15.9,
+    "mw_points": 191,
     "divisionno": "7557",
     "division_name": "4th Girls - Division 7",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384570",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:50 AM",
+      "location": "Middlesex School - JV Court",
+      "divisionno": "7558",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "43775",
+      "away_teamno": "43499",
+      "home_score": 21,
+      "away_score": 9,
+      "team_score": 9,
+      "opponent_score": 21,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43775",
+      "opponent_name": "D7Q-Concord-Carlisle (maroon)"
+    },
     {
       "gameno": "384537",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D2M-Wayland (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384570",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:50 AM",
-      "location": "Middlesex School - JV Court",
-      "divisionno": "7558",
-      "division_name": "4th Girls - Division 7",
-      "home_teamno": "43775",
-      "away_teamno": "43499",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43775",
-      "opponent_name": "D7Q-Concord-Carlisle (maroon)"
-    }
-  ]
+  "future_games": []
 }

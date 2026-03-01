@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 273,
-    "pa": 438,
-    "diff": -165,
-    "sos": 1458.759,
-    "sos_adj": 1415.902,
-    "power": 1398.878,
-    "rank": 7,
-    "mw_rating": 22.6,
-    "mw_points": 249,
+    "pf": 289,
+    "pa": 480,
+    "diff": -191,
+    "sos": 1460.826,
+    "sos_adj": 1417.492,
+    "power": 1385.698,
+    "rank": 8,
+    "mw_rating": 21.6,
+    "mw_points": 259,
     "divisionno": "7251",
     "division_name": "7th Girls - Division 5",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378071",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:15 AM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7251",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "43519",
+      "away_teamno": "43646",
+      "home_score": 16,
+      "away_score": 42,
+      "team_score": 16,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43646",
+      "opponent_name": "D5J-Needham (blue)"
+    },
     {
       "gameno": "378061",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "D5M-Wayland (orange)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378071",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:15 AM",
-      "location": "Hopkinton Brown Gym",
-      "divisionno": "7251",
-      "division_name": "7th Girls - Division 5",
-      "home_teamno": "43519",
-      "away_teamno": "43646",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43646",
-      "opponent_name": "D5J-Needham (blue)"
-    }
-  ]
+  "future_games": []
 }

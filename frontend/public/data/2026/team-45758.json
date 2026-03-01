@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 486,
-    "pa": 406,
-    "diff": 80,
-    "sos": 1415.121,
-    "sos_adj": 1321.371,
-    "power": 1408.217,
+    "pf": 510,
+    "pa": 432,
+    "diff": 78,
+    "sos": 1413.66,
+    "sos_adj": 1319.542,
+    "power": 1396.829,
     "rank": 3,
-    "mw_rating": 27.6,
-    "mw_points": 276,
+    "mw_rating": 25.7,
+    "mw_points": 283,
     "divisionno": "7178",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380060",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:45 AM",
+      "location": "Belmont Day School - Gold Gym",
+      "divisionno": "7178",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44298",
+      "away_teamno": "45758",
+      "home_score": 26,
+      "away_score": 24,
+      "team_score": 24,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44298",
+      "opponent_name": "D6R-Belmont (navy)"
+    },
     {
       "gameno": "380052",
       "date": "2026-02-22",
@@ -330,25 +349,5 @@
       "opponent_name": "D6Q-Lincoln-Sudbury (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380060",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:45 AM",
-      "location": "Belmont Day School - Gold Gym",
-      "divisionno": "7178",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44298",
-      "away_teamno": "45758",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44298",
-      "opponent_name": "D6R-Belmont (navy)"
-    }
-  ]
+  "future_games": []
 }

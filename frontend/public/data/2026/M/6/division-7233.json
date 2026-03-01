@@ -17,12 +17,12 @@
       "pf": 871,
       "pa": 752,
       "diff": 119,
-      "sos": 1589.369,
-      "sos_adj": 1683.119,
-      "power": 1679.8,
+      "sos": 1590.203,
+      "sos_adj": 1683.953,
+      "power": 1674.106,
       "rank": 1,
-      "mw_rating": 131.4,
-      "mw_points": 1445
+      "mw_rating": 131.5,
+      "mw_points": 1446
     },
     {
       "teamno": "43935",
@@ -34,12 +34,12 @@
       "pf": 942,
       "pa": 720,
       "diff": 222,
-      "sos": 1591.428,
-      "sos_adj": 1679.663,
-      "power": 1670.219,
+      "sos": 1590.736,
+      "sos_adj": 1678.972,
+      "power": 1665.016,
       "rank": 2,
-      "mw_rating": 136.2,
-      "mw_points": 1362
+      "mw_rating": 136.4,
+      "mw_points": 1364
     },
     {
       "teamno": "45249",
@@ -51,12 +51,12 @@
       "pf": 747,
       "pa": 728,
       "diff": 19,
-      "sos": 1598.361,
-      "sos_adj": 1705.028,
-      "power": 1659.13,
+      "sos": 1598.77,
+      "sos_adj": 1705.436,
+      "power": 1655.945,
       "rank": 3,
-      "mw_rating": 137.4,
-      "mw_points": 1511
+      "mw_rating": 137.6,
+      "mw_points": 1513
     },
     {
       "teamno": "44045",
@@ -68,29 +68,29 @@
       "pf": 590,
       "pa": 609,
       "diff": -19,
-      "sos": 1607.725,
-      "sos_adj": 1707.725,
-      "power": 1623.299,
+      "sos": 1606.952,
+      "sos_adj": 1706.952,
+      "power": 1623.469,
       "rank": 4,
-      "mw_rating": 115.6,
-      "mw_points": 1272
+      "mw_rating": 115.8,
+      "mw_points": 1274
     },
     {
       "teamno": "45504",
       "name": "D2M-Everett",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 10,
       "ties": 0,
-      "pf": 419,
-      "pa": 585,
-      "diff": -166,
-      "sos": 1611.457,
-      "sos_adj": 1711.457,
-      "power": 1561.335,
+      "pf": 472,
+      "pa": 637,
+      "diff": -165,
+      "sos": 1608.178,
+      "sos_adj": 1708.178,
+      "power": 1571.915,
       "rank": 5,
-      "mw_rating": 82.4,
-      "mw_points": 824
+      "mw_rating": 89.3,
+      "mw_points": 982
     }
   ]
 }

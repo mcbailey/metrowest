@@ -11,18 +11,18 @@
       "teamno": "43094",
       "name": "D5H-Swansea (black)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 6,
       "ties": 0,
-      "pf": 423,
-      "pa": 362,
-      "diff": 61,
-      "sos": 1445.62,
-      "sos_adj": 1395.62,
-      "power": 1467.251,
+      "pf": 467,
+      "pa": 401,
+      "diff": 66,
+      "sos": 1445.022,
+      "sos_adj": 1395.022,
+      "power": 1478.143,
       "rank": 1,
-      "mw_rating": 31.3,
-      "mw_points": 344
+      "mw_rating": 33.8,
+      "mw_points": 405
     },
     {
       "teamno": "43852",
@@ -34,9 +34,9 @@
       "pf": 418,
       "pa": 381,
       "diff": 37,
-      "sos": 1452.472,
-      "sos_adj": 1402.472,
-      "power": 1455.81,
+      "sos": 1451.134,
+      "sos_adj": 1401.134,
+      "power": 1455.475,
       "rank": 2,
       "mw_rating": 39.3,
       "mw_points": 432
@@ -72,8 +72,8 @@
       "sos_adj": 1408.211,
       "power": 1391.408,
       "rank": 4,
-      "mw_rating": 23.1,
-      "mw_points": 231
+      "mw_rating": 23.2,
+      "mw_points": 232
     },
     {
       "teamno": "44285",

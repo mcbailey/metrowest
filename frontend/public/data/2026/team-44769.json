@@ -5,26 +5,45 @@
   "team_name": "D5W-Belmont (white)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 5,
     "ties": 0,
-    "pf": 359,
-    "pa": 251,
-    "diff": 108,
-    "sos": 1437.226,
-    "sos_adj": 1390.559,
-    "power": 1450.792,
+    "pf": 373,
+    "pa": 262,
+    "diff": 111,
+    "sos": 1434.095,
+    "sos_adj": 1387.22,
+    "power": 1458.7,
     "rank": 3,
-    "mw_rating": 38.7,
-    "mw_points": 387,
+    "mw_rating": 40.8,
+    "mw_points": 449,
     "divisionno": "7318",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380491",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:15 AM",
+      "location": "Belmont Day School - Gold Gym",
+      "divisionno": "7318",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44769",
+      "away_teamno": "43465",
+      "home_score": 14,
+      "away_score": 11,
+      "team_score": 14,
+      "opponent_score": 11,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43465",
+      "opponent_name": "D5W-Winchester (black)"
+    },
     {
       "gameno": "380474",
       "date": "2026-02-15",
@@ -311,25 +330,5 @@
       "opponent_name": "D4R-Lexington (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380491",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:15 AM",
-      "location": "Belmont Day School - Gold Gym",
-      "divisionno": "7318",
-      "division_name": "5th Girls - Division 5",
-      "home_teamno": "44769",
-      "away_teamno": "43465",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43465",
-      "opponent_name": "D5W-Winchester (black)"
-    }
-  ]
+  "future_games": []
 }

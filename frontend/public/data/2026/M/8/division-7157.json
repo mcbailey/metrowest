@@ -17,12 +17,12 @@
       "pf": 569,
       "pa": 479,
       "diff": 90,
-      "sos": 1573.813,
-      "sos_adj": 1640.48,
-      "power": 1610.48,
+      "sos": 1571.282,
+      "sos_adj": 1637.948,
+      "power": 1609.847,
       "rank": 1,
-      "mw_rating": 112.6,
-      "mw_points": 1013
+      "mw_rating": 112.9,
+      "mw_points": 1016
     },
     {
       "teamno": "43245",
@@ -34,29 +34,29 @@
       "pf": 1505,
       "pa": 1143,
       "diff": 362,
-      "sos": 1534.973,
-      "sos_adj": 1571.18,
-      "power": 1593.171,
+      "sos": 1535.759,
+      "sos_adj": 1571.965,
+      "power": 1593.368,
       "rank": 2,
-      "mw_rating": 96.5,
-      "mw_points": 1061
+      "mw_rating": 96.6,
+      "mw_points": 1062
     },
     {
       "teamno": "44980",
       "name": "D3H-Acushnet - Fairhaven (lopes)",
       "town": null,
       "wins": 6,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pf": 683,
-      "pa": 667,
-      "diff": 16,
-      "sos": 1546.947,
-      "sos_adj": 1592.401,
-      "power": 1586.182,
+      "pf": 732,
+      "pa": 722,
+      "diff": 10,
+      "sos": 1545.323,
+      "sos_adj": 1591.156,
+      "power": 1568.784,
       "rank": 3,
-      "mw_rating": 79.7,
-      "mw_points": 877
+      "mw_rating": 76.8,
+      "mw_points": 922
     },
     {
       "teamno": "45098",
@@ -68,12 +68,29 @@
       "pf": 536,
       "pa": 532,
       "diff": 4,
-      "sos": 1554.246,
-      "sos_adj": 1604.246,
-      "power": 1557.162,
+      "sos": 1551.968,
+      "sos_adj": 1601.968,
+      "power": 1556.593,
       "rank": 4,
-      "mw_rating": 67.4,
-      "mw_points": 674
+      "mw_rating": 67.5,
+      "mw_points": 675
+    },
+    {
+      "teamno": "43097",
+      "name": "D3H-Swansea (gold)",
+      "town": null,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "pf": 701,
+      "pa": 707,
+      "diff": -6,
+      "sos": 1575.877,
+      "sos_adj": 1640.163,
+      "power": 1555.637,
+      "rank": 5,
+      "mw_rating": 82.0,
+      "mw_points": 902
     },
     {
       "teamno": "43143",
@@ -85,29 +102,12 @@
       "pf": 664,
       "pa": 802,
       "diff": -138,
-      "sos": 1558.118,
-      "sos_adj": 1608.118,
-      "power": 1539.946,
-      "rank": 5,
-      "mw_rating": 71.1,
-      "mw_points": 782
-    },
-    {
-      "teamno": "43097",
-      "name": "D3H-Swansea (gold)",
-      "town": null,
-      "wins": 6,
-      "losses": 7,
-      "ties": 0,
-      "pf": 646,
-      "pa": 658,
-      "diff": -12,
-      "sos": 1576.996,
-      "sos_adj": 1642.381,
-      "power": 1539.104,
+      "sos": 1556.366,
+      "sos_adj": 1606.366,
+      "power": 1539.508,
       "rank": 6,
-      "mw_rating": 78.6,
-      "mw_points": 786
+      "mw_rating": 71.2,
+      "mw_points": 783
     },
     {
       "teamno": "43476",
@@ -123,8 +123,8 @@
       "sos_adj": 1590.218,
       "power": 1530.028,
       "rank": 7,
-      "mw_rating": 67.2,
-      "mw_points": 739
+      "mw_rating": 67.3,
+      "mw_points": 740
     }
   ]
 }

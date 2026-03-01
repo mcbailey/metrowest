@@ -5,26 +5,45 @@
   "team_name": "D5H-Franklin",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 5,
     "ties": 0,
-    "pf": 539,
-    "pa": 372,
-    "diff": 167,
-    "sos": 1462.943,
-    "sos_adj": 1422.943,
-    "power": 1499.788,
+    "pf": 586,
+    "pa": 390,
+    "diff": 196,
+    "sos": 1460.746,
+    "sos_adj": 1423.246,
+    "power": 1524.832,
     "rank": 2,
-    "mw_rating": 40.5,
-    "mw_points": 445,
+    "mw_rating": 43.6,
+    "mw_points": 523,
     "divisionno": "7250",
     "division_name": "7th Girls - Division 5",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376278",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:30 AM",
+      "location": "Berkley Middle School",
+      "divisionno": "7250",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "44126",
+      "away_teamno": "43307",
+      "home_score": 18,
+      "away_score": 45,
+      "team_score": 45,
+      "opponent_score": 18,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44126",
+      "opponent_name": "D4J-Berkley"
+    },
     {
       "gameno": "378051",
       "date": "2026-02-28",
@@ -36,8 +55,8 @@
       "home_teamno": "43338",
       "away_teamno": "43307",
       "home_score": 20,
-      "away_score": 42,
-      "team_score": 42,
+      "away_score": 44,
+      "team_score": 44,
       "opponent_score": 20,
       "status": "final",
       "is_home": false,
@@ -311,25 +330,5 @@
       "opponent_name": "Warwick (Beadoin) 7G D3"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376278",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:30 AM",
-      "location": "Berkley Middle School",
-      "divisionno": "7250",
-      "division_name": "7th Girls - Division 5",
-      "home_teamno": "44126",
-      "away_teamno": "43307",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44126",
-      "opponent_name": "D4J-Berkley"
-    }
-  ]
+  "future_games": []
 }

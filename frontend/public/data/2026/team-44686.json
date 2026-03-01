@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 13,
+    "losses": 14,
     "ties": 0,
-    "pf": 156,
-    "pa": 496,
-    "diff": -340,
-    "sos": 1468.719,
-    "sos_adj": 1422.29,
-    "power": 1363.234,
+    "pf": 168,
+    "pa": 522,
+    "diff": -354,
+    "sos": 1469.39,
+    "sos_adj": 1422.723,
+    "power": 1351.777,
     "rank": 6,
-    "mw_rating": 14.6,
-    "mw_points": 146,
+    "mw_rating": 14.2,
+    "mw_points": 156,
     "divisionno": "7318",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380489",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:00 AM",
+      "location": "Brackett Elementary School",
+      "divisionno": "7318",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44686",
+      "away_teamno": "44277",
+      "home_score": 12,
+      "away_score": 26,
+      "team_score": 12,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44277",
+      "opponent_name": "D5W-Wayland (orange)"
+    },
     {
       "gameno": "380484",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "D4R-Concord-Carlisle (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380489",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:00 AM",
-      "location": "Brackett Elementary School",
-      "divisionno": "7318",
-      "division_name": "5th Girls - Division 5",
-      "home_teamno": "44686",
-      "away_teamno": "44277",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44277",
-      "opponent_name": "D5W-Wayland (orange)"
-    }
-  ]
+  "future_games": []
 }

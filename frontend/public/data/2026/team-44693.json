@@ -5,26 +5,45 @@
   "team_name": "D5M-Arlington (white)",
   "town": null,
   "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 12,
     "ties": 0,
-    "pf": 333,
-    "pa": 415,
-    "diff": -82,
-    "sos": 1462.391,
-    "sos_adj": 1424.156,
-    "power": 1391.657,
+    "pf": 360,
+    "pa": 436,
+    "diff": -76,
+    "sos": 1457.684,
+    "sos_adj": 1418.795,
+    "power": 1407.168,
     "rank": 6,
-    "mw_rating": 30.4,
-    "mw_points": 304,
+    "mw_rating": 32.7,
+    "mw_points": 360,
     "divisionno": "7253",
     "division_name": "7th Girls - Division 5",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380560",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:45 AM",
+      "location": "Ottoson Middle School",
+      "divisionno": "7253",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "44693",
+      "away_teamno": "44280",
+      "home_score": 27,
+      "away_score": 21,
+      "team_score": 27,
+      "opponent_score": 21,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44280",
+      "opponent_name": "D5M-Wayland (orange)"
+    },
     {
       "gameno": "380575",
       "date": "2026-02-22",
@@ -330,25 +349,5 @@
       "opponent_name": "D5M-Winchester (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380560",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:45 AM",
-      "location": "Ottoson Middle School",
-      "divisionno": "7253",
-      "division_name": "7th Girls - Division 5",
-      "home_teamno": "44693",
-      "away_teamno": "44280",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44280",
-      "opponent_name": "D5M-Wayland (orange)"
-    }
-  ]
+  "future_games": []
 }

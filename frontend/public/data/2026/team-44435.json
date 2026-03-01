@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 499,
-    "pa": 457,
-    "diff": 42,
-    "sos": 1476.981,
-    "sos_adj": 1460.314,
-    "power": 1475.611,
+    "pf": 529,
+    "pa": 496,
+    "diff": 33,
+    "sos": 1481.821,
+    "sos_adj": 1463.071,
+    "power": 1463.928,
     "rank": 4,
-    "mw_rating": 38.6,
-    "mw_points": 425,
+    "mw_rating": 36.3,
+    "mw_points": 435,
     "divisionno": "7583",
     "division_name": "4th Boys - Division 5",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385986",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:00 AM",
+      "location": "Bedford Davis School",
+      "divisionno": "7583",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "44435",
+      "away_teamno": "45084",
+      "home_score": 30,
+      "away_score": 39,
+      "team_score": 30,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45084",
+      "opponent_name": "D5T-Framingham (navy)"
+    },
     {
       "gameno": "385981",
       "date": "2026-02-22",
@@ -311,25 +330,5 @@
       "opponent_name": "D5R-Parkway  (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385986",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:00 AM",
-      "location": "Bedford Davis School",
-      "divisionno": "7583",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "44435",
-      "away_teamno": "45084",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45084",
-      "opponent_name": "D5T-Framingham (navy)"
-    }
-  ]
+  "future_games": []
 }

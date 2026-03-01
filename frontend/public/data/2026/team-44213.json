@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 300,
-    "pa": 342,
-    "diff": -42,
-    "sos": 1468.756,
-    "sos_adj": 1468.756,
-    "power": 1489.329,
-    "rank": 3,
-    "mw_rating": 52.4,
-    "mw_points": 524,
+    "pf": 332,
+    "pa": 384,
+    "diff": -52,
+    "sos": 1472.18,
+    "sos_adj": 1472.18,
+    "power": 1473.255,
+    "rank": 4,
+    "mw_rating": 50.1,
+    "mw_points": 551,
     "divisionno": "7580",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385899",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:40 AM",
+      "location": "Westwood Thurston Middle School New Gym",
+      "divisionno": "7580",
+      "division_name": "4th Boys - Division 4",
+      "home_teamno": "45115",
+      "away_teamno": "44213",
+      "home_score": 42,
+      "away_score": 32,
+      "team_score": 32,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45115",
+      "opponent_name": "D4P-Westwood (white)"
+    },
     {
       "gameno": "385897",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D4P-Holliston (lohan)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385899",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:40 AM",
-      "location": "Westwood Thurston Middle School New Gym",
-      "divisionno": "7580",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "45115",
-      "away_teamno": "44213",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45115",
-      "opponent_name": "D4P-Westwood (white)"
-    }
-  ]
+  "future_games": []
 }

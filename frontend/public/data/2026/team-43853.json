@@ -5,26 +5,45 @@
   "team_name": "D2M-Natick",
   "town": null,
   "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 9,
     "ties": 0,
-    "pf": 290,
-    "pa": 350,
-    "diff": -60,
-    "sos": 1642.201,
-    "sos_adj": 1792.201,
-    "power": 1659.599,
-    "rank": 4,
-    "mw_rating": 97.3,
-    "mw_points": 1070,
+    "pf": 315,
+    "pa": 358,
+    "diff": -43,
+    "sos": 1628.748,
+    "sos_adj": 1775.415,
+    "power": 1671.597,
+    "rank": 3,
+    "mw_rating": 105.8,
+    "mw_points": 1270,
     "divisionno": "7546",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384064",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:10 AM",
+      "location": "Natick Community Center",
+      "divisionno": "7546",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "43853",
+      "away_teamno": "45151",
+      "home_score": 25,
+      "away_score": 8,
+      "team_score": 25,
+      "opponent_score": 8,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45151",
+      "opponent_name": "D1A-Waltham Girls"
+    },
     {
       "gameno": "384044",
       "date": "2026-02-28",
@@ -292,25 +311,5 @@
       "opponent_name": "D2L-Medway (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384064",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:10 AM",
-      "location": "Natick Community Center",
-      "divisionno": "7546",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "43853",
-      "away_teamno": "45151",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45151",
-      "opponent_name": "D1A-Waltham Girls"
-    }
-  ]
+  "future_games": []
 }

@@ -5,26 +5,45 @@
   "team_name": "D6R-Arlington (black)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 10,
     "ties": 0,
-    "pf": 712,
-    "pa": 686,
-    "diff": 26,
-    "sos": 1417.896,
-    "sos_adj": 1332.896,
-    "power": 1435.608,
+    "pf": 752,
+    "pa": 707,
+    "diff": 45,
+    "sos": 1412.337,
+    "sos_adj": 1326.623,
+    "power": 1442.488,
     "rank": 1,
-    "mw_rating": 23.0,
-    "mw_points": 230,
+    "mw_rating": 24.7,
+    "mw_points": 272,
     "divisionno": "7178",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 20,
-    "games_scheduled_total": 1
+    "games_played_total": 21,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380059",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:00 AM",
+      "location": "Ottoson Middle School",
+      "divisionno": "7178",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44746",
+      "away_teamno": "43455",
+      "home_score": 40,
+      "away_score": 21,
+      "team_score": 40,
+      "opponent_score": 21,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43455",
+      "opponent_name": "D6R-Winchester (red)"
+    },
     {
       "gameno": "380053",
       "date": "2026-02-22",
@@ -406,25 +425,5 @@
       "opponent_name": "D6R-Winchester (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380059",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:00 AM",
-      "location": "Ottoson Middle School",
-      "divisionno": "7178",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44746",
-      "away_teamno": "43455",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43455",
-      "opponent_name": "D6R-Winchester (red)"
-    }
-  ]
+  "future_games": []
 }

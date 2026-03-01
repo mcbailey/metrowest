@@ -5,26 +5,45 @@
   "team_name": "D5W-Concord-Carlisle (white)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 9,
     "ties": 0,
-    "pf": 532,
-    "pa": 542,
-    "diff": -10,
-    "sos": 1459.662,
-    "sos_adj": 1424.368,
-    "power": 1455.657,
+    "pf": 562,
+    "pa": 565,
+    "diff": -3,
+    "sos": 1454.176,
+    "sos_adj": 1418.065,
+    "power": 1465.064,
     "rank": 2,
-    "mw_rating": 38.4,
-    "mw_points": 422,
+    "mw_rating": 39.9,
+    "mw_points": 479,
     "divisionno": "7186",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377544",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:50 AM",
+      "location": "Middlesex School - Varsity Court",
+      "divisionno": "7186",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "43715",
+      "away_teamno": "44441",
+      "home_score": 30,
+      "away_score": 23,
+      "team_score": 30,
+      "opponent_score": 23,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44441",
+      "opponent_name": "D5W-Bedford (white)"
+    },
     {
       "gameno": "377533",
       "date": "2026-02-22",
@@ -349,25 +368,5 @@
       "opponent_name": "D5W-Bedford (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377544",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:50 AM",
-      "location": "Middlesex School - Varsity Court",
-      "divisionno": "7186",
-      "division_name": "7th Boys - Division 5",
-      "home_teamno": "43715",
-      "away_teamno": "44441",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44441",
-      "opponent_name": "D5W-Bedford (white)"
-    }
-  ]
+  "future_games": []
 }

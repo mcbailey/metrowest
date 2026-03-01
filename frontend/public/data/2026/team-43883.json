@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 323,
-    "pa": 314,
-    "diff": 9,
-    "sos": 1565.169,
-    "sos_adj": 1626.707,
-    "power": 1591.479,
+    "pf": 348,
+    "pa": 346,
+    "diff": 2,
+    "sos": 1570.801,
+    "sos_adj": 1635.086,
+    "power": 1579.896,
     "rank": 3,
-    "mw_rating": 101.3,
-    "mw_points": 1114,
+    "mw_rating": 98.8,
+    "mw_points": 1186,
     "divisionno": "7325",
     "division_name": "5th Girls - Division 3",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373608",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:20 AM",
+      "location": "Sharon East Elem School",
+      "divisionno": "7325",
+      "division_name": "5th Girls - Division 3",
+      "home_teamno": "43883",
+      "away_teamno": "43167",
+      "home_score": 25,
+      "away_score": 32,
+      "team_score": 25,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43167",
+      "opponent_name": "D2H-Seekonk"
+    },
     {
       "gameno": "373604",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D3H-Westwood"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373608",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:20 AM",
-      "location": "Sharon East Elem School",
-      "divisionno": "7325",
-      "division_name": "5th Girls - Division 3",
-      "home_teamno": "43883",
-      "away_teamno": "43167",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43167",
-      "opponent_name": "D2H-Seekonk"
-    }
-  ]
+  "future_games": []
 }

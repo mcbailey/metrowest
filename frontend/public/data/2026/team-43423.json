@@ -5,26 +5,45 @@
   "team_name": "D6H-Bridgewater (mcbride)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 4,
     "ties": 0,
-    "pf": 369,
-    "pa": 365,
-    "diff": 4,
-    "sos": 1410.574,
-    "sos_adj": 1327.24,
-    "power": 1431.839,
-    "rank": 3,
-    "mw_rating": 30.8,
-    "mw_points": 339,
+    "pf": 411,
+    "pa": 405,
+    "diff": 6,
+    "sos": 1410.205,
+    "sos_adj": 1325.589,
+    "power": 1432.418,
+    "rank": 2,
+    "mw_rating": 31.4,
+    "mw_points": 377,
     "divisionno": "7173",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377789",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:30 AM",
+      "location": "Van Norman Field House (Seekonk) - Court #2",
+      "divisionno": "7173",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "43111",
+      "away_teamno": "43423",
+      "home_score": 40,
+      "away_score": 42,
+      "team_score": 42,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43111",
+      "opponent_name": "D6H-Seekonk (perez)"
+    },
     {
       "gameno": "377779",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D6H-Raynham (maddock-b)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377789",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:30 AM",
-      "location": "Van Norman Field House (Seekonk) - Court #2",
-      "divisionno": "7173",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "43111",
-      "away_teamno": "43423",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43111",
-      "opponent_name": "D6H-Seekonk (perez)"
-    }
-  ]
+  "future_games": []
 }

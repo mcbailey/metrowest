@@ -21,8 +21,8 @@
       "sos_adj": 1307.294,
       "power": 1401.887,
       "rank": 1,
-      "mw_rating": 25.9,
-      "mw_points": 285
+      "mw_rating": 26.1,
+      "mw_points": 287
     },
     {
       "teamno": "45133",
@@ -34,9 +34,9 @@
       "pf": 410,
       "pa": 311,
       "diff": 99,
-      "sos": 1401.209,
-      "sos_adj": 1316.209,
-      "power": 1401.617,
+      "sos": 1397.828,
+      "sos_adj": 1312.828,
+      "power": 1400.771,
       "rank": 2,
       "mw_rating": 28.4,
       "mw_points": 284
@@ -51,29 +51,29 @@
       "pf": 309,
       "pa": 313,
       "diff": -4,
-      "sos": 1398.545,
-      "sos_adj": 1303.545,
-      "power": 1352.152,
+      "sos": 1400.102,
+      "sos_adj": 1305.102,
+      "power": 1352.542,
       "rank": 3,
-      "mw_rating": 13.4,
-      "mw_points": 134
+      "mw_rating": 13.6,
+      "mw_points": 136
     },
     {
       "teamno": "44191",
       "name": "D6K-Parkway  (blue)",
       "town": null,
-      "wins": 0,
+      "wins": 2,
       "losses": 9,
       "ties": 0,
-      "pf": 298,
-      "pa": 379,
-      "diff": -81,
-      "sos": 1415.35,
-      "sos_adj": 1315.35,
-      "power": 1326.46,
+      "pf": 383,
+      "pa": 451,
+      "diff": -68,
+      "sos": 1400.262,
+      "sos_adj": 1300.262,
+      "power": 1348.046,
       "rank": 4,
-      "mw_rating": 5.0,
-      "mw_points": 45
+      "mw_rating": 10.1,
+      "mw_points": 111
     },
     {
       "teamno": "44171",
@@ -85,9 +85,9 @@
       "pf": 153,
       "pa": 381,
       "diff": -228,
-      "sos": 1405.58,
-      "sos_adj": 1305.58,
-      "power": 1320.528,
+      "sos": 1403.554,
+      "sos_adj": 1303.554,
+      "power": 1320.022,
       "rank": 5,
       "mw_rating": 7.9,
       "mw_points": 71
@@ -97,17 +97,17 @@
       "name": "D6K-Medway (red)",
       "town": null,
       "wins": 0,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 124,
-      "pa": 499,
-      "diff": -375,
-      "sos": 1416.869,
-      "sos_adj": 1326.869,
-      "power": 1308.775,
+      "pf": 154,
+      "pa": 539,
+      "diff": -385,
+      "sos": 1412.06,
+      "sos_adj": 1321.151,
+      "power": 1293.668,
       "rank": 6,
-      "mw_rating": 6.0,
-      "mw_points": 60
+      "mw_rating": 5.9,
+      "mw_points": 65
     }
   ]
 }

@@ -5,26 +5,45 @@
   "team_name": "D2N-Walpole (a)",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 7,
     "ties": 0,
-    "pf": 588,
-    "pa": 516,
-    "diff": 72,
-    "sos": 1620.661,
-    "sos_adj": 1739.411,
-    "power": 1706.349,
+    "pf": 640,
+    "pa": 549,
+    "diff": 91,
+    "sos": 1622.162,
+    "sos_adj": 1742.751,
+    "power": 1720.443,
     "rank": 1,
-    "mw_rating": 140.6,
-    "mw_points": 1546,
+    "mw_rating": 141.8,
+    "mw_points": 1702,
     "divisionno": "7575",
     "division_name": "4th Boys - Division 2",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385424",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:00 AM",
+      "location": "Bridgewater Mitchell Elementary ",
+      "divisionno": "7575",
+      "division_name": "4th Boys - Division 2",
+      "home_teamno": "43425",
+      "away_teamno": "44461",
+      "home_score": 33,
+      "away_score": 52,
+      "team_score": 52,
+      "opponent_score": 33,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43425",
+      "opponent_name": "D2M-Bridgewater (audette)"
+    },
     {
       "gameno": "385323",
       "date": "2026-02-28",
@@ -330,25 +349,5 @@
       "opponent_name": "D2P-Brookline (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385424",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:00 AM",
-      "location": "Bridgewater Mitchell Elementary ",
-      "divisionno": "7575",
-      "division_name": "4th Boys - Division 2",
-      "home_teamno": "43425",
-      "away_teamno": "44461",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43425",
-      "opponent_name": "D2M-Bridgewater (audette)"
-    }
-  ]
+  "future_games": []
 }

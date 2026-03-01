@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 380,
-    "pa": 304,
-    "diff": 76,
-    "sos": 1610.854,
-    "sos_adj": 1714.7,
-    "power": 1648.981,
+    "pf": 413,
+    "pa": 339,
+    "diff": 74,
+    "sos": 1615.576,
+    "sos_adj": 1719.147,
+    "power": 1642.365,
     "rank": 2,
-    "mw_rating": 137.3,
-    "mw_points": 1373,
+    "mw_rating": 131.3,
+    "mw_points": 1444,
     "divisionno": "7327",
     "division_name": "5th Girls - Division 2",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373518",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "Walpole Elm Street School",
+      "divisionno": "7327",
+      "division_name": "5th Girls - Division 2",
+      "home_teamno": "44473",
+      "away_teamno": "43410",
+      "home_score": 33,
+      "away_score": 35,
+      "team_score": 33,
+      "opponent_score": 35,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43410",
+      "opponent_name": "D2H-Norwood (gold)"
+    },
     {
       "gameno": "373514",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D2H-Norwood (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373518",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:00 AM",
-      "location": "Walpole Elm Street School",
-      "divisionno": "7327",
-      "division_name": "5th Girls - Division 2",
-      "home_teamno": "44473",
-      "away_teamno": "43410",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43410",
-      "opponent_name": "D2H-Norwood (gold)"
-    }
-  ]
+  "future_games": []
 }

@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 603,
-    "pa": 549,
-    "diff": 54,
-    "sos": 1622.622,
-    "sos_adj": 1738.247,
-    "power": 1669.773,
+    "pf": 629,
+    "pa": 610,
+    "diff": 19,
+    "sos": 1629.425,
+    "sos_adj": 1744.13,
+    "power": 1656.849,
     "rank": 4,
-    "mw_rating": 155.2,
-    "mw_points": 1707,
+    "mw_rating": 150.8,
+    "mw_points": 1809,
     "divisionno": "7573",
     "division_name": "4th Boys - Division 1",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385428",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:45 AM",
+      "location": "McDevitt Middle School",
+      "divisionno": "7573",
+      "division_name": "4th Boys - Division 1",
+      "home_teamno": "45258",
+      "away_teamno": "43310",
+      "home_score": 61,
+      "away_score": 26,
+      "team_score": 26,
+      "opponent_score": 61,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45258",
+      "opponent_name": "D1N-Waltham Boys (red)"
+    },
     {
       "gameno": "385409",
       "date": "2026-02-22",
@@ -330,25 +349,5 @@
       "opponent_name": "D2N-Stoughton"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385428",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:45 AM",
-      "location": "McDevitt Middle School",
-      "divisionno": "7573",
-      "division_name": "4th Boys - Division 1",
-      "home_teamno": "45258",
-      "away_teamno": "43310",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45258",
-      "opponent_name": "D1N-Waltham Boys (red)"
-    }
-  ]
+  "future_games": []
 }

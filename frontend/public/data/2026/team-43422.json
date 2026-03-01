@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 483,
-    "pa": 594,
-    "diff": -111,
-    "sos": 1556.213,
-    "sos_adj": 1610.38,
-    "power": 1501.425,
-    "rank": 4,
-    "mw_rating": 65.9,
-    "mw_points": 725,
+    "pf": 526,
+    "pa": 658,
+    "diff": -132,
+    "sos": 1552.805,
+    "sos_adj": 1606.651,
+    "power": 1487.363,
+    "rank": 6,
+    "mw_rating": 64.2,
+    "mw_points": 770,
     "divisionno": "7193",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374820",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:15 AM",
+      "location": "Middleborough Early Childhood Center (MECC)",
+      "divisionno": "7193",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "43318",
+      "away_teamno": "43422",
+      "home_score": 64,
+      "away_score": 43,
+      "team_score": 43,
+      "opponent_score": 64,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43318",
+      "opponent_name": "D3H-Middleborough (bascom)"
+    },
     {
       "gameno": "392901",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D3J-Bellingham"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374820",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:15 AM",
-      "location": "Middleborough Early Childhood Center (MECC)",
-      "divisionno": "7193",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "43318",
-      "away_teamno": "43422",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43318",
-      "opponent_name": "D3H-Middleborough (bascom)"
-    }
-  ]
+  "future_games": []
 }

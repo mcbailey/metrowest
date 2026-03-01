@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 209,
-    "pa": 296,
-    "diff": -87,
-    "sos": 1561.8,
-    "sos_adj": 1616.8,
-    "power": 1508.227,
+    "pf": 228,
+    "pa": 331,
+    "diff": -103,
+    "sos": 1564.447,
+    "sos_adj": 1618.992,
+    "power": 1495.501,
     "rank": 6,
-    "mw_rating": 54.8,
-    "mw_points": 548,
+    "mw_rating": 54.0,
+    "mw_points": 594,
     "divisionno": "7326",
     "division_name": "5th Girls - Division 3",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373609",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:15 AM",
+      "location": "Medfield High School",
+      "divisionno": "7326",
+      "division_name": "5th Girls - Division 3",
+      "home_teamno": "45054",
+      "away_teamno": "43777",
+      "home_score": 35,
+      "away_score": 19,
+      "team_score": 19,
+      "opponent_score": 35,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45054",
+      "opponent_name": "D3J-Medfield (hatten)"
+    },
     {
       "gameno": "373602",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D3J-Medfield (hatten)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373609",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:15 AM",
-      "location": "Medfield High School",
-      "divisionno": "7326",
-      "division_name": "5th Girls - Division 3",
-      "home_teamno": "45054",
-      "away_teamno": "43777",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45054",
-      "opponent_name": "D3J-Medfield (hatten)"
-    }
-  ]
+  "future_games": []
 }

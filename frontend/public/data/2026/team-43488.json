@@ -5,26 +5,45 @@
   "team_name": "D4Q-Northboro (white)",
   "town": null,
   "summary": {
-    "wins": 2,
+    "wins": 3,
     "losses": 8,
     "ties": 0,
-    "pf": 231,
-    "pa": 294,
-    "diff": -63,
-    "sos": 1480.725,
-    "sos_adj": 1480.725,
-    "power": 1459.048,
+    "pf": 266,
+    "pa": 328,
+    "diff": -62,
+    "sos": 1474.819,
+    "sos_adj": 1474.819,
+    "power": 1462.646,
     "rank": 5,
-    "mw_rating": 36.6,
-    "mw_points": 366,
+    "mw_rating": 40.6,
+    "mw_points": 447,
     "divisionno": "7580",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385889",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "3:10 PM",
+      "location": "Newton Boys & Girls Club Sat",
+      "divisionno": "7580",
+      "division_name": "4th Boys - Division 4",
+      "home_teamno": "44041",
+      "away_teamno": "43488",
+      "home_score": 34,
+      "away_score": 35,
+      "team_score": 35,
+      "opponent_score": 34,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44041",
+      "opponent_name": "D4Q-Newton (orange)"
+    },
     {
       "gameno": "385881",
       "date": "2026-02-08",
@@ -216,25 +235,5 @@
       "opponent_name": "D4P-Hopkinton (klotsche4)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385889",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "3:10 PM",
-      "location": "Newton Boys & Girls Club Sat",
-      "divisionno": "7580",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "44041",
-      "away_teamno": "43488",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44041",
-      "opponent_name": "D4Q-Newton (orange)"
-    }
-  ]
+  "future_games": []
 }

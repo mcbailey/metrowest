@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 436,
-    "pa": 302,
-    "diff": 134,
-    "sos": 1417.219,
-    "sos_adj": 1342.219,
-    "power": 1444.222,
-    "rank": 2,
-    "mw_rating": 36.7,
-    "mw_points": 367,
+    "pf": 452,
+    "pa": 345,
+    "diff": 107,
+    "sos": 1423.391,
+    "sos_adj": 1350.663,
+    "power": 1419.972,
+    "rank": 3,
+    "mw_rating": 34.3,
+    "mw_points": 377,
     "divisionno": "7173",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379890",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:30 AM",
+      "location": "Franklin Sullivan Middle School",
+      "divisionno": "7173",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "43299",
+      "away_teamno": "43327",
+      "home_score": 43,
+      "away_score": 16,
+      "team_score": 16,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43299",
+      "opponent_name": "D5J-Franklin"
+    },
     {
       "gameno": "389543",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D6H-North Attleboro (silver)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379890",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:30 AM",
-      "location": "Franklin Sullivan Middle School",
-      "divisionno": "7173",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "43299",
-      "away_teamno": "43327",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43299",
-      "opponent_name": "D5J-Franklin"
-    }
-  ]
+  "future_games": []
 }

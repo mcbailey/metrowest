@@ -5,26 +5,45 @@
   "team_name": "D1H-Taunton (pawlowski)",
   "town": null,
   "summary": {
-    "wins": 18,
+    "wins": 19,
     "losses": 10,
     "ties": 0,
-    "pf": 1444,
-    "pa": 1202,
-    "diff": 242,
-    "sos": 1596.368,
-    "sos_adj": 1682.082,
-    "power": 1699.954,
+    "pf": 1495,
+    "pa": 1252,
+    "diff": 243,
+    "sos": 1597.853,
+    "sos_adj": 1685.784,
+    "power": 1703.842,
     "rank": 2,
-    "mw_rating": 183.6,
-    "mw_points": 2020,
+    "mw_rating": 185.8,
+    "mw_points": 2229,
     "divisionno": "7203",
     "division_name": "7th Boys - Division 1",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 28,
-    "games_scheduled_total": 1
+    "games_played_total": 29,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374738",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:20 AM",
+      "location": "Taunton Martin Middle School",
+      "divisionno": "7203",
+      "division_name": "7th Boys - Division 1",
+      "home_teamno": "43928",
+      "away_teamno": "45770",
+      "home_score": 51,
+      "away_score": 50,
+      "team_score": 51,
+      "opponent_score": 50,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45770",
+      "opponent_name": "D1H-Fall River (tee)"
+    },
     {
       "gameno": "374722",
       "date": "2026-02-22",
@@ -558,25 +577,5 @@
       "opponent_name": "D1H-Dartmouth (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374738",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:20 AM",
-      "location": "Taunton Martin Middle School",
-      "divisionno": "7203",
-      "division_name": "7th Boys - Division 1",
-      "home_teamno": "43928",
-      "away_teamno": "45770",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45770",
-      "opponent_name": "D1H-Fall River (tee)"
-    }
-  ]
+  "future_games": []
 }

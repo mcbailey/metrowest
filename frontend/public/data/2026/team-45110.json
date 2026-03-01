@@ -5,26 +5,45 @@
   "team_name": "D3J-Framingham (navy)",
   "town": null,
   "summary": {
-    "wins": 4,
+    "wins": 5,
     "losses": 10,
     "ties": 0,
-    "pf": 342,
-    "pa": 400,
-    "diff": -58,
-    "sos": 1544.427,
-    "sos_adj": 1594.427,
-    "power": 1525.985,
-    "rank": 6,
-    "mw_rating": 64.1,
-    "mw_points": 705,
+    "pf": 377,
+    "pa": 424,
+    "diff": -47,
+    "sos": 1540.044,
+    "sos_adj": 1590.044,
+    "power": 1542.908,
+    "rank": 5,
+    "mw_rating": 68.5,
+    "mw_points": 822,
     "divisionno": "7263",
     "division_name": "7th Girls - Division 3",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378168",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:50 AM",
+      "location": "Pine Hill Elementary",
+      "divisionno": "7263",
+      "division_name": "7th Girls - Division 3",
+      "home_teamno": "45134",
+      "away_teamno": "45110",
+      "home_score": 24,
+      "away_score": 35,
+      "team_score": 35,
+      "opponent_score": 24,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45134",
+      "opponent_name": "D3H-Westwood"
+    },
     {
       "gameno": "378122",
       "date": "2026-02-28",
@@ -292,25 +311,5 @@
       "opponent_name": "D4Q-Natick"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378168",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:50 AM",
-      "location": "Pine Hill Elementary",
-      "divisionno": "7263",
-      "division_name": "7th Girls - Division 3",
-      "home_teamno": "45134",
-      "away_teamno": "45110",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45134",
-      "opponent_name": "D3H-Westwood"
-    }
-  ]
+  "future_games": []
 }

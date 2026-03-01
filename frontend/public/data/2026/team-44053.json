@@ -5,24 +5,24 @@
   "team_name": "D3M-Newton (orange)",
   "town": null,
   "summary": {
-    "wins": 3,
+    "wins": 4,
     "losses": 8,
     "ties": 0,
-    "pf": 522,
-    "pa": 614,
-    "diff": -92,
-    "sos": 1554.683,
-    "sos_adj": 1609.228,
-    "power": 1522.656,
+    "pf": 579,
+    "pa": 650,
+    "diff": -71,
+    "sos": 1541.383,
+    "sos_adj": 1583.05,
+    "power": 1518.857,
     "rank": 6,
-    "mw_rating": 66.4,
-    "mw_points": 730,
+    "mw_rating": 66.8,
+    "mw_points": 735,
     "divisionno": "7160",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 2
+    "games_played_total": 12,
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -178,6 +178,25 @@
       "opponent_name": "D3M-Wayland (black)"
     },
     {
+      "gameno": "392301",
+      "date": "2025-12-28",
+      "dow": "Sun",
+      "starttime": "1:25 PM",
+      "location": "Mass Premier l",
+      "divisionno": "7137",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "43968",
+      "away_teamno": "44053",
+      "home_score": 36,
+      "away_score": 57,
+      "team_score": 57,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43968",
+      "opponent_name": "D6H-Taunton (hibbard)"
+    },
+    {
       "gameno": "379638",
       "date": "2025-12-21",
       "dow": "Sun",
@@ -236,25 +255,6 @@
     }
   ],
   "future_games": [
-    {
-      "gameno": "392301",
-      "date": "2025-12-28",
-      "dow": "Sun",
-      "starttime": "1:25 PM",
-      "location": "Mass Premier l",
-      "divisionno": "7137",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "43968",
-      "away_teamno": "44053",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43968",
-      "opponent_name": "D6H-Taunton (hibbard)"
-    },
     {
       "gameno": "379707",
       "date": "2026-03-01",

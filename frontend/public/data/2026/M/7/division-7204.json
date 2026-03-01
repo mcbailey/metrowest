@@ -21,25 +21,25 @@
       "sos_adj": 1716.727,
       "power": 1756.592,
       "rank": 1,
-      "mw_rating": 215.0,
-      "mw_points": 2365
+      "mw_rating": 215.2,
+      "mw_points": 2367
     },
     {
       "teamno": "45251",
       "name": "D1J-Waltham Boys (red)",
       "town": null,
       "wins": 8,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 704,
-      "pa": 671,
-      "diff": 33,
-      "sos": 1614.335,
-      "sos_adj": 1728.621,
-      "power": 1678.152,
+      "pf": 763,
+      "pa": 739,
+      "diff": 24,
+      "sos": 1618.171,
+      "sos_adj": 1734.838,
+      "power": 1666.071,
       "rank": 2,
-      "mw_rating": 148.8,
-      "mw_points": 1637
+      "mw_rating": 144.8,
+      "mw_points": 1737
     },
     {
       "teamno": "44615",
@@ -51,12 +51,29 @@
       "pf": 410,
       "pa": 504,
       "diff": -94,
-      "sos": 1683.781,
-      "sos_adj": 1833.781,
-      "power": 1665.45,
+      "sos": 1685.801,
+      "sos_adj": 1835.801,
+      "power": 1665.955,
       "rank": 3,
-      "mw_rating": 111.0,
-      "mw_points": 1110
+      "mw_rating": 111.1,
+      "mw_points": 1111
+    },
+    {
+      "teamno": "45313",
+      "name": "D1J-Milton (red)",
+      "town": null,
+      "wins": 10,
+      "losses": 12,
+      "ties": 0,
+      "pf": 1013,
+      "pa": 981,
+      "diff": 32,
+      "sos": 1578.892,
+      "sos_adj": 1653.892,
+      "power": 1653.744,
+      "rank": 4,
+      "mw_rating": 154.0,
+      "mw_points": 1694
     },
     {
       "teamno": "45534",
@@ -71,26 +88,9 @@
       "sos": 1652.61,
       "sos_adj": 1787.61,
       "power": 1652.657,
-      "rank": 4,
+      "rank": 5,
       "mw_rating": 118.1,
       "mw_points": 1181
-    },
-    {
-      "teamno": "45313",
-      "name": "D1J-Milton (red)",
-      "town": null,
-      "wins": 9,
-      "losses": 12,
-      "ties": 0,
-      "pf": 945,
-      "pa": 922,
-      "diff": 23,
-      "sos": 1576.698,
-      "sos_adj": 1648.127,
-      "power": 1638.666,
-      "rank": 5,
-      "mw_rating": 148.5,
-      "mw_points": 1485
     }
   ]
 }

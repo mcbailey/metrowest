@@ -17,12 +17,12 @@
       "pf": 901,
       "pa": 604,
       "diff": 297,
-      "sos": 1506.394,
-      "sos_adj": 1515.09,
-      "power": 1613.889,
+      "sos": 1507.474,
+      "sos_adj": 1516.17,
+      "power": 1614.159,
       "rank": 1,
-      "mw_rating": 108.2,
-      "mw_points": 1190
+      "mw_rating": 108.4,
+      "mw_points": 1192
     },
     {
       "teamno": "44086",
@@ -34,12 +34,12 @@
       "pf": 419,
       "pa": 371,
       "diff": 48,
-      "sos": 1510.519,
-      "sos_adj": 1510.519,
-      "power": 1526.165,
+      "sos": 1515.034,
+      "sos_adj": 1515.034,
+      "power": 1527.294,
       "rank": 2,
-      "mw_rating": 60.7,
-      "mw_points": 668
+      "mw_rating": 60.9,
+      "mw_points": 670
     },
     {
       "teamno": "45652",
@@ -51,12 +51,12 @@
       "pf": 353,
       "pa": 361,
       "diff": -8,
-      "sos": 1521.767,
-      "sos_adj": 1521.767,
-      "power": 1522.22,
+      "sos": 1526.283,
+      "sos_adj": 1526.283,
+      "power": 1523.349,
       "rank": 3,
-      "mw_rating": 60.4,
-      "mw_points": 664
+      "mw_rating": 60.6,
+      "mw_points": 667
     },
     {
       "teamno": "44212",
@@ -68,12 +68,12 @@
       "pf": 356,
       "pa": 413,
       "diff": -57,
-      "sos": 1515.039,
-      "sos_adj": 1515.039,
-      "power": 1487.832,
+      "sos": 1519.178,
+      "sos_adj": 1519.178,
+      "power": 1488.867,
       "rank": 4,
-      "mw_rating": 47.6,
-      "mw_points": 571
+      "mw_rating": 47.8,
+      "mw_points": 573
     },
     {
       "teamno": "44059",
@@ -85,29 +85,29 @@
       "pf": 280,
       "pa": 270,
       "diff": 10,
-      "sos": 1512.342,
-      "sos_adj": 1525.978,
-      "power": 1485.755,
+      "sos": 1514.6,
+      "sos_adj": 1528.236,
+      "power": 1486.32,
       "rank": 5,
-      "mw_rating": 49.1,
-      "mw_points": 540
+      "mw_rating": 49.2,
+      "mw_points": 541
     },
     {
       "teamno": "45115",
       "name": "D4P-Westwood (white)",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 8,
       "ties": 0,
-      "pf": 344,
-      "pa": 395,
-      "diff": -51,
-      "sos": 1505.555,
-      "sos_adj": 1505.555,
-      "power": 1467.904,
+      "pf": 386,
+      "pa": 427,
+      "diff": -41,
+      "sos": 1502.643,
+      "sos_adj": 1502.643,
+      "power": 1485.803,
       "rank": 6,
-      "mw_rating": 39.8,
-      "mw_points": 438
+      "mw_rating": 43.3,
+      "mw_points": 520
     },
     {
       "teamno": "44363",
@@ -119,9 +119,9 @@
       "pf": 286,
       "pa": 445,
       "diff": -159,
-      "sos": 1509.071,
-      "sos_adj": 1522.708,
-      "power": 1428.739,
+      "sos": 1511.329,
+      "sos_adj": 1524.966,
+      "power": 1429.304,
       "rank": 7,
       "mw_rating": 34.3,
       "mw_points": 377

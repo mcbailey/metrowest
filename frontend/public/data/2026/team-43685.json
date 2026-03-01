@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 394,
-    "pa": 541,
-    "diff": -147,
-    "sos": 1620.283,
-    "sos_adj": 1727.426,
-    "power": 1613.646,
+    "pf": 419,
+    "pa": 589,
+    "diff": -170,
+    "sos": 1625.395,
+    "sos_adj": 1735.395,
+    "power": 1606.581,
     "rank": 5,
-    "mw_rating": 107.3,
-    "mw_points": 1180,
+    "mw_rating": 106.8,
+    "mw_points": 1281,
     "divisionno": "7071",
     "division_name": "6th Girls - Division 2",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "387660",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "North Attleboro Middle School",
+      "divisionno": "7071",
+      "division_name": "6th Girls - Division 2",
+      "home_teamno": "43823",
+      "away_teamno": "43685",
+      "home_score": 48,
+      "away_score": 25,
+      "team_score": 25,
+      "opponent_score": 48,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43823",
+      "opponent_name": "D1-North Attleboro (red)"
+    },
     {
       "gameno": "387651",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "D3J-Milton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "387660",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:00 AM",
-      "location": "North Attleboro Middle School",
-      "divisionno": "7071",
-      "division_name": "6th Girls - Division 2",
-      "home_teamno": "43823",
-      "away_teamno": "43685",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43823",
-      "opponent_name": "D1-North Attleboro (red)"
-    }
-  ]
+  "future_games": []
 }

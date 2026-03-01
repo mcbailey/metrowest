@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 647,
-    "pa": 661,
-    "diff": -14,
-    "sos": 1567.17,
-    "sos_adj": 1637.17,
-    "power": 1560.925,
-    "rank": 3,
-    "mw_rating": 93.3,
-    "mw_points": 1026,
+    "pf": 686,
+    "pa": 719,
+    "diff": -33,
+    "sos": 1571.363,
+    "sos_adj": 1643.238,
+    "power": 1547.689,
+    "rank": 4,
+    "mw_rating": 91.4,
+    "mw_points": 1097,
     "divisionno": "7228",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374549",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:15 AM",
+      "location": "Walpole Elm Street School",
+      "divisionno": "7228",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "44462",
+      "away_teamno": "43536",
+      "home_score": 58,
+      "away_score": 39,
+      "team_score": 39,
+      "opponent_score": 58,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44462",
+      "opponent_name": "D2J-Walpole (a)"
+    },
     {
       "gameno": "378932",
       "date": "2026-02-22",
@@ -311,25 +330,5 @@
       "opponent_name": "D1J-Natick"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374549",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:15 AM",
-      "location": "Walpole Elm Street School",
-      "divisionno": "7228",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "44462",
-      "away_teamno": "43536",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44462",
-      "opponent_name": "D2J-Walpole (a)"
-    }
-  ]
+  "future_games": []
 }

@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 730,
-    "pa": 692,
-    "diff": 38,
-    "sos": 1487.965,
-    "sos_adj": 1487.965,
-    "power": 1475.413,
+    "pf": 784,
+    "pa": 753,
+    "diff": 31,
+    "sos": 1489.79,
+    "sos_adj": 1487.013,
+    "power": 1455.965,
     "rank": 6,
-    "mw_rating": 53.3,
-    "mw_points": 586,
+    "mw_rating": 49.7,
+    "mw_points": 596,
     "divisionno": "7156",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380935",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:10 AM",
+      "location": "Middlesex School - Varsity Court",
+      "divisionno": "7146",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "43717",
+      "away_teamno": "45310",
+      "home_score": 54,
+      "away_score": 61,
+      "team_score": 54,
+      "opponent_score": 61,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45310",
+      "opponent_name": "D5J-Milton (black)"
+    },
     {
       "gameno": "380883",
       "date": "2026-02-28",
@@ -349,25 +368,5 @@
       "opponent_name": "D4Q-Westborough"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380935",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:10 AM",
-      "location": "Middlesex School - Varsity Court",
-      "divisionno": "7146",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "43717",
-      "away_teamno": "45310",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45310",
-      "opponent_name": "D5J-Milton (black)"
-    }
-  ]
+  "future_games": []
 }

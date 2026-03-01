@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 318,
-    "pa": 431,
-    "diff": -113,
-    "sos": 1437.331,
-    "sos_adj": 1387.331,
-    "power": 1389.566,
+    "pf": 337,
+    "pa": 478,
+    "diff": -141,
+    "sos": 1441.756,
+    "sos_adj": 1391.756,
+    "power": 1377.9,
     "rank": 7,
-    "mw_rating": 23.6,
-    "mw_points": 259,
+    "mw_rating": 22.4,
+    "mw_points": 269,
     "divisionno": "7215",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378298",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:50 AM",
+      "location": "Franklin Sullivan Middle School",
+      "divisionno": "7215",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43297",
+      "away_teamno": "45127",
+      "home_score": 47,
+      "away_score": 19,
+      "team_score": 19,
+      "opponent_score": 47,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43297",
+      "opponent_name": "D5K-Franklin"
+    },
     {
       "gameno": "393317",
       "date": "2026-02-27",
@@ -273,25 +292,5 @@
       "opponent_name": "D5M-Canton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378298",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:50 AM",
-      "location": "Franklin Sullivan Middle School",
-      "divisionno": "7215",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "43297",
-      "away_teamno": "45127",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43297",
-      "opponent_name": "D5K-Franklin"
-    }
-  ]
+  "future_games": []
 }

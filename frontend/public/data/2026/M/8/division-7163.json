@@ -21,8 +21,8 @@
       "sos_adj": 1659.129,
       "power": 1664.297,
       "rank": 1,
-      "mw_rating": 142.2,
-      "mw_points": 1280
+      "mw_rating": 142.4,
+      "mw_points": 1282
     },
     {
       "teamno": "43328",
@@ -38,8 +38,8 @@
       "sos_adj": 1729.505,
       "power": 1639.354,
       "rank": 2,
-      "mw_rating": 130.3,
-      "mw_points": 1433
+      "mw_rating": 130.5,
+      "mw_points": 1435
     },
     {
       "teamno": "43206",
@@ -51,29 +51,29 @@
       "pf": 577,
       "pa": 509,
       "diff": 68,
-      "sos": 1563.248,
-      "sos_adj": 1635.975,
-      "power": 1637.956,
+      "sos": 1560.018,
+      "sos_adj": 1632.745,
+      "power": 1637.148,
       "rank": 3,
-      "mw_rating": 101.5,
-      "mw_points": 1015
+      "mw_rating": 101.6,
+      "mw_points": 1016
     },
     {
-      "teamno": "43483",
-      "name": "D2H-Rochester",
+      "teamno": "44148",
+      "name": "D2H-Easton (black)",
       "town": null,
-      "wins": 5,
-      "losses": 9,
+      "wins": 6,
+      "losses": 6,
       "ties": 0,
-      "pf": 634,
-      "pa": 673,
-      "diff": -39,
-      "sos": 1604.755,
-      "sos_adj": 1697.612,
-      "power": 1603.488,
+      "pf": 590,
+      "pa": 597,
+      "diff": -7,
+      "sos": 1589.67,
+      "sos_adj": 1681.336,
+      "power": 1606.918,
       "rank": 4,
-      "mw_rating": 103.6,
-      "mw_points": 1140
+      "mw_rating": 107.3,
+      "mw_points": 1288
     },
     {
       "teamno": "44644",
@@ -89,25 +89,25 @@
       "sos_adj": 1688.63,
       "power": 1596.937,
       "rank": 5,
-      "mw_rating": 108.1,
-      "mw_points": 973
+      "mw_rating": 108.2,
+      "mw_points": 974
     },
     {
-      "teamno": "44148",
-      "name": "D2H-Easton (black)",
+      "teamno": "43483",
+      "name": "D2H-Rochester",
       "town": null,
       "wins": 5,
-      "losses": 6,
+      "losses": 10,
       "ties": 0,
-      "pf": 534,
-      "pa": 551,
-      "diff": -17,
-      "sos": 1594.495,
-      "sos_adj": 1685.404,
-      "power": 1594.613,
+      "pf": 680,
+      "pa": 729,
+      "diff": -49,
+      "sos": 1604.43,
+      "sos_adj": 1697.763,
+      "power": 1590.204,
       "rank": 6,
-      "mw_rating": 102.9,
-      "mw_points": 1132
+      "mw_rating": 100.8,
+      "mw_points": 1210
     }
   ]
 }

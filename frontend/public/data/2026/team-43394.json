@@ -5,26 +5,45 @@
   "team_name": "D2BJ-Natick",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 8,
     "ties": 0,
-    "pf": 534,
-    "pa": 522,
-    "diff": 12,
-    "sos": 1590.848,
-    "sos_adj": 1677.514,
-    "power": 1607.369,
-    "rank": 5,
-    "mw_rating": 112.5,
-    "mw_points": 1125,
+    "pf": 571,
+    "pa": 557,
+    "diff": 14,
+    "sos": 1589.358,
+    "sos_adj": 1676.858,
+    "power": 1613.31,
+    "rank": 3,
+    "mw_rating": 116.7,
+    "mw_points": 1284,
     "divisionno": "7049",
     "division_name": "8th Girls - Division 2",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374036",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:50 AM",
+      "location": "Westwood High School",
+      "divisionno": "7049",
+      "division_name": "8th Girls - Division 2",
+      "home_teamno": "45138",
+      "away_teamno": "43394",
+      "home_score": 35,
+      "away_score": 37,
+      "team_score": 37,
+      "opponent_score": 35,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45138",
+      "opponent_name": "D2BJ-Westwood"
+    },
     {
       "gameno": "373981",
       "date": "2026-02-28",
@@ -311,25 +330,5 @@
       "opponent_name": "Chelmsford (Maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374036",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:50 AM",
-      "location": "Westwood High School",
-      "divisionno": "7049",
-      "division_name": "8th Girls - Division 2",
-      "home_teamno": "45138",
-      "away_teamno": "43394",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45138",
-      "opponent_name": "D2BJ-Westwood"
-    }
-  ]
+  "future_games": []
 }

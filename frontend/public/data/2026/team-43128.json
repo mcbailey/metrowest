@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 328,
-    "pa": 407,
-    "diff": -79,
-    "sos": 1394.598,
-    "sos_adj": 1294.598,
-    "power": 1352.169,
-    "rank": 5,
-    "mw_rating": 15.2,
-    "mw_points": 167,
+    "pf": 360,
+    "pa": 451,
+    "diff": -91,
+    "sos": 1397.954,
+    "sos_adj": 1297.954,
+    "power": 1338.513,
+    "rank": 6,
+    "mw_rating": 14.3,
+    "mw_points": 172,
     "divisionno": "7137",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379275",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:30 AM",
+      "location": "Seekonk - Hurley Middle School",
+      "divisionno": "7138",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "43120",
+      "away_teamno": "43128",
+      "home_score": 44,
+      "away_score": 32,
+      "team_score": 32,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43120",
+      "opponent_name": "D6J-Seekonk (mcbride)"
+    },
     {
       "gameno": "379237",
       "date": "2026-02-28",
@@ -235,25 +254,5 @@
       "opponent_name": "D6H-Seekonk (escaler)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379275",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:30 AM",
-      "location": "Seekonk - Hurley Middle School",
-      "divisionno": "7138",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "43120",
-      "away_teamno": "43128",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43120",
-      "opponent_name": "D6J-Seekonk (mcbride)"
-    }
-  ]
+  "future_games": []
 }

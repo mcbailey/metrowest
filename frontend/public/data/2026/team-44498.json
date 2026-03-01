@@ -5,26 +5,45 @@
   "team_name": "D1-Easton (black)",
   "town": null,
   "summary": {
-    "wins": 15,
+    "wins": 16,
     "losses": 0,
     "ties": 0,
-    "pf": 488,
-    "pa": 303,
-    "diff": 185,
-    "sos": 1615.598,
-    "sos_adj": 1735.598,
-    "power": 1747.316,
+    "pf": 516,
+    "pa": 316,
+    "diff": 200,
+    "sos": 1614.771,
+    "sos_adj": 1736.646,
+    "power": 1748.137,
     "rank": 1,
-    "mw_rating": 197.5,
-    "mw_points": 2172,
+    "mw_rating": 197.8,
+    "mw_points": 2374,
     "divisionno": "7082",
     "division_name": "5th Girls - Division 1",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373457",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "Dana Barros-1",
+      "divisionno": "7082",
+      "division_name": "5th Girls - Division 1",
+      "home_teamno": "45241",
+      "away_teamno": "44498",
+      "home_score": 13,
+      "away_score": 28,
+      "team_score": 28,
+      "opponent_score": 13,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45241",
+      "opponent_name": "D1-Hanover"
+    },
     {
       "gameno": "373454",
       "date": "2026-02-22",
@@ -311,25 +330,5 @@
       "opponent_name": "D1-Newton (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373457",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:00 AM",
-      "location": "Dana Barros-1",
-      "divisionno": "7082",
-      "division_name": "5th Girls - Division 1",
-      "home_teamno": "45241",
-      "away_teamno": "44498",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45241",
-      "opponent_name": "D1-Hanover"
-    }
-  ]
+  "future_games": []
 }

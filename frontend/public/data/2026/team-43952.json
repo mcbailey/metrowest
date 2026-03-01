@@ -5,26 +5,45 @@
   "team_name": "D3J-Foxboro (blue)",
   "town": null,
   "summary": {
-    "wins": 14,
+    "wins": 15,
     "losses": 6,
     "ties": 0,
-    "pf": 1177,
-    "pa": 1043,
-    "diff": 134,
-    "sos": 1541.759,
-    "sos_adj": 1581.759,
-    "power": 1587.693,
+    "pf": 1247,
+    "pa": 1105,
+    "diff": 142,
+    "sos": 1537.854,
+    "sos_adj": 1575.95,
+    "power": 1596.281,
     "rank": 2,
-    "mw_rating": 102.6,
-    "mw_points": 1128,
+    "mw_rating": 101.2,
+    "mw_points": 1214,
     "divisionno": "7158",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 20,
-    "games_scheduled_total": 1
+    "games_played_total": 21,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375124",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:15 AM",
+      "location": "Foxboro Ahern Middle (Gym 2)",
+      "divisionno": "7155",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "43952",
+      "away_teamno": "45135",
+      "home_score": 70,
+      "away_score": 62,
+      "team_score": 70,
+      "opponent_score": 62,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45135",
+      "opponent_name": "D4Q-Westwood"
+    },
     {
       "gameno": "375119",
       "date": "2026-02-22",
@@ -406,25 +425,5 @@
       "opponent_name": "D3H-Dartmouth (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375124",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:15 AM",
-      "location": "Foxboro Ahern Middle (Gym 2)",
-      "divisionno": "7155",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "43952",
-      "away_teamno": "45135",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45135",
-      "opponent_name": "D4Q-Westwood"
-    }
-  ]
+  "future_games": []
 }

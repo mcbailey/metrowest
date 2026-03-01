@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 1,
+    "losses": 2,
     "ties": 0,
-    "pf": 402,
-    "pa": 202,
-    "diff": 200,
-    "sos": 1451.828,
-    "sos_adj": 1426.828,
-    "power": 1545.268,
+    "pf": 426,
+    "pa": 230,
+    "diff": 196,
+    "sos": 1459.724,
+    "sos_adj": 1436.647,
+    "power": 1533.164,
     "rank": 1,
-    "mw_rating": 59.2,
-    "mw_points": 710,
+    "mw_rating": 61.4,
+    "mw_points": 737,
     "divisionno": "7250",
     "division_name": "7th Girls - Division 5",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "392331",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:20 AM",
+      "location": "King Philip Middle School (Norfolk)",
+      "divisionno": "7250",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "44604",
+      "away_teamno": "44478",
+      "home_score": 28,
+      "away_score": 24,
+      "team_score": 24,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44604",
+      "opponent_name": "D4K-King Philip"
+    },
     {
       "gameno": "378032",
       "date": "2026-02-28",
@@ -254,25 +273,5 @@
       "opponent_name": "D3H-Canton (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "392331",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:20 AM",
-      "location": "King Philip Middle School (Norfolk)",
-      "divisionno": "7250",
-      "division_name": "7th Girls - Division 5",
-      "home_teamno": "44604",
-      "away_teamno": "44478",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44604",
-      "opponent_name": "D4K-King Philip"
-    }
-  ]
+  "future_games": []
 }

@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 628,
-    "pa": 609,
-    "diff": 19,
-    "sos": 1597.344,
-    "sos_adj": 1687.344,
-    "power": 1626.463,
+    "pf": 649,
+    "pa": 632,
+    "diff": 17,
+    "sos": 1601.328,
+    "sos_adj": 1694.186,
+    "power": 1623.364,
     "rank": 8,
-    "mw_rating": 126.3,
-    "mw_points": 1263,
+    "mw_rating": 124.0,
+    "mw_points": 1364,
     "divisionno": "7265",
     "division_name": "7th Girls - Division 1",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 20,
-    "games_scheduled_total": 1
+    "games_played_total": 21,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373902",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:10 AM",
+      "location": "Dana Barros-1",
+      "divisionno": "7265",
+      "division_name": "7th Girls - Division 1",
+      "home_teamno": "44862",
+      "away_teamno": "43456",
+      "home_score": 23,
+      "away_score": 21,
+      "team_score": 21,
+      "opponent_score": 23,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44862",
+      "opponent_name": "D1/2J-Hanover"
+    },
     {
       "gameno": "373889",
       "date": "2026-02-28",
@@ -406,25 +425,5 @@
       "opponent_name": "Windham (G7)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373902",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:10 AM",
-      "location": "Dana Barros-1",
-      "divisionno": "7265",
-      "division_name": "7th Girls - Division 1",
-      "home_teamno": "44862",
-      "away_teamno": "43456",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44862",
-      "opponent_name": "D1/2J-Hanover"
-    }
-  ]
+  "future_games": []
 }

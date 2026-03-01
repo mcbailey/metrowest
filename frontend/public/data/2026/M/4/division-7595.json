@@ -12,17 +12,17 @@
       "name": "D7V-Concord-Carlisle (gold)",
       "town": null,
       "wins": 12,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "pf": 486,
-      "pa": 244,
-      "diff": 242,
-      "sos": 1349.047,
-      "sos_adj": 1224.047,
-      "power": 1411.681,
+      "pf": 504,
+      "pa": 290,
+      "diff": 214,
+      "sos": 1361.555,
+      "sos_adj": 1238.478,
+      "power": 1390.953,
       "rank": 1,
-      "mw_rating": 31.1,
-      "mw_points": 280
+      "mw_rating": 28.7,
+      "mw_points": 287
     },
     {
       "teamno": "45078",
@@ -38,8 +38,8 @@
       "sos_adj": 1195.987,
       "power": 1371.066,
       "rank": 2,
-      "mw_rating": 21.7,
-      "mw_points": 217
+      "mw_rating": 21.8,
+      "mw_points": 218
     },
     {
       "teamno": "45077",
@@ -55,8 +55,8 @@
       "sos_adj": 1196.603,
       "power": 1340.544,
       "rank": 3,
-      "mw_rating": 16.4,
-      "mw_points": 164
+      "mw_rating": 16.5,
+      "mw_points": 165
     },
     {
       "teamno": "45767",
@@ -68,12 +68,29 @@
       "pf": 374,
       "pa": 474,
       "diff": -100,
-      "sos": 1358.556,
-      "sos_adj": 1218.556,
-      "power": 1280.966,
+      "sos": 1360.117,
+      "sos_adj": 1220.117,
+      "power": 1281.357,
       "rank": 4,
-      "mw_rating": 7.5,
-      "mw_points": 75
+      "mw_rating": 7.6,
+      "mw_points": 76
+    },
+    {
+      "teamno": "44768",
+      "name": "D7V-Arlington (red)",
+      "town": null,
+      "wins": 4,
+      "losses": 12,
+      "ties": 0,
+      "pf": 353,
+      "pa": 472,
+      "diff": -119,
+      "sos": 1355.198,
+      "sos_adj": 1205.198,
+      "power": 1277.116,
+      "rank": 5,
+      "mw_rating": 7.0,
+      "mw_points": 77
     },
     {
       "teamno": "45277",
@@ -85,29 +102,12 @@
       "pf": 216,
       "pa": 379,
       "diff": -163,
-      "sos": 1360.378,
-      "sos_adj": 1210.378,
-      "power": 1265.602,
-      "rank": 5,
-      "mw_rating": 6.2,
-      "mw_points": 68
-    },
-    {
-      "teamno": "44768",
-      "name": "D7V-Arlington (red)",
-      "town": null,
-      "wins": 3,
-      "losses": 12,
-      "ties": 0,
-      "pf": 330,
-      "pa": 455,
-      "diff": -125,
-      "sos": 1360.326,
-      "sos_adj": 1210.326,
-      "power": 1260.838,
+      "sos": 1357.428,
+      "sos_adj": 1207.428,
+      "power": 1264.865,
       "rank": 6,
-      "mw_rating": 5.3,
-      "mw_points": 53
+      "mw_rating": 6.3,
+      "mw_points": 69
     }
   ]
 }

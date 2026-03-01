@@ -11,18 +11,18 @@
       "teamno": "45355",
       "name": "D5H-West Bridgewater (borey)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 0,
       "ties": 0,
-      "pf": 490,
-      "pa": 256,
-      "diff": 234,
-      "sos": 1453.205,
-      "sos_adj": 1415.705,
-      "power": 1516.533,
+      "pf": 557,
+      "pa": 322,
+      "diff": 235,
+      "sos": 1457.569,
+      "sos_adj": 1424.236,
+      "power": 1524.302,
       "rank": 1,
-      "mw_rating": 63.0,
-      "mw_points": 504
+      "mw_rating": 67.0,
+      "mw_points": 603
     },
     {
       "teamno": "44981",
@@ -34,12 +34,12 @@
       "pf": 585,
       "pa": 416,
       "diff": 169,
-      "sos": 1447.787,
-      "sos_adj": 1397.787,
-      "power": 1505.805,
+      "sos": 1448.414,
+      "sos_adj": 1398.414,
+      "power": 1505.961,
       "rank": 2,
-      "mw_rating": 52.0,
-      "mw_points": 572
+      "mw_rating": 52.2,
+      "mw_points": 574
     },
     {
       "teamno": "43252",
@@ -51,29 +51,29 @@
       "pf": 532,
       "pa": 498,
       "diff": 34,
-      "sos": 1441.2,
-      "sos_adj": 1382.867,
-      "power": 1483.211,
+      "sos": 1442.635,
+      "sos_adj": 1384.301,
+      "power": 1483.57,
       "rank": 3,
-      "mw_rating": 40.0,
-      "mw_points": 440
+      "mw_rating": 40.2,
+      "mw_points": 442
     },
     {
       "teamno": "43098",
       "name": "D5H-Swansea (black)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 7,
       "ties": 0,
-      "pf": 416,
-      "pa": 495,
-      "diff": -79,
-      "sos": 1464.521,
-      "sos_adj": 1414.521,
-      "power": 1424.599,
+      "pf": 473,
+      "pa": 543,
+      "diff": -70,
+      "sos": 1456.737,
+      "sos_adj": 1406.737,
+      "power": 1435.562,
       "rank": 4,
-      "mw_rating": 26.6,
-      "mw_points": 293
+      "mw_rating": 28.8,
+      "mw_points": 346
     },
     {
       "teamno": "43331",
@@ -85,12 +85,12 @@
       "pf": 506,
       "pa": 582,
       "diff": -76,
-      "sos": 1448.541,
-      "sos_adj": 1394.695,
-      "power": 1407.498,
+      "sos": 1449.119,
+      "sos_adj": 1395.273,
+      "power": 1407.642,
       "rank": 5,
       "mw_rating": 25.3,
-      "mw_points": 303
+      "mw_points": 304
     },
     {
       "teamno": "44645",
@@ -106,8 +106,8 @@
       "sos_adj": 1427.832,
       "power": 1404.167,
       "rank": 6,
-      "mw_rating": 20.5,
-      "mw_points": 205
+      "mw_rating": 20.6,
+      "mw_points": 206
     },
     {
       "teamno": "43477",
@@ -123,25 +123,25 @@
       "sos_adj": 1401.379,
       "power": 1392.085,
       "rank": 7,
-      "mw_rating": 28.3,
-      "mw_points": 311
+      "mw_rating": 28.4,
+      "mw_points": 312
     },
     {
       "teamno": "43207",
       "name": "D5H-FLBC (white)",
       "town": null,
       "wins": 2,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 355,
-      "pa": 539,
-      "diff": -184,
-      "sos": 1452.574,
-      "sos_adj": 1398.029,
-      "power": 1385.111,
+      "pf": 403,
+      "pa": 596,
+      "diff": -193,
+      "sos": 1452.583,
+      "sos_adj": 1398.417,
+      "power": 1372.299,
       "rank": 8,
-      "mw_rating": 16.7,
-      "mw_points": 184
+      "mw_rating": 16.2,
+      "mw_points": 194
     }
   ]
 }

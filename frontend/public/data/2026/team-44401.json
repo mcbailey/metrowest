@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 135,
-    "pa": 237,
-    "diff": -102,
-    "sos": 1436.75,
-    "sos_adj": 1376.75,
-    "power": 1351.602,
+    "pf": 147,
+    "pa": 272,
+    "diff": -125,
+    "sos": 1444.986,
+    "sos_adj": 1390.441,
+    "power": 1346.703,
     "rank": 6,
-    "mw_rating": 26.6,
-    "mw_points": 266,
+    "mw_rating": 26.5,
+    "mw_points": 291,
     "divisionno": "7551",
     "division_name": "4th Girls - Division 6",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384338",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:00 AM",
+      "location": "Westwood Thurston Middle School New Gym",
+      "divisionno": "7551",
+      "division_name": "4th Girls - Division 6",
+      "home_teamno": "45117",
+      "away_teamno": "44401",
+      "home_score": 35,
+      "away_score": 12,
+      "team_score": 12,
+      "opponent_score": 35,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45117",
+      "opponent_name": "D4N-Westwood (green)"
+    },
     {
       "gameno": "384329",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D4N-Norwood (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384338",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:00 AM",
-      "location": "Westwood Thurston Middle School New Gym",
-      "divisionno": "7551",
-      "division_name": "4th Girls - Division 6",
-      "home_teamno": "45117",
-      "away_teamno": "44401",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45117",
-      "opponent_name": "D4N-Westwood (green)"
-    }
-  ]
+  "future_games": []
 }

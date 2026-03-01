@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 270,
-    "pa": 277,
-    "diff": -7,
-    "sos": 1653.578,
-    "sos_adj": 1794.487,
-    "power": 1656.143,
+    "pf": 285,
+    "pa": 301,
+    "diff": -16,
+    "sos": 1653.302,
+    "sos_adj": 1794.969,
+    "power": 1647.71,
     "rank": 7,
-    "mw_rating": 140.1,
-    "mw_points": 1541,
+    "mw_rating": 136.8,
+    "mw_points": 1641,
     "divisionno": "7082",
     "division_name": "5th Girls - Division 1",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373458",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:50 AM",
+      "location": "Franklin Horace Mann Middle School",
+      "divisionno": "7082",
+      "division_name": "5th Girls - Division 1",
+      "home_teamno": "43302",
+      "away_teamno": "45342",
+      "home_score": 24,
+      "away_score": 15,
+      "team_score": 15,
+      "opponent_score": 24,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43302",
+      "opponent_name": "D1-Franklin"
+    },
     {
       "gameno": "373453",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D1-Northboro"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373458",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:50 AM",
-      "location": "Franklin Horace Mann Middle School",
-      "divisionno": "7082",
-      "division_name": "5th Girls - Division 1",
-      "home_teamno": "43302",
-      "away_teamno": "45342",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43302",
-      "opponent_name": "D1-Franklin"
-    }
-  ]
+  "future_games": []
 }

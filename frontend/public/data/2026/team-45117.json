@@ -5,26 +5,45 @@
   "team_name": "D4N-Westwood (green)",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 3,
     "ties": 0,
-    "pf": 277,
-    "pa": 184,
-    "diff": 93,
-    "sos": 1467.374,
-    "sos_adj": 1442.374,
-    "power": 1525.065,
+    "pf": 312,
+    "pa": 196,
+    "diff": 116,
+    "sos": 1460.891,
+    "sos_adj": 1430.122,
+    "power": 1531.815,
     "rank": 1,
-    "mw_rating": 60.1,
-    "mw_points": 601,
+    "mw_rating": 57.7,
+    "mw_points": 635,
     "divisionno": "7548",
     "division_name": "4th Girls - Division 4",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384338",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:00 AM",
+      "location": "Westwood Thurston Middle School New Gym",
+      "divisionno": "7551",
+      "division_name": "4th Girls - Division 6",
+      "home_teamno": "45117",
+      "away_teamno": "44401",
+      "home_score": 35,
+      "away_score": 12,
+      "team_score": 35,
+      "opponent_score": 12,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44401",
+      "opponent_name": "D6Q-Dedham (crabtree)"
+    },
     {
       "gameno": "384328",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D4M-Canton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384338",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:00 AM",
-      "location": "Westwood Thurston Middle School New Gym",
-      "divisionno": "7551",
-      "division_name": "4th Girls - Division 6",
-      "home_teamno": "45117",
-      "away_teamno": "44401",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44401",
-      "opponent_name": "D6Q-Dedham (crabtree)"
-    }
-  ]
+  "future_games": []
 }

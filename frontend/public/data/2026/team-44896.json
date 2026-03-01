@@ -5,26 +5,45 @@
   "team_name": "D1A-North Attleboro (red)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 3,
     "ties": 0,
-    "pf": 364,
-    "pa": 291,
-    "diff": 73,
-    "sos": 1615.007,
-    "sos_adj": 1726.545,
-    "power": 1660.614,
-    "rank": 3,
-    "mw_rating": 157.2,
-    "mw_points": 1729,
+    "pf": 387,
+    "pa": 312,
+    "diff": 75,
+    "sos": 1615.339,
+    "sos_adj": 1729.624,
+    "power": 1667.274,
+    "rank": 2,
+    "mw_rating": 157.7,
+    "mw_points": 1892,
     "divisionno": "7090",
     "division_name": "4th Girls - Division 1",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384060",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:10 AM",
+      "location": "Franklin Sullivan Middle School",
+      "divisionno": "7544",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "43312",
+      "away_teamno": "44896",
+      "home_score": 21,
+      "away_score": 23,
+      "team_score": 23,
+      "opponent_score": 21,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43312",
+      "opponent_name": "D2K-Franklin"
+    },
     {
       "gameno": "384050",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D2K-Attleboro (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384060",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:10 AM",
-      "location": "Franklin Sullivan Middle School",
-      "divisionno": "7544",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "43312",
-      "away_teamno": "44896",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43312",
-      "opponent_name": "D2K-Franklin"
-    }
-  ]
+  "future_games": []
 }

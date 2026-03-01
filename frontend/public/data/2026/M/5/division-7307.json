@@ -28,18 +28,18 @@
       "teamno": "43262",
       "name": "D2AH-Dartmouth",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 7,
       "ties": 0,
-      "pf": 529,
-      "pa": 537,
-      "diff": -8,
-      "sos": 1584.008,
-      "sos_adj": 1680.162,
-      "power": 1615.922,
+      "pf": 580,
+      "pa": 578,
+      "diff": 2,
+      "sos": 1576.515,
+      "sos_adj": 1672.944,
+      "power": 1622.96,
       "rank": 2,
-      "mw_rating": 124.0,
-      "mw_points": 1364
+      "mw_rating": 126.2,
+      "mw_points": 1514
     },
     {
       "teamno": "43165",
@@ -55,8 +55,8 @@
       "sos_adj": 1692.016,
       "power": 1609.726,
       "rank": 3,
-      "mw_rating": 115.9,
-      "mw_points": 1275
+      "mw_rating": 116.0,
+      "mw_points": 1276
     },
     {
       "teamno": "43113",
@@ -68,29 +68,29 @@
       "pf": 697,
       "pa": 692,
       "diff": 5,
-      "sos": 1605.144,
-      "sos_adj": 1701.811,
-      "power": 1603.172,
+      "sos": 1605.93,
+      "sos_adj": 1702.597,
+      "power": 1603.369,
       "rank": 4,
       "mw_rating": 124.6,
-      "mw_points": 1370
+      "mw_points": 1371
     },
     {
       "teamno": "45630",
       "name": "D2AH-New Bedford",
       "town": null,
       "wins": 0,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 297,
-      "pa": 464,
-      "diff": -167,
-      "sos": 1602.628,
-      "sos_adj": 1697.072,
-      "power": 1551.29,
+      "pf": 338,
+      "pa": 515,
+      "diff": -177,
+      "sos": 1604.174,
+      "sos_adj": 1699.174,
+      "power": 1542.973,
       "rank": 5,
-      "mw_rating": 61.5,
-      "mw_points": 615
+      "mw_rating": 62.3,
+      "mw_points": 685
     }
   ]
 }

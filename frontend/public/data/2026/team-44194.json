@@ -5,26 +5,45 @@
   "team_name": "D6J-Parkway  (blue)",
   "town": null,
   "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 7,
     "ties": 0,
-    "pf": 407,
-    "pa": 438,
-    "diff": -31,
-    "sos": 1399.612,
-    "sos_adj": 1299.612,
-    "power": 1347.272,
+    "pf": 450,
+    "pa": 479,
+    "diff": -29,
+    "sos": 1400.35,
+    "sos_adj": 1300.35,
+    "power": 1356.5,
     "rank": 5,
-    "mw_rating": 18.2,
-    "mw_points": 200,
+    "mw_rating": 19.8,
+    "mw_points": 238,
     "divisionno": "7206",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379024",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:30 AM",
+      "location": "The Roxbury Latin School : Court 2",
+      "divisionno": "7206",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "44194",
+      "away_teamno": "45320",
+      "home_score": 43,
+      "away_score": 41,
+      "team_score": 43,
+      "opponent_score": 41,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45320",
+      "opponent_name": "D6J-Milton (black)"
+    },
     {
       "gameno": "379019",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D6H-Mansfield (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379024",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:30 AM",
-      "location": "The Roxbury Latin School : Court 2",
-      "divisionno": "7206",
-      "division_name": "6th Boys - Division 6",
-      "home_teamno": "44194",
-      "away_teamno": "45320",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45320",
-      "opponent_name": "D6J-Milton (black)"
-    }
-  ]
+  "future_games": []
 }

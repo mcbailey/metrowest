@@ -12,17 +12,17 @@
       "name": "D6Q-Wellesley (c)",
       "town": null,
       "wins": 9,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
-      "pf": 411,
-      "pa": 209,
-      "diff": 202,
-      "sos": 1410.598,
-      "sos_adj": 1320.598,
-      "power": 1453.575,
+      "pf": 436,
+      "pa": 259,
+      "diff": 177,
+      "sos": 1416.901,
+      "sos_adj": 1330.537,
+      "power": 1433.609,
       "rank": 1,
-      "mw_rating": 37.3,
-      "mw_points": 373
+      "mw_rating": 34.9,
+      "mw_points": 384
     },
     {
       "teamno": "44078",
@@ -34,12 +34,12 @@
       "pf": 367,
       "pa": 394,
       "diff": -27,
-      "sos": 1405.334,
-      "sos_adj": 1316.873,
-      "power": 1413.472,
+      "sos": 1401.094,
+      "sos_adj": 1312.633,
+      "power": 1412.412,
       "rank": 2,
-      "mw_rating": 24.2,
-      "mw_points": 242
+      "mw_rating": 24.4,
+      "mw_points": 244
     },
     {
       "teamno": "44273",
@@ -51,12 +51,12 @@
       "pf": 363,
       "pa": 327,
       "diff": 36,
-      "sos": 1399.511,
-      "sos_adj": 1304.056,
-      "power": 1409.302,
+      "sos": 1396.789,
+      "sos_adj": 1301.335,
+      "power": 1408.621,
       "rank": 3,
-      "mw_rating": 25.2,
-      "mw_points": 277
+      "mw_rating": 25.3,
+      "mw_points": 278
     },
     {
       "teamno": "43996",
@@ -68,12 +68,12 @@
       "pf": 294,
       "pa": 299,
       "diff": -5,
-      "sos": 1422.714,
-      "sos_adj": 1327.714,
-      "power": 1376.522,
+      "sos": 1419.721,
+      "sos_adj": 1324.721,
+      "power": 1375.773,
       "rank": 4,
-      "mw_rating": 23.8,
-      "mw_points": 214
+      "mw_rating": 23.9,
+      "mw_points": 215
     },
     {
       "teamno": "45647",
@@ -89,25 +89,25 @@
       "sos_adj": 1321.724,
       "power": 1375.466,
       "rank": 5,
-      "mw_rating": 29.1,
-      "mw_points": 291
+      "mw_rating": 29.3,
+      "mw_points": 293
     },
     {
       "teamno": "44372",
       "name": "D6Q-Westborough (heinrich)",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 9,
       "ties": 0,
-      "pf": 249,
-      "pa": 318,
-      "diff": -69,
-      "sos": 1423.764,
-      "sos_adj": 1323.764,
-      "power": 1332.269,
+      "pf": 297,
+      "pa": 348,
+      "diff": -51,
+      "sos": 1410.923,
+      "sos_adj": 1310.923,
+      "power": 1347.948,
       "rank": 6,
-      "mw_rating": 7.6,
-      "mw_points": 76
+      "mw_rating": 9.9,
+      "mw_points": 109
     }
   ]
 }

@@ -17,12 +17,12 @@
       "pf": 286,
       "pa": 178,
       "diff": 108,
-      "sos": 1455.588,
-      "sos_adj": 1405.588,
-      "power": 1509.447,
+      "sos": 1453.695,
+      "sos_adj": 1403.695,
+      "power": 1508.974,
       "rank": 1,
-      "mw_rating": 52.0,
-      "mw_points": 520
+      "mw_rating": 52.2,
+      "mw_points": 522
     },
     {
       "teamno": "43400",
@@ -34,9 +34,9 @@
       "pf": 330,
       "pa": 220,
       "diff": 110,
-      "sos": 1452.956,
-      "sos_adj": 1412.047,
-      "power": 1479.548,
+      "sos": 1451.35,
+      "sos_adj": 1410.441,
+      "power": 1478.198,
       "rank": 2,
       "mw_rating": 51.3,
       "mw_points": 513
@@ -55,25 +55,25 @@
       "sos_adj": 1400.353,
       "power": 1473.441,
       "rank": 3,
-      "mw_rating": 36.1,
-      "mw_points": 397
+      "mw_rating": 36.2,
+      "mw_points": 398
     },
     {
       "teamno": "44384",
       "name": "D5K-Westborough",
       "town": null,
       "wins": 6,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
-      "pf": 280,
-      "pa": 188,
-      "diff": 92,
-      "sos": 1454.594,
-      "sos_adj": 1410.844,
-      "power": 1471.248,
+      "pf": 306,
+      "pa": 232,
+      "diff": 74,
+      "sos": 1461.601,
+      "sos_adj": 1422.712,
+      "power": 1460.969,
       "rank": 4,
-      "mw_rating": 45.9,
-      "mw_points": 367
+      "mw_rating": 43.6,
+      "mw_points": 392
     },
     {
       "teamno": "44034",
@@ -89,8 +89,8 @@
       "sos_adj": 1405.091,
       "power": 1455.553,
       "rank": 5,
-      "mw_rating": 44.5,
-      "mw_points": 489
+      "mw_rating": 44.6,
+      "mw_points": 491
     },
     {
       "teamno": "44783",
@@ -102,12 +102,12 @@
       "pf": 324,
       "pa": 321,
       "diff": 3,
-      "sos": 1456.427,
-      "sos_adj": 1406.427,
-      "power": 1443.616,
+      "sos": 1456.312,
+      "sos_adj": 1406.312,
+      "power": 1443.587,
       "rank": 6,
-      "mw_rating": 36.4,
-      "mw_points": 364
+      "mw_rating": 36.7,
+      "mw_points": 367
     },
     {
       "teamno": "45111",
@@ -119,9 +119,9 @@
       "pf": 200,
       "pa": 306,
       "diff": -106,
-      "sos": 1472.56,
-      "sos_adj": 1422.56,
-      "power": 1409.573,
+      "sos": 1472.307,
+      "sos_adj": 1422.307,
+      "power": 1409.51,
       "rank": 7,
       "mw_rating": 19.7,
       "mw_points": 197
@@ -136,9 +136,9 @@
       "pf": 91,
       "pa": 288,
       "diff": -197,
-      "sos": 1469.267,
-      "sos_adj": 1419.267,
-      "power": 1396.435,
+      "sos": 1464.852,
+      "sos_adj": 1414.852,
+      "power": 1395.331,
       "rank": 8,
       "mw_rating": 15.9,
       "mw_points": 127

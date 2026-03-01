@@ -17,12 +17,12 @@
       "pf": 390,
       "pa": 308,
       "diff": 82,
-      "sos": 1383.158,
-      "sos_adj": 1269.522,
-      "power": 1350.394,
+      "sos": 1382.014,
+      "sos_adj": 1268.378,
+      "power": 1350.108,
       "rank": 1,
-      "mw_rating": 23.3,
-      "mw_points": 256
+      "mw_rating": 23.4,
+      "mw_points": 257
     },
     {
       "teamno": "44414",
@@ -34,12 +34,12 @@
       "pf": 308,
       "pa": 241,
       "diff": 67,
-      "sos": 1344.496,
-      "sos_adj": 1194.496,
-      "power": 1342.33,
+      "sos": 1344.085,
+      "sos_adj": 1194.085,
+      "power": 1342.228,
       "rank": 2,
-      "mw_rating": 15.6,
-      "mw_points": 156
+      "mw_rating": 15.8,
+      "mw_points": 158
     },
     {
       "teamno": "45441",
@@ -51,9 +51,9 @@
       "pf": 243,
       "pa": 267,
       "diff": -24,
-      "sos": 1347.817,
-      "sos_adj": 1206.908,
-      "power": 1314.66,
+      "sos": 1346.3,
+      "sos_adj": 1205.391,
+      "power": 1314.28,
       "rank": 3,
       "mw_rating": 10.7,
       "mw_points": 118
@@ -68,12 +68,12 @@
       "pf": 320,
       "pa": 304,
       "diff": 16,
-      "sos": 1359.77,
-      "sos_adj": 1222.27,
-      "power": 1305.462,
+      "sos": 1359.428,
+      "sos_adj": 1221.928,
+      "power": 1305.377,
       "rank": 4,
-      "mw_rating": 10.4,
-      "mw_points": 114
+      "mw_rating": 10.5,
+      "mw_points": 115
     },
     {
       "teamno": "44201",
@@ -85,9 +85,9 @@
       "pf": 247,
       "pa": 324,
       "diff": -77,
-      "sos": 1355.663,
-      "sos_adj": 1210.209,
-      "power": 1277.041,
+      "sos": 1355.29,
+      "sos_adj": 1209.836,
+      "power": 1276.948,
       "rank": 5,
       "mw_rating": 6.6,
       "mw_points": 73
@@ -97,17 +97,17 @@
       "name": "D7Q-North Quincy (furcillo)",
       "town": null,
       "wins": 1,
-      "losses": 9,
+      "losses": 11,
       "ties": 0,
-      "pf": 135,
-      "pa": 300,
-      "diff": -165,
-      "sos": 1350.058,
-      "sos_adj": 1200.058,
-      "power": 1258.165,
+      "pf": 189,
+      "pa": 360,
+      "diff": -171,
+      "sos": 1352.922,
+      "sos_adj": 1207.088,
+      "power": 1247.408,
       "rank": 6,
       "mw_rating": 3.2,
-      "mw_points": 32
+      "mw_points": 38
     }
   ]
 }

@@ -5,26 +5,45 @@
   "team_name": "D6M-Hopkinton (levine)",
   "town": null,
   "summary": {
-    "wins": 12,
+    "wins": 13,
     "losses": 0,
     "ties": 0,
-    "pf": 603,
-    "pa": 238,
-    "diff": 365,
-    "sos": 1406.149,
-    "sos_adj": 1326.982,
-    "power": 1490.053,
+    "pf": 656,
+    "pa": 262,
+    "diff": 394,
+    "sos": 1408.849,
+    "sos_adj": 1331.926,
+    "power": 1500.236,
     "rank": 1,
-    "mw_rating": 41.0,
-    "mw_points": 451,
+    "mw_rating": 42.3,
+    "mw_points": 507,
     "divisionno": "7286",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376979",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:30 AM",
+      "location": "Stacy Middle School",
+      "divisionno": "7286",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "44965",
+      "away_teamno": "45645",
+      "home_score": 24,
+      "away_score": 53,
+      "team_score": 53,
+      "opponent_score": 24,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44965",
+      "opponent_name": "D5R-Milford (white-l.chicarelli)"
+    },
     {
       "gameno": "377101",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D6M-Holliston (peterson)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376979",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:30 AM",
-      "location": "Stacy Middle School",
-      "divisionno": "7286",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "44965",
-      "away_teamno": "45645",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44965",
-      "opponent_name": "D5R-Milford (white-l.chicarelli)"
-    }
-  ]
+  "future_games": []
 }

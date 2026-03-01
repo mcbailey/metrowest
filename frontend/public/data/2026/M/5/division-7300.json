@@ -17,12 +17,12 @@
       "pf": 738,
       "pa": 474,
       "diff": 264,
-      "sos": 1494.965,
-      "sos_adj": 1501.215,
-      "power": 1590.037,
+      "sos": 1496.78,
+      "sos_adj": 1503.03,
+      "power": 1590.491,
       "rank": 1,
-      "mw_rating": 81.6,
-      "mw_points": 898
+      "mw_rating": 82.0,
+      "mw_points": 902
     },
     {
       "teamno": "45085",
@@ -38,25 +38,25 @@
       "sos_adj": 1482.911,
       "power": 1551.469,
       "rank": 2,
-      "mw_rating": 68.2,
-      "mw_points": 750
+      "mw_rating": 68.3,
+      "mw_points": 751
     },
     {
       "teamno": "44562",
       "name": "D4M-Ashland (blue)",
       "town": null,
-      "wins": 7,
+      "wins": 8,
       "losses": 4,
       "ties": 0,
-      "pf": 412,
-      "pa": 341,
-      "diff": 71,
-      "sos": 1511.883,
-      "sos_adj": 1511.883,
-      "power": 1526.954,
+      "pf": 442,
+      "pa": 359,
+      "diff": 83,
+      "sos": 1503.229,
+      "sos_adj": 1503.229,
+      "power": 1535.679,
       "rank": 3,
-      "mw_rating": 60.6,
-      "mw_points": 667
+      "mw_rating": 62.3,
+      "mw_points": 747
     },
     {
       "teamno": "43393",
@@ -68,12 +68,12 @@
       "pf": 503,
       "pa": 478,
       "diff": 25,
-      "sos": 1489.446,
-      "sos_adj": 1489.446,
-      "power": 1510.559,
+      "sos": 1488.539,
+      "sos_adj": 1488.539,
+      "power": 1510.333,
       "rank": 4,
-      "mw_rating": 43.6,
-      "mw_points": 480
+      "mw_rating": 43.7,
+      "mw_points": 481
     },
     {
       "teamno": "44701",
@@ -85,12 +85,12 @@
       "pf": 284,
       "pa": 420,
       "diff": -136,
-      "sos": 1489.855,
-      "sos_adj": 1485.309,
-      "power": 1433.117,
+      "sos": 1488.535,
+      "sos_adj": 1483.989,
+      "power": 1432.787,
       "rank": 5,
-      "mw_rating": 44.0,
-      "mw_points": 484
+      "mw_rating": 44.1,
+      "mw_points": 485
     },
     {
       "teamno": "44702",
@@ -102,29 +102,29 @@
       "pf": 329,
       "pa": 523,
       "diff": -194,
-      "sos": 1509.252,
-      "sos_adj": 1509.252,
-      "power": 1432.378,
+      "sos": 1510.571,
+      "sos_adj": 1510.571,
+      "power": 1432.708,
       "rank": 6,
-      "mw_rating": 35.4,
-      "mw_points": 389
+      "mw_rating": 35.5,
+      "mw_points": 390
     },
     {
       "teamno": "43881",
       "name": "D4M-Southboro (white)",
       "town": null,
       "wins": 2,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 286,
-      "pa": 404,
-      "diff": -118,
-      "sos": 1481.793,
-      "sos_adj": 1460.96,
-      "power": 1432.156,
+      "pf": 304,
+      "pa": 434,
+      "diff": -130,
+      "sos": 1486.77,
+      "sos_adj": 1467.539,
+      "power": 1422.912,
       "rank": 7,
-      "mw_rating": 30.3,
-      "mw_points": 333
+      "mw_rating": 29.8,
+      "mw_points": 358
     }
   ]
 }

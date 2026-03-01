@@ -5,26 +5,45 @@
   "team_name": "D5T-Natick",
   "town": null,
   "summary": {
-    "wins": 2,
+    "wins": 3,
     "losses": 8,
     "ties": 0,
-    "pf": 133,
-    "pa": 195,
-    "diff": -62,
-    "sos": 1468.991,
-    "sos_adj": 1418.991,
-    "power": 1430.314,
+    "pf": 166,
+    "pa": 205,
+    "diff": -39,
+    "sos": 1456.771,
+    "sos_adj": 1406.771,
+    "power": 1440.642,
     "rank": 4,
-    "mw_rating": 19.4,
-    "mw_points": 194,
+    "mw_rating": 22.3,
+    "mw_points": 245,
     "divisionno": "7317",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380487",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:30 AM",
+      "location": "Southborough Mary Finn School",
+      "divisionno": "7317",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44210",
+      "away_teamno": "43370",
+      "home_score": 10,
+      "away_score": 33,
+      "team_score": 33,
+      "opponent_score": 10,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44210",
+      "opponent_name": "D5T-Southboro (gold)"
+    },
     {
       "gameno": "380478",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D5T-Southboro (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380487",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:30 AM",
-      "location": "Southborough Mary Finn School",
-      "divisionno": "7317",
-      "division_name": "5th Girls - Division 5",
-      "home_teamno": "44210",
-      "away_teamno": "43370",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44210",
-      "opponent_name": "D5T-Southboro (gold)"
-    }
-  ]
+  "future_games": []
 }

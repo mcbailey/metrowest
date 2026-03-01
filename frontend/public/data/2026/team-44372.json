@@ -5,26 +5,45 @@
   "team_name": "D6Q-Westborough (heinrich)",
   "town": null,
   "summary": {
-    "wins": 1,
+    "wins": 2,
     "losses": 9,
     "ties": 0,
-    "pf": 249,
-    "pa": 318,
-    "diff": -69,
-    "sos": 1423.764,
-    "sos_adj": 1323.764,
-    "power": 1332.269,
+    "pf": 297,
+    "pa": 348,
+    "diff": -51,
+    "sos": 1410.923,
+    "sos_adj": 1310.923,
+    "power": 1347.948,
     "rank": 6,
-    "mw_rating": 7.6,
-    "mw_points": 76,
+    "mw_rating": 9.9,
+    "mw_points": 109,
     "divisionno": "7287",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377077",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:20 AM",
+      "location": "Westborough Gibbons Middle School",
+      "divisionno": "7288",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "44372",
+      "away_teamno": "45764",
+      "home_score": 48,
+      "away_score": 30,
+      "team_score": 48,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45764",
+      "opponent_name": "D6R-Lexington (white)"
+    },
     {
       "gameno": "377098",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D6Q-Wellesley (c)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377077",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:20 AM",
-      "location": "Westborough Gibbons Middle School",
-      "divisionno": "7288",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "44372",
-      "away_teamno": "45764",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45764",
-      "opponent_name": "D6R-Lexington (white)"
-    }
-  ]
+  "future_games": []
 }

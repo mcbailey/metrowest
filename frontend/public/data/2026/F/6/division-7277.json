@@ -17,9 +17,9 @@
       "pf": 335,
       "pa": 238,
       "diff": 97,
-      "sos": 1492.63,
-      "sos_adj": 1497.63,
-      "power": 1547.384,
+      "sos": 1490.795,
+      "sos_adj": 1495.795,
+      "power": 1546.925,
       "rank": 1,
       "mw_rating": 73.0,
       "mw_points": 730
@@ -51,12 +51,12 @@
       "pf": 336,
       "pa": 279,
       "diff": 57,
-      "sos": 1533.461,
-      "sos_adj": 1556.189,
-      "power": 1518.605,
+      "sos": 1535.129,
+      "sos_adj": 1557.857,
+      "power": 1519.022,
       "rank": 3,
-      "mw_rating": 66.4,
-      "mw_points": 730
+      "mw_rating": 66.5,
+      "mw_points": 731
     },
     {
       "teamno": "44721",
@@ -68,9 +68,9 @@
       "pf": 197,
       "pa": 190,
       "diff": 7,
-      "sos": 1486.247,
-      "sos_adj": 1486.247,
-      "power": 1518.137,
+      "sos": 1484.412,
+      "sos_adj": 1484.412,
+      "power": 1517.679,
       "rank": 4,
       "mw_rating": 57.6,
       "mw_points": 576
@@ -102,9 +102,9 @@
       "pf": 239,
       "pa": 231,
       "diff": 8,
-      "sos": 1503.721,
-      "sos_adj": 1503.721,
-      "power": 1485.92,
+      "sos": 1505.556,
+      "sos_adj": 1505.556,
+      "power": 1486.378,
       "rank": 6,
       "mw_rating": 46.9,
       "mw_points": 469
@@ -114,17 +114,17 @@
       "name": "D4M-Framingham (navy)",
       "town": null,
       "wins": 2,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 171,
-      "pa": 258,
-      "diff": -87,
-      "sos": 1508.487,
-      "sos_adj": 1508.487,
-      "power": 1476.264,
+      "pf": 179,
+      "pa": 306,
+      "diff": -127,
+      "sos": 1516.175,
+      "sos_adj": 1516.175,
+      "power": 1464.427,
       "rank": 7,
-      "mw_rating": 38.3,
-      "mw_points": 306
+      "mw_rating": 36.8,
+      "mw_points": 331
     }
   ]
 }

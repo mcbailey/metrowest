@@ -5,26 +5,45 @@
   "team_name": "D2H-Seekonk",
   "town": null,
   "summary": {
-    "wins": 4,
+    "wins": 5,
     "losses": 7,
     "ties": 0,
-    "pf": 278,
-    "pa": 304,
-    "diff": -26,
-    "sos": 1612.699,
-    "sos_adj": 1712.699,
-    "power": 1603.004,
+    "pf": 310,
+    "pa": 329,
+    "diff": -19,
+    "sos": 1606.312,
+    "sos_adj": 1702.145,
+    "power": 1618.305,
     "rank": 5,
-    "mw_rating": 101.7,
-    "mw_points": 1119,
+    "mw_rating": 103.2,
+    "mw_points": 1238,
     "divisionno": "7327",
     "division_name": "5th Girls - Division 2",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373608",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:20 AM",
+      "location": "Sharon East Elem School",
+      "divisionno": "7325",
+      "division_name": "5th Girls - Division 3",
+      "home_teamno": "43883",
+      "away_teamno": "43167",
+      "home_score": 25,
+      "away_score": 32,
+      "team_score": 32,
+      "opponent_score": 25,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43883",
+      "opponent_name": "D3H-Sharon (gold)"
+    },
     {
       "gameno": "373512",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D2H-FLBC"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373608",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:20 AM",
-      "location": "Sharon East Elem School",
-      "divisionno": "7325",
-      "division_name": "5th Girls - Division 3",
-      "home_teamno": "43883",
-      "away_teamno": "43167",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43883",
-      "opponent_name": "D3H-Sharon (gold)"
-    }
-  ]
+  "future_games": []
 }

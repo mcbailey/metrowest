@@ -17,12 +17,12 @@
       "pf": 368,
       "pa": 241,
       "diff": 127,
-      "sos": 1352.313,
-      "sos_adj": 1220.495,
-      "power": 1389.613,
+      "sos": 1354.182,
+      "sos_adj": 1222.364,
+      "power": 1390.08,
       "rank": 1,
-      "mw_rating": 23.1,
-      "mw_points": 208
+      "mw_rating": 23.2,
+      "mw_points": 209
     },
     {
       "teamno": "43408",
@@ -34,12 +34,12 @@
       "pf": 402,
       "pa": 308,
       "diff": 94,
-      "sos": 1359.579,
-      "sos_adj": 1222.079,
-      "power": 1363.147,
+      "sos": 1361.291,
+      "sos_adj": 1223.791,
+      "power": 1363.575,
       "rank": 2,
-      "mw_rating": 15.8,
-      "mw_points": 158
+      "mw_rating": 15.9,
+      "mw_points": 159
     },
     {
       "teamno": "44322",
@@ -51,9 +51,9 @@
       "pf": 285,
       "pa": 211,
       "diff": 74,
-      "sos": 1354.364,
-      "sos_adj": 1209.364,
-      "power": 1357.815,
+      "sos": 1352.309,
+      "sos_adj": 1207.309,
+      "power": 1357.301,
       "rank": 3,
       "mw_rating": 17.6,
       "mw_points": 176
@@ -72,25 +72,25 @@
       "sos_adj": 1203.468,
       "power": 1347.153,
       "rank": 4,
-      "mw_rating": 13.8,
-      "mw_points": 138
+      "mw_rating": 13.9,
+      "mw_points": 139
     },
     {
       "teamno": "44320",
       "name": "D7T-Medway (blue)",
       "town": null,
       "wins": 6,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pf": 306,
-      "pa": 257,
-      "diff": 49,
-      "sos": 1356.795,
-      "sos_adj": 1215.886,
-      "power": 1329.554,
+      "pf": 323,
+      "pa": 280,
+      "diff": 43,
+      "sos": 1355.555,
+      "sos_adj": 1213.888,
+      "power": 1313.639,
       "rank": 5,
-      "mw_rating": 13.7,
-      "mw_points": 151
+      "mw_rating": 12.7,
+      "mw_points": 152
     },
     {
       "teamno": "44517",
@@ -119,9 +119,9 @@
       "pf": 265,
       "pa": 508,
       "diff": -243,
-      "sos": 1352.831,
-      "sos_adj": 1209.974,
-      "power": 1242.646,
+      "sos": 1355.767,
+      "sos_adj": 1212.91,
+      "power": 1243.38,
       "rank": 7,
       "mw_rating": 1.7,
       "mw_points": 15

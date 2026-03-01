@@ -5,26 +5,45 @@
   "team_name": "D1/2H-Easton (black)",
   "town": null,
   "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 8,
     "ties": 0,
-    "pf": 506,
-    "pa": 561,
-    "diff": -55,
-    "sos": 1645.696,
-    "sos_adj": 1784.982,
-    "power": 1669.54,
-    "rank": 5,
-    "mw_rating": 138.6,
-    "mw_points": 1386,
+    "pf": 546,
+    "pa": 591,
+    "diff": -45,
+    "sos": 1638.633,
+    "sos_adj": 1778.633,
+    "power": 1679.881,
+    "rank": 3,
+    "mw_rating": 145.3,
+    "mw_points": 1598,
     "divisionno": "7060",
     "division_name": "7th Girls - Division 1",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373901",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:30 AM",
+      "location": "North Attleboro Middle School",
+      "divisionno": "7060",
+      "division_name": "7th Girls - Division 1",
+      "home_teamno": "43822",
+      "away_teamno": "44483",
+      "home_score": 30,
+      "away_score": 40,
+      "team_score": 40,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43822",
+      "opponent_name": "D1/2H-North Attleboro (red)"
+    },
     {
       "gameno": "373883",
       "date": "2026-02-15",
@@ -292,25 +311,5 @@
       "opponent_name": "D1/2J-Medway (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373901",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:30 AM",
-      "location": "North Attleboro Middle School",
-      "divisionno": "7060",
-      "division_name": "7th Girls - Division 1",
-      "home_teamno": "43822",
-      "away_teamno": "44483",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43822",
-      "opponent_name": "D1/2H-North Attleboro (red)"
-    }
-  ]
+  "future_games": []
 }

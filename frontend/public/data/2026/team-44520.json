@@ -5,26 +5,45 @@
   "team_name": "D6M-Milford (white-larochelle)",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 3,
     "ties": 0,
-    "pf": 442,
-    "pa": 291,
-    "diff": 151,
-    "sos": 1398.456,
-    "sos_adj": 1298.456,
-    "power": 1412.208,
+    "pf": 474,
+    "pa": 320,
+    "diff": 154,
+    "sos": 1399.198,
+    "sos_adj": 1299.198,
+    "power": 1419.933,
     "rank": 2,
-    "mw_rating": 26.6,
-    "mw_points": 292,
+    "mw_rating": 27.3,
+    "mw_points": 327,
     "divisionno": "7208",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377681",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:30 AM",
+      "location": "Woodland Elementary School",
+      "divisionno": "7209",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "44520",
+      "away_teamno": "44633",
+      "home_score": 32,
+      "away_score": 29,
+      "team_score": 32,
+      "opponent_score": 29,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44633",
+      "opponent_name": "D6Q-Ashland (white)"
+    },
     {
       "gameno": "393435",
       "date": "2026-02-28",
@@ -254,25 +273,5 @@
       "opponent_name": "D6M-Holliston (donahue - black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377681",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:30 AM",
-      "location": "Woodland Elementary School",
-      "divisionno": "7209",
-      "division_name": "6th Boys - Division 6",
-      "home_teamno": "44520",
-      "away_teamno": "44633",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44633",
-      "opponent_name": "D6Q-Ashland (white)"
-    }
-  ]
+  "future_games": []
 }
