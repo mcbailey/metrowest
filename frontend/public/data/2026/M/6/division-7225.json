@@ -17,12 +17,12 @@
       "pf": 739,
       "pa": 515,
       "diff": 224,
-      "sos": 1554.528,
-      "sos_adj": 1612.861,
-      "power": 1633.86,
+      "sos": 1555.868,
+      "sos_adj": 1614.202,
+      "power": 1634.195,
       "rank": 1,
       "mw_rating": 94.8,
-      "mw_points": 1137
+      "mw_points": 1138
     },
     {
       "teamno": "43123",
@@ -34,12 +34,12 @@
       "pf": 722,
       "pa": 680,
       "diff": 42,
-      "sos": 1561.002,
-      "sos_adj": 1621.002,
-      "power": 1626.814,
+      "sos": 1563.063,
+      "sos_adj": 1623.063,
+      "power": 1627.819,
       "rank": 2,
-      "mw_rating": 105.5,
-      "mw_points": 1371
+      "mw_rating": 105.6,
+      "mw_points": 1373
     },
     {
       "teamno": "43342",
@@ -51,12 +51,12 @@
       "pf": 513,
       "pa": 400,
       "diff": 113,
-      "sos": 1571.745,
-      "sos_adj": 1632.856,
-      "power": 1608.225,
+      "sos": 1573.605,
+      "sos_adj": 1634.716,
+      "power": 1608.69,
       "rank": 3,
-      "mw_rating": 109.9,
-      "mw_points": 989
+      "mw_rating": 110.0,
+      "mw_points": 990
     },
     {
       "teamno": "43107",
@@ -68,29 +68,29 @@
       "pf": 734,
       "pa": 691,
       "diff": 43,
-      "sos": 1549.642,
-      "sos_adj": 1592.976,
-      "power": 1595.286,
+      "sos": 1551.788,
+      "sos_adj": 1595.121,
+      "power": 1595.822,
       "rank": 4,
-      "mw_rating": 105.3,
-      "mw_points": 1158
+      "mw_rating": 105.6,
+      "mw_points": 1162
     },
     {
       "teamno": "43256",
       "name": "D3H-Dartmouth (green)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 8,
       "ties": 0,
-      "pf": 554,
-      "pa": 653,
-      "diff": -99,
-      "sos": 1569.022,
-      "sos_adj": 1622.869,
-      "power": 1556.57,
+      "pf": 609,
+      "pa": 689,
+      "diff": -80,
+      "sos": 1559.462,
+      "sos_adj": 1605.891,
+      "power": 1563.904,
       "rank": 5,
-      "mw_rating": 67.2,
-      "mw_points": 874
+      "mw_rating": 67.6,
+      "mw_points": 879
     },
     {
       "teamno": "43480",
@@ -102,12 +102,12 @@
       "pf": 589,
       "pa": 704,
       "diff": -115,
-      "sos": 1557.083,
-      "sos_adj": 1603.512,
-      "power": 1527.454,
+      "sos": 1558.402,
+      "sos_adj": 1604.83,
+      "power": 1527.783,
       "rank": 6,
-      "mw_rating": 73.9,
-      "mw_points": 739
+      "mw_rating": 74.0,
+      "mw_points": 740
     },
     {
       "teamno": "45626",
@@ -119,9 +119,9 @@
       "pf": 356,
       "pa": 435,
       "diff": -79,
-      "sos": 1568.619,
-      "sos_adj": 1618.619,
-      "power": 1518.434,
+      "sos": 1570.63,
+      "sos_adj": 1620.63,
+      "power": 1518.937,
       "rank": 7,
       "mw_rating": 53.6,
       "mw_points": 429

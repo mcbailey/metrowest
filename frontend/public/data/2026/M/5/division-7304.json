@@ -17,9 +17,9 @@
       "pf": 526,
       "pa": 466,
       "diff": 60,
-      "sos": 1554.141,
-      "sos_adj": 1611.833,
-      "power": 1605.065,
+      "sos": 1553.044,
+      "sos_adj": 1610.736,
+      "power": 1604.79,
       "rank": 1,
       "mw_rating": 94.8,
       "mw_points": 948
@@ -38,8 +38,8 @@
       "sos_adj": 1528.356,
       "power": 1598.596,
       "rank": 2,
-      "mw_rating": 107.8,
-      "mw_points": 1294
+      "mw_rating": 107.9,
+      "mw_points": 1295
     },
     {
       "teamno": "44323",
@@ -93,23 +93,6 @@
       "mw_points": 589
     },
     {
-      "teamno": "43982",
-      "name": "D3J-Canton (green)",
-      "town": null,
-      "wins": 4,
-      "losses": 10,
-      "ties": 0,
-      "pf": 462,
-      "pa": 616,
-      "diff": -154,
-      "sos": 1546.809,
-      "sos_adj": 1589.667,
-      "power": 1503.107,
-      "rank": 6,
-      "mw_rating": 70.4,
-      "mw_points": 774
-    },
-    {
       "teamno": "43950",
       "name": "D3J-Norwood (gold)",
       "town": null,
@@ -119,12 +102,29 @@
       "pf": 402,
       "pa": 506,
       "diff": -104,
-      "sos": 1536.34,
-      "sos_adj": 1573.84,
-      "power": 1502.183,
-      "rank": 7,
+      "sos": 1535.152,
+      "sos_adj": 1572.652,
+      "power": 1501.885,
+      "rank": 6,
       "mw_rating": 50.6,
       "mw_points": 607
+    },
+    {
+      "teamno": "43982",
+      "name": "D3J-Canton (green)",
+      "town": null,
+      "wins": 4,
+      "losses": 11,
+      "ties": 0,
+      "pf": 492,
+      "pa": 653,
+      "diff": -161,
+      "sos": 1547.411,
+      "sos_adj": 1590.744,
+      "power": 1492.68,
+      "rank": 7,
+      "mw_rating": 68.3,
+      "mw_points": 819
     }
   ]
 }

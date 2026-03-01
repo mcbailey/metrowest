@@ -8,6 +8,23 @@
   "divisiontier": "4",
   "rankings": [
     {
+      "teamno": "44411",
+      "name": "D4Q-Dedham (kleinsasser)",
+      "town": null,
+      "wins": 7,
+      "losses": 5,
+      "ties": 0,
+      "pf": 595,
+      "pa": 562,
+      "diff": 33,
+      "sos": 1481.451,
+      "sos_adj": 1477.284,
+      "power": 1539.411,
+      "rank": 1,
+      "mw_rating": 56.6,
+      "mw_points": 679
+    },
+    {
       "teamno": "43736",
       "name": "D4Q-Needham (blue)",
       "town": null,
@@ -20,26 +37,9 @@
       "sos": 1492.595,
       "sos_adj": 1484.902,
       "power": 1536.241,
-      "rank": 1,
-      "mw_rating": 60.2,
-      "mw_points": 722
-    },
-    {
-      "teamno": "44411",
-      "name": "D4Q-Dedham (kleinsasser)",
-      "town": null,
-      "wins": 6,
-      "losses": 5,
-      "ties": 0,
-      "pf": 532,
-      "pa": 506,
-      "diff": 26,
-      "sos": 1480.284,
-      "sos_adj": 1475.739,
-      "power": 1526.664,
       "rank": 2,
-      "mw_rating": 53.7,
-      "mw_points": 591
+      "mw_rating": 60.3,
+      "mw_points": 723
     },
     {
       "teamno": "45135",
@@ -51,12 +51,12 @@
       "pf": 660,
       "pa": 616,
       "diff": 44,
-      "sos": 1522.818,
-      "sos_adj": 1545.895,
-      "power": 1516.926,
+      "sos": 1524.086,
+      "sos_adj": 1547.163,
+      "power": 1517.243,
       "rank": 3,
-      "mw_rating": 67.2,
-      "mw_points": 806
+      "mw_rating": 67.3,
+      "mw_points": 807
     },
     {
       "teamno": "44646",
@@ -68,12 +68,12 @@
       "pf": 590,
       "pa": 543,
       "diff": 47,
-      "sos": 1485.254,
-      "sos_adj": 1477.562,
-      "power": 1512.937,
+      "sos": 1483.986,
+      "sos_adj": 1476.294,
+      "power": 1512.62,
       "rank": 4,
-      "mw_rating": 55.7,
-      "mw_points": 668
+      "mw_rating": 55.8,
+      "mw_points": 669
     },
     {
       "teamno": "43679",
@@ -85,9 +85,9 @@
       "pf": 454,
       "pa": 500,
       "diff": -46,
-      "sos": 1498.154,
-      "sos_adj": 1493.988,
-      "power": 1455.803,
+      "sos": 1496.781,
+      "sos_adj": 1492.614,
+      "power": 1455.46,
       "rank": 5,
       "mw_rating": 42.7,
       "mw_points": 512
@@ -123,8 +123,8 @@
       "sos_adj": 1470.149,
       "power": 1402.741,
       "rank": 7,
-      "mw_rating": 28.9,
-      "mw_points": 318
+      "mw_rating": 29.0,
+      "mw_points": 319
     }
   ]
 }

@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 406,
-    "pa": 381,
-    "diff": 25,
-    "sos": 1414.685,
-    "sos_adj": 1321.828,
-    "power": 1383.874,
-    "rank": 3,
-    "mw_rating": 28.3,
-    "mw_points": 311,
+    "pf": 430,
+    "pa": 408,
+    "diff": 22,
+    "sos": 1411.854,
+    "sos_adj": 1315.187,
+    "power": 1365.555,
+    "rank": 4,
+    "mw_rating": 26.1,
+    "mw_points": 313,
     "divisionno": "7589",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "386213",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:45 PM",
+      "location": "Sudbury Fieldhouse-Court 2",
+      "divisionno": "7592",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "45352",
+      "away_teamno": "44577",
+      "home_score": 24,
+      "away_score": 27,
+      "team_score": 24,
+      "opponent_score": 27,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44577",
+      "opponent_name": "D7Q-King Philip (green)"
+    },
     {
       "gameno": "386209",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "D6R-Belmont (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "386213",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:45 PM",
-      "location": "Sudbury Fieldhouse-Court 2",
-      "divisionno": "7592",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "45352",
-      "away_teamno": "44577",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44577",
-      "opponent_name": "D7Q-King Philip (green)"
-    }
-  ]
+  "future_games": []
 }

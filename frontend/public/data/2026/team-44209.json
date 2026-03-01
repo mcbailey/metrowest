@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 246,
-    "pa": 145,
-    "diff": 101,
-    "sos": 1436.86,
-    "sos_adj": 1400.496,
-    "power": 1473.098,
+    "pf": 263,
+    "pa": 163,
+    "diff": 100,
+    "sos": 1440.197,
+    "sos_adj": 1402.697,
+    "power": 1468.734,
     "rank": 1,
-    "mw_rating": 50.1,
-    "mw_points": 551,
+    "mw_rating": 46.8,
+    "mw_points": 561,
     "divisionno": "7553",
     "division_name": "4th Girls - Division 5",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384992",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Mansfield Fieldhouse -2",
+      "divisionno": "7553",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "43161",
+      "away_teamno": "44209",
+      "home_score": 18,
+      "away_score": 17,
+      "team_score": 17,
+      "opponent_score": 18,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43161",
+      "opponent_name": "D5M-Dighton-Rehoboth"
+    },
     {
       "gameno": "388026",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D5N-Milford (red-calzoloia)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384992",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:00 PM",
-      "location": "Mansfield Fieldhouse -2",
-      "divisionno": "7553",
-      "division_name": "4th Girls - Division 5",
-      "home_teamno": "43161",
-      "away_teamno": "44209",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43161",
-      "opponent_name": "D5M-Dighton-Rehoboth"
-    }
-  ]
+  "future_games": []
 }

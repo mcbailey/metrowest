@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 350,
-    "pa": 358,
-    "diff": -8,
-    "sos": 1566.942,
-    "sos_adj": 1628.481,
-    "power": 1558.28,
+    "pf": 376,
+    "pa": 387,
+    "diff": -11,
+    "sos": 1562.394,
+    "sos_adj": 1623.108,
+    "power": 1545.948,
     "rank": 4,
-    "mw_rating": 84.0,
-    "mw_points": 924,
+    "mw_rating": 80.8,
+    "mw_points": 970,
     "divisionno": "7279",
     "division_name": "6th Girls - Division 3",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375924",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:10 PM",
+      "location": "Milton High School - Court 3",
+      "divisionno": "7279",
+      "division_name": "6th Girls - Division 3",
+      "home_teamno": "45339",
+      "away_teamno": "44341",
+      "home_score": 26,
+      "away_score": 29,
+      "team_score": 26,
+      "opponent_score": 29,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44341",
+      "opponent_name": "D3J-Medway (blue)"
+    },
     {
       "gameno": "375900",
       "date": "2026-02-28",
@@ -273,25 +292,5 @@
       "opponent_name": "D2-Sharon (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375924",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:10 PM",
-      "location": "Milton High School - Court 3",
-      "divisionno": "7279",
-      "division_name": "6th Girls - Division 3",
-      "home_teamno": "45339",
-      "away_teamno": "44341",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44341",
-      "opponent_name": "D3J-Medway (blue)"
-    }
-  ]
+  "future_games": []
 }

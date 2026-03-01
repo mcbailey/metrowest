@@ -5,26 +5,45 @@
   "team_name": "D7T-Medway (red)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 3,
     "ties": 0,
-    "pf": 285,
-    "pa": 211,
-    "diff": 74,
-    "sos": 1352.309,
-    "sos_adj": 1207.309,
-    "power": 1357.301,
-    "rank": 3,
-    "mw_rating": 17.6,
-    "mw_points": 176,
+    "pf": 322,
+    "pa": 223,
+    "diff": 99,
+    "sos": 1342.184,
+    "sos_adj": 1196.729,
+    "power": 1364.111,
+    "rank": 2,
+    "mw_rating": 17.8,
+    "mw_points": 196,
     "divisionno": "7594",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385719",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:00 AM",
+      "location": "Medway Middle School (Old Gym)",
+      "divisionno": "7594",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44322",
+      "away_teamno": "44767",
+      "home_score": 37,
+      "away_score": 12,
+      "team_score": 37,
+      "opponent_score": 12,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44767",
+      "opponent_name": "D7T-Arlington (black)"
+    },
     {
       "gameno": "385684",
       "date": "2026-02-28",
@@ -216,25 +235,5 @@
       "opponent_name": "D7V-Lexington (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385719",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:00 AM",
-      "location": "Medway Middle School (Old Gym)",
-      "divisionno": "7594",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44322",
-      "away_teamno": "44767",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44767",
-      "opponent_name": "D7T-Arlington (black)"
-    }
-  ]
+  "future_games": []
 }

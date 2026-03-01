@@ -5,26 +5,45 @@
   "team_name": "D2L-Dedham (anderson)",
   "town": null,
   "summary": {
-    "wins": 4,
+    "wins": 5,
     "losses": 8,
     "ties": 0,
-    "pf": 190,
-    "pa": 274,
-    "diff": -84,
-    "sos": 1609.16,
-    "sos_adj": 1713.327,
-    "power": 1615.388,
+    "pf": 213,
+    "pa": 278,
+    "diff": -65,
+    "sos": 1596.869,
+    "sos_adj": 1689.177,
+    "power": 1620.936,
     "rank": 5,
-    "mw_rating": 80.6,
-    "mw_points": 886,
+    "mw_rating": 78.3,
+    "mw_points": 940,
     "divisionno": "7545",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384953",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:55 PM",
+      "location": "Capuano School",
+      "divisionno": "7554",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "45201",
+      "away_teamno": "44402",
+      "home_score": 4,
+      "away_score": 23,
+      "team_score": 23,
+      "opponent_score": 4,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45201",
+      "opponent_name": "D5P-Somerville"
+    },
     {
       "gameno": "384322",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D2K-Franklin"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384953",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:55 PM",
-      "location": "Capuano School",
-      "divisionno": "7554",
-      "division_name": "4th Girls - Division 5",
-      "home_teamno": "45201",
-      "away_teamno": "44402",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45201",
-      "opponent_name": "D5P-Somerville"
-    }
-  ]
+  "future_games": []
 }

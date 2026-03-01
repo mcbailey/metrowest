@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 579,
-    "pa": 650,
-    "diff": -71,
-    "sos": 1541.383,
-    "sos_adj": 1583.05,
-    "power": 1518.857,
-    "rank": 6,
-    "mw_rating": 66.8,
-    "mw_points": 735,
+    "pf": 630,
+    "pa": 706,
+    "diff": -76,
+    "sos": 1547.767,
+    "sos_adj": 1590.074,
+    "power": 1513.282,
+    "rank": 7,
+    "mw_rating": 65.0,
+    "mw_points": 780,
     "divisionno": "7160",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379707",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:40 PM",
+      "location": "Newton Boys and Girls Club",
+      "divisionno": "7160",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "44053",
+      "away_teamno": "43448",
+      "home_score": 51,
+      "away_score": 56,
+      "team_score": 51,
+      "opponent_score": 56,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43448",
+      "opponent_name": "D3M-Winchester (white)"
+    },
     {
       "gameno": "379701",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D3K-Medfield (bills)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379707",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:40 PM",
-      "location": "Newton Boys and Girls Club",
-      "divisionno": "7160",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "44053",
-      "away_teamno": "43448",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43448",
-      "opponent_name": "D3M-Winchester (white)"
-    }
-  ]
+  "future_games": []
 }

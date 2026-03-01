@@ -21,25 +21,8 @@
       "sos_adj": 1328.744,
       "power": 1433.161,
       "rank": 1,
-      "mw_rating": 34.9,
-      "mw_points": 384
-    },
-    {
-      "teamno": "44078",
-      "name": "D6Q-Watertown (red)",
-      "town": null,
-      "wins": 7,
-      "losses": 6,
-      "ties": 0,
-      "pf": 367,
-      "pa": 394,
-      "diff": -27,
-      "sos": 1401.094,
-      "sos_adj": 1312.633,
-      "power": 1412.412,
-      "rank": 2,
-      "mw_rating": 24.5,
-      "mw_points": 245
+      "mw_rating": 35.0,
+      "mw_points": 385
     },
     {
       "teamno": "44273",
@@ -54,9 +37,26 @@
       "sos": 1396.824,
       "sos_adj": 1301.37,
       "power": 1408.63,
-      "rank": 3,
+      "rank": 2,
       "mw_rating": 25.4,
       "mw_points": 279
+    },
+    {
+      "teamno": "44078",
+      "name": "D6Q-Watertown (red)",
+      "town": null,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "pf": 397,
+      "pa": 426,
+      "diff": -29,
+      "sos": 1403.313,
+      "sos_adj": 1314.028,
+      "power": 1404.671,
+      "rank": 3,
+      "mw_rating": 22.7,
+      "mw_points": 250
     },
     {
       "teamno": "43996",
@@ -68,9 +68,9 @@
       "pf": 316,
       "pa": 340,
       "diff": -24,
-      "sos": 1426.698,
-      "sos_adj": 1335.789,
-      "power": 1363.745,
+      "sos": 1427.678,
+      "sos_adj": 1336.769,
+      "power": 1363.99,
       "rank": 4,
       "mw_rating": 24.0,
       "mw_points": 216

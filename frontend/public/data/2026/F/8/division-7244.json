@@ -21,8 +21,8 @@
       "sos_adj": 1467.248,
       "power": 1559.071,
       "rank": 1,
-      "mw_rating": 70.0,
-      "mw_points": 630
+      "mw_rating": 70.2,
+      "mw_points": 632
     },
     {
       "teamno": "43647",
@@ -34,29 +34,29 @@
       "pf": 377,
       "pa": 267,
       "diff": 110,
-      "sos": 1502.022,
-      "sos_adj": 1502.022,
-      "power": 1537.675,
+      "sos": 1503.884,
+      "sos_adj": 1503.884,
+      "power": 1538.14,
       "rank": 2,
-      "mw_rating": 71.1,
-      "mw_points": 711
+      "mw_rating": 71.2,
+      "mw_points": 712
     },
     {
       "teamno": "44077",
       "name": "D4Q-Wellesley (b)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 5,
       "ties": 0,
-      "pf": 372,
-      "pa": 382,
-      "diff": -10,
-      "sos": 1504.981,
-      "sos_adj": 1500.436,
-      "power": 1502.753,
+      "pf": 407,
+      "pa": 411,
+      "diff": -4,
+      "sos": 1504.719,
+      "sos_adj": 1500.552,
+      "power": 1516.747,
       "rank": 3,
-      "mw_rating": 55.1,
-      "mw_points": 606
+      "mw_rating": 57.9,
+      "mw_points": 695
     },
     {
       "teamno": "44036",
@@ -68,12 +68,12 @@
       "pf": 339,
       "pa": 354,
       "diff": -15,
-      "sos": 1480.131,
-      "sos_adj": 1466.495,
-      "power": 1474.048,
+      "sos": 1478.438,
+      "sos_adj": 1464.802,
+      "power": 1473.625,
       "rank": 4,
-      "mw_rating": 38.8,
-      "mw_points": 427
+      "mw_rating": 38.9,
+      "mw_points": 428
     },
     {
       "teamno": "44782",
@@ -89,8 +89,8 @@
       "sos_adj": 1505.488,
       "power": 1473.194,
       "rank": 5,
-      "mw_rating": 51.4,
-      "mw_points": 514
+      "mw_rating": 51.5,
+      "mw_points": 515
     },
     {
       "teamno": "43946",
@@ -102,9 +102,9 @@
       "pf": 269,
       "pa": 381,
       "diff": -112,
-      "sos": 1505.611,
-      "sos_adj": 1501.066,
-      "power": 1465.951,
+      "sos": 1507.304,
+      "sos_adj": 1502.758,
+      "power": 1466.374,
       "rank": 6,
       "mw_rating": 37.1,
       "mw_points": 371

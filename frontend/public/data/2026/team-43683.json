@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 189,
-    "pa": 179,
-    "diff": 10,
-    "sos": 1443.057,
-    "sos_adj": 1393.057,
-    "power": 1430.39,
+    "pf": 200,
+    "pa": 194,
+    "diff": 6,
+    "sos": 1447.256,
+    "sos_adj": 1397.256,
+    "power": 1421.353,
     "rank": 3,
-    "mw_rating": 32.1,
-    "mw_points": 321,
+    "mw_rating": 30.1,
+    "mw_points": 331,
     "divisionno": "7553",
     "division_name": "4th Girls - Division 5",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "387989",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:30 PM",
+      "location": "Seekonk - Hurley Middle School",
+      "divisionno": "7553",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "43168",
+      "away_teamno": "43683",
+      "home_score": 15,
+      "away_score": 11,
+      "team_score": 11,
+      "opponent_score": 15,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43168",
+      "opponent_name": "D5M-Seekonk (marchetti)"
+    },
     {
       "gameno": "384967",
       "date": "2026-02-28",
@@ -216,25 +235,5 @@
       "opponent_name": "D5N-Westborough"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "387989",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:30 PM",
-      "location": "Seekonk - Hurley Middle School",
-      "divisionno": "7553",
-      "division_name": "4th Girls - Division 5",
-      "home_teamno": "43168",
-      "away_teamno": "43683",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43168",
-      "opponent_name": "D5M-Seekonk (marchetti)"
-    }
-  ]
+  "future_games": []
 }

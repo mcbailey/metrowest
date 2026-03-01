@@ -38,8 +38,25 @@
       "sos_adj": 1397.521,
       "power": 1481.361,
       "rank": 2,
-      "mw_rating": 48.0,
-      "mw_points": 576
+      "mw_rating": 48.1,
+      "mw_points": 577
+    },
+    {
+      "teamno": "43136",
+      "name": "D5H-Barrington RI (gold)",
+      "town": null,
+      "wins": 7,
+      "losses": 5,
+      "ties": 0,
+      "pf": 295,
+      "pa": 186,
+      "diff": 109,
+      "sos": 1446.873,
+      "sos_adj": 1396.873,
+      "power": 1474.321,
+      "rank": 3,
+      "mw_rating": 35.9,
+      "mw_points": 431
     },
     {
       "teamno": "43173",
@@ -54,26 +71,9 @@
       "sos": 1452.883,
       "sos_adj": 1415.383,
       "power": 1467.502,
-      "rank": 3,
-      "mw_rating": 39.3,
-      "mw_points": 472
-    },
-    {
-      "teamno": "43136",
-      "name": "D5H-Barrington RI (gold)",
-      "town": null,
-      "wins": 6,
-      "losses": 5,
-      "ties": 0,
-      "pf": 246,
-      "pa": 180,
-      "diff": 66,
-      "sos": 1451.959,
-      "sos_adj": 1401.959,
-      "power": 1461.618,
       "rank": 4,
-      "mw_rating": 34.4,
-      "mw_points": 378
+      "mw_rating": 39.4,
+      "mw_points": 473
     },
     {
       "teamno": "43550",
@@ -119,9 +119,9 @@
       "pf": 129,
       "pa": 354,
       "diff": -225,
-      "sos": 1462.159,
-      "sos_adj": 1412.159,
-      "power": 1359.698,
+      "sos": 1463.712,
+      "sos_adj": 1413.712,
+      "power": 1360.086,
       "rank": 7,
       "mw_rating": 13.5,
       "mw_points": 162

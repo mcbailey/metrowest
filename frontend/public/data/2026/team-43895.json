@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 452,
-    "pa": 496,
-    "diff": -44,
-    "sos": 1536.344,
-    "sos_adj": 1582.772,
-    "power": 1513.339,
+    "pf": 494,
+    "pa": 541,
+    "diff": -47,
+    "sos": 1539.541,
+    "sos_adj": 1586.208,
+    "power": 1507.616,
     "rank": 8,
-    "mw_rating": 59.3,
-    "mw_points": 652,
+    "mw_rating": 58.1,
+    "mw_points": 697,
     "divisionno": "7262",
     "division_name": "7th Girls - Division 3",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378165",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:30 PM",
+      "location": "Dana Barros-5",
+      "divisionno": "7263",
+      "division_name": "7th Girls - Division 3",
+      "home_teamno": "43895",
+      "away_teamno": "43944",
+      "home_score": 42,
+      "away_score": 45,
+      "team_score": 42,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43944",
+      "opponent_name": "D3J-Brookline (red)"
+    },
     {
       "gameno": "378155",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "D5H-Walpole (b)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378165",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:30 PM",
-      "location": "Dana Barros-5",
-      "divisionno": "7263",
-      "division_name": "7th Girls - Division 3",
-      "home_teamno": "43895",
-      "away_teamno": "43944",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43944",
-      "opponent_name": "D3J-Brookline (red)"
-    }
-  ]
+  "future_games": []
 }

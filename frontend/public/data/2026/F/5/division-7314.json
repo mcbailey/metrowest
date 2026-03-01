@@ -17,9 +17,9 @@
       "pf": 347,
       "pa": 211,
       "diff": 136,
-      "sos": 1469.375,
-      "sos_adj": 1444.375,
-      "power": 1492.906,
+      "sos": 1467.646,
+      "sos_adj": 1442.646,
+      "power": 1492.474,
       "rank": 1,
       "mw_rating": 49.4,
       "mw_points": 593
@@ -38,8 +38,8 @@
       "sos_adj": 1402.242,
       "power": 1472.237,
       "rank": 2,
-      "mw_rating": 46.7,
-      "mw_points": 560
+      "mw_rating": 46.8,
+      "mw_points": 561
     },
     {
       "teamno": "44184",
@@ -55,8 +55,8 @@
       "sos_adj": 1395.488,
       "power": 1454.144,
       "rank": 3,
-      "mw_rating": 40.9,
-      "mw_points": 450
+      "mw_rating": 41.0,
+      "mw_points": 451
     },
     {
       "teamno": "45343",
@@ -68,9 +68,9 @@
       "pf": 282,
       "pa": 257,
       "diff": 25,
-      "sos": 1449.481,
-      "sos_adj": 1403.648,
-      "power": 1445.835,
+      "sos": 1447.753,
+      "sos_adj": 1401.919,
+      "power": 1445.403,
       "rank": 4,
       "mw_rating": 30.1,
       "mw_points": 361
@@ -85,12 +85,12 @@
       "pf": 285,
       "pa": 243,
       "diff": 42,
-      "sos": 1446.775,
-      "sos_adj": 1396.775,
-      "power": 1444.537,
+      "sos": 1450.232,
+      "sos_adj": 1400.232,
+      "power": 1445.402,
       "rank": 5,
-      "mw_rating": 33.2,
-      "mw_points": 332
+      "mw_rating": 33.3,
+      "mw_points": 333
     },
     {
       "teamno": "43411",
@@ -106,25 +106,25 @@
       "sos_adj": 1410.957,
       "power": 1432.151,
       "rank": 6,
-      "mw_rating": 27.7,
-      "mw_points": 305
+      "mw_rating": 27.8,
+      "mw_points": 306
     },
     {
       "teamno": "44505",
       "name": "D5M-Easton (white)",
       "town": null,
       "wins": 1,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 112,
-      "pa": 291,
-      "diff": -179,
-      "sos": 1463.592,
-      "sos_adj": 1413.592,
-      "power": 1372.691,
+      "pf": 122,
+      "pa": 319,
+      "diff": -197,
+      "sos": 1459.907,
+      "sos_adj": 1409.907,
+      "power": 1356.213,
       "rank": 7,
-      "mw_rating": 15.1,
-      "mw_points": 136
+      "mw_rating": 14.6,
+      "mw_points": 146
     }
   ]
 }

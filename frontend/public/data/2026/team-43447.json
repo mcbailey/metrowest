@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 336,
-    "pa": 275,
-    "diff": 61,
-    "sos": 1601.694,
-    "sos_adj": 1701.694,
-    "power": 1644.133,
+    "pf": 352,
+    "pa": 297,
+    "diff": 55,
+    "sos": 1604.816,
+    "sos_adj": 1708.149,
+    "power": 1629.831,
     "rank": 4,
-    "mw_rating": 128.4,
-    "mw_points": 1412,
+    "mw_rating": 123.5,
+    "mw_points": 1482,
     "divisionno": "7090",
     "division_name": "4th Girls - Division 1",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384057",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:15 PM",
+      "location": "Raynham La Liberte",
+      "divisionno": "7544",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "43849",
+      "away_teamno": "43447",
+      "home_score": 22,
+      "away_score": 16,
+      "team_score": 16,
+      "opponent_score": 22,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43849",
+      "opponent_name": "D2K-Raynham (connolly)"
+    },
     {
       "gameno": "384052",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "D2L-Medway (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384057",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:15 PM",
-      "location": "Raynham La Liberte",
-      "divisionno": "7544",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "43849",
-      "away_teamno": "43447",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43849",
-      "opponent_name": "D2K-Raynham (connolly)"
-    }
-  ]
+  "future_games": []
 }

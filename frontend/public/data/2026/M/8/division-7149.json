@@ -17,12 +17,12 @@
       "pf": 677,
       "pa": 470,
       "diff": 207,
-      "sos": 1450.024,
-      "sos_adj": 1416.691,
-      "power": 1492.002,
+      "sos": 1452.145,
+      "sos_adj": 1418.811,
+      "power": 1492.532,
       "rank": 1,
-      "mw_rating": 51.0,
-      "mw_points": 612
+      "mw_rating": 51.1,
+      "mw_points": 613
     },
     {
       "teamno": "45311",
@@ -34,12 +34,12 @@
       "pf": 540,
       "pa": 464,
       "diff": 76,
-      "sos": 1441.061,
-      "sos_adj": 1399.395,
-      "power": 1488.298,
+      "sos": 1443.182,
+      "sos_adj": 1401.515,
+      "power": 1488.828,
       "rank": 2,
       "mw_rating": 47.3,
-      "mw_points": 567
+      "mw_points": 568
     },
     {
       "teamno": "43376",
@@ -55,8 +55,8 @@
       "sos_adj": 1401.572,
       "power": 1465.269,
       "rank": 3,
-      "mw_rating": 33.9,
-      "mw_points": 407
+      "mw_rating": 34.0,
+      "mw_points": 408
     },
     {
       "teamno": "44381",
@@ -76,6 +76,23 @@
       "mw_points": 275
     },
     {
+      "teamno": "43890",
+      "name": "D5Q-Holliston (magoon - red)",
+      "town": null,
+      "wins": 3,
+      "losses": 7,
+      "ties": 0,
+      "pf": 407,
+      "pa": 439,
+      "diff": -32,
+      "sos": 1461.657,
+      "sos_adj": 1411.657,
+      "power": 1423.555,
+      "rank": 5,
+      "mw_rating": 23.5,
+      "mw_points": 235
+    },
+    {
       "teamno": "43862",
       "name": "D5Q-Southboro (white)",
       "town": null,
@@ -85,29 +102,12 @@
       "pf": 458,
       "pa": 539,
       "diff": -81,
-      "sos": 1461.983,
-      "sos_adj": 1419.676,
-      "power": 1413.504,
-      "rank": 5,
-      "mw_rating": 29.8,
-      "mw_points": 357
-    },
-    {
-      "teamno": "43890",
-      "name": "D5Q-Holliston (magoon - red)",
-      "town": null,
-      "wins": 2,
-      "losses": 7,
-      "ties": 0,
-      "pf": 354,
-      "pa": 424,
-      "diff": -70,
-      "sos": 1471.072,
-      "sos_adj": 1426.628,
-      "power": 1408.216,
+      "sos": 1463.94,
+      "sos_adj": 1421.633,
+      "power": 1413.993,
       "rank": 6,
-      "mw_rating": 22.1,
-      "mw_points": 199
+      "mw_rating": 29.8,
+      "mw_points": 358
     },
     {
       "teamno": "43917",
@@ -136,9 +136,9 @@
       "pf": 279,
       "pa": 479,
       "diff": -200,
-      "sos": 1462.609,
-      "sos_adj": 1412.609,
-      "power": 1357.216,
+      "sos": 1460.296,
+      "sos_adj": 1410.296,
+      "power": 1356.637,
       "rank": 8,
       "mw_rating": 14.9,
       "mw_points": 164

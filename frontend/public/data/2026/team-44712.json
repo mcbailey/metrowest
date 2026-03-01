@@ -5,26 +5,45 @@
   "team_name": "D6Q-Weston",
   "town": null,
   "summary": {
-    "wins": 1,
+    "wins": 2,
     "losses": 9,
     "ties": 0,
-    "pf": 257,
-    "pa": 440,
-    "diff": -183,
-    "sos": 1411.754,
-    "sos_adj": 1316.754,
-    "power": 1314.398,
+    "pf": 290,
+    "pa": 468,
+    "diff": -178,
+    "sos": 1400.761,
+    "sos_adj": 1305.306,
+    "power": 1323.315,
     "rank": 6,
-    "mw_rating": 8.2,
-    "mw_points": 82,
+    "mw_rating": 10.3,
+    "mw_points": 113,
     "divisionno": "7177",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380054",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:45 PM",
+      "location": "Dover Sherborn High School",
+      "divisionno": "7177",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44760",
+      "away_teamno": "44712",
+      "home_score": 28,
+      "away_score": 33,
+      "team_score": 33,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44760",
+      "opponent_name": "D6Q-Dover Sherborn (niblock)"
+    },
     {
       "gameno": "380048",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D6R-Winchester (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380054",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:45 PM",
-      "location": "Dover Sherborn High School",
-      "divisionno": "7177",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44760",
-      "away_teamno": "44712",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44760",
-      "opponent_name": "D6Q-Dover Sherborn (niblock)"
-    }
-  ]
+  "future_games": []
 }

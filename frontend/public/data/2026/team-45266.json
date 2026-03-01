@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 1,
+    "losses": 2,
     "ties": 0,
-    "pf": 355,
-    "pa": 180,
-    "diff": 175,
-    "sos": 1338.742,
-    "sos_adj": 1193.287,
-    "power": 1380.193,
+    "pf": 379,
+    "pa": 205,
+    "diff": 174,
+    "sos": 1345.335,
+    "sos_adj": 1199.501,
+    "power": 1376.513,
     "rank": 1,
-    "mw_rating": 21.2,
-    "mw_points": 233,
+    "mw_rating": 19.5,
+    "mw_points": 234,
     "divisionno": "7593",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385640",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "Blake Middle School",
+      "divisionno": "7593",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "45267",
+      "away_teamno": "45266",
+      "home_score": 25,
+      "away_score": 24,
+      "team_score": 24,
+      "opponent_score": 25,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45267",
+      "opponent_name": "D7R-Medfield (tata)"
+    },
     {
       "gameno": "385629",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D7P-North Attleboro (silver)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385640",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:00 PM",
-      "location": "Blake Middle School",
-      "divisionno": "7593",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "45267",
-      "away_teamno": "45266",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45267",
-      "opponent_name": "D7R-Medfield (tata)"
-    }
-  ]
+  "future_games": []
 }

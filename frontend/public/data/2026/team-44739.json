@@ -5,26 +5,45 @@
   "team_name": "D2M-Arlington (maroon)",
   "town": null,
   "summary": {
-    "wins": 19,
+    "wins": 20,
     "losses": 9,
     "ties": 0,
-    "pf": 1456,
-    "pa": 1248,
-    "diff": 208,
-    "sos": 1566.757,
-    "sos_adj": 1647.114,
-    "power": 1666.512,
+    "pf": 1515,
+    "pa": 1294,
+    "diff": 221,
+    "sos": 1566.176,
+    "sos_adj": 1647.21,
+    "power": 1676.0,
     "rank": 1,
-    "mw_rating": 141.2,
-    "mw_points": 1553,
+    "mw_rating": 142.5,
+    "mw_points": 1710,
     "divisionno": "7201",
     "division_name": "7th Boys - Division 2",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 28,
-    "games_scheduled_total": 1
+    "games_played_total": 29,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374749",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:45 PM",
+      "location": "Ottoson Middle School",
+      "divisionno": "7201",
+      "division_name": "7th Boys - Division 2",
+      "home_teamno": "44739",
+      "away_teamno": "44704",
+      "home_score": 59,
+      "away_score": 46,
+      "team_score": 59,
+      "opponent_score": 46,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44704",
+      "opponent_name": "D2K-Dover Sherborn (driscoll)"
+    },
     {
       "gameno": "374638",
       "date": "2026-02-27",
@@ -558,25 +577,5 @@
       "opponent_name": "Grafton (GREEN) 7B D1S"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374749",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:45 PM",
-      "location": "Ottoson Middle School",
-      "divisionno": "7201",
-      "division_name": "7th Boys - Division 2",
-      "home_teamno": "44739",
-      "away_teamno": "44704",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44704",
-      "opponent_name": "D2K-Dover Sherborn (driscoll)"
-    }
-  ]
+  "future_games": []
 }

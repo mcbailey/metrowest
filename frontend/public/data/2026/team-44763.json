@@ -5,26 +5,45 @@
   "team_name": "D6T-Arlington (grey)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 10,
     "ties": 0,
-    "pf": 500,
-    "pa": 519,
-    "diff": -19,
-    "sos": 1393.933,
-    "sos_adj": 1282.822,
-    "power": 1357.435,
-    "rank": 4,
-    "mw_rating": 16.6,
-    "mw_points": 182,
+    "pf": 539,
+    "pa": 551,
+    "diff": -12,
+    "sos": 1388.125,
+    "sos_adj": 1277.599,
+    "power": 1367.884,
+    "rank": 3,
+    "mw_rating": 17.9,
+    "mw_points": 215,
     "divisionno": "7589",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "386214",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:30 PM",
+      "location": "Middlesex School - JV Court",
+      "divisionno": "7589",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "43719",
+      "away_teamno": "44763",
+      "home_score": 32,
+      "away_score": 39,
+      "team_score": 39,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43719",
+      "opponent_name": "D6T-Concord-Carlisle (white)"
+    },
     {
       "gameno": "386206",
       "date": "2026-02-22",
@@ -368,25 +387,5 @@
       "opponent_name": "D7V-Lexington (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "386214",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:30 PM",
-      "location": "Middlesex School - JV Court",
-      "divisionno": "7589",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "43719",
-      "away_teamno": "44763",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43719",
-      "opponent_name": "D6T-Concord-Carlisle (white)"
-    }
-  ]
+  "future_games": []
 }

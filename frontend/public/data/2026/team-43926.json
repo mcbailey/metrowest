@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 12,
+    "losses": 13,
     "ties": 0,
-    "pf": 631,
-    "pa": 895,
-    "diff": -264,
-    "sos": 1665.025,
-    "sos_adj": 1811.692,
-    "power": 1608.416,
+    "pf": 677,
+    "pa": 952,
+    "diff": -275,
+    "sos": 1667.203,
+    "sos_adj": 1814.078,
+    "power": 1601.314,
     "rank": 7,
-    "mw_rating": 123.0,
-    "mw_points": 1353,
+    "mw_rating": 121.1,
+    "mw_points": 1453,
     "divisionno": "7234",
     "division_name": "6th Boys - Division 1",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374430",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "Taunton Martin Middle School",
+      "divisionno": "7234",
+      "division_name": "6th Boys - Division 1",
+      "home_teamno": "43926",
+      "away_teamno": "44871",
+      "home_score": 46,
+      "away_score": 57,
+      "team_score": 46,
+      "opponent_score": 57,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44871",
+      "opponent_name": "D1H-North Attleboro (red)"
+    },
     {
       "gameno": "374426",
       "date": "2026-02-22",
@@ -311,25 +330,5 @@
       "opponent_name": "D1J-Natick"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374430",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:00 AM",
-      "location": "Taunton Martin Middle School",
-      "divisionno": "7234",
-      "division_name": "6th Boys - Division 1",
-      "home_teamno": "43926",
-      "away_teamno": "44871",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44871",
-      "opponent_name": "D1H-North Attleboro (red)"
-    }
-  ]
+  "future_games": []
 }

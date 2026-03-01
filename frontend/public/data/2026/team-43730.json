@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 519,
-    "pa": 457,
-    "diff": 62,
-    "sos": 1397.39,
-    "sos_adj": 1301.236,
-    "power": 1410.157,
+    "pf": 547,
+    "pa": 492,
+    "diff": 55,
+    "sos": 1396.162,
+    "sos_adj": 1299.733,
+    "power": 1392.194,
     "rank": 2,
-    "mw_rating": 29.6,
-    "mw_points": 326,
+    "mw_rating": 27.6,
+    "mw_points": 331,
     "divisionno": "7139",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379191",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Medway Middle School (Anderson Gym)",
+      "divisionno": "7140",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "44336",
+      "away_teamno": "43730",
+      "home_score": 35,
+      "away_score": 28,
+      "team_score": 28,
+      "opponent_score": 35,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44336",
+      "opponent_name": "D6M-Medway (red)"
+    },
     {
       "gameno": "379183",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D5H-Somerset (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379191",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:00 PM",
-      "location": "Medway Middle School (Anderson Gym)",
-      "divisionno": "7140",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "44336",
-      "away_teamno": "43730",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44336",
-      "opponent_name": "D6M-Medway (red)"
-    }
-  ]
+  "future_games": []
 }

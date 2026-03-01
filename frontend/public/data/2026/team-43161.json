@@ -5,26 +5,45 @@
   "team_name": "D5M-Dighton-Rehoboth",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 1,
     "ties": 0,
-    "pf": 217,
-    "pa": 142,
-    "diff": 75,
-    "sos": 1458.513,
-    "sos_adj": 1423.513,
-    "power": 1494.014,
+    "pf": 235,
+    "pa": 159,
+    "diff": 76,
+    "sos": 1457.653,
+    "sos_adj": 1421.289,
+    "power": 1497.081,
     "rank": 2,
-    "mw_rating": 61.0,
-    "mw_points": 610,
+    "mw_rating": 60.9,
+    "mw_points": 670,
     "divisionno": "7552",
     "division_name": "4th Girls - Division 5",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384992",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Mansfield Fieldhouse -2",
+      "divisionno": "7553",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "43161",
+      "away_teamno": "44209",
+      "home_score": 18,
+      "away_score": 17,
+      "team_score": 18,
+      "opponent_score": 17,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44209",
+      "opponent_name": "D5N-Sharon (gold)"
+    },
     {
       "gameno": "384982",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D5P-Bedford (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384992",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:00 PM",
-      "location": "Mansfield Fieldhouse -2",
-      "divisionno": "7553",
-      "division_name": "4th Girls - Division 5",
-      "home_teamno": "43161",
-      "away_teamno": "44209",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44209",
-      "opponent_name": "D5N-Sharon (gold)"
-    }
-  ]
+  "future_games": []
 }

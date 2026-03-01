@@ -5,26 +5,45 @@
   "team_name": "D5K-Ashland (white)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 6,
     "ties": 0,
-    "pf": 348,
-    "pa": 290,
-    "diff": 58,
-    "sos": 1446.507,
-    "sos_adj": 1400.353,
-    "power": 1473.441,
-    "rank": 3,
-    "mw_rating": 36.2,
-    "mw_points": 398,
+    "pf": 375,
+    "pa": 315,
+    "diff": 60,
+    "sos": 1447.896,
+    "sos_adj": 1401.468,
+    "power": 1481.217,
+    "rank": 2,
+    "mw_rating": 38.2,
+    "mw_points": 458,
     "divisionno": "7252",
     "division_name": "7th Girls - Division 5",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380556",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:20 PM",
+      "location": "Kennedy Middle School - Natick",
+      "divisionno": "7252",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "43400",
+      "away_teamno": "43682",
+      "home_score": 25,
+      "away_score": 27,
+      "team_score": 27,
+      "opponent_score": 25,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43400",
+      "opponent_name": "D5K-Natick (blue)"
+    },
     {
       "gameno": "380562",
       "date": "2026-02-28",
@@ -273,25 +292,5 @@
       "opponent_name": "D5M-Wayland (orange)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380556",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:20 PM",
-      "location": "Kennedy Middle School - Natick",
-      "divisionno": "7252",
-      "division_name": "7th Girls - Division 5",
-      "home_teamno": "43400",
-      "away_teamno": "43682",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43400",
-      "opponent_name": "D5K-Natick (blue)"
-    }
-  ]
+  "future_games": []
 }

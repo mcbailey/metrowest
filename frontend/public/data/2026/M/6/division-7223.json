@@ -17,12 +17,12 @@
       "pf": 589,
       "pa": 372,
       "diff": 217,
-      "sos": 1493.054,
-      "sos_adj": 1488.508,
-      "power": 1579.682,
+      "sos": 1494.92,
+      "sos_adj": 1490.375,
+      "power": 1580.148,
       "rank": 1,
-      "mw_rating": 81.7,
-      "mw_points": 899
+      "mw_rating": 81.9,
+      "mw_points": 901
     },
     {
       "teamno": "43678",
@@ -34,12 +34,12 @@
       "pf": 540,
       "pa": 399,
       "diff": 141,
-      "sos": 1490.741,
-      "sos_adj": 1482.408,
-      "power": 1558.579,
+      "sos": 1492.452,
+      "sos_adj": 1484.119,
+      "power": 1559.007,
       "rank": 2,
-      "mw_rating": 78.4,
-      "mw_points": 862
+      "mw_rating": 78.6,
+      "mw_points": 864
     },
     {
       "teamno": "44632",
@@ -62,18 +62,18 @@
       "teamno": "43780",
       "name": "D4K-Millis (long)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 7,
       "ties": 0,
-      "pf": 427,
-      "pa": 500,
-      "diff": -73,
-      "sos": 1502.772,
-      "sos_adj": 1494.439,
-      "power": 1501.893,
+      "pf": 478,
+      "pa": 527,
+      "diff": -49,
+      "sos": 1497.133,
+      "sos_adj": 1485.595,
+      "power": 1515.082,
       "rank": 4,
-      "mw_rating": 43.2,
-      "mw_points": 475
+      "mw_rating": 44.1,
+      "mw_points": 529
     },
     {
       "teamno": "44207",
@@ -89,8 +89,8 @@
       "sos_adj": 1471.954,
       "power": 1448.638,
       "rank": 5,
-      "mw_rating": 35.9,
-      "mw_points": 431
+      "mw_rating": 36.0,
+      "mw_points": 432
     },
     {
       "teamno": "45642",

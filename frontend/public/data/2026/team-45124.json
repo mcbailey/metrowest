@@ -5,26 +5,45 @@
   "team_name": "D5Q-Westwood",
   "town": null,
   "summary": {
-    "wins": 1,
+    "wins": 2,
     "losses": 11,
     "ties": 0,
-    "pf": 170,
-    "pa": 321,
-    "diff": -151,
-    "sos": 1460.413,
-    "sos_adj": 1414.58,
-    "power": 1372.6,
-    "rank": 7,
-    "mw_rating": 15.4,
-    "mw_points": 169,
+    "pf": 198,
+    "pa": 331,
+    "diff": -133,
+    "sos": 1453.999,
+    "sos_adj": 1407.845,
+    "power": 1393.008,
+    "rank": 6,
+    "mw_rating": 18.4,
+    "mw_points": 221,
     "divisionno": "7315",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375813",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:00 AM",
+      "location": "Dana Barros-2",
+      "divisionno": "7315",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44505",
+      "away_teamno": "45124",
+      "home_score": 10,
+      "away_score": 28,
+      "team_score": 28,
+      "opponent_score": 10,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44505",
+      "opponent_name": "D5M-Easton (white)"
+    },
     {
       "gameno": "375832",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D5M-Canton (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375813",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:00 AM",
-      "location": "Dana Barros-2",
-      "divisionno": "7315",
-      "division_name": "5th Girls - Division 5",
-      "home_teamno": "44505",
-      "away_teamno": "45124",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44505",
-      "opponent_name": "D5M-Easton (white)"
-    }
-  ]
+  "future_games": []
 }

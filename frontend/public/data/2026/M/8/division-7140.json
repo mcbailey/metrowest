@@ -17,12 +17,12 @@
       "pf": 513,
       "pa": 393,
       "diff": 120,
-      "sos": 1395.534,
-      "sos_adj": 1295.534,
-      "power": 1445.757,
+      "sos": 1397.468,
+      "sos_adj": 1297.468,
+      "power": 1446.24,
       "rank": 1,
-      "mw_rating": 30.4,
-      "mw_points": 334
+      "mw_rating": 30.5,
+      "mw_points": 335
     },
     {
       "teamno": "43532",
@@ -45,18 +45,18 @@
       "teamno": "44336",
       "name": "D6M-Medway (red)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 6,
       "ties": 0,
-      "pf": 334,
-      "pa": 321,
-      "diff": 13,
-      "sos": 1398.743,
-      "sos_adj": 1298.743,
-      "power": 1363.143,
+      "pf": 369,
+      "pa": 349,
+      "diff": 20,
+      "sos": 1398.828,
+      "sos_adj": 1298.828,
+      "power": 1379.122,
       "rank": 3,
-      "mw_rating": 19.6,
-      "mw_points": 215
+      "mw_rating": 21.3,
+      "mw_points": 255
     },
     {
       "teamno": "44382",
@@ -89,8 +89,8 @@
       "sos_adj": 1301.55,
       "power": 1351.31,
       "rank": 5,
-      "mw_rating": 19.7,
-      "mw_points": 236
+      "mw_rating": 19.8,
+      "mw_points": 237
     },
     {
       "teamno": "43887",
@@ -107,7 +107,7 @@
       "power": 1341.372,
       "rank": 6,
       "mw_rating": 12.8,
-      "mw_points": 153
+      "mw_points": 154
     },
     {
       "teamno": "45637",

@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 261,
-    "pa": 184,
-    "diff": 77,
-    "sos": 1520.545,
-    "sos_adj": 1530.545,
-    "power": 1555.732,
-    "rank": 2,
-    "mw_rating": 69.8,
-    "mw_points": 698,
+    "pf": 280,
+    "pa": 213,
+    "diff": 67,
+    "sos": 1533.946,
+    "sos_adj": 1543.037,
+    "power": 1546.747,
+    "rank": 3,
+    "mw_rating": 65.8,
+    "mw_points": 724,
     "divisionno": "7319",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373691",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Middleborough Early Childhood Center (MECC)",
+      "divisionno": "7319",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "43243",
+      "away_teamno": "43431",
+      "home_score": 29,
+      "away_score": 19,
+      "team_score": 19,
+      "opponent_score": 29,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43243",
+      "opponent_name": "D4H-Middleborough (colp)"
+    },
     {
       "gameno": "373679",
       "date": "2026-02-15",
@@ -216,25 +235,5 @@
       "opponent_name": "D4H-Bourne (purple/jensen)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373691",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:00 PM",
-      "location": "Middleborough Early Childhood Center (MECC)",
-      "divisionno": "7319",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "43243",
-      "away_teamno": "43431",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43243",
-      "opponent_name": "D4H-Middleborough (colp)"
-    }
-  ]
+  "future_games": []
 }

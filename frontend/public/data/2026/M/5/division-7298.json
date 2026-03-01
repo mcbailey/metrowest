@@ -21,8 +21,8 @@
       "sos_adj": 1486.098,
       "power": 1564.992,
       "rank": 1,
-      "mw_rating": 63.4,
-      "mw_points": 697
+      "mw_rating": 63.5,
+      "mw_points": 698
     },
     {
       "teamno": "44460",
@@ -34,9 +34,9 @@
       "pf": 370,
       "pa": 356,
       "diff": 14,
-      "sos": 1455.315,
-      "sos_adj": 1423.497,
-      "power": 1508.255,
+      "sos": 1456.87,
+      "sos_adj": 1425.051,
+      "power": 1508.644,
       "rank": 2,
       "mw_rating": 46.2,
       "mw_points": 462
@@ -46,17 +46,17 @@
       "name": "D4J-Milford (red-karp)",
       "town": null,
       "wins": 3,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 417,
-      "pa": 492,
-      "diff": -75,
-      "sos": 1505.637,
-      "sos_adj": 1501.47,
-      "power": 1469.812,
+      "pf": 439,
+      "pa": 530,
+      "diff": -91,
+      "sos": 1511.707,
+      "sos_adj": 1507.861,
+      "power": 1458.587,
       "rank": 3,
-      "mw_rating": 40.3,
-      "mw_points": 403
+      "mw_rating": 38.9,
+      "mw_points": 428
     },
     {
       "teamno": "43761",

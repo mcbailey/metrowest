@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 475,
-    "pa": 557,
-    "diff": -82,
-    "sos": 1652.61,
-    "sos_adj": 1787.61,
-    "power": 1652.657,
+    "pf": 505,
+    "pa": 611,
+    "diff": -106,
+    "sos": 1665.904,
+    "sos_adj": 1802.267,
+    "power": 1649.08,
     "rank": 5,
-    "mw_rating": 118.2,
-    "mw_points": 1182,
+    "mw_rating": 116.6,
+    "mw_points": 1282,
     "divisionno": "7204",
     "division_name": "7th Boys - Division 1",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374741",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:15 PM",
+      "location": "Winchester High School (Court 1)",
+      "divisionno": "7204",
+      "division_name": "7th Boys - Division 1",
+      "home_teamno": "43453",
+      "away_teamno": "45534",
+      "home_score": 54,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 54,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43453",
+      "opponent_name": "D1J-Winchester (white)"
+    },
     {
       "gameno": "374725",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D1J-Milton (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374741",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:15 PM",
-      "location": "Winchester High School (Court 1)",
-      "divisionno": "7204",
-      "division_name": "7th Boys - Division 1",
-      "home_teamno": "43453",
-      "away_teamno": "45534",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43453",
-      "opponent_name": "D1J-Winchester (white)"
-    }
-  ]
+  "future_games": []
 }

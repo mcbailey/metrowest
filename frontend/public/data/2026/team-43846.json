@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 181,
-    "pa": 213,
-    "diff": -32,
-    "sos": 1516.06,
-    "sos_adj": 1516.06,
-    "power": 1495.907,
-    "rank": 4,
-    "mw_rating": 50.7,
-    "mw_points": 558,
+    "pf": 199,
+    "pa": 240,
+    "diff": -41,
+    "sos": 1519.731,
+    "sos_adj": 1519.731,
+    "power": 1484.258,
+    "rank": 5,
+    "mw_rating": 48.6,
+    "mw_points": 583,
     "divisionno": "7319",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373690",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:30 AM",
+      "location": "Bourne Middle School",
+      "divisionno": "7319",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "44816",
+      "away_teamno": "43846",
+      "home_score": 27,
+      "away_score": 18,
+      "team_score": 18,
+      "opponent_score": 27,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44816",
+      "opponent_name": "D4H-Bourne (purple/jensen)"
+    },
     {
       "gameno": "392494",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D4H-Norton"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373690",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:30 AM",
-      "location": "Bourne Middle School",
-      "divisionno": "7319",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "44816",
-      "away_teamno": "43846",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44816",
-      "opponent_name": "D4H-Bourne (purple/jensen)"
-    }
-  ]
+  "future_games": []
 }

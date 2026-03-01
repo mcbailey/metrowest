@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 367,
-    "pa": 394,
-    "diff": -27,
-    "sos": 1401.094,
-    "sos_adj": 1312.633,
-    "power": 1412.412,
-    "rank": 2,
-    "mw_rating": 24.5,
-    "mw_points": 245,
+    "pf": 397,
+    "pa": 426,
+    "diff": -29,
+    "sos": 1403.313,
+    "sos_adj": 1314.028,
+    "power": 1404.671,
+    "rank": 3,
+    "mw_rating": 22.7,
+    "mw_points": 250,
     "divisionno": "7287",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377081",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:50 AM",
+      "location": "Hosmer Elementary School",
+      "divisionno": "7288",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "44078",
+      "away_teamno": "45426",
+      "home_score": 30,
+      "away_score": 32,
+      "team_score": 30,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45426",
+      "opponent_name": "D6R-Winchester (red)"
+    },
     {
       "gameno": "377108",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D6R-Hopkinton (tighe)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377081",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:50 AM",
-      "location": "Hosmer Elementary School",
-      "divisionno": "7288",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "44078",
-      "away_teamno": "45426",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45426",
-      "opponent_name": "D6R-Winchester (red)"
-    }
-  ]
+  "future_games": []
 }

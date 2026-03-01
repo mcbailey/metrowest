@@ -21,8 +21,8 @@
       "sos_adj": 1417.354,
       "power": 1483.946,
       "rank": 1,
-      "mw_rating": 42.9,
-      "mw_points": 515
+      "mw_rating": 43.0,
+      "mw_points": 516
     },
     {
       "teamno": "45333",
@@ -38,8 +38,8 @@
       "sos_adj": 1406.397,
       "power": 1437.608,
       "rank": 2,
-      "mw_rating": 37.4,
-      "mw_points": 411
+      "mw_rating": 37.5,
+      "mw_points": 412
     },
     {
       "teamno": "44480",
@@ -55,8 +55,8 @@
       "sos_adj": 1426.976,
       "power": 1422.83,
       "rank": 3,
-      "mw_rating": 47.0,
-      "mw_points": 517
+      "mw_rating": 47.1,
+      "mw_points": 518
     },
     {
       "teamno": "43891",
@@ -72,8 +72,8 @@
       "sos_adj": 1393.483,
       "power": 1417.432,
       "rank": 4,
-      "mw_rating": 23.9,
-      "mw_points": 239
+      "mw_rating": 24.0,
+      "mw_points": 240
     },
     {
       "teamno": "43648",
@@ -89,25 +89,25 @@
       "sos_adj": 1402.509,
       "power": 1404.237,
       "rank": 5,
-      "mw_rating": 29.5,
-      "mw_points": 354
+      "mw_rating": 29.6,
+      "mw_points": 355
     },
     {
       "teamno": "44413",
       "name": "D5J-Dedham (mullen)",
       "town": null,
       "wins": 2,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 247,
-      "pa": 402,
-      "diff": -155,
-      "sos": 1443.381,
-      "sos_adj": 1393.381,
-      "power": 1398.762,
+      "pf": 266,
+      "pa": 432,
+      "diff": -166,
+      "sos": 1441.225,
+      "sos_adj": 1391.225,
+      "power": 1381.082,
       "rank": 6,
-      "mw_rating": 17.6,
-      "mw_points": 193
+      "mw_rating": 16.9,
+      "mw_points": 203
     }
   ]
 }

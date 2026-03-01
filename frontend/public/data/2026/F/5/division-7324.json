@@ -21,25 +21,25 @@
       "sos_adj": 1497.846,
       "power": 1581.879,
       "rank": 1,
-      "mw_rating": 76.9,
-      "mw_points": 846
+      "mw_rating": 77.1,
+      "mw_points": 848
     },
     {
       "teamno": "43770",
       "name": "D4R-Concord-Carlisle (maroon)",
       "town": null,
-      "wins": 12,
+      "wins": 13,
       "losses": 2,
       "ties": 0,
-      "pf": 525,
-      "pa": 260,
-      "diff": 265,
-      "sos": 1493.284,
-      "sos_adj": 1500.427,
-      "power": 1541.612,
+      "pf": 572,
+      "pa": 287,
+      "diff": 285,
+      "sos": 1494.05,
+      "sos_adj": 1504.05,
+      "power": 1569.779,
       "rank": 2,
-      "mw_rating": 88.1,
-      "mw_points": 881
+      "mw_rating": 91.1,
+      "mw_points": 1002
     },
     {
       "teamno": "44446",
@@ -51,9 +51,9 @@
       "pf": 470,
       "pa": 414,
       "diff": 56,
-      "sos": 1501.154,
-      "sos_adj": 1506.71,
-      "power": 1516.829,
+      "sos": 1497.622,
+      "sos_adj": 1503.178,
+      "power": 1513.664,
       "rank": 3,
       "mw_rating": 68.3,
       "mw_points": 819
@@ -68,12 +68,12 @@
       "pf": 388,
       "pa": 494,
       "diff": -106,
-      "sos": 1545.209,
-      "sos_adj": 1567.431,
-      "power": 1476.397,
+      "sos": 1543.189,
+      "sos_adj": 1565.411,
+      "power": 1475.893,
       "rank": 4,
-      "mw_rating": 51.3,
-      "mw_points": 615
+      "mw_rating": 51.4,
+      "mw_points": 617
     },
     {
       "teamno": "44011",
@@ -85,9 +85,9 @@
       "pf": 234,
       "pa": 280,
       "diff": -46,
-      "sos": 1501.346,
-      "sos_adj": 1496.801,
-      "power": 1471.206,
+      "sos": 1504.097,
+      "sos_adj": 1499.552,
+      "power": 1471.894,
       "rank": 5,
       "mw_rating": 38.0,
       "mw_points": 418
@@ -102,12 +102,12 @@
       "pf": 241,
       "pa": 413,
       "diff": -172,
-      "sos": 1498.262,
-      "sos_adj": 1473.262,
-      "power": 1444.318,
+      "sos": 1505.833,
+      "sos_adj": 1480.833,
+      "power": 1446.211,
       "rank": 6,
-      "mw_rating": 29.4,
-      "mw_points": 323
+      "mw_rating": 29.5,
+      "mw_points": 324
     }
   ]
 }

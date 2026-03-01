@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 878,
-    "pa": 981,
-    "diff": -103,
-    "sos": 1543.79,
-    "sos_adj": 1590.218,
-    "power": 1530.028,
+    "pf": 964,
+    "pa": 1073,
+    "diff": -109,
+    "sos": 1544.669,
+    "sos_adj": 1591.335,
+    "power": 1518.676,
     "rank": 7,
-    "mw_rating": 67.3,
-    "mw_points": 740,
+    "mw_rating": 65.4,
+    "mw_points": 785,
     "divisionno": "7157",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375122",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Somerset Middle School",
+      "divisionno": "7157",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "43476",
+      "away_teamno": "45098",
+      "home_score": 86,
+      "away_score": 92,
+      "team_score": 86,
+      "opponent_score": 92,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45098",
+      "opponent_name": "D3H-Fall River (silver)"
+    },
     {
       "gameno": "375113",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "D3K-Wellesley (b)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375122",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:00 PM",
-      "location": "Somerset Middle School",
-      "divisionno": "7157",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "43476",
-      "away_teamno": "45098",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45098",
-      "opponent_name": "D3H-Fall River (silver)"
-    }
-  ]
+  "future_games": []
 }

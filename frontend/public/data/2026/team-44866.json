@@ -5,26 +5,45 @@
   "team_name": "D4M-North Attleboro (red)",
   "town": null,
   "summary": {
-    "wins": 10,
-    "losses": 8,
+    "wins": 11,
+    "losses": 9,
     "ties": 0,
-    "pf": 797,
-    "pa": 739,
-    "diff": 58,
-    "sos": 1493.947,
-    "sos_adj": 1493.947,
-    "power": 1487.796,
+    "pf": 904,
+    "pa": 845,
+    "diff": 59,
+    "sos": 1495.764,
+    "sos_adj": 1498.264,
+    "power": 1491.901,
     "rank": 4,
-    "mw_rating": 63.1,
-    "mw_points": 694,
+    "mw_rating": 60.8,
+    "mw_points": 729,
     "divisionno": "7154",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380927",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:05 PM",
+      "location": "Dedham Middle School",
+      "divisionno": "7155",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "44411",
+      "away_teamno": "44866",
+      "home_score": 63,
+      "away_score": 56,
+      "team_score": 56,
+      "opponent_score": 63,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44411",
+      "opponent_name": "D4Q-Dedham (kleinsasser)"
+    },
     {
       "gameno": "380907",
       "date": "2026-02-28",
@@ -81,6 +100,25 @@
       "is_home": false,
       "opponent_teamno": "43240",
       "opponent_name": "D4H-Middleborough (colp)"
+    },
+    {
+      "gameno": "394001",
+      "date": "2026-02-16",
+      "dow": "Mon",
+      "starttime": "2:30 PM",
+      "location": "Mass premier",
+      "divisionno": "7154",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "44866",
+      "away_teamno": "44334",
+      "home_score": 51,
+      "away_score": 43,
+      "team_score": 51,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44334",
+      "opponent_name": "D3K-Medway (blue)"
     },
     {
       "gameno": "380917",
@@ -368,25 +406,5 @@
       "opponent_name": "East Greenwich (White) 8B D2N"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380927",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:05 PM",
-      "location": "Dedham Middle School",
-      "divisionno": "7155",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "44411",
-      "away_teamno": "44866",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44411",
-      "opponent_name": "D4Q-Dedham (kleinsasser)"
-    }
-  ]
+  "future_games": []
 }

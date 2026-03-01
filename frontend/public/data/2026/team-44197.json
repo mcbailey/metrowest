@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 263,
-    "pa": 335,
-    "diff": -72,
-    "sos": 1631.267,
-    "sos_adj": 1765.883,
-    "power": 1660.918,
+    "pf": 281,
+    "pa": 368,
+    "diff": -87,
+    "sos": 1637.177,
+    "sos_adj": 1772.891,
+    "power": 1651.554,
     "rank": 3,
-    "mw_rating": 123.3,
-    "mw_points": 1356,
+    "mw_rating": 118.8,
+    "mw_points": 1426,
     "divisionno": "7545",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384066",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:55 PM",
+      "location": "Winchester High School (Court 3)",
+      "divisionno": "7546",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "43468",
+      "away_teamno": "44197",
+      "home_score": 33,
+      "away_score": 18,
+      "team_score": 18,
+      "opponent_score": 33,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43468",
+      "opponent_name": "D2M-Winchester (white)"
+    },
     {
       "gameno": "384044",
       "date": "2026-02-28",
@@ -273,25 +292,5 @@
       "opponent_name": "D2M-Wayland (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384066",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:55 PM",
-      "location": "Winchester High School (Court 3)",
-      "divisionno": "7546",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "43468",
-      "away_teamno": "44197",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43468",
-      "opponent_name": "D2M-Winchester (white)"
-    }
-  ]
+  "future_games": []
 }

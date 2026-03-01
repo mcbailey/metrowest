@@ -5,26 +5,45 @@
   "team_name": "D6H-Taunton (hibbard)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 11,
     "ties": 0,
-    "pf": 1039,
-    "pa": 910,
-    "diff": 129,
-    "sos": 1452.119,
-    "sos_adj": 1411.642,
-    "power": 1414.624,
+    "pf": 1092,
+    "pa": 961,
+    "diff": 131,
+    "sos": 1453.431,
+    "sos_adj": 1414.795,
+    "power": 1429.669,
     "rank": 2,
-    "mw_rating": 36.6,
-    "mw_points": 403,
+    "mw_rating": 39.8,
+    "mw_points": 477,
     "divisionno": "7137",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 21,
-    "games_scheduled_total": 1
+    "games_played_total": 22,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379274",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:40 PM",
+      "location": "Taunton Martin Middle School",
+      "divisionno": "7137",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "43968",
+      "away_teamno": "44124",
+      "home_score": 53,
+      "away_score": 51,
+      "team_score": 53,
+      "opponent_score": 51,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44124",
+      "opponent_name": "D4J-Berkley"
+    },
     {
       "gameno": "376443",
       "date": "2026-02-28",
@@ -425,25 +444,5 @@
       "opponent_name": "D5H-Mansfield (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379274",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:40 PM",
-      "location": "Taunton Martin Middle School",
-      "divisionno": "7137",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "43968",
-      "away_teamno": "44124",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44124",
-      "opponent_name": "D4J-Berkley"
-    }
-  ]
+  "future_games": []
 }

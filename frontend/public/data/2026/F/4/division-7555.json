@@ -12,17 +12,17 @@
       "name": "D7M-Seekonk (3)",
       "town": null,
       "wins": 12,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
-      "pf": 370,
-      "pa": 195,
-      "diff": 175,
-      "sos": 1352.661,
-      "sos_adj": 1225.738,
-      "power": 1403.323,
+      "pf": 382,
+      "pa": 227,
+      "diff": 155,
+      "sos": 1354.569,
+      "sos_adj": 1225.997,
+      "power": 1377.784,
       "rank": 1,
-      "mw_rating": 24.3,
-      "mw_points": 267
+      "mw_rating": 22.4,
+      "mw_points": 269
     },
     {
       "teamno": "43559",
@@ -34,12 +34,12 @@
       "pf": 237,
       "pa": 154,
       "diff": 83,
-      "sos": 1337.44,
-      "sos_adj": 1187.44,
-      "power": 1359.607,
+      "sos": 1338.605,
+      "sos_adj": 1188.605,
+      "power": 1359.898,
       "rank": 2,
-      "mw_rating": 18.6,
-      "mw_points": 205
+      "mw_rating": 18.7,
+      "mw_points": 206
     },
     {
       "teamno": "43828",
@@ -51,12 +51,12 @@
       "pf": 246,
       "pa": 136,
       "diff": 110,
-      "sos": 1330.332,
-      "sos_adj": 1180.332,
-      "power": 1352.822,
+      "sos": 1331.497,
+      "sos_adj": 1181.497,
+      "power": 1353.113,
       "rank": 3,
-      "mw_rating": 16.2,
-      "mw_points": 194
+      "mw_rating": 16.3,
+      "mw_points": 195
     },
     {
       "teamno": "44430",
@@ -68,12 +68,12 @@
       "pf": 146,
       "pa": 149,
       "diff": -3,
-      "sos": 1347.225,
-      "sos_adj": 1197.225,
-      "power": 1322.548,
+      "sos": 1343.812,
+      "sos_adj": 1193.812,
+      "power": 1321.694,
       "rank": 4,
-      "mw_rating": 15.1,
-      "mw_points": 151
+      "mw_rating": 15.2,
+      "mw_points": 152
     },
     {
       "teamno": "43848",
@@ -85,29 +85,29 @@
       "pf": 162,
       "pa": 169,
       "diff": -7,
-      "sos": 1367.661,
-      "sos_adj": 1217.661,
-      "power": 1294.709,
+      "sos": 1369.494,
+      "sos_adj": 1219.494,
+      "power": 1295.167,
       "rank": 5,
-      "mw_rating": 9.1,
-      "mw_points": 100
+      "mw_rating": 9.2,
+      "mw_points": 101
     },
     {
       "teamno": "43135",
       "name": "D7M-Barrington RI (white)",
       "town": null,
       "wins": 0,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 101,
-      "pa": 287,
-      "diff": -186,
-      "sos": 1399.394,
-      "sos_adj": 1258.485,
-      "power": 1258.653,
+      "pf": 111,
+      "pa": 317,
+      "diff": -206,
+      "sos": 1390.978,
+      "sos_adj": 1249.312,
+      "power": 1241.236,
       "rank": 6,
       "mw_rating": 1.7,
-      "mw_points": 19
+      "mw_points": 20
     }
   ]
 }

@@ -5,26 +5,45 @@
   "team_name": "D3M-Winchester (white)",
   "town": null,
   "summary": {
-    "wins": 15,
+    "wins": 16,
     "losses": 11,
     "ties": 0,
-    "pf": 1196,
-    "pa": 1106,
-    "diff": 90,
-    "sos": 1551.188,
-    "sos_adj": 1597.342,
-    "power": 1610.281,
+    "pf": 1252,
+    "pa": 1157,
+    "diff": 95,
+    "sos": 1546.181,
+    "sos_adj": 1592.477,
+    "power": 1616.396,
     "rank": 3,
-    "mw_rating": 104.8,
-    "mw_points": 1153,
+    "mw_rating": 105.6,
+    "mw_points": 1267,
     "divisionno": "7160",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 26,
-    "games_scheduled_total": 1
+    "games_played_total": 27,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379707",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:40 PM",
+      "location": "Newton Boys and Girls Club",
+      "divisionno": "7160",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "44053",
+      "away_teamno": "43448",
+      "home_score": 51,
+      "away_score": 56,
+      "team_score": 56,
+      "opponent_score": 51,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44053",
+      "opponent_name": "D3M-Newton (orange)"
+    },
     {
       "gameno": "390025",
       "date": "2026-02-28",
@@ -520,25 +539,5 @@
       "opponent_name": "Newburyport (A)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379707",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:40 PM",
-      "location": "Newton Boys and Girls Club",
-      "divisionno": "7160",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "44053",
-      "away_teamno": "43448",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44053",
-      "opponent_name": "D3M-Newton (orange)"
-    }
-  ]
+  "future_games": []
 }

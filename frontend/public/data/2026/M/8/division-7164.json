@@ -21,8 +21,8 @@
       "sos_adj": 1689.235,
       "power": 1673.256,
       "rank": 1,
-      "mw_rating": 149.9,
-      "mw_points": 1499
+      "mw_rating": 149.8,
+      "mw_points": 1498
     },
     {
       "teamno": "43300",
@@ -34,29 +34,29 @@
       "pf": 581,
       "pa": 523,
       "diff": 58,
-      "sos": 1581.907,
-      "sos_adj": 1672.816,
-      "power": 1654.68,
+      "sos": 1585.414,
+      "sos_adj": 1676.324,
+      "power": 1655.557,
       "rank": 2,
-      "mw_rating": 115.8,
-      "mw_points": 1158
+      "mw_rating": 115.7,
+      "mw_points": 1157
     },
     {
       "teamno": "44563",
       "name": "D2J-Hingham (black)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 4,
       "ties": 0,
-      "pf": 445,
-      "pa": 404,
-      "diff": 41,
-      "sos": 1636.534,
-      "sos_adj": 1755.284,
-      "power": 1642.82,
+      "pf": 510,
+      "pa": 450,
+      "diff": 60,
+      "sos": 1629.91,
+      "sos_adj": 1746.577,
+      "power": 1655.111,
       "rank": 3,
-      "mw_rating": 124.4,
-      "mw_points": 995
+      "mw_rating": 127.7,
+      "mw_points": 1149
     },
     {
       "teamno": "45308",
@@ -72,8 +72,8 @@
       "sos_adj": 1741.272,
       "power": 1630.288,
       "rank": 4,
-      "mw_rating": 126.3,
-      "mw_points": 1263
+      "mw_rating": 126.2,
+      "mw_points": 1262
     },
     {
       "teamno": "43614",
@@ -85,9 +85,9 @@
       "pf": 486,
       "pa": 562,
       "diff": -76,
-      "sos": 1596.22,
-      "sos_adj": 1687.129,
-      "power": 1593.753,
+      "sos": 1597.974,
+      "sos_adj": 1688.883,
+      "power": 1594.192,
       "rank": 5,
       "mw_rating": 97.0,
       "mw_points": 970
@@ -102,12 +102,12 @@
       "pf": 737,
       "pa": 887,
       "diff": -150,
-      "sos": 1581.4,
-      "sos_adj": 1659.177,
-      "power": 1592.664,
+      "sos": 1582.471,
+      "sos_adj": 1660.249,
+      "power": 1592.932,
       "rank": 6,
-      "mw_rating": 104.6,
-      "mw_points": 1151
+      "mw_rating": 104.4,
+      "mw_points": 1148
     },
     {
       "teamno": "43859",
@@ -123,8 +123,8 @@
       "sos_adj": 1683.455,
       "power": 1584.718,
       "rank": 7,
-      "mw_rating": 96.0,
-      "mw_points": 1056
+      "mw_rating": 96.1,
+      "mw_points": 1057
     }
   ]
 }

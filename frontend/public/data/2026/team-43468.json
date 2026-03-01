@@ -5,26 +5,45 @@
   "team_name": "D2M-Winchester (white)",
   "town": null,
   "summary": {
-    "wins": 18,
+    "wins": 19,
     "losses": 6,
     "ties": 0,
-    "pf": 642,
-    "pa": 431,
-    "diff": 211,
-    "sos": 1590.503,
-    "sos_adj": 1684.253,
-    "power": 1682.777,
+    "pf": 675,
+    "pa": 449,
+    "diff": 226,
+    "sos": 1592.042,
+    "sos_adj": 1688.042,
+    "power": 1696.746,
     "rank": 2,
-    "mw_rating": 147.8,
-    "mw_points": 1626,
+    "mw_rating": 148.6,
+    "mw_points": 1783,
     "divisionno": "7546",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 24,
-    "games_scheduled_total": 1
+    "games_played_total": 25,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384066",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:55 PM",
+      "location": "Winchester High School (Court 3)",
+      "divisionno": "7546",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "43468",
+      "away_teamno": "44197",
+      "home_score": 33,
+      "away_score": 18,
+      "team_score": 33,
+      "opponent_score": 18,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44197",
+      "opponent_name": "D2L-Parkway  (red)"
+    },
     {
       "gameno": "384011",
       "date": "2026-02-28",
@@ -482,25 +501,5 @@
       "opponent_name": "D2K-Franklin"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384066",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:55 PM",
-      "location": "Winchester High School (Court 3)",
-      "divisionno": "7546",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "43468",
-      "away_teamno": "44197",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44197",
-      "opponent_name": "D2L-Parkway  (red)"
-    }
-  ]
+  "future_games": []
 }

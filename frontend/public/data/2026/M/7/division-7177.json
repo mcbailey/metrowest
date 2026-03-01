@@ -17,12 +17,12 @@
       "pf": 424,
       "pa": 330,
       "diff": 94,
-      "sos": 1395.826,
-      "sos_adj": 1300.371,
-      "power": 1415.641,
+      "sos": 1397.254,
+      "sos_adj": 1301.799,
+      "power": 1415.998,
       "rank": 1,
-      "mw_rating": 31.4,
-      "mw_points": 345
+      "mw_rating": 31.5,
+      "mw_points": 346
     },
     {
       "teamno": "45104",
@@ -38,8 +38,8 @@
       "sos_adj": 1280.867,
       "power": 1405.941,
       "rank": 2,
-      "mw_rating": 26.4,
-      "mw_points": 264
+      "mw_rating": 26.5,
+      "mw_points": 265
     },
     {
       "teamno": "43535",
@@ -51,9 +51,9 @@
       "pf": 348,
       "pa": 298,
       "diff": 50,
-      "sos": 1422.187,
-      "sos_adj": 1342.187,
-      "power": 1398.999,
+      "sos": 1420.616,
+      "sos_adj": 1340.616,
+      "power": 1398.607,
       "rank": 3,
       "mw_rating": 28.1,
       "mw_points": 281
@@ -73,7 +73,7 @@
       "power": 1365.785,
       "rank": 4,
       "mw_rating": 20.6,
-      "mw_points": 226
+      "mw_points": 227
     },
     {
       "teamno": "43873",
@@ -90,41 +90,24 @@
       "power": 1351.343,
       "rank": 5,
       "mw_rating": 14.3,
-      "mw_points": 171
+      "mw_points": 172
     },
     {
       "teamno": "44712",
       "name": "D6Q-Weston",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 9,
       "ties": 0,
-      "pf": 257,
-      "pa": 440,
-      "diff": -183,
-      "sos": 1411.754,
-      "sos_adj": 1316.754,
-      "power": 1314.398,
+      "pf": 290,
+      "pa": 468,
+      "diff": -178,
+      "sos": 1400.761,
+      "sos_adj": 1305.306,
+      "power": 1323.315,
       "rank": 6,
-      "mw_rating": 8.2,
-      "mw_points": 82
-    },
-    {
-      "teamno": "44760",
-      "name": "D6Q-Dover Sherborn (niblock)",
-      "town": null,
-      "wins": 0,
-      "losses": 10,
-      "ties": 0,
-      "pf": 206,
-      "pa": 357,
-      "diff": -151,
-      "sos": 1410.212,
-      "sos_adj": 1315.212,
-      "power": 1308.707,
-      "rank": 7,
-      "mw_rating": 5.5,
-      "mw_points": 55
+      "mw_rating": 10.3,
+      "mw_points": 113
     },
     {
       "teamno": "44370",
@@ -139,9 +122,26 @@
       "sos": 1404.755,
       "sos_adj": 1309.3,
       "power": 1305.121,
-      "rank": 8,
+      "rank": 7,
       "mw_rating": 7.8,
       "mw_points": 86
+    },
+    {
+      "teamno": "44760",
+      "name": "D6Q-Dover Sherborn (niblock)",
+      "town": null,
+      "wins": 0,
+      "losses": 11,
+      "ties": 0,
+      "pf": 234,
+      "pa": 390,
+      "diff": -156,
+      "sos": 1402.858,
+      "sos_adj": 1307.404,
+      "power": 1294.976,
+      "rank": 8,
+      "mw_rating": 5.5,
+      "mw_points": 60
     }
   ]
 }

@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 117,
-    "pa": 224,
-    "diff": -107,
-    "sos": 1452.502,
-    "sos_adj": 1402.502,
-    "power": 1391.6,
-    "rank": 5,
-    "mw_rating": 20.3,
-    "mw_points": 203,
+    "pf": 131,
+    "pa": 248,
+    "diff": -117,
+    "sos": 1454.086,
+    "sos_adj": 1399.54,
+    "power": 1372.355,
+    "rank": 6,
+    "mw_rating": 19.0,
+    "mw_points": 209,
     "divisionno": "7548",
     "division_name": "4th Girls - Division 4",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384341",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:45 PM",
+      "location": "Southborough Trottier Middle School",
+      "divisionno": "7551",
+      "division_name": "4th Girls - Division 6",
+      "home_teamno": "44221",
+      "away_teamno": "44039",
+      "home_score": 14,
+      "away_score": 24,
+      "team_score": 14,
+      "opponent_score": 24,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44039",
+      "opponent_name": "D6Q-Newton (orange)"
+    },
     {
       "gameno": "384330",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D6Q-Watertown (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384341",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:45 PM",
-      "location": "Southborough Trottier Middle School",
-      "divisionno": "7551",
-      "division_name": "4th Girls - Division 6",
-      "home_teamno": "44221",
-      "away_teamno": "44039",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44039",
-      "opponent_name": "D6Q-Newton (orange)"
-    }
-  ]
+  "future_games": []
 }

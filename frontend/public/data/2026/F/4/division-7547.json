@@ -11,18 +11,18 @@
       "teamno": "44470",
       "name": "D4M-Walpole (b)",
       "town": null,
-      "wins": 10,
+      "wins": 11,
       "losses": 1,
       "ties": 0,
-      "pf": 308,
-      "pa": 181,
-      "diff": 127,
-      "sos": 1451.758,
-      "sos_adj": 1406.304,
-      "power": 1532.964,
+      "pf": 331,
+      "pa": 191,
+      "diff": 140,
+      "sos": 1451.367,
+      "sos_adj": 1409.7,
+      "power": 1544.803,
       "rank": 1,
-      "mw_rating": 55.9,
-      "mw_points": 615
+      "mw_rating": 58.1,
+      "mw_points": 697
     },
     {
       "teamno": "43991",
@@ -34,12 +34,12 @@
       "pf": 346,
       "pa": 233,
       "diff": 113,
-      "sos": 1485.211,
-      "sos_adj": 1465.98,
-      "power": 1501.582,
+      "sos": 1484.103,
+      "sos_adj": 1464.872,
+      "power": 1501.305,
       "rank": 2,
-      "mw_rating": 59.9,
-      "mw_points": 719
+      "mw_rating": 60.1,
+      "mw_points": 721
     },
     {
       "teamno": "43603",
@@ -55,8 +55,8 @@
       "sos_adj": 1400.868,
       "power": 1473.573,
       "rank": 3,
-      "mw_rating": 45.8,
-      "mw_points": 550
+      "mw_rating": 45.9,
+      "mw_points": 551
     },
     {
       "teamno": "45116",
@@ -72,8 +72,8 @@
       "sos_adj": 1443.806,
       "power": 1462.91,
       "rank": 4,
-      "mw_rating": 45.9,
-      "mw_points": 505
+      "mw_rating": 46.0,
+      "mw_points": 506
     },
     {
       "teamno": "44220",
@@ -89,25 +89,25 @@
       "sos_adj": 1411.615,
       "power": 1446.494,
       "rank": 5,
-      "mw_rating": 33.7,
-      "mw_points": 371
+      "mw_rating": 33.8,
+      "mw_points": 372
     },
     {
       "teamno": "45268",
       "name": "D4M-Medfield (baker)",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 10,
       "ties": 0,
-      "pf": 179,
-      "pa": 257,
-      "diff": -78,
-      "sos": 1489.583,
-      "sos_adj": 1466.856,
-      "power": 1426.575,
+      "pf": 199,
+      "pa": 272,
+      "diff": -73,
+      "sos": 1478.733,
+      "sos_adj": 1449.567,
+      "power": 1433.055,
       "rank": 6,
-      "mw_rating": 18.6,
-      "mw_points": 205
+      "mw_rating": 19.9,
+      "mw_points": 239
     }
   ]
 }

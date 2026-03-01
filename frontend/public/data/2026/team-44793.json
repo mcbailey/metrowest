@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 315,
-    "pa": 280,
-    "diff": 35,
-    "sos": 1563.162,
-    "sos_adj": 1618.162,
-    "power": 1591.875,
+    "pf": 349,
+    "pa": 337,
+    "diff": 12,
+    "sos": 1571.136,
+    "sos_adj": 1625.682,
+    "power": 1576.536,
     "rank": 5,
-    "mw_rating": 88.9,
-    "mw_points": 889,
+    "mw_rating": 84.9,
+    "mw_points": 934,
     "divisionno": "7629",
     "division_name": "3rd Boys - Division 3",
     "grade": 3,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44494",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:10 PM",
+      "location": "Jr Mass Premier-4",
+      "divisionno": "7629",
+      "division_name": "3rd Boys - Division 3",
+      "home_teamno": "44793",
+      "away_teamno": "45527",
+      "home_score": 34,
+      "away_score": 57,
+      "team_score": 34,
+      "opponent_score": 57,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45527",
+      "opponent_name": "2NDH-King Philip (gibbs)"
+    },
     {
       "gameno": "393156",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "2NDH-Mansfield (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44494",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:10 PM",
-      "location": "Jr Mass Premier-4",
-      "divisionno": "7629",
-      "division_name": "3rd Boys - Division 3",
-      "home_teamno": "44793",
-      "away_teamno": "45527",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45527",
-      "opponent_name": "2NDH-King Philip (gibbs)"
-    }
-  ]
+  "future_games": []
 }

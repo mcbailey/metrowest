@@ -5,26 +5,45 @@
   "team_name": "D1H-North Attleboro (red)",
   "town": null,
   "summary": {
-    "wins": 13,
+    "wins": 14,
     "losses": 12,
     "ties": 0,
-    "pf": 1122,
-    "pa": 1126,
-    "diff": -4,
-    "sos": 1627.096,
-    "sos_adj": 1745.096,
-    "power": 1688.08,
-    "rank": 4,
-    "mw_rating": 183.7,
-    "mw_points": 2021,
+    "pf": 1179,
+    "pa": 1172,
+    "diff": 7,
+    "sos": 1622.587,
+    "sos_adj": 1741.818,
+    "power": 1694.959,
+    "rank": 3,
+    "mw_rating": 185.3,
+    "mw_points": 2224,
     "divisionno": "7234",
     "division_name": "6th Boys - Division 1",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 25,
-    "games_scheduled_total": 1
+    "games_played_total": 26,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374430",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "Taunton Martin Middle School",
+      "divisionno": "7234",
+      "division_name": "6th Boys - Division 1",
+      "home_teamno": "43926",
+      "away_teamno": "44871",
+      "home_score": 46,
+      "away_score": 57,
+      "team_score": 57,
+      "opponent_score": 46,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43926",
+      "opponent_name": "D1H-Taunton (travers)"
+    },
     {
       "gameno": "374425",
       "date": "2026-02-22",
@@ -501,25 +520,5 @@
       "opponent_name": "D1H-Dighton-Rehoboth (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374430",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:00 AM",
-      "location": "Taunton Martin Middle School",
-      "divisionno": "7234",
-      "division_name": "6th Boys - Division 1",
-      "home_teamno": "43926",
-      "away_teamno": "44871",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43926",
-      "opponent_name": "D1H-Taunton (travers)"
-    }
-  ]
+  "future_games": []
 }

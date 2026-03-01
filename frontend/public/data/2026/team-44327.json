@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 428,
-    "pa": 503,
-    "diff": -75,
-    "sos": 1435.393,
-    "sos_adj": 1367.745,
-    "power": 1404.956,
+    "pf": 453,
+    "pa": 529,
+    "diff": -76,
+    "sos": 1438.204,
+    "sos_adj": 1371.538,
+    "power": 1402.284,
     "rank": 5,
-    "mw_rating": 31.3,
-    "mw_points": 344,
+    "mw_rating": 29.6,
+    "mw_points": 355,
     "divisionno": "7296",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376984",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:45 PM",
+      "location": "Sudbury Fieldhouse-Court 1",
+      "divisionno": "7296",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "45432",
+      "away_teamno": "44327",
+      "home_score": 26,
+      "away_score": 25,
+      "team_score": 25,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45432",
+      "opponent_name": "D5T-Lincoln-Sudbury (white)"
+    },
     {
       "gameno": "376974",
       "date": "2026-02-22",
@@ -349,25 +368,5 @@
       "opponent_name": "D5W-Waltham Boys (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376984",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:45 PM",
-      "location": "Sudbury Fieldhouse-Court 1",
-      "divisionno": "7296",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "45432",
-      "away_teamno": "44327",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45432",
-      "opponent_name": "D5T-Lincoln-Sudbury (white)"
-    }
-  ]
+  "future_games": []
 }

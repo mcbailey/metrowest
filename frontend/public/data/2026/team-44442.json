@@ -5,26 +5,45 @@
   "team_name": "D2K-Bedford (blue)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 9,
     "ties": 0,
-    "pf": 859,
-    "pa": 895,
-    "diff": -36,
-    "sos": 1589.111,
-    "sos_adj": 1683.848,
-    "power": 1611.909,
-    "rank": 4,
-    "mw_rating": 121.2,
-    "mw_points": 1212,
+    "pf": 910,
+    "pa": 918,
+    "diff": -8,
+    "sos": 1588.193,
+    "sos_adj": 1683.193,
+    "power": 1626.883,
+    "rank": 3,
+    "mw_rating": 125.0,
+    "mw_points": 1375,
     "divisionno": "7165",
     "division_name": "8th Boys - Division 2",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375036",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:30 AM",
+      "location": "Middlesex School - Varsity Court",
+      "divisionno": "7165",
+      "division_name": "8th Boys - Division 2",
+      "home_teamno": "43716",
+      "away_teamno": "44442",
+      "home_score": 23,
+      "away_score": 51,
+      "team_score": 51,
+      "opponent_score": 23,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43716",
+      "opponent_name": "D2K-Concord-Carlisle (maroon)"
+    },
     {
       "gameno": "375027",
       "date": "2026-02-22",
@@ -387,25 +406,5 @@
       "opponent_name": "D3K-Wellesley (b)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375036",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:30 AM",
-      "location": "Middlesex School - Varsity Court",
-      "divisionno": "7165",
-      "division_name": "8th Boys - Division 2",
-      "home_teamno": "43716",
-      "away_teamno": "44442",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43716",
-      "opponent_name": "D2K-Concord-Carlisle (maroon)"
-    }
-  ]
+  "future_games": []
 }

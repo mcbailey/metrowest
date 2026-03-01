@@ -17,12 +17,12 @@
       "pf": 596,
       "pa": 440,
       "diff": 156,
-      "sos": 1549.644,
-      "sos_adj": 1603.215,
-      "power": 1660.719,
+      "sos": 1550.036,
+      "sos_adj": 1603.608,
+      "power": 1651.075,
       "rank": 1,
-      "mw_rating": 113.6,
-      "mw_points": 1250
+      "mw_rating": 113.7,
+      "mw_points": 1251
     },
     {
       "teamno": "43122",
@@ -34,12 +34,12 @@
       "pf": 548,
       "pa": 469,
       "diff": 79,
-      "sos": 1569.411,
-      "sos_adj": 1636.078,
-      "power": 1638.815,
+      "sos": 1569.136,
+      "sos_adj": 1635.803,
+      "power": 1632.017,
       "rank": 2,
-      "mw_rating": 100.1,
-      "mw_points": 1101
+      "mw_rating": 100.2,
+      "mw_points": 1102
     },
     {
       "teamno": "43417",
@@ -51,12 +51,12 @@
       "pf": 475,
       "pa": 344,
       "diff": 131,
-      "sos": 1548.112,
-      "sos_adj": 1593.112,
-      "power": 1623.615,
+      "sos": 1547.801,
+      "sos_adj": 1592.801,
+      "power": 1617.254,
       "rank": 3,
-      "mw_rating": 106.6,
-      "mw_points": 1066
+      "mw_rating": 106.7,
+      "mw_points": 1067
     },
     {
       "teamno": "43427",
@@ -68,9 +68,9 @@
       "pf": 438,
       "pa": 341,
       "diff": 97,
-      "sos": 1555.77,
-      "sos_adj": 1587.588,
-      "power": 1585.089,
+      "sos": 1551.793,
+      "sos_adj": 1583.611,
+      "power": 1581.526,
       "rank": 4,
       "mw_rating": 90.6,
       "mw_points": 815
@@ -79,18 +79,18 @@
       "teamno": "43324",
       "name": "D3H-Mansfield (white)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 9,
       "ties": 0,
-      "pf": 410,
-      "pa": 530,
-      "diff": -120,
-      "sos": 1558.548,
-      "sos_adj": 1601.405,
-      "power": 1541.862,
+      "pf": 447,
+      "pa": 560,
+      "diff": -113,
+      "sos": 1552.4,
+      "sos_adj": 1595.733,
+      "power": 1555.596,
       "rank": 5,
-      "mw_rating": 70.9,
-      "mw_points": 780
+      "mw_rating": 74.5,
+      "mw_points": 894
     },
     {
       "teamno": "43836",
@@ -102,12 +102,12 @@
       "pf": 270,
       "pa": 366,
       "diff": -96,
-      "sos": 1563.537,
-      "sos_adj": 1622.628,
-      "power": 1518.443,
+      "sos": 1563.092,
+      "sos_adj": 1622.183,
+      "power": 1523.303,
       "rank": 6,
-      "mw_rating": 63.2,
-      "mw_points": 632
+      "mw_rating": 63.3,
+      "mw_points": 633
     }
   ]
 }

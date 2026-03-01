@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 462,
-    "pa": 616,
-    "diff": -154,
-    "sos": 1546.809,
-    "sos_adj": 1589.667,
-    "power": 1503.107,
-    "rank": 6,
-    "mw_rating": 70.4,
-    "mw_points": 774,
+    "pf": 492,
+    "pa": 653,
+    "diff": -161,
+    "sos": 1547.411,
+    "sos_adj": 1590.744,
+    "power": 1492.68,
+    "rank": 7,
+    "mw_rating": 68.3,
+    "mw_points": 819,
     "divisionno": "7304",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378677",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:15 PM",
+      "location": "Canton Galvin Middle School",
+      "divisionno": "7304",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "43982",
+      "away_teamno": "43324",
+      "home_score": 30,
+      "away_score": 37,
+      "team_score": 30,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43324",
+      "opponent_name": "D3H-Mansfield (white)"
+    },
     {
       "gameno": "378671",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "D3K-Brookline (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378677",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:15 PM",
-      "location": "Canton Galvin Middle School",
-      "divisionno": "7304",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "43982",
-      "away_teamno": "43324",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43324",
-      "opponent_name": "D3H-Mansfield (white)"
-    }
-  ]
+  "future_games": []
 }

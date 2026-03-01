@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 496,
-    "pa": 617,
-    "diff": -121,
-    "sos": 1562.246,
-    "sos_adj": 1620.579,
-    "power": 1506.698,
+    "pf": 529,
+    "pa": 658,
+    "diff": -129,
+    "sos": 1563.033,
+    "sos_adj": 1620.725,
+    "power": 1495.785,
     "rank": 6,
-    "mw_rating": 60.4,
-    "mw_points": 664,
+    "mw_rating": 59.1,
+    "mw_points": 709,
     "divisionno": "7226",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378492",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "8:30 AM",
+      "location": "Dana Barros-5",
+      "divisionno": "7226",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "43902",
+      "away_teamno": "45579",
+      "home_score": 41,
+      "away_score": 33,
+      "team_score": 33,
+      "opponent_score": 41,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43902",
+      "opponent_name": "D3J-Canton (green)"
+    },
     {
       "gameno": "378480",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D3J-Norton (purple)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378492",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "8:30 AM",
-      "location": "Dana Barros-5",
-      "divisionno": "7226",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "43902",
-      "away_teamno": "45579",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43902",
-      "opponent_name": "D3J-Canton (green)"
-    }
-  ]
+  "future_games": []
 }

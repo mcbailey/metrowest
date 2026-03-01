@@ -6,23 +6,23 @@
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 504,
-    "pa": 394,
-    "diff": 110,
-    "sos": 1524.371,
-    "sos_adj": 1552.148,
-    "power": 1549.602,
+    "pf": 531,
+    "pa": 441,
+    "diff": 90,
+    "sos": 1528.909,
+    "sos_adj": 1555.224,
+    "power": 1527.297,
     "rank": 5,
-    "mw_rating": 74.7,
-    "mw_points": 822,
+    "mw_rating": 70.6,
+    "mw_points": 847,
     "divisionno": "7326",
     "division_name": "5th Girls - Division 3",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": false,
       "opponent_teamno": "44446",
       "opponent_name": "D4R-Bedford (blue)"
+    },
+    {
+      "gameno": "373796",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "11:00 AM",
+      "location": "Concord Middle School",
+      "divisionno": "7324",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "43770",
+      "away_teamno": "44386",
+      "home_score": 47,
+      "away_score": 27,
+      "team_score": 27,
+      "opponent_score": 47,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43770",
+      "opponent_name": "D4R-Concord-Carlisle (maroon)"
     },
     {
       "gameno": "373581",
@@ -368,25 +387,5 @@
       "opponent_name": "Watertown (WHITE)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373796",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "11:00 AM",
-      "location": "Concord Middle School",
-      "divisionno": "7324",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "43770",
-      "away_teamno": "44386",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43770",
-      "opponent_name": "D4R-Concord-Carlisle (maroon)"
-    }
-  ]
+  "future_games": []
 }

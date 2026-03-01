@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 471,
-    "pa": 439,
-    "diff": 32,
-    "sos": 1503.892,
-    "sos_adj": 1499.347,
-    "power": 1513.534,
-    "rank": 3,
-    "mw_rating": 60.6,
-    "mw_points": 667,
+    "pf": 521,
+    "pa": 499,
+    "diff": 22,
+    "sos": 1510.492,
+    "sos_adj": 1506.325,
+    "power": 1500.611,
+    "rank": 4,
+    "mw_rating": 57.8,
+    "mw_points": 693,
     "divisionno": "7221",
     "division_name": "6th Boys - Division 4",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376407",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "Swansea YMCA ",
+      "divisionno": "7221",
+      "division_name": "6th Boys - Division 4",
+      "home_teamno": "43095",
+      "away_teamno": "43833",
+      "home_score": 50,
+      "away_score": 60,
+      "team_score": 50,
+      "opponent_score": 60,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43833",
+      "opponent_name": "D4H-Raynham (testa)"
+    },
     {
       "gameno": "376401",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D4H-Wareham (silvia)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376407",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:00 PM",
-      "location": "Swansea YMCA ",
-      "divisionno": "7221",
-      "division_name": "6th Boys - Division 4",
-      "home_teamno": "43095",
-      "away_teamno": "43833",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43833",
-      "opponent_name": "D4H-Raynham (testa)"
-    }
-  ]
+  "future_games": []
 }

@@ -21,8 +21,8 @@
       "sos_adj": 1299.198,
       "power": 1419.933,
       "rank": 1,
-      "mw_rating": 27.3,
-      "mw_points": 328
+      "mw_rating": 27.4,
+      "mw_points": 329
     },
     {
       "teamno": "44217",
@@ -38,8 +38,8 @@
       "sos_adj": 1312.742,
       "power": 1419.683,
       "rank": 2,
-      "mw_rating": 33.3,
-      "mw_points": 366
+      "mw_rating": 33.4,
+      "mw_points": 367
     },
     {
       "teamno": "45321",
@@ -55,8 +55,8 @@
       "sos_adj": 1308.268,
       "power": 1362.602,
       "rank": 3,
-      "mw_rating": 20.6,
-      "mw_points": 247
+      "mw_rating": 20.7,
+      "mw_points": 248
     },
     {
       "teamno": "45244",
@@ -97,17 +97,17 @@
       "name": "D6M-Millis (reed)",
       "town": null,
       "wins": 0,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 170,
-      "pa": 447,
-      "diff": -277,
-      "sos": 1411.463,
-      "sos_adj": 1311.463,
-      "power": 1290.791,
+      "pf": 182,
+      "pa": 503,
+      "diff": -321,
+      "sos": 1412.99,
+      "sos_adj": 1312.99,
+      "power": 1280.613,
       "rank": 6,
       "mw_rating": 5.0,
-      "mw_points": 55
+      "mw_points": 60
     }
   ]
 }

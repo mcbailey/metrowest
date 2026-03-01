@@ -17,12 +17,12 @@
       "pf": 561,
       "pa": 465,
       "diff": 96,
-      "sos": 1552.401,
-      "sos_adj": 1614.901,
-      "power": 1608.433,
+      "sos": 1553.364,
+      "sos_adj": 1615.864,
+      "power": 1608.674,
       "rank": 1,
-      "mw_rating": 104.8,
-      "mw_points": 1153
+      "mw_rating": 104.9,
+      "mw_points": 1154
     },
     {
       "teamno": "43520",
@@ -38,8 +38,8 @@
       "sos_adj": 1619.457,
       "power": 1583.648,
       "rank": 2,
-      "mw_rating": 103.1,
-      "mw_points": 1237
+      "mw_rating": 103.2,
+      "mw_points": 1238
     },
     {
       "teamno": "44771",
@@ -51,12 +51,12 @@
       "pf": 442,
       "pa": 396,
       "diff": 46,
-      "sos": 1540.151,
-      "sos_adj": 1590.151,
-      "power": 1572.018,
+      "sos": 1541.434,
+      "sos_adj": 1591.434,
+      "power": 1572.339,
       "rank": 3,
-      "mw_rating": 75.9,
-      "mw_points": 911
+      "mw_rating": 76.0,
+      "mw_points": 912
     },
     {
       "teamno": "44082",
@@ -68,9 +68,9 @@
       "pf": 342,
       "pa": 326,
       "diff": 16,
-      "sos": 1517.192,
-      "sos_adj": 1567.192,
-      "power": 1557.533,
+      "sos": 1521.042,
+      "sos_adj": 1571.042,
+      "power": 1558.495,
       "rank": 4,
       "mw_rating": 73.5,
       "mw_points": 735
@@ -85,12 +85,29 @@
       "pf": 377,
       "pa": 424,
       "diff": -47,
-      "sos": 1541.74,
-      "sos_adj": 1591.74,
-      "power": 1543.332,
+      "sos": 1543.794,
+      "sos_adj": 1593.794,
+      "power": 1543.846,
       "rank": 5,
-      "mw_rating": 68.6,
-      "mw_points": 823
+      "mw_rating": 68.7,
+      "mw_points": 824
+    },
+    {
+      "teamno": "43944",
+      "name": "D3J-Brookline (red)",
+      "town": null,
+      "wins": 7,
+      "losses": 11,
+      "ties": 0,
+      "pf": 615,
+      "pa": 705,
+      "diff": -90,
+      "sos": 1540.785,
+      "sos_adj": 1588.007,
+      "power": 1514.444,
+      "rank": 6,
+      "mw_rating": 70.1,
+      "mw_points": 841
     },
     {
       "teamno": "45153",
@@ -102,12 +119,12 @@
       "pf": 318,
       "pa": 357,
       "diff": -39,
-      "sos": 1539.684,
-      "sos_adj": 1589.684,
-      "power": 1512.276,
-      "rank": 6,
-      "mw_rating": 64.6,
-      "mw_points": 775
+      "sos": 1542.251,
+      "sos_adj": 1592.251,
+      "power": 1512.918,
+      "rank": 7,
+      "mw_rating": 64.8,
+      "mw_points": 777
     },
     {
       "teamno": "44784",
@@ -119,29 +136,12 @@
       "pf": 275,
       "pa": 384,
       "diff": -109,
-      "sos": 1543.87,
-      "sos_adj": 1589.325,
-      "power": 1506.319,
-      "rank": 7,
-      "mw_rating": 52.7,
-      "mw_points": 580
-    },
-    {
-      "teamno": "43944",
-      "name": "D3J-Brookline (red)",
-      "town": null,
-      "wins": 6,
-      "losses": 11,
-      "ties": 0,
-      "pf": 570,
-      "pa": 663,
-      "diff": -93,
-      "sos": 1541.942,
-      "sos_adj": 1589.001,
-      "power": 1503.141,
+      "sos": 1545.27,
+      "sos_adj": 1590.725,
+      "power": 1506.669,
       "rank": 8,
-      "mw_rating": 66.1,
-      "mw_points": 727
+      "mw_rating": 52.8,
+      "mw_points": 581
     }
   ]
 }

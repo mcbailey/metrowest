@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 665,
-    "pa": 655,
-    "diff": 10,
-    "sos": 1598.817,
-    "sos_adj": 1695.876,
-    "power": 1609.613,
+    "pf": 703,
+    "pa": 696,
+    "diff": 7,
+    "sos": 1604.992,
+    "sos_adj": 1702.214,
+    "power": 1606.793,
     "rank": 3,
-    "mw_rating": 105.8,
-    "mw_points": 1164,
+    "mw_rating": 102.8,
+    "mw_points": 1234,
     "divisionno": "7308",
     "division_name": "5th Boys - Division 2",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374271",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Dana Barros-4",
+      "divisionno": "7308",
+      "division_name": "5th Boys - Division 2",
+      "home_teamno": "44113",
+      "away_teamno": "44968",
+      "home_score": 41,
+      "away_score": 38,
+      "team_score": 38,
+      "opponent_score": 41,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44113",
+      "opponent_name": "D2AJ-Easton (black)"
+    },
     {
       "gameno": "374261",
       "date": "2026-02-22",
@@ -349,25 +368,5 @@
       "opponent_name": "D3H-Mansfield (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374271",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:00 PM",
-      "location": "Dana Barros-4",
-      "divisionno": "7308",
-      "division_name": "5th Boys - Division 2",
-      "home_teamno": "44113",
-      "away_teamno": "44968",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44113",
-      "opponent_name": "D2AJ-Easton (black)"
-    }
-  ]
+  "future_games": []
 }

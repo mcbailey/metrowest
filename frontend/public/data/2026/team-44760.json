@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 0,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 206,
-    "pa": 357,
-    "diff": -151,
-    "sos": 1410.212,
-    "sos_adj": 1315.212,
-    "power": 1308.707,
-    "rank": 7,
+    "pf": 234,
+    "pa": 390,
+    "diff": -156,
+    "sos": 1402.858,
+    "sos_adj": 1307.404,
+    "power": 1294.976,
+    "rank": 8,
     "mw_rating": 5.5,
-    "mw_points": 55,
+    "mw_points": 60,
     "divisionno": "7177",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380054",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:45 PM",
+      "location": "Dover Sherborn High School",
+      "divisionno": "7177",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44760",
+      "away_teamno": "44712",
+      "home_score": 28,
+      "away_score": 33,
+      "team_score": 28,
+      "opponent_score": 33,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44712",
+      "opponent_name": "D6Q-Weston"
+    },
     {
       "gameno": "380049",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D6R-Watertown (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380054",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:45 PM",
-      "location": "Dover Sherborn High School",
-      "divisionno": "7177",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44760",
-      "away_teamno": "44712",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44712",
-      "opponent_name": "D6Q-Weston"
-    }
-  ]
+  "future_games": []
 }

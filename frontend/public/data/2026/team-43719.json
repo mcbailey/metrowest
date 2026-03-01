@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 13,
+    "losses": 14,
     "ties": 0,
-    "pf": 292,
-    "pa": 542,
-    "diff": -250,
-    "sos": 1412.868,
-    "sos_adj": 1319.535,
-    "power": 1332.739,
+    "pf": 324,
+    "pa": 581,
+    "diff": -257,
+    "sos": 1411.529,
+    "sos_adj": 1317.779,
+    "power": 1320.546,
     "rank": 5,
-    "mw_rating": 11.3,
-    "mw_points": 124,
+    "mw_rating": 10.8,
+    "mw_points": 129,
     "divisionno": "7589",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "386214",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:30 PM",
+      "location": "Middlesex School - JV Court",
+      "divisionno": "7589",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "43719",
+      "away_teamno": "44763",
+      "home_score": 32,
+      "away_score": 39,
+      "team_score": 32,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44763",
+      "opponent_name": "D6T-Arlington (grey)"
+    },
     {
       "gameno": "386175",
       "date": "2026-02-28",
@@ -311,25 +330,5 @@
       "opponent_name": "D6R-Wayland (orange)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "386214",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:30 PM",
-      "location": "Middlesex School - JV Court",
-      "divisionno": "7589",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "43719",
-      "away_teamno": "44763",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44763",
-      "opponent_name": "D6T-Arlington (grey)"
-    }
-  ]
+  "future_games": []
 }
