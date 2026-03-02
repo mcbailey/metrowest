@@ -5,26 +5,45 @@
   "team_name": "D6R-Watertown (red)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 7,
     "ties": 0,
-    "pf": 500,
-    "pa": 457,
-    "diff": 43,
-    "sos": 1402.166,
-    "sos_adj": 1302.166,
-    "power": 1404.931,
+    "pf": 534,
+    "pa": 489,
+    "diff": 45,
+    "sos": 1402.659,
+    "sos_adj": 1302.659,
+    "power": 1411.914,
     "rank": 2,
-    "mw_rating": 24.2,
-    "mw_points": 242,
+    "mw_rating": 25.6,
+    "mw_points": 281,
     "divisionno": "7178",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380058",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "7:00 PM",
+      "location": "Watertown Middle School",
+      "divisionno": "7178",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44072",
+      "away_teamno": "45081",
+      "home_score": 34,
+      "away_score": 32,
+      "team_score": 34,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45081",
+      "opponent_name": "D6R-Reading (brown)"
+    },
     {
       "gameno": "380051",
       "date": "2026-02-22",
@@ -292,25 +311,5 @@
       "opponent_name": "D6Q-Dover Sherborn (niblock)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380058",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "7:00 PM",
-      "location": "Watertown Middle School",
-      "divisionno": "7178",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44072",
-      "away_teamno": "45081",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45081",
-      "opponent_name": "D6R-Reading (brown)"
-    }
-  ]
+  "future_games": []
 }

@@ -17,12 +17,12 @@
       "pf": 1459,
       "pa": 1152,
       "diff": 307,
-      "sos": 1610.86,
-      "sos_adj": 1715.026,
-      "power": 1748.098,
+      "sos": 1611.595,
+      "sos_adj": 1715.761,
+      "power": 1748.282,
       "rank": 1,
-      "mw_rating": 202.3,
-      "mw_points": 2428
+      "mw_rating": 202.4,
+      "mw_points": 2429
     },
     {
       "teamno": "43928",
@@ -39,7 +39,7 @@
       "power": 1704.012,
       "rank": 2,
       "mw_rating": 185.8,
-      "mw_points": 2229
+      "mw_points": 2230
     },
     {
       "teamno": "45627",
@@ -51,12 +51,12 @@
       "pf": 612,
       "pa": 540,
       "diff": 72,
-      "sos": 1667.483,
-      "sos_adj": 1817.483,
-      "power": 1694.79,
+      "sos": 1669.087,
+      "sos_adj": 1819.087,
+      "power": 1695.191,
       "rank": 3,
-      "mw_rating": 169.4,
-      "mw_points": 1863
+      "mw_rating": 169.6,
+      "mw_points": 1865
     },
     {
       "teamno": "45770",
@@ -73,24 +73,24 @@
       "power": 1684.916,
       "rank": 4,
       "mw_rating": 155.6,
-      "mw_points": 1711
+      "mw_points": 1712
     },
     {
       "teamno": "43415",
       "name": "D1H-Brockton",
       "town": null,
       "wins": 1,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 342,
-      "pa": 534,
-      "diff": -192,
-      "sos": 1662.438,
-      "sos_adj": 1812.438,
-      "power": 1639.785,
+      "pf": 368,
+      "pa": 584,
+      "diff": -216,
+      "sos": 1661.149,
+      "sos_adj": 1811.149,
+      "power": 1626.233,
       "rank": 5,
-      "mw_rating": 100.9,
-      "mw_points": 1009
+      "mw_rating": 100.8,
+      "mw_points": 1109
     }
   ]
 }

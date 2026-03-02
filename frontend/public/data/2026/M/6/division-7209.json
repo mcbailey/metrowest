@@ -22,7 +22,7 @@
       "power": 1458.189,
       "rank": 1,
       "mw_rating": 32.8,
-      "mw_points": 393
+      "mw_points": 394
     },
     {
       "teamno": "45640",
@@ -38,8 +38,8 @@
       "sos_adj": 1293.519,
       "power": 1440.519,
       "rank": 2,
-      "mw_rating": 33.4,
-      "mw_points": 401
+      "mw_rating": 33.5,
+      "mw_points": 402
     },
     {
       "teamno": "44703",
@@ -55,25 +55,25 @@
       "sos_adj": 1299.301,
       "power": 1385.261,
       "rank": 3,
-      "mw_rating": 21.7,
-      "mw_points": 260
+      "mw_rating": 21.8,
+      "mw_points": 261
     },
     {
       "teamno": "44373",
       "name": "D6Q-Westborough (macomber)",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 8,
       "ties": 0,
-      "pf": 234,
-      "pa": 365,
-      "diff": -131,
-      "sos": 1405.454,
-      "sos_adj": 1305.454,
-      "power": 1360.751,
+      "pf": 268,
+      "pa": 389,
+      "diff": -121,
+      "sos": 1399.948,
+      "sos_adj": 1299.948,
+      "power": 1374.387,
       "rank": 4,
-      "mw_rating": 12.7,
-      "mw_points": 140
+      "mw_rating": 14.4,
+      "mw_points": 173
     },
     {
       "teamno": "44633",
@@ -89,8 +89,8 @@
       "sos_adj": 1305.259,
       "power": 1352.635,
       "rank": 5,
-      "mw_rating": 15.1,
-      "mw_points": 166
+      "mw_rating": 15.2,
+      "mw_points": 167
     },
     {
       "teamno": "44163",
@@ -102,12 +102,12 @@
       "pf": 154,
       "pa": 275,
       "diff": -121,
-      "sos": 1408.293,
-      "sos_adj": 1308.293,
-      "power": 1347.261,
+      "sos": 1410.795,
+      "sos_adj": 1310.795,
+      "power": 1347.887,
       "rank": 6,
-      "mw_rating": 11.9,
-      "mw_points": 95
+      "mw_rating": 12.0,
+      "mw_points": 96
     }
   ]
 }

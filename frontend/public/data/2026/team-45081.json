@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 336,
-    "pa": 285,
-    "diff": 51,
-    "sos": 1387.132,
-    "sos_adj": 1287.132,
-    "power": 1385.816,
+    "pf": 368,
+    "pa": 319,
+    "diff": 49,
+    "sos": 1392.232,
+    "sos_adj": 1292.232,
+    "power": 1380.231,
     "rank": 5,
-    "mw_rating": 22.9,
-    "mw_points": 229,
+    "mw_rating": 21.3,
+    "mw_points": 234,
     "divisionno": "7178",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380058",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "7:00 PM",
+      "location": "Watertown Middle School",
+      "divisionno": "7178",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44072",
+      "away_teamno": "45081",
+      "home_score": 34,
+      "away_score": 32,
+      "team_score": 32,
+      "opponent_score": 34,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44072",
+      "opponent_name": "D6R-Watertown (red)"
+    },
     {
       "gameno": "391285",
       "date": "2026-02-28",
@@ -235,25 +254,5 @@
       "opponent_name": "D6Q-Framingham (gray)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380058",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "7:00 PM",
-      "location": "Watertown Middle School",
-      "divisionno": "7178",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44072",
-      "away_teamno": "45081",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44072",
-      "opponent_name": "D6R-Watertown (red)"
-    }
-  ]
+  "future_games": []
 }

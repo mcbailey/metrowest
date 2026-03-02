@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 417,
-    "pa": 457,
-    "diff": -40,
-    "sos": 1444.468,
-    "sos_adj": 1386.134,
-    "power": 1394.448,
+    "pf": 468,
+    "pa": 514,
+    "diff": -46,
+    "sos": 1450.316,
+    "sos_adj": 1392.623,
+    "power": 1387.926,
     "rank": 6,
-    "mw_rating": 21.9,
-    "mw_points": 241,
+    "mw_rating": 20.9,
+    "mw_points": 251,
     "divisionno": "7182",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379790",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:45 PM",
+      "location": "Needham High School A Gym",
+      "divisionno": "7182",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "43746",
+      "away_teamno": "43547",
+      "home_score": 51,
+      "away_score": 57,
+      "team_score": 51,
+      "opponent_score": 57,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43547",
+      "opponent_name": "D5M-Millis"
+    },
     {
       "gameno": "379782",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D5Q-Dover Sherborn (danielski)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379790",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:45 PM",
-      "location": "Needham High School A Gym",
-      "divisionno": "7182",
-      "division_name": "7th Boys - Division 5",
-      "home_teamno": "43746",
-      "away_teamno": "43547",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43547",
-      "opponent_name": "D5M-Millis"
-    }
-  ]
+  "future_games": []
 }

@@ -6,23 +6,23 @@
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 213,
-    "pa": 358,
-    "diff": -145,
-    "sos": 1550.859,
-    "sos_adj": 1596.692,
-    "power": 1482.293,
+    "pf": 238,
+    "pa": 384,
+    "diff": -146,
+    "sos": 1547.596,
+    "sos_adj": 1589.904,
+    "power": 1474.945,
     "rank": 8,
-    "mw_rating": 48.3,
-    "mw_points": 579,
+    "mw_rating": 48.5,
+    "mw_points": 582,
     "divisionno": "7279",
     "division_name": "6th Girls - Division 3",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": false,
       "opponent_teamno": "44406",
       "opponent_name": "D3J-Dedham (sullivan)"
+    },
+    {
+      "gameno": "393930",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "1:45 PM",
+      "location": "Holliston Adams Middle School (Saturday)",
+      "divisionno": "7276",
+      "division_name": "6th Girls - Division 4",
+      "home_teamno": "44156",
+      "away_teamno": "43521",
+      "home_score": 26,
+      "away_score": 25,
+      "team_score": 25,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44156",
+      "opponent_name": "D4K-Holliston (king-red 6th)"
     },
     {
       "gameno": "375935",
@@ -254,25 +273,5 @@
       "opponent_name": "D3H-King Philip"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "393930",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "1:45 PM",
-      "location": "Holliston Adams Middle School (Saturday)",
-      "divisionno": "7276",
-      "division_name": "6th Girls - Division 4",
-      "home_teamno": "44156",
-      "away_teamno": "43521",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44156",
-      "opponent_name": "D4K-Holliston (king-red 6th)"
-    }
-  ]
+  "future_games": []
 }

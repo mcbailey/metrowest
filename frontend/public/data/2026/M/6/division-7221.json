@@ -21,8 +21,8 @@
       "sos_adj": 1484.179,
       "power": 1543.693,
       "rank": 1,
-      "mw_rating": 58.2,
-      "mw_points": 756
+      "mw_rating": 58.3,
+      "mw_points": 758
     },
     {
       "teamno": "44495",
@@ -34,29 +34,29 @@
       "pf": 509,
       "pa": 377,
       "diff": 132,
-      "sos": 1492.903,
-      "sos_adj": 1492.903,
-      "power": 1524.647,
+      "sos": 1491.748,
+      "sos_adj": 1491.748,
+      "power": 1524.359,
       "rank": 2,
-      "mw_rating": 63.8,
-      "mw_points": 766
+      "mw_rating": 63.9,
+      "mw_points": 767
     },
     {
       "teamno": "44872",
       "name": "D4H-North Attleboro (white)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 8,
       "ties": 0,
-      "pf": 421,
-      "pa": 478,
-      "diff": -57,
-      "sos": 1502.521,
-      "sos_adj": 1502.521,
-      "power": 1505.973,
+      "pf": 446,
+      "pa": 497,
+      "diff": -51,
+      "sos": 1497.669,
+      "sos_adj": 1497.669,
+      "power": 1515.151,
       "rank": 3,
-      "mw_rating": 49.0,
-      "mw_points": 539
+      "mw_rating": 51.6,
+      "mw_points": 619
     },
     {
       "teamno": "43095",
@@ -68,12 +68,12 @@
       "pf": 521,
       "pa": 499,
       "diff": 22,
-      "sos": 1510.492,
-      "sos_adj": 1506.325,
-      "power": 1500.611,
+      "sos": 1511.646,
+      "sos_adj": 1507.48,
+      "power": 1500.9,
       "rank": 4,
-      "mw_rating": 57.9,
-      "mw_points": 695
+      "mw_rating": 58.0,
+      "mw_points": 696
     },
     {
       "teamno": "44641",
@@ -85,29 +85,29 @@
       "pf": 441,
       "pa": 493,
       "diff": -52,
-      "sos": 1503.016,
-      "sos_adj": 1495.324,
-      "power": 1475.59,
+      "sos": 1504.082,
+      "sos_adj": 1496.39,
+      "power": 1475.856,
       "rank": 5,
-      "mw_rating": 46.9,
-      "mw_points": 563
+      "mw_rating": 47.0,
+      "mw_points": 564
     },
     {
       "teamno": "43834",
       "name": "D4H-Raynham",
       "town": null,
       "wins": 3,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 242,
-      "pa": 392,
-      "diff": -150,
-      "sos": 1506.228,
-      "sos_adj": 1492.591,
-      "power": 1459.481,
+      "pf": 261,
+      "pa": 417,
+      "diff": -156,
+      "sos": 1507.457,
+      "sos_adj": 1494.957,
+      "power": 1449.682,
       "rank": 6,
-      "mw_rating": 35.4,
-      "mw_points": 389
+      "mw_rating": 34.5,
+      "mw_points": 414
     }
   ]
 }

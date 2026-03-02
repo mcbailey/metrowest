@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 846,
-    "pa": 876,
-    "diff": -30,
-    "sos": 1627.269,
-    "sos_adj": 1755.394,
-    "power": 1663.393,
+    "pf": 889,
+    "pa": 942,
+    "diff": -53,
+    "sos": 1632.173,
+    "sos_adj": 1761.585,
+    "power": 1653.283,
     "rank": 6,
-    "mw_rating": 173.1,
-    "mw_points": 1904,
+    "mw_rating": 167.0,
+    "mw_points": 2004,
     "divisionno": "7166",
     "division_name": "8th Boys - Division 1",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374922",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "7:20 PM",
+      "location": "North Quincy High School (Ct 1)",
+      "divisionno": "7166",
+      "division_name": "8th Boys - Division 1",
+      "home_teamno": "43586",
+      "away_teamno": "44995",
+      "home_score": 66,
+      "away_score": 43,
+      "team_score": 43,
+      "opponent_score": 66,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43586",
+      "opponent_name": "D1H-North Quincy (bud murphy)"
+    },
     {
       "gameno": "374913",
       "date": "2026-02-28",
@@ -330,25 +349,5 @@
       "opponent_name": "D1J-Belmont (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374922",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "7:20 PM",
-      "location": "North Quincy High School (Ct 1)",
-      "divisionno": "7166",
-      "division_name": "8th Boys - Division 1",
-      "home_teamno": "43586",
-      "away_teamno": "44995",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43586",
-      "opponent_name": "D1H-North Quincy (bud murphy)"
-    }
-  ]
+  "future_games": []
 }

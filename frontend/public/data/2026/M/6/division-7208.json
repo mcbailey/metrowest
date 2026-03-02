@@ -21,8 +21,8 @@
       "sos_adj": 1299.198,
       "power": 1419.933,
       "rank": 1,
-      "mw_rating": 27.4,
-      "mw_points": 329
+      "mw_rating": 27.5,
+      "mw_points": 330
     },
     {
       "teamno": "44217",
@@ -38,8 +38,8 @@
       "sos_adj": 1312.742,
       "power": 1419.683,
       "rank": 2,
-      "mw_rating": 33.4,
-      "mw_points": 367
+      "mw_rating": 33.5,
+      "mw_points": 368
     },
     {
       "teamno": "45321",
@@ -68,9 +68,9 @@
       "pf": 177,
       "pa": 268,
       "diff": -91,
-      "sos": 1418.978,
-      "sos_adj": 1318.978,
-      "power": 1341.004,
+      "sos": 1420.928,
+      "sos_adj": 1320.928,
+      "power": 1341.491,
       "rank": 4,
       "mw_rating": 7.3,
       "mw_points": 66
@@ -80,17 +80,17 @@
       "name": "D6M-Holliston (donahue - black)",
       "town": null,
       "wins": 1,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 212,
-      "pa": 308,
-      "diff": -96,
-      "sos": 1414.681,
-      "sos_adj": 1314.681,
-      "power": 1334.896,
+      "pf": 236,
+      "pa": 342,
+      "diff": -106,
+      "sos": 1416.871,
+      "sos_adj": 1316.871,
+      "power": 1323.748,
       "rank": 5,
-      "mw_rating": 10.3,
-      "mw_points": 103
+      "mw_rating": 9.8,
+      "mw_points": 108
     },
     {
       "teamno": "43782",

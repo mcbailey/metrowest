@@ -5,24 +5,24 @@
   "team_name": "D4K-Holliston (king-red 6th)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 3,
     "ties": 0,
-    "pf": 284,
-    "pa": 186,
-    "diff": 98,
-    "sos": 1494.058,
-    "sos_adj": 1499.058,
-    "power": 1526.757,
+    "pf": 310,
+    "pa": 211,
+    "diff": 99,
+    "sos": 1497.97,
+    "sos_adj": 1507.061,
+    "power": 1536.047,
     "rank": 2,
-    "mw_rating": 66.6,
-    "mw_points": 666,
+    "mw_rating": 67.6,
+    "mw_points": 676,
     "divisionno": "7276",
     "division_name": "6th Girls - Division 4",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 3
+    "games_played_total": 11,
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": true,
       "opponent_teamno": "43187",
       "opponent_name": "D4K-Bellingham"
+    },
+    {
+      "gameno": "393930",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "1:45 PM",
+      "location": "Holliston Adams Middle School (Saturday)",
+      "divisionno": "7276",
+      "division_name": "6th Girls - Division 4",
+      "home_teamno": "44156",
+      "away_teamno": "43521",
+      "home_score": 26,
+      "away_score": 25,
+      "team_score": 26,
+      "opponent_score": 25,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43521",
+      "opponent_name": "D3J-Hopkinton (hinnenkamp)"
     },
     {
       "gameno": "376113",
@@ -254,25 +273,6 @@
       "is_home": true,
       "opponent_teamno": "45340",
       "opponent_name": "D4K-Milton (silver)"
-    },
-    {
-      "gameno": "393930",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "1:45 PM",
-      "location": "Holliston Adams Middle School (Saturday)",
-      "divisionno": "7276",
-      "division_name": "6th Girls - Division 4",
-      "home_teamno": "44156",
-      "away_teamno": "43521",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43521",
-      "opponent_name": "D3J-Hopkinton (hinnenkamp)"
     }
   ]
 }

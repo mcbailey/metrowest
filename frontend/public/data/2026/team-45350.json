@@ -5,26 +5,45 @@
   "team_name": "D2P-Lincoln-Sudbury (blue)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 4,
     "ties": 0,
-    "pf": 467,
-    "pa": 380,
-    "diff": 87,
-    "sos": 1627.096,
-    "sos_adj": 1755.668,
-    "power": 1716.423,
+    "pf": 507,
+    "pa": 415,
+    "diff": 92,
+    "sos": 1629.594,
+    "sos_adj": 1759.594,
+    "power": 1726.571,
     "rank": 1,
-    "mw_rating": 138.7,
-    "mw_points": 1526,
+    "mw_rating": 140.3,
+    "mw_points": 1684,
     "divisionno": "7576",
     "division_name": "4th Boys - Division 2",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385433",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:45 PM",
+      "location": "Wayland High School - Back Court",
+      "divisionno": "7576",
+      "division_name": "4th Boys - Division 2",
+      "home_teamno": "44253",
+      "away_teamno": "45350",
+      "home_score": 35,
+      "away_score": 40,
+      "team_score": 40,
+      "opponent_score": 35,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44253",
+      "opponent_name": "D2P-Wayland (black)"
+    },
     {
       "gameno": "385396",
       "date": "2026-02-28",
@@ -292,25 +311,5 @@
       "opponent_name": "D2P-Concord-Carlisle (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385433",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:45 PM",
-      "location": "Wayland High School - Back Court",
-      "divisionno": "7576",
-      "division_name": "4th Boys - Division 2",
-      "home_teamno": "44253",
-      "away_teamno": "45350",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44253",
-      "opponent_name": "D2P-Wayland (black)"
-    }
-  ]
+  "future_games": []
 }

@@ -5,26 +5,45 @@
   "team_name": "D5M-Millis",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 3,
     "ties": 0,
-    "pf": 476,
-    "pa": 345,
-    "diff": 131,
-    "sos": 1451.438,
-    "sos_adj": 1401.438,
-    "power": 1482.582,
-    "rank": 3,
-    "mw_rating": 44.1,
-    "mw_points": 485,
+    "pf": 533,
+    "pa": 396,
+    "diff": 137,
+    "sos": 1446.014,
+    "sos_adj": 1396.014,
+    "power": 1489.37,
+    "rank": 2,
+    "mw_rating": 45.0,
+    "mw_points": 540,
     "divisionno": "7182",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379790",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:45 PM",
+      "location": "Needham High School A Gym",
+      "divisionno": "7182",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "43746",
+      "away_teamno": "43547",
+      "home_score": 51,
+      "away_score": 57,
+      "team_score": 57,
+      "opponent_score": 51,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43746",
+      "opponent_name": "D5M-Needham (white)"
+    },
     {
       "gameno": "379781",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D5Q-Westborough"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379790",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:45 PM",
-      "location": "Needham High School A Gym",
-      "divisionno": "7182",
-      "division_name": "7th Boys - Division 5",
-      "home_teamno": "43746",
-      "away_teamno": "43547",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43746",
-      "opponent_name": "D5M-Needham (white)"
-    }
-  ]
+  "future_games": []
 }

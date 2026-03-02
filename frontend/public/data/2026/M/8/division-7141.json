@@ -21,8 +21,8 @@
       "sos_adj": 1298.452,
       "power": 1428.301,
       "rank": 1,
-      "mw_rating": 28.0,
-      "mw_points": 336
+      "mw_rating": 28.1,
+      "mw_points": 337
     },
     {
       "teamno": "45261",
@@ -42,6 +42,23 @@
       "mw_points": 271
     },
     {
+      "teamno": "44525",
+      "name": "D6Q-Milford (white-gelmini)",
+      "town": null,
+      "wins": 8,
+      "losses": 4,
+      "ties": 0,
+      "pf": 487,
+      "pa": 405,
+      "diff": 82,
+      "sos": 1402.006,
+      "sos_adj": 1302.006,
+      "power": 1400.283,
+      "rank": 3,
+      "mw_rating": 25.3,
+      "mw_points": 303
+    },
+    {
       "teamno": "43589",
       "name": "D6Q-North Quincy (clifford)",
       "town": null,
@@ -54,26 +71,9 @@
       "sos": 1415.288,
       "sos_adj": 1315.288,
       "power": 1391.322,
-      "rank": 3,
+      "rank": 4,
       "mw_rating": 17.9,
       "mw_points": 197
-    },
-    {
-      "teamno": "44525",
-      "name": "D6Q-Milford (white-gelmini)",
-      "town": null,
-      "wins": 7,
-      "losses": 4,
-      "ties": 0,
-      "pf": 446,
-      "pa": 376,
-      "diff": 70,
-      "sos": 1409.957,
-      "sos_adj": 1309.957,
-      "power": 1390.138,
-      "rank": 4,
-      "mw_rating": 24.5,
-      "mw_points": 269
     },
     {
       "teamno": "45137",
@@ -97,17 +97,17 @@
       "name": "D6Q-Holliston (kanavich)",
       "town": null,
       "wins": 3,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 289,
-      "pa": 458,
-      "diff": -169,
-      "sos": 1410.865,
-      "sos_adj": 1310.865,
-      "power": 1325.758,
+      "pf": 318,
+      "pa": 499,
+      "diff": -181,
+      "sos": 1412.713,
+      "sos_adj": 1312.713,
+      "power": 1314.087,
       "rank": 6,
-      "mw_rating": 13.2,
-      "mw_points": 145
+      "mw_rating": 12.6,
+      "mw_points": 151
     },
     {
       "teamno": "44051",

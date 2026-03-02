@@ -21,8 +21,8 @@
       "sos_adj": 1385.861,
       "power": 1507.779,
       "rank": 1,
-      "mw_rating": 45.6,
-      "mw_points": 547
+      "mw_rating": 45.7,
+      "mw_points": 548
     },
     {
       "teamno": "43715",
@@ -34,12 +34,12 @@
       "pf": 562,
       "pa": 565,
       "diff": -3,
-      "sos": 1454.176,
-      "sos_adj": 1418.065,
-      "power": 1465.064,
+      "sos": 1452.981,
+      "sos_adj": 1416.87,
+      "power": 1464.765,
       "rank": 2,
-      "mw_rating": 40.0,
-      "mw_points": 480
+      "mw_rating": 40.1,
+      "mw_points": 481
     },
     {
       "teamno": "44071",
@@ -62,18 +62,18 @@
       "teamno": "45303",
       "name": "D5W-Medford (white)",
       "town": null,
-      "wins": 3,
-      "losses": 7,
+      "wins": 4,
+      "losses": 8,
       "ties": 0,
-      "pf": 380,
-      "pa": 467,
-      "diff": -87,
-      "sos": 1450.697,
-      "sos_adj": 1400.697,
-      "power": 1396.236,
+      "pf": 461,
+      "pa": 537,
+      "diff": -76,
+      "sos": 1443.307,
+      "sos_adj": 1393.307,
+      "power": 1400.967,
       "rank": 4,
-      "mw_rating": 24.2,
-      "mw_points": 242
+      "mw_rating": 25.6,
+      "mw_points": 307
     },
     {
       "teamno": "44441",
@@ -85,29 +85,29 @@
       "pf": 588,
       "pa": 715,
       "diff": -127,
-      "sos": 1455.71,
-      "sos_adj": 1408.651,
-      "power": 1394.816,
+      "sos": 1454.444,
+      "sos_adj": 1407.385,
+      "power": 1394.5,
       "rank": 5,
-      "mw_rating": 26.5,
-      "mw_points": 318
+      "mw_rating": 26.6,
+      "mw_points": 319
     },
     {
       "teamno": "44744",
       "name": "D5W-Arlington (grey)",
       "town": null,
       "wins": 4,
-      "losses": 13,
+      "losses": 14,
       "ties": 0,
-      "pf": 470,
-      "pa": 667,
-      "diff": -197,
-      "sos": 1438.177,
-      "sos_adj": 1376.413,
-      "power": 1351.996,
+      "pf": 492,
+      "pa": 708,
+      "diff": -216,
+      "sos": 1437.447,
+      "sos_adj": 1376.336,
+      "power": 1335.845,
       "rank": 6,
-      "mw_rating": 11.3,
-      "mw_points": 124
+      "mw_rating": 11.2,
+      "mw_points": 134
     }
   ]
 }

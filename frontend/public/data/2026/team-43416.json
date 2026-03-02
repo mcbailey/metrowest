@@ -5,26 +5,45 @@
   "team_name": "D1H-Brockton",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 1,
     "ties": 0,
-    "pf": 597,
-    "pa": 415,
-    "diff": 182,
-    "sos": 1635.28,
-    "sos_adj": 1780.735,
-    "power": 1744.153,
+    "pf": 651,
+    "pa": 467,
+    "diff": 184,
+    "sos": 1635.185,
+    "sos_adj": 1781.019,
+    "power": 1748.264,
     "rank": 2,
-    "mw_rating": 192.7,
-    "mw_points": 2120,
+    "mw_rating": 193.8,
+    "mw_points": 2325,
     "divisionno": "7234",
     "division_name": "6th Boys - Division 1",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374432",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:15 AM",
+      "location": "Bridgwater Middle School",
+      "divisionno": "7234",
+      "division_name": "6th Boys - Division 1",
+      "home_teamno": "43420",
+      "away_teamno": "43416",
+      "home_score": 52,
+      "away_score": 54,
+      "team_score": 54,
+      "opponent_score": 52,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43420",
+      "opponent_name": "D1H-Bridgewater (mattar)"
+    },
     {
       "gameno": "374423",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D2J-Dedham (odonnell)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374432",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:15 AM",
-      "location": "Bridgwater Middle School",
-      "divisionno": "7234",
-      "division_name": "6th Boys - Division 1",
-      "home_teamno": "43420",
-      "away_teamno": "43416",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43420",
-      "opponent_name": "D1H-Bridgewater (mattar)"
-    }
-  ]
+  "future_games": []
 }

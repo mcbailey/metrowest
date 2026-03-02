@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 13,
+    "losses": 14,
     "ties": 0,
-    "pf": 470,
-    "pa": 667,
-    "diff": -197,
-    "sos": 1438.177,
-    "sos_adj": 1376.413,
-    "power": 1351.996,
+    "pf": 492,
+    "pa": 708,
+    "diff": -216,
+    "sos": 1437.447,
+    "sos_adj": 1376.336,
+    "power": 1335.845,
     "rank": 6,
-    "mw_rating": 11.3,
-    "mw_points": 124,
+    "mw_rating": 11.2,
+    "mw_points": 134,
     "divisionno": "7186",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377543",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:15 AM",
+      "location": "Ottoson Middle School",
+      "divisionno": "7186",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "44744",
+      "away_teamno": "45303",
+      "home_score": 22,
+      "away_score": 41,
+      "team_score": 22,
+      "opponent_score": 41,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45303",
+      "opponent_name": "D5W-Medford (white)"
+    },
     {
       "gameno": "377534",
       "date": "2026-02-22",
@@ -349,25 +368,5 @@
       "opponent_name": "D6R-Belmont (navy)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377543",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:15 AM",
-      "location": "Ottoson Middle School",
-      "divisionno": "7186",
-      "division_name": "7th Boys - Division 5",
-      "home_teamno": "44744",
-      "away_teamno": "45303",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45303",
-      "opponent_name": "D5W-Medford (white)"
-    }
-  ]
+  "future_games": []
 }

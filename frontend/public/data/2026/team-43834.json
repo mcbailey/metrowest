@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 242,
-    "pa": 392,
-    "diff": -150,
-    "sos": 1506.228,
-    "sos_adj": 1492.591,
-    "power": 1459.481,
+    "pf": 261,
+    "pa": 417,
+    "diff": -156,
+    "sos": 1507.457,
+    "sos_adj": 1494.957,
+    "power": 1449.682,
     "rank": 6,
-    "mw_rating": 35.4,
-    "mw_points": 389,
+    "mw_rating": 34.5,
+    "mw_points": 414,
     "divisionno": "7221",
     "division_name": "6th Boys - Division 4",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376408",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:00 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7221",
+      "division_name": "6th Boys - Division 4",
+      "home_teamno": "44872",
+      "away_teamno": "43834",
+      "home_score": 25,
+      "away_score": 19,
+      "team_score": 19,
+      "opponent_score": 25,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44872",
+      "opponent_name": "D4H-North Attleboro (white)"
+    },
     {
       "gameno": "378299",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D4H-Raynham (testa)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376408",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:00 PM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7221",
-      "division_name": "6th Boys - Division 4",
-      "home_teamno": "44872",
-      "away_teamno": "43834",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44872",
-      "opponent_name": "D4H-North Attleboro (white)"
-    }
-  ]
+  "future_games": []
 }

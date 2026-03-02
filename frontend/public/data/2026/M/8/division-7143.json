@@ -21,8 +21,8 @@
       "sos_adj": 1319.153,
       "power": 1443.696,
       "rank": 1,
-      "mw_rating": 36.4,
-      "mw_points": 328
+      "mw_rating": 36.7,
+      "mw_points": 330
     },
     {
       "teamno": "44759",
@@ -45,18 +45,18 @@
       "teamno": "45305",
       "name": "D6W-Medford (white)",
       "town": null,
-      "wins": 7,
+      "wins": 8,
       "losses": 3,
       "ties": 0,
-      "pf": 392,
-      "pa": 325,
-      "diff": 67,
-      "sos": 1381.921,
-      "sos_adj": 1281.921,
-      "power": 1374.134,
+      "pf": 426,
+      "pa": 352,
+      "diff": 74,
+      "sos": 1385.819,
+      "sos_adj": 1285.819,
+      "power": 1391.341,
       "rank": 3,
-      "mw_rating": 26.4,
-      "mw_points": 264
+      "mw_rating": 27.5,
+      "mw_points": 302
     },
     {
       "teamno": "45765",
@@ -89,8 +89,8 @@
       "sos_adj": 1297.065,
       "power": 1368.464,
       "rank": 5,
-      "mw_rating": 19.1,
-      "mw_points": 210
+      "mw_rating": 19.2,
+      "mw_points": 211
     },
     {
       "teamno": "43450",

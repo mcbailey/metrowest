@@ -5,26 +5,45 @@
   "team_name": "D6W-Medford (white)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 3,
     "ties": 0,
-    "pf": 392,
-    "pa": 325,
-    "diff": 67,
-    "sos": 1381.921,
-    "sos_adj": 1281.921,
-    "power": 1374.134,
+    "pf": 426,
+    "pa": 352,
+    "diff": 74,
+    "sos": 1385.819,
+    "sos_adj": 1285.819,
+    "power": 1391.341,
     "rank": 3,
-    "mw_rating": 26.4,
-    "mw_points": 264,
+    "mw_rating": 27.5,
+    "mw_points": 302,
     "divisionno": "7143",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380814",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "5:45 PM",
+      "location": "Medford High School Court A",
+      "divisionno": "7143",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "45306",
+      "away_teamno": "45305",
+      "home_score": 27,
+      "away_score": 34,
+      "team_score": 34,
+      "opponent_score": 27,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45306",
+      "opponent_name": "D6T-Medford (gray)"
+    },
     {
       "gameno": "380795",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D6W-Arlington (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380814",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "5:45 PM",
-      "location": "Medford High School Court A",
-      "divisionno": "7143",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "45306",
-      "away_teamno": "45305",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45306",
-      "opponent_name": "D6T-Medford (gray)"
-    }
-  ]
+  "future_games": []
 }

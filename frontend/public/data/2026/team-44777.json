@@ -5,26 +5,45 @@
   "team_name": "D6Q-Lincoln-Sudbury (green)",
   "town": null,
   "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 8,
     "ties": 0,
-    "pf": 383,
-    "pa": 422,
-    "diff": -39,
-    "sos": 1409.203,
-    "sos_adj": 1316.896,
-    "power": 1366.085,
+    "pf": 414,
+    "pa": 443,
+    "diff": -29,
+    "sos": 1400.552,
+    "sos_adj": 1307.695,
+    "power": 1375.512,
     "rank": 4,
-    "mw_rating": 20.6,
-    "mw_points": 227,
+    "mw_rating": 21.6,
+    "mw_points": 259,
     "divisionno": "7177",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380055",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "5:20 PM",
+      "location": "Westborough Gibbons Middle School",
+      "divisionno": "7177",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44370",
+      "away_teamno": "44777",
+      "home_score": 21,
+      "away_score": 31,
+      "team_score": 31,
+      "opponent_score": 21,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44370",
+      "opponent_name": "D6Q-Westborough (weigensberg)"
+    },
     {
       "gameno": "380050",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D6R-Lexington (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380055",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "5:20 PM",
-      "location": "Westborough Gibbons Middle School",
-      "divisionno": "7177",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44370",
-      "away_teamno": "44777",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44370",
-      "opponent_name": "D6Q-Westborough (weigensberg)"
-    }
-  ]
+  "future_games": []
 }

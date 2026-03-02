@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 869,
-    "pa": 827,
-    "diff": 42,
-    "sos": 1609.077,
-    "sos_adj": 1725.744,
-    "power": 1692.46,
-    "rank": 2,
-    "mw_rating": 142.6,
-    "mw_points": 1426,
+    "pf": 931,
+    "pa": 896,
+    "diff": 35,
+    "sos": 1616.898,
+    "sos_adj": 1735.648,
+    "power": 1685.332,
+    "rank": 3,
+    "mw_rating": 138.7,
+    "mw_points": 1526,
     "divisionno": "7167",
     "division_name": "8th Boys - Division 1",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374925",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "6:30 PM",
+      "location": "Sudbury Fieldhouse-Court 1",
+      "divisionno": "7167",
+      "division_name": "8th Boys - Division 1",
+      "home_teamno": "44774",
+      "away_teamno": "45535",
+      "home_score": 62,
+      "away_score": 69,
+      "team_score": 62,
+      "opponent_score": 69,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45535",
+      "opponent_name": "D1J-Lawrence"
+    },
     {
       "gameno": "375025",
       "date": "2026-02-22",
@@ -311,25 +330,5 @@
       "opponent_name": "D1J-Brookline (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374925",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "6:30 PM",
-      "location": "Sudbury Fieldhouse-Court 1",
-      "divisionno": "7167",
-      "division_name": "8th Boys - Division 1",
-      "home_teamno": "44774",
-      "away_teamno": "45535",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45535",
-      "opponent_name": "D1J-Lawrence"
-    }
-  ]
+  "future_games": []
 }

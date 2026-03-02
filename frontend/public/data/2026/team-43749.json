@@ -5,26 +5,45 @@
   "team_name": "D1J-Needham (gold)",
   "town": null,
   "summary": {
-    "wins": 3,
+    "wins": 4,
     "losses": 10,
     "ties": 0,
-    "pf": 587,
-    "pa": 686,
-    "diff": -99,
-    "sos": 1643.014,
-    "sos_adj": 1785.322,
-    "power": 1653.842,
+    "pf": 633,
+    "pa": 729,
+    "diff": -96,
+    "sos": 1646.792,
+    "sos_adj": 1789.649,
+    "power": 1665.237,
     "rank": 6,
-    "mw_rating": 120.8,
-    "mw_points": 1329,
+    "mw_rating": 128.3,
+    "mw_points": 1540,
     "divisionno": "7235",
     "division_name": "6th Boys - Division 1",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374434",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "7:45 PM",
+      "location": "Sudbury Fieldhouse-Court 1",
+      "divisionno": "7235",
+      "division_name": "6th Boys - Division 1",
+      "home_teamno": "45429",
+      "away_teamno": "43749",
+      "home_score": 43,
+      "away_score": 46,
+      "team_score": 46,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45429",
+      "opponent_name": "D1J-Lincoln-Sudbury (blue)"
+    },
     {
       "gameno": "374426",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D2M-Brookline (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374434",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "7:45 PM",
-      "location": "Sudbury Fieldhouse-Court 1",
-      "divisionno": "7235",
-      "division_name": "6th Boys - Division 1",
-      "home_teamno": "45429",
-      "away_teamno": "43749",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45429",
-      "opponent_name": "D1J-Lincoln-Sudbury (blue)"
-    }
-  ]
+  "future_games": []
 }

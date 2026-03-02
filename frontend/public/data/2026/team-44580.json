@@ -5,26 +5,45 @@
   "team_name": "D3J-King Philip",
   "town": null,
   "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 8,
     "ties": 0,
-    "pf": 568,
-    "pa": 581,
-    "diff": -13,
-    "sos": 1530.618,
-    "sos_adj": 1576.772,
-    "power": 1553.854,
-    "rank": 5,
-    "mw_rating": 77.3,
-    "mw_points": 850,
+    "pf": 632,
+    "pa": 632,
+    "diff": 0,
+    "sos": 1529.835,
+    "sos_adj": 1576.264,
+    "power": 1573.24,
+    "rank": 2,
+    "mw_rating": 80.6,
+    "mw_points": 967,
     "divisionno": "7226",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378491",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "7:00 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7226",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "44421",
+      "away_teamno": "44580",
+      "home_score": 51,
+      "away_score": 64,
+      "team_score": 64,
+      "opponent_score": 51,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44421",
+      "opponent_name": "D3J-Norton (purple)"
+    },
     {
       "gameno": "378485",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "Medway (Blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378491",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "7:00 PM",
-      "location": "Mass Premier - 2",
-      "divisionno": "7226",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "44421",
-      "away_teamno": "44580",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44421",
-      "opponent_name": "D3J-Norton (purple)"
-    }
-  ]
+  "future_games": []
 }
