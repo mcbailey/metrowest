@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44472",
   "team_name": "D1H-Walpole (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 313,
     "pa": 251,
     "diff": 62,
-    "sos": 1614.145,
-    "sos_adj": 1727.782,
-    "power": 1711.909,
+    "sos": 1614.914,
+    "sos_adj": 1728.551,
+    "power": 1712.101,
     "rank": 2,
-    "mw_rating": 122.9,
-    "mw_points": 1352,
+    "mw_rating": 123.2,
+    "mw_points": 1355,
     "divisionno": "7635",
     "division_name": "3rd Girls - Division 1",
     "grade": 3,
@@ -242,9 +242,9 @@
       "dow": "Sat",
       "starttime": "1:30 PM",
       "location": "Jr Mass Premier-2",
-      "divisionno": "7635",
+      "divisionno": "7636",
       "division_name": "3rd Girls - Division 1",
-      "home_teamno": "0",
+      "home_teamno": "43557",
       "away_teamno": "44472",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43557",
+      "opponent_name": "D1J-Bridgewater (salisbury)"
     }
   ]
 }

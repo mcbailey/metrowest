@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44403",
   "team_name": "D2J-Dedham (odonnell)",
   "town": null,
   "summary": {
-    "wins": 3,
+    "wins": 4,
     "losses": 8,
     "ties": 0,
-    "pf": 450,
-    "pa": 538,
-    "diff": -88,
-    "sos": 1612.655,
-    "sos_adj": 1712.655,
-    "power": 1596.409,
+    "pf": 498,
+    "pa": 577,
+    "diff": -79,
+    "sos": 1607.521,
+    "sos_adj": 1707.521,
+    "power": 1608.005,
     "rank": 3,
-    "mw_rating": 92.5,
-    "mw_points": 1017,
+    "mw_rating": 97.6,
+    "mw_points": 1171,
     "divisionno": "7231",
     "division_name": "6th Boys - Division 2",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374550",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:45 PM",
+      "location": "Foxboro Ahern Middle (Gym 2)",
+      "divisionno": "7231",
+      "division_name": "6th Boys - Division 2",
+      "home_teamno": "44966",
+      "away_teamno": "44403",
+      "home_score": 39,
+      "away_score": 48,
+      "team_score": 48,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44966",
+      "opponent_name": "D2J-Foxboro (blue)"
+    },
     {
       "gameno": "374529",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D1H-Brockton"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374550",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:45 PM",
-      "location": "Foxboro Ahern Middle (Gym 2)",
-      "divisionno": "7231",
-      "division_name": "6th Boys - Division 2",
-      "home_teamno": "44966",
-      "away_teamno": "44403",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44966",
-      "opponent_name": "D2J-Foxboro (blue)"
-    }
-  ]
+  "future_games": []
 }

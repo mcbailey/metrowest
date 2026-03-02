@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44629",
   "team_name": "D5T-Ashland (blue)",
   "town": null,
   "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 7,
     "ties": 0,
-    "pf": 369,
-    "pa": 337,
-    "diff": 32,
-    "sos": 1470.288,
-    "sos_adj": 1424.455,
-    "power": 1452.33,
-    "rank": 5,
-    "mw_rating": 31.1,
-    "mw_points": 342,
+    "pf": 415,
+    "pa": 367,
+    "diff": 48,
+    "sos": 1466.376,
+    "sos_adj": 1420.222,
+    "power": 1468.685,
+    "rank": 4,
+    "mw_rating": 33.2,
+    "mw_points": 398,
     "divisionno": "7583",
     "division_name": "4th Boys - Division 5",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "388363",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:15 PM",
+      "location": "Ashland High School",
+      "divisionno": "7583",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "44629",
+      "away_teamno": "43598",
+      "home_score": 46,
+      "away_score": 30,
+      "team_score": 46,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43598",
+      "opponent_name": "D5R-North Quincy (miller)"
+    },
     {
       "gameno": "385951",
       "date": "2026-02-28",
@@ -254,25 +273,5 @@
       "opponent_name": "D4P-Natick (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "388363",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:15 PM",
-      "location": "Ashland High School",
-      "divisionno": "7583",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "44629",
-      "away_teamno": "43598",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43598",
-      "opponent_name": "D5R-North Quincy (miller)"
-    }
-  ]
+  "future_games": []
 }

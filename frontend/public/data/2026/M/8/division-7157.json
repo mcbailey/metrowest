@@ -1,12 +1,29 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 8,
   "divisionno": "7157",
   "division_name": "8th Boys - Division 3",
   "divisiontier": "3",
   "rankings": [
+    {
+      "teamno": "43245",
+      "name": "D3H-Dartmouth (green)",
+      "town": null,
+      "wins": 21,
+      "losses": 9,
+      "ties": 0,
+      "pf": 1566,
+      "pa": 1191,
+      "diff": 375,
+      "sos": 1536.253,
+      "sos_adj": 1574.586,
+      "power": 1622.968,
+      "rank": 1,
+      "mw_rating": 97.9,
+      "mw_points": 1077
+    },
     {
       "teamno": "45628",
       "name": "D3H-New Bedford",
@@ -17,29 +34,12 @@
       "pf": 569,
       "pa": 479,
       "diff": 90,
-      "sos": 1571.282,
-      "sos_adj": 1637.948,
-      "power": 1609.847,
-      "rank": 1,
-      "mw_rating": 112.9,
-      "mw_points": 1016
-    },
-    {
-      "teamno": "43245",
-      "name": "D3H-Dartmouth (green)",
-      "town": null,
-      "wins": 20,
-      "losses": 9,
-      "ties": 0,
-      "pf": 1505,
-      "pa": 1143,
-      "diff": 362,
-      "sos": 1535.759,
-      "sos_adj": 1571.965,
-      "power": 1593.368,
+      "sos": 1575.57,
+      "sos_adj": 1642.237,
+      "power": 1610.919,
       "rank": 2,
-      "mw_rating": 96.6,
-      "mw_points": 1062
+      "mw_rating": 92.5,
+      "mw_points": 1017
     },
     {
       "teamno": "44980",
@@ -51,9 +51,9 @@
       "pf": 732,
       "pa": 722,
       "diff": 10,
-      "sos": 1545.323,
-      "sos_adj": 1591.156,
-      "power": 1568.784,
+      "sos": 1548.539,
+      "sos_adj": 1594.373,
+      "power": 1569.588,
       "rank": 3,
       "mw_rating": 76.9,
       "mw_points": 923
@@ -68,12 +68,12 @@
       "pf": 628,
       "pa": 618,
       "diff": 10,
-      "sos": 1546.739,
-      "sos_adj": 1596.739,
-      "power": 1566.917,
+      "sos": 1550.248,
+      "sos_adj": 1600.248,
+      "power": 1567.794,
       "rank": 4,
-      "mw_rating": 71.7,
-      "mw_points": 789
+      "mw_rating": 60.8,
+      "mw_points": 790
     },
     {
       "teamno": "43097",
@@ -85,9 +85,9 @@
       "pf": 701,
       "pa": 707,
       "diff": -6,
-      "sos": 1574.769,
-      "sos_adj": 1639.055,
-      "power": 1555.36,
+      "sos": 1577.526,
+      "sos_adj": 1641.812,
+      "power": 1556.049,
       "rank": 5,
       "mw_rating": 82.0,
       "mw_points": 902
@@ -102,9 +102,9 @@
       "pf": 664,
       "pa": 802,
       "diff": -138,
-      "sos": 1556.366,
-      "sos_adj": 1606.366,
-      "power": 1539.508,
+      "sos": 1559.335,
+      "sos_adj": 1609.335,
+      "power": 1540.25,
       "rank": 6,
       "mw_rating": 71.5,
       "mw_points": 786
@@ -123,8 +123,8 @@
       "sos_adj": 1591.335,
       "power": 1518.676,
       "rank": 7,
-      "mw_rating": 65.4,
-      "mw_points": 785
+      "mw_rating": 65.5,
+      "mw_points": 786
     }
   ]
 }

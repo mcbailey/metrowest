@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43535",
   "team_name": "D6Q-Northboro (white)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 348,
-    "pa": 298,
-    "diff": 50,
-    "sos": 1420.616,
-    "sos_adj": 1340.616,
-    "power": 1398.607,
+    "pf": 382,
+    "pa": 338,
+    "diff": 44,
+    "sos": 1424.493,
+    "sos_adj": 1342.674,
+    "power": 1387.405,
     "rank": 3,
-    "mw_rating": 28.1,
-    "mw_points": 281,
+    "mw_rating": 26.0,
+    "mw_points": 286,
     "divisionno": "7177",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380057",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:20 PM",
+      "location": "Framingham High School-Front Gym",
+      "divisionno": "7177",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "45104",
+      "away_teamno": "43535",
+      "home_score": 40,
+      "away_score": 34,
+      "team_score": 34,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45104",
+      "opponent_name": "D6Q-Framingham (gray)"
+    },
     {
       "gameno": "379785",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D6R-Arlington (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380057",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:20 PM",
-      "location": "Framingham High School-Front Gym",
-      "divisionno": "7177",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "45104",
-      "away_teamno": "43535",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45104",
-      "opponent_name": "D6Q-Framingham (gray)"
-    }
-  ]
+  "future_games": []
 }

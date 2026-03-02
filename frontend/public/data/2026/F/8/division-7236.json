@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "F",
   "grade": 8,
   "divisionno": "7236",
@@ -17,12 +17,12 @@
       "pf": 330,
       "pa": 256,
       "diff": 74,
-      "sos": 1438.626,
-      "sos_adj": 1393.171,
-      "power": 1470.473,
+      "sos": 1441.482,
+      "sos_adj": 1396.028,
+      "power": 1471.188,
       "rank": 1,
-      "mw_rating": 35.6,
-      "mw_points": 391
+      "mw_rating": 35.7,
+      "mw_points": 393
     },
     {
       "teamno": "43435",
@@ -34,12 +34,12 @@
       "pf": 417,
       "pa": 411,
       "diff": 6,
-      "sos": 1488.478,
-      "sos_adj": 1473.478,
-      "power": 1425.72,
+      "sos": 1491.621,
+      "sos_adj": 1476.621,
+      "power": 1426.505,
       "rank": 2,
-      "mw_rating": 44.5,
-      "mw_points": 489
+      "mw_rating": 44.6,
+      "mw_points": 490
     },
     {
       "teamno": "43340",
@@ -55,8 +55,25 @@
       "sos_adj": 1405.281,
       "power": 1421.894,
       "rank": 3,
-      "mw_rating": 33.4,
-      "mw_points": 401
+      "mw_rating": 33.5,
+      "mw_points": 402
+    },
+    {
+      "teamno": "44653",
+      "name": "D5H-Attleboro (white)",
+      "town": null,
+      "wins": 2,
+      "losses": 10,
+      "ties": 0,
+      "pf": 237,
+      "pa": 435,
+      "diff": -198,
+      "sos": 1450.718,
+      "sos_adj": 1404.885,
+      "power": 1403.634,
+      "rank": 4,
+      "mw_rating": 18.6,
+      "mw_points": 223
     },
     {
       "teamno": "43555",
@@ -68,29 +85,12 @@
       "pf": 261,
       "pa": 365,
       "diff": -104,
-      "sos": 1454.35,
-      "sos_adj": 1408.517,
-      "power": 1393.723,
-      "rank": 4,
-      "mw_rating": 18.3,
-      "mw_points": 220
-    },
-    {
-      "teamno": "44653",
-      "name": "D5H-Attleboro (white)",
-      "town": null,
-      "wins": 1,
-      "losses": 10,
-      "ties": 0,
-      "pf": 195,
-      "pa": 420,
-      "diff": -225,
-      "sos": 1454.522,
-      "sos_adj": 1409.067,
-      "power": 1381.114,
+      "sos": 1456.969,
+      "sos_adj": 1411.135,
+      "power": 1394.377,
       "rank": 5,
-      "mw_rating": 15.6,
-      "mw_points": 172
+      "mw_rating": 18.4,
+      "mw_points": 221
     }
   ]
 }

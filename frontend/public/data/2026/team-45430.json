@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "45430",
   "team_name": "D5T-Lincoln-Sudbury (white)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 7,
     "ties": 0,
-    "pf": 427,
-    "pa": 444,
-    "diff": -17,
-    "sos": 1465.804,
-    "sos_adj": 1419.375,
-    "power": 1439.741,
-    "rank": 3,
-    "mw_rating": 35.0,
-    "mw_points": 385,
+    "pf": 476,
+    "pa": 457,
+    "diff": 19,
+    "sos": 1462.694,
+    "sos_adj": 1416.027,
+    "power": 1457.434,
+    "rank": 2,
+    "mw_rating": 36.8,
+    "mw_points": 441,
     "divisionno": "7218",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380687",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:00 PM",
+      "location": "Sudbury Fieldhouse-Court 2",
+      "divisionno": "7218",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "45430",
+      "away_teamno": "44330",
+      "home_score": 49,
+      "away_score": 13,
+      "team_score": 49,
+      "opponent_score": 13,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44330",
+      "opponent_name": "D5R-Medway (white)"
+    },
     {
       "gameno": "380668",
       "date": "2026-02-28",
@@ -292,25 +311,5 @@
       "opponent_name": "Warwick (Holbroook) 6B D2N"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380687",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:00 PM",
-      "location": "Sudbury Fieldhouse-Court 2",
-      "divisionno": "7218",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "45430",
-      "away_teamno": "44330",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44330",
-      "opponent_name": "D5R-Medway (white)"
-    }
-  ]
+  "future_games": []
 }

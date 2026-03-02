@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "45119",
   "team_name": "D3J-Westwood",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 11,
     "losses": 4,
     "ties": 0,
-    "pf": 526,
-    "pa": 466,
-    "diff": 60,
-    "sos": 1553.044,
-    "sos_adj": 1610.736,
-    "power": 1604.79,
+    "pf": 619,
+    "pa": 539,
+    "diff": 80,
+    "sos": 1552.871,
+    "sos_adj": 1609.538,
+    "power": 1622.573,
     "rank": 1,
-    "mw_rating": 94.8,
-    "mw_points": 948,
+    "mw_rating": 98.4,
+    "mw_points": 1181,
     "divisionno": "7304",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 2
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378680",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:30 PM",
+      "location": "Westwood High School",
+      "divisionno": "7305",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "45119",
+      "away_teamno": "43933",
+      "home_score": 51,
+      "away_score": 32,
+      "team_score": 51,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43933",
+      "opponent_name": "D3K-Brookline (red)"
+    },
     {
       "gameno": "378660",
       "date": "2026-02-28",
@@ -43,6 +62,25 @@
       "is_home": false,
       "opponent_teamno": "45431",
       "opponent_name": "D3K-Lincoln-Sudbury (blue)"
+    },
+    {
+      "gameno": "378666",
+      "date": "2026-02-22",
+      "dow": "Sun",
+      "starttime": "11:30 AM",
+      "location": "Bridgwater Middle School",
+      "divisionno": "7304",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "43427",
+      "away_teamno": "45119",
+      "home_score": 41,
+      "away_score": 42,
+      "team_score": 42,
+      "opponent_score": 41,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43427",
+      "opponent_name": "D3H-Bridgewater (gaff)"
     },
     {
       "gameno": "378777",
@@ -273,44 +311,5 @@
       "opponent_name": "D3J-Canton (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378666",
-      "date": "2026-02-22",
-      "dow": "Sun",
-      "starttime": "11:30 AM",
-      "location": "Bridgwater Middle School",
-      "divisionno": "7304",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "43427",
-      "away_teamno": "45119",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43427",
-      "opponent_name": "D3H-Bridgewater (gaff)"
-    },
-    {
-      "gameno": "378680",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:30 PM",
-      "location": "Westwood High School",
-      "divisionno": "7305",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "45119",
-      "away_teamno": "43933",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43933",
-      "opponent_name": "D3K-Brookline (red)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "45308",
   "team_name": "D2J-Milton (red)",
   "town": null,
   "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 5,
     "ties": 0,
-    "pf": 564,
-    "pa": 505,
-    "diff": 59,
-    "sos": 1627.636,
-    "sos_adj": 1741.272,
-    "power": 1630.288,
+    "pf": 622,
+    "pa": 539,
+    "diff": 83,
+    "sos": 1625.309,
+    "sos_adj": 1737.809,
+    "power": 1645.251,
     "rank": 4,
-    "mw_rating": 126.2,
-    "mw_points": 1262,
+    "mw_rating": 128.9,
+    "mw_points": 1418,
     "divisionno": "7164",
     "division_name": "8th Boys - Division 2",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "381023",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:50 AM",
+      "location": "Milton High School - Court 2",
+      "divisionno": "7164",
+      "division_name": "8th Boys - Division 2",
+      "home_teamno": "45308",
+      "away_teamno": "44148",
+      "home_score": 58,
+      "away_score": 34,
+      "team_score": 58,
+      "opponent_score": 34,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44148",
+      "opponent_name": "D2H-Easton (black)"
+    },
     {
       "gameno": "375025",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D2H-Barnstable  (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "381023",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:50 AM",
-      "location": "Milton High School - Court 2",
-      "divisionno": "7164",
-      "division_name": "8th Boys - Division 2",
-      "home_teamno": "45308",
-      "away_teamno": "44148",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44148",
-      "opponent_name": "D2H-Easton (black)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44582",
   "team_name": "D3J-King Philip",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 3,
     "ties": 0,
-    "pf": 693,
-    "pa": 577,
-    "diff": 116,
-    "sos": 1524.549,
-    "sos_adj": 1570.702,
-    "power": 1605.943,
+    "pf": 742,
+    "pa": 609,
+    "diff": 133,
+    "sos": 1519.711,
+    "sos_adj": 1562.568,
+    "power": 1615.498,
     "rank": 1,
-    "mw_rating": 104.5,
-    "mw_points": 1149,
+    "mw_rating": 102.8,
+    "mw_points": 1233,
     "divisionno": "7194",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379098",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:55 PM",
+      "location": "Raynham Middle School",
+      "divisionno": "7188",
+      "division_name": "7th Boys - Division 4",
+      "home_teamno": "43821",
+      "away_teamno": "44582",
+      "home_score": 32,
+      "away_score": 49,
+      "team_score": 49,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43821",
+      "opponent_name": "D4H-Raynham (connolly)"
+    },
     {
       "gameno": "374817",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "Charlton (Maroon) 7B D1S"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379098",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:55 PM",
-      "location": "Raynham Middle School",
-      "divisionno": "7188",
-      "division_name": "7th Boys - Division 4",
-      "home_teamno": "43821",
-      "away_teamno": "44582",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43821",
-      "opponent_name": "D4H-Raynham (connolly)"
-    }
-  ]
+  "future_games": []
 }

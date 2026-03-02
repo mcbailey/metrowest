@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "F",
   "grade": 8,
   "divisionno": "7240",
@@ -17,9 +17,9 @@
       "pf": 698,
       "pa": 478,
       "diff": 220,
-      "sos": 1477.22,
-      "sos_adj": 1470.078,
-      "power": 1581.738,
+      "sos": 1478.896,
+      "sos_adj": 1471.753,
+      "power": 1582.157,
       "rank": 1,
       "mw_rating": 72.9,
       "mw_points": 802
@@ -34,9 +34,9 @@
       "pf": 415,
       "pa": 340,
       "diff": 75,
-      "sos": 1499.549,
-      "sos_adj": 1499.549,
-      "power": 1538.389,
+      "sos": 1497.417,
+      "sos_adj": 1497.417,
+      "power": 1537.856,
       "rank": 2,
       "mw_rating": 66.2,
       "mw_points": 728
@@ -55,8 +55,8 @@
       "sos_adj": 1485.49,
       "power": 1537.154,
       "rank": 3,
-      "mw_rating": 66.7,
-      "mw_points": 667
+      "mw_rating": 66.8,
+      "mw_points": 668
     },
     {
       "teamno": "43131",
@@ -72,8 +72,8 @@
       "sos_adj": 1503.294,
       "power": 1467.223,
       "rank": 4,
-      "mw_rating": 39.5,
-      "mw_points": 395
+      "mw_rating": 39.6,
+      "mw_points": 396
     },
     {
       "teamno": "43175",
@@ -85,9 +85,9 @@
       "pf": 462,
       "pa": 528,
       "diff": -66,
-      "sos": 1522.494,
-      "sos_adj": 1522.494,
-      "power": 1454.714,
+      "sos": 1520.69,
+      "sos_adj": 1520.69,
+      "power": 1454.263,
       "rank": 5,
       "mw_rating": 44.5,
       "mw_points": 534
@@ -97,17 +97,17 @@
       "name": "D4H-Berkley",
       "town": null,
       "wins": 2,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 250,
-      "pa": 386,
-      "diff": -136,
-      "sos": 1497.379,
-      "sos_adj": 1492.834,
-      "power": 1449.927,
+      "pf": 274,
+      "pa": 414,
+      "diff": -140,
+      "sos": 1491.996,
+      "sos_adj": 1483.663,
+      "power": 1430.041,
       "rank": 6,
-      "mw_rating": 33.2,
-      "mw_points": 365
+      "mw_rating": 31.3,
+      "mw_points": 375
     }
   ]
 }

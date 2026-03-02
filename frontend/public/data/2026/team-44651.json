@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44651",
   "team_name": "D1/2H-Attleboro (blue)",
   "town": null,
   "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 10,
     "ties": 0,
-    "pf": 644,
-    "pa": 647,
-    "diff": -3,
-    "sos": 1640.923,
-    "sos_adj": 1781.548,
-    "power": 1669.82,
-    "rank": 5,
-    "mw_rating": 140.4,
-    "mw_points": 1404,
+    "pf": 682,
+    "pa": 673,
+    "diff": 9,
+    "sos": 1636.312,
+    "sos_adj": 1777.489,
+    "power": 1680.705,
+    "rank": 4,
+    "mw_rating": 146.9,
+    "mw_points": 1616,
     "divisionno": "7060",
     "division_name": "7th Girls - Division 1",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373851",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:45 PM",
+      "location": "Attleboro High School",
+      "divisionno": "7060",
+      "division_name": "7th Girls - Division 1",
+      "home_teamno": "44651",
+      "away_teamno": "43822",
+      "home_score": 38,
+      "away_score": 26,
+      "team_score": 38,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43822",
+      "opponent_name": "D1/2H-North Attleboro (red)"
+    },
     {
       "gameno": "373899",
       "date": "2026-03-01",
@@ -330,25 +349,5 @@
       "opponent_name": "D1/2H-Mansfield (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373851",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:45 PM",
-      "location": "Attleboro High School",
-      "divisionno": "7060",
-      "division_name": "7th Girls - Division 1",
-      "home_teamno": "44651",
-      "away_teamno": "43822",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43822",
-      "opponent_name": "D1/2H-North Attleboro (red)"
-    }
-  ]
+  "future_games": []
 }

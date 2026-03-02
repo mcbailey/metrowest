@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 3,
   "divisionno": "7629",
@@ -21,8 +21,8 @@
       "sos_adj": 1630.84,
       "power": 1656.856,
       "rank": 1,
-      "mw_rating": 124.5,
-      "mw_points": 1245
+      "mw_rating": 124.6,
+      "mw_points": 1246
     },
     {
       "teamno": "45527",
@@ -38,8 +38,25 @@
       "sos_adj": 1604.565,
       "power": 1622.082,
       "rank": 2,
-      "mw_rating": 101.0,
-      "mw_points": 1111
+      "mw_rating": 101.1,
+      "mw_points": 1112
+    },
+    {
+      "teamno": "45520",
+      "name": "2NDH-Mass Premier (blue)",
+      "town": null,
+      "wins": 10,
+      "losses": 2,
+      "ties": 0,
+      "pf": 428,
+      "pa": 309,
+      "diff": 119,
+      "sos": 1549.825,
+      "sos_adj": 1599.825,
+      "power": 1615.904,
+      "rank": 3,
+      "mw_rating": 103.3,
+      "mw_points": 1239
     },
     {
       "teamno": "45518",
@@ -54,26 +71,9 @@
       "sos": 1559.623,
       "sos_adj": 1609.623,
       "power": 1608.266,
-      "rank": 3,
+      "rank": 4,
       "mw_rating": 96.1,
       "mw_points": 1057
-    },
-    {
-      "teamno": "45520",
-      "name": "2NDH-Mass Premier (blue)",
-      "town": null,
-      "wins": 9,
-      "losses": 2,
-      "ties": 0,
-      "pf": 396,
-      "pa": 281,
-      "diff": 115,
-      "sos": 1551.245,
-      "sos_adj": 1601.245,
-      "power": 1607.887,
-      "rank": 4,
-      "mw_rating": 102.2,
-      "mw_points": 1124
     },
     {
       "teamno": "44793",
@@ -85,9 +85,9 @@
       "pf": 349,
       "pa": 337,
       "diff": 12,
-      "sos": 1571.136,
-      "sos_adj": 1625.682,
-      "power": 1576.536,
+      "sos": 1572.151,
+      "sos_adj": 1626.697,
+      "power": 1576.789,
       "rank": 5,
       "mw_rating": 84.9,
       "mw_points": 934
@@ -119,9 +119,9 @@
       "pf": 289,
       "pa": 315,
       "diff": -26,
-      "sos": 1543.249,
-      "sos_adj": 1593.249,
-      "power": 1531.94,
+      "sos": 1544.264,
+      "sos_adj": 1594.264,
+      "power": 1532.193,
       "rank": 7,
       "mw_rating": 69.4,
       "mw_points": 763
@@ -136,9 +136,9 @@
       "pf": 216,
       "pa": 257,
       "diff": -41,
-      "sos": 1553.268,
-      "sos_adj": 1603.268,
-      "power": 1511.621,
+      "sos": 1554.508,
+      "sos_adj": 1604.508,
+      "power": 1511.931,
       "rank": 8,
       "mw_rating": 68.2,
       "mw_points": 614

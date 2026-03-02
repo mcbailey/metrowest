@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44162",
   "team_name": "D5R-Holliston (gum - red)",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 2,
     "ties": 0,
-    "pf": 526,
-    "pa": 294,
-    "diff": 232,
-    "sos": 1449.121,
-    "sos_adj": 1399.121,
-    "power": 1515.14,
+    "pf": 573,
+    "pa": 328,
+    "diff": 245,
+    "sos": 1445.946,
+    "sos_adj": 1395.946,
+    "power": 1524.526,
     "rank": 1,
-    "mw_rating": 48.8,
-    "mw_points": 537,
+    "mw_rating": 49.3,
+    "mw_points": 591,
     "divisionno": "7217",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380688",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:00 PM",
+      "location": "Wayland High School - Front Court",
+      "divisionno": "7218",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "44231",
+      "away_teamno": "44162",
+      "home_score": 34,
+      "away_score": 47,
+      "team_score": 47,
+      "opponent_score": 34,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44231",
+      "opponent_name": "D5T-Wayland (orange)"
+    },
     {
       "gameno": "380668",
       "date": "2026-02-28",
@@ -235,25 +254,5 @@
       "opponent_name": "D5R-Westborough (meleski)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380688",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:00 PM",
-      "location": "Wayland High School - Front Court",
-      "divisionno": "7218",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "44231",
-      "away_teamno": "44162",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44231",
-      "opponent_name": "D5T-Wayland (orange)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,28 +1,28 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "45768",
   "team_name": "D5P-Lexington (blue)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 275,
-    "pa": 394,
-    "diff": -119,
-    "sos": 1462.427,
-    "sos_adj": 1421.802,
-    "power": 1423.255,
+    "pf": 277,
+    "pa": 436,
+    "diff": -159,
+    "sos": 1472.288,
+    "sos_adj": 1431.112,
+    "power": 1417.735,
     "rank": 4,
-    "mw_rating": 43.1,
-    "mw_points": 517,
+    "mw_rating": 43.2,
+    "mw_points": 518,
     "divisionno": "7554",
     "division_name": "4th Girls - Division 5",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": true,
       "opponent_teamno": "45201",
       "opponent_name": "D5P-Somerville"
+    },
+    {
+      "gameno": "386288",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "3:45 PM",
+      "location": "Lexington - Diamond Middle School",
+      "divisionno": "7554",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "45768",
+      "away_teamno": "44379",
+      "home_score": 2,
+      "away_score": 42,
+      "team_score": 2,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44379",
+      "opponent_name": "D5P-Belmont (maroon)"
     },
     {
       "gameno": "384988",
@@ -330,25 +349,5 @@
       "opponent_name": "D2M-Winchester (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "386288",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "3:45 PM",
-      "location": "Lexington - Diamond Middle School",
-      "divisionno": "7554",
-      "division_name": "4th Girls - Division 5",
-      "home_teamno": "45768",
-      "away_teamno": "44379",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44379",
-      "opponent_name": "D5P-Belmont (maroon)"
-    }
-  ]
+  "future_games": []
 }

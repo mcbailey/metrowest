@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43421",
   "team_name": "D5J-Bridgewater (senesi)",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 367,
-    "pa": 483,
-    "diff": -116,
-    "sos": 1468.308,
-    "sos_adj": 1422.854,
-    "power": 1393.465,
+    "pf": 389,
+    "pa": 539,
+    "diff": -150,
+    "sos": 1469.554,
+    "sos_adj": 1423.721,
+    "power": 1379.358,
     "rank": 6,
-    "mw_rating": 23.6,
-    "mw_points": 259,
+    "mw_rating": 22.5,
+    "mw_points": 270,
     "divisionno": "7213",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378297",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:00 PM",
+      "location": "Needham High School A Gym",
+      "divisionno": "7215",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43755",
+      "away_teamno": "43421",
+      "home_score": 56,
+      "away_score": 22,
+      "team_score": 22,
+      "opponent_score": 56,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43755",
+      "opponent_name": "D5M-Needham (white)"
+    },
     {
       "gameno": "378221",
       "date": "2026-02-28",
@@ -235,25 +254,5 @@
       "opponent_name": "D5J-Taunton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378297",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:00 PM",
-      "location": "Needham High School A Gym",
-      "divisionno": "7215",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "43755",
-      "away_teamno": "43421",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43755",
-      "opponent_name": "D5M-Needham (white)"
-    }
-  ]
+  "future_games": []
 }

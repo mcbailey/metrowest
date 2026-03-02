@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "45765",
   "team_name": "D6W-Lexington (white)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 515,
-    "pa": 547,
-    "diff": -32,
-    "sos": 1406.473,
-    "sos_adj": 1312.723,
-    "power": 1386.622,
-    "rank": 3,
-    "mw_rating": 25.5,
-    "mw_points": 255,
+    "pf": 548,
+    "pa": 606,
+    "diff": -58,
+    "sos": 1408.962,
+    "sos_adj": 1314.844,
+    "power": 1369.391,
+    "rank": 4,
+    "mw_rating": 23.7,
+    "mw_points": 261,
     "divisionno": "7143",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380811",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "5:15 PM",
+      "location": "Sudbury Fieldhouse-Court 2",
+      "divisionno": "7143",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "44778",
+      "away_teamno": "45765",
+      "home_score": 59,
+      "away_score": 33,
+      "team_score": 33,
+      "opponent_score": 59,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44778",
+      "opponent_name": "D6T-Lincoln-Sudbury (green)"
+    },
     {
       "gameno": "380782",
       "date": "2026-03-01",
@@ -330,25 +349,5 @@
       "opponent_name": "D5R-Bedford (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380811",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "5:15 PM",
-      "location": "Sudbury Fieldhouse-Court 2",
-      "divisionno": "7143",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "44778",
-      "away_teamno": "45765",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44778",
-      "opponent_name": "D6T-Lincoln-Sudbury (green)"
-    }
-  ]
+  "future_games": []
 }

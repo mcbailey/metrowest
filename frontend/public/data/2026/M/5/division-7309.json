@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 5,
   "divisionno": "7309",
@@ -17,12 +17,12 @@
       "pf": 808,
       "pa": 575,
       "diff": 233,
-      "sos": 1567.077,
-      "sos_adj": 1658.254,
-      "power": 1684.789,
+      "sos": 1572.146,
+      "sos_adj": 1663.322,
+      "power": 1686.056,
       "rank": 1,
-      "mw_rating": 144.5,
-      "mw_points": 1734
+      "mw_rating": 144.8,
+      "mw_points": 1738
     },
     {
       "teamno": "44390",
@@ -34,12 +34,12 @@
       "pf": 408,
       "pa": 424,
       "diff": -16,
-      "sos": 1586.044,
-      "sos_adj": 1690.211,
-      "power": 1624.034,
+      "sos": 1593.224,
+      "sos_adj": 1697.391,
+      "power": 1625.829,
       "rank": 2,
-      "mw_rating": 109.2,
-      "mw_points": 1310
+      "mw_rating": 109.3,
+      "mw_points": 1312
     },
     {
       "teamno": "43690",
@@ -51,12 +51,12 @@
       "pf": 867,
       "pa": 808,
       "diff": 59,
-      "sos": 1579.618,
-      "sos_adj": 1653.531,
-      "power": 1607.609,
+      "sos": 1582.594,
+      "sos_adj": 1656.507,
+      "power": 1608.353,
       "rank": 3,
-      "mw_rating": 120.5,
-      "mw_points": 1446
+      "mw_rating": 120.8,
+      "mw_points": 1450
     },
     {
       "teamno": "44377",
@@ -68,12 +68,29 @@
       "pf": 496,
       "pa": 542,
       "diff": -46,
-      "sos": 1614.605,
-      "sos_adj": 1722.297,
-      "power": 1588.33,
+      "sos": 1617.919,
+      "sos_adj": 1725.611,
+      "power": 1589.158,
       "rank": 4,
-      "mw_rating": 98.1,
-      "mw_points": 1177
+      "mw_rating": 98.3,
+      "mw_points": 1179
+    },
+    {
+      "teamno": "43576",
+      "name": "D2K-North Quincy (chen)",
+      "town": null,
+      "wins": 3,
+      "losses": 10,
+      "ties": 0,
+      "pf": 441,
+      "pa": 601,
+      "diff": -160,
+      "sos": 1601.015,
+      "sos_adj": 1697.169,
+      "power": 1585.734,
+      "rank": 5,
+      "mw_rating": 94.7,
+      "mw_points": 1136
     },
     {
       "teamno": "43390",
@@ -88,26 +105,9 @@
       "sos": 1595.685,
       "sos_adj": 1693.185,
       "power": 1583.665,
-      "rank": 5,
-      "mw_rating": 118.1,
-      "mw_points": 1299
-    },
-    {
-      "teamno": "43576",
-      "name": "D2K-North Quincy (chen)",
-      "town": null,
-      "wins": 1,
-      "losses": 10,
-      "ties": 0,
-      "pf": 347,
-      "pa": 526,
-      "diff": -179,
-      "sos": 1605.602,
-      "sos_adj": 1701.057,
-      "power": 1554.396,
       "rank": 6,
-      "mw_rating": 82.6,
-      "mw_points": 826
+      "mw_rating": 118.3,
+      "mw_points": 1301
     }
   ]
 }

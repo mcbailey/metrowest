@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44465",
   "team_name": "D3J-Walpole (a)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 583,
-    "pa": 580,
-    "diff": 3,
-    "sos": 1546.044,
-    "sos_adj": 1596.044,
-    "power": 1530.444,
-    "rank": 3,
-    "mw_rating": 69.7,
-    "mw_points": 767,
+    "pf": 626,
+    "pa": 626,
+    "diff": 0,
+    "sos": 1545.591,
+    "sos_adj": 1595.591,
+    "power": 1520.618,
+    "rank": 5,
+    "mw_rating": 67.8,
+    "mw_points": 813,
     "divisionno": "7194",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374824",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:00 PM",
+      "location": "Bellingham High School",
+      "divisionno": "7194",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "43183",
+      "away_teamno": "44465",
+      "home_score": 46,
+      "away_score": 43,
+      "team_score": 43,
+      "opponent_score": 46,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43183",
+      "opponent_name": "D3J-Bellingham"
+    },
     {
       "gameno": "374816",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D3H-FLBC (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374824",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:00 PM",
-      "location": "Bellingham High School",
-      "divisionno": "7194",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "43183",
-      "away_teamno": "44465",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43183",
-      "opponent_name": "D3J-Bellingham"
-    }
-  ]
+  "future_games": []
 }

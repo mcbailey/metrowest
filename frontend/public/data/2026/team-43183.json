@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43183",
   "team_name": "D3J-Bellingham",
   "town": null,
   "summary": {
-    "wins": 4,
+    "wins": 5,
     "losses": 9,
     "ties": 0,
-    "pf": 577,
-    "pa": 650,
-    "diff": -73,
-    "sos": 1560.942,
-    "sos_adj": 1626.327,
-    "power": 1530.351,
-    "rank": 4,
-    "mw_rating": 76.7,
-    "mw_points": 844,
+    "pf": 623,
+    "pa": 693,
+    "diff": -70,
+    "sos": 1554.475,
+    "sos_adj": 1618.761,
+    "power": 1538.173,
+    "rank": 3,
+    "mw_rating": 79.9,
+    "mw_points": 959,
     "divisionno": "7194",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374824",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:00 PM",
+      "location": "Bellingham High School",
+      "divisionno": "7194",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "43183",
+      "away_teamno": "44465",
+      "home_score": 46,
+      "away_score": 43,
+      "team_score": 46,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44465",
+      "opponent_name": "D3J-Walpole (a)"
+    },
     {
       "gameno": "374837",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "D2K-Westborough"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374824",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:00 PM",
-      "location": "Bellingham High School",
-      "divisionno": "7194",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "43183",
-      "away_teamno": "44465",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44465",
-      "opponent_name": "D3J-Walpole (a)"
-    }
-  ]
+  "future_games": []
 }

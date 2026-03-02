@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "F",
   "grade": 4,
   "divisionno": "7557",
@@ -21,8 +21,8 @@
       "sos_adj": 1189.545,
       "power": 1392.461,
       "rank": 1,
-      "mw_rating": 22.8,
-      "mw_points": 274
+      "mw_rating": 23.1,
+      "mw_points": 277
     },
     {
       "teamno": "43787",
@@ -38,8 +38,8 @@
       "sos_adj": 1227.796,
       "power": 1346.639,
       "rank": 2,
-      "mw_rating": 16.5,
-      "mw_points": 198
+      "mw_rating": 16.7,
+      "mw_points": 200
     },
     {
       "teamno": "43499",
@@ -51,12 +51,12 @@
       "pf": 215,
       "pa": 197,
       "diff": 18,
-      "sos": 1377.172,
-      "sos_adj": 1250.249,
-      "power": 1332.882,
+      "sos": 1375.54,
+      "sos_adj": 1248.617,
+      "power": 1332.474,
       "rank": 3,
-      "mw_rating": 16.0,
-      "mw_points": 192
+      "mw_rating": 16.1,
+      "mw_points": 193
     },
     {
       "teamno": "45347",
@@ -72,8 +72,8 @@
       "sos_adj": 1262.297,
       "power": 1321.712,
       "rank": 4,
-      "mw_rating": 11.5,
-      "mw_points": 138
+      "mw_rating": 11.6,
+      "mw_points": 139
     },
     {
       "teamno": "44198",
@@ -89,42 +89,42 @@
       "sos_adj": 1212.116,
       "power": 1299.034,
       "rank": 5,
-      "mw_rating": 12.1,
-      "mw_points": 133
+      "mw_rating": 12.3,
+      "mw_points": 135
+    },
+    {
+      "teamno": "44415",
+      "name": "D7P-Dedham (grant)",
+      "town": null,
+      "wins": 3,
+      "losses": 9,
+      "ties": 0,
+      "pf": 155,
+      "pa": 240,
+      "diff": -85,
+      "sos": 1353.838,
+      "sos_adj": 1203.838,
+      "power": 1274.509,
+      "rank": 6,
+      "mw_rating": 5.7,
+      "mw_points": 68
     },
     {
       "teamno": "44790",
       "name": "D7P-Dover Sherborn (davis)",
       "town": null,
       "wins": 2,
-      "losses": 8,
-      "ties": 1,
-      "pf": 112,
-      "pa": 296,
-      "diff": -184,
-      "sos": 1362.802,
-      "sos_adj": 1212.802,
-      "power": 1265.644,
-      "rank": 6,
-      "mw_rating": 4.6,
-      "mw_points": 51
-    },
-    {
-      "teamno": "44415",
-      "name": "D7P-Dedham (grant)",
-      "town": null,
-      "wins": 2,
       "losses": 9,
-      "ties": 0,
-      "pf": 134,
-      "pa": 228,
-      "diff": -94,
-      "sos": 1362.183,
-      "sos_adj": 1212.183,
-      "power": 1260.683,
+      "ties": 1,
+      "pf": 124,
+      "pa": 317,
+      "diff": -193,
+      "sos": 1357.407,
+      "sos_adj": 1207.407,
+      "power": 1248.383,
       "rank": 7,
-      "mw_rating": 4.4,
-      "mw_points": 48
+      "mw_rating": 4.3,
+      "mw_points": 52
     }
   ]
 }

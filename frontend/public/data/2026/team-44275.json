@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44275",
   "team_name": "D6W-Wayland (silver)",
   "town": null,
   "summary": {
-    "wins": 4,
+    "wins": 5,
     "losses": 7,
     "ties": 0,
-    "pf": 365,
-    "pa": 395,
-    "diff": -30,
-    "sos": 1407.078,
-    "sos_adj": 1307.078,
-    "power": 1356.705,
+    "pf": 412,
+    "pa": 418,
+    "diff": -6,
+    "sos": 1397.065,
+    "sos_adj": 1297.065,
+    "power": 1368.464,
     "rank": 5,
-    "mw_rating": 17.6,
-    "mw_points": 176,
+    "mw_rating": 19.1,
+    "mw_points": 210,
     "divisionno": "7143",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380815",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:30 PM",
+      "location": "Bedford Davis School",
+      "divisionno": "7143",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "44444",
+      "away_teamno": "44275",
+      "home_score": 23,
+      "away_score": 47,
+      "team_score": 47,
+      "opponent_score": 23,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44444",
+      "opponent_name": "D6W-Bedford (black)"
+    },
     {
       "gameno": "380794",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D6W-Belmont (navy)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380815",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:30 PM",
-      "location": "Bedford Davis School",
-      "divisionno": "7143",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "44444",
-      "away_teamno": "44275",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44444",
-      "opponent_name": "D6W-Bedford (black)"
-    }
-  ]
+  "future_games": []
 }

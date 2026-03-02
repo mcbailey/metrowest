@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43941",
   "team_name": "D4Q-Brookline (red)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 232,
-    "pa": 225,
-    "diff": 7,
-    "sos": 1482.351,
-    "sos_adj": 1486.896,
-    "power": 1505.792,
-    "rank": 2,
-    "mw_rating": 56.7,
-    "mw_points": 624,
+    "pf": 241,
+    "pa": 251,
+    "diff": -10,
+    "sos": 1493.542,
+    "sos_adj": 1497.709,
+    "power": 1494.173,
+    "rank": 3,
+    "mw_rating": 54.1,
+    "mw_points": 649,
     "divisionno": "7323",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373804",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "BHS Tappan Gym1 (Large Gym)",
+      "divisionno": "7323",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "43941",
+      "away_teamno": "45634",
+      "home_score": 9,
+      "away_score": 26,
+      "team_score": 9,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45634",
+      "opponent_name": "D4Q-Hopkinton (walker)"
+    },
     {
       "gameno": "373793",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D3J-Belmont (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373804",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:00 PM",
-      "location": "BHS Tappan Gym1 (Large Gym)",
-      "divisionno": "7323",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "43941",
-      "away_teamno": "45634",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45634",
-      "opponent_name": "D4Q-Hopkinton (walker)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "F",
   "grade": 5,
   "divisionno": "7312",
@@ -21,8 +21,8 @@
       "sos_adj": 1385.186,
       "power": 1512.776,
       "rank": 1,
-      "mw_rating": 51.9,
-      "mw_points": 623
+      "mw_rating": 52.0,
+      "mw_points": 624
     },
     {
       "teamno": "43334",
@@ -34,12 +34,12 @@
       "pf": 353,
       "pa": 139,
       "diff": 214,
-      "sos": 1457.652,
-      "sos_adj": 1415.985,
-      "power": 1497.372,
+      "sos": 1459.137,
+      "sos_adj": 1417.47,
+      "power": 1497.743,
       "rank": 2,
-      "mw_rating": 51.7,
-      "mw_points": 620
+      "mw_rating": 51.8,
+      "mw_points": 621
     },
     {
       "teamno": "44211",
@@ -51,9 +51,9 @@
       "pf": 271,
       "pa": 253,
       "diff": 18,
-      "sos": 1453.956,
-      "sos_adj": 1408.122,
-      "power": 1440.638,
+      "sos": 1452.471,
+      "sos_adj": 1406.637,
+      "power": 1440.267,
       "rank": 3,
       "mw_rating": 33.3,
       "mw_points": 400
@@ -72,8 +72,8 @@
       "sos_adj": 1399.322,
       "power": 1414.449,
       "rank": 4,
-      "mw_rating": 26.1,
-      "mw_points": 287
+      "mw_rating": 26.2,
+      "mw_points": 288
     },
     {
       "teamno": "43303",
@@ -89,8 +89,8 @@
       "sos_adj": 1415.847,
       "power": 1408.116,
       "rank": 5,
-      "mw_rating": 31.2,
-      "mw_points": 343
+      "mw_rating": 31.3,
+      "mw_points": 344
     },
     {
       "teamno": "44597",
@@ -114,17 +114,17 @@
       "name": "D5J-North Attleboro (black)",
       "town": null,
       "wins": 1,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 90,
-      "pa": 334,
-      "diff": -244,
-      "sos": 1457.234,
-      "sos_adj": 1411.78,
-      "power": 1358.04,
+      "pf": 94,
+      "pa": 356,
+      "diff": -262,
+      "sos": 1455.792,
+      "sos_adj": 1409.959,
+      "power": 1344.221,
       "rank": 7,
-      "mw_rating": 15.5,
-      "mw_points": 170
+      "mw_rating": 15.0,
+      "mw_points": 180
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "F",
   "grade": 4,
   "divisionno": "7555",
@@ -21,8 +21,8 @@
       "sos_adj": 1225.997,
       "power": 1377.784,
       "rank": 1,
-      "mw_rating": 22.4,
-      "mw_points": 269
+      "mw_rating": 22.8,
+      "mw_points": 273
     },
     {
       "teamno": "43559",
@@ -34,12 +34,12 @@
       "pf": 237,
       "pa": 154,
       "diff": 83,
-      "sos": 1338.605,
-      "sos_adj": 1188.605,
-      "power": 1359.898,
+      "sos": 1336.528,
+      "sos_adj": 1186.528,
+      "power": 1359.379,
       "rank": 2,
-      "mw_rating": 18.7,
-      "mw_points": 206
+      "mw_rating": 18.9,
+      "mw_points": 208
     },
     {
       "teamno": "43828",
@@ -55,42 +55,42 @@
       "sos_adj": 1181.497,
       "power": 1353.113,
       "rank": 3,
-      "mw_rating": 16.3,
-      "mw_points": 195
+      "mw_rating": 16.4,
+      "mw_points": 197
     },
     {
       "teamno": "44430",
       "name": "D7M-Norton",
       "town": null,
-      "wins": 7,
-      "losses": 3,
+      "wins": 8,
+      "losses": 4,
       "ties": 0,
-      "pf": 146,
-      "pa": 149,
-      "diff": -3,
-      "sos": 1343.812,
-      "sos_adj": 1193.812,
-      "power": 1321.694,
+      "pf": 184,
+      "pa": 191,
+      "diff": -7,
+      "sos": 1342.202,
+      "sos_adj": 1192.202,
+      "power": 1315.202,
       "rank": 4,
-      "mw_rating": 15.2,
-      "mw_points": 152
+      "mw_rating": 14.4,
+      "mw_points": 173
     },
     {
       "teamno": "43848",
       "name": "D7M-Raynham (cunio)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 7,
       "ties": 0,
-      "pf": 162,
-      "pa": 169,
-      "diff": -7,
-      "sos": 1369.494,
-      "sos_adj": 1219.494,
-      "power": 1295.167,
+      "pf": 191,
+      "pa": 181,
+      "diff": 10,
+      "sos": 1365.906,
+      "sos_adj": 1215.906,
+      "power": 1313.451,
       "rank": 5,
-      "mw_rating": 9.2,
-      "mw_points": 101
+      "mw_rating": 10.3,
+      "mw_points": 123
     },
     {
       "teamno": "43135",
@@ -102,9 +102,9 @@
       "pf": 111,
       "pa": 317,
       "diff": -206,
-      "sos": 1390.978,
-      "sos_adj": 1249.312,
-      "power": 1241.236,
+      "sos": 1386.771,
+      "sos_adj": 1245.104,
+      "power": 1240.184,
       "rank": 6,
       "mw_rating": 1.7,
       "mw_points": 20

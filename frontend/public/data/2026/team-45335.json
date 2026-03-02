@@ -1,28 +1,28 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "45335",
   "team_name": "D4K-Milton (white)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 1,
     "ties": 0,
-    "pf": 453,
-    "pa": 264,
-    "diff": 189,
-    "sos": 1493.831,
-    "sos_adj": 1489.286,
-    "power": 1567.233,
+    "pf": 475,
+    "pa": 274,
+    "diff": 201,
+    "sos": 1489.816,
+    "sos_adj": 1481.482,
+    "power": 1568.513,
     "rank": 1,
-    "mw_rating": 75.3,
-    "mw_points": 828,
+    "mw_rating": 75.7,
+    "mw_points": 833,
     "divisionno": "7258",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 2
+    "games_played_total": 12,
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -178,6 +178,25 @@
       "opponent_name": "D4Q-Wayland (black)"
     },
     {
+      "gameno": "392108",
+      "date": "2026-01-02",
+      "dow": "Fri",
+      "starttime": "7:20 PM",
+      "location": "Dana Barros Basketball Club Court 4",
+      "divisionno": "7252",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "45337",
+      "away_teamno": "45335",
+      "home_score": 10,
+      "away_score": 22,
+      "team_score": 22,
+      "opponent_score": 10,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45337",
+      "opponent_name": "D5K-Milton (silver)"
+    },
+    {
       "gameno": "377217",
       "date": "2025-12-21",
       "dow": "Sun",
@@ -236,25 +255,6 @@
     }
   ],
   "future_games": [
-    {
-      "gameno": "392108",
-      "date": "2026-01-02",
-      "dow": "Fri",
-      "starttime": "7:20 PM",
-      "location": "Dana Barros Basketball Club Court 4",
-      "divisionno": "7252",
-      "division_name": "7th Girls - Division 5",
-      "home_teamno": "45337",
-      "away_teamno": "45335",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45337",
-      "opponent_name": "D5K-Milton (silver)"
-    },
     {
       "gameno": "377300",
       "date": "2026-02-22",

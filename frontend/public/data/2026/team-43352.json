@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43352",
   "team_name": "D2BH-Norwood (gold)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 497,
-    "pa": 529,
-    "diff": -32,
-    "sos": 1589.309,
-    "sos_adj": 1689.309,
-    "power": 1600.619,
+    "pf": 529,
+    "pa": 572,
+    "diff": -43,
+    "sos": 1591.46,
+    "sos_adj": 1691.46,
+    "power": 1588.21,
     "rank": 5,
-    "mw_rating": 104.9,
-    "mw_points": 1049,
+    "mw_rating": 101.7,
+    "mw_points": 1119,
     "divisionno": "7249",
     "division_name": "8th Girls - Division 2",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374031",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:30 PM",
+      "location": "Norwood Savage Center(Sunday)",
+      "divisionno": "7249",
+      "division_name": "8th Girls - Division 2",
+      "home_teamno": "43352",
+      "away_teamno": "44606",
+      "home_score": 32,
+      "away_score": 43,
+      "team_score": 32,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44606",
+      "opponent_name": "D2BH-King Philip"
+    },
     {
       "gameno": "374020",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D2BJ-Westwood"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374031",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:30 PM",
-      "location": "Norwood Savage Center(Sunday)",
-      "divisionno": "7249",
-      "division_name": "8th Girls - Division 2",
-      "home_teamno": "43352",
-      "away_teamno": "44606",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44606",
-      "opponent_name": "D2BH-King Philip"
-    }
-  ]
+  "future_games": []
 }

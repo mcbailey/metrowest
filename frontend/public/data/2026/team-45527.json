@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "45527",
   "team_name": "2NDH-King Philip (gibbs)",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1604.565,
     "power": 1622.082,
     "rank": 2,
-    "mw_rating": 101.0,
-    "mw_points": 1111,
+    "mw_rating": 101.1,
+    "mw_points": 1112,
     "divisionno": "7629",
     "division_name": "3rd Boys - Division 3",
     "grade": 3,
@@ -244,7 +244,7 @@
       "location": "Jr Mass Premier-1",
       "divisionno": "7629",
       "division_name": "3rd Boys - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "45520",
       "away_teamno": "45527",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45520",
+      "opponent_name": "2NDH-Mass Premier (blue)"
     }
   ]
 }

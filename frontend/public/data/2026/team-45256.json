@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "45256",
   "team_name": "D5W-Waltham Boys (white)",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 320,
-    "pa": 387,
-    "diff": -67,
-    "sos": 1442.191,
-    "sos_adj": 1392.191,
-    "power": 1407.041,
-    "rank": 4,
-    "mw_rating": 22.1,
-    "mw_points": 243,
+    "pf": 342,
+    "pa": 413,
+    "diff": -71,
+    "sos": 1442.125,
+    "sos_adj": 1392.125,
+    "power": 1396.789,
+    "rank": 5,
+    "mw_rating": 21.1,
+    "mw_points": 253,
     "divisionno": "7296",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376982",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:15 PM",
+      "location": "BHS Tappan Gym1 (Large Gym)",
+      "divisionno": "7296",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "43934",
+      "away_teamno": "45256",
+      "home_score": 26,
+      "away_score": 22,
+      "team_score": 22,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43934",
+      "opponent_name": "D5T-Brookline (white)"
+    },
     {
       "gameno": "376975",
       "date": "2026-02-28",
@@ -235,25 +254,5 @@
       "opponent_name": "D5W-Belmont (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376982",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:15 PM",
-      "location": "BHS Tappan Gym1 (Large Gym)",
-      "divisionno": "7296",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "43934",
-      "away_teamno": "45256",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43934",
-      "opponent_name": "D5T-Brookline (white)"
-    }
-  ]
+  "future_games": []
 }

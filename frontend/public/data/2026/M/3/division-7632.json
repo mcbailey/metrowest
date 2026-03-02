@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 3,
   "divisionno": "7632",
@@ -21,8 +21,8 @@
       "sos_adj": 1728.673,
       "power": 1665.197,
       "rank": 1,
-      "mw_rating": 147.2,
-      "mw_points": 1766
+      "mw_rating": 147.3,
+      "mw_points": 1767
     },
     {
       "teamno": "44572",
@@ -34,9 +34,9 @@
       "pf": 395,
       "pa": 374,
       "diff": 21,
-      "sos": 1596.391,
-      "sos_adj": 1696.391,
-      "power": 1657.995,
+      "sos": 1595.964,
+      "sos_adj": 1695.964,
+      "power": 1657.888,
       "rank": 2,
       "mw_rating": 127.4,
       "mw_points": 1401
@@ -55,8 +55,8 @@
       "sos_adj": 1649.915,
       "power": 1651.369,
       "rank": 3,
-      "mw_rating": 99.2,
-      "mw_points": 1091
+      "mw_rating": 99.3,
+      "mw_points": 1092
     },
     {
       "teamno": "44656",
@@ -68,29 +68,29 @@
       "pf": 389,
       "pa": 324,
       "diff": 65,
-      "sos": 1580.286,
-      "sos_adj": 1653.013,
-      "power": 1640.457,
+      "sos": 1580.713,
+      "sos_adj": 1653.441,
+      "power": 1640.564,
       "rank": 4,
-      "mw_rating": 129.8,
-      "mw_points": 1298
+      "mw_rating": 130.0,
+      "mw_points": 1300
     },
     {
       "teamno": "45506",
       "name": "D2N-Mansfield (green)",
       "town": null,
       "wins": 5,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pf": 379,
-      "pa": 362,
-      "diff": 17,
-      "sos": 1610.777,
-      "sos_adj": 1710.777,
-      "power": 1613.234,
+      "pf": 409,
+      "pa": 393,
+      "diff": 16,
+      "sos": 1610.375,
+      "sos_adj": 1714.92,
+      "power": 1610.745,
       "rank": 5,
-      "mw_rating": 114.5,
-      "mw_points": 1145
+      "mw_rating": 113.2,
+      "mw_points": 1245
     },
     {
       "teamno": "43212",
@@ -102,12 +102,12 @@
       "pf": 464,
       "pa": 474,
       "diff": -10,
-      "sos": 1602.148,
-      "sos_adj": 1702.148,
-      "power": 1598.869,
+      "sos": 1601.721,
+      "sos_adj": 1701.721,
+      "power": 1598.762,
       "rank": 6,
-      "mw_rating": 104.1,
-      "mw_points": 1145
+      "mw_rating": 104.2,
+      "mw_points": 1146
     },
     {
       "teamno": "44655",
@@ -119,9 +119,9 @@
       "pf": 375,
       "pa": 389,
       "diff": -14,
-      "sos": 1572.247,
-      "sos_adj": 1649.52,
-      "power": 1593.179,
+      "sos": 1571.82,
+      "sos_adj": 1649.093,
+      "power": 1593.073,
       "rank": 7,
       "mw_rating": 85.8,
       "mw_points": 944

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43251",
   "team_name": "D4H-Dartmouth (white)",
   "town": null,
   "summary": {
     "wins": 12,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 919,
-    "pa": 819,
-    "diff": 100,
-    "sos": 1511.44,
-    "sos_adj": 1522.804,
-    "power": 1517.334,
+    "pf": 948,
+    "pa": 869,
+    "diff": 79,
+    "sos": 1513.885,
+    "sos_adj": 1524.755,
+    "power": 1500.175,
     "rank": 5,
-    "mw_rating": 62.9,
-    "mw_points": 692,
+    "mw_rating": 59.8,
+    "mw_points": 718,
     "divisionno": "7188",
     "division_name": "7th Boys - Division 4",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 22,
-    "games_scheduled_total": 1
+    "games_played_total": 23,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379100",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:35 PM",
+      "location": "Stoughton O'Donnell Middle School",
+      "divisionno": "7189",
+      "division_name": "7th Boys - Division 4",
+      "home_teamno": "45583",
+      "away_teamno": "43251",
+      "home_score": 50,
+      "away_score": 29,
+      "team_score": 29,
+      "opponent_score": 50,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45583",
+      "opponent_name": "D4J-Stoughton"
+    },
     {
       "gameno": "379104",
       "date": "2026-02-22",
@@ -444,25 +463,5 @@
       "opponent_name": "Plymouth North (White/Ollerhead) 7B D3"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379100",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:35 PM",
-      "location": "Stoughton O'Donnell Middle School",
-      "divisionno": "7189",
-      "division_name": "7th Boys - Division 4",
-      "home_teamno": "45583",
-      "away_teamno": "43251",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45583",
-      "opponent_name": "D4J-Stoughton"
-    }
-  ]
+  "future_games": []
 }

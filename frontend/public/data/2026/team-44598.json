@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44598",
   "team_name": "D3H-King Philip",
   "town": null,
   "summary": {
-    "wins": 13,
+    "wins": 14,
     "losses": 1,
     "ties": 0,
-    "pf": 496,
-    "pa": 321,
-    "diff": 175,
-    "sos": 1542.862,
-    "sos_adj": 1592.862,
-    "power": 1634.055,
+    "pf": 539,
+    "pa": 349,
+    "diff": 190,
+    "sos": 1537.47,
+    "sos_adj": 1587.47,
+    "power": 1641.196,
     "rank": 1,
-    "mw_rating": 112.8,
-    "mw_points": 1241,
+    "mw_rating": 112.9,
+    "mw_points": 1355,
     "divisionno": "7278",
     "division_name": "6th Girls - Division 3",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "375921",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:20 PM",
+      "location": "King Philip Middle School (Norfolk)",
+      "divisionno": "7278",
+      "division_name": "6th Girls - Division 3",
+      "home_teamno": "44598",
+      "away_teamno": "43552",
+      "home_score": 43,
+      "away_score": 28,
+      "team_score": 43,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43552",
+      "opponent_name": "D3H-Bridgewater (rooney)"
+    },
     {
       "gameno": "392379",
       "date": "2026-02-28",
@@ -292,25 +311,5 @@
       "opponent_name": "D3H-Attleboro (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "375921",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:20 PM",
-      "location": "King Philip Middle School (Norfolk)",
-      "divisionno": "7278",
-      "division_name": "6th Girls - Division 3",
-      "home_teamno": "44598",
-      "away_teamno": "43552",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43552",
-      "opponent_name": "D3H-Bridgewater (rooney)"
-    }
-  ]
+  "future_games": []
 }

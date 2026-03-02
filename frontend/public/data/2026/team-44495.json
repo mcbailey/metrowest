@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44495",
   "team_name": "D4H-Wareham (silvia)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 479,
-    "pa": 344,
-    "diff": 135,
-    "sos": 1493.508,
-    "sos_adj": 1493.508,
-    "power": 1537.727,
+    "pf": 509,
+    "pa": 377,
+    "diff": 132,
+    "sos": 1492.903,
+    "sos_adj": 1492.903,
+    "power": 1524.647,
     "rank": 2,
-    "mw_rating": 67.3,
-    "mw_points": 740,
+    "mw_rating": 63.8,
+    "mw_points": 766,
     "divisionno": "7221",
     "division_name": "6th Boys - Division 4",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "376406",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:45 PM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7221",
+      "division_name": "6th Boys - Division 4",
+      "home_teamno": "44641",
+      "away_teamno": "44495",
+      "home_score": 33,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 33,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44641",
+      "opponent_name": "D4H-Attleboro (white)"
+    },
     {
       "gameno": "376400",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D4H-Swansea"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376406",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:45 PM",
-      "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7221",
-      "division_name": "6th Boys - Division 4",
-      "home_teamno": "44641",
-      "away_teamno": "44495",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44641",
-      "opponent_name": "D4H-Attleboro (white)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "F",
   "grade": 3,
   "divisionno": "7638",
@@ -21,8 +21,8 @@
       "sos_adj": 1696.037,
       "power": 1675.608,
       "rank": 1,
-      "mw_rating": 136.4,
-      "mw_points": 1637
+      "mw_rating": 136.5,
+      "mw_points": 1638
     },
     {
       "teamno": "44590",
@@ -34,12 +34,12 @@
       "pf": 227,
       "pa": 214,
       "diff": 13,
-      "sos": 1584.04,
-      "sos_adj": 1661.312,
-      "power": 1605.997,
+      "sos": 1585.33,
+      "sos_adj": 1662.602,
+      "power": 1606.319,
       "rank": 2,
-      "mw_rating": 103.5,
-      "mw_points": 1138
+      "mw_rating": 103.6,
+      "mw_points": 1139
     },
     {
       "teamno": "44394",
@@ -51,29 +51,29 @@
       "pf": 376,
       "pa": 377,
       "diff": -1,
-      "sos": 1615.433,
-      "sos_adj": 1723.766,
-      "power": 1583.639,
+      "sos": 1614.25,
+      "sos_adj": 1722.583,
+      "power": 1583.343,
       "rank": 3,
-      "mw_rating": 119.9,
-      "mw_points": 1439
+      "mw_rating": 120.0,
+      "mw_points": 1440
     },
     {
       "teamno": "45157",
       "name": "D3N-Waltham Girls",
       "town": null,
       "wins": 3,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 184,
-      "pa": 290,
-      "diff": -106,
-      "sos": 1570.441,
-      "sos_adj": 1653.774,
-      "power": 1539.646,
+      "pf": 198,
+      "pa": 324,
+      "diff": -126,
+      "sos": 1578.999,
+      "sos_adj": 1668.999,
+      "power": 1532.81,
       "rank": 4,
-      "mw_rating": 85.9,
-      "mw_points": 773
+      "mw_rating": 87.3,
+      "mw_points": 873
     },
     {
       "teamno": "44908",

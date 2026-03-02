@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "F",
   "grade": 8,
   "divisionno": "7246",
@@ -17,12 +17,29 @@
       "pf": 848,
       "pa": 686,
       "diff": 162,
-      "sos": 1539.992,
-      "sos_adj": 1587.719,
-      "power": 1655.932,
+      "sos": 1540.599,
+      "sos_adj": 1588.326,
+      "power": 1656.084,
       "rank": 1,
-      "mw_rating": 116.5,
-      "mw_points": 1281
+      "mw_rating": 116.6,
+      "mw_points": 1283
+    },
+    {
+      "teamno": "43596",
+      "name": "D3H-North Quincy (mergel)",
+      "town": null,
+      "wins": 8,
+      "losses": 3,
+      "ties": 0,
+      "pf": 438,
+      "pa": 351,
+      "diff": 87,
+      "sos": 1555.104,
+      "sos_adj": 1605.104,
+      "power": 1602.188,
+      "rank": 2,
+      "mw_rating": 96.3,
+      "mw_points": 1059
     },
     {
       "teamno": "44479",
@@ -34,29 +51,12 @@
       "pf": 457,
       "pa": 491,
       "diff": -34,
-      "sos": 1573.858,
-      "sos_adj": 1639.243,
-      "power": 1598.258,
-      "rank": 2,
-      "mw_rating": 96.8,
-      "mw_points": 1162
-    },
-    {
-      "teamno": "43596",
-      "name": "D3H-North Quincy (mergel)",
-      "town": null,
-      "wins": 7,
-      "losses": 3,
-      "ties": 0,
-      "pf": 402,
-      "pa": 319,
-      "diff": 83,
-      "sos": 1555.286,
-      "sos_adj": 1605.286,
-      "power": 1592.213,
+      "sos": 1574.886,
+      "sos_adj": 1640.271,
+      "power": 1598.515,
       "rank": 3,
-      "mw_rating": 94.1,
-      "mw_points": 941
+      "mw_rating": 96.9,
+      "mw_points": 1163
     },
     {
       "teamno": "43308",
@@ -72,8 +72,8 @@
       "sos_adj": 1618.462,
       "power": 1557.413,
       "rank": 4,
-      "mw_rating": 68.1,
-      "mw_points": 885
+      "mw_rating": 68.2,
+      "mw_points": 887
     },
     {
       "teamno": "43892",

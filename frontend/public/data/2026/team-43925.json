@@ -1,30 +1,68 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43925",
   "team_name": "D1-Taunton (doherty)",
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 11,
+    "losses": 13,
     "ties": 0,
-    "pf": 406,
-    "pa": 594,
-    "diff": -188,
-    "sos": 1638.39,
-    "sos_adj": 1753.775,
-    "power": 1619.51,
-    "rank": 7,
-    "mw_rating": 103.0,
-    "mw_points": 1133,
+    "pf": 466,
+    "pa": 710,
+    "diff": -244,
+    "sos": 1630.491,
+    "sos_adj": 1740.491,
+    "power": 1581.896,
+    "rank": 8,
+    "mw_rating": 103.6,
+    "mw_points": 1243,
     "divisionno": "7077",
     "division_name": "5th Boys - Division 1",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374264",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:15 PM",
+      "location": "Hingham Middle School",
+      "divisionno": "7077",
+      "division_name": "5th Boys - Division 1",
+      "home_teamno": "43625",
+      "away_teamno": "43925",
+      "home_score": 58,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 58,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43625",
+      "opponent_name": "D1-Hingham (black)"
+    },
+    {
+      "gameno": "394019",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:15 PM",
+      "location": "Hingham Middle School",
+      "divisionno": "7077",
+      "division_name": "5th Boys - Division 1",
+      "home_teamno": "44952",
+      "away_teamno": "43925",
+      "home_score": 58,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 58,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44952",
+      "opponent_name": "Hingham (Black) 5B D1"
+    },
     {
       "gameno": "376777",
       "date": "2026-02-22",
@@ -273,25 +311,5 @@
       "opponent_name": "D2AJ-King Philip"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374264",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:15 PM",
-      "location": "Hingham Middle School",
-      "divisionno": "7077",
-      "division_name": "5th Boys - Division 1",
-      "home_teamno": "43625",
-      "away_teamno": "43925",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43625",
-      "opponent_name": "D1-Hingham (black)"
-    }
-  ]
+  "future_games": []
 }

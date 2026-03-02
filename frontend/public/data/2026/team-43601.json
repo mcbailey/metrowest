@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43601",
   "team_name": "D6Q-North Quincy (zapata)",
   "town": null,
   "summary": {
-    "wins": 4,
+    "wins": 5,
     "losses": 6,
     "ties": 0,
-    "pf": 140,
-    "pa": 236,
-    "diff": -96,
-    "sos": 1460.572,
-    "sos_adj": 1420.572,
-    "power": 1380.598,
+    "pf": 154,
+    "pa": 247,
+    "diff": -93,
+    "sos": 1449.429,
+    "sos_adj": 1403.975,
+    "power": 1385.202,
     "rank": 4,
     "mw_rating": 33.7,
-    "mw_points": 337,
+    "mw_points": 371,
     "divisionno": "7551",
     "division_name": "4th Girls - Division 6",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "384342",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:20 PM",
+      "location": "Watertown Middle School",
+      "divisionno": "7551",
+      "division_name": "4th Girls - Division 6",
+      "home_teamno": "44080",
+      "away_teamno": "43601",
+      "home_score": 11,
+      "away_score": 14,
+      "team_score": 14,
+      "opponent_score": 11,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44080",
+      "opponent_name": "D6Q-Watertown (white)"
+    },
     {
       "gameno": "384331",
       "date": "2026-02-21",
@@ -216,25 +235,5 @@
       "opponent_name": "D4N-Southboro (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "384342",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:20 PM",
-      "location": "Watertown Middle School",
-      "divisionno": "7551",
-      "division_name": "4th Girls - Division 6",
-      "home_teamno": "44080",
-      "away_teamno": "43601",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44080",
-      "opponent_name": "D6Q-Watertown (white)"
-    }
-  ]
+  "future_games": []
 }

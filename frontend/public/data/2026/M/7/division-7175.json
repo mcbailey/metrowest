@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 7,
   "divisionno": "7175",
@@ -17,12 +17,12 @@
       "pf": 458,
       "pa": 340,
       "diff": 118,
-      "sos": 1400.035,
-      "sos_adj": 1313.672,
-      "power": 1419.929,
+      "sos": 1398.589,
+      "sos_adj": 1312.225,
+      "power": 1419.567,
       "rank": 1,
-      "mw_rating": 29.6,
-      "mw_points": 325
+      "mw_rating": 29.7,
+      "mw_points": 327
     },
     {
       "teamno": "43898",
@@ -34,12 +34,12 @@
       "pf": 433,
       "pa": 422,
       "diff": 11,
-      "sos": 1401.009,
-      "sos_adj": 1311.723,
-      "power": 1384.048,
+      "sos": 1402.145,
+      "sos_adj": 1312.86,
+      "power": 1384.332,
       "rank": 2,
-      "mw_rating": 24.5,
-      "mw_points": 294
+      "mw_rating": 24.6,
+      "mw_points": 295
     },
     {
       "teamno": "45649",
@@ -51,9 +51,9 @@
       "pf": 346,
       "pa": 347,
       "diff": -1,
-      "sos": 1398.824,
-      "sos_adj": 1303.369,
-      "power": 1362.577,
+      "sos": 1397.377,
+      "sos_adj": 1301.923,
+      "power": 1362.216,
       "rank": 3,
       "mw_rating": 15.4,
       "mw_points": 169
@@ -72,25 +72,25 @@
       "sos_adj": 1299.235,
       "power": 1347.789,
       "rank": 4,
-      "mw_rating": 10.1,
-      "mw_points": 111
+      "mw_rating": 10.2,
+      "mw_points": 112
     },
     {
       "teamno": "44171",
       "name": "D6K-Holliston (sgarano - white)",
       "town": null,
       "wins": 1,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 153,
-      "pa": 381,
-      "diff": -228,
-      "sos": 1405.105,
-      "sos_adj": 1305.105,
-      "power": 1320.41,
+      "pf": 161,
+      "pa": 424,
+      "diff": -263,
+      "sos": 1409.887,
+      "sos_adj": 1314.887,
+      "power": 1310.921,
       "rank": 5,
-      "mw_rating": 7.9,
-      "mw_points": 71
+      "mw_rating": 8.1,
+      "mw_points": 81
     },
     {
       "teamno": "44333",
@@ -102,9 +102,9 @@
       "pf": 154,
       "pa": 539,
       "diff": -385,
-      "sos": 1413.329,
-      "sos_adj": 1322.42,
-      "power": 1293.985,
+      "sos": 1411.883,
+      "sos_adj": 1320.974,
+      "power": 1293.624,
       "rank": 6,
       "mw_rating": 5.9,
       "mw_points": 65

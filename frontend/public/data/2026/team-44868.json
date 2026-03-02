@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44868",
   "team_name": "D2H-North Attleboro (red)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 587,
-    "pa": 514,
-    "diff": 73,
-    "sos": 1592.398,
-    "sos_adj": 1684.705,
-    "power": 1657.606,
-    "rank": 1,
-    "mw_rating": 139.2,
-    "mw_points": 1531,
+    "pf": 627,
+    "pa": 574,
+    "diff": 53,
+    "sos": 1597.489,
+    "sos_adj": 1690.346,
+    "power": 1643.753,
+    "rank": 2,
+    "mw_rating": 133.4,
+    "mw_points": 1601,
     "divisionno": "7198",
     "division_name": "7th Boys - Division 2",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374746",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:50 PM",
+      "location": "North Quincy High School (Ct 1)",
+      "divisionno": "7199",
+      "division_name": "7th Boys - Division 2",
+      "home_teamno": "43582",
+      "away_teamno": "44868",
+      "home_score": 60,
+      "away_score": 40,
+      "team_score": 40,
+      "opponent_score": 60,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43582",
+      "opponent_name": "D2J-North Quincy (tim murphy)"
+    },
     {
       "gameno": "374731",
       "date": "2026-02-22",
@@ -273,25 +292,5 @@
       "opponent_name": "East Greenwich (Maroon) 7B D1"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374746",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:50 PM",
-      "location": "North Quincy High School (Ct 1)",
-      "divisionno": "7199",
-      "division_name": "7th Boys - Division 2",
-      "home_teamno": "43582",
-      "away_teamno": "44868",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43582",
-      "opponent_name": "D2J-North Quincy (tim murphy)"
-    }
-  ]
+  "future_games": []
 }

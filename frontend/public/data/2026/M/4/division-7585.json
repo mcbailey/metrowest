@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 4,
   "divisionno": "7585",
@@ -21,8 +21,8 @@
       "sos_adj": 1303.773,
       "power": 1429.523,
       "rank": 1,
-      "mw_rating": 29.9,
-      "mw_points": 299
+      "mw_rating": 30.0,
+      "mw_points": 300
     },
     {
       "teamno": "43350",
@@ -34,29 +34,29 @@
       "pf": 355,
       "pa": 340,
       "diff": 15,
-      "sos": 1390.573,
-      "sos_adj": 1298.266,
-      "power": 1407.153,
+      "sos": 1390.206,
+      "sos_adj": 1297.898,
+      "power": 1407.061,
       "rank": 2,
       "mw_rating": 24.8,
-      "mw_points": 297
+      "mw_points": 298
     },
     {
       "teamno": "43839",
       "name": "D6N-Raynham (lyons)",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 7,
       "ties": 0,
-      "pf": 235,
-      "pa": 290,
-      "diff": -55,
-      "sos": 1404.127,
-      "sos_adj": 1304.127,
-      "power": 1334.304,
+      "pf": 261,
+      "pa": 315,
+      "diff": -54,
+      "sos": 1391.823,
+      "sos_adj": 1291.823,
+      "power": 1334.813,
       "rank": 3,
-      "mw_rating": 13.7,
-      "mw_points": 137
+      "mw_rating": 15.3,
+      "mw_points": 168
     },
     {
       "teamno": "43967",
@@ -68,9 +68,9 @@
       "pf": 285,
       "pa": 371,
       "diff": -86,
-      "sos": 1390.698,
-      "sos_adj": 1290.698,
-      "power": 1326.405,
+      "sos": 1390.263,
+      "sos_adj": 1290.263,
+      "power": 1326.296,
       "rank": 4,
       "mw_rating": 12.5,
       "mw_points": 137
@@ -80,17 +80,17 @@
       "name": "D6N-North Attleboro (black)",
       "town": null,
       "wins": 0,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 192,
-      "pa": 368,
-      "diff": -176,
-      "sos": 1408.911,
-      "sos_adj": 1308.911,
-      "power": 1285.984,
+      "pf": 217,
+      "pa": 394,
+      "diff": -177,
+      "sos": 1404.329,
+      "sos_adj": 1304.329,
+      "power": 1281.252,
       "rank": 5,
       "mw_rating": 5.0,
-      "mw_points": 55
+      "mw_points": 60
     }
   ]
 }

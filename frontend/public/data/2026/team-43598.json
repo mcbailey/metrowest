@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43598",
   "team_name": "D5R-North Quincy (miller)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 334,
-    "pa": 348,
-    "diff": -14,
-    "sos": 1424.945,
-    "sos_adj": 1364.945,
-    "power": 1424.041,
-    "rank": 5,
-    "mw_rating": 23.7,
-    "mw_points": 237,
+    "pf": 364,
+    "pa": 394,
+    "diff": -30,
+    "sos": 1429.1,
+    "sos_adj": 1370.009,
+    "power": 1407.885,
+    "rank": 6,
+    "mw_rating": 22.5,
+    "mw_points": 247,
     "divisionno": "7582",
     "division_name": "4th Boys - Division 5",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "388363",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:15 PM",
+      "location": "Ashland High School",
+      "divisionno": "7583",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "44629",
+      "away_teamno": "43598",
+      "home_score": 46,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 46,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44629",
+      "opponent_name": "D5T-Ashland (blue)"
+    },
     {
       "gameno": "388362",
       "date": "2026-02-15",
@@ -216,25 +235,5 @@
       "opponent_name": "D5R-Needham (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "388363",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:15 PM",
-      "location": "Ashland High School",
-      "divisionno": "7583",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "44629",
-      "away_teamno": "43598",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44629",
-      "opponent_name": "D5T-Ashland (blue)"
-    }
-  ]
+  "future_games": []
 }

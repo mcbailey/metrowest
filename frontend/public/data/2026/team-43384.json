@@ -1,28 +1,28 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43384",
   "team_name": "D1J-Natick",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 12,
+    "losses": 13,
     "ties": 0,
-    "pf": 797,
-    "pa": 908,
-    "diff": -111,
-    "sos": 1622.582,
-    "sos_adj": 1739.248,
-    "power": 1622.151,
+    "pf": 833,
+    "pa": 947,
+    "diff": -114,
+    "sos": 1619.395,
+    "sos_adj": 1730.759,
+    "power": 1608.735,
     "rank": 7,
-    "mw_rating": 143.8,
-    "mw_points": 1725,
+    "mw_rating": 144.3,
+    "mw_points": 1732,
     "divisionno": "7235",
     "division_name": "6th Boys - Division 1",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 21,
-    "games_scheduled_total": 1
+    "games_played_total": 22,
+    "games_scheduled_total": 0
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": true,
       "opponent_teamno": "44301",
       "opponent_name": "D1J-Belmont (maroon)"
+    },
+    {
+      "gameno": "393417",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "10:30 AM",
+      "location": "Wilson Middle School - Natick",
+      "divisionno": "7235",
+      "division_name": "6th Boys - Division 1",
+      "home_teamno": "43384",
+      "away_teamno": "46029",
+      "home_score": 36,
+      "away_score": 39,
+      "team_score": 36,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "46029",
+      "opponent_name": "Grafton (GREEN) 6B D1S"
     },
     {
       "gameno": "374401",
@@ -425,25 +444,5 @@
       "opponent_name": "D3M-Northboro (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "393417",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "10:30 AM",
-      "location": "Wilson Middle School - Natick",
-      "divisionno": "7235",
-      "division_name": "6th Boys - Division 1",
-      "home_teamno": "43384",
-      "away_teamno": "46029",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "46029",
-      "opponent_name": "Grafton (GREEN) 6B D1S"
-    }
-  ]
+  "future_games": []
 }

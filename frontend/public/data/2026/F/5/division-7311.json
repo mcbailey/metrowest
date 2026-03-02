@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "F",
   "grade": 5,
   "divisionno": "7311",
@@ -21,8 +21,8 @@
       "sos_adj": 1389.077,
       "power": 1509.132,
       "rank": 1,
-      "mw_rating": 45.9,
-      "mw_points": 551
+      "mw_rating": 46.0,
+      "mw_points": 552
     },
     {
       "teamno": "44945",
@@ -34,12 +34,12 @@
       "pf": 254,
       "pa": 151,
       "diff": 103,
-      "sos": 1447.521,
-      "sos_adj": 1397.521,
-      "power": 1481.361,
+      "sos": 1449.828,
+      "sos_adj": 1399.828,
+      "power": 1481.938,
       "rank": 2,
-      "mw_rating": 48.1,
-      "mw_points": 577
+      "mw_rating": 48.2,
+      "mw_points": 578
     },
     {
       "teamno": "43136",
@@ -55,8 +55,8 @@
       "sos_adj": 1396.873,
       "power": 1474.321,
       "rank": 3,
-      "mw_rating": 35.9,
-      "mw_points": 431
+      "mw_rating": 36.0,
+      "mw_points": 432
     },
     {
       "teamno": "43173",
@@ -72,25 +72,25 @@
       "sos_adj": 1415.383,
       "power": 1467.502,
       "rank": 4,
-      "mw_rating": 39.4,
-      "mw_points": 473
+      "mw_rating": 39.5,
+      "mw_points": 474
     },
     {
       "teamno": "43550",
       "name": "D5H-Bridgewater (mcdonald)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 9,
       "ties": 0,
-      "pf": 152,
-      "pa": 257,
-      "diff": -105,
-      "sos": 1459.271,
-      "sos_adj": 1409.271,
-      "power": 1394.048,
+      "pf": 174,
+      "pa": 261,
+      "diff": -87,
+      "sos": 1453.534,
+      "sos_adj": 1403.534,
+      "power": 1413.373,
       "rank": 5,
-      "mw_rating": 17.7,
-      "mw_points": 195
+      "mw_rating": 20.6,
+      "mw_points": 247
     },
     {
       "teamno": "44454",
@@ -106,8 +106,8 @@
       "sos_adj": 1406.771,
       "power": 1389.467,
       "rank": 6,
-      "mw_rating": 24.4,
-      "mw_points": 293
+      "mw_rating": 24.5,
+      "mw_points": 294
     },
     {
       "teamno": "43847",

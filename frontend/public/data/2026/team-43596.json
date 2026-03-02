@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43596",
   "team_name": "D3H-North Quincy (mergel)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 3,
     "ties": 0,
-    "pf": 402,
-    "pa": 319,
-    "diff": 83,
-    "sos": 1555.286,
-    "sos_adj": 1605.286,
-    "power": 1592.213,
-    "rank": 3,
-    "mw_rating": 94.1,
-    "mw_points": 941,
+    "pf": 438,
+    "pa": 351,
+    "diff": 87,
+    "sos": 1555.104,
+    "sos_adj": 1605.104,
+    "power": 1602.188,
+    "rank": 2,
+    "mw_rating": 96.3,
+    "mw_points": 1059,
     "divisionno": "7246",
     "division_name": "8th Girls - Division 3",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380142",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:50 AM",
+      "location": "Dedham High - Gym 1",
+      "divisionno": "7247",
+      "division_name": "8th Girls - Division 3",
+      "home_teamno": "44412",
+      "away_teamno": "43596",
+      "home_score": 32,
+      "away_score": 36,
+      "team_score": 36,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44412",
+      "opponent_name": "D3J-Dedham (anderson)"
+    },
     {
       "gameno": "380104",
       "date": "2026-02-25",
@@ -216,25 +235,5 @@
       "opponent_name": "D3J-Milton (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380142",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:50 AM",
-      "location": "Dedham High - Gym 1",
-      "divisionno": "7247",
-      "division_name": "8th Girls - Division 3",
-      "home_teamno": "44412",
-      "away_teamno": "43596",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44412",
-      "opponent_name": "D3J-Dedham (anderson)"
-    }
-  ]
+  "future_games": []
 }

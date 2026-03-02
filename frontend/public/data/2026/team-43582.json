@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43582",
   "team_name": "D2J-North Quincy (tim murphy)",
   "town": null,
   "summary": {
-    "wins": 13,
+    "wins": 14,
     "losses": 5,
     "ties": 0,
-    "pf": 944,
-    "pa": 858,
-    "diff": 86,
-    "sos": 1565.712,
-    "sos_adj": 1632.379,
-    "power": 1629.812,
+    "pf": 1004,
+    "pa": 898,
+    "diff": 106,
+    "sos": 1568.305,
+    "sos_adj": 1636.726,
+    "power": 1646.23,
     "rank": 2,
-    "mw_rating": 138.6,
-    "mw_points": 1525,
+    "mw_rating": 140.3,
+    "mw_points": 1684,
     "divisionno": "7199",
     "division_name": "7th Boys - Division 2",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374746",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:50 PM",
+      "location": "North Quincy High School (Ct 1)",
+      "divisionno": "7199",
+      "division_name": "7th Boys - Division 2",
+      "home_teamno": "43582",
+      "away_teamno": "44868",
+      "home_score": 60,
+      "away_score": 40,
+      "team_score": 60,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44868",
+      "opponent_name": "D2H-North Attleboro (red)"
+    },
     {
       "gameno": "374665",
       "date": "2026-02-28",
@@ -368,25 +387,5 @@
       "opponent_name": "Norwell 7B D2"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374746",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:50 PM",
-      "location": "North Quincy High School (Ct 1)",
-      "divisionno": "7199",
-      "division_name": "7th Boys - Division 2",
-      "home_teamno": "43582",
-      "away_teamno": "44868",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44868",
-      "opponent_name": "D2H-North Attleboro (red)"
-    }
-  ]
+  "future_games": []
 }

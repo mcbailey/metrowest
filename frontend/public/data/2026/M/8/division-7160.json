@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 8,
   "divisionno": "7160",
@@ -21,8 +21,8 @@
       "sos_adj": 1612.963,
       "power": 1633.097,
       "rank": 1,
-      "mw_rating": 108.2,
-      "mw_points": 1298
+      "mw_rating": 108.3,
+      "mw_points": 1299
     },
     {
       "teamno": "44709",
@@ -39,7 +39,7 @@
       "power": 1623.154,
       "rank": 2,
       "mw_rating": 99.3,
-      "mw_points": 1191
+      "mw_points": 1192
     },
     {
       "teamno": "43448",
@@ -51,29 +51,29 @@
       "pf": 1252,
       "pa": 1157,
       "diff": 95,
-      "sos": 1546.181,
-      "sos_adj": 1592.477,
-      "power": 1616.396,
+      "sos": 1546.759,
+      "sos_adj": 1593.056,
+      "power": 1616.54,
       "rank": 3,
-      "mw_rating": 105.6,
-      "mw_points": 1267
+      "mw_rating": 105.7,
+      "mw_points": 1268
     },
     {
       "teamno": "44747",
       "name": "D3M-Arlington (maroon)",
       "town": null,
-      "wins": 10,
+      "wins": 11,
       "losses": 12,
       "ties": 0,
-      "pf": 1102,
-      "pa": 1052,
-      "diff": 50,
-      "sos": 1559.37,
-      "sos_adj": 1620.734,
-      "power": 1588.239,
+      "pf": 1150,
+      "pa": 1089,
+      "diff": 61,
+      "sos": 1555.696,
+      "sos_adj": 1616.566,
+      "power": 1598.91,
       "rank": 4,
-      "mw_rating": 89.7,
-      "mw_points": 897
+      "mw_rating": 92.0,
+      "mw_points": 1012
     },
     {
       "teamno": "44288",
@@ -85,29 +85,12 @@
       "pf": 992,
       "pa": 912,
       "diff": 80,
-      "sos": 1552.986,
-      "sos_adj": 1591.622,
-      "power": 1540.357,
+      "sos": 1553.696,
+      "sos_adj": 1592.332,
+      "power": 1540.534,
       "rank": 5,
-      "mw_rating": 91.2,
-      "mw_points": 1094
-    },
-    {
-      "teamno": "44238",
-      "name": "D3M-Wayland (black)",
-      "town": null,
-      "wins": 5,
-      "losses": 12,
-      "ties": 0,
-      "pf": 784,
-      "pa": 913,
-      "diff": -129,
-      "sos": 1546.064,
-      "sos_adj": 1590.182,
-      "power": 1515.409,
-      "rank": 6,
-      "mw_rating": 62.8,
-      "mw_points": 628
+      "mw_rating": 91.3,
+      "mw_points": 1095
     },
     {
       "teamno": "44053",
@@ -122,9 +105,26 @@
       "sos": 1547.767,
       "sos_adj": 1590.074,
       "power": 1513.282,
-      "rank": 7,
+      "rank": 6,
       "mw_rating": 65.0,
       "mw_points": 780
+    },
+    {
+      "teamno": "44238",
+      "name": "D3M-Wayland (black)",
+      "town": null,
+      "wins": 5,
+      "losses": 13,
+      "ties": 0,
+      "pf": 821,
+      "pa": 961,
+      "diff": -140,
+      "sos": 1548.673,
+      "sos_adj": 1593.118,
+      "power": 1504.43,
+      "rank": 7,
+      "mw_rating": 61.2,
+      "mw_points": 673
     },
     {
       "teamno": "45489",

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44095",
   "team_name": "D6J-Holbrook (orange)",
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 290,
-    "pa": 429,
-    "diff": -139,
-    "sos": 1410.46,
-    "sos_adj": 1315.005,
-    "power": 1310.691,
+    "pf": 312,
+    "pa": 469,
+    "diff": -157,
+    "sos": 1410.234,
+    "sos_adj": 1314.401,
+    "power": 1297.09,
     "rank": 6,
-    "mw_rating": 8.2,
-    "mw_points": 90,
+    "mw_rating": 7.9,
+    "mw_points": 95,
     "divisionno": "7174",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377788",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:15 PM",
+      "location": "Middleborough Early Childhood Center (MECC)",
+      "divisionno": "7174",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "43319",
+      "away_teamno": "44095",
+      "home_score": 40,
+      "away_score": 22,
+      "team_score": 22,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43319",
+      "opponent_name": "D6H-Middleborough (benson)"
+    },
     {
       "gameno": "377780",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D6H-Westport (gallant)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377788",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:15 PM",
-      "location": "Middleborough Early Childhood Center (MECC)",
-      "divisionno": "7174",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "43319",
-      "away_teamno": "44095",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43319",
-      "opponent_name": "D6H-Middleborough (benson)"
-    }
-  ]
+  "future_games": []
 }

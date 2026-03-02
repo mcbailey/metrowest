@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43625",
   "team_name": "D1-Hingham (black)",
   "town": null,
   "summary": {
-    "wins": 14,
+    "wins": 15,
     "losses": 11,
     "ties": 0,
-    "pf": 1214,
-    "pa": 1029,
-    "diff": 185,
-    "sos": 1556.545,
-    "sos_adj": 1608.545,
-    "power": 1618.786,
-    "rank": 8,
-    "mw_rating": 166.7,
-    "mw_points": 1667,
+    "pf": 1272,
+    "pa": 1059,
+    "diff": 213,
+    "sos": 1552.68,
+    "sos_adj": 1608.45,
+    "power": 1631.182,
+    "rank": 6,
+    "mw_rating": 170.1,
+    "mw_points": 1871,
     "divisionno": "7077",
     "division_name": "5th Boys - Division 1",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 25,
-    "games_scheduled_total": 1
+    "games_played_total": 26,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374264",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:15 PM",
+      "location": "Hingham Middle School",
+      "divisionno": "7077",
+      "division_name": "5th Boys - Division 1",
+      "home_teamno": "43625",
+      "away_teamno": "43925",
+      "home_score": 58,
+      "away_score": 30,
+      "team_score": 58,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43925",
+      "opponent_name": "D1-Taunton (doherty)"
+    },
     {
       "gameno": "393994",
       "date": "2026-02-28",
@@ -501,25 +520,5 @@
       "opponent_name": "Plymouth North (Blue/Tirlia)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374264",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:15 PM",
-      "location": "Hingham Middle School",
-      "divisionno": "7077",
-      "division_name": "5th Boys - Division 1",
-      "home_teamno": "43625",
-      "away_teamno": "43925",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43925",
-      "opponent_name": "D1-Taunton (doherty)"
-    }
-  ]
+  "future_games": []
 }

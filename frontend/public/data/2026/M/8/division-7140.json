@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 8,
   "divisionno": "7140",
@@ -11,18 +11,18 @@
       "teamno": "45106",
       "name": "D6M-Framingham (white)",
       "town": null,
-      "wins": 9,
+      "wins": 10,
       "losses": 2,
       "ties": 0,
-      "pf": 513,
-      "pa": 393,
-      "diff": 120,
-      "sos": 1397.468,
-      "sos_adj": 1297.468,
-      "power": 1446.24,
+      "pf": 587,
+      "pa": 421,
+      "diff": 166,
+      "sos": 1389.775,
+      "sos_adj": 1289.775,
+      "power": 1452.575,
       "rank": 1,
-      "mw_rating": 30.5,
-      "mw_points": 335
+      "mw_rating": 30.6,
+      "mw_points": 367
     },
     {
       "teamno": "43532",
@@ -56,7 +56,7 @@
       "power": 1379.122,
       "rank": 3,
       "mw_rating": 21.3,
-      "mw_points": 255
+      "mw_points": 256
     },
     {
       "teamno": "44382",
@@ -114,17 +114,17 @@
       "name": "D6M-Hopkinton (clifford)",
       "town": null,
       "wins": 1,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 328,
-      "pa": 490,
-      "diff": -162,
-      "sos": 1395.933,
-      "sos_adj": 1295.933,
-      "power": 1311.108,
+      "pf": 356,
+      "pa": 564,
+      "diff": -208,
+      "sos": 1405.175,
+      "sos_adj": 1305.175,
+      "power": 1305.161,
       "rank": 7,
-      "mw_rating": 7.5,
-      "mw_points": 82
+      "mw_rating": 7.3,
+      "mw_points": 87
     }
   ]
 }

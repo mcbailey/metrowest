@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 7,
   "divisionno": "7182",
@@ -51,12 +51,12 @@
       "pf": 476,
       "pa": 345,
       "diff": 131,
-      "sos": 1448.751,
-      "sos_adj": 1398.751,
-      "power": 1481.911,
+      "sos": 1451.438,
+      "sos_adj": 1401.438,
+      "power": 1482.582,
       "rank": 3,
-      "mw_rating": 44.0,
-      "mw_points": 484
+      "mw_rating": 44.1,
+      "mw_points": 485
     },
     {
       "teamno": "45248",
@@ -85,12 +85,12 @@
       "pf": 321,
       "pa": 427,
       "diff": -106,
-      "sos": 1449.354,
-      "sos_adj": 1395.187,
-      "power": 1394.775,
+      "sos": 1451.817,
+      "sos_adj": 1397.65,
+      "power": 1395.391,
       "rank": 5,
-      "mw_rating": 23.1,
-      "mw_points": 277
+      "mw_rating": 23.2,
+      "mw_points": 278
     },
     {
       "teamno": "43746",
@@ -113,18 +113,18 @@
       "teamno": "44410",
       "name": "D5M-Dedham (rider)",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 11,
       "ties": 0,
-      "pf": 250,
-      "pa": 459,
-      "diff": -209,
-      "sos": 1431.463,
-      "sos_adj": 1356.463,
-      "power": 1356.22,
+      "pf": 293,
+      "pa": 467,
+      "diff": -174,
+      "sos": 1426.769,
+      "sos_adj": 1349.846,
+      "power": 1376.728,
       "rank": 7,
-      "mw_rating": 10.2,
-      "mw_points": 112
+      "mw_rating": 12.0,
+      "mw_points": 144
     }
   ]
 }

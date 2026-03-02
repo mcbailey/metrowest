@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 5,
   "divisionno": "7285",
@@ -17,12 +17,12 @@
       "pf": 467,
       "pa": 335,
       "diff": 132,
-      "sos": 1403.011,
-      "sos_adj": 1310.703,
-      "power": 1445.829,
+      "sos": 1401.75,
+      "sos_adj": 1309.442,
+      "power": 1445.513,
       "rank": 1,
-      "mw_rating": 32.8,
-      "mw_points": 394
+      "mw_rating": 33.0,
+      "mw_points": 396
     },
     {
       "teamno": "44159",
@@ -38,8 +38,8 @@
       "sos_adj": 1310.844,
       "power": 1416.979,
       "rank": 2,
-      "mw_rating": 27.2,
-      "mw_points": 299
+      "mw_rating": 27.4,
+      "mw_points": 301
     },
     {
       "teamno": "43983",
@@ -72,25 +72,25 @@
       "sos_adj": 1335.334,
       "power": 1368.626,
       "rank": 4,
-      "mw_rating": 18.5,
-      "mw_points": 222
+      "mw_rating": 18.6,
+      "mw_points": 223
     },
     {
       "teamno": "45122",
       "name": "D6K-Westwood",
       "town": null,
       "wins": 2,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 212,
-      "pa": 402,
-      "diff": -190,
-      "sos": 1412.022,
-      "sos_adj": 1312.022,
-      "power": 1328.61,
+      "pf": 224,
+      "pa": 425,
+      "diff": -201,
+      "sos": 1413.24,
+      "sos_adj": 1313.24,
+      "power": 1316.618,
       "rank": 5,
-      "mw_rating": 10.6,
-      "mw_points": 106
+      "mw_rating": 10.1,
+      "mw_points": 111
     }
   ]
 }

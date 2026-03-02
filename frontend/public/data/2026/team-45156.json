@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "45156",
   "team_name": "D4Q-Waltham Girls",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 201,
-    "pa": 253,
-    "diff": -52,
-    "sos": 1498.896,
-    "sos_adj": 1498.896,
-    "power": 1454.741,
+    "pf": 212,
+    "pa": 277,
+    "diff": -65,
+    "sos": 1501.082,
+    "sos_adj": 1501.082,
+    "power": 1440.219,
     "rank": 5,
-    "mw_rating": 42.1,
-    "mw_points": 421,
+    "mw_rating": 40.6,
+    "mw_points": 446,
     "divisionno": "7323",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373802",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "9:50 AM",
+      "location": "OLD Waltham High School",
+      "divisionno": "7323",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "45156",
+      "away_teamno": "44787",
+      "home_score": 11,
+      "away_score": 24,
+      "team_score": 11,
+      "opponent_score": 24,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44787",
+      "opponent_name": "D4Q-Lincoln-Sudbury (blue)"
+    },
     {
       "gameno": "373795",
       "date": "2026-02-22",
@@ -216,25 +235,5 @@
       "opponent_name": "D4Q-Framingham (navy)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373802",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "9:50 AM",
-      "location": "OLD Waltham High School",
-      "divisionno": "7323",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "45156",
-      "away_teamno": "44787",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44787",
-      "opponent_name": "D4Q-Lincoln-Sudbury (blue)"
-    }
-  ]
+  "future_games": []
 }

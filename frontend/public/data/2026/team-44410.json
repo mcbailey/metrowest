@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44410",
   "team_name": "D5M-Dedham (rider)",
   "town": null,
   "summary": {
-    "wins": 1,
+    "wins": 2,
     "losses": 11,
     "ties": 0,
-    "pf": 250,
-    "pa": 459,
-    "diff": -209,
-    "sos": 1431.463,
-    "sos_adj": 1356.463,
-    "power": 1356.22,
+    "pf": 293,
+    "pa": 467,
+    "diff": -174,
+    "sos": 1426.769,
+    "sos_adj": 1349.846,
+    "power": 1376.728,
     "rank": 7,
-    "mw_rating": 10.2,
-    "mw_points": 112,
+    "mw_rating": 12.0,
+    "mw_points": 144,
     "divisionno": "7182",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379789",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "2:35 PM",
+      "location": "Dedham Middle School",
+      "divisionno": "7175",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44410",
+      "away_teamno": "44171",
+      "home_score": 43,
+      "away_score": 8,
+      "team_score": 43,
+      "opponent_score": 8,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44171",
+      "opponent_name": "D6K-Holliston (sgarano - white)"
+    },
     {
       "gameno": "379781",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D6K-Canton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379789",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "2:35 PM",
-      "location": "Dedham Middle School",
-      "divisionno": "7175",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44410",
-      "away_teamno": "44171",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44171",
-      "opponent_name": "D6K-Holliston (sgarano - white)"
-    }
-  ]
+  "future_games": []
 }

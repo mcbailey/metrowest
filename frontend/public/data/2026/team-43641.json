@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43641",
   "team_name": "D2J-Needham (gold)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 225,
-    "pa": 293,
-    "diff": -68,
-    "sos": 1617.091,
-    "sos_adj": 1725.425,
-    "power": 1610.193,
+    "pf": 243,
+    "pa": 323,
+    "diff": -80,
+    "sos": 1624.298,
+    "sos_adj": 1731.99,
+    "power": 1605.876,
     "rank": 4,
-    "mw_rating": 109.0,
-    "mw_points": 1199,
+    "mw_rating": 105.8,
+    "mw_points": 1270,
     "divisionno": "7328",
     "division_name": "5th Girls - Division 2",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "373519",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:20 PM",
+      "location": "Dedham High - Back Gym",
+      "divisionno": "7328",
+      "division_name": "5th Girls - Division 2",
+      "home_teamno": "44399",
+      "away_teamno": "43641",
+      "home_score": 30,
+      "away_score": 18,
+      "team_score": 18,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44399",
+      "opponent_name": "D2J-Dedham (clarke)"
+    },
     {
       "gameno": "388062",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D2J-Natick"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "373519",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:20 PM",
-      "location": "Dedham High - Back Gym",
-      "divisionno": "7328",
-      "division_name": "5th Girls - Division 2",
-      "home_teamno": "44399",
-      "away_teamno": "43641",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44399",
-      "opponent_name": "D2J-Dedham (clarke)"
-    }
-  ]
+  "future_games": []
 }

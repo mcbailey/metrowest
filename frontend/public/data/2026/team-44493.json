@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44493",
   "team_name": "D5M-Wareham (silvia)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 419,
-    "pa": 310,
-    "diff": 109,
-    "sos": 1437.158,
-    "sos_adj": 1387.158,
-    "power": 1496.97,
+    "pf": 451,
+    "pa": 348,
+    "diff": 103,
+    "sos": 1450.876,
+    "sos_adj": 1400.876,
+    "power": 1487.772,
     "rank": 2,
-    "mw_rating": 46.4,
-    "mw_points": 464,
+    "mw_rating": 43.1,
+    "mw_points": 474,
     "divisionno": "7581",
     "division_name": "4th Boys - Division 5",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_played_total": 11,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385464",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:40 AM",
+      "location": "Monomoy Middle School",
+      "divisionno": "7581",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "43345",
+      "away_teamno": "44493",
+      "home_score": 38,
+      "away_score": 32,
+      "team_score": 32,
+      "opponent_score": 38,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43345",
+      "opponent_name": "D5M-Monomoy (blue/teixiera)"
+    },
     {
       "gameno": "385480",
       "date": "2026-02-28",
@@ -216,25 +235,5 @@
       "opponent_name": "D5M-Monomoy (blue/teixiera)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385464",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:40 AM",
-      "location": "Monomoy Middle School",
-      "divisionno": "7581",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "43345",
-      "away_teamno": "44493",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43345",
-      "opponent_name": "D5M-Monomoy (blue/teixiera)"
-    }
-  ]
+  "future_games": []
 }

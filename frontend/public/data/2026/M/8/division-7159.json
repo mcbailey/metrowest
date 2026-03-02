@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 8,
   "divisionno": "7159",
@@ -21,8 +21,25 @@
       "sos_adj": 1592.146,
       "power": 1643.747,
       "rank": 1,
-      "mw_rating": 120.4,
-      "mw_points": 1324
+      "mw_rating": 120.5,
+      "mw_points": 1325
+    },
+    {
+      "teamno": "43531",
+      "name": "D3K-Northboro (red)",
+      "town": null,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "pf": 678,
+      "pa": 590,
+      "diff": 88,
+      "sos": 1560.135,
+      "sos_adj": 1625.52,
+      "power": 1612.041,
+      "rank": 2,
+      "mw_rating": 107.8,
+      "mw_points": 1294
     },
     {
       "teamno": "45260",
@@ -34,29 +51,12 @@
       "pf": 599,
       "pa": 535,
       "diff": 64,
-      "sos": 1543.026,
-      "sos_adj": 1597.192,
-      "power": 1611.441,
-      "rank": 2,
+      "sos": 1541.553,
+      "sos_adj": 1595.72,
+      "power": 1611.073,
+      "rank": 3,
       "mw_rating": 89.5,
       "mw_points": 1074
-    },
-    {
-      "teamno": "43531",
-      "name": "D3K-Northboro (red)",
-      "town": null,
-      "wins": 8,
-      "losses": 4,
-      "ties": 0,
-      "pf": 624,
-      "pa": 556,
-      "diff": 68,
-      "sos": 1566.116,
-      "sos_adj": 1632.782,
-      "power": 1600.604,
-      "rank": 3,
-      "mw_rating": 107.1,
-      "mw_points": 1178
     },
     {
       "teamno": "43786",
@@ -72,8 +72,8 @@
       "sos_adj": 1588.368,
       "power": 1543.129,
       "rank": 4,
-      "mw_rating": 78.5,
-      "mw_points": 863
+      "mw_rating": 78.6,
+      "mw_points": 864
     },
     {
       "teamno": "43374",
@@ -93,23 +93,6 @@
       "mw_points": 788
     },
     {
-      "teamno": "44334",
-      "name": "D3K-Medway (blue)",
-      "town": null,
-      "wins": 6,
-      "losses": 13,
-      "ties": 0,
-      "pf": 841,
-      "pa": 956,
-      "diff": -115,
-      "sos": 1537.6,
-      "sos_adj": 1574.442,
-      "power": 1523.139,
-      "rank": 6,
-      "mw_rating": 68.6,
-      "mw_points": 754
-    },
-    {
       "teamno": "43916",
       "name": "D3K-Wellesley (b)",
       "town": null,
@@ -119,12 +102,29 @@
       "pf": 847,
       "pa": 935,
       "diff": -88,
-      "sos": 1555.081,
-      "sos_adj": 1610.637,
-      "power": 1518.117,
-      "rank": 7,
+      "sos": 1554.099,
+      "sos_adj": 1609.655,
+      "power": 1517.872,
+      "rank": 6,
       "mw_rating": 68.8,
       "mw_points": 826
+    },
+    {
+      "teamno": "44334",
+      "name": "D3K-Medway (blue)",
+      "town": null,
+      "wins": 6,
+      "losses": 14,
+      "ties": 0,
+      "pf": 875,
+      "pa": 1010,
+      "diff": -135,
+      "sos": 1541.097,
+      "sos_adj": 1578.597,
+      "power": 1510.925,
+      "rank": 7,
+      "mw_rating": 66.6,
+      "mw_points": 799
     },
     {
       "teamno": "45635",

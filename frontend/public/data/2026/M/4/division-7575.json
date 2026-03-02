@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 4,
   "divisionno": "7575",
@@ -21,8 +21,8 @@
       "sos_adj": 1743.038,
       "power": 1720.515,
       "rank": 1,
-      "mw_rating": 141.9,
-      "mw_points": 1703
+      "mw_rating": 142.0,
+      "mw_points": 1704
     },
     {
       "teamno": "44397",
@@ -34,12 +34,29 @@
       "pf": 394,
       "pa": 390,
       "diff": 4,
-      "sos": 1622.267,
-      "sos_adj": 1740.449,
-      "power": 1668.497,
+      "sos": 1621.175,
+      "sos_adj": 1739.357,
+      "power": 1668.224,
       "rank": 2,
-      "mw_rating": 112.9,
-      "mw_points": 1242
+      "mw_rating": 113.0,
+      "mw_points": 1243
+    },
+    {
+      "teamno": "44576",
+      "name": "D2N-King Philip",
+      "town": null,
+      "wins": 6,
+      "losses": 6,
+      "ties": 0,
+      "pf": 366,
+      "pa": 390,
+      "diff": -24,
+      "sos": 1640.684,
+      "sos_adj": 1778.184,
+      "power": 1665.441,
+      "rank": 3,
+      "mw_rating": 119.2,
+      "mw_points": 1430
     },
     {
       "teamno": "44613",
@@ -51,29 +68,12 @@
       "pf": 398,
       "pa": 453,
       "diff": -55,
-      "sos": 1635.564,
-      "sos_adj": 1760.564,
-      "power": 1654.192,
-      "rank": 3,
+      "sos": 1636.565,
+      "sos_adj": 1761.565,
+      "power": 1654.443,
+      "rank": 4,
       "mw_rating": 117.2,
       "mw_points": 1406
-    },
-    {
-      "teamno": "44576",
-      "name": "D2N-King Philip",
-      "town": null,
-      "wins": 5,
-      "losses": 6,
-      "ties": 0,
-      "pf": 326,
-      "pa": 355,
-      "diff": -29,
-      "sos": 1639.799,
-      "sos_adj": 1776.163,
-      "power": 1653.303,
-      "rank": 4,
-      "mw_rating": 115.9,
-      "mw_points": 1275
     },
     {
       "teamno": "44637",
@@ -102,9 +102,9 @@
       "pf": 231,
       "pa": 443,
       "diff": -212,
-      "sos": 1650.331,
-      "sos_adj": 1780.331,
-      "power": 1617.68,
+      "sos": 1651.533,
+      "sos_adj": 1781.533,
+      "power": 1617.98,
       "rank": 6,
       "mw_rating": 82.0,
       "mw_points": 820
@@ -114,17 +114,17 @@
       "name": "D2N-Parkway  (red)",
       "town": null,
       "wins": 2,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 352,
-      "pa": 557,
-      "diff": -205,
-      "sos": 1632.046,
-      "sos_adj": 1743.584,
-      "power": 1601.143,
+      "pf": 373,
+      "pa": 615,
+      "diff": -242,
+      "sos": 1635.778,
+      "sos_adj": 1750.064,
+      "power": 1593.753,
       "rank": 7,
-      "mw_rating": 85.6,
-      "mw_points": 942
+      "mw_rating": 84.3,
+      "mw_points": 1012
     }
   ]
 }

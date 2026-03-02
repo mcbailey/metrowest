@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43597",
   "team_name": "D6Q-North Quincy (jaehnig)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 1,
     "ties": 0,
-    "pf": 408,
-    "pa": 265,
-    "diff": 143,
-    "sos": 1391.341,
-    "sos_adj": 1291.341,
-    "power": 1432.211,
-    "rank": 2,
-    "mw_rating": 33.4,
-    "mw_points": 367,
+    "pf": 435,
+    "pa": 279,
+    "diff": 156,
+    "sos": 1390.479,
+    "sos_adj": 1290.479,
+    "power": 1444.764,
+    "rank": 1,
+    "mw_rating": 33.6,
+    "mw_points": 403,
     "divisionno": "7587",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "386132",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "6:10 PM",
+      "location": "North Quincy High School (Ct 2)",
+      "divisionno": "7587",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "43597",
+      "away_teamno": "44992",
+      "home_score": 27,
+      "away_score": 14,
+      "team_score": 27,
+      "opponent_score": 14,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44992",
+      "opponent_name": "D6Q-Dover Sherborn (khan)"
+    },
     {
       "gameno": "386124",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D6P-West Bridgewater (regan)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "386132",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "6:10 PM",
-      "location": "North Quincy High School (Ct 2)",
-      "divisionno": "7587",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "43597",
-      "away_teamno": "44992",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44992",
-      "opponent_name": "D6Q-Dover Sherborn (khan)"
-    }
-  ]
+  "future_games": []
 }

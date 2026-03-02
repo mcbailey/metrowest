@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43466",
   "team_name": "D2P-Winchester (white)",
   "town": null,
   "summary": {
-    "wins": 18,
+    "wins": 19,
     "losses": 5,
     "ties": 0,
-    "pf": 884,
-    "pa": 599,
-    "diff": 285,
-    "sos": 1599.348,
-    "sos_adj": 1699.348,
-    "power": 1687.672,
+    "pf": 942,
+    "pa": 620,
+    "diff": 322,
+    "sos": 1598.869,
+    "sos_adj": 1700.952,
+    "power": 1698.091,
     "rank": 3,
-    "mw_rating": 150.4,
-    "mw_points": 1654,
+    "mw_rating": 150.6,
+    "mw_points": 1807,
     "divisionno": "7576",
     "division_name": "4th Boys - Division 2",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 23,
-    "games_scheduled_total": 1
+    "games_played_total": 24,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385431",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:15 PM",
+      "location": "Winchester High School (Court 2)",
+      "divisionno": "7576",
+      "division_name": "4th Boys - Division 2",
+      "home_teamno": "43466",
+      "away_teamno": "44199",
+      "home_score": 58,
+      "away_score": 21,
+      "team_score": 58,
+      "opponent_score": 21,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44199",
+      "opponent_name": "D2N-Parkway  (red)"
+    },
     {
       "gameno": "389976",
       "date": "2026-02-28",
@@ -463,25 +482,5 @@
       "opponent_name": "North Andover (A)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385431",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:15 PM",
-      "location": "Winchester High School (Court 2)",
-      "divisionno": "7576",
-      "division_name": "4th Boys - Division 2",
-      "home_teamno": "43466",
-      "away_teamno": "44199",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44199",
-      "opponent_name": "D2N-Parkway  (red)"
-    }
-  ]
+  "future_games": []
 }

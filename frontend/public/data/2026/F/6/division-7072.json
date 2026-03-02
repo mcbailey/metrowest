@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "F",
   "grade": 6,
   "divisionno": "7072",
@@ -21,8 +21,25 @@
       "sos_adj": 1717.898,
       "power": 1739.329,
       "rank": 1,
-      "mw_rating": 182.6,
-      "mw_points": 2009
+      "mw_rating": 182.8,
+      "mw_points": 2011
+    },
+    {
+      "teamno": "43335",
+      "name": "D1-Mansfield (white)",
+      "town": null,
+      "wins": 11,
+      "losses": 5,
+      "ties": 0,
+      "pf": 600,
+      "pa": 537,
+      "diff": 63,
+      "sos": 1607.532,
+      "sos_adj": 1720.032,
+      "power": 1682.951,
+      "rank": 2,
+      "mw_rating": 153.2,
+      "mw_points": 1685
     },
     {
       "teamno": "45338",
@@ -37,9 +54,9 @@
       "sos": 1607.729,
       "sos_adj": 1713.979,
       "power": 1682.786,
-      "rank": 2,
-      "mw_rating": 140.7,
-      "mw_points": 1548
+      "rank": 3,
+      "mw_rating": 140.8,
+      "mw_points": 1549
     },
     {
       "teamno": "43441",
@@ -54,26 +71,9 @@
       "sos": 1582.926,
       "sos_adj": 1670.926,
       "power": 1677.402,
-      "rank": 3,
+      "rank": 4,
       "mw_rating": 158.5,
       "mw_points": 1902
-    },
-    {
-      "teamno": "43335",
-      "name": "D1-Mansfield (white)",
-      "town": null,
-      "wins": 10,
-      "losses": 5,
-      "ties": 0,
-      "pf": 566,
-      "pa": 510,
-      "diff": 56,
-      "sos": 1611.442,
-      "sos_adj": 1724.775,
-      "power": 1676.229,
-      "rank": 4,
-      "mw_rating": 153.0,
-      "mw_points": 1530
     },
     {
       "teamno": "44785",
@@ -89,8 +89,8 @@
       "sos_adj": 1725.688,
       "power": 1654.248,
       "rank": 5,
-      "mw_rating": 125.8,
-      "mw_points": 1258
+      "mw_rating": 125.9,
+      "mw_points": 1259
     },
     {
       "teamno": "46027",

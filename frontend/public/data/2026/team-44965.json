@@ -1,28 +1,28 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44965",
   "team_name": "D5R-Milford (white-l.chicarelli)",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 273,
-    "pa": 363,
-    "diff": -90,
-    "sos": 1462.338,
-    "sos_adj": 1407.793,
-    "power": 1381.242,
-    "rank": 5,
-    "mw_rating": 22.0,
-    "mw_points": 242,
+    "pf": 294,
+    "pa": 407,
+    "diff": -113,
+    "sos": 1462.819,
+    "sos_adj": 1408.653,
+    "power": 1369.997,
+    "rank": 6,
+    "mw_rating": 21.0,
+    "mw_points": 252,
     "divisionno": "7294",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": true,
       "opponent_teamno": "45645",
       "opponent_name": "D6M-Hopkinton (levine)"
+    },
+    {
+      "gameno": "376970",
+      "date": "2026-02-22",
+      "dow": "Sun",
+      "starttime": "9:30 AM",
+      "location": "Medfield High School",
+      "divisionno": "7294",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "45042",
+      "away_teamno": "44965",
+      "home_score": 44,
+      "away_score": 21,
+      "team_score": 21,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45042",
+      "opponent_name": "D5R-Medfield (mccabe)"
     },
     {
       "gameno": "376954",
@@ -235,25 +254,5 @@
       "opponent_name": "D5R-Blackstone-Millville (boras)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "376970",
-      "date": "2026-02-22",
-      "dow": "Sun",
-      "starttime": "9:30 AM",
-      "location": "Medfield High School",
-      "divisionno": "7294",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "45042",
-      "away_teamno": "44965",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45042",
-      "opponent_name": "D5R-Medfield (mccabe)"
-    }
-  ]
+  "future_games": []
 }

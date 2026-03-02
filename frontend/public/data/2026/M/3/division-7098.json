@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 3,
   "divisionno": "7098",
@@ -21,8 +21,8 @@
       "sos_adj": 1711.341,
       "power": 1720.259,
       "rank": 1,
-      "mw_rating": 156.5,
-      "mw_points": 1721
+      "mw_rating": 156.6,
+      "mw_points": 1722
     },
     {
       "teamno": "45515",
@@ -51,9 +51,9 @@
       "pf": 467,
       "pa": 466,
       "diff": 1,
-      "sos": 1613.849,
-      "sos_adj": 1730.516,
-      "power": 1676.954,
+      "sos": 1614.302,
+      "sos_adj": 1730.969,
+      "power": 1677.068,
       "rank": 3,
       "mw_rating": 137.6,
       "mw_points": 1651
@@ -124,24 +124,24 @@
       "power": 1612.565,
       "rank": 7,
       "mw_rating": 116.6,
-      "mw_points": 1282
+      "mw_points": 1283
     },
     {
       "teamno": "45522",
       "name": "D1-Mass Premier (hopedale)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 6,
       "ties": 0,
-      "pf": 393,
-      "pa": 443,
-      "diff": -50,
-      "sos": 1593.638,
-      "sos_adj": 1680.002,
-      "power": 1595.038,
+      "pf": 424,
+      "pa": 473,
+      "diff": -49,
+      "sos": 1592.535,
+      "sos_adj": 1680.035,
+      "power": 1599.127,
       "rank": 8,
-      "mw_rating": 103.6,
-      "mw_points": 1139
+      "mw_rating": 107.9,
+      "mw_points": 1295
     }
   ]
 }

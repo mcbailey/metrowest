@@ -1,12 +1,29 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 4,
   "divisionno": "7573",
   "division_name": "4th Boys - Division 1",
   "divisiontier": "1",
   "rankings": [
+    {
+      "teamno": "44040",
+      "name": "D1N-Newton (black)",
+      "town": null,
+      "wins": 18,
+      "losses": 1,
+      "ties": 0,
+      "pf": 873,
+      "pa": 485,
+      "diff": 388,
+      "sos": 1605.406,
+      "sos_adj": 1715.932,
+      "power": 1734.626,
+      "rank": 1,
+      "mw_rating": 184.0,
+      "mw_points": 2208
+    },
     {
       "teamno": "45258",
       "name": "D1N-Waltham Boys (red)",
@@ -20,26 +37,9 @@
       "sos": 1607.727,
       "sos_adj": 1715.622,
       "power": 1730.133,
-      "rank": 1,
-      "mw_rating": 191.7,
-      "mw_points": 2300
-    },
-    {
-      "teamno": "44040",
-      "name": "D1N-Newton (black)",
-      "town": null,
-      "wins": 17,
-      "losses": 1,
-      "ties": 0,
-      "pf": 819,
-      "pa": 444,
-      "diff": 375,
-      "sos": 1606.534,
-      "sos_adj": 1717.645,
-      "power": 1727.124,
       "rank": 2,
-      "mw_rating": 181.5,
-      "mw_points": 1996
+      "mw_rating": 191.8,
+      "mw_points": 2301
     },
     {
       "teamno": "43767",
@@ -55,8 +55,8 @@
       "sos_adj": 1771.707,
       "power": 1688.397,
       "rank": 3,
-      "mw_rating": 152.8,
-      "mw_points": 1834
+      "mw_rating": 152.9,
+      "mw_points": 1835
     },
     {
       "teamno": "43310",
@@ -80,17 +80,17 @@
       "name": "D1N-Milton (red)",
       "town": null,
       "wins": 11,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 773,
-      "pa": 752,
-      "diff": 21,
-      "sos": 1569.124,
-      "sos_adj": 1635.791,
-      "power": 1605.708,
+      "pf": 814,
+      "pa": 806,
+      "diff": 8,
+      "sos": 1576.93,
+      "sos_adj": 1645.112,
+      "power": 1600.108,
       "rank": 5,
-      "mw_rating": 142.5,
-      "mw_points": 1567
+      "mw_rating": 139.0,
+      "mw_points": 1668
     }
   ]
 }

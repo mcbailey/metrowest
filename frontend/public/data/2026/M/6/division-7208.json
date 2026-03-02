@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 6,
   "divisionno": "7208",
@@ -100,8 +100,8 @@
       "losses": 12,
       "ties": 0,
       "pf": 182,
-      "pa": 503,
-      "diff": -321,
+      "pa": 501,
+      "diff": -319,
       "sos": 1412.99,
       "sos_adj": 1312.99,
       "power": 1280.613,

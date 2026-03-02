@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "F",
   "grade": 7,
   "divisionno": "7251",
@@ -21,8 +21,8 @@
       "sos_adj": 1379.908,
       "power": 1513.454,
       "rank": 1,
-      "mw_rating": 56.2,
-      "mw_points": 618
+      "mw_rating": 56.5,
+      "mw_points": 621
     },
     {
       "teamno": "43646",
@@ -38,8 +38,8 @@
       "sos_adj": 1394.899,
       "power": 1466.047,
       "rank": 2,
-      "mw_rating": 44.8,
-      "mw_points": 538
+      "mw_rating": 45.0,
+      "mw_points": 540
     },
     {
       "teamno": "44340",
@@ -55,25 +55,8 @@
       "sos_adj": 1400.755,
       "power": 1451.169,
       "rank": 3,
-      "mw_rating": 33.1,
-      "mw_points": 397
-    },
-    {
-      "teamno": "45336",
-      "name": "D5J-Milton (black)",
-      "town": null,
-      "wins": 5,
-      "losses": 6,
-      "ties": 0,
-      "pf": 251,
-      "pa": 229,
-      "diff": 22,
-      "sos": 1451.664,
-      "sos_adj": 1401.664,
-      "power": 1419.058,
-      "rank": 4,
-      "mw_rating": 30.8,
-      "mw_points": 339
+      "mw_rating": 33.2,
+      "mw_points": 398
     },
     {
       "teamno": "43896",
@@ -88,9 +71,26 @@
       "sos": 1459.324,
       "sos_adj": 1413.491,
       "power": 1413.327,
+      "rank": 4,
+      "mw_rating": 22.3,
+      "mw_points": 245
+    },
+    {
+      "teamno": "45336",
+      "name": "D5J-Milton (black)",
+      "town": null,
+      "wins": 5,
+      "losses": 7,
+      "ties": 0,
+      "pf": 275,
+      "pa": 257,
+      "diff": 18,
+      "sos": 1447.105,
+      "sos_adj": 1397.105,
+      "power": 1405.221,
       "rank": 5,
-      "mw_rating": 22.1,
-      "mw_points": 243
+      "mw_rating": 29.2,
+      "mw_points": 350
     },
     {
       "teamno": "44773",
@@ -113,18 +113,18 @@
       "teamno": "44158",
       "name": "D5J-Holliston (cooper-red 7th)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 10,
       "ties": 0,
-      "pf": 214,
-      "pa": 323,
-      "diff": -109,
-      "sos": 1457.764,
-      "sos_adj": 1407.764,
-      "power": 1386.964,
+      "pf": 242,
+      "pa": 347,
+      "diff": -105,
+      "sos": 1453.931,
+      "sos_adj": 1403.931,
+      "power": 1398.704,
       "rank": 7,
-      "mw_rating": 18.6,
-      "mw_points": 204
+      "mw_rating": 21.7,
+      "mw_points": 260
     },
     {
       "teamno": "43519",
@@ -140,8 +140,8 @@
       "sos_adj": 1417.492,
       "power": 1385.698,
       "rank": 8,
-      "mw_rating": 21.6,
-      "mw_points": 259
+      "mw_rating": 21.7,
+      "mw_points": 260
     }
   ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43194",
   "team_name": "D5Q-Bellingham (donato)",
   "town": null,
   "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 5,
     "ties": 0,
-    "pf": 367,
-    "pa": 324,
-    "diff": 43,
-    "sos": 1458.396,
-    "sos_adj": 1412.942,
-    "power": 1444.577,
+    "pf": 404,
+    "pa": 337,
+    "diff": 67,
+    "sos": 1449.647,
+    "sos_adj": 1403.814,
+    "power": 1455.507,
     "rank": 3,
-    "mw_rating": 35.6,
-    "mw_points": 391,
+    "mw_rating": 37.3,
+    "mw_points": 447,
     "divisionno": "7293",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377400",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "Bellingham Middle School",
+      "divisionno": "7293",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "43194",
+      "away_teamno": "43578",
+      "home_score": 37,
+      "away_score": 13,
+      "team_score": 37,
+      "opponent_score": 13,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43578",
+      "opponent_name": "D5Q-North Quincy (sollinger)"
+    },
     {
       "gameno": "377392",
       "date": "2026-02-21",
@@ -235,25 +254,5 @@
       "opponent_name": "D5M-Mansfield (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377400",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:00 PM",
-      "location": "Bellingham Middle School",
-      "divisionno": "7293",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "43194",
-      "away_teamno": "43578",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43578",
-      "opponent_name": "D5Q-North Quincy (sollinger)"
-    }
-  ]
+  "future_games": []
 }

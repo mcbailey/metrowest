@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "F",
   "grade": 6,
   "divisionno": "7270",
@@ -25,6 +25,23 @@
       "mw_points": 602
     },
     {
+      "teamno": "45130",
+      "name": "D5M-Westwood",
+      "town": null,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "pf": 278,
+      "pa": 322,
+      "diff": -44,
+      "sos": 1454.874,
+      "sos_adj": 1404.874,
+      "power": 1426.977,
+      "rank": 2,
+      "mw_rating": 32.9,
+      "mw_points": 395
+    },
+    {
       "teamno": "44964",
       "name": "D5M-Milford (black-orourke)",
       "town": null,
@@ -37,7 +54,7 @@
       "sos": 1449.24,
       "sos_adj": 1399.24,
       "power": 1413.557,
-      "rank": 2,
+      "rank": 3,
       "mw_rating": 22.3,
       "mw_points": 245
     },
@@ -54,26 +71,9 @@
       "sos": 1460.925,
       "sos_adj": 1410.925,
       "power": 1411.452,
-      "rank": 3,
+      "rank": 4,
       "mw_rating": 26.3,
       "mw_points": 289
-    },
-    {
-      "teamno": "45130",
-      "name": "D5M-Westwood",
-      "town": null,
-      "wins": 5,
-      "losses": 7,
-      "ties": 0,
-      "pf": 246,
-      "pa": 296,
-      "diff": -50,
-      "sos": 1454.151,
-      "sos_adj": 1404.151,
-      "power": 1409.979,
-      "rank": 4,
-      "mw_rating": 31.0,
-      "mw_points": 341
     },
     {
       "teamno": "43644",
@@ -89,8 +89,8 @@
       "sos_adj": 1451.041,
       "power": 1386.658,
       "rank": 5,
-      "mw_rating": 23.5,
-      "mw_points": 258
+      "mw_rating": 23.6,
+      "mw_points": 259
     },
     {
       "teamno": "44342",

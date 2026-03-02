@@ -1,28 +1,28 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "45636",
   "team_name": "D5Q-Hopkinton (selchan8)",
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 279,
-    "pa": 479,
-    "diff": -200,
-    "sos": 1460.296,
-    "sos_adj": 1410.296,
-    "power": 1356.637,
+    "pf": 299,
+    "pa": 521,
+    "diff": -222,
+    "sos": 1458.051,
+    "sos_adj": 1408.051,
+    "power": 1340.763,
     "rank": 8,
-    "mw_rating": 14.9,
-    "mw_points": 164,
+    "mw_rating": 14.5,
+    "mw_points": 174,
     "divisionno": "7149",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": true,
       "opponent_teamno": "43376",
       "opponent_name": "D5Q-Natick"
+    },
+    {
+      "gameno": "380972",
+      "date": "2026-02-28",
+      "dow": "Sat",
+      "starttime": "4:15 PM",
+      "location": "Holliston Adams Middle School (Saturday)",
+      "divisionno": "7149",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "43890",
+      "away_teamno": "45636",
+      "home_score": 42,
+      "away_score": 20,
+      "team_score": 20,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43890",
+      "opponent_name": "D5Q-Holliston (magoon - red)"
     },
     {
       "gameno": "381000",
@@ -235,25 +254,5 @@
       "opponent_name": "D5R-Newton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380972",
-      "date": "2026-02-28",
-      "dow": "Sat",
-      "starttime": "4:15 PM",
-      "location": "Holliston Adams Middle School (Saturday)",
-      "divisionno": "7149",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "43890",
-      "away_teamno": "45636",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43890",
-      "opponent_name": "D5Q-Holliston (magoon - red)"
-    }
-  ]
+  "future_games": []
 }

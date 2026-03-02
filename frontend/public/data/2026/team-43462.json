@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43462",
   "team_name": "D3K-Winchester (white)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 634,
-    "pa": 664,
-    "diff": -30,
-    "sos": 1550.38,
-    "sos_adj": 1600.38,
-    "power": 1553.516,
+    "pf": 663,
+    "pa": 701,
+    "diff": -38,
+    "sos": 1555.912,
+    "sos_adj": 1605.912,
+    "power": 1543.904,
     "rank": 4,
-    "mw_rating": 84.5,
-    "mw_points": 929,
+    "mw_rating": 81.2,
+    "mw_points": 974,
     "divisionno": "7305",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378684",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:15 PM",
+      "location": "Winchester High School (Court 1)",
+      "divisionno": "7305",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "43462",
+      "away_teamno": "44706",
+      "home_score": 29,
+      "away_score": 37,
+      "team_score": 29,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44706",
+      "opponent_name": "D3K-Arlington (maroon)"
+    },
     {
       "gameno": "378673",
       "date": "2026-02-22",
@@ -368,25 +387,5 @@
       "opponent_name": "D4Q-Watertown (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378684",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:15 PM",
-      "location": "Winchester High School (Court 1)",
-      "divisionno": "7305",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "43462",
-      "away_teamno": "44706",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44706",
-      "opponent_name": "D3K-Arlington (maroon)"
-    }
-  ]
+  "future_games": []
 }

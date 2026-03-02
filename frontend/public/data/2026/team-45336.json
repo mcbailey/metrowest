@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "45336",
   "team_name": "D5J-Milton (black)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 251,
-    "pa": 229,
-    "diff": 22,
-    "sos": 1451.664,
-    "sos_adj": 1401.664,
-    "power": 1419.058,
-    "rank": 4,
-    "mw_rating": 30.8,
-    "mw_points": 339,
+    "pf": 275,
+    "pa": 257,
+    "diff": 18,
+    "sos": 1447.105,
+    "sos_adj": 1397.105,
+    "power": 1405.221,
+    "rank": 5,
+    "mw_rating": 29.2,
+    "mw_points": 350,
     "divisionno": "7251",
     "division_name": "7th Girls - Division 5",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378070",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "3:00 PM",
+      "location": "Milton Academy RSG",
+      "divisionno": "7251",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "45336",
+      "away_teamno": "44158",
+      "home_score": 24,
+      "away_score": 28,
+      "team_score": 24,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44158",
+      "opponent_name": "D5J-Holliston (cooper-red 7th)"
+    },
     {
       "gameno": "378061",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D5H-FLBC"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378070",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "3:00 PM",
-      "location": "Milton Academy RSG",
-      "divisionno": "7251",
-      "division_name": "7th Girls - Division 5",
-      "home_teamno": "45336",
-      "away_teamno": "44158",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44158",
-      "opponent_name": "D5J-Holliston (cooper-red 7th)"
-    }
-  ]
+  "future_games": []
 }

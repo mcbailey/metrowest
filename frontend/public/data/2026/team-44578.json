@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44578",
   "team_name": "D7P-King Philip (gold)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 1,
     "ties": 0,
-    "pf": 359,
-    "pa": 199,
-    "diff": 160,
-    "sos": 1334.66,
-    "sos_adj": 1184.66,
-    "power": 1368.781,
+    "pf": 402,
+    "pa": 220,
+    "diff": 182,
+    "sos": 1333.82,
+    "sos_adj": 1183.82,
+    "power": 1381.561,
     "rank": 2,
-    "mw_rating": 20.3,
-    "mw_points": 223,
+    "mw_rating": 20.4,
+    "mw_points": 245,
     "divisionno": "7591",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "385634",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:00 AM",
+      "location": "Sharon East Elem School",
+      "divisionno": "7591",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "43688",
+      "away_teamno": "44578",
+      "home_score": 21,
+      "away_score": 43,
+      "team_score": 43,
+      "opponent_score": 21,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43688",
+      "opponent_name": "D7P-Sharon (maroon)"
+    },
     {
       "gameno": "389068",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D7R-Millis (roberta)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385634",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:00 AM",
-      "location": "Sharon East Elem School",
-      "divisionno": "7591",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "43688",
-      "away_teamno": "44578",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43688",
-      "opponent_name": "D7P-Sharon (maroon)"
-    }
-  ]
+  "future_games": []
 }

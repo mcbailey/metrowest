@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44053",
   "team_name": "D3M-Newton (orange)",
   "town": null,
@@ -14,7 +14,7 @@
     "sos": 1547.767,
     "sos_adj": 1590.074,
     "power": 1513.282,
-    "rank": 7,
+    "rank": 6,
     "mw_rating": 65.0,
     "mw_points": 780,
     "divisionno": "7160",

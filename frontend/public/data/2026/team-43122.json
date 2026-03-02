@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43122",
   "team_name": "D3H-Seekonk (holland)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 4,
     "ties": 0,
-    "pf": 548,
-    "pa": 469,
-    "diff": 79,
-    "sos": 1569.136,
-    "sos_adj": 1635.803,
-    "power": 1632.017,
+    "pf": 595,
+    "pa": 509,
+    "diff": 86,
+    "sos": 1574.368,
+    "sos_adj": 1639.753,
+    "power": 1646.763,
     "rank": 2,
-    "mw_rating": 100.2,
-    "mw_points": 1102,
+    "mw_rating": 102.0,
+    "mw_points": 1224,
     "divisionno": "7303",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378675",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "1:15 PM",
+      "location": "Seekonk - Hurley Middle School",
+      "divisionno": "7303",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "43122",
+      "away_teamno": "43417",
+      "home_score": 47,
+      "away_score": 40,
+      "team_score": 47,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43417",
+      "opponent_name": "D3H-Brockton"
+    },
     {
       "gameno": "376852",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D3H-Bridgewater (gaff)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378675",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "1:15 PM",
-      "location": "Seekonk - Hurley Middle School",
-      "divisionno": "7303",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "43122",
-      "away_teamno": "43417",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43417",
-      "opponent_name": "D3H-Brockton"
-    }
-  ]
+  "future_games": []
 }

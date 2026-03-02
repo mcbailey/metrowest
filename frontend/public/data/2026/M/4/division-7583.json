@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 4,
   "divisionno": "7583",
@@ -17,12 +17,12 @@
       "pf": 476,
       "pa": 300,
       "diff": 176,
-      "sos": 1448.732,
-      "sos_adj": 1398.732,
-      "power": 1517.579,
+      "sos": 1450.842,
+      "sos_adj": 1400.842,
+      "power": 1518.107,
       "rank": 1,
-      "mw_rating": 57.3,
-      "mw_points": 630
+      "mw_rating": 57.5,
+      "mw_points": 632
     },
     {
       "teamno": "45084",
@@ -38,8 +38,8 @@
       "sos_adj": 1395.476,
       "power": 1514.684,
       "rank": 2,
-      "mw_rating": 50.5,
-      "mw_points": 606
+      "mw_rating": 50.7,
+      "mw_points": 608
     },
     {
       "teamno": "45766",
@@ -51,12 +51,29 @@
       "pf": 646,
       "pa": 527,
       "diff": 119,
-      "sos": 1485.437,
-      "sos_adj": 1472.279,
-      "power": 1511.162,
+      "sos": 1486.659,
+      "sos_adj": 1473.501,
+      "power": 1511.468,
       "rank": 3,
-      "mw_rating": 48.7,
-      "mw_points": 584
+      "mw_rating": 48.9,
+      "mw_points": 587
+    },
+    {
+      "teamno": "44629",
+      "name": "D5T-Ashland (blue)",
+      "town": null,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "pf": 415,
+      "pa": 367,
+      "diff": 48,
+      "sos": 1466.376,
+      "sos_adj": 1420.222,
+      "power": 1468.685,
+      "rank": 4,
+      "mw_rating": 33.2,
+      "mw_points": 398
     },
     {
       "teamno": "44435",
@@ -71,26 +88,9 @@
       "sos": 1481.821,
       "sos_adj": 1463.071,
       "power": 1463.928,
-      "rank": 4,
-      "mw_rating": 36.3,
-      "mw_points": 435
-    },
-    {
-      "teamno": "44629",
-      "name": "D5T-Ashland (blue)",
-      "town": null,
-      "wins": 5,
-      "losses": 7,
-      "ties": 0,
-      "pf": 369,
-      "pa": 337,
-      "diff": 32,
-      "sos": 1470.288,
-      "sos_adj": 1424.455,
-      "power": 1452.33,
       "rank": 5,
-      "mw_rating": 31.1,
-      "mw_points": 342
+      "mw_rating": 36.4,
+      "mw_points": 437
     },
     {
       "teamno": "45274",

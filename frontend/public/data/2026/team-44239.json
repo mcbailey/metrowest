@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44239",
   "team_name": "D6T-Wayland (orange)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 3,
     "ties": 0,
-    "pf": 447,
-    "pa": 302,
-    "diff": 145,
-    "sos": 1403.92,
-    "sos_adj": 1308.465,
-    "power": 1414.68,
+    "pf": 486,
+    "pa": 335,
+    "diff": 151,
+    "sos": 1405.648,
+    "sos_adj": 1309.815,
+    "power": 1426.875,
     "rank": 2,
-    "mw_rating": 28.9,
-    "mw_points": 289,
+    "mw_rating": 29.7,
+    "mw_points": 327,
     "divisionno": "7142",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "380808",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "12:30 PM",
+      "location": "Wayland High School - Front Court",
+      "divisionno": "7142",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "44239",
+      "away_teamno": "45261",
+      "home_score": 39,
+      "away_score": 33,
+      "team_score": 39,
+      "opponent_score": 33,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45261",
+      "opponent_name": "D6Q-Medfield (parton)"
+    },
     {
       "gameno": "380789",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D5H-Somerset (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "380808",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "12:30 PM",
-      "location": "Wayland High School - Front Court",
-      "divisionno": "7142",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "44239",
-      "away_teamno": "45261",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45261",
-      "opponent_name": "D6Q-Medfield (parton)"
-    }
-  ]
+  "future_games": []
 }

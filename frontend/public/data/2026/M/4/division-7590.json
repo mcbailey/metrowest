@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 4,
   "divisionno": "7590",
@@ -21,8 +21,8 @@
       "sos_adj": 1172.332,
       "power": 1385.344,
       "rank": 1,
-      "mw_rating": 22.2,
-      "mw_points": 266
+      "mw_rating": 22.3,
+      "mw_points": 268
     },
     {
       "teamno": "44284",
@@ -38,25 +38,25 @@
       "sos_adj": 1175.006,
       "power": 1376.154,
       "rank": 2,
-      "mw_rating": 19.9,
-      "mw_points": 239
+      "mw_rating": 20.1,
+      "mw_points": 241
     },
     {
       "teamno": "43134",
       "name": "D7M-Barrington RI (white)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 5,
       "ties": 0,
-      "pf": 248,
-      "pa": 230,
-      "diff": 18,
-      "sos": 1369.342,
-      "sos_adj": 1219.342,
-      "power": 1332.387,
+      "pf": 290,
+      "pa": 248,
+      "diff": 42,
+      "sos": 1359.127,
+      "sos_adj": 1209.127,
+      "power": 1342.794,
       "rank": 3,
-      "mw_rating": 12.4,
-      "mw_points": 136
+      "mw_rating": 12.9,
+      "mw_points": 155
     },
     {
       "teamno": "43232",
@@ -68,12 +68,12 @@
       "pf": 243,
       "pa": 199,
       "diff": 44,
-      "sos": 1341.176,
-      "sos_adj": 1191.176,
-      "power": 1329.878,
+      "sos": 1342.747,
+      "sos_adj": 1192.747,
+      "power": 1330.27,
       "rank": 4,
       "mw_rating": 13.6,
-      "mw_points": 149
+      "mw_points": 150
     },
     {
       "teamno": "43841",
@@ -93,23 +93,6 @@
       "mw_points": 122
     },
     {
-      "teamno": "44876",
-      "name": "D7M-Westport (wilkinson - b)",
-      "town": null,
-      "wins": 1,
-      "losses": 9,
-      "ties": 0,
-      "pf": 161,
-      "pa": 255,
-      "diff": -94,
-      "sos": 1377.54,
-      "sos_adj": 1227.54,
-      "power": 1267.875,
-      "rank": 6,
-      "mw_rating": 2.7,
-      "mw_points": 27
-    },
-    {
       "teamno": "43430",
       "name": "D7M-Bridgewater (rodrigues)",
       "town": null,
@@ -122,9 +105,26 @@
       "sos": 1365.597,
       "sos_adj": 1215.597,
       "power": 1264.444,
-      "rank": 7,
+      "rank": 6,
       "mw_rating": 5.3,
       "mw_points": 64
+    },
+    {
+      "teamno": "44876",
+      "name": "D7M-Westport (wilkinson - b)",
+      "town": null,
+      "wins": 1,
+      "losses": 10,
+      "ties": 0,
+      "pf": 179,
+      "pa": 297,
+      "diff": -118,
+      "sos": 1380.003,
+      "sos_adj": 1230.003,
+      "power": 1255.53,
+      "rank": 7,
+      "mw_rating": 2.6,
+      "mw_points": 28
     },
     {
       "teamno": "43429",

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 6,
   "divisionno": "7206",
@@ -21,8 +21,8 @@
       "sos_adj": 1302.244,
       "power": 1426.163,
       "rank": 1,
-      "mw_rating": 30.6,
-      "mw_points": 336
+      "mw_rating": 30.7,
+      "mw_points": 338
     },
     {
       "teamno": "45128",
@@ -59,23 +59,6 @@
       "mw_points": 243
     },
     {
-      "teamno": "44090",
-      "name": "D6J-Holbrook (orange)",
-      "town": null,
-      "wins": 4,
-      "losses": 7,
-      "ties": 0,
-      "pf": 359,
-      "pa": 368,
-      "diff": -9,
-      "sos": 1389.898,
-      "sos_adj": 1289.898,
-      "power": 1363.239,
-      "rank": 4,
-      "mw_rating": 15.7,
-      "mw_points": 173
-    },
-    {
       "teamno": "44194",
       "name": "D6J-Parkway  (blue)",
       "town": null,
@@ -88,9 +71,26 @@
       "sos": 1400.35,
       "sos_adj": 1300.35,
       "power": 1356.5,
+      "rank": 4,
+      "mw_rating": 19.9,
+      "mw_points": 239
+    },
+    {
+      "teamno": "44090",
+      "name": "D6J-Holbrook (orange)",
+      "town": null,
+      "wins": 4,
+      "losses": 8,
+      "ties": 0,
+      "pf": 394,
+      "pa": 431,
+      "diff": -37,
+      "sos": 1396.452,
+      "sos_adj": 1296.452,
+      "power": 1350.24,
       "rank": 5,
-      "mw_rating": 19.8,
-      "mw_points": 238
+      "mw_rating": 14.8,
+      "mw_points": 178
     },
     {
       "teamno": "44521",
@@ -102,9 +102,9 @@
       "pf": 254,
       "pa": 416,
       "diff": -162,
-      "sos": 1400.802,
-      "sos_adj": 1300.802,
-      "power": 1316.032,
+      "sos": 1399.176,
+      "sos_adj": 1299.176,
+      "power": 1315.625,
       "rank": 6,
       "mw_rating": 9.5,
       "mw_points": 114

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43703",
   "team_name": "D6J-Sharon (maroon-shemtov)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 486,
-    "pa": 585,
-    "diff": -99,
-    "sos": 1429.687,
-    "sos_adj": 1363.02,
-    "power": 1374.748,
+    "pf": 505,
+    "pa": 641,
+    "diff": -136,
+    "sos": 1432.689,
+    "sos_adj": 1367.064,
+    "power": 1362.016,
     "rank": 3,
-    "mw_rating": 25.5,
-    "mw_points": 280,
+    "mw_rating": 24.3,
+    "mw_points": 291,
     "divisionno": "7174",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "379887",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:20 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7174",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44870",
+      "away_teamno": "43703",
+      "home_score": 56,
+      "away_score": 19,
+      "team_score": 19,
+      "opponent_score": 56,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44870",
+      "opponent_name": "D5J-North Attleboro (black)"
+    },
     {
       "gameno": "377783",
       "date": "2026-02-22",
@@ -311,25 +330,5 @@
       "opponent_name": "East Greenwich (Maroon) 7B D1"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "379887",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:20 PM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7174",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44870",
-      "away_teamno": "43703",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44870",
-      "opponent_name": "D5J-North Attleboro (black)"
-    }
-  ]
+  "future_games": []
 }

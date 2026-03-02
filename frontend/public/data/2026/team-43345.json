@@ -1,28 +1,28 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43345",
   "team_name": "D5M-Monomoy (blue/teixiera)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 1,
     "ties": 0,
-    "pf": 452,
-    "pa": 297,
-    "diff": 155,
-    "sos": 1435.109,
-    "sos_adj": 1385.109,
-    "power": 1512.792,
+    "pf": 490,
+    "pa": 329,
+    "diff": 161,
+    "sos": 1440.589,
+    "sos_adj": 1390.589,
+    "power": 1526.061,
     "rank": 1,
-    "mw_rating": 51.6,
-    "mw_points": 567,
+    "mw_rating": 52.2,
+    "mw_points": 626,
     "divisionno": "7581",
     "division_name": "4th Boys - Division 5",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": true,
       "opponent_teamno": "45629",
       "opponent_name": "D5M-New Bedford"
+    },
+    {
+      "gameno": "385464",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "11:40 AM",
+      "location": "Monomoy Middle School",
+      "divisionno": "7581",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "43345",
+      "away_teamno": "44493",
+      "home_score": 38,
+      "away_score": 32,
+      "team_score": 38,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44493",
+      "opponent_name": "D5M-Wareham (silvia)"
     },
     {
       "gameno": "385476",
@@ -235,25 +254,5 @@
       "opponent_name": "D5M-Westport (barrera)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "385464",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "11:40 AM",
-      "location": "Monomoy Middle School",
-      "divisionno": "7581",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "43345",
-      "away_teamno": "44493",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44493",
-      "opponent_name": "D5M-Wareham (silvia)"
-    }
-  ]
+  "future_games": []
 }

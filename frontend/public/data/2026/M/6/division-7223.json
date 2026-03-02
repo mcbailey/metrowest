@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 6,
   "divisionno": "7223",
@@ -21,25 +21,25 @@
       "sos_adj": 1490.375,
       "power": 1580.148,
       "rank": 1,
-      "mw_rating": 81.9,
-      "mw_points": 901
+      "mw_rating": 82.1,
+      "mw_points": 903
     },
     {
       "teamno": "43678",
       "name": "D4K-Blackstone-Millville (sellers)",
       "town": null,
-      "wins": 11,
+      "wins": 12,
       "losses": 1,
       "ties": 0,
-      "pf": 540,
-      "pa": 399,
-      "diff": 141,
-      "sos": 1492.452,
-      "sos_adj": 1484.119,
-      "power": 1559.007,
+      "pf": 581,
+      "pa": 431,
+      "diff": 150,
+      "sos": 1484.537,
+      "sos_adj": 1476.845,
+      "power": 1564.191,
       "rank": 2,
-      "mw_rating": 78.6,
-      "mw_points": 864
+      "mw_rating": 78.7,
+      "mw_points": 944
     },
     {
       "teamno": "44632",
@@ -55,8 +55,8 @@
       "sos_adj": 1484.835,
       "power": 1542.526,
       "rank": 3,
-      "mw_rating": 61.9,
-      "mw_points": 743
+      "mw_rating": 62.0,
+      "mw_points": 744
     },
     {
       "teamno": "43780",
@@ -68,9 +68,9 @@
       "pf": 478,
       "pa": 527,
       "diff": -49,
-      "sos": 1497.133,
-      "sos_adj": 1485.595,
-      "power": 1515.082,
+      "sos": 1497.851,
+      "sos_adj": 1486.313,
+      "power": 1515.262,
       "rank": 4,
       "mw_rating": 44.1,
       "mw_points": 529
@@ -89,25 +89,25 @@
       "sos_adj": 1471.954,
       "power": 1448.638,
       "rank": 5,
-      "mw_rating": 36.0,
-      "mw_points": 432
+      "mw_rating": 36.1,
+      "mw_points": 433
     },
     {
       "teamno": "45642",
       "name": "D4K-Hopkinton (klotsche6)",
       "town": null,
       "wins": 2,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 332,
-      "pa": 467,
-      "diff": -135,
-      "sos": 1507.752,
-      "sos_adj": 1499.419,
-      "power": 1431.031,
+      "pf": 364,
+      "pa": 508,
+      "diff": -144,
+      "sos": 1515.052,
+      "sos_adj": 1507.359,
+      "power": 1426.013,
       "rank": 6,
-      "mw_rating": 34.3,
-      "mw_points": 377
+      "mw_rating": 33.5,
+      "mw_points": 402
     }
   ]
 }

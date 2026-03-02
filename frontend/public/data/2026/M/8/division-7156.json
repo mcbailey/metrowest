@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 8,
   "divisionno": "7156",
@@ -17,12 +17,12 @@
       "pf": 641,
       "pa": 456,
       "diff": 185,
-      "sos": 1468.151,
-      "sos_adj": 1455.651,
-      "power": 1555.925,
+      "sos": 1469.206,
+      "sos_adj": 1456.706,
+      "power": 1556.189,
       "rank": 1,
       "mw_rating": 70.6,
-      "mw_points": 776
+      "mw_points": 777
     },
     {
       "teamno": "43997",
@@ -34,29 +34,29 @@
       "pf": 527,
       "pa": 436,
       "diff": 91,
-      "sos": 1484.685,
-      "sos_adj": 1484.685,
-      "power": 1546.187,
+      "sos": 1485.739,
+      "sos_adj": 1485.739,
+      "power": 1546.451,
       "rank": 2,
-      "mw_rating": 71.6,
-      "mw_points": 788
+      "mw_rating": 71.7,
+      "mw_points": 789
     },
     {
       "teamno": "45105",
       "name": "D4R-Framingham (navy)",
       "town": null,
-      "wins": 7,
+      "wins": 8,
       "losses": 6,
       "ties": 0,
-      "pf": 626,
-      "pa": 510,
-      "diff": 116,
-      "sos": 1494.041,
-      "sos_adj": 1486.349,
-      "power": 1529.508,
+      "pf": 669,
+      "pa": 545,
+      "diff": 124,
+      "sos": 1488.788,
+      "sos_adj": 1478.074,
+      "power": 1536.931,
       "rank": 3,
-      "mw_rating": 54.5,
-      "mw_points": 599
+      "mw_rating": 55.4,
+      "mw_points": 665
     },
     {
       "teamno": "44755",
@@ -68,9 +68,9 @@
       "pf": 949,
       "pa": 957,
       "diff": -8,
-      "sos": 1496.142,
-      "sos_adj": 1496.142,
-      "power": 1518.26,
+      "sos": 1496.745,
+      "sos_adj": 1496.745,
+      "power": 1518.411,
       "rank": 4,
       "mw_rating": 54.7,
       "mw_points": 656
@@ -89,8 +89,8 @@
       "sos_adj": 1485.352,
       "power": 1495.075,
       "rank": 5,
-      "mw_rating": 53.2,
-      "mw_points": 638
+      "mw_rating": 53.3,
+      "mw_points": 639
     },
     {
       "teamno": "43717",
@@ -119,9 +119,9 @@
       "pf": 718,
       "pa": 866,
       "diff": -148,
-      "sos": 1498.686,
-      "sos_adj": 1484.797,
-      "power": 1390.542,
+      "sos": 1497.983,
+      "sos_adj": 1484.094,
+      "power": 1390.366,
       "rank": 7,
       "mw_rating": 30.9,
       "mw_points": 371

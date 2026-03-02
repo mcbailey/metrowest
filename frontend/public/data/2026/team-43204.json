@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "43204",
   "team_name": "D5J-FLBC (blue)",
   "town": null,
   "summary": {
-    "wins": 3,
+    "wins": 4,
     "losses": 9,
     "ties": 0,
-    "pf": 403,
-    "pa": 512,
-    "diff": -109,
-    "sos": 1461.787,
-    "sos_adj": 1407.62,
-    "power": 1412.509,
+    "pf": 439,
+    "pa": 545,
+    "diff": -106,
+    "sos": 1458.322,
+    "sos_adj": 1404.476,
+    "power": 1422.341,
     "rank": 4,
-    "mw_rating": 20.7,
-    "mw_points": 228,
+    "mw_rating": 23.8,
+    "mw_points": 286,
     "divisionno": "7213",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "378292",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:45 PM",
+      "location": "Walpole Elm Street School",
+      "divisionno": "7215",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43204",
+      "away_teamno": "44463",
+      "home_score": 36,
+      "away_score": 33,
+      "team_score": 36,
+      "opponent_score": 33,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44463",
+      "opponent_name": "D5M-Walpole (c)"
+    },
     {
       "gameno": "378300",
       "date": "2026-02-21",
@@ -254,25 +273,5 @@
       "opponent_name": "D5J-Middleborough (terrasi)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "378292",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:45 PM",
-      "location": "Walpole Elm Street School",
-      "divisionno": "7215",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "43204",
-      "away_teamno": "44463",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44463",
-      "opponent_name": "D5M-Walpole (c)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 6,
   "divisionno": "7213",
@@ -17,12 +17,12 @@
       "pf": 602,
       "pa": 340,
       "diff": 262,
-      "sos": 1446.79,
-      "sos_adj": 1400.636,
-      "power": 1536.806,
+      "sos": 1446.41,
+      "sos_adj": 1400.256,
+      "power": 1536.711,
       "rank": 1,
-      "mw_rating": 59.0,
-      "mw_points": 708
+      "mw_rating": 59.2,
+      "mw_points": 710
     },
     {
       "teamno": "43927",
@@ -34,12 +34,12 @@
       "pf": 493,
       "pa": 370,
       "diff": 123,
-      "sos": 1452.366,
-      "sos_adj": 1406.533,
-      "power": 1502.828,
+      "sos": 1451.954,
+      "sos_adj": 1406.121,
+      "power": 1502.725,
       "rank": 2,
-      "mw_rating": 44.8,
-      "mw_points": 537
+      "mw_rating": 44.9,
+      "mw_points": 539
     },
     {
       "teamno": "43289",
@@ -51,29 +51,29 @@
       "pf": 511,
       "pa": 481,
       "diff": 30,
-      "sos": 1446.692,
-      "sos_adj": 1392.526,
-      "power": 1464.454,
+      "sos": 1446.281,
+      "sos_adj": 1392.114,
+      "power": 1464.351,
       "rank": 3,
       "mw_rating": 30.8,
-      "mw_points": 369
+      "mw_points": 370
     },
     {
       "teamno": "43204",
       "name": "D5J-FLBC (blue)",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 9,
       "ties": 0,
-      "pf": 403,
-      "pa": 512,
-      "diff": -109,
-      "sos": 1461.787,
-      "sos_adj": 1407.62,
-      "power": 1412.509,
+      "pf": 439,
+      "pa": 545,
+      "diff": -106,
+      "sos": 1458.322,
+      "sos_adj": 1404.476,
+      "power": 1422.341,
       "rank": 4,
-      "mw_rating": 20.7,
-      "mw_points": 228
+      "mw_rating": 23.8,
+      "mw_points": 286
     },
     {
       "teamno": "43149",
@@ -85,29 +85,29 @@
       "pf": 434,
       "pa": 572,
       "diff": -138,
-      "sos": 1461.545,
-      "sos_adj": 1411.545,
-      "power": 1399.417,
+      "sos": 1461.133,
+      "sos_adj": 1411.133,
+      "power": 1399.314,
       "rank": 5,
-      "mw_rating": 24.6,
-      "mw_points": 295
+      "mw_rating": 24.7,
+      "mw_points": 296
     },
     {
       "teamno": "43421",
       "name": "D5J-Bridgewater (senesi)",
       "town": null,
       "wins": 3,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 367,
-      "pa": 483,
-      "diff": -116,
-      "sos": 1468.308,
-      "sos_adj": 1422.854,
-      "power": 1393.465,
+      "pf": 389,
+      "pa": 539,
+      "diff": -150,
+      "sos": 1469.554,
+      "sos_adj": 1423.721,
+      "power": 1379.358,
       "rank": 6,
-      "mw_rating": 23.6,
-      "mw_points": 259
+      "mw_rating": 22.5,
+      "mw_points": 270
     }
   ]
 }

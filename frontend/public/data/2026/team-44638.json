@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "teamno": "44638",
   "team_name": "D2AH-Attleboro (blue)",
   "town": null,
   "summary": {
-    "wins": 9,
+    "wins": 10,
     "losses": 3,
     "ties": 0,
-    "pf": 598,
-    "pa": 528,
-    "diff": 70,
-    "sos": 1609.884,
-    "sos_adj": 1730.718,
-    "power": 1674.999,
+    "pf": 648,
+    "pa": 568,
+    "diff": 80,
+    "sos": 1609.622,
+    "sos_adj": 1732.699,
+    "power": 1694.637,
     "rank": 1,
-    "mw_rating": 161.8,
-    "mw_points": 1780,
+    "mw_rating": 166.2,
+    "mw_points": 1994,
     "divisionno": "7307",
     "division_name": "5th Boys - Division 2",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "374270",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:45 PM",
+      "location": "Attleboro Brennan Middle School",
+      "divisionno": "7307",
+      "division_name": "5th Boys - Division 2",
+      "home_teamno": "44638",
+      "away_teamno": "43759",
+      "home_score": 50,
+      "away_score": 40,
+      "team_score": 50,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43759",
+      "opponent_name": "D1-Needham (gold)"
+    },
     {
       "gameno": "374261",
       "date": "2026-02-22",
@@ -254,25 +273,5 @@
       "opponent_name": "D2AJ-Foxboro (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "374270",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:45 PM",
-      "location": "Attleboro Brennan Middle School",
-      "divisionno": "7307",
-      "division_name": "5th Boys - Division 2",
-      "home_teamno": "44638",
-      "away_teamno": "43759",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43759",
-      "opponent_name": "D1-Needham (gold)"
-    }
-  ]
+  "future_games": []
 }

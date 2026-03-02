@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-01",
+  "snapshot_date": "2026-03-02",
   "gender": "M",
   "grade": 8,
   "divisionno": "7158",
@@ -17,9 +17,9 @@
       "pf": 789,
       "pa": 590,
       "diff": 199,
-      "sos": 1550.225,
-      "sos_adj": 1603.796,
-      "power": 1617.373,
+      "sos": 1547.328,
+      "sos_adj": 1600.899,
+      "power": 1616.648,
       "rank": 1,
       "mw_rating": 106.0,
       "mw_points": 1272
@@ -39,7 +39,7 @@
       "power": 1596.281,
       "rank": 2,
       "mw_rating": 101.3,
-      "mw_points": 1215
+      "mw_points": 1216
     },
     {
       "teamno": "43830",
@@ -68,29 +68,12 @@
       "pf": 1099,
       "pa": 990,
       "diff": 109,
-      "sos": 1548.544,
-      "sos_adj": 1593.544,
-      "power": 1567.61,
+      "sos": 1546.516,
+      "sos_adj": 1591.516,
+      "power": 1567.103,
       "rank": 4,
-      "mw_rating": 98.5,
-      "mw_points": 1182
-    },
-    {
-      "teamno": "44092",
-      "name": "D3J-Holbrook (blue)",
-      "town": null,
-      "wins": 4,
-      "losses": 7,
-      "ties": 0,
-      "pf": 462,
-      "pa": 543,
-      "diff": -81,
-      "sos": 1533.381,
-      "sos_adj": 1560.654,
-      "power": 1535.675,
-      "rank": 5,
-      "mw_rating": 56.6,
-      "mw_points": 623
+      "mw_rating": 98.6,
+      "mw_points": 1183
     },
     {
       "teamno": "43893",
@@ -102,12 +85,29 @@
       "pf": 571,
       "pa": 710,
       "diff": -139,
-      "sos": 1554.95,
-      "sos_adj": 1604.95,
-      "power": 1515.026,
-      "rank": 6,
+      "sos": 1551.57,
+      "sos_adj": 1601.57,
+      "power": 1514.181,
+      "rank": 5,
       "mw_rating": 62.3,
       "mw_points": 747
+    },
+    {
+      "teamno": "44092",
+      "name": "D3J-Holbrook (blue)",
+      "town": null,
+      "wins": 4,
+      "losses": 8,
+      "ties": 0,
+      "pf": 510,
+      "pa": 606,
+      "diff": -96,
+      "sos": 1533.979,
+      "sos_adj": 1558.979,
+      "power": 1504.838,
+      "rank": 6,
+      "mw_rating": 54.1,
+      "mw_points": 649
     },
     {
       "teamno": "44467",
@@ -123,8 +123,8 @@
       "sos_adj": 1603.554,
       "power": 1503.298,
       "rank": 7,
-      "mw_rating": 63.5,
-      "mw_points": 698
+      "mw_rating": 63.6,
+      "mw_points": 699
     }
   ]
 }
