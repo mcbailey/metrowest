@@ -11,18 +11,18 @@
     "pf": 539,
     "pa": 430,
     "diff": 109,
-    "sos": 1646.732,
-    "sos_adj": 1787.641,
-    "power": 1727.286,
+    "sos": 1646.709,
+    "sos_adj": 1787.618,
+    "power": 1727.465,
     "rank": 2,
-    "mw_rating": 184.8,
-    "mw_points": 2033,
+    "mw_rating": 184.7,
+    "mw_points": 2032,
     "divisionno": "7050",
     "division_name": "8th Girls - Division 1",
     "grade": 8,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -273,6 +273,25 @@
       "is_home": true,
       "opponent_teamno": "43945",
       "opponent_name": "D1/2-Brookline (red)"
+    },
+    {
+      "gameno": "44912",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "2:40 PM",
+      "location": "Mass Premier - 1",
+      "divisionno": "7050",
+      "division_name": "8th Girls - Division 1",
+      "home_teamno": "43436",
+      "away_teamno": "43339",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43339",
+      "opponent_name": "D1/2-Mansfield (white)"
     }
   ]
 }

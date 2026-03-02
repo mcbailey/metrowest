@@ -11,10 +11,10 @@
     "pf": 647,
     "pa": 579,
     "diff": 68,
-    "sos": 1564.259,
-    "sos_adj": 1628.965,
-    "power": 1599.553,
-    "rank": 3,
+    "sos": 1564.118,
+    "sos_adj": 1625.883,
+    "power": 1589.992,
+    "rank": 2,
     "mw_rating": 97.6,
     "mw_points": 1073,
     "divisionno": "7248",
@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -52,7 +52,7 @@
       "location": "Colonial Park School",
       "divisionno": "7248",
       "division_name": "8th Girls - Division 3",
-      "home_teamno": "43394",
+      "home_teamno": "44368",
       "away_teamno": "44696",
       "home_score": 22,
       "away_score": 36,
@@ -60,8 +60,8 @@
       "opponent_score": 22,
       "status": "final",
       "is_home": false,
-      "opponent_teamno": "43394",
-      "opponent_name": "D2BJ-Natick"
+      "opponent_teamno": "44368",
+      "opponent_name": "D3K-Belmont (maroon)"
     },
     {
       "gameno": "380128",
@@ -368,6 +368,44 @@
       "is_home": true,
       "opponent_teamno": "44368",
       "opponent_name": "D3K-Belmont (maroon)"
+    },
+    {
+      "gameno": "394050",
+      "date": "2026-02-22",
+      "dow": "Sun",
+      "starttime": "5:30 PM",
+      "location": "Ottoson Middle School",
+      "divisionno": "7248",
+      "division_name": "8th Girls - Division 3",
+      "home_teamno": "44696",
+      "away_teamno": "44368",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44368",
+      "opponent_name": "D3K-Belmont (maroon)"
+    },
+    {
+      "gameno": "46340",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "2:15 PM",
+      "location": "Westborough Gibbons Middle School",
+      "divisionno": "7248",
+      "division_name": "8th Girls - Division 3",
+      "home_teamno": "0",
+      "away_teamno": "44696",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -368,6 +368,25 @@
       "is_home": false,
       "opponent_teamno": "44243",
       "opponent_name": "D4Q-Wayland (black)"
+    },
+    {
+      "gameno": "44893",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:50 AM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7261",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "45134",
+      "away_teamno": "45761",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45134",
+      "opponent_name": "D3H-Westwood"
     }
   ]
 }

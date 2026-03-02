@@ -15,14 +15,14 @@
     "sos_adj": 1595.226,
     "power": 1623.154,
     "rank": 2,
-    "mw_rating": 99.3,
-    "mw_points": 1192,
+    "mw_rating": 99.4,
+    "mw_points": 1193,
     "divisionno": "7160",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
     "games_played_total": 12,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -254,5 +254,25 @@
       "opponent_name": "D3K-Parkway  (red)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45693",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "7:00 PM",
+      "location": "North Quincy High School (Ct 1)",
+      "divisionno": "7160",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "0",
+      "away_teamno": "44709",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
+    }
+  ]
 }

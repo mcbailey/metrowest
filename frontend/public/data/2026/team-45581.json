@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "44721",
       "opponent_name": "D4M-Weston"
+    },
+    {
+      "gameno": "46108",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "7:45 PM",
+      "location": "Mansfield Fieldhouse -2",
+      "divisionno": "7276",
+      "division_name": "6th Girls - Division 4",
+      "home_teamno": "44406",
+      "away_teamno": "45581",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44406",
+      "opponent_name": "D3J-Dedham (sullivan)"
     }
   ]
 }

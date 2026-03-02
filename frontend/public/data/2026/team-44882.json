@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 14,
-    "games_scheduled_total": 7
+    "games_scheduled_total": 8
   },
   "past_games": [
     {
@@ -425,6 +425,25 @@
       "is_home": true,
       "opponent_teamno": "44870",
       "opponent_name": "D5J-North Attleboro (black)"
+    },
+    {
+      "gameno": "45633",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "5:15 PM",
+      "location": "Mass Premier - 6",
+      "divisionno": "7173",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "43832",
+      "away_teamno": "44882",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43832",
+      "opponent_name": "D6H-Raynham (maddock-b)"
     }
   ]
 }

@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 14,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -330,6 +330,25 @@
       "is_home": false,
       "opponent_teamno": "45626",
       "opponent_name": "D3H-New Bedford"
+    },
+    {
+      "gameno": "45330",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "3:10 PM",
+      "location": "Taunton High School 3",
+      "divisionno": "7226",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "43256",
+      "away_teamno": "43691",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43691",
+      "opponent_name": "D3J-Sharon (gold)"
     }
   ]
 }

@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -387,6 +387,25 @@
       "is_home": true,
       "opponent_teamno": "43304",
       "opponent_name": "D3H-Franklin"
+    },
+    {
+      "gameno": "46110",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "7:00 PM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7274",
+      "division_name": "6th Girls - Division 4",
+      "home_teamno": "43266",
+      "away_teamno": "43949",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43949",
+      "opponent_name": "D3J-Norwood (gold)"
     }
   ]
 }

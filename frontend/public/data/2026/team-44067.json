@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 15,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -349,6 +349,25 @@
       "is_home": false,
       "opponent_teamno": "45513",
       "opponent_name": "D4R-Everett"
+    },
+    {
+      "gameno": "46359",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:30 AM",
+      "location": "Ashland High School",
+      "divisionno": "7244",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "44077",
+      "away_teamno": "44067",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44077",
+      "opponent_name": "D4Q-Wellesley (b)"
     }
   ]
 }

@@ -17,12 +17,12 @@
       "pf": 858,
       "pa": 658,
       "diff": 200,
-      "sos": 1581.588,
-      "sos_adj": 1664.922,
-      "power": 1678.768,
+      "sos": 1582.455,
+      "sos_adj": 1665.788,
+      "power": 1678.985,
       "rank": 1,
-      "mw_rating": 133.8,
-      "mw_points": 1606
+      "mw_rating": 133.9,
+      "mw_points": 1607
     },
     {
       "teamno": "45318",
@@ -34,12 +34,12 @@
       "pf": 1057,
       "pa": 973,
       "diff": 84,
-      "sos": 1575.635,
-      "sos_adj": 1675.635,
-      "power": 1668.683,
+      "sos": 1567.553,
+      "sos_adj": 1667.553,
+      "power": 1666.56,
       "rank": 2,
-      "mw_rating": 123.6,
-      "mw_points": 1483
+      "mw_rating": 123.7,
+      "mw_points": 1484
     },
     {
       "teamno": "44403",
@@ -55,25 +55,25 @@
       "sos_adj": 1707.521,
       "power": 1608.005,
       "rank": 3,
-      "mw_rating": 97.6,
-      "mw_points": 1171
+      "mw_rating": 97.7,
+      "mw_points": 1172
     },
     {
       "teamno": "43621",
       "name": "D2J-Norwood (gold)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 8,
       "ties": 0,
-      "pf": 424,
-      "pa": 529,
-      "diff": -105,
-      "sos": 1614.392,
-      "sos_adj": 1714.392,
-      "power": 1586.992,
+      "pf": 471,
+      "pa": 565,
+      "diff": -94,
+      "sos": 1607.035,
+      "sos_adj": 1707.035,
+      "power": 1596.953,
       "rank": 4,
-      "mw_rating": 86.6,
-      "mw_points": 866
+      "mw_rating": 93.5,
+      "mw_points": 1028
     },
     {
       "teamno": "44966",
@@ -85,9 +85,9 @@
       "pf": 619,
       "pa": 728,
       "diff": -109,
-      "sos": 1574.746,
-      "sos_adj": 1656.889,
-      "power": 1579.02,
+      "sos": 1574.756,
+      "sos_adj": 1656.899,
+      "power": 1579.022,
       "rank": 5,
       "mw_rating": 83.8,
       "mw_points": 1005

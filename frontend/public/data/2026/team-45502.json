@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 13,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -311,6 +311,25 @@
       "is_home": true,
       "opponent_teamno": "43917",
       "opponent_name": "D5Q-Wellesley (c)"
+    },
+    {
+      "gameno": "45752",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "2:30 PM",
+      "location": "Sudbury Fieldhouse-Court 2",
+      "divisionno": "7150",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "45502",
+      "away_teamno": "45311",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45311",
+      "opponent_name": "D5Q-Milton (gold)"
     }
   ]
 }

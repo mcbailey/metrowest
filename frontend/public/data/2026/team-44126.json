@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 9,
-    "games_scheduled_total": 3
+    "games_scheduled_total": 4
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "44605",
       "opponent_name": "D5H-King Philip"
+    },
+    {
+      "gameno": "46328",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7250",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "44126",
+      "away_teamno": "44484",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44484",
+      "opponent_name": "D5H-Easton (orange)"
     }
   ]
 }

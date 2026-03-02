@@ -15,14 +15,14 @@
     "sos_adj": 1642.237,
     "power": 1610.919,
     "rank": 2,
-    "mw_rating": 92.5,
-    "mw_points": 1017,
+    "mw_rating": 92.6,
+    "mw_points": 1018,
     "divisionno": "7157",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
     "games_played_total": 9,
-    "games_scheduled_total": 3
+    "games_scheduled_total": 4
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "43143",
       "opponent_name": "D3H-Dighton-Rehoboth (green)"
+    },
+    {
+      "gameno": "44568",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "8:10 AM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7157",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "45628",
+      "away_teamno": "45308",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45308",
+      "opponent_name": "D2J-Milton (red)"
     }
   ]
 }

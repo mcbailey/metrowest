@@ -11,9 +11,9 @@
     "pf": 511,
     "pa": 610,
     "diff": -99,
-    "sos": 1559.558,
-    "sos_adj": 1602.891,
-    "power": 1527.076,
+    "sos": 1554.016,
+    "sos_adj": 1597.35,
+    "power": 1525.69,
     "rank": 4,
     "mw_rating": 77.5,
     "mw_points": 852,
@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "Woburn (Black)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46337",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "11:40 AM",
+      "location": "Frisoli Youth Center",
+      "divisionno": "7248",
+      "division_name": "8th Girls - Division 3",
+      "home_teamno": "45763",
+      "away_teamno": "44385",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44385",
+      "opponent_name": "D3J-Westborough"
+    }
+  ]
 }

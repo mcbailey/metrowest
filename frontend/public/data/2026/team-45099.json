@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "M",
     "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -235,6 +235,25 @@
       "is_home": true,
       "opponent_teamno": "45122",
       "opponent_name": "D6K-Westwood"
+    },
+    {
+      "gameno": "45426",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "11:45 AM",
+      "location": "Hopkinton Doyle Gym",
+      "divisionno": "7288",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "45426",
+      "away_teamno": "45099",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45426",
+      "opponent_name": "D6R-Winchester (red)"
     }
   ]
 }

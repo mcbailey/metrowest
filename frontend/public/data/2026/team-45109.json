@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 10,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "44406",
       "opponent_name": "D3J-Dedham (sullivan)"
+    },
+    {
+      "gameno": "46212",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:05 AM",
+      "location": "Hopkinton Doyle Gym",
+      "divisionno": "7277",
+      "division_name": "6th Girls - Division 4",
+      "home_teamno": "0",
+      "away_teamno": "45109",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

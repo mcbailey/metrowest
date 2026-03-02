@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 12,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -254,5 +254,25 @@
       "opponent_name": "D2-Dighton-Rehoboth"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "44842",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "1:40 PM",
+      "location": "Attleboro Brennan Middle School",
+      "divisionno": "7071",
+      "division_name": "6th Girls - Division 2",
+      "home_teamno": "0",
+      "away_teamno": "44031",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
+    }
+  ]
 }

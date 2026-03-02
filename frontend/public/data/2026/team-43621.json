@@ -5,23 +5,23 @@
   "team_name": "D2J-Norwood (gold)",
   "town": null,
   "summary": {
-    "wins": 2,
+    "wins": 3,
     "losses": 8,
     "ties": 0,
-    "pf": 424,
-    "pa": 529,
-    "diff": -105,
-    "sos": 1614.392,
-    "sos_adj": 1714.392,
-    "power": 1586.992,
+    "pf": 471,
+    "pa": 565,
+    "diff": -94,
+    "sos": 1607.035,
+    "sos_adj": 1707.035,
+    "power": 1596.953,
     "rank": 4,
-    "mw_rating": 86.6,
-    "mw_points": 866,
+    "mw_rating": 93.5,
+    "mw_points": 1028,
     "divisionno": "7231",
     "division_name": "6th Boys - Division 2",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 10,
+    "games_played_total": 11,
     "games_scheduled_total": 1
   },
   "past_games": [
@@ -43,6 +43,25 @@
       "is_home": false,
       "opponent_teamno": "45318",
       "opponent_name": "D2J-Milton (red)"
+    },
+    {
+      "gameno": "374530",
+      "date": "2026-02-22",
+      "dow": "Sun",
+      "starttime": "1:50 PM",
+      "location": "West Bridgewater Middle/Senior High School",
+      "divisionno": "7231",
+      "division_name": "6th Boys - Division 2",
+      "home_teamno": "45354",
+      "away_teamno": "43621",
+      "home_score": 36,
+      "away_score": 47,
+      "team_score": 47,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45354",
+      "opponent_name": "D2H-West Bridgewater (ryan)"
     },
     {
       "gameno": "374544",
@@ -218,14 +237,14 @@
   ],
   "future_games": [
     {
-      "gameno": "374530",
-      "date": "2026-02-22",
-      "dow": "Sun",
-      "starttime": "1:50 PM",
-      "location": "West Bridgewater Middle/Senior High School",
-      "divisionno": "7231",
-      "division_name": "6th Boys - Division 2",
-      "home_teamno": "45354",
+      "gameno": "45329",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "4:30 PM",
+      "location": "Taunton High School  2",
+      "divisionno": "7221",
+      "division_name": "6th Boys - Division 4",
+      "home_teamno": "44495",
       "away_teamno": "43621",
       "home_score": null,
       "away_score": null,
@@ -233,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "45354",
-      "opponent_name": "D2H-West Bridgewater (ryan)"
+      "opponent_teamno": "44495",
+      "opponent_name": "D4H-Wareham (silvia)"
     }
   ]
 }

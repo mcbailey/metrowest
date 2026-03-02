@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "F",
     "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -349,6 +349,25 @@
       "is_home": true,
       "opponent_teamno": "43348",
       "opponent_name": "D6P-Mansfield (green)"
+    },
+    {
+      "gameno": "45929",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "11:50 AM",
+      "location": "Seekonk - Hurley Middle School",
+      "divisionno": "7555",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "43163",
+      "away_teamno": "43601",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43601",
+      "opponent_name": "D6Q-North Quincy (zapata)"
     }
   ]
 }

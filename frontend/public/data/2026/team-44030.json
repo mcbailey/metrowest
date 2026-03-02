@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D5T-Wellesley (b)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45977",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "4:45 PM",
+      "location": "Ashland High School",
+      "divisionno": "7318",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44030",
+      "away_teamno": "43185",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43185",
+      "opponent_name": "D4J-Bellingham"
+    }
+  ]
 }

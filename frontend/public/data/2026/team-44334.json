@@ -11,9 +11,9 @@
     "pf": 875,
     "pa": 1010,
     "diff": -135,
-    "sos": 1541.097,
-    "sos_adj": 1578.597,
-    "power": 1510.925,
+    "sos": 1541.318,
+    "sos_adj": 1578.818,
+    "power": 1511.134,
     "rank": 7,
     "mw_rating": 66.6,
     "mw_points": 799,
@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 20,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -406,5 +406,25 @@
       "opponent_name": "D2K-Concord-Carlisle (maroon)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45715",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "7:35 PM",
+      "location": "Hopkinton-Hopkins School",
+      "divisionno": "7156",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "43717",
+      "away_teamno": "44334",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43717",
+      "opponent_name": "D4R-Concord-Carlisle (white)"
+    }
+  ]
 }

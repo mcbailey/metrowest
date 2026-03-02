@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -349,6 +349,25 @@
       "is_home": true,
       "opponent_teamno": "44338",
       "opponent_name": "D5K-Medway (white)"
+    },
+    {
+      "gameno": "46411",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:05 PM",
+      "location": "Hopkinton-Hopkins School",
+      "divisionno": "7239",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "43452",
+      "away_teamno": "43648",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43648",
+      "opponent_name": "D5J-Needham (blue)"
     }
   ]
 }

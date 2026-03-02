@@ -11,9 +11,9 @@
     "pf": 610,
     "pa": 564,
     "diff": 46,
-    "sos": 1396.14,
-    "sos_adj": 1299.265,
-    "power": 1353.692,
+    "sos": 1397.481,
+    "sos_adj": 1300.606,
+    "power": 1354.027,
     "rank": 4,
     "mw_rating": 17.8,
     "mw_points": 178,
@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 16,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -330,5 +330,25 @@
       "opponent_name": "D6W-Winchester (red)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45818",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "3:45 PM",
+      "location": "Hopkinton Doyle Gym",
+      "divisionno": "7142",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "45636",
+      "away_teamno": "44756",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45636",
+      "opponent_name": "D5Q-Hopkinton (selchan8)"
+    }
+  ]
 }

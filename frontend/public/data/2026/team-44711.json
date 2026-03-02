@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "43999",
       "opponent_name": "D4Q-Somerville (red)"
+    },
+    {
+      "gameno": "45565",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "5:15 PM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7183",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "44711",
+      "away_teamno": "45639",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45639",
+      "opponent_name": "D5Q-Hopkinton (spar7b)"
     }
   ]
 }

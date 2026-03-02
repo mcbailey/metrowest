@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "F",
     "games_played_total": 13,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -311,6 +311,25 @@
       "is_home": false,
       "opponent_teamno": "43216",
       "opponent_name": "D2H-FLBC"
+    },
+    {
+      "gameno": "45972",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "4:30 PM",
+      "location": "Mansfield Fieldhouse -2",
+      "divisionno": "7325",
+      "division_name": "5th Girls - Division 3",
+      "home_teamno": "45123",
+      "away_teamno": "44879",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44879",
+      "opponent_name": "D3H-North Attleboro (red)"
     }
   ]
 }

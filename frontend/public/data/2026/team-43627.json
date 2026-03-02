@@ -11,9 +11,9 @@
     "pf": 206,
     "pa": 224,
     "diff": -18,
-    "sos": 1471.034,
-    "sos_adj": 1421.034,
-    "power": 1424.835,
+    "sos": 1472.251,
+    "sos_adj": 1422.251,
+    "power": 1425.395,
     "rank": 5,
     "mw_rating": 30.8,
     "mw_points": 339,
@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "43218",
       "opponent_name": "D5M-FLBC"
+    },
+    {
+      "gameno": "45901",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "12:30 PM",
+      "location": "Mansfield Fieldhouse -2",
+      "divisionno": "7552",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "0",
+      "away_teamno": "43627",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

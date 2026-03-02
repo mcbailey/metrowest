@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 13,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -273,5 +273,25 @@
       "opponent_name": "D4P-Natick (red)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45101",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "9:05 AM",
+      "location": "Hopkinton-Elmwood School",
+      "divisionno": "7591",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "0",
+      "away_teamno": "44111",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
+    }
+  ]
 }

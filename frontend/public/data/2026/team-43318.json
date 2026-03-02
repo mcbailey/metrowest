@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 14,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -292,5 +292,25 @@
       "opponent_name": "D5H-Dighton-Rehoboth (white)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45520",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "6:15 PM",
+      "location": "Old Rochester Junior High School",
+      "divisionno": "7194",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "44465",
+      "away_teamno": "43318",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44465",
+      "opponent_name": "D3J-Walpole (a)"
+    }
+  ]
 }

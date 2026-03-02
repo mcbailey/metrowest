@@ -11,9 +11,9 @@
     "pf": 550,
     "pa": 596,
     "diff": -46,
-    "sos": 1409.364,
-    "sos_adj": 1317.258,
-    "power": 1393.393,
+    "sos": 1409.303,
+    "sos_adj": 1317.198,
+    "power": 1393.378,
     "rank": 3,
     "mw_rating": 23.1,
     "mw_points": 254,
@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -406,6 +406,25 @@
       "is_home": false,
       "opponent_teamno": "45229",
       "opponent_name": "D5R-Somerville (blue)"
+    },
+    {
+      "gameno": "45495",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "5:00 PM",
+      "location": "Frisoli Youth Center",
+      "divisionno": "7211",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "45427",
+      "away_teamno": "0",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

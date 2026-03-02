@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "F",
     "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -235,6 +235,25 @@
       "is_home": true,
       "opponent_teamno": "45201",
       "opponent_name": "D5P-Somerville"
+    },
+    {
+      "gameno": "45905",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "5:15 PM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7553",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "44515",
+      "away_teamno": "43707",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44515",
+      "opponent_name": "D5N-Milford (red-calzoloia)"
     }
   ]
 }

@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -387,6 +387,25 @@
       "is_home": true,
       "opponent_teamno": "43786",
       "opponent_name": "D3K-Millis"
+    },
+    {
+      "gameno": "45686",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "3:40 PM",
+      "location": "North Quincy High School (Ct 1)",
+      "divisionno": "7160",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "44238",
+      "away_teamno": "44747",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44747",
+      "opponent_name": "D3M-Arlington (maroon)"
     }
   ]
 }

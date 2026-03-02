@@ -21,8 +21,8 @@
       "sos_adj": 1299.198,
       "power": 1419.933,
       "rank": 1,
-      "mw_rating": 27.5,
-      "mw_points": 330
+      "mw_rating": 27.6,
+      "mw_points": 331
     },
     {
       "teamno": "44217",
@@ -34,9 +34,9 @@
       "pf": 594,
       "pa": 413,
       "diff": 181,
-      "sos": 1405.599,
-      "sos_adj": 1312.742,
-      "power": 1419.683,
+      "sos": 1404.313,
+      "sos_adj": 1311.456,
+      "power": 1419.361,
       "rank": 2,
       "mw_rating": 33.5,
       "mw_points": 368
@@ -55,25 +55,25 @@
       "sos_adj": 1308.268,
       "power": 1362.602,
       "rank": 3,
-      "mw_rating": 20.7,
-      "mw_points": 248
+      "mw_rating": 20.8,
+      "mw_points": 249
     },
     {
       "teamno": "45244",
       "name": "D6M-Medfield (brajtbord)",
       "town": null,
       "wins": 1,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "pf": 177,
-      "pa": 268,
-      "diff": -91,
-      "sos": 1420.928,
-      "sos_adj": 1320.928,
-      "power": 1341.491,
+      "pf": 196,
+      "pa": 296,
+      "diff": -100,
+      "sos": 1418.876,
+      "sos_adj": 1318.876,
+      "power": 1327.469,
       "rank": 4,
-      "mw_rating": 7.3,
-      "mw_points": 66
+      "mw_rating": 7.1,
+      "mw_points": 71
     },
     {
       "teamno": "44165",

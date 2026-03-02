@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "F",
     "games_played_total": 13,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -273,5 +273,25 @@
       "opponent_name": "D6P-North Quincy (mcgillicuddy)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45880",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "5:15 PM",
+      "location": "Attleboro Brennan Middle School",
+      "divisionno": "7547",
+      "division_name": "4th Girls - Division 4",
+      "home_teamno": "43603",
+      "away_teamno": "43991",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43991",
+      "opponent_name": "D4M-Canton (white)"
+    }
+  ]
 }

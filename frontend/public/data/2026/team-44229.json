@@ -16,13 +16,13 @@
     "power": 1680.584,
     "rank": 4,
     "mw_rating": 149.3,
-    "mw_points": 1792,
+    "mw_points": 1791,
     "divisionno": "7077",
     "division_name": "5th Boys - Division 1",
     "grade": 5,
     "gender": "M",
     "games_played_total": 23,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -482,6 +482,25 @@
       "is_home": false,
       "opponent_teamno": "43877",
       "opponent_name": "D2K-Southboro (maroon)"
+    },
+    {
+      "gameno": "44699",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "1:15 PM",
+      "location": "Foxboro Ahern Middle (Gym 1)",
+      "divisionno": "7077",
+      "division_name": "5th Boys - Division 1",
+      "home_teamno": "44229",
+      "away_teamno": "44042",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44042",
+      "opponent_name": "D1-Newton (black)"
     }
   ]
 }

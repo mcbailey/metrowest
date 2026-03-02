@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D5N-Sharon (gold)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45905",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "5:15 PM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7553",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "44515",
+      "away_teamno": "43707",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43707",
+      "opponent_name": "D5N-Ashland"
+    }
+  ]
 }

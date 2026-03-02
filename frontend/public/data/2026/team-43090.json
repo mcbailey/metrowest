@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 14,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -292,5 +292,25 @@
       "opponent_name": "D3H-Walpole (a)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46274",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "5:15 PM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7262",
+      "division_name": "7th Girls - Division 3",
+      "home_teamno": "43090",
+      "away_teamno": "43843",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43843",
+      "opponent_name": "D3H-Raynham (kinney)"
+    }
+  ]
 }

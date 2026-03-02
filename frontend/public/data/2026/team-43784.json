@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D7P-Foxboro (white)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45097",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "5:15 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7593",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "43784",
+      "away_teamno": "44201",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44201",
+      "opponent_name": "D7Q-Parkway  (blue)"
+    }
+  ]
 }

@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 14,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -292,5 +292,25 @@
       "opponent_name": "D2-Sharon (gold)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46106",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "7:45 PM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7279",
+      "division_name": "6th Girls - Division 3",
+      "home_teamno": "43552",
+      "away_teamno": "45339",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43552",
+      "opponent_name": "D3H-Bridgewater (rooney)"
+    }
+  ]
 }

@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 9,
-    "games_scheduled_total": 3
+    "games_scheduled_total": 4
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "43773",
       "opponent_name": "D4R-Concord-Carlisle (maroon)"
+    },
+    {
+      "gameno": "47428",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "12:45 PM",
+      "location": "Southborough Trottier Middle School",
+      "divisionno": "7253",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "44720",
+      "away_teamno": "44832",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44832",
+      "opponent_name": "D5M-Newton (white)"
     }
   ]
 }

@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -273,6 +273,25 @@
       "is_home": true,
       "opponent_teamno": "43628",
       "opponent_name": "D5M-Middleborough (hufault)"
+    },
+    {
+      "gameno": "45008",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "5:15 PM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7586",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "45717",
+      "away_teamno": "43347",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43347",
+      "opponent_name": "D6P-Mansfield (green)"
     }
   ]
 }

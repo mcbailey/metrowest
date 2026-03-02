@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "44298",
       "opponent_name": "D6R-Belmont (navy)"
+    },
+    {
+      "gameno": "45634",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "5:15 PM",
+      "location": "Mansfield Fieldhouse -4",
+      "divisionno": "7183",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "44937",
+      "away_teamno": "44583",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44583",
+      "opponent_name": "D5J-King Philip"
     }
   ]
 }

@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "D5H-Walpole (b)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46273",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "5:30 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7256",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "43895",
+      "away_teamno": "43130",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43130",
+      "opponent_name": "D4H-Barrington RI (gold)"
+    }
+  ]
 }

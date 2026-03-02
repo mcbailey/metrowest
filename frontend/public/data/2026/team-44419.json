@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D2M-Raynham (barry)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "44754",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "8:40 AM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7579",
+      "division_name": "4th Boys - Division 4",
+      "home_teamno": "43406",
+      "away_teamno": "44419",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43406",
+      "opponent_name": "D4P-Natick (red)"
+    }
+  ]
 }

@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -349,6 +349,25 @@
       "is_home": false,
       "opponent_teamno": "43543",
       "opponent_name": "D5Q-Northboro (red 1)"
+    },
+    {
+      "gameno": "46205",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:45 AM",
+      "location": "Sudbury Fieldhouse-Court 2",
+      "divisionno": "7273",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "43459",
+      "away_teamno": "44342",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44342",
+      "opponent_name": "D5M-Medway (white)"
     }
   ]
 }

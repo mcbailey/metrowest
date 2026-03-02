@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 22,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -444,5 +444,25 @@
       "opponent_name": "Hanover (Hanover)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "44741",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "4:00 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7573",
+      "division_name": "4th Boys - Division 1",
+      "home_teamno": "45327",
+      "away_teamno": "44970",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44970",
+      "opponent_name": "D1M-Foxboro (blue)"
+    }
+  ]
 }

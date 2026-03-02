@@ -15,14 +15,14 @@
     "sos_adj": 1594.373,
     "power": 1569.588,
     "rank": 3,
-    "mw_rating": 76.9,
-    "mw_points": 923,
+    "mw_rating": 77.0,
+    "mw_points": 924,
     "divisionno": "7157",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
     "games_played_total": 12,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -254,5 +254,25 @@
       "opponent_name": "D3J-Sharon (gold)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45699",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:00 PM",
+      "location": "Seekonk - Hurley Middle School",
+      "divisionno": "7152",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "43118",
+      "away_teamno": "44980",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43118",
+      "opponent_name": "D4J-Seekonk (mahoney)"
+    }
+  ]
 }

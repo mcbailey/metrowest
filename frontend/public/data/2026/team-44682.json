@@ -11,9 +11,9 @@
     "pf": 296,
     "pa": 417,
     "diff": -121,
-    "sos": 1585.029,
-    "sos_adj": 1654.474,
-    "power": 1564.21,
+    "sos": 1584.372,
+    "sos_adj": 1653.817,
+    "power": 1563.781,
     "rank": 5,
     "mw_rating": 80.6,
     "mw_points": 886,
@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "F",
     "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -368,6 +368,25 @@
       "is_home": false,
       "opponent_teamno": "44469",
       "opponent_name": "D1A-Walpole (a)"
+    },
+    {
+      "gameno": "44788",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:30 AM",
+      "location": "Foxboro Sage School",
+      "divisionno": "7546",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "44402",
+      "away_teamno": "44682",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44402",
+      "opponent_name": "D2L-Dedham (anderson)"
     }
   ]
 }

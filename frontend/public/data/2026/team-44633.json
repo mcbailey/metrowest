@@ -11,18 +11,18 @@
     "pf": 308,
     "pa": 247,
     "diff": 61,
-    "sos": 1405.259,
-    "sos_adj": 1305.259,
-    "power": 1352.635,
-    "rank": 5,
-    "mw_rating": 15.2,
-    "mw_points": 167,
+    "sos": 1407.148,
+    "sos_adj": 1307.148,
+    "power": 1353.108,
+    "rank": 6,
+    "mw_rating": 15.3,
+    "mw_points": 168,
     "divisionno": "7209",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "45244",
       "opponent_name": "D6M-Medfield (brajtbord)"
+    },
+    {
+      "gameno": "45486",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "7:15 PM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7209",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "0",
+      "away_teamno": "44633",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

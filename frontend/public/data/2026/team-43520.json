@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "D1/2J-Medway (blue)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "44848",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "8:30 AM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7263",
+      "division_name": "7th Girls - Division 3",
+      "home_teamno": "43520",
+      "away_teamno": "44388",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44388",
+      "opponent_name": "D1/2J-Belmont (maroon)"
+    }
+  ]
 }

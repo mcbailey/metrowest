@@ -11,9 +11,9 @@
     "pf": 576,
     "pa": 642,
     "diff": -66,
-    "sos": 1414.657,
-    "sos_adj": 1322.551,
-    "power": 1363.578,
+    "sos": 1414.531,
+    "sos_adj": 1322.426,
+    "power": 1363.546,
     "rank": 4,
     "mw_rating": 27.5,
     "mw_points": 330,
@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 19,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -387,5 +387,25 @@
       "opponent_name": "D6T-Arlington (black)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45455",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:25 AM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7211",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "0",
+      "away_teamno": "44307",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
+    }
+  ]
 }

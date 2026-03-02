@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 12,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -254,5 +254,25 @@
       "opponent_name": "D5T-Medford (blue)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45039",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "7:45 PM",
+      "location": "Hopkinton-Elmwood School",
+      "divisionno": "7591",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "43192",
+      "away_teamno": "44578",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44578",
+      "opponent_name": "D7P-King Philip (gold)"
+    }
+  ]
 }

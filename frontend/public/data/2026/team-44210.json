@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D5W-Arlington (white)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46046",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "6:00 PM",
+      "location": "Southborough Trottier Middle School",
+      "divisionno": "7317",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44210",
+      "away_teamno": "44765",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44765",
+      "opponent_name": "D5T-Dover Sherborn (obrien)"
+    }
+  ]
 }

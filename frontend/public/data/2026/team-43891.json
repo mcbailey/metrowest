@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 13,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -311,6 +311,25 @@
       "is_home": false,
       "opponent_teamno": "44282",
       "opponent_name": "D5M-Wayland (orange)"
+    },
+    {
+      "gameno": "46425",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "7:45 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7237",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "43891",
+      "away_teamno": "44125",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44125",
+      "opponent_name": "D4H-Berkley"
     }
   ]
 }

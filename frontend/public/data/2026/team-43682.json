@@ -11,18 +11,18 @@
     "pf": 375,
     "pa": 315,
     "diff": 60,
-    "sos": 1448.708,
-    "sos_adj": 1402.28,
-    "power": 1481.379,
+    "sos": 1448.89,
+    "sos_adj": 1402.462,
+    "power": 1480.548,
     "rank": 2,
     "mw_rating": 38.3,
-    "mw_points": 459,
+    "mw_points": 460,
     "divisionno": "7252",
     "division_name": "7th Girls - Division 5",
     "grade": 7,
     "gender": "F",
     "games_played_total": 14,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -292,5 +292,25 @@
       "opponent_name": "D5M-Wayland (orange)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46293",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "11:45 AM",
+      "location": "Ashland High School",
+      "divisionno": "7252",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "44783",
+      "away_teamno": "43682",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44783",
+      "opponent_name": "D5K-Lincoln-Sudbury (red)"
+    }
+  ]
 }

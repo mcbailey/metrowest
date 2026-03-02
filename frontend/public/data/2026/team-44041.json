@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -292,6 +292,25 @@
       "is_home": false,
       "opponent_teamno": "44087",
       "opponent_name": "D4Q-Wellesley (red)"
+    },
+    {
+      "gameno": "44975",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:00 AM",
+      "location": "Southborough Mary Finn School",
+      "divisionno": "7580",
+      "division_name": "4th Boys - Division 4",
+      "home_teamno": "44762",
+      "away_teamno": "44041",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44762",
+      "opponent_name": "D4Q-Arlington (white)"
     }
   ]
 }

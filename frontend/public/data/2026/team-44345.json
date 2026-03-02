@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "F",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "Warwick (Simonelli / Lamendola) 4G D1"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45879",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "5:15 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7548",
+      "division_name": "4th Girls - Division 4",
+      "home_teamno": "43987",
+      "away_teamno": "44345",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43987",
+      "opponent_name": "D4N-Canton (green)"
+    }
+  ]
 }

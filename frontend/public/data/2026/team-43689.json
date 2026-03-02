@@ -11,18 +11,18 @@
     "pf": 1099,
     "pa": 990,
     "diff": 109,
-    "sos": 1546.516,
-    "sos_adj": 1591.516,
-    "power": 1567.103,
+    "sos": 1546.491,
+    "sos_adj": 1591.491,
+    "power": 1567.089,
     "rank": 4,
-    "mw_rating": 98.6,
-    "mw_points": 1183,
+    "mw_rating": 98.7,
+    "mw_points": 1184,
     "divisionno": "7158",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
     "games_played_total": 20,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -425,6 +425,25 @@
       "is_home": true,
       "opponent_teamno": "43374",
       "opponent_name": "D3K-Natick"
+    },
+    {
+      "gameno": "45709",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "6:40 PM",
+      "location": "Foxboro Charter H.S.",
+      "divisionno": "7158",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "0",
+      "away_teamno": "43689",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

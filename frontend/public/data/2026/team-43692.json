@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -349,6 +349,25 @@
       "is_home": true,
       "opponent_teamno": "44366",
       "opponent_name": "D1/2-Easton (black)"
+    },
+    {
+      "gameno": "44918",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 3",
+      "divisionno": "7049",
+      "division_name": "8th Girls - Division 2",
+      "home_teamno": "43692",
+      "away_teamno": "43394",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43394",
+      "opponent_name": "D2BJ-Natick"
     }
   ]
 }

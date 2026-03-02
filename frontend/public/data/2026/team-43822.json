@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 24,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -501,6 +501,25 @@
       "is_home": true,
       "opponent_teamno": "44339",
       "opponent_name": "D1/2J-Medway (blue)"
+    },
+    {
+      "gameno": "44853",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:50 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7060",
+      "division_name": "7th Girls - Division 1",
+      "home_teamno": "44483",
+      "away_teamno": "43822",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44483",
+      "opponent_name": "D1/2H-Easton (black)"
     }
   ]
 }

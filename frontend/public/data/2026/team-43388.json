@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -292,6 +292,25 @@
       "is_home": false,
       "opponent_teamno": "43755",
       "opponent_name": "D5M-Needham (white)"
+    },
+    {
+      "gameno": "45456",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "12:45 PM",
+      "location": "Bedford Davis School",
+      "divisionno": "7218",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "0",
+      "away_teamno": "43388",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

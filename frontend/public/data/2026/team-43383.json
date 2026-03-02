@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "44050",
       "opponent_name": "D5T-Newton (white)"
+    },
+    {
+      "gameno": "45605",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "7:50 PM",
+      "location": "Watertown Middle School",
+      "divisionno": "7178",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "45758",
+      "away_teamno": "43383",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45758",
+      "opponent_name": "D6R-Lexington (gold)"
     }
   ]
 }

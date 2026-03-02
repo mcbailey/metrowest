@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "F",
     "games_played_total": 13,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -273,5 +273,25 @@
       "opponent_name": "D7M-Seekonk (3)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45957",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7557",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "43135",
+      "away_teamno": "44415",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44415",
+      "opponent_name": "D7P-Dedham (grant)"
+    }
+  ]
 }

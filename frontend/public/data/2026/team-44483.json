@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "D1/2J-Medway (blue)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "44853",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:50 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7060",
+      "division_name": "7th Girls - Division 1",
+      "home_teamno": "44483",
+      "away_teamno": "43822",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43822",
+      "opponent_name": "D1/2H-North Attleboro (red)"
+    }
+  ]
 }

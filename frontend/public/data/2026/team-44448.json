@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -368,6 +368,25 @@
       "is_home": true,
       "opponent_teamno": "43456",
       "opponent_name": "D1/2J-Winchester (white)"
+    },
+    {
+      "gameno": "44894",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "11:10 AM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7263",
+      "division_name": "7th Girls - Division 3",
+      "home_teamno": "44771",
+      "away_teamno": "44448",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44771",
+      "opponent_name": "D3J-Dover Sherborn (case)"
     }
   ]
 }

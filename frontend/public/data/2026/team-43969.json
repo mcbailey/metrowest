@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D5H-Swansea (black)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45278",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "8:40 AM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7284",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "43969",
+      "away_teamno": "45324",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45324",
+      "opponent_name": "D6J-Milton (black)"
+    }
+  ]
 }

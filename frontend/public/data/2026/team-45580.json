@@ -11,9 +11,9 @@
     "pf": 737,
     "pa": 887,
     "diff": -150,
-    "sos": 1583.644,
-    "sos_adj": 1661.422,
-    "power": 1593.225,
+    "sos": 1584.008,
+    "sos_adj": 1661.786,
+    "power": 1593.017,
     "rank": 5,
     "mw_rating": 104.4,
     "mw_points": 1148,
@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 18,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -368,5 +368,25 @@
       "opponent_name": "Braintree 8B D2"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45706",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "6:40 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7164",
+      "division_name": "8th Boys - Division 2",
+      "home_teamno": "0",
+      "away_teamno": "45580",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
+    }
+  ]
 }

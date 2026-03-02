@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D6K-Medway (red)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45643",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:25 AM",
+      "location": "Hopkinton-Hopkins School",
+      "divisionno": "7177",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44760",
+      "away_teamno": "45649",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44760",
+      "opponent_name": "D6Q-Dover Sherborn (niblock)"
+    }
+  ]
 }

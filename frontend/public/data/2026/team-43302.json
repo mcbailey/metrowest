@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "F",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "D1-Milton (red)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "44804",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "2:30 PM",
+      "location": "Foxboro Ahern Middle (Gym 2)",
+      "divisionno": "7082",
+      "division_name": "5th Girls - Division 1",
+      "home_teamno": "43591",
+      "away_teamno": "43302",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43591",
+      "opponent_name": "D1-North Quincy (powers)"
+    }
+  ]
 }

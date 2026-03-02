@@ -11,9 +11,9 @@
     "pf": 173,
     "pa": 347,
     "diff": -174,
-    "sos": 1432.323,
-    "sos_adj": 1348.99,
-    "power": 1369.575,
+    "sos": 1433.401,
+    "sos_adj": 1350.068,
+    "power": 1370.205,
     "rank": 6,
     "mw_rating": 10.9,
     "mw_points": 120,
@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "F",
     "games_played_total": 12,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -254,5 +254,25 @@
       "opponent_name": "D5M-FLBC"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45920",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "6:30 PM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7555",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "43238",
+      "away_teamno": "43828",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43828",
+      "opponent_name": "D7M-Westport (levesque)"
+    }
+  ]
 }

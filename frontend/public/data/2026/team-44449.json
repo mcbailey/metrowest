@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 16,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -366,6 +366,25 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
+      "opponent_teamno": "44338",
+      "opponent_name": "D5K-Medway (white)"
+    },
+    {
+      "gameno": "47207",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "8:00 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7238",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "44338",
+      "away_teamno": "44449",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
       "opponent_teamno": "44338",
       "opponent_name": "D5K-Medway (white)"
     }

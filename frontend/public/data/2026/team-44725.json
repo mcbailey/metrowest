@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D5T-Holliston (ennis)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46028",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Mansfield Fieldhouse -2",
+      "divisionno": "7318",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "43465",
+      "away_teamno": "44725",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43465",
+      "opponent_name": "D5W-Winchester (black)"
+    }
+  ]
 }

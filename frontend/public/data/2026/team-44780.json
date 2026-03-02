@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 13,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -273,5 +273,25 @@
       "opponent_name": "D4R-Somerville (blue)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45754",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "6:15 PM",
+      "location": "Sudbury Fieldhouse-Court 2",
+      "divisionno": "7156",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "0",
+      "away_teamno": "44780",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
+    }
+  ]
 }

@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 10,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "44067",
       "opponent_name": "D4Q-Watertown (white)"
+    },
+    {
+      "gameno": "46412",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:25 PM",
+      "location": "Hopkinton-Hopkins School",
+      "divisionno": "7238",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "45513",
+      "away_teamno": "44617",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44617",
+      "opponent_name": "D5K-Newton (white)"
     }
   ]
 }

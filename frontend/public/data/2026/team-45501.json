@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 13,
-    "games_scheduled_total": 3
+    "games_scheduled_total": 4
   },
   "past_games": [
     {
@@ -330,6 +330,25 @@
       "is_home": true,
       "opponent_teamno": "43929",
       "opponent_name": "D1H-Taunton (banks)"
+    },
+    {
+      "gameno": "44574",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:30 PM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7158",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "43952",
+      "away_teamno": "45501",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43952",
+      "opponent_name": "D3J-Foxboro (blue)"
     }
   ]
 }

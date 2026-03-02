@@ -11,9 +11,9 @@
     "pf": 412,
     "pa": 503,
     "diff": -91,
-    "sos": 1397.929,
-    "sos_adj": 1307.304,
-    "power": 1323.63,
+    "sos": 1397.172,
+    "sos_adj": 1306.547,
+    "power": 1322.546,
     "rank": 5,
     "mw_rating": 7.1,
     "mw_points": 71,
@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 16,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -368,6 +368,25 @@
       "is_home": true,
       "opponent_teamno": "44163",
       "opponent_name": "D6Q-Holliston (lyskowski-white)"
+    },
+    {
+      "gameno": "45492",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:20 AM",
+      "location": "Frisoli Youth Center",
+      "divisionno": "7211",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "44736",
+      "away_teamno": "44070",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44070",
+      "opponent_name": "D6R-Watertown (red)"
     }
   ]
 }

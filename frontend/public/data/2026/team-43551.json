@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "46204",
       "opponent_name": "D3H-New Bedford"
+    },
+    {
+      "gameno": "44896",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "1:50 PM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7257",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "43551",
+      "away_teamno": "43456",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43456",
+      "opponent_name": "D1/2J-Winchester (white)"
     }
   ]
 }

@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -330,6 +330,25 @@
       "is_home": true,
       "opponent_teamno": "43718",
       "opponent_name": "D7V-Concord-Carlisle (gold)"
+    },
+    {
+      "gameno": "47350",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:15 PM",
+      "location": "Westborough Gibbons Middle School",
+      "divisionno": "7594",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "43785",
+      "away_teamno": "44767",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43785",
+      "opponent_name": "D7R-Millis (roberta)"
     }
   ]
 }

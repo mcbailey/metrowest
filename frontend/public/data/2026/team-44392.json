@@ -6,23 +6,23 @@
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
     "pf": 418,
-    "pa": 415,
-    "diff": 3,
-    "sos": 1569.865,
-    "sos_adj": 1640.699,
-    "power": 1565.995,
+    "pa": 430,
+    "diff": -12,
+    "sos": 1578.583,
+    "sos_adj": 1643.968,
+    "power": 1559.931,
     "rank": 3,
-    "mw_rating": 92.3,
-    "mw_points": 1107,
+    "mw_rating": 87.1,
+    "mw_points": 1132,
     "divisionno": "7634",
     "division_name": "3rd Boys - Division 4",
     "grade": 3,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
     {
@@ -81,6 +81,25 @@
       "is_home": true,
       "opponent_teamno": "44904",
       "opponent_name": "D2M-North Attleboro (white)"
+    },
+    {
+      "gameno": "391048",
+      "date": "2026-02-22",
+      "dow": "Sun",
+      "starttime": "10:40 AM",
+      "location": "Jr Mass Premier-3",
+      "divisionno": "7634",
+      "division_name": "3rd Boys - Division 4",
+      "home_teamno": "44973",
+      "away_teamno": "44392",
+      "home_score": 15,
+      "away_score": 0,
+      "team_score": 0,
+      "opponent_score": 15,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44973",
+      "opponent_name": "D4R-Foxboro (blue)"
     },
     {
       "gameno": "393119",
@@ -273,25 +292,5 @@
       "opponent_name": "D4P-North Quincy (jamieson)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "391048",
-      "date": "2026-02-22",
-      "dow": "Sun",
-      "starttime": "10:40 AM",
-      "location": "Jr Mass Premier-3",
-      "divisionno": "7634",
-      "division_name": "3rd Boys - Division 4",
-      "home_teamno": "44973",
-      "away_teamno": "44392",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44973",
-      "opponent_name": "D4R-Foxboro (blue)"
-    }
-  ]
+  "future_games": []
 }

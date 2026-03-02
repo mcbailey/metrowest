@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 21,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -425,5 +425,25 @@
       "opponent_name": "D3M-Belmont (white)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45718",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "7:45 PM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7156",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "44755",
+      "away_teamno": "44053",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44053",
+      "opponent_name": "D3M-Newton (orange)"
+    }
+  ]
 }

@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 14,
-    "games_scheduled_total": 3
+    "games_scheduled_total": 4
   },
   "past_games": [
     {
@@ -349,6 +349,25 @@
       "is_home": true,
       "opponent_teamno": "44696",
       "opponent_name": "D3K-Arlington (maroon)"
+    },
+    {
+      "gameno": "44915",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "7:45 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7049",
+      "division_name": "8th Girls - Division 2",
+      "home_teamno": "43554",
+      "away_teamno": "45439",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43554",
+      "opponent_name": "D2BH-Bridgewater (skorohod)"
     }
   ]
 }

@@ -15,14 +15,14 @@
     "sos_adj": 1600.248,
     "power": 1567.794,
     "rank": 4,
-    "mw_rating": 60.8,
-    "mw_points": 790,
+    "mw_rating": 60.9,
+    "mw_points": 791,
     "divisionno": "7157",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "45628",
       "opponent_name": "D3H-New Bedford"
+    },
+    {
+      "gameno": "45703",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "7:15 PM",
+      "location": "Seekonk - Hurley Middle School",
+      "divisionno": "7154",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "45098",
+      "away_teamno": "45584",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45584",
+      "opponent_name": "D4M-Stoughton"
     }
   ]
 }

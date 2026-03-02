@@ -15,14 +15,14 @@
     "sos_adj": 1591.335,
     "power": 1518.676,
     "rank": 7,
-    "mw_rating": 65.5,
-    "mw_points": 786,
+    "mw_rating": 65.6,
+    "mw_points": 787,
     "divisionno": "7157",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "D3K-Wellesley (b)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45733",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "7:45 PM",
+      "location": "Attleboro Brennan Middle School",
+      "divisionno": "7145",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "44981",
+      "away_teamno": "43476",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44981",
+      "opponent_name": "D5H-Acushnet - Fairhaven (dallen)"
+    }
+  ]
 }

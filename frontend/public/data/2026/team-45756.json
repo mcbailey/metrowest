@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 19,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -387,5 +387,25 @@
       "opponent_name": "D5T-Concord-Carlisle (gold)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46136",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "5:00 PM",
+      "location": "Sudbury Fieldhouse-Court 1",
+      "divisionno": "7220",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43720",
+      "away_teamno": "45756",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43720",
+      "opponent_name": "D5T-Concord-Carlisle (gold)"
+    }
+  ]
 }

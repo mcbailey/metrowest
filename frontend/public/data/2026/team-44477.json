@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 17,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -349,5 +349,25 @@
       "opponent_name": "D3H-Norwood (gold)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "44895",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "12:30 PM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7260",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "44243",
+      "away_teamno": "44477",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44243",
+      "opponent_name": "D4Q-Wayland (black)"
+    }
+  ]
 }

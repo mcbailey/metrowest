@@ -15,14 +15,14 @@
     "sos_adj": 1779.725,
     "power": 1695.729,
     "rank": 2,
-    "mw_rating": 106.4,
-    "mw_points": 1277,
+    "mw_rating": 106.3,
+    "mw_points": 1276,
     "divisionno": "7545",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "43349",
       "opponent_name": "D1A-Mansfield (white)"
+    },
+    {
+      "gameno": "45883",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:40 PM",
+      "location": "Attleboro Brennan Middle School",
+      "divisionno": "7545",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "0",
+      "away_teamno": "43684",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

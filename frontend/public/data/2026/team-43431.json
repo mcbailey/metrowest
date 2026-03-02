@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D4H-Bourne (purple/jensen)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45969",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "3:10 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7319",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "43431",
+      "away_teamno": "43883",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43883",
+      "opponent_name": "D3H-Sharon (gold)"
+    }
+  ]
 }

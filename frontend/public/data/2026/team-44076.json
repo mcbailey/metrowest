@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 13,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -273,5 +273,25 @@
       "opponent_name": "D2BJ-Cambridge"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "44916",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7246",
+      "division_name": "8th Girls - Division 3",
+      "home_teamno": "44076",
+      "away_teamno": "43270",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43270",
+      "opponent_name": "D3H-Dartmouth"
+    }
+  ]
 }

@@ -11,9 +11,9 @@
     "pf": 232,
     "pa": 483,
     "diff": -251,
-    "sos": 1409.927,
-    "sos_adj": 1313.773,
-    "power": 1288.0,
+    "sos": 1409.913,
+    "sos_adj": 1313.759,
+    "power": 1287.278,
     "rank": 6,
     "mw_rating": 8.0,
     "mw_points": 96,
@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 13,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -273,5 +273,25 @@
       "opponent_name": "D6T-Bedford (white)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45491",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "9:00 AM",
+      "location": "Frisoli Youth Center",
+      "divisionno": "7211",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "45080",
+      "away_teamno": "44714",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44714",
+      "opponent_name": "D6R-Weston"
+    }
+  ]
 }

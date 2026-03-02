@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "M",
     "games_played_total": 13,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -273,5 +273,25 @@
       "opponent_name": "D4Q-Lexington (blue)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45194",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:00 PM",
+      "location": "Southborough Trottier Middle School",
+      "divisionno": "7301",
+      "division_name": "5th Boys - Division 4",
+      "home_teamno": "43975",
+      "away_teamno": "43881",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43975",
+      "opponent_name": "D4Q-Revere (white)"
+    }
+  ]
 }

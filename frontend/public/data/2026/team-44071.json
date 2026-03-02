@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -330,6 +330,25 @@
       "is_home": true,
       "opponent_teamno": "44740",
       "opponent_name": "D4Q-Arlington (white)"
+    },
+    {
+      "gameno": "45603",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "7:30 PM",
+      "location": "Sudbury Fieldhouse-Court 1",
+      "divisionno": "7177",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "43906",
+      "away_teamno": "44071",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43906",
+      "opponent_name": "D6Q-Wellesley (b)"
     }
   ]
 }

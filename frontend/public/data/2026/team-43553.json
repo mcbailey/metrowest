@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "43305",
       "opponent_name": "D5J-Franklin"
+    },
+    {
+      "gameno": "46244",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "4:00 PM",
+      "location": "Mansfield Fieldhouse -4",
+      "divisionno": "7268",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "44476",
+      "away_teamno": "43553",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44476",
+      "opponent_name": "D5J-Walpole (b)"
     }
   ]
 }

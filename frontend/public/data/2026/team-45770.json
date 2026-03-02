@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 14,
-    "games_scheduled_total": 7
+    "games_scheduled_total": 8
   },
   "past_games": [
     {
@@ -425,6 +425,25 @@
       "is_home": false,
       "opponent_teamno": "45207",
       "opponent_name": "Newport-Middletown 7B D1"
+    },
+    {
+      "gameno": "43802",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "1:40 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7203",
+      "division_name": "7th Boys - Division 1",
+      "home_teamno": "45770",
+      "away_teamno": "43928",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43928",
+      "opponent_name": "D1H-Taunton (pawlowski)"
     }
   ]
 }

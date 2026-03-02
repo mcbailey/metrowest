@@ -11,18 +11,18 @@
     "pf": 315,
     "pa": 358,
     "diff": -43,
-    "sos": 1626.049,
-    "sos_adj": 1772.715,
-    "power": 1670.922,
+    "sos": 1625.293,
+    "sos_adj": 1771.96,
+    "power": 1670.424,
     "rank": 3,
     "mw_rating": 105.8,
-    "mw_points": 1270,
+    "mw_points": 1269,
     "divisionno": "7546",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
     "gender": "F",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "D2L-Medway (blue)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45886",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "5:40 PM",
+      "location": "Attleboro Brennan Middle School",
+      "divisionno": "7546",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "0",
+      "away_teamno": "43853",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
+    }
+  ]
 }

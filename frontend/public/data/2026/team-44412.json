@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D3J-Medfield (luchini)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46344",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7247",
+      "division_name": "8th Girls - Division 3",
+      "home_teamno": "44412",
+      "away_teamno": "43596",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43596",
+      "opponent_name": "D3H-North Quincy (mergel)"
+    }
+  ]
 }

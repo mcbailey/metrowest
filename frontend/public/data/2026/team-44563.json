@@ -6,22 +6,22 @@
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 557,
-    "pa": 501,
-    "diff": 56,
-    "sos": 1633.383,
-    "sos_adj": 1753.383,
-    "power": 1651.484,
-    "rank": 3,
-    "mw_rating": 124.9,
-    "mw_points": 1249,
+    "pf": 585,
+    "pa": 543,
+    "diff": 42,
+    "sos": 1639.41,
+    "sos_adj": 1757.591,
+    "power": 1643.385,
+    "rank": 4,
+    "mw_rating": 119.9,
+    "mw_points": 1319,
     "divisionno": "7164",
     "division_name": "8th Boys - Division 2",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 10,
+    "games_played_total": 11,
     "games_scheduled_total": 1
   },
   "past_games": [
@@ -62,6 +62,25 @@
       "is_home": false,
       "opponent_teamno": "44644",
       "opponent_name": "D2H-Attleboro (blue)"
+    },
+    {
+      "gameno": "375023",
+      "date": "2026-02-22",
+      "dow": "Sun",
+      "starttime": "1:20 PM",
+      "location": "King Philip Middle School (Norfolk)",
+      "divisionno": "7164",
+      "division_name": "8th Boys - Division 2",
+      "home_teamno": "44584",
+      "away_teamno": "44563",
+      "home_score": 42,
+      "away_score": 28,
+      "team_score": 28,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44584",
+      "opponent_name": "D2J-King Philip"
     },
     {
       "gameno": "374902",
@@ -218,14 +237,14 @@
   ],
   "future_games": [
     {
-      "gameno": "375023",
-      "date": "2026-02-22",
-      "dow": "Sun",
-      "starttime": "1:20 PM",
-      "location": "King Philip Middle School (Norfolk)",
+      "gameno": "44572",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "9:30 AM",
+      "location": "Dana Barros - 2",
       "divisionno": "7164",
       "division_name": "8th Boys - Division 2",
-      "home_teamno": "44584",
+      "home_teamno": "43483",
       "away_teamno": "44563",
       "home_score": null,
       "away_score": null,
@@ -233,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "44584",
-      "opponent_name": "D2J-King Philip"
+      "opponent_teamno": "43483",
+      "opponent_name": "D2H-Rochester"
     }
   ]
 }

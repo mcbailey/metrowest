@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "45264",
       "opponent_name": "D7R-Medfield (ross)"
+    },
+    {
+      "gameno": "45071",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "9:30 AM",
+      "location": "Foxboro Ahern Middle (Gym 1)",
+      "divisionno": "7592",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "0",
+      "away_teamno": "44414",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

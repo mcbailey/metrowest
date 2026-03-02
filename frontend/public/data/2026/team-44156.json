@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -273,6 +273,25 @@
       "is_home": true,
       "opponent_teamno": "45340",
       "opponent_name": "D4K-Milton (silver)"
+    },
+    {
+      "gameno": "46087",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "7:00 PM",
+      "location": "Quincy Catholic Academy",
+      "divisionno": "7277",
+      "division_name": "6th Girls - Division 4",
+      "home_teamno": "44156",
+      "away_teamno": "44081",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44081",
+      "opponent_name": "D4M-Wellesley (a)"
     }
   ]
 }

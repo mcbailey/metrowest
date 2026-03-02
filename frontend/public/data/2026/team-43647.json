@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 10,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "44782",
       "opponent_name": "D4Q-Lincoln-Sudbury (blue)"
+    },
+    {
+      "gameno": "46338",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:00 PM",
+      "location": "Frisoli Youth Center",
+      "divisionno": "7244",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "43647",
+      "away_teamno": "44337",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44337",
+      "opponent_name": "D3J-Medway (blue)"
     }
   ]
 }

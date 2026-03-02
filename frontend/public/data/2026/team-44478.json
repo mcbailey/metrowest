@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 13,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -273,5 +273,25 @@
       "opponent_name": "D3H-Canton (green)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46289",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:50 PM",
+      "location": "Taunton Hign School 1",
+      "divisionno": "7250",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "0",
+      "away_teamno": "44478",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
+    }
+  ]
 }

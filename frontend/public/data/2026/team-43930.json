@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 23,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -482,6 +482,25 @@
       "is_home": true,
       "opponent_teamno": "43240",
       "opponent_name": "D4H-Middleborough (colp)"
+    },
+    {
+      "gameno": "45735",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7152",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "43930",
+      "away_teamno": "43893",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43893",
+      "opponent_name": "D3J-Canton (green)"
     }
   ]
 }

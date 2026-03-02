@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -267,12 +267,31 @@
       "away_teamno": "43485",
       "home_score": null,
       "away_score": null,
-      "team_score": null,
-      "opponent_score": 0,
+      "team_score": 0,
+      "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
       "opponent_teamno": "43485",
       "opponent_name": "D4H-Rochester"
+    },
+    {
+      "gameno": "44889",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "11:20 AM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7258",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "43343",
+      "away_teamno": "45335",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45335",
+      "opponent_name": "D4K-Milton (white)"
     }
   ]
 }

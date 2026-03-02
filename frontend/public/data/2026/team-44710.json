@@ -11,10 +11,10 @@
     "pf": 225,
     "pa": 330,
     "diff": -105,
-    "sos": 1417.678,
-    "sos_adj": 1317.678,
-    "power": 1348.166,
-    "rank": 6,
+    "sos": 1415.294,
+    "sos_adj": 1315.294,
+    "power": 1347.57,
+    "rank": 5,
     "mw_rating": 11.5,
     "mw_points": 138,
     "divisionno": "7142",
@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 9,
-    "games_scheduled_total": 3
+    "games_scheduled_total": 4
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "45261",
       "opponent_name": "D6Q-Medfield (parton)"
+    },
+    {
+      "gameno": "45838",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:30 PM",
+      "location": "Sudbury Fieldhouse-Court 2",
+      "divisionno": "7142",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "45228",
+      "away_teamno": "44710",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45228",
+      "opponent_name": "D6T-Somerville (7/8 b)"
     }
   ]
 }

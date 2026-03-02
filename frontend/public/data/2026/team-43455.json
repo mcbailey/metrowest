@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 19,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -387,5 +387,25 @@
       "opponent_name": "D6R-Arlington (black)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45625",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "7:15 PM",
+      "location": "Sudbury Fieldhouse-Court 1",
+      "divisionno": "7178",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "45081",
+      "away_teamno": "43455",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45081",
+      "opponent_name": "D6R-Reading (brown)"
+    }
+  ]
 }

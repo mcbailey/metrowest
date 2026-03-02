@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 16,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -330,5 +330,25 @@
       "opponent_name": "D3J-Easton (black)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45524",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7194",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "43422",
+      "away_teamno": "43326",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43422",
+      "opponent_name": "D3H-Bridgewater (driscoll)"
+    }
+  ]
 }

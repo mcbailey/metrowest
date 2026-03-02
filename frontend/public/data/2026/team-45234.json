@@ -15,14 +15,14 @@
     "sos_adj": 1206.626,
     "power": 1349.111,
     "rank": 2,
-    "mw_rating": 14.5,
+    "mw_rating": 15.9,
     "mw_points": 159,
     "divisionno": "7559",
     "division_name": "4th Girls - Division 7",
     "grade": 4,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "43559",
       "opponent_name": "D7M-Bridgewater (holleran)"
+    },
+    {
+      "gameno": "45939",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:15 AM",
+      "location": "Southborough Mary Finn School",
+      "divisionno": "7557",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "43499",
+      "away_teamno": "45234",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43499",
+      "opponent_name": "D7P-Northboro (red)"
     }
   ]
 }

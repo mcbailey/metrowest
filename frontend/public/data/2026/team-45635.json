@@ -11,9 +11,9 @@
     "pf": 548,
     "pa": 649,
     "diff": -101,
-    "sos": 1557.248,
-    "sos_adj": 1607.248,
-    "power": 1502.999,
+    "sos": 1557.61,
+    "sos_adj": 1607.61,
+    "power": 1503.261,
     "rank": 8,
     "mw_rating": 69.1,
     "mw_points": 829,
@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 12,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -254,5 +254,25 @@
       "opponent_name": "D3M-Revere"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45684",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:20 PM",
+      "location": "North Quincy High School (Ct 1)",
+      "divisionno": "7159",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "45635",
+      "away_teamno": "43786",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43786",
+      "opponent_name": "D3K-Millis"
+    }
+  ]
 }

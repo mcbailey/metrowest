@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 19,
-    "games_scheduled_total": 3
+    "games_scheduled_total": 4
   },
   "past_games": [
     {
@@ -444,6 +444,25 @@
       "is_home": true,
       "opponent_teamno": "45167",
       "opponent_name": "Swampscott (WHTE) 6B D4"
+    },
+    {
+      "gameno": "44658",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "11:00 AM",
+      "location": "Dana Barros - 3",
+      "divisionno": "7229",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "45516",
+      "away_teamno": "45641",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45641",
+      "opponent_name": "D2K-Hopkinton (pantera6)"
     }
   ]
 }

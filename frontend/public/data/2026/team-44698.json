@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 20,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -412,6 +412,25 @@
       "date": "2026-03-07",
       "dow": "Sat",
       "starttime": "3:45 PM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7245",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "44036",
+      "away_teamno": "44698",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44036",
+      "opponent_name": "D4Q-Newton (orange)"
+    },
+    {
+      "gameno": "47217",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "6:25 PM",
       "location": "Hopkinton Brown Gym",
       "divisionno": "7245",
       "division_name": "8th Girls - Division 4",

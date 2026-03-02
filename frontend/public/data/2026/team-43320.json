@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 10,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "44497",
       "opponent_name": "D4H-Wareham (silvia)"
+    },
+    {
+      "gameno": "46243",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "2:40 PM",
+      "location": "Mansfield Fieldhouse -4",
+      "divisionno": "7267",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "45357",
+      "away_teamno": "43320",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45357",
+      "opponent_name": "D5H-West Bridgewater (bell)"
     }
   ]
 }

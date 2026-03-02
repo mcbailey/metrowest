@@ -6,15 +6,15 @@
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 507,
-    "pa": 495,
-    "diff": 12,
-    "sos": 1552.898,
-    "sos_adj": 1609.148,
-    "power": 1601.372,
-    "rank": 2,
+    "pf": 529,
+    "pa": 531,
+    "diff": -2,
+    "sos": 1558.091,
+    "sos_adj": 1613.974,
+    "power": 1580.356,
+    "rank": 3,
     "mw_rating": 96.2,
     "mw_points": 1058,
     "divisionno": "7248",
@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -349,6 +349,44 @@
       "is_home": false,
       "opponent_teamno": "44696",
       "opponent_name": "D3K-Arlington (maroon)"
+    },
+    {
+      "gameno": "394050",
+      "date": "2026-02-22",
+      "dow": "Sun",
+      "starttime": "5:30 PM",
+      "location": "Ottoson Middle School",
+      "divisionno": "7248",
+      "division_name": "8th Girls - Division 3",
+      "home_teamno": "44696",
+      "away_teamno": "44368",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44696",
+      "opponent_name": "D3K-Arlington (maroon)"
+    },
+    {
+      "gameno": "46339",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:20 PM",
+      "location": "Frisoli Youth Center",
+      "divisionno": "7245",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "43451",
+      "away_teamno": "44368",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43451",
+      "opponent_name": "D4R-Winchester (white)"
     }
   ]
 }

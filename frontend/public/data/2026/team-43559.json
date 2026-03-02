@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "F",
     "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -273,6 +273,25 @@
       "is_home": true,
       "opponent_teamno": "45234",
       "opponent_name": "D7N-Millis (sheridan)"
+    },
+    {
+      "gameno": "45943",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "5:15 PM",
+      "location": "Mansfield Fieldhouse -2",
+      "divisionno": "7557",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "44198",
+      "away_teamno": "43559",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44198",
+      "opponent_name": "D7P-Parkway  (white)"
     }
   ]
 }

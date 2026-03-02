@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -242,10 +242,10 @@
       "dow": "Sat",
       "starttime": "1:00 PM",
       "location": "Sudbury Fieldhouse-Court 1",
-      "divisionno": "7272",
-      "division_name": "6th Girls - Division 5",
+      "divisionno": "7277",
+      "division_name": "6th Girls - Division 4",
       "home_teamno": "45760",
-      "away_teamno": "44278",
+      "away_teamno": "44721",
       "home_score": null,
       "away_score": null,
       "team_score": null,
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "45760",
       "opponent_name": "D3Q-Lexington (blue)"
+    },
+    {
+      "gameno": "46165",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "6:00 PM",
+      "location": "Bedford Davis School",
+      "divisionno": "7272",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "44687",
+      "away_teamno": "44278",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44687",
+      "opponent_name": "D3Q-Arlington (maroon)"
     }
   ]
 }

@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "43210",
       "opponent_name": "D6M-FLBC (blue)"
+    },
+    {
+      "gameno": "45027",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:15 PM",
+      "location": "Old Rochester Junior High School",
+      "divisionno": "7584",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "44127",
+      "away_teamno": "44994",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44127",
+      "opponent_name": "D5M-Berkley"
     }
   ]
 }

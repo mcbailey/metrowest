@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D5R-Northboro (white)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46184",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "11:45 AM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7273",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "44222",
+      "away_teamno": "44032",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44032",
+      "opponent_name": "D5T-Newton (orange)"
+    }
+  ]
 }

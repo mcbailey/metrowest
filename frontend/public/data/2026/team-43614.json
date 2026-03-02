@@ -6,23 +6,23 @@
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 519,
-    "pa": 608,
-    "diff": -89,
-    "sos": 1605.242,
-    "sos_adj": 1696.909,
-    "power": 1587.059,
-    "rank": 6,
-    "mw_rating": 94.6,
-    "mw_points": 1041,
+    "pf": 567,
+    "pa": 660,
+    "diff": -93,
+    "sos": 1602.138,
+    "sos_adj": 1690.599,
+    "power": 1583.863,
+    "rank": 7,
+    "mw_rating": 95.0,
+    "mw_points": 1045,
     "divisionno": "7164",
     "division_name": "8th Boys - Division 2",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 0
+    "games_played_total": 13,
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -252,7 +252,46 @@
       "is_home": false,
       "opponent_teamno": "45135",
       "opponent_name": "D4Q-Westwood"
+    },
+    {
+      "gameno": "394047",
+      "date": "2025-11-23",
+      "dow": "Sun",
+      "starttime": "1:40 PM",
+      "location": "Norwood HS",
+      "divisionno": "7158",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "43893",
+      "away_teamno": "43614",
+      "home_score": 52,
+      "away_score": 48,
+      "team_score": 48,
+      "opponent_score": 52,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43893",
+      "opponent_name": "D3J-Canton (green)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "44580",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "5:30 PM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7165",
+      "division_name": "8th Boys - Division 2",
+      "home_teamno": "43614",
+      "away_teamno": "44442",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44442",
+      "opponent_name": "D2K-Bedford (blue)"
+    }
+  ]
 }

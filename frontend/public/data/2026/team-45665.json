@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 3
+    "games_scheduled_total": 4
   },
   "past_games": [
     {
@@ -292,6 +292,25 @@
       "is_home": false,
       "opponent_teamno": "43999",
       "opponent_name": "D4Q-Somerville (red)"
+    },
+    {
+      "gameno": "45536",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:15 PM",
+      "location": "Sudbury Fieldhouse-Court 1",
+      "divisionno": "7192",
+      "division_name": "7th Boys - Division 4",
+      "home_teamno": "45665",
+      "away_teamno": "45757",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45757",
+      "opponent_name": "D4Q-Lexington (blue)"
     }
   ]
 }

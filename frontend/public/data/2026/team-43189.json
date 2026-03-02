@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 10,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "44720",
       "opponent_name": "D4Q-Weston"
+    },
+    {
+      "gameno": "46330",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "3:10 PM",
+      "location": "Taunton Hign School 1",
+      "divisionno": "7250",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "44605",
+      "away_teamno": "43189",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44605",
+      "opponent_name": "D5H-King Philip"
     }
   ]
 }

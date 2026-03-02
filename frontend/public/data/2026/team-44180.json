@@ -11,18 +11,18 @@
     "pf": 344,
     "pa": 190,
     "diff": 154,
-    "sos": 1429.908,
-    "sos_adj": 1379.908,
-    "power": 1513.454,
+    "sos": 1429.889,
+    "sos_adj": 1379.889,
+    "power": 1513.491,
     "rank": 1,
     "mw_rating": 56.6,
-    "mw_points": 622,
+    "mw_points": 623,
     "divisionno": "7251",
     "division_name": "7th Girls - Division 5",
     "grade": 7,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "43338",
       "opponent_name": "D5H-Mansfield (green)"
+    },
+    {
+      "gameno": "46288",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7251",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "43217",
+      "away_teamno": "44180",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43217",
+      "opponent_name": "D5H-FLBC"
     }
   ]
 }

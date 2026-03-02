@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "45586",
       "opponent_name": "D4J-Stoughton"
+    },
+    {
+      "gameno": "46374",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "7:10 PM",
+      "location": "Taunton High School  2",
+      "divisionno": "7240",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "43892",
+      "away_teamno": "43484",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43892",
+      "opponent_name": "D3H-Canton (green)"
     }
   ]
 }

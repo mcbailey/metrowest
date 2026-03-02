@@ -11,18 +11,18 @@
     "pf": 722,
     "pa": 751,
     "diff": -29,
-    "sos": 1644.278,
-    "sos_adj": 1779.992,
-    "power": 1652.914,
+    "sos": 1644.95,
+    "sos_adj": 1780.664,
+    "power": 1653.082,
     "rank": 7,
-    "mw_rating": 133.2,
-    "mw_points": 1465,
+    "mw_rating": 133.3,
+    "mw_points": 1466,
     "divisionno": "7166",
     "division_name": "8th Boys - Division 1",
     "grade": 8,
     "gender": "M",
     "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -311,6 +311,25 @@
       "is_home": true,
       "opponent_teamno": "45436",
       "opponent_name": "D1J-Cambridge"
+    },
+    {
+      "gameno": "44588",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "5:40 PM",
+      "location": "Dana Barros - 3",
+      "divisionno": "7166",
+      "division_name": "8th Boys - Division 1",
+      "home_teamno": "0",
+      "away_teamno": "43912",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

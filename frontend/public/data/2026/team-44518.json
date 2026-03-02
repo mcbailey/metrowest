@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "M",
     "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -292,6 +292,25 @@
       "is_home": false,
       "opponent_teamno": "43761",
       "opponent_name": "D4J-Needham (blue)"
+    },
+    {
+      "gameno": "45185",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "6:30 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7300",
+      "division_name": "5th Boys - Division 4",
+      "home_teamno": "44702",
+      "away_teamno": "44518",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44702",
+      "opponent_name": "D4M-Dover Sherborn (simek)"
     }
   ]
 }

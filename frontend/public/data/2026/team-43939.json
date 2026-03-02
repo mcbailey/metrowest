@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 25,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -539,6 +539,25 @@
       "is_home": false,
       "opponent_teamno": "46108",
       "opponent_name": "Acton-Boxborough (Gold) 8B D1N"
+    },
+    {
+      "gameno": "44587",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "4:20 PM",
+      "location": "Dana Barros - 3",
+      "divisionno": "7167",
+      "division_name": "8th Boys - Division 1",
+      "home_teamno": "0",
+      "away_teamno": "43939",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

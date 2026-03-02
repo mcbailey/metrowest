@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -330,6 +330,25 @@
       "is_home": false,
       "opponent_teamno": "43107",
       "opponent_name": "D3H-Seekonk (bradley)"
+    },
+    {
+      "gameno": "45334",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "5:50 PM",
+      "location": "Taunton High School 3",
+      "divisionno": "7226",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "43480",
+      "away_teamno": "44421",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44421",
+      "opponent_name": "D3J-Norton (purple)"
     }
   ]
 }

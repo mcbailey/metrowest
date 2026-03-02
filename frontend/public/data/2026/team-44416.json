@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D7N-North Attleboro (white)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45950",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "11:45 AM",
+      "location": "Hopkinton-Marathon School",
+      "divisionno": "7557",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "44416",
+      "away_teamno": "44790",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44790",
+      "opponent_name": "D7P-Dover Sherborn (davis)"
+    }
+  ]
 }

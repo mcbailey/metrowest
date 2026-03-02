@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "F",
     "games_played_total": 17,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -387,6 +387,25 @@
       "is_home": true,
       "opponent_teamno": "44769",
       "opponent_name": "D5W-Belmont (white)"
+    },
+    {
+      "gameno": "46028",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Mansfield Fieldhouse -2",
+      "divisionno": "7318",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "43465",
+      "away_teamno": "44725",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44725",
+      "opponent_name": "D5W-Weston"
     }
   ]
 }

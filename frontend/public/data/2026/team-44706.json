@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "M",
     "games_played_total": 20,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -406,5 +406,25 @@
       "opponent_name": "D2M-Belmont (maroon)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45127",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "2:30 PM",
+      "location": "Watertown Middle School",
+      "divisionno": "7305",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "0",
+      "away_teamno": "44706",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
+    }
+  ]
 }

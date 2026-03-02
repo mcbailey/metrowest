@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -406,6 +406,25 @@
       "is_home": true,
       "opponent_teamno": "44444",
       "opponent_name": "D6W-Bedford (black)"
+    },
+    {
+      "gameno": "45792",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "3:30 PM",
+      "location": "Bedford Lane School",
+      "divisionno": "7143",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "0",
+      "away_teamno": "44289",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

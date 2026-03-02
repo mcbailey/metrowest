@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "F",
     "games_played_total": 13,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -273,5 +273,25 @@
       "opponent_name": "D5M-Canton (green)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46057",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:50 PM",
+      "location": "Mansfield Fieldhouse -1",
+      "divisionno": "7315",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "45124",
+      "away_teamno": "44597",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44597",
+      "opponent_name": "D5J-King Philip"
+    }
+  ]
 }

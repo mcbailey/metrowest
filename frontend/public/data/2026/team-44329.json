@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -330,6 +330,25 @@
       "is_home": true,
       "opponent_teamno": "44118",
       "opponent_name": "D2H-Easton (black)"
+    },
+    {
+      "gameno": "45343",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:30 AM",
+      "location": "Sudbury Fieldhouse-Court 1",
+      "divisionno": "7229",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "44329",
+      "away_teamno": "43460",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43460",
+      "opponent_name": "D3Q-Winchester (white)"
     }
   ]
 }

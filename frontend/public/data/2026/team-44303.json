@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -387,6 +387,25 @@
       "is_home": true,
       "opponent_teamno": "44519",
       "opponent_name": "D4K-Milford (red-buchan)"
+    },
+    {
+      "gameno": "46141",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "12:30 PM",
+      "location": "Concord-Carlisle High School",
+      "divisionno": "7224",
+      "division_name": "6th Boys - Division 4",
+      "home_teamno": "44730",
+      "away_teamno": "44303",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44730",
+      "opponent_name": "D4M-Arlington (white)"
     }
   ]
 }

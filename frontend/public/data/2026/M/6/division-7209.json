@@ -21,8 +21,8 @@
       "sos_adj": 1287.731,
       "power": 1458.189,
       "rank": 1,
-      "mw_rating": 32.8,
-      "mw_points": 394
+      "mw_rating": 32.9,
+      "mw_points": 395
     },
     {
       "teamno": "45640",
@@ -38,8 +38,8 @@
       "sos_adj": 1293.519,
       "power": 1440.519,
       "rank": 2,
-      "mw_rating": 33.5,
-      "mw_points": 402
+      "mw_rating": 33.6,
+      "mw_points": 403
     },
     {
       "teamno": "44703",
@@ -56,7 +56,7 @@
       "power": 1385.261,
       "rank": 3,
       "mw_rating": 21.8,
-      "mw_points": 261
+      "mw_points": 262
     },
     {
       "teamno": "44373",
@@ -76,6 +76,23 @@
       "mw_points": 173
     },
     {
+      "teamno": "44163",
+      "name": "D6Q-Holliston (lyskowski-white)",
+      "town": null,
+      "wins": 3,
+      "losses": 6,
+      "ties": 0,
+      "pf": 182,
+      "pa": 294,
+      "diff": -112,
+      "sos": 1402.95,
+      "sos_adj": 1302.95,
+      "power": 1361.509,
+      "rank": 5,
+      "mw_rating": 14.2,
+      "mw_points": 128
+    },
+    {
       "teamno": "44633",
       "name": "D6Q-Ashland (white)",
       "town": null,
@@ -85,29 +102,12 @@
       "pf": 308,
       "pa": 247,
       "diff": 61,
-      "sos": 1405.259,
-      "sos_adj": 1305.259,
-      "power": 1352.635,
-      "rank": 5,
-      "mw_rating": 15.2,
-      "mw_points": 167
-    },
-    {
-      "teamno": "44163",
-      "name": "D6Q-Holliston (lyskowski-white)",
-      "town": null,
-      "wins": 2,
-      "losses": 6,
-      "ties": 0,
-      "pf": 154,
-      "pa": 275,
-      "diff": -121,
-      "sos": 1410.795,
-      "sos_adj": 1310.795,
-      "power": 1347.887,
+      "sos": 1407.148,
+      "sos_adj": 1307.148,
+      "power": 1353.108,
       "rank": 6,
-      "mw_rating": 12.0,
-      "mw_points": 96
+      "mw_rating": 15.3,
+      "mw_points": 168
     }
   ]
 }

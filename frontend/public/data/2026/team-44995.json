@@ -11,18 +11,18 @@
     "pf": 889,
     "pa": 942,
     "diff": -53,
-    "sos": 1632.173,
-    "sos_adj": 1761.585,
-    "power": 1653.283,
+    "sos": 1632.726,
+    "sos_adj": 1762.138,
+    "power": 1653.421,
     "rank": 6,
-    "mw_rating": 167.0,
-    "mw_points": 2004,
+    "mw_rating": 167.2,
+    "mw_points": 2006,
     "divisionno": "7166",
     "division_name": "8th Boys - Division 1",
     "grade": 8,
     "gender": "M",
     "games_played_total": 17,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -349,5 +349,25 @@
       "opponent_name": "D1J-Belmont (maroon)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "43786",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:50 AM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7166",
+      "division_name": "8th Boys - Division 1",
+      "home_teamno": "44995",
+      "away_teamno": "43929",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43929",
+      "opponent_name": "D1H-Taunton (banks)"
+    }
+  ]
 }

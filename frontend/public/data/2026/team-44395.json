@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D6J-Holliston (doss)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45298",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "5:15 PM",
+      "location": "Mass Premier - 6",
+      "divisionno": "7284",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "44395",
+      "away_teamno": "44875",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44875",
+      "opponent_name": "D5M-North Attleboro (white)"
+    }
+  ]
 }

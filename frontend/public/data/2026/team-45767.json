@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 16,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -330,5 +330,25 @@
       "opponent_name": "D6T-Arlington (grey)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "47354",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "1:10 PM",
+      "location": "Watertown Middle School",
+      "divisionno": "7595",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "45767",
+      "away_teamno": "45277",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45277",
+      "opponent_name": "D7V-Medford (white)"
+    }
+  ]
 }

@@ -21,8 +21,8 @@
       "sos_adj": 1303.396,
       "power": 1472.357,
       "rank": 1,
-      "mw_rating": 37.3,
-      "mw_points": 448
+      "mw_rating": 37.5,
+      "mw_points": 450
     },
     {
       "teamno": "44239",
@@ -38,8 +38,8 @@
       "sos_adj": 1309.815,
       "power": 1426.875,
       "rank": 2,
-      "mw_rating": 29.8,
-      "mw_points": 328
+      "mw_rating": 30.0,
+      "mw_points": 330
     },
     {
       "teamno": "45306",
@@ -68,29 +68,12 @@
       "pf": 610,
       "pa": 564,
       "diff": 46,
-      "sos": 1396.14,
-      "sos_adj": 1299.265,
-      "power": 1353.692,
+      "sos": 1397.481,
+      "sos_adj": 1300.606,
+      "power": 1354.027,
       "rank": 4,
       "mw_rating": 17.8,
       "mw_points": 178
-    },
-    {
-      "teamno": "44074",
-      "name": "D6T-Watertown (red)",
-      "town": null,
-      "wins": 5,
-      "losses": 8,
-      "ties": 0,
-      "pf": 408,
-      "pa": 470,
-      "diff": -62,
-      "sos": 1403.754,
-      "sos_adj": 1303.754,
-      "power": 1353.483,
-      "rank": 5,
-      "mw_rating": 14.0,
-      "mw_points": 140
     },
     {
       "teamno": "44710",
@@ -102,12 +85,29 @@
       "pf": 225,
       "pa": 330,
       "diff": -105,
-      "sos": 1417.678,
-      "sos_adj": 1317.678,
-      "power": 1348.166,
-      "rank": 6,
+      "sos": 1415.294,
+      "sos_adj": 1315.294,
+      "power": 1347.57,
+      "rank": 5,
       "mw_rating": 11.5,
       "mw_points": 138
+    },
+    {
+      "teamno": "44074",
+      "name": "D6T-Watertown (red)",
+      "town": null,
+      "wins": 5,
+      "losses": 9,
+      "ties": 0,
+      "pf": 433,
+      "pa": 512,
+      "diff": -79,
+      "sos": 1405.649,
+      "sos_adj": 1305.649,
+      "power": 1337.866,
+      "rank": 6,
+      "mw_rating": 13.2,
+      "mw_points": 145
     },
     {
       "teamno": "45228",
@@ -119,9 +119,9 @@
       "pf": 265,
       "pa": 567,
       "diff": -302,
-      "sos": 1397.034,
-      "sos_adj": 1297.034,
-      "power": 1280.146,
+      "sos": 1398.822,
+      "sos_adj": 1298.822,
+      "power": 1280.593,
       "rank": 7,
       "mw_rating": 5.1,
       "mw_points": 56

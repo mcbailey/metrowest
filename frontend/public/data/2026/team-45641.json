@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "Grafton (GREEN) 6B D1S"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "44658",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "11:00 AM",
+      "location": "Dana Barros - 3",
+      "divisionno": "7229",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "45516",
+      "away_teamno": "45641",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45516",
+      "opponent_name": "D3Q-Revere"
+    }
+  ]
 }

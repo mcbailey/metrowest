@@ -15,14 +15,14 @@
     "sos_adj": 1768.22,
     "power": 1680.791,
     "rank": 2,
-    "mw_rating": 150.0,
-    "mw_points": 1650,
+    "mw_rating": 149.9,
+    "mw_points": 1649,
     "divisionno": "7090",
     "division_name": "4th Girls - Division 1",
     "grade": 4,
     "gender": "F",
     "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -311,6 +311,25 @@
       "is_home": true,
       "opponent_teamno": "44682",
       "opponent_name": "D2M-Arlington (maroon)"
+    },
+    {
+      "gameno": "44774",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "Mansfield Fieldhouse -3",
+      "divisionno": "7090",
+      "division_name": "4th Girls - Division 1",
+      "home_teamno": "0",
+      "away_teamno": "44469",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

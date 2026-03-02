@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "F",
     "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -406,6 +406,25 @@
       "is_home": false,
       "opponent_teamno": "45425",
       "opponent_name": "D7Q-Winchester (red)"
+    },
+    {
+      "gameno": "45953",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:25 AM",
+      "location": "Hopkinton-Hopkins School",
+      "divisionno": "7558",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "44683",
+      "away_teamno": "0",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

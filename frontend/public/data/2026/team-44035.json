@@ -11,9 +11,9 @@
     "pf": 489,
     "pa": 613,
     "diff": -124,
-    "sos": 1560.812,
-    "sos_adj": 1610.812,
-    "power": 1512.638,
+    "sos": 1558.201,
+    "sos_adj": 1608.201,
+    "power": 1511.985,
     "rank": 5,
     "mw_rating": 57.6,
     "mw_points": 633,
@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 16,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -330,5 +330,25 @@
       "opponent_name": "D3K-Waltham Girls (red)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46360",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "1:00 PM",
+      "location": "Ashland High School",
+      "divisionno": "7245",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "44035",
+      "away_teamno": "45307",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45307",
+      "opponent_name": "D4R-Medford (blue)"
+    }
+  ]
 }

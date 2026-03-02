@@ -11,18 +11,18 @@
     "pf": 466,
     "pa": 415,
     "diff": 51,
-    "sos": 1538.054,
-    "sos_adj": 1583.054,
-    "power": 1574.805,
+    "sos": 1538.016,
+    "sos_adj": 1583.016,
+    "power": 1574.776,
     "rank": 3,
-    "mw_rating": 90.9,
-    "mw_points": 909,
+    "mw_rating": 91.0,
+    "mw_points": 910,
     "divisionno": "7158",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
     "games_played_total": 10,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "43097",
       "opponent_name": "D3H-Swansea (gold)"
+    },
+    {
+      "gameno": "45707",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "5:30 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7158",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "0",
+      "away_teamno": "43830",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

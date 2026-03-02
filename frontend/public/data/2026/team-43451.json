@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 19,
-    "games_scheduled_total": 3
+    "games_scheduled_total": 4
   },
   "past_games": [
     {
@@ -444,6 +444,25 @@
       "is_home": false,
       "opponent_teamno": "44009",
       "opponent_name": "D4R-Somerville"
+    },
+    {
+      "gameno": "46339",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:20 PM",
+      "location": "Frisoli Youth Center",
+      "divisionno": "7245",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "43451",
+      "away_teamno": "44368",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44368",
+      "opponent_name": "D3K-Belmont (maroon)"
     }
   ]
 }

@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 22,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -463,6 +463,25 @@
       "is_home": false,
       "opponent_teamno": "43930",
       "opponent_name": "D4J-Taunton (martin)"
+    },
+    {
+      "gameno": "45705",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:50 PM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7151",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "44467",
+      "away_teamno": "43240",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44467",
+      "opponent_name": "D3J-Walpole (a)"
     }
   ]
 }

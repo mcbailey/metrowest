@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -330,6 +330,25 @@
       "is_home": true,
       "opponent_teamno": "43388",
       "opponent_name": "D5T-Natick"
+    },
+    {
+      "gameno": "45383",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "6:25 PM",
+      "location": "Hopkinton-Marathon School",
+      "divisionno": "7215",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "0",
+      "away_teamno": "43755",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

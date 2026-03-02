@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 12,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -254,5 +254,25 @@
       "opponent_name": "D6T-Somerville (red)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "45066",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "5:15 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7593",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44630",
+      "away_teamno": "45264",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45264",
+      "opponent_name": "D7R-Medfield (ross)"
+    }
+  ]
 }

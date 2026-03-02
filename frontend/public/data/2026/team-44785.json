@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -311,6 +311,25 @@
       "is_home": false,
       "opponent_teamno": "46027",
       "opponent_name": "D1-New Bedford"
+    },
+    {
+      "gameno": "44826",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "Foxboro Ahern Middle (Gym 2)",
+      "divisionno": "7072",
+      "division_name": "6th Girls - Division 1",
+      "home_teamno": "44785",
+      "away_teamno": "43441",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43441",
+      "opponent_name": "D1-Foxboro (blue)"
     }
   ]
 }

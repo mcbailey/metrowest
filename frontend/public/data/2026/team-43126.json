@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -248,12 +248,31 @@
       "away_teamno": "43482",
       "home_score": null,
       "away_score": null,
-      "team_score": 2,
-      "opponent_score": null,
+      "team_score": null,
+      "opponent_score": 2,
       "status": "scheduled",
       "is_home": true,
       "opponent_teamno": "43482",
       "opponent_name": "D5H-Rochester (white)"
+    },
+    {
+      "gameno": "45620",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:20 AM",
+      "location": "Taunton High School 3",
+      "divisionno": "7179",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "0",
+      "away_teamno": "43126",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

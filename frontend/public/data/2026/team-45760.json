@@ -451,18 +451,18 @@
       "dow": "Sat",
       "starttime": "1:00 PM",
       "location": "Sudbury Fieldhouse-Court 1",
-      "divisionno": "7272",
-      "division_name": "6th Girls - Division 5",
+      "divisionno": "7277",
+      "division_name": "6th Girls - Division 4",
       "home_teamno": "45760",
-      "away_teamno": "44278",
+      "away_teamno": "44721",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "44278",
-      "opponent_name": "D5R-Wayland (orange)"
+      "opponent_teamno": "44721",
+      "opponent_name": "D4M-Weston"
     }
   ]
 }

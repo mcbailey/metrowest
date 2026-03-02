@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -235,5 +235,25 @@
       "opponent_name": "D5T-Dover Sherborn (obrien)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "46051",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "3:45 PM",
+      "location": "Hopkinton-Elmwood School",
+      "divisionno": "7318",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "0",
+      "away_teamno": "44277",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
+    }
+  ]
 }

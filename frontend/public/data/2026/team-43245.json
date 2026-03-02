@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 30,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -615,6 +615,25 @@
       "is_home": false,
       "opponent_teamno": "43830",
       "opponent_name": "D3J-Raynham"
+    },
+    {
+      "gameno": "45708",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "4:40 PM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7157",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "0",
+      "away_teamno": "43245",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "0",
+      "opponent_name": "* To Be Determined *"
     }
   ]
 }

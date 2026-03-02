@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": false,
       "opponent_teamno": "45054",
       "opponent_name": "D3J-Medfield (hatten)"
+    },
+    {
+      "gameno": "44795",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "9:50 AM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7328",
+      "division_name": "5th Girls - Division 2",
+      "home_teamno": "45241",
+      "away_teamno": "44376",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "45241",
+      "opponent_name": "D1-Hanover"
     }
   ]
 }

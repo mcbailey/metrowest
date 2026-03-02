@@ -11,9 +11,9 @@
     "pf": 352,
     "pa": 248,
     "diff": 104,
-    "sos": 1457.249,
-    "sos_adj": 1417.249,
-    "power": 1477.885,
+    "sos": 1454.406,
+    "sos_adj": 1414.406,
+    "power": 1477.175,
     "rank": 3,
     "mw_rating": 45.2,
     "mw_points": 452,
@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 10,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -235,6 +235,25 @@
       "is_home": true,
       "opponent_teamno": "44720",
       "opponent_name": "D4Q-Weston"
+    },
+    {
+      "gameno": "46295",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:15 PM",
+      "location": "Ashland High School",
+      "divisionno": "7253",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "43457",
+      "away_teamno": "44384",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43457",
+      "opponent_name": "D5M-Winchester (black)"
     }
   ]
 }

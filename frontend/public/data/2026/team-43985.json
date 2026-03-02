@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "F",
     "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -292,6 +292,25 @@
       "is_home": true,
       "opponent_teamno": "44505",
       "opponent_name": "D5M-Easton (white)"
+    },
+    {
+      "gameno": "46006",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "3:20 PM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7314",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "43985",
+      "away_teamno": "43303",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43303",
+      "opponent_name": "D5J-Franklin"
     }
   ]
 }

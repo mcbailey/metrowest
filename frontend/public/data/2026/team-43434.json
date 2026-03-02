@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -387,6 +387,25 @@
       "is_home": true,
       "opponent_teamno": "43449",
       "opponent_name": "D5R-Winchester (black)"
+    },
+    {
+      "gameno": "45750",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "3:40 PM",
+      "location": "Frisoli Youth Center",
+      "divisionno": "7150",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "43434",
+      "away_teamno": "45254",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45254",
+      "opponent_name": "D5R-Waltham Boys (white)"
     }
   ]
 }

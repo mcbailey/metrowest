@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -254,6 +254,25 @@
       "is_home": true,
       "opponent_teamno": "44982",
       "opponent_name": "D4H-Acushnet - Fairhaven (ashley)"
+    },
+    {
+      "gameno": "46286",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "5:15 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7252",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "44427",
+      "away_teamno": "45337",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45337",
+      "opponent_name": "D5K-Milton (silver)"
     }
   ]
 }

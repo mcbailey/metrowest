@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "M",
     "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -387,6 +387,25 @@
       "is_home": false,
       "opponent_teamno": "44073",
       "opponent_name": "D5R-Watertown (white)"
+    },
+    {
+      "gameno": "45789",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:15 PM",
+      "location": "North Quincy High School (Ct 1)",
+      "divisionno": "7143",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "44443",
+      "away_teamno": "45305",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45305",
+      "opponent_name": "D6W-Medford (white)"
     }
   ]
 }
