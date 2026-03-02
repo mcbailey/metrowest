@@ -5,26 +5,45 @@
   "team_name": "D4R-Medford (blue)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 3,
     "ties": 0,
-    "pf": 401,
-    "pa": 301,
-    "diff": 100,
-    "sos": 1490.569,
-    "sos_adj": 1490.569,
-    "power": 1546.963,
+    "pf": 433,
+    "pa": 329,
+    "diff": 104,
+    "sos": 1490.641,
+    "sos_adj": 1490.641,
+    "power": 1555.414,
     "rank": 1,
-    "mw_rating": 66.3,
-    "mw_points": 729,
+    "mw_rating": 67.7,
+    "mw_points": 812,
     "divisionno": "7245",
     "division_name": "8th Girls - Division 4",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377903",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "4:30 PM",
+      "location": "Medford High School Court A",
+      "divisionno": "7245",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "45307",
+      "away_teamno": "44009",
+      "home_score": 32,
+      "away_score": 28,
+      "team_score": 32,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44009",
+      "opponent_name": "D4R-Somerville"
+    },
     {
       "gameno": "377895",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D4M-Dover Sherborn (quinn)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377903",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "4:30 PM",
-      "location": "Medford High School Court A",
-      "divisionno": "7245",
-      "division_name": "8th Girls - Division 4",
-      "home_teamno": "45307",
-      "away_teamno": "44009",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44009",
-      "opponent_name": "D4R-Somerville"
-    }
-  ]
+  "future_games": []
 }

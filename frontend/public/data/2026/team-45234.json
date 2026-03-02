@@ -7,22 +7,22 @@
   "summary": {
     "wins": 7,
     "losses": 3,
-    "ties": 0,
+    "ties": 1,
     "pf": 234,
     "pa": 148,
     "diff": 86,
-    "sos": 1357.233,
-    "sos_adj": 1207.233,
-    "power": 1349.677,
+    "sos": 1356.626,
+    "sos_adj": 1206.626,
+    "power": 1349.111,
     "rank": 2,
-    "mw_rating": 13.3,
+    "mw_rating": 14.5,
     "mw_points": 159,
     "divisionno": "7559",
     "division_name": "4th Girls - Division 7",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 10,
-    "games_scheduled_total": 2
+    "games_played_total": 11,
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": true,
       "opponent_teamno": "44430",
       "opponent_name": "D7M-Norton"
+    },
+    {
+      "gameno": "384543",
+      "date": "2026-02-22",
+      "dow": "Sun",
+      "starttime": "4:15 PM",
+      "location": "Winchester High School (Court 3)",
+      "divisionno": "7558",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "45425",
+      "away_teamno": "45234",
+      "home_score": 0,
+      "away_score": 0,
+      "team_score": 0,
+      "opponent_score": 0,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45425",
+      "opponent_name": "D7Q-Winchester (red)"
     },
     {
       "gameno": "384549",
@@ -235,25 +254,6 @@
       "is_home": false,
       "opponent_teamno": "43559",
       "opponent_name": "D7M-Bridgewater (holleran)"
-    },
-    {
-      "gameno": "384543",
-      "date": "2026-02-22",
-      "dow": "Sun",
-      "starttime": "4:15 PM",
-      "location": "Winchester High School (Court 3)",
-      "divisionno": "7558",
-      "division_name": "4th Girls - Division 7",
-      "home_teamno": "45425",
-      "away_teamno": "45234",
-      "home_score": null,
-      "away_score": null,
-      "team_score": 0,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45425",
-      "opponent_name": "D7Q-Winchester (red)"
     }
   ]
 }

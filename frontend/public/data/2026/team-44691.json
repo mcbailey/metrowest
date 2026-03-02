@@ -6,25 +6,44 @@
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 483,
-    "pa": 556,
-    "diff": -73,
-    "sos": 1506.627,
-    "sos_adj": 1503.849,
-    "power": 1486.517,
+    "pf": 509,
+    "pa": 592,
+    "diff": -83,
+    "sos": 1514.028,
+    "sos_adj": 1511.396,
+    "power": 1478.406,
     "rank": 2,
-    "mw_rating": 55.0,
-    "mw_points": 605,
+    "mw_rating": 52.5,
+    "mw_points": 630,
     "divisionno": "7261",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "377316",
+      "date": "2026-03-01",
+      "dow": "Sun",
+      "starttime": "10:30 AM",
+      "location": "Lexington - Diamond Middle School",
+      "divisionno": "7261",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "45761",
+      "away_teamno": "44691",
+      "home_score": 36,
+      "away_score": 26,
+      "team_score": 26,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45761",
+      "opponent_name": "D4R-Lexington (blue)"
+    },
     {
       "gameno": "377264",
       "date": "2026-02-28",
@@ -349,25 +368,5 @@
       "opponent_name": "D4R-Belmont (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "377316",
-      "date": "2026-03-01",
-      "dow": "Sun",
-      "starttime": "10:30 AM",
-      "location": "Lexington - Diamond Middle School",
-      "divisionno": "7261",
-      "division_name": "7th Girls - Division 4",
-      "home_teamno": "45761",
-      "away_teamno": "44691",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45761",
-      "opponent_name": "D4R-Lexington (blue)"
-    }
-  ]
+  "future_games": []
 }
