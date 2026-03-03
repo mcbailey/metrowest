@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-02",
+  "snapshot_date": "2026-03-03",
   "teamno": "44718",
   "team_name": "D2P-Weston",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 16,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -349,6 +349,25 @@
       "is_home": false,
       "opponent_teamno": "44040",
       "opponent_name": "D1N-Newton (black)"
+    },
+    {
+      "gameno": "47618",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:40 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7581",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "43345",
+      "away_teamno": "44718",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43345",
+      "opponent_name": "D5M-Monomoy (blue/teixiera)"
     },
     {
       "gameno": "44760",

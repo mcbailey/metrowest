@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-02",
+  "snapshot_date": "2026-03-03",
   "teamno": "44397",
   "team_name": "D2N-Dedham (hawkes)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -241,6 +241,25 @@
       "date": "2026-03-07",
       "dow": "Sat",
       "starttime": "10:00 AM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7576",
+      "division_name": "4th Boys - Division 2",
+      "home_teamno": "44761",
+      "away_teamno": "44397",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44761",
+      "opponent_name": "D2P-Arlington (maroon)"
+    },
+    {
+      "gameno": "47613",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "8:40 AM",
       "location": "Dana Barros - 5",
       "divisionno": "7576",
       "division_name": "4th Boys - Division 2",

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-02",
+  "snapshot_date": "2026-03-03",
   "teamno": "44613",
   "team_name": "D2N-Norwell",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -257,6 +257,25 @@
   "future_games": [
     {
       "gameno": "44752",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "11:20 AM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7575",
+      "division_name": "4th Boys - Division 2",
+      "home_teamno": "43425",
+      "away_teamno": "44613",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43425",
+      "opponent_name": "D2M-Bridgewater (audette)"
+    },
+    {
+      "gameno": "47615",
       "date": "2026-03-07",
       "dow": "Sat",
       "starttime": "11:20 AM",
