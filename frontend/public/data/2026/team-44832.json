@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-03",
+  "snapshot_date": "2026-03-04",
   "teamno": "44832",
   "team_name": "D5M-Newton (white)",
   "town": null,
@@ -238,10 +238,10 @@
     },
     {
       "gameno": "47428",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "12:45 PM",
-      "location": "Southborough Trottier Middle School",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "7:00 PM",
+      "location": "Weston Middle School - Court 1",
       "divisionno": "7253",
       "division_name": "7th Girls - Division 5",
       "home_teamno": "44720",

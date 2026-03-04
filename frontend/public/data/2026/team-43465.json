@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-03",
+  "snapshot_date": "2026-03-04",
   "teamno": "43465",
   "team_name": "D5W-Winchester (black)",
   "town": null,
@@ -392,8 +392,8 @@
       "gameno": "46028",
       "date": "2026-03-06",
       "dow": "Fri",
-      "starttime": "6:30 PM",
-      "location": "Mansfield Fieldhouse -2",
+      "starttime": "6:15 PM",
+      "location": "Winchester High School (Court 1)",
       "divisionno": "7318",
       "division_name": "5th Girls - Division 5",
       "home_teamno": "43465",
