@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "45639",
   "team_name": "D5Q-Hopkinton (spar7b)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 545,
-    "pa": 449,
-    "diff": 96,
-    "sos": 1457.034,
-    "sos_adj": 1407.034,
-    "power": 1460.289,
+    "pf": 591,
+    "pa": 504,
+    "diff": 87,
+    "sos": 1460.823,
+    "sos_adj": 1414.395,
+    "power": 1445.608,
     "rank": 2,
-    "mw_rating": 35.3,
-    "mw_points": 424,
+    "mw_rating": 34.5,
+    "mw_points": 449,
     "divisionno": "7183",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45565",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "5:15 PM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7183",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "44711",
+      "away_teamno": "45639",
+      "home_score": 55,
+      "away_score": 46,
+      "team_score": 46,
+      "opponent_score": 55,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44711",
+      "opponent_name": "D4M-Weston"
+    },
     {
       "gameno": "379792",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D5M-Dedham (rider)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45565",
-      "date": "2026-03-04",
-      "dow": "Wed",
-      "starttime": "5:15 PM",
-      "location": "Ashland Mindess School",
-      "divisionno": "7183",
-      "division_name": "7th Boys - Division 5",
-      "home_teamno": "44711",
-      "away_teamno": "45639",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44711",
-      "opponent_name": "D4M-Weston"
-    }
-  ]
+  "future_games": []
 }

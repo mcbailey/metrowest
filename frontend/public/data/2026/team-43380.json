@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "43380",
   "team_name": "D4M-Natick",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 502,
     "pa": 483,
     "diff": 19,
-    "sos": 1487.624,
-    "sos_adj": 1483.458,
-    "power": 1512.061,
+    "sos": 1490.116,
+    "sos_adj": 1485.949,
+    "power": 1511.064,
     "rank": 2,
     "mw_rating": 49.8,
     "mw_points": 548,
@@ -263,7 +263,7 @@
       "location": "Sudbury Fieldhouse-Court 1",
       "divisionno": "7191",
       "division_name": "7th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "44711",
       "away_teamno": "43380",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44711",
+      "opponent_name": "D4M-Weston"
     }
   ]
 }

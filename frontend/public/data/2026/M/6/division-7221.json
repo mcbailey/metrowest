@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "gender": "M",
   "grade": 6,
   "divisionno": "7221",
@@ -17,12 +17,12 @@
       "pf": 466,
       "pa": 389,
       "diff": 77,
-      "sos": 1493.27,
-      "sos_adj": 1484.179,
-      "power": 1543.693,
+      "sos": 1491.865,
+      "sos_adj": 1482.774,
+      "power": 1538.577,
       "rank": 1,
-      "mw_rating": 58.3,
-      "mw_points": 758
+      "mw_rating": 58.4,
+      "mw_points": 759
     },
     {
       "teamno": "44495",
@@ -34,12 +34,12 @@
       "pf": 509,
       "pa": 377,
       "diff": 132,
-      "sos": 1491.748,
-      "sos_adj": 1491.748,
-      "power": 1524.359,
+      "sos": 1492.573,
+      "sos_adj": 1492.573,
+      "power": 1521.923,
       "rank": 2,
-      "mw_rating": 63.9,
-      "mw_points": 767
+      "mw_rating": 64.0,
+      "mw_points": 768
     },
     {
       "teamno": "44872",
@@ -51,12 +51,12 @@
       "pf": 446,
       "pa": 497,
       "diff": -51,
-      "sos": 1497.669,
-      "sos_adj": 1497.669,
-      "power": 1515.151,
+      "sos": 1498.82,
+      "sos_adj": 1498.82,
+      "power": 1513.865,
       "rank": 3,
-      "mw_rating": 51.6,
-      "mw_points": 619
+      "mw_rating": 51.7,
+      "mw_points": 620
     },
     {
       "teamno": "43095",
@@ -68,46 +68,46 @@
       "pf": 521,
       "pa": 499,
       "diff": 22,
-      "sos": 1511.646,
-      "sos_adj": 1507.48,
-      "power": 1500.9,
+      "sos": 1511.136,
+      "sos_adj": 1506.969,
+      "power": 1500.869,
       "rank": 4,
-      "mw_rating": 58.0,
-      "mw_points": 696
+      "mw_rating": 58.2,
+      "mw_points": 698
     },
     {
       "teamno": "44641",
       "name": "D4H-Attleboro (white)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 8,
       "ties": 0,
-      "pf": 441,
-      "pa": 493,
-      "diff": -52,
-      "sos": 1504.082,
-      "sos_adj": 1496.39,
-      "power": 1475.856,
+      "pf": 476,
+      "pa": 524,
+      "diff": -48,
+      "sos": 1496.656,
+      "sos_adj": 1489.513,
+      "power": 1486.101,
       "rank": 5,
-      "mw_rating": 47.0,
-      "mw_points": 564
+      "mw_rating": 49.5,
+      "mw_points": 644
     },
     {
       "teamno": "43834",
       "name": "D4H-Raynham",
       "town": null,
       "wins": 3,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 261,
-      "pa": 417,
-      "diff": -156,
-      "sos": 1507.457,
-      "sos_adj": 1494.957,
-      "power": 1449.682,
+      "pf": 292,
+      "pa": 452,
+      "diff": -160,
+      "sos": 1504.873,
+      "sos_adj": 1493.335,
+      "power": 1444.542,
       "rank": 6,
-      "mw_rating": 34.5,
-      "mw_points": 414
+      "mw_rating": 33.9,
+      "mw_points": 440
     }
   ]
 }

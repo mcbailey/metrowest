@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "43233",
   "team_name": "D4H-Barnstable  (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 492,
     "pa": 428,
     "diff": 64,
-    "sos": 1485.224,
-    "sos_adj": 1476.891,
-    "power": 1554.594,
-    "rank": 1,
-    "mw_rating": 70.4,
-    "mw_points": 845,
+    "sos": 1487.165,
+    "sos_adj": 1478.832,
+    "power": 1549.042,
+    "rank": 2,
+    "mw_rating": 70.7,
+    "mw_points": 848,
     "divisionno": "7297",
     "division_name": "5th Boys - Division 4",
     "grade": 5,
@@ -261,9 +261,9 @@
       "dow": "Sat",
       "starttime": "7:00 PM",
       "location": "Attleboro Brennan Middle School",
-      "divisionno": "7297",
-      "division_name": "5th Boys - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7290",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "43209",
       "away_teamno": "43233",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43209",
+      "opponent_name": "D5J-Middleborough (shanahan)"
     }
   ]
 }

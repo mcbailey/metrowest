@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "45312",
   "team_name": "D6K-Milton (silver)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 435,
     "pa": 493,
     "diff": -58,
-    "sos": 1420.46,
-    "sos_adj": 1335.845,
-    "power": 1383.088,
+    "sos": 1419.64,
+    "sos_adj": 1335.024,
+    "power": 1382.97,
     "rank": 3,
     "mw_rating": 20.4,
     "mw_points": 245,
@@ -282,7 +282,7 @@
       "location": "Mass Premier - 6",
       "divisionno": "7139",
       "division_name": "8th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "43128",
       "away_teamno": "45312",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43128",
+      "opponent_name": "D6H-Barrington RI (blue)"
     }
   ]
 }

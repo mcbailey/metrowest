@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "gender": "M",
   "grade": 4,
   "divisionno": "7595",
@@ -17,12 +17,12 @@
       "pf": 504,
       "pa": 290,
       "diff": 214,
-      "sos": 1357.819,
-      "sos_adj": 1234.743,
-      "power": 1390.019,
+      "sos": 1363.447,
+      "sos_adj": 1240.37,
+      "power": 1384.542,
       "rank": 1,
-      "mw_rating": 28.9,
-      "mw_points": 289
+      "mw_rating": 29.0,
+      "mw_points": 290
     },
     {
       "teamno": "45078",
@@ -34,12 +34,12 @@
       "pf": 373,
       "pa": 191,
       "diff": 182,
-      "sos": 1336.116,
-      "sos_adj": 1190.661,
-      "power": 1380.512,
+      "sos": 1340.155,
+      "sos_adj": 1194.701,
+      "power": 1374.487,
       "rank": 2,
-      "mw_rating": 22.1,
-      "mw_points": 243
+      "mw_rating": 22.3,
+      "mw_points": 245
     },
     {
       "teamno": "45077",
@@ -51,29 +51,29 @@
       "pf": 364,
       "pa": 292,
       "diff": 72,
-      "sos": 1345.609,
-      "sos_adj": 1200.154,
-      "power": 1367.077,
+      "sos": 1348.699,
+      "sos_adj": 1203.244,
+      "power": 1362.396,
       "rank": 3,
-      "mw_rating": 18.5,
-      "mw_points": 203
+      "mw_rating": 18.6,
+      "mw_points": 205
     },
     {
       "teamno": "44768",
       "name": "D7V-Arlington (red)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 12,
       "ties": 0,
-      "pf": 353,
-      "pa": 472,
-      "diff": -119,
-      "sos": 1356.437,
-      "sos_adj": 1206.437,
-      "power": 1277.426,
+      "pf": 375,
+      "pa": 485,
+      "diff": -110,
+      "sos": 1354.031,
+      "sos_adj": 1204.031,
+      "power": 1298.612,
       "rank": 4,
-      "mw_rating": 7.0,
-      "mw_points": 77
+      "mw_rating": 8.1,
+      "mw_points": 97
     },
     {
       "teamno": "45767",
@@ -85,12 +85,12 @@
       "pf": 386,
       "pa": 504,
       "diff": -118,
-      "sos": 1367.484,
-      "sos_adj": 1226.859,
-      "power": 1272.264,
+      "sos": 1369.693,
+      "sos_adj": 1229.068,
+      "power": 1277.512,
       "rank": 5,
-      "mw_rating": 7.0,
-      "mw_points": 77
+      "mw_rating": 7.1,
+      "mw_points": 78
     },
     {
       "teamno": "45277",
@@ -102,12 +102,12 @@
       "pf": 216,
       "pa": 379,
       "diff": -163,
-      "sos": 1360.537,
-      "sos_adj": 1210.537,
-      "power": 1265.642,
+      "sos": 1361.679,
+      "sos_adj": 1211.679,
+      "power": 1270.877,
       "rank": 6,
-      "mw_rating": 6.3,
-      "mw_points": 69
+      "mw_rating": 6.5,
+      "mw_points": 71
     }
   ]
 }

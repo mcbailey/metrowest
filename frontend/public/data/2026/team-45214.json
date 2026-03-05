@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "45214",
   "team_name": "D1H-East Greenwich",
   "town": null,
@@ -580,10 +580,10 @@
     },
     {
       "gameno": "43785",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "8:00 PM",
-      "location": "Mass Premier - 2",
+      "date": "2026-03-11",
+      "dow": "Wed",
+      "starttime": "7:50 PM",
+      "location": "Mass Premier - 1",
       "divisionno": "7166",
       "division_name": "8th Boys - Division 1",
       "home_teamno": "0",

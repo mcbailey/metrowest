@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "45326",
   "team_name": "D6K-Milton (grey)",
   "town": null,
@@ -301,7 +301,7 @@
       "location": "Quincy Catholic Academy",
       "divisionno": "7285",
       "division_name": "5th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44433",
       "away_teamno": "45326",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44433",
+      "opponent_name": "D6H-Norton"
     }
   ]
 }

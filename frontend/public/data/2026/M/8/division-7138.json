@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "gender": "M",
   "grade": 8,
   "divisionno": "7138",
@@ -17,12 +17,12 @@
       "pf": 545,
       "pa": 394,
       "diff": 151,
-      "sos": 1390.501,
-      "sos_adj": 1294.667,
-      "power": 1457.832,
+      "sos": 1390.58,
+      "sos_adj": 1294.747,
+      "power": 1449.436,
       "rank": 1,
-      "mw_rating": 34.8,
-      "mw_points": 417
+      "mw_rating": 34.9,
+      "mw_points": 419
     },
     {
       "teamno": "43894",
@@ -34,12 +34,12 @@
       "pf": 472,
       "pa": 393,
       "diff": 79,
-      "sos": 1398.411,
-      "sos_adj": 1302.957,
-      "power": 1426.524,
+      "sos": 1397.62,
+      "sos_adj": 1302.166,
+      "power": 1421.248,
       "rank": 2,
       "mw_rating": 27.6,
-      "mw_points": 303
+      "mw_points": 304
     },
     {
       "teamno": "43953",
@@ -51,12 +51,12 @@
       "pf": 671,
       "pa": 541,
       "diff": 130,
-      "sos": 1390.728,
-      "sos_adj": 1290.728,
-      "power": 1422.288,
+      "sos": 1390.467,
+      "sos_adj": 1290.467,
+      "power": 1417.262,
       "rank": 3,
-      "mw_rating": 27.5,
-      "mw_points": 330
+      "mw_rating": 27.7,
+      "mw_points": 332
     },
     {
       "teamno": "43731",
@@ -68,12 +68,12 @@
       "pf": 384,
       "pa": 389,
       "diff": -5,
-      "sos": 1401.077,
-      "sos_adj": 1305.622,
-      "power": 1367.139,
+      "sos": 1400.019,
+      "sos_adj": 1304.565,
+      "power": 1367.802,
       "rank": 4,
-      "mw_rating": 18.9,
-      "mw_points": 208
+      "mw_rating": 19.1,
+      "mw_points": 210
     },
     {
       "teamno": "44093",
@@ -85,46 +85,46 @@
       "pf": 421,
       "pa": 414,
       "diff": 7,
-      "sos": 1397.875,
-      "sos_adj": 1297.875,
-      "power": 1354.994,
+      "sos": 1396.8,
+      "sos_adj": 1296.8,
+      "power": 1356.672,
       "rank": 5,
       "mw_rating": 22.8,
-      "mw_points": 273
+      "mw_points": 274
     },
     {
       "teamno": "44867",
       "name": "D6J-North Attleboro (white)",
       "town": null,
       "wins": 3,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 429,
-      "pa": 550,
-      "diff": -121,
-      "sos": 1411.887,
-      "sos_adj": 1319.579,
-      "power": 1338.542,
+      "pf": 478,
+      "pa": 605,
+      "diff": -127,
+      "sos": 1409.736,
+      "sos_adj": 1316.878,
+      "power": 1330.633,
       "rank": 6,
-      "mw_rating": 12.8,
-      "mw_points": 153
+      "mw_rating": 12.2,
+      "mw_points": 159
     },
     {
       "teamno": "43191",
       "name": "D6J-Bellingham (hunt)",
       "town": null,
       "wins": 1,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 256,
-      "pa": 540,
-      "diff": -284,
-      "sos": 1409.59,
-      "sos_adj": 1309.59,
-      "power": 1287.563,
+      "pf": 285,
+      "pa": 583,
+      "diff": -298,
+      "sos": 1409.155,
+      "sos_adj": 1309.155,
+      "power": 1284.853,
       "rank": 7,
-      "mw_rating": 7.2,
-      "mw_points": 86
+      "mw_rating": 7.0,
+      "mw_points": 91
     }
   ]
 }

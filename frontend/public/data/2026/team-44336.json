@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "44336",
   "team_name": "D6M-Medway (red)",
   "town": null,
@@ -263,7 +263,7 @@
       "location": "Mass Premier - 3",
       "divisionno": "7140",
       "division_name": "8th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "43146",
       "away_teamno": "44336",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43146",
+      "opponent_name": "D6H-Dighton-Rehoboth (white)"
     }
   ]
 }

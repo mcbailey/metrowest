@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "45761",
   "team_name": "D4R-Lexington (blue)",
   "town": null,
@@ -371,10 +371,10 @@
     },
     {
       "gameno": "44893",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "9:50 AM",
-      "location": "Mass Premier - 4",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:35 PM",
+      "location": "Lexington High School - Main Gym",
       "divisionno": "7261",
       "division_name": "7th Girls - Division 4",
       "home_teamno": "45134",

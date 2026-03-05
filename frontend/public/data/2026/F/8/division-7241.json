@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "gender": "F",
   "grade": 8,
   "divisionno": "7241",
@@ -17,12 +17,12 @@
       "pf": 651,
       "pa": 325,
       "diff": 326,
-      "sos": 1506.368,
-      "sos_adj": 1514.06,
-      "power": 1595.156,
+      "sos": 1508.077,
+      "sos_adj": 1515.769,
+      "power": 1586.419,
       "rank": 1,
-      "mw_rating": 81.7,
-      "mw_points": 899
+      "mw_rating": 82.0,
+      "mw_points": 902
     },
     {
       "teamno": "45332",
@@ -34,12 +34,12 @@
       "pf": 454,
       "pa": 516,
       "diff": -62,
-      "sos": 1519.713,
-      "sos_adj": 1532.213,
-      "power": 1533.194,
+      "sos": 1518.992,
+      "sos_adj": 1531.492,
+      "power": 1530.5,
       "rank": 2,
-      "mw_rating": 55.8,
-      "mw_points": 670
+      "mw_rating": 56.1,
+      "mw_points": 673
     },
     {
       "teamno": "44178",
@@ -51,12 +51,29 @@
       "pf": 482,
       "pa": 459,
       "diff": 23,
-      "sos": 1500.97,
-      "sos_adj": 1496.803,
-      "power": 1517.571,
+      "sos": 1500.456,
+      "sos_adj": 1496.29,
+      "power": 1515.606,
       "rank": 3,
-      "mw_rating": 55.8,
-      "mw_points": 670
+      "mw_rating": 55.9,
+      "mw_points": 671
+    },
+    {
+      "teamno": "44878",
+      "name": "D4J-North Attleboro (red)",
+      "town": null,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "pf": 341,
+      "pa": 491,
+      "diff": -150,
+      "sos": 1469.61,
+      "sos_adj": 1441.039,
+      "power": 1504.244,
+      "rank": 4,
+      "mw_rating": 41.5,
+      "mw_points": 539
     },
     {
       "teamno": "45586",
@@ -68,29 +85,12 @@
       "pf": 343,
       "pa": 344,
       "diff": -1,
-      "sos": 1509.182,
-      "sos_adj": 1504.182,
-      "power": 1498.16,
-      "rank": 4,
-      "mw_rating": 51.1,
-      "mw_points": 511
-    },
-    {
-      "teamno": "44878",
-      "name": "D4J-North Attleboro (red)",
-      "town": null,
-      "wins": 6,
-      "losses": 7,
-      "ties": 0,
-      "pf": 302,
-      "pa": 474,
-      "diff": -172,
-      "sos": 1472.653,
-      "sos_adj": 1445.73,
-      "power": 1490.447,
+      "sos": 1507.764,
+      "sos_adj": 1502.764,
+      "power": 1498.094,
       "rank": 5,
-      "mw_rating": 40.4,
-      "mw_points": 485
+      "mw_rating": 51.2,
+      "mw_points": 512
     },
     {
       "teamno": "45139",
@@ -102,12 +102,12 @@
       "pf": 438,
       "pa": 419,
       "diff": 19,
-      "sos": 1513.356,
-      "sos_adj": 1513.356,
-      "power": 1489.586,
+      "sos": 1513.728,
+      "sos_adj": 1513.728,
+      "power": 1491.055,
       "rank": 6,
-      "mw_rating": 45.8,
-      "mw_points": 504
+      "mw_rating": 46.0,
+      "mw_points": 506
     }
   ]
 }

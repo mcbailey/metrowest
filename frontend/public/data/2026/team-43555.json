@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "43555",
   "team_name": "D5H-Bridgewater (librera)",
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 261,
-    "pa": 365,
-    "diff": -104,
-    "sos": 1456.969,
-    "sos_adj": 1411.135,
-    "power": 1394.377,
+    "pf": 274,
+    "pa": 396,
+    "diff": -122,
+    "sos": 1457.716,
+    "sos_adj": 1411.562,
+    "power": 1384.041,
     "rank": 5,
-    "mw_rating": 18.4,
-    "mw_points": 221,
+    "mw_rating": 17.8,
+    "mw_points": 231,
     "divisionno": "7236",
     "division_name": "8th Girls - Division 5",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46427",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "7:45 PM",
+      "location": "Mass Premier - 6",
+      "divisionno": "7238",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "43555",
+      "away_teamno": "43396",
+      "home_score": 13,
+      "away_score": 31,
+      "team_score": 13,
+      "opponent_score": 31,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43396",
+      "opponent_name": "D5K-Natick"
+    },
     {
       "gameno": "380269",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5H-Attleboro (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46427",
-      "date": "2026-03-04",
-      "dow": "Wed",
-      "starttime": "7:45 PM",
-      "location": "Mass Premier - 6",
-      "divisionno": "7238",
-      "division_name": "8th Girls - Division 5",
-      "home_teamno": "43555",
-      "away_teamno": "43396",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43396",
-      "opponent_name": "D5K-Natick"
-    }
-  ]
+  "future_games": []
 }

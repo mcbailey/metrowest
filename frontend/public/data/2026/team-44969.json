@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "44969",
   "team_name": "D5Q-Foxboro (gold)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 426,
-    "pa": 346,
-    "diff": 80,
-    "sos": 1445.118,
-    "sos_adj": 1395.118,
-    "power": 1491.857,
+    "pf": 460,
+    "pa": 383,
+    "diff": 77,
+    "sos": 1448.579,
+    "sos_adj": 1402.426,
+    "power": 1478.01,
     "rank": 2,
-    "mw_rating": 40.0,
-    "mw_points": 480,
+    "mw_rating": 38.9,
+    "mw_points": 505,
     "divisionno": "7293",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45183",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "5:15 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7293",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "44639",
+      "away_teamno": "44969",
+      "home_score": 37,
+      "away_score": 34,
+      "team_score": 34,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44639",
+      "opponent_name": "D4H-Attleboro (white)"
+    },
     {
       "gameno": "377397",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5M-Sharon (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45183",
-      "date": "2026-03-04",
-      "dow": "Wed",
-      "starttime": "5:15 PM",
-      "location": "Dana Barros - 4",
-      "divisionno": "7293",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "44639",
-      "away_teamno": "44969",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44639",
-      "opponent_name": "D4H-Attleboro (white)"
-    }
-  ]
+  "future_games": []
 }

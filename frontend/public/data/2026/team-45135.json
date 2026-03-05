@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "45135",
   "team_name": "D4Q-Westwood",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 660,
     "pa": 616,
     "diff": 44,
-    "sos": 1524.086,
-    "sos_adj": 1547.163,
-    "power": 1517.243,
+    "sos": 1525.151,
+    "sos_adj": 1548.228,
+    "power": 1516.964,
     "rank": 3,
     "mw_rating": 67.3,
-    "mw_points": 807,
+    "mw_points": 808,
     "divisionno": "7155",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
@@ -282,7 +282,7 @@
       "location": "Mass Premier - 2",
       "divisionno": "7155",
       "division_name": "8th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "43930",
       "away_teamno": "45135",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43930",
+      "opponent_name": "D4J-Taunton (martin)"
     }
   ]
 }

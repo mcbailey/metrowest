@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "44995",
   "team_name": "D1H-Dover Sherborn (case)",
   "town": null,
@@ -354,8 +354,8 @@
       "gameno": "43786",
       "date": "2026-03-08",
       "dow": "Sun",
-      "starttime": "10:50 AM",
-      "location": "Mass Premier - 2",
+      "starttime": "8:50 AM",
+      "location": "Mass Premier - 6",
       "divisionno": "7166",
       "division_name": "8th Boys - Division 1",
       "home_teamno": "44995",

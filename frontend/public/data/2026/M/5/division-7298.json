@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "gender": "M",
   "grade": 5,
   "divisionno": "7298",
@@ -17,12 +17,29 @@
       "pf": 971,
       "pa": 636,
       "diff": 335,
-      "sos": 1489.121,
-      "sos_adj": 1484.954,
-      "power": 1570.701,
+      "sos": 1490.943,
+      "sos_adj": 1486.776,
+      "power": 1563.711,
       "rank": 1,
-      "mw_rating": 65.1,
-      "mw_points": 781
+      "mw_rating": 65.3,
+      "mw_points": 783
+    },
+    {
+      "teamno": "44518",
+      "name": "D4J-Milford (red-karp)",
+      "town": null,
+      "wins": 4,
+      "losses": 10,
+      "ties": 0,
+      "pf": 490,
+      "pa": 569,
+      "diff": -79,
+      "sos": 1507.454,
+      "sos_adj": 1503.882,
+      "power": 1482.644,
+      "rank": 2,
+      "mw_rating": 42.3,
+      "mw_points": 508
     },
     {
       "teamno": "44460",
@@ -34,29 +51,12 @@
       "pf": 392,
       "pa": 405,
       "diff": -13,
-      "sos": 1463.309,
-      "sos_adj": 1429.976,
-      "power": 1479.281,
-      "rank": 2,
-      "mw_rating": 43.0,
-      "mw_points": 473
-    },
-    {
-      "teamno": "44518",
-      "name": "D4J-Milford (red-karp)",
-      "town": null,
-      "wins": 3,
-      "losses": 10,
-      "ties": 0,
-      "pf": 439,
-      "pa": 530,
-      "diff": -91,
-      "sos": 1511.707,
-      "sos_adj": 1507.861,
-      "power": 1458.587,
+      "sos": 1463.645,
+      "sos_adj": 1430.312,
+      "power": 1479.686,
       "rank": 3,
-      "mw_rating": 39.0,
-      "mw_points": 429
+      "mw_rating": 43.1,
+      "mw_points": 474
     },
     {
       "teamno": "43545",
@@ -68,9 +68,9 @@
       "pf": 446,
       "pa": 594,
       "diff": -148,
-      "sos": 1493.873,
-      "sos_adj": 1482.334,
-      "power": 1454.137,
+      "sos": 1495.456,
+      "sos_adj": 1483.918,
+      "power": 1458.678,
       "rank": 4,
       "mw_rating": 33.2,
       "mw_points": 365
@@ -85,12 +85,12 @@
       "pf": 407,
       "pa": 493,
       "diff": -86,
-      "sos": 1521.685,
-      "sos_adj": 1525.531,
-      "power": 1450.768,
+      "sos": 1522.026,
+      "sos_adj": 1525.872,
+      "power": 1456.415,
       "rank": 5,
-      "mw_rating": 52.2,
-      "mw_points": 574
+      "mw_rating": 52.3,
+      "mw_points": 575
     },
     {
       "teamno": "45120",
@@ -102,12 +102,12 @@
       "pf": 429,
       "pa": 502,
       "diff": -73,
-      "sos": 1501.637,
-      "sos_adj": 1497.47,
-      "power": 1445.998,
+      "sos": 1503.358,
+      "sos_adj": 1499.192,
+      "power": 1451.765,
       "rank": 6,
-      "mw_rating": 40.2,
-      "mw_points": 442
+      "mw_rating": 40.3,
+      "mw_points": 443
     }
   ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "43834",
   "team_name": "D4H-Raynham",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 261,
-    "pa": 417,
-    "diff": -156,
-    "sos": 1507.457,
-    "sos_adj": 1494.957,
-    "power": 1449.682,
+    "pf": 292,
+    "pa": 452,
+    "diff": -160,
+    "sos": 1504.873,
+    "sos_adj": 1493.335,
+    "power": 1444.542,
     "rank": 6,
-    "mw_rating": 34.5,
-    "mw_points": 414,
+    "mw_rating": 33.9,
+    "mw_points": 440,
     "divisionno": "7221",
     "division_name": "6th Boys - Division 4",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45397",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "6:30 PM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7221",
+      "division_name": "6th Boys - Division 4",
+      "home_teamno": "43834",
+      "away_teamno": "44641",
+      "home_score": 31,
+      "away_score": 35,
+      "team_score": 31,
+      "opponent_score": 35,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44641",
+      "opponent_name": "D4H-Attleboro (white)"
+    },
     {
       "gameno": "376408",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D4H-Raynham (testa)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45397",
-      "date": "2026-03-04",
-      "dow": "Wed",
-      "starttime": "6:30 PM",
-      "location": "Mass Premier - 5",
-      "divisionno": "7221",
-      "division_name": "6th Boys - Division 4",
-      "home_teamno": "43834",
-      "away_teamno": "44641",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44641",
-      "opponent_name": "D4H-Attleboro (white)"
-    }
-  ]
+  "future_games": []
 }

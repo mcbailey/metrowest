@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "43994",
   "team_name": "D6Q-Canton (white)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 253,
     "pa": 419,
     "diff": -166,
-    "sos": 1404.556,
-    "sos_adj": 1292.056,
-    "power": 1321.2,
+    "sos": 1402.851,
+    "sos_adj": 1290.351,
+    "power": 1325.955,
     "rank": 6,
     "mw_rating": 10.5,
     "mw_points": 126,
@@ -261,9 +261,9 @@
       "dow": "Sat",
       "starttime": "6:25 PM",
       "location": "Hopkinton-Marathon School",
-      "divisionno": "7587",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "0",
+      "divisionno": "7595",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44768",
       "away_teamno": "43994",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44768",
+      "opponent_name": "D7V-Arlington (red)"
     }
   ]
 }

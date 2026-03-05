@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "gender": "M",
   "grade": 4,
   "divisionno": "7594",
@@ -17,12 +17,12 @@
       "pf": 399,
       "pa": 252,
       "diff": 147,
-      "sos": 1348.843,
-      "sos_adj": 1215.51,
-      "power": 1399.075,
+      "sos": 1351.664,
+      "sos_adj": 1218.331,
+      "power": 1391.51,
       "rank": 1,
-      "mw_rating": 23.0,
-      "mw_points": 230
+      "mw_rating": 23.2,
+      "mw_points": 232
     },
     {
       "teamno": "44322",
@@ -34,12 +34,12 @@
       "pf": 322,
       "pa": 223,
       "diff": 99,
-      "sos": 1340.886,
-      "sos_adj": 1195.431,
-      "power": 1363.786,
+      "sos": 1343.385,
+      "sos_adj": 1197.93,
+      "power": 1359.168,
       "rank": 2,
-      "mw_rating": 17.8,
-      "mw_points": 196
+      "mw_rating": 17.9,
+      "mw_points": 197
     },
     {
       "teamno": "43408",
@@ -51,12 +51,12 @@
       "pf": 429,
       "pa": 336,
       "diff": 93,
-      "sos": 1364.395,
-      "sos_adj": 1225.934,
-      "power": 1359.168,
+      "sos": 1365.068,
+      "sos_adj": 1226.606,
+      "power": 1355.318,
       "rank": 3,
-      "mw_rating": 14.6,
-      "mw_points": 161
+      "mw_rating": 14.8,
+      "mw_points": 163
     },
     {
       "teamno": "44321",
@@ -68,12 +68,12 @@
       "pf": 367,
       "pa": 281,
       "diff": 86,
-      "sos": 1358.023,
-      "sos_adj": 1208.023,
-      "power": 1353.235,
+      "sos": 1358.354,
+      "sos_adj": 1208.354,
+      "power": 1349.445,
       "rank": 4,
-      "mw_rating": 15.1,
-      "mw_points": 166
+      "mw_rating": 15.3,
+      "mw_points": 168
     },
     {
       "teamno": "44320",
@@ -85,29 +85,29 @@
       "pf": 323,
       "pa": 280,
       "diff": 43,
-      "sos": 1354.365,
-      "sos_adj": 1212.698,
-      "power": 1313.341,
+      "sos": 1355.8,
+      "sos_adj": 1214.134,
+      "power": 1313.933,
       "rank": 5,
       "mw_rating": 12.8,
-      "mw_points": 153
+      "mw_points": 154
     },
     {
       "teamno": "44517",
       "name": "D7T-Milford (white-santomenna)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 9,
       "ties": 0,
-      "pf": 192,
-      "pa": 377,
-      "diff": -185,
-      "sos": 1362.693,
-      "sos_adj": 1217.239,
-      "power": 1281.353,
+      "pf": 212,
+      "pa": 396,
+      "diff": -184,
+      "sos": 1364.017,
+      "sos_adj": 1222.35,
+      "power": 1295.523,
       "rank": 6,
-      "mw_rating": 5.7,
-      "mw_points": 63
+      "mw_rating": 7.9,
+      "mw_points": 95
     },
     {
       "teamno": "44767",
@@ -119,9 +119,9 @@
       "pf": 277,
       "pa": 545,
       "diff": -268,
-      "sos": 1360.043,
-      "sos_adj": 1216.71,
-      "power": 1234.876,
+      "sos": 1360.536,
+      "sos_adj": 1217.203,
+      "power": 1243.179,
       "rank": 7,
       "mw_rating": 1.6,
       "mw_points": 16

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "43629",
   "team_name": "D4J-Middleborough (edwards)",
   "town": null,
@@ -263,7 +263,7 @@
       "location": "Taunton Hign School 1",
       "divisionno": "7257",
       "division_name": "7th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "44126",
       "away_teamno": "43629",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44126",
+      "opponent_name": "D4J-Berkley"
     }
   ]
 }

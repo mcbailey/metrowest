@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "teamno": "44413",
   "team_name": "D5J-Dedham (mullen)",
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 266,
-    "pa": 432,
-    "diff": -166,
-    "sos": 1441.924,
-    "sos_adj": 1391.924,
-    "power": 1381.257,
+    "pf": 283,
+    "pa": 471,
+    "diff": -188,
+    "sos": 1448.799,
+    "sos_adj": 1402.645,
+    "power": 1378.845,
     "rank": 6,
-    "mw_rating": 17.0,
-    "mw_points": 204,
+    "mw_rating": 17.6,
+    "mw_points": 229,
     "divisionno": "7237",
     "division_name": "8th Girls - Division 5",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46424",
+      "date": "2026-03-04",
+      "dow": "Wed",
+      "starttime": "7:45 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7237",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "44413",
+      "away_teamno": "44878",
+      "home_score": 17,
+      "away_score": 39,
+      "team_score": 17,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44878",
+      "opponent_name": "D4J-North Attleboro (red)"
+    },
     {
       "gameno": "380269",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5J-Needham (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46424",
-      "date": "2026-03-04",
-      "dow": "Wed",
-      "starttime": "7:45 PM",
-      "location": "Mass Premier - 2",
-      "divisionno": "7237",
-      "division_name": "8th Girls - Division 5",
-      "home_teamno": "44413",
-      "away_teamno": "44878",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44878",
-      "opponent_name": "D4J-North Attleboro (red)"
-    }
-  ]
+  "future_games": []
 }

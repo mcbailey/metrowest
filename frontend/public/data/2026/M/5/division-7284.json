@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-04",
+  "snapshot_date": "2026-03-05",
   "gender": "M",
   "grade": 5,
   "divisionno": "7284",
@@ -17,12 +17,12 @@
       "pf": 520,
       "pa": 405,
       "diff": 115,
-      "sos": 1410.987,
-      "sos_adj": 1332.416,
-      "power": 1446.079,
+      "sos": 1411.102,
+      "sos_adj": 1332.531,
+      "power": 1439.811,
       "rank": 1,
-      "mw_rating": 43.1,
-      "mw_points": 474
+      "mw_rating": 43.2,
+      "mw_points": 475
     },
     {
       "teamno": "45324",
@@ -34,12 +34,12 @@
       "pf": 355,
       "pa": 266,
       "diff": 89,
-      "sos": 1394.404,
-      "sos_adj": 1294.404,
-      "power": 1431.534,
+      "sos": 1393.78,
+      "sos_adj": 1293.78,
+      "power": 1425.585,
       "rank": 2,
-      "mw_rating": 26.5,
-      "mw_points": 291
+      "mw_rating": 26.6,
+      "mw_points": 292
     },
     {
       "teamno": "44161",
@@ -51,12 +51,12 @@
       "pf": 323,
       "pa": 277,
       "diff": 46,
-      "sos": 1404.182,
-      "sos_adj": 1309.182,
-      "power": 1411.657,
+      "sos": 1404.264,
+      "sos_adj": 1309.264,
+      "power": 1408.241,
       "rank": 3,
-      "mw_rating": 24.7,
-      "mw_points": 247
+      "mw_rating": 24.9,
+      "mw_points": 249
     },
     {
       "teamno": "44631",
@@ -68,12 +68,12 @@
       "pf": 317,
       "pa": 318,
       "diff": -1,
-      "sos": 1406.634,
-      "sos_adj": 1310.8,
-      "power": 1397.538,
+      "sos": 1405.303,
+      "sos_adj": 1309.469,
+      "power": 1395.221,
       "rank": 4,
-      "mw_rating": 23.9,
-      "mw_points": 287
+      "mw_rating": 24.0,
+      "mw_points": 288
     },
     {
       "teamno": "43984",
@@ -85,29 +85,29 @@
       "pf": 361,
       "pa": 425,
       "diff": -64,
-      "sos": 1417.438,
-      "sos_adj": 1321.284,
-      "power": 1360.774,
+      "sos": 1415.078,
+      "sos_adj": 1318.924,
+      "power": 1362.139,
       "rank": 5,
       "mw_rating": 13.6,
-      "mw_points": 149
+      "mw_points": 150
     },
     {
       "teamno": "44395",
       "name": "D6J-Dedham (chiang)",
       "town": null,
       "wins": 1,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 275,
-      "pa": 348,
-      "diff": -73,
-      "sos": 1420.482,
-      "sos_adj": 1320.482,
-      "power": 1332.428,
+      "pf": 306,
+      "pa": 385,
+      "diff": -79,
+      "sos": 1419.723,
+      "sos_adj": 1323.89,
+      "power": 1328.291,
       "rank": 6,
-      "mw_rating": 7.7,
-      "mw_points": 85
+      "mw_rating": 7.9,
+      "mw_points": 95
     }
   ]
 }
