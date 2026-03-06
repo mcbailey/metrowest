@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43184",
   "team_name": "D5K-Bellingham",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1385.163,
     "power": 1469.889,
     "rank": 3,
-    "mw_rating": 37.3,
-    "mw_points": 448,
+    "mw_rating": 37.4,
+    "mw_points": 449,
     "divisionno": "7214",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
@@ -280,9 +280,9 @@
       "dow": "Sat",
       "starttime": "12:00 PM",
       "location": "Quincy Catholic Academy",
-      "divisionno": "7214",
+      "divisionno": "7217",
       "division_name": "6th Boys - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "44330",
       "away_teamno": "43184",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44330",
+      "opponent_name": "D5R-Medway (white)"
     }
   ]
 }

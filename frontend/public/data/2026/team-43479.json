@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43479",
   "team_name": "D5J-Somerset",
   "town": null,
@@ -318,9 +318,9 @@
       "dow": "Sat",
       "starttime": "11:00 AM",
       "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7290",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "0",
+      "divisionno": "7283",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "44122",
       "away_teamno": "43479",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44122",
+      "opponent_name": "D6H-Berkley"
     }
   ]
 }

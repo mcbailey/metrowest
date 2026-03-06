@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43677",
   "team_name": "D5R-Blackstone-Millville (boras)",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1418.056,
     "power": 1534.203,
     "rank": 1,
-    "mw_rating": 59.5,
-    "mw_points": 654,
+    "mw_rating": 59.6,
+    "mw_points": 655,
     "divisionno": "7294",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
@@ -282,7 +282,7 @@
       "location": "Quincy Catholic Academy",
       "divisionno": "7294",
       "division_name": "5th Boys - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "44088",
       "away_teamno": "43677",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44088",
+      "opponent_name": "D5M-Holbrook (blue)"
     }
   ]
 }

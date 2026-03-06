@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "44491",
   "team_name": "D5H-Easton (orange)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 253,
-    "pa": 298,
-    "diff": -45,
-    "sos": 1449.638,
-    "sos_adj": 1399.638,
-    "power": 1389.855,
+    "pf": 282,
+    "pa": 328,
+    "diff": -46,
+    "sos": 1448.249,
+    "sos_adj": 1398.249,
+    "power": 1390.044,
     "rank": 7,
-    "mw_rating": 24.7,
-    "mw_points": 296,
+    "mw_rating": 23.6,
+    "mw_points": 307,
     "divisionno": "7267",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46190",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Attleboro Brennan Middle School",
+      "divisionno": "7268",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "44491",
+      "away_teamno": "43305",
+      "home_score": 29,
+      "away_score": 30,
+      "team_score": 29,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43305",
+      "opponent_name": "D5J-Franklin"
+    },
     {
       "gameno": "376215",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5J-Norwood (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46190",
-      "date": "2026-03-05",
-      "dow": "Thu",
-      "starttime": "7:45 PM",
-      "location": "Attleboro Brennan Middle School",
-      "divisionno": "7268",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "44491",
-      "away_teamno": "43305",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43305",
-      "opponent_name": "D5J-Franklin"
-    }
-  ]
+  "future_games": []
 }

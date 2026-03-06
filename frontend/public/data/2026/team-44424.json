@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "44424",
   "team_name": "D4M-Norton (purple)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 586,
     "pa": 670,
     "diff": -84,
-    "sos": 1502.661,
-    "sos_adj": 1502.661,
-    "power": 1500.254,
+    "sos": 1502.801,
+    "sos_adj": 1502.801,
+    "power": 1500.289,
     "rank": 4,
-    "mw_rating": 45.3,
-    "mw_points": 544,
+    "mw_rating": 45.4,
+    "mw_points": 545,
     "divisionno": "7154",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
@@ -299,9 +299,9 @@
       "dow": "Sun",
       "starttime": "5:00 PM",
       "location": "Old Rochester Junior High School",
-      "divisionno": "7154",
+      "divisionno": "7155",
       "division_name": "8th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "43679",
       "away_teamno": "44424",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43679",
+      "opponent_name": "D4Q-Blackstone-Millville (liggett)"
     }
   ]
 }

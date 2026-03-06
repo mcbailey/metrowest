@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43968",
   "team_name": "D6H-Taunton (hibbard)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 1092,
     "pa": 961,
     "diff": 131,
-    "sos": 1454.978,
-    "sos_adj": 1416.341,
-    "power": 1427.458,
-    "rank": 1,
-    "mw_rating": 39.9,
-    "mw_points": 479,
+    "sos": 1453.37,
+    "sos_adj": 1414.734,
+    "power": 1427.056,
+    "rank": 2,
+    "mw_rating": 40.0,
+    "mw_points": 480,
     "divisionno": "7137",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
@@ -453,7 +453,7 @@
       "location": "Seekonk - Hurley Middle School",
       "divisionno": "7137",
       "division_name": "8th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "45729",
       "away_teamno": "43968",
       "home_score": null,
       "away_score": null,
@@ -461,8 +461,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45729",
+      "opponent_name": "D6H-West Bridgewater (botelho)"
     }
   ]
 }

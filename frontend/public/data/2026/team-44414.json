@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "44414",
   "team_name": "D7Q-Dedham (gallagher)",
   "town": null,
@@ -261,9 +261,9 @@
       "dow": "Sat",
       "starttime": "9:30 AM",
       "location": "Foxboro Ahern Middle (Gym 1)",
-      "divisionno": "7592",
+      "divisionno": "7593",
       "division_name": "4th Boys - Division 7",
-      "home_teamno": "0",
+      "home_teamno": "45264",
       "away_teamno": "44414",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45264",
+      "opponent_name": "D7R-Medfield (ross)"
     }
   ]
 }

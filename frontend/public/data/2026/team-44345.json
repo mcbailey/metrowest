@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "44345",
   "team_name": "D2L-Medway (blue)",
   "town": null,
@@ -337,9 +337,9 @@
       "dow": "Sat",
       "starttime": "4:20 PM",
       "location": "Attleboro Brennan Middle School",
-      "divisionno": "7545",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7547",
+      "division_name": "4th Girls - Division 4",
+      "home_teamno": "43991",
       "away_teamno": "44345",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43991",
+      "opponent_name": "D4M-Canton (white)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43844",
   "team_name": "D5H-Raynham (stankewicz)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 368,
     "pa": 248,
     "diff": 120,
-    "sos": 1450.116,
-    "sos_adj": 1406.782,
-    "power": 1498.737,
+    "sos": 1450.771,
+    "sos_adj": 1407.438,
+    "power": 1492.947,
     "rank": 2,
-    "mw_rating": 49.0,
-    "mw_points": 588,
+    "mw_rating": 49.2,
+    "mw_points": 590,
     "divisionno": "7267",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
@@ -318,9 +318,9 @@
       "dow": "Sun",
       "starttime": "1:20 PM",
       "location": "North Attleboro Middle School",
-      "divisionno": "7267",
+      "divisionno": "7268",
       "division_name": "6th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "43305",
       "away_teamno": "43844",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43305",
+      "opponent_name": "D5J-Franklin"
     }
   ]
 }

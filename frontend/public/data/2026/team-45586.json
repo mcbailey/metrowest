@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "45586",
   "team_name": "D4J-Stoughton",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 343,
     "pa": 344,
     "diff": -1,
-    "sos": 1507.764,
-    "sos_adj": 1502.764,
-    "power": 1498.094,
+    "sos": 1504.655,
+    "sos_adj": 1499.655,
+    "power": 1497.317,
     "rank": 5,
     "mw_rating": 51.2,
     "mw_points": 512,
@@ -261,9 +261,9 @@
       "dow": "Sat",
       "starttime": "7:40 PM",
       "location": "North Quincy High School (Ct 1)",
-      "divisionno": "7241",
-      "division_name": "8th Girls - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7236",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "43340",
       "away_teamno": "45586",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43340",
+      "opponent_name": "D5H-Mansfield (green)"
     }
   ]
 }

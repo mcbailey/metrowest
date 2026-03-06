@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "44494",
   "team_name": "D4H-Wareham (lopes)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 459,
     "pa": 480,
     "diff": -21,
-    "sos": 1500.142,
-    "sos_adj": 1500.142,
-    "power": 1497.893,
+    "sos": 1498.321,
+    "sos_adj": 1498.321,
+    "power": 1497.437,
     "rank": 3,
     "mw_rating": 53.3,
     "mw_points": 533,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "3:45 PM",
       "location": "Old Rochester Junior High School",
-      "divisionno": "7151",
+      "divisionno": "7152",
       "division_name": "8th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "44124",
       "away_teamno": "44494",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44124",
+      "opponent_name": "D4J-Berkley"
     }
   ]
 }

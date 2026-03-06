@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43298",
   "team_name": "D2H-Franklin",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1635.712,
     "power": 1593.205,
     "rank": 4,
-    "mw_rating": 92.6,
-    "mw_points": 1111,
+    "mw_rating": 92.7,
+    "mw_points": 1112,
     "divisionno": "7198",
     "division_name": "7th Boys - Division 2",
     "grade": 7,
@@ -451,9 +451,9 @@
       "dow": "Sun",
       "starttime": "12:00 PM",
       "location": "Old Rochester Junior High School",
-      "divisionno": "7198",
-      "division_name": "7th Boys - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7188",
+      "division_name": "7th Boys - Division 4",
+      "home_teamno": "43481",
       "away_teamno": "43298",
       "home_score": null,
       "away_score": null,
@@ -461,8 +461,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43481",
+      "opponent_name": "D4H-Rochester (red)"
     }
   ]
 }

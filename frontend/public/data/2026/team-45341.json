@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "45341",
   "team_name": "D5J-Milton (black)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 276,
     "pa": 271,
     "diff": 5,
-    "sos": 1447.859,
-    "sos_adj": 1397.859,
-    "power": 1440.287,
+    "sos": 1448.073,
+    "sos_adj": 1398.073,
+    "power": 1440.008,
     "rank": 3,
-    "mw_rating": 32.6,
-    "mw_points": 391,
+    "mw_rating": 32.8,
+    "mw_points": 393,
     "divisionno": "7268",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
@@ -263,7 +263,7 @@
       "location": "Mansfield Fieldhouse -4",
       "divisionno": "7268",
       "division_name": "6th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "44599",
       "away_teamno": "45341",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44599",
+      "opponent_name": "D5J-King Philip"
     }
   ]
 }

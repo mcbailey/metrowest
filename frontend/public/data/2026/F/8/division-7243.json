@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "gender": "F",
   "grade": 8,
   "divisionno": "7243",
@@ -17,12 +17,12 @@
       "pf": 611,
       "pa": 495,
       "diff": 116,
-      "sos": 1490.754,
-      "sos_adj": 1490.754,
-      "power": 1569.477,
+      "sos": 1490.294,
+      "sos_adj": 1490.294,
+      "power": 1562.183,
       "rank": 1,
-      "mw_rating": 68.6,
-      "mw_points": 755
+      "mw_rating": 68.7,
+      "mw_points": 756
     },
     {
       "teamno": "43541",
@@ -34,12 +34,12 @@
       "pf": 486,
       "pa": 417,
       "diff": 69,
-      "sos": 1493.407,
-      "sos_adj": 1484.316,
-      "power": 1546.09,
+      "sos": 1495.172,
+      "sos_adj": 1486.081,
+      "power": 1541.531,
       "rank": 2,
-      "mw_rating": 68.3,
-      "mw_points": 751
+      "mw_rating": 68.4,
+      "mw_points": 752
     },
     {
       "teamno": "44155",
@@ -51,12 +51,29 @@
       "pf": 389,
       "pa": 396,
       "diff": -7,
-      "sos": 1509.683,
-      "sos_adj": 1509.683,
-      "power": 1506.614,
+      "sos": 1508.715,
+      "sos_adj": 1508.715,
+      "power": 1505.952,
       "rank": 3,
       "mw_rating": 51.2,
       "mw_points": 563
+    },
+    {
+      "teamno": "43257",
+      "name": "D4M-Southboro (maroon)",
+      "town": null,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "pf": 414,
+      "pa": 414,
+      "diff": 0,
+      "sos": 1505.128,
+      "sos_adj": 1505.128,
+      "power": 1495.366,
+      "rank": 4,
+      "mw_rating": 51.8,
+      "mw_points": 673
     },
     {
       "teamno": "44509",
@@ -68,29 +85,12 @@
       "pf": 417,
       "pa": 436,
       "diff": -19,
-      "sos": 1514.846,
-      "sos_adj": 1514.846,
-      "power": 1480.372,
-      "rank": 4,
+      "sos": 1515.066,
+      "sos_adj": 1515.066,
+      "power": 1482.761,
+      "rank": 5,
       "mw_rating": 54.3,
       "mw_points": 651
-    },
-    {
-      "teamno": "43257",
-      "name": "D4M-Southboro (maroon)",
-      "town": null,
-      "wins": 5,
-      "losses": 8,
-      "ties": 0,
-      "pf": 378,
-      "pa": 389,
-      "diff": -11,
-      "sos": 1510.808,
-      "sos_adj": 1510.808,
-      "power": 1477.66,
-      "rank": 5,
-      "mw_rating": 49.3,
-      "mw_points": 591
     },
     {
       "teamno": "44792",
@@ -102,12 +102,12 @@
       "pf": 400,
       "pa": 388,
       "diff": 12,
-      "sos": 1508.364,
-      "sos_adj": 1508.364,
-      "power": 1476.538,
+      "sos": 1509.374,
+      "sos_adj": 1509.374,
+      "power": 1479.346,
       "rank": 6,
-      "mw_rating": 49.5,
-      "mw_points": 594
+      "mw_rating": 49.6,
+      "mw_points": 595
     }
   ]
 }

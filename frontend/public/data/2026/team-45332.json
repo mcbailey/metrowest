@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "45332",
   "team_name": "D4J-Milton (white)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 454,
     "pa": 516,
     "diff": -62,
-    "sos": 1518.992,
-    "sos_adj": 1531.492,
-    "power": 1530.5,
+    "sos": 1515.106,
+    "sos_adj": 1527.606,
+    "power": 1529.529,
     "rank": 2,
     "mw_rating": 56.1,
     "mw_points": 673,
@@ -337,9 +337,9 @@
       "dow": "Sat",
       "starttime": "7:10 PM",
       "location": "Mansfield Fieldhouse -1",
-      "divisionno": "7241",
-      "division_name": "8th Girls - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7238",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "45140",
       "away_teamno": "45332",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45140",
+      "opponent_name": "D5K-Westwood"
     }
   ]
 }

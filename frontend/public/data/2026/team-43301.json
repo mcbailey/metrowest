@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43301",
   "team_name": "D5J-Franklin",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 598,
-    "pa": 531,
-    "diff": 67,
-    "sos": 1439.965,
-    "sos_adj": 1394.132,
-    "power": 1470.523,
-    "rank": 3,
-    "mw_rating": 41.8,
-    "mw_points": 501,
+    "pf": 642,
+    "pa": 583,
+    "diff": 59,
+    "sos": 1446.11,
+    "sos_adj": 1403.802,
+    "power": 1458.055,
+    "rank": 4,
+    "mw_rating": 40.5,
+    "mw_points": 527,
     "divisionno": "7146",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45765",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7146",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "44150",
+      "away_teamno": "43301",
+      "home_score": 52,
+      "away_score": 44,
+      "team_score": 44,
+      "opponent_score": 52,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44150",
+      "opponent_name": "D4M-Easton (orange)"
+    },
     {
       "gameno": "379380",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5H-Dartmouth (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45765",
-      "date": "2026-03-05",
-      "dow": "Thu",
-      "starttime": "7:45 PM",
-      "location": "Dana Barros - 5",
-      "divisionno": "7146",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "44150",
-      "away_teamno": "43301",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44150",
-      "opponent_name": "D4M-Easton (orange)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "44277",
   "team_name": "D5W-Wayland (orange)",
   "town": null,
@@ -244,7 +244,7 @@
       "location": "Hopkinton-Elmwood School",
       "divisionno": "7318",
       "division_name": "5th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "44765",
       "away_teamno": "44277",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44765",
+      "opponent_name": "D5T-Dover Sherborn (obrien)"
     }
   ]
 }

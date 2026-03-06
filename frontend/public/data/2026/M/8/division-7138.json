@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "gender": "M",
   "grade": 8,
   "divisionno": "7138",
@@ -21,8 +21,8 @@
       "sos_adj": 1294.747,
       "power": 1449.436,
       "rank": 1,
-      "mw_rating": 34.9,
-      "mw_points": 419
+      "mw_rating": 35.0,
+      "mw_points": 420
     },
     {
       "teamno": "43894",
@@ -46,17 +46,17 @@
       "name": "D6J-Foxboro (gold)",
       "town": null,
       "wins": 9,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "pf": 671,
-      "pa": 541,
-      "diff": 130,
-      "sos": 1390.467,
-      "sos_adj": 1290.467,
-      "power": 1417.262,
+      "pf": 701,
+      "pa": 593,
+      "diff": 108,
+      "sos": 1396.145,
+      "sos_adj": 1296.145,
+      "power": 1398.849,
       "rank": 3,
-      "mw_rating": 27.7,
-      "mw_points": 332
+      "mw_rating": 25.9,
+      "mw_points": 337
     },
     {
       "teamno": "43731",

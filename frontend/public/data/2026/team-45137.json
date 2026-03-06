@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "45137",
   "team_name": "D6Q-Westwood",
   "town": null,
@@ -263,7 +263,7 @@
       "location": "Mass Premier - 4",
       "divisionno": "7141",
       "division_name": "8th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44188",
       "away_teamno": "45137",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44188",
+      "opponent_name": "D6K-Parkway  (blue)"
     }
   ]
 }

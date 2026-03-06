@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43685",
   "team_name": "D2-Sharon (gold)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 419,
-    "pa": 589,
-    "diff": -170,
-    "sos": 1625.395,
-    "sos_adj": 1735.395,
-    "power": 1606.581,
-    "rank": 5,
-    "mw_rating": 106.8,
-    "mw_points": 1281,
+    "pf": 449,
+    "pa": 625,
+    "diff": -176,
+    "sos": 1622.199,
+    "sos_adj": 1728.449,
+    "power": 1586.968,
+    "rank": 6,
+    "mw_rating": 102.2,
+    "mw_points": 1328,
     "divisionno": "7071",
     "division_name": "6th Girls - Division 2",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44836",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "6:30 PM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7278",
+      "division_name": "6th Girls - Division 3",
+      "home_teamno": "44475",
+      "away_teamno": "43685",
+      "home_score": 36,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44475",
+      "opponent_name": "D3H-Walpole (a)"
+    },
     {
       "gameno": "387660",
       "date": "2026-03-01",
@@ -311,25 +330,5 @@
       "opponent_name": "D3J-Milton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44836",
-      "date": "2026-03-05",
-      "dow": "Thu",
-      "starttime": "6:30 PM",
-      "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7278",
-      "division_name": "6th Girls - Division 3",
-      "home_teamno": "44475",
-      "away_teamno": "43685",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44475",
-      "opponent_name": "D3H-Walpole (a)"
-    }
-  ]
+  "future_games": []
 }

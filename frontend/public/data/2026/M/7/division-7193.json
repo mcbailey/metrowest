@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "gender": "M",
   "grade": 7,
   "divisionno": "7193",
@@ -17,12 +17,12 @@
       "pf": 665,
       "pa": 510,
       "diff": 155,
-      "sos": 1530.067,
-      "sos_adj": 1576.221,
-      "power": 1615.3,
+      "sos": 1531.676,
+      "sos_adj": 1577.83,
+      "power": 1609.828,
       "rank": 1,
-      "mw_rating": 105.4,
-      "mw_points": 1265
+      "mw_rating": 105.5,
+      "mw_points": 1266
     },
     {
       "teamno": "44642",
@@ -34,12 +34,12 @@
       "pf": 733,
       "pa": 656,
       "diff": 77,
-      "sos": 1546.71,
-      "sos_adj": 1593.139,
-      "power": 1596.303,
+      "sos": 1546.682,
+      "sos_adj": 1593.111,
+      "power": 1592.744,
       "rank": 2,
-      "mw_rating": 95.2,
-      "mw_points": 1142
+      "mw_rating": 95.3,
+      "mw_points": 1143
     },
     {
       "teamno": "44869",
@@ -51,12 +51,29 @@
       "pf": 961,
       "pa": 850,
       "diff": 111,
-      "sos": 1527.282,
-      "sos_adj": 1557.282,
-      "power": 1586.843,
+      "sos": 1527.554,
+      "sos_adj": 1557.554,
+      "power": 1583.409,
       "rank": 3,
-      "mw_rating": 92.0,
-      "mw_points": 1104
+      "mw_rating": 92.1,
+      "mw_points": 1105
+    },
+    {
+      "teamno": "43422",
+      "name": "D3H-Bridgewater (driscoll)",
+      "town": null,
+      "wins": 4,
+      "losses": 10,
+      "ties": 0,
+      "pf": 574,
+      "pa": 689,
+      "diff": -115,
+      "sos": 1548.013,
+      "sos_adj": 1601.584,
+      "power": 1519.177,
+      "rank": 4,
+      "mw_rating": 68.2,
+      "mw_points": 887
     },
     {
       "teamno": "43318",
@@ -68,12 +85,12 @@
       "pf": 624,
       "pa": 696,
       "diff": -72,
-      "sos": 1536.469,
-      "sos_adj": 1579.326,
-      "power": 1511.105,
-      "rank": 4,
-      "mw_rating": 70.8,
-      "mw_points": 850
+      "sos": 1539.527,
+      "sos_adj": 1582.384,
+      "power": 1516.492,
+      "rank": 5,
+      "mw_rating": 71.0,
+      "mw_points": 852
     },
     {
       "teamno": "43125",
@@ -85,29 +102,12 @@
       "pf": 605,
       "pa": 796,
       "diff": -191,
-      "sos": 1576.798,
-      "sos_adj": 1643.465,
-      "power": 1505.528,
-      "rank": 5,
+      "sos": 1575.785,
+      "sos_adj": 1642.452,
+      "power": 1512.059,
+      "rank": 6,
       "mw_rating": 62.8,
       "mw_points": 753
-    },
-    {
-      "teamno": "43422",
-      "name": "D3H-Bridgewater (driscoll)",
-      "town": null,
-      "wins": 3,
-      "losses": 10,
-      "ties": 0,
-      "pf": 526,
-      "pa": 658,
-      "diff": -132,
-      "sos": 1552.805,
-      "sos_adj": 1606.651,
-      "power": 1487.363,
-      "rank": 6,
-      "mw_rating": 64.3,
-      "mw_points": 772
     }
   ]
 }

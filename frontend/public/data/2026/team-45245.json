@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "45245",
   "team_name": "D2-Medfield (scannell)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 533,
     "pa": 497,
     "diff": 36,
-    "sos": 1641.212,
-    "sos_adj": 1773.355,
-    "power": 1646.157,
+    "sos": 1636.381,
+    "sos_adj": 1768.523,
+    "power": 1644.668,
     "rank": 3,
     "mw_rating": 146.4,
     "mw_points": 1610,
@@ -299,9 +299,9 @@
       "dow": "Sun",
       "starttime": "9:40 AM",
       "location": "Attleboro Brennan Middle School",
-      "divisionno": "7071",
-      "division_name": "6th Girls - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7279",
+      "division_name": "6th Girls - Division 3",
+      "home_teamno": "45129",
       "away_teamno": "45245",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45129",
+      "opponent_name": "D3J-Westwood"
     }
   ]
 }

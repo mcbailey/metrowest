@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43326",
   "team_name": "D3J-Mansfield (white)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 747,
-    "pa": 879,
-    "diff": -132,
-    "sos": 1541.418,
-    "sos_adj": 1588.477,
-    "power": 1522.811,
-    "rank": 4,
-    "mw_rating": 76.4,
-    "mw_points": 917,
+    "pf": 778,
+    "pa": 927,
+    "diff": -149,
+    "sos": 1542.679,
+    "sos_adj": 1589.901,
+    "power": 1508.029,
+    "rank": 5,
+    "mw_rating": 74.1,
+    "mw_points": 963,
     "divisionno": "7194",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45524",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7194",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "43422",
+      "away_teamno": "43326",
+      "home_score": 48,
+      "away_score": 31,
+      "team_score": 31,
+      "opponent_score": 48,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43422",
+      "opponent_name": "D3H-Bridgewater (driscoll)"
+    },
     {
       "gameno": "374822",
       "date": "2026-03-01",
@@ -330,25 +349,5 @@
       "opponent_name": "D3J-Easton (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45524",
-      "date": "2026-03-05",
-      "dow": "Thu",
-      "starttime": "7:45 PM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7194",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "43422",
-      "away_teamno": "43326",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43422",
-      "opponent_name": "D3H-Bridgewater (driscoll)"
-    }
-  ]
+  "future_games": []
 }

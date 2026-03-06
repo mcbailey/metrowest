@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "44816",
   "team_name": "D4H-Bourne (purple/jensen)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 367,
     "pa": 306,
     "diff": 61,
-    "sos": 1525.807,
-    "sos_adj": 1529.973,
-    "power": 1552.113,
+    "sos": 1526.695,
+    "sos_adj": 1530.862,
+    "power": 1547.873,
     "rank": 2,
-    "mw_rating": 64.5,
-    "mw_points": 774,
+    "mw_rating": 64.7,
+    "mw_points": 776,
     "divisionno": "7319",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
@@ -263,7 +263,7 @@
       "location": "Taunton High School 3",
       "divisionno": "7319",
       "division_name": "5th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "43846",
       "away_teamno": "44816",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43846",
+      "opponent_name": "D4H-Raynham (ortiz)"
     }
   ]
 }

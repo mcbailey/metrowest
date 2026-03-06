@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "gender": "M",
   "grade": 8,
   "divisionno": "7151",
@@ -21,8 +21,8 @@
       "sos_adj": 1484.927,
       "power": 1575.497,
       "rank": 1,
-      "mw_rating": 78.4,
-      "mw_points": 941
+      "mw_rating": 78.5,
+      "mw_points": 942
     },
     {
       "teamno": "44822",
@@ -38,8 +38,8 @@
       "sos_adj": 1482.019,
       "power": 1538.644,
       "rank": 2,
-      "mw_rating": 67.1,
-      "mw_points": 805
+      "mw_rating": 67.3,
+      "mw_points": 807
     },
     {
       "teamno": "44494",
@@ -51,9 +51,9 @@
       "pf": 459,
       "pa": 480,
       "diff": -21,
-      "sos": 1500.142,
-      "sos_adj": 1500.142,
-      "power": 1497.893,
+      "sos": 1498.321,
+      "sos_adj": 1498.321,
+      "power": 1497.437,
       "rank": 3,
       "mw_rating": 53.3,
       "mw_points": 533
@@ -68,29 +68,29 @@
       "pf": 560,
       "pa": 547,
       "diff": 13,
-      "sos": 1503.124,
-      "sos_adj": 1498.958,
-      "power": 1451.813,
+      "sos": 1501.607,
+      "sos_adj": 1497.44,
+      "power": 1451.434,
       "rank": 4,
       "mw_rating": 46.8,
-      "mw_points": 561
+      "mw_points": 562
     },
     {
       "teamno": "43226",
       "name": "D4H-Barnstable  (white)",
       "town": null,
       "wins": 1,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 405,
-      "pa": 672,
-      "diff": -267,
-      "sos": 1506.282,
-      "sos_adj": 1506.282,
-      "power": 1437.547,
+      "pf": 437,
+      "pa": 732,
+      "diff": -295,
+      "sos": 1507.966,
+      "sos_adj": 1507.966,
+      "power": 1424.309,
       "rank": 5,
-      "mw_rating": 29.4,
-      "mw_points": 353
+      "mw_rating": 29.1,
+      "mw_points": 378
     }
   ]
 }

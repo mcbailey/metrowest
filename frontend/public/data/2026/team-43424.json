@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43424",
   "team_name": "D4J-Bridgewater (hinman)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 567,
     "pa": 523,
     "diff": 44,
-    "sos": 1483.95,
-    "sos_adj": 1483.95,
-    "power": 1502.889,
+    "sos": 1484.439,
+    "sos_adj": 1484.439,
+    "power": 1503.011,
     "rank": 2,
-    "mw_rating": 57.4,
-    "mw_points": 689,
+    "mw_rating": 57.6,
+    "mw_points": 691,
     "divisionno": "7152",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
@@ -280,9 +280,9 @@
       "dow": "Sun",
       "starttime": "2:30 PM",
       "location": "Old Rochester Junior High School",
-      "divisionno": "7152",
+      "divisionno": "7154",
       "division_name": "8th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "44150",
       "away_teamno": "43424",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44150",
+      "opponent_name": "D4M-Easton (orange)"
     }
   ]
 }

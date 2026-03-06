@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "44065",
   "team_name": "D3M-Watertown (white)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 482,
     "pa": 326,
     "diff": 156,
-    "sos": 1535.21,
-    "sos_adj": 1582.085,
-    "power": 1637.505,
+    "sos": 1533.715,
+    "sos_adj": 1580.59,
+    "power": 1629.183,
     "rank": 1,
     "mw_rating": 120.2,
     "mw_points": 1322,
@@ -358,7 +358,7 @@
       "location": "Attleboro Brennan Middle School",
       "divisionno": "7281",
       "division_name": "6th Girls - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "44475",
       "away_teamno": "44065",
       "home_score": null,
       "away_score": null,
@@ -366,8 +366,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44475",
+      "opponent_name": "D3H-Walpole (a)"
     }
   ]
 }

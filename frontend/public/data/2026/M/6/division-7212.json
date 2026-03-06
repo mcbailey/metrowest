@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "gender": "M",
   "grade": 6,
   "divisionno": "7212",
@@ -34,12 +34,12 @@
       "pf": 759,
       "pa": 585,
       "diff": 174,
-      "sos": 1438.992,
-      "sos_adj": 1380.168,
-      "power": 1474.721,
+      "sos": 1440.128,
+      "sos_adj": 1381.304,
+      "power": 1475.005,
       "rank": 2,
-      "mw_rating": 45.5,
-      "mw_points": 546
+      "mw_rating": 45.6,
+      "mw_points": 547
     },
     {
       "teamno": "43234",
@@ -51,12 +51,12 @@
       "pf": 516,
       "pa": 546,
       "diff": -30,
-      "sos": 1454.33,
-      "sos_adj": 1404.33,
-      "power": 1432.901,
+      "sos": 1455.816,
+      "sos_adj": 1405.816,
+      "power": 1433.272,
       "rank": 3,
       "mw_rating": 33.9,
-      "mw_points": 440
+      "mw_points": 441
     },
     {
       "teamno": "43432",
@@ -68,12 +68,12 @@
       "pf": 436,
       "pa": 535,
       "diff": -99,
-      "sos": 1455.447,
-      "sos_adj": 1405.447,
-      "power": 1409.815,
+      "sos": 1457.056,
+      "sos_adj": 1407.056,
+      "power": 1410.218,
       "rank": 4,
-      "mw_rating": 24.7,
-      "mw_points": 296
+      "mw_rating": 24.8,
+      "mw_points": 297
     },
     {
       "teamno": "44978",
@@ -85,9 +85,9 @@
       "pf": 411,
       "pa": 493,
       "diff": -82,
-      "sos": 1453.162,
-      "sos_adj": 1398.617,
-      "power": 1401.745,
+      "sos": 1454.918,
+      "sos_adj": 1400.373,
+      "power": 1402.184,
       "rank": 5,
       "mw_rating": 21.7,
       "mw_points": 239
@@ -96,18 +96,18 @@
       "teamno": "43253",
       "name": "D5H-Dartmouth (white)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 10,
       "ties": 0,
-      "pf": 336,
-      "pa": 483,
-      "diff": -147,
-      "sos": 1449.875,
-      "sos_adj": 1399.875,
-      "power": 1371.454,
+      "pf": 373,
+      "pa": 516,
+      "diff": -143,
+      "sos": 1448.398,
+      "sos_adj": 1398.398,
+      "power": 1385.573,
       "rank": 6,
-      "mw_rating": 17.3,
-      "mw_points": 207
+      "mw_rating": 20.0,
+      "mw_points": 260
     }
   ]
 }

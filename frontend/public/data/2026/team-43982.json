@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43982",
   "team_name": "D3J-Canton (green)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 494,
     "pa": 653,
     "diff": -159,
-    "sos": 1546.025,
-    "sos_adj": 1589.358,
-    "power": 1493.813,
+    "sos": 1549.386,
+    "sos_adj": 1592.719,
+    "power": 1501.256,
     "rank": 7,
-    "mw_rating": 68.3,
-    "mw_points": 819,
+    "mw_rating": 68.4,
+    "mw_points": 821,
     "divisionno": "7304",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
@@ -320,7 +320,7 @@
       "location": "Hopkinton-Hopkins School",
       "divisionno": "7304",
       "division_name": "5th Boys - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "43950",
       "away_teamno": "43982",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43950",
+      "opponent_name": "D3J-Norwood (gold)"
     }
   ]
 }

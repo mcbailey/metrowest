@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43953",
   "team_name": "D6J-Foxboro (gold)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 671,
-    "pa": 541,
-    "diff": 130,
-    "sos": 1390.467,
-    "sos_adj": 1290.467,
-    "power": 1417.262,
+    "pf": 701,
+    "pa": 593,
+    "diff": 108,
+    "sos": 1396.145,
+    "sos_adj": 1296.145,
+    "power": 1398.849,
     "rank": 3,
-    "mw_rating": 27.7,
-    "mw_points": 332,
+    "mw_rating": 25.9,
+    "mw_points": 337,
     "divisionno": "7138",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45796",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7138",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "43953",
+      "away_teamno": "45729",
+      "home_score": 30,
+      "away_score": 52,
+      "team_score": 30,
+      "opponent_score": 52,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45729",
+      "opponent_name": "D6H-West Bridgewater (botelho)"
+    },
     {
       "gameno": "379276",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D6J-Bellingham (hunt)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45796",
-      "date": "2026-03-05",
-      "dow": "Thu",
-      "starttime": "7:45 PM",
-      "location": "Mass Premier - 4",
-      "divisionno": "7138",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "43953",
-      "away_teamno": "45729",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45729",
-      "opponent_name": "D6H-West Bridgewater (botelho)"
-    }
-  ]
+  "future_games": []
 }

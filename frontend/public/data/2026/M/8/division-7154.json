@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "gender": "M",
   "grade": 8,
   "divisionno": "7154",
@@ -17,12 +17,12 @@
       "pf": 755,
       "pa": 650,
       "diff": 105,
-      "sos": 1503.967,
-      "sos_adj": 1511.11,
-      "power": 1578.024,
+      "sos": 1504.107,
+      "sos_adj": 1511.25,
+      "power": 1578.059,
       "rank": 1,
-      "mw_rating": 80.7,
-      "mw_points": 968
+      "mw_rating": 80.8,
+      "mw_points": 969
     },
     {
       "teamno": "45309",
@@ -34,12 +34,12 @@
       "pf": 1341,
       "pa": 1251,
       "diff": 90,
-      "sos": 1511.263,
-      "sos_adj": 1535.337,
-      "power": 1541.561,
+      "sos": 1511.335,
+      "sos_adj": 1535.409,
+      "power": 1541.579,
       "rank": 2,
-      "mw_rating": 65.6,
-      "mw_points": 853
+      "mw_rating": 65.7,
+      "mw_points": 854
     },
     {
       "teamno": "43588",
@@ -51,12 +51,12 @@
       "pf": 644,
       "pa": 559,
       "diff": 85,
-      "sos": 1501.31,
-      "sos_adj": 1497.464,
-      "power": 1534.985,
+      "sos": 1501.461,
+      "sos_adj": 1497.614,
+      "power": 1535.023,
       "rank": 3,
-      "mw_rating": 69.2,
-      "mw_points": 830
+      "mw_rating": 69.3,
+      "mw_points": 831
     },
     {
       "teamno": "44424",
@@ -68,12 +68,12 @@
       "pf": 586,
       "pa": 670,
       "diff": -84,
-      "sos": 1502.661,
-      "sos_adj": 1502.661,
-      "power": 1500.254,
+      "sos": 1502.801,
+      "sos_adj": 1502.801,
+      "power": 1500.289,
       "rank": 4,
-      "mw_rating": 45.3,
-      "mw_points": 544
+      "mw_rating": 45.4,
+      "mw_points": 545
     },
     {
       "teamno": "44866",
@@ -85,46 +85,46 @@
       "pf": 944,
       "pa": 892,
       "diff": 52,
-      "sos": 1499.393,
-      "sos_adj": 1501.774,
-      "power": 1481.455,
+      "sos": 1500.61,
+      "sos_adj": 1502.991,
+      "power": 1481.76,
       "rank": 5,
-      "mw_rating": 58.1,
-      "mw_points": 755
+      "mw_rating": 58.2,
+      "mw_points": 756
     },
     {
       "teamno": "43182",
       "name": "D4M-Bellingham (jacobson)",
       "town": null,
       "wins": 4,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 565,
-      "pa": 634,
-      "diff": -69,
-      "sos": 1509.768,
-      "sos_adj": 1502.075,
-      "power": 1465.882,
+      "pf": 609,
+      "pa": 682,
+      "diff": -73,
+      "sos": 1508.729,
+      "sos_adj": 1498.015,
+      "power": 1448.642,
       "rank": 6,
-      "mw_rating": 41.7,
-      "mw_points": 500
+      "mw_rating": 39.3,
+      "mw_points": 511
     },
     {
       "teamno": "44150",
       "name": "D4M-Easton (orange)",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 13,
       "ties": 0,
-      "pf": 498,
-      "pa": 748,
-      "diff": -250,
-      "sos": 1507.728,
-      "sos_adj": 1507.728,
-      "power": 1429.793,
+      "pf": 550,
+      "pa": 792,
+      "diff": -242,
+      "sos": 1500.864,
+      "sos_adj": 1497.531,
+      "power": 1444.939,
       "rank": 7,
-      "mw_rating": 30.1,
-      "mw_points": 361
+      "mw_rating": 32.3,
+      "mw_points": 420
     }
   ]
 }

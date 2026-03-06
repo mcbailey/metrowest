@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43831",
   "team_name": "D4J-Raynham (guillaumette)",
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 13,
+    "losses": 14,
     "ties": 0,
-    "pf": 445,
-    "pa": 755,
-    "diff": -310,
-    "sos": 1497.41,
-    "sos_adj": 1486.696,
-    "power": 1413.75,
+    "pf": 488,
+    "pa": 802,
+    "diff": -314,
+    "sos": 1498.187,
+    "sos_adj": 1488.187,
+    "power": 1407.328,
     "rank": 5,
-    "mw_rating": 26.5,
-    "mw_points": 318,
+    "mw_rating": 26.4,
+    "mw_points": 343,
     "divisionno": "7152",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45761",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7155",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "43831",
+      "away_teamno": "43679",
+      "home_score": 43,
+      "away_score": 47,
+      "team_score": 43,
+      "opponent_score": 47,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43679",
+      "opponent_name": "D4Q-Blackstone-Millville (liggett)"
+    },
     {
       "gameno": "376471",
       "date": "2026-03-01",
@@ -292,25 +311,5 @@
       "opponent_name": "D5J-Milton (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45761",
-      "date": "2026-03-05",
-      "dow": "Thu",
-      "starttime": "7:45 PM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7155",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "43831",
-      "away_teamno": "43679",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43679",
-      "opponent_name": "D4Q-Blackstone-Millville (liggett)"
-    }
-  ]
+  "future_games": []
 }

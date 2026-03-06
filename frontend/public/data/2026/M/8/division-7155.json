@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "gender": "M",
   "grade": 8,
   "divisionno": "7155",
@@ -21,8 +21,8 @@
       "sos_adj": 1483.421,
       "power": 1543.237,
       "rank": 1,
-      "mw_rating": 62.1,
-      "mw_points": 807
+      "mw_rating": 62.2,
+      "mw_points": 808
     },
     {
       "teamno": "44411",
@@ -38,8 +38,8 @@
       "sos_adj": 1478.722,
       "power": 1535.262,
       "rank": 2,
-      "mw_rating": 56.8,
-      "mw_points": 682
+      "mw_rating": 56.9,
+      "mw_points": 683
     },
     {
       "teamno": "45135",
@@ -55,8 +55,8 @@
       "sos_adj": 1548.228,
       "power": 1516.964,
       "rank": 3,
-      "mw_rating": 67.3,
-      "mw_points": 808
+      "mw_rating": 67.4,
+      "mw_points": 809
     },
     {
       "teamno": "44646",
@@ -68,29 +68,29 @@
       "pf": 590,
       "pa": 543,
       "diff": 47,
-      "sos": 1483.653,
-      "sos_adj": 1475.96,
-      "power": 1510.682,
+      "sos": 1484.982,
+      "sos_adj": 1477.29,
+      "power": 1511.015,
       "rank": 4,
-      "mw_rating": 55.8,
-      "mw_points": 670
+      "mw_rating": 55.9,
+      "mw_points": 671
     },
     {
       "teamno": "43679",
       "name": "D4Q-Blackstone-Millville (liggett)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 8,
       "ties": 0,
-      "pf": 454,
-      "pa": 500,
-      "diff": -46,
-      "sos": 1495.423,
-      "sos_adj": 1491.256,
-      "power": 1459.39,
+      "pf": 501,
+      "pa": 543,
+      "diff": -42,
+      "sos": 1494.446,
+      "sos_adj": 1490.599,
+      "power": 1472.189,
       "rank": 5,
-      "mw_rating": 42.8,
-      "mw_points": 514
+      "mw_rating": 45.5,
+      "mw_points": 592
     },
     {
       "teamno": "44380",
@@ -102,9 +102,9 @@
       "pf": 755,
       "pa": 804,
       "diff": -49,
-      "sos": 1490.531,
-      "sos_adj": 1478.766,
-      "power": 1446.044,
+      "sos": 1491.548,
+      "sos_adj": 1479.783,
+      "power": 1446.298,
       "rank": 6,
       "mw_rating": 31.4,
       "mw_points": 345

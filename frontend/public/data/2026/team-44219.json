@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "44219",
   "team_name": "D6H-Sharon (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 636,
     "pa": 586,
     "diff": 50,
-    "sos": 1430.649,
-    "sos_adj": 1361.204,
-    "power": 1457.013,
-    "rank": 1,
-    "mw_rating": 36.5,
-    "mw_points": 438,
+    "sos": 1431.055,
+    "sos_adj": 1361.61,
+    "power": 1457.114,
+    "rank": 2,
+    "mw_rating": 36.6,
+    "mw_points": 439,
     "divisionno": "7283",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
@@ -377,7 +377,7 @@
       "location": "Attleboro Wamsutta Middle school",
       "divisionno": "7283",
       "division_name": "5th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "43578",
       "away_teamno": "44219",
       "home_score": null,
       "away_score": null,
@@ -385,8 +385,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43578",
+      "opponent_name": "D5Q-North Quincy (sollinger)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43194",
   "team_name": "D5Q-Bellingham (donato)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 404,
     "pa": 337,
     "diff": 67,
-    "sos": 1446.539,
-    "sos_adj": 1400.706,
-    "power": 1453.025,
+    "sos": 1447.951,
+    "sos_adj": 1402.118,
+    "power": 1453.377,
     "rank": 3,
-    "mw_rating": 37.3,
-    "mw_points": 448,
+    "mw_rating": 37.5,
+    "mw_points": 450,
     "divisionno": "7293",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
@@ -261,9 +261,9 @@
       "dow": "Sat",
       "starttime": "1:40 PM",
       "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7293",
+      "divisionno": "7294",
       "division_name": "5th Boys - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "44965",
       "away_teamno": "43194",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44965",
+      "opponent_name": "D5R-Milford (white-l.chicarelli)"
     }
   ]
 }

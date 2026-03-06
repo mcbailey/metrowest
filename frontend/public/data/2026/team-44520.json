@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "44520",
   "team_name": "D6M-Milford (white-larochelle)",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 474,
-    "pa": 320,
-    "diff": 154,
-    "sos": 1399.198,
-    "sos_adj": 1299.198,
-    "power": 1419.933,
-    "rank": 1,
-    "mw_rating": 27.6,
-    "mw_points": 331,
+    "pf": 506,
+    "pa": 362,
+    "diff": 144,
+    "sos": 1404.496,
+    "sos_adj": 1308.067,
+    "power": 1400.899,
+    "rank": 2,
+    "mw_rating": 26.2,
+    "mw_points": 341,
     "divisionno": "7208",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45402",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "5:15 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7208",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "43623",
+      "away_teamno": "44520",
+      "home_score": 42,
+      "away_score": 32,
+      "team_score": 32,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43623",
+      "opponent_name": "D5M-Norwood (blue)"
+    },
     {
       "gameno": "377681",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D6M-Holliston (donahue - black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45402",
-      "date": "2026-03-05",
-      "dow": "Thu",
-      "starttime": "5:15 PM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7208",
-      "division_name": "6th Boys - Division 6",
-      "home_teamno": "43623",
-      "away_teamno": "44520",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43623",
-      "opponent_name": "D5M-Norwood (blue)"
-    }
-  ]
+  "future_games": []
 }

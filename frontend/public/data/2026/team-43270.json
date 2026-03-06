@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43270",
   "team_name": "D3H-Dartmouth",
   "town": null,
   "summary": {
     "wins": 17,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 848,
-    "pa": 686,
-    "diff": 162,
-    "sos": 1540.599,
-    "sos_adj": 1588.326,
-    "power": 1656.084,
+    "pf": 878,
+    "pa": 727,
+    "diff": 151,
+    "sos": 1545.33,
+    "sos_adj": 1595.33,
+    "power": 1625.647,
     "rank": 1,
-    "mw_rating": 116.6,
-    "mw_points": 1283,
+    "mw_rating": 112.9,
+    "mw_points": 1355,
     "divisionno": "7246",
     "division_name": "8th Girls - Division 3",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 22,
-    "games_scheduled_total": 1
+    "games_played_total": 23,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44916",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7246",
+      "division_name": "8th Girls - Division 3",
+      "home_teamno": "44076",
+      "away_teamno": "43270",
+      "home_score": 41,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 41,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44076",
+      "opponent_name": "D2BJ-Wellesley (a)"
+    },
     {
       "gameno": "380155",
       "date": "2026-03-01",
@@ -444,25 +463,5 @@
       "opponent_name": "Plymouth (PGBL 7A)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44916",
-      "date": "2026-03-05",
-      "dow": "Thu",
-      "starttime": "7:45 PM",
-      "location": "Dana Barros - 2",
-      "divisionno": "7246",
-      "division_name": "8th Girls - Division 3",
-      "home_teamno": "44076",
-      "away_teamno": "43270",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44076",
-      "opponent_name": "D2BJ-Wellesley (a)"
-    }
-  ]
+  "future_games": []
 }

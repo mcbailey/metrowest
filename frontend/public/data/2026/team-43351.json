@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43351",
   "team_name": "D5J-Dighton-Rehoboth (white)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 495,
-    "pa": 472,
-    "diff": 23,
-    "sos": 1461.274,
-    "sos_adj": 1407.428,
-    "power": 1435.78,
+    "pf": 533,
+    "pa": 518,
+    "diff": 15,
+    "sos": 1462.245,
+    "sos_adj": 1408.674,
+    "power": 1421.841,
     "rank": 4,
-    "mw_rating": 33.0,
-    "mw_points": 396,
+    "mw_rating": 31.2,
+    "mw_points": 406,
     "divisionno": "7290",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45202",
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "starttime": "6:30 PM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7292",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "43351",
+      "away_teamno": "44420",
+      "home_score": 38,
+      "away_score": 46,
+      "team_score": 38,
+      "opponent_score": 46,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44420",
+      "opponent_name": "D5M-Norton (purple)"
+    },
     {
       "gameno": "376338",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D6H-Sharon (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45202",
-      "date": "2026-03-05",
-      "dow": "Thu",
-      "starttime": "6:30 PM",
-      "location": "Mass Premier - 4",
-      "divisionno": "7292",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "43351",
-      "away_teamno": "44420",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44420",
-      "opponent_name": "D5M-Norton (purple)"
-    }
-  ]
+  "future_games": []
 }

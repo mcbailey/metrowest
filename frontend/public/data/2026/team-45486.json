@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "45486",
   "team_name": "D4Q-Revere",
   "town": null,
@@ -434,7 +434,7 @@
       "location": "Ashland High School",
       "divisionno": "7192",
       "division_name": "7th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "44634",
       "away_teamno": "45486",
       "home_score": null,
       "away_score": null,
@@ -442,8 +442,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44634",
+      "opponent_name": "D2K-Ashland (blue)"
     }
   ]
 }

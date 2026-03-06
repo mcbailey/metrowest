@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "44031",
   "team_name": "D2-Newton (black)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 453,
     "pa": 408,
     "diff": 45,
-    "sos": 1622.557,
-    "sos_adj": 1739.223,
-    "power": 1675.303,
+    "sos": 1623.624,
+    "sos_adj": 1740.291,
+    "power": 1671.52,
     "rank": 2,
-    "mw_rating": 146.0,
-    "mw_points": 1606,
+    "mw_rating": 146.1,
+    "mw_points": 1607,
     "divisionno": "7071",
     "division_name": "6th Girls - Division 2",
     "grade": 6,
@@ -263,7 +263,7 @@
       "location": "Attleboro Brennan Middle School",
       "divisionno": "7071",
       "division_name": "6th Girls - Division 2",
-      "home_teamno": "0",
+      "home_teamno": "43179",
       "away_teamno": "44031",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43179",
+      "opponent_name": "D2-Dighton-Rehoboth"
     }
   ]
 }

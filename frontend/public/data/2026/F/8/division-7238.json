@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "gender": "F",
   "grade": 8,
   "divisionno": "7238",
@@ -17,12 +17,12 @@
       "pf": 315,
       "pa": 218,
       "diff": 97,
-      "sos": 1449.672,
-      "sos_adj": 1412.172,
-      "power": 1497.201,
+      "sos": 1451.265,
+      "sos_adj": 1413.765,
+      "power": 1497.599,
       "rank": 1,
-      "mw_rating": 48.1,
-      "mw_points": 529
+      "mw_rating": 48.2,
+      "mw_points": 530
     },
     {
       "teamno": "43396",
@@ -34,9 +34,9 @@
       "pf": 403,
       "pa": 374,
       "diff": 29,
-      "sos": 1468.853,
-      "sos_adj": 1436.711,
-      "power": 1481.801,
+      "sos": 1470.219,
+      "sos_adj": 1438.076,
+      "power": 1482.142,
       "rank": 2,
       "mw_rating": 40.8,
       "mw_points": 530
@@ -51,9 +51,9 @@
       "pf": 296,
       "pa": 333,
       "diff": -37,
-      "sos": 1445.525,
-      "sos_adj": 1399.692,
-      "power": 1460.25,
+      "sos": 1447.118,
+      "sos_adj": 1401.285,
+      "power": 1460.648,
       "rank": 3,
       "mw_rating": 31.7,
       "mw_points": 349
@@ -68,9 +68,9 @@
       "pf": 238,
       "pa": 317,
       "diff": -79,
-      "sos": 1464.309,
-      "sos_adj": 1423.399,
-      "power": 1432.231,
+      "sos": 1466.046,
+      "sos_adj": 1425.137,
+      "power": 1432.665,
       "rank": 4,
       "mw_rating": 35.5,
       "mw_points": 355
@@ -79,18 +79,18 @@
       "teamno": "45140",
       "name": "D5K-Westwood",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 6,
       "ties": 0,
-      "pf": 278,
-      "pa": 315,
-      "diff": -37,
-      "sos": 1472.685,
-      "sos_adj": 1431.018,
-      "power": 1408.371,
+      "pf": 303,
+      "pa": 335,
+      "diff": -32,
+      "sos": 1469.469,
+      "sos_adj": 1427.162,
+      "power": 1421.744,
       "rank": 5,
-      "mw_rating": 34.5,
-      "mw_points": 379
+      "mw_rating": 36.3,
+      "mw_points": 436
     }
   ]
 }

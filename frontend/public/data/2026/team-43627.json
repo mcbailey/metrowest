@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43627",
   "team_name": "D5M-Middleborough (tullish)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 206,
     "pa": 224,
     "diff": -18,
-    "sos": 1471.227,
-    "sos_adj": 1421.227,
-    "power": 1426.906,
+    "sos": 1474.988,
+    "sos_adj": 1424.988,
+    "power": 1427.846,
     "rank": 5,
-    "mw_rating": 30.9,
-    "mw_points": 340,
+    "mw_rating": 31.0,
+    "mw_points": 341,
     "divisionno": "7552",
     "division_name": "4th Girls - Division 5",
     "grade": 4,
@@ -263,7 +263,7 @@
       "location": "Mansfield Fieldhouse -2",
       "divisionno": "7552",
       "division_name": "4th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "43168",
       "away_teamno": "43627",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43168",
+      "opponent_name": "D5M-Seekonk (marchetti)"
     }
   ]
 }

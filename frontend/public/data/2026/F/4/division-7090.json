@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "gender": "F",
   "grade": 4,
   "divisionno": "7090",
@@ -17,9 +17,9 @@
       "pf": 657,
       "pa": 277,
       "diff": 380,
-      "sos": 1607.909,
-      "sos_adj": 1713.172,
-      "power": 1708.502,
+      "sos": 1607.645,
+      "sos_adj": 1712.908,
+      "power": 1700.415,
       "rank": 1,
       "mw_rating": 175.1,
       "mw_points": 2101
@@ -34,12 +34,12 @@
       "pf": 403,
       "pa": 244,
       "diff": 159,
-      "sos": 1632.506,
-      "sos_adj": 1768.22,
-      "power": 1680.791,
+      "sos": 1634.481,
+      "sos_adj": 1770.196,
+      "power": 1677.412,
       "rank": 2,
-      "mw_rating": 149.9,
-      "mw_points": 1649
+      "mw_rating": 150.0,
+      "mw_points": 1650
     },
     {
       "teamno": "44896",
@@ -51,12 +51,12 @@
       "pf": 387,
       "pa": 312,
       "diff": 75,
-      "sos": 1617.991,
-      "sos_adj": 1732.276,
-      "power": 1667.937,
+      "sos": 1619.275,
+      "sos_adj": 1733.561,
+      "power": 1664.772,
       "rank": 3,
-      "mw_rating": 157.9,
-      "mw_points": 1895
+      "mw_rating": 158.0,
+      "mw_points": 1896
     },
     {
       "teamno": "43447",
@@ -68,9 +68,9 @@
       "pf": 352,
       "pa": 297,
       "diff": 55,
-      "sos": 1606.288,
-      "sos_adj": 1709.621,
-      "power": 1630.199,
+      "sos": 1605.992,
+      "sos_adj": 1709.326,
+      "power": 1629.846,
       "rank": 4,
       "mw_rating": 123.7,
       "mw_points": 1484
@@ -79,18 +79,18 @@
       "teamno": "45151",
       "name": "D1A-Waltham Girls",
       "town": null,
-      "wins": 0,
+      "wins": 1,
       "losses": 12,
       "ties": 0,
-      "pf": 132,
-      "pa": 422,
-      "diff": -290,
-      "sos": 1650.086,
-      "sos_adj": 1791.753,
-      "power": 1546.742,
+      "pf": 155,
+      "pa": 436,
+      "diff": -281,
+      "sos": 1635.982,
+      "sos_adj": 1766.751,
+      "power": 1567.987,
       "rank": 5,
-      "mw_rating": 75.0,
-      "mw_points": 900
+      "mw_rating": 75.8,
+      "mw_points": 985
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "44982",
   "team_name": "D4H-Acushnet - Fairhaven (ashley)",
   "town": null,
@@ -261,9 +261,9 @@
       "dow": "Sat",
       "starttime": "2:10 PM",
       "location": "Mass Premier - 6",
-      "divisionno": "7256",
+      "divisionno": "7258",
       "division_name": "7th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "44408",
       "away_teamno": "44982",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44408",
+      "opponent_name": "D4K-Dedham (gallagher)"
     }
   ]
 }

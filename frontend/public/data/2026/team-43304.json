@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-05",
+  "snapshot_date": "2026-03-06",
   "teamno": "43304",
   "team_name": "D3H-Franklin",
   "town": null,
@@ -11,10 +11,10 @@
     "pf": 569,
     "pa": 401,
     "diff": 168,
-    "sos": 1553.383,
-    "sos_adj": 1610.525,
-    "power": 1621.977,
-    "rank": 2,
+    "sos": 1555.593,
+    "sos_adj": 1612.736,
+    "power": 1616.845,
+    "rank": 3,
     "mw_rating": 98.5,
     "mw_points": 1182,
     "divisionno": "7278",
@@ -318,9 +318,9 @@
       "dow": "Sun",
       "starttime": "3:00 PM",
       "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7278",
+      "divisionno": "7279",
       "division_name": "6th Girls - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "44341",
       "away_teamno": "43304",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44341",
+      "opponent_name": "D3J-Medway (blue)"
     }
   ]
 }
