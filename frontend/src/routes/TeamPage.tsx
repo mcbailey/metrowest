@@ -664,13 +664,34 @@ export function TeamPage() {
         setConnectionTeamNameByNo({});
 
         const index = await loadJson<IndexData>("data/index.json");
-        const season = seasonFromQuery || index.default.yrseason;
-        setActiveSeason(season);
+        const seasonCandidates = [
+          seasonFromQuery,
+          index.default.yrseason,
+          ...index.seasons.map((s) => s.yrseason),
+        ].filter((s, idx, arr): s is string => Boolean(s) && arr.indexOf(s) === idx);
 
-        const payload = await loadJson<TeamData>(`data/${season}/team-${teamno}.json`);
+        let payload: TeamData | null = null;
+        let resolvedSeason: string | null = null;
+        let lastErr: unknown = null;
+
+        for (const season of seasonCandidates) {
+          try {
+            payload = await loadJson<TeamData>(`data/${season}/team-${teamno}.json`);
+            resolvedSeason = season;
+            break;
+          } catch (err) {
+            lastErr = err;
+          }
+        }
+
+        if (!payload || !resolvedSeason) {
+          throw lastErr ?? new Error(`Team ${teamno} not found in available seasons`);
+        }
+
+        setActiveSeason(resolvedSeason);
         setTeam(payload);
 
-        const computed = await computeInsights(payload, season);
+        const computed = await computeInsights(payload, resolvedSeason);
         setInsights(computed);
       } catch (err) {
         setError(String(err));
