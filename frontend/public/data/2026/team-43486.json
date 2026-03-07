@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43486",
   "team_name": "D4H-Rochester",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 286,
     "pa": 291,
     "diff": -5,
-    "sos": 1494.023,
-    "sos_adj": 1494.023,
-    "power": 1513.153,
+    "sos": 1492.624,
+    "sos_adj": 1492.624,
+    "power": 1512.804,
     "rank": 4,
     "mw_rating": 59.7,
     "mw_points": 657,
@@ -264,15 +264,15 @@
       "divisionno": "7274",
       "division_name": "6th Girls - Division 4",
       "home_teamno": "43486",
-      "away_teamno": "0",
+      "away_teamno": "44487",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44487",
+      "opponent_name": "D3H-Easton (black)"
     }
   ]
 }

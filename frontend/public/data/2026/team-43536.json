@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43536",
   "team_name": "D3M-Northboro (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 686,
     "pa": 719,
     "diff": -33,
-    "sos": 1572.651,
-    "sos_adj": 1644.526,
-    "power": 1548.011,
+    "sos": 1570.531,
+    "sos_adj": 1642.406,
+    "power": 1550.043,
     "rank": 3,
-    "mw_rating": 91.6,
-    "mw_points": 1099,
+    "mw_rating": 91.7,
+    "mw_points": 1100,
     "divisionno": "7228",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
@@ -337,9 +337,9 @@
       "dow": "Sat",
       "starttime": "5:00 PM",
       "location": "Sudbury Fieldhouse-Court 2",
-      "divisionno": "7228",
+      "divisionno": "7229",
       "division_name": "6th Boys - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "45755",
       "away_teamno": "43536",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45755",
+      "opponent_name": "D3Q-Lexington (blue)"
     }
   ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44438",
   "team_name": "D3Q-Bedford (blue)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 702,
-    "pa": 763,
-    "diff": -61,
-    "sos": 1553.798,
-    "sos_adj": 1606.576,
-    "power": 1523.454,
+    "pf": 732,
+    "pa": 808,
+    "diff": -76,
+    "sos": 1559.34,
+    "sos_adj": 1611.971,
+    "power": 1517.334,
     "rank": 6,
-    "mw_rating": 76.2,
-    "mw_points": 914,
+    "mw_rating": 73.9,
+    "mw_points": 960,
     "divisionno": "7229",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45314",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "7:55 PM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7229",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "44438",
+      "away_teamno": "44728",
+      "home_score": 30,
+      "away_score": 45,
+      "team_score": 30,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44728",
+      "opponent_name": "D3Q-Arlington (maroon)"
+    },
     {
       "gameno": "378941",
       "date": "2026-03-01",
@@ -368,25 +387,5 @@
       "opponent_name": "D3Q-Concord-Carlisle (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45314",
-      "date": "2026-03-06",
-      "dow": "Fri",
-      "starttime": "7:55 PM",
-      "location": "Hopkinton Brown Gym",
-      "divisionno": "7229",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "44438",
-      "away_teamno": "44728",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44728",
-      "opponent_name": "D3Q-Arlington (maroon)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43856",
   "team_name": "D5Q-Holliston (cooper-5th)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 270,
     "pa": 306,
     "diff": -36,
-    "sos": 1456.508,
-    "sos_adj": 1406.508,
-    "power": 1444.121,
+    "sos": 1454.94,
+    "sos_adj": 1404.94,
+    "power": 1443.23,
     "rank": 4,
     "mw_rating": 33.0,
     "mw_points": 396,
@@ -263,7 +263,7 @@
       "location": "Hopkinton-Elmwood School",
       "divisionno": "7315",
       "division_name": "5th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "44724",
       "away_teamno": "43856",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44724",
+      "opponent_name": "D4Q-Weston"
     }
   ]
 }

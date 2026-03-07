@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44897",
   "team_name": "D7N-North Attleboro (white)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 213,
     "pa": 193,
     "diff": 20,
-    "sos": 1361.494,
-    "sos_adj": 1211.494,
-    "power": 1340.988,
+    "sos": 1358.008,
+    "sos_adj": 1208.008,
+    "power": 1337.555,
     "rank": 3,
     "mw_rating": 11.0,
     "mw_points": 132,
@@ -263,7 +263,7 @@
       "location": "North Attleboro Middle School",
       "divisionno": "7559",
       "division_name": "4th Girls - Division 7",
-      "home_teamno": "0",
+      "home_teamno": "44823",
       "away_teamno": "44897",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44823",
+      "opponent_name": "D7N-Bourne (purple/tenney)"
     }
   ]
 }

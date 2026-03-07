@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "M",
   "grade": 7,
   "divisionno": "7183",
@@ -17,9 +17,9 @@
       "pf": 434,
       "pa": 228,
       "diff": 206,
-      "sos": 1444.114,
-      "sos_adj": 1394.114,
-      "power": 1509.975,
+      "sos": 1442.292,
+      "sos_adj": 1392.292,
+      "power": 1509.519,
       "rank": 1,
       "mw_rating": 56.8,
       "mw_points": 682
@@ -51,9 +51,9 @@
       "pf": 575,
       "pa": 518,
       "diff": 57,
-      "sos": 1451.72,
-      "sos_adj": 1401.72,
-      "power": 1445.355,
+      "sos": 1450.179,
+      "sos_adj": 1400.179,
+      "power": 1444.969,
       "rank": 3,
       "mw_rating": 40.8,
       "mw_points": 490
@@ -102,9 +102,9 @@
       "pf": 340,
       "pa": 461,
       "diff": -121,
-      "sos": 1450.308,
-      "sos_adj": 1400.308,
-      "power": 1396.455,
+      "sos": 1448.487,
+      "sos_adj": 1398.487,
+      "power": 1396.0,
       "rank": 6,
       "mw_rating": 20.3,
       "mw_points": 243
@@ -114,17 +114,17 @@
       "name": "D5Q-Blackstone-Millville (cummings)",
       "town": null,
       "wins": 3,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 374,
-      "pa": 520,
-      "diff": -146,
-      "sos": 1438.741,
-      "sos_adj": 1375.104,
-      "power": 1389.852,
+      "pf": 403,
+      "pa": 576,
+      "diff": -173,
+      "sos": 1441.348,
+      "sos_adj": 1378.848,
+      "power": 1375.764,
       "rank": 7,
-      "mw_rating": 17.6,
-      "mw_points": 193
+      "mw_rating": 16.9,
+      "mw_points": 203
     }
   ]
 }

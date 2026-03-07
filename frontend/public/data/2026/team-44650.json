@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44650",
   "team_name": "D3H-Attleboro (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 465,
     "pa": 451,
     "diff": 14,
-    "sos": 1561.387,
-    "sos_adj": 1614.512,
-    "power": 1571.024,
+    "sos": 1561.65,
+    "sos_adj": 1614.775,
+    "power": 1571.09,
     "rank": 4,
-    "mw_rating": 86.4,
-    "mw_points": 1037,
+    "mw_rating": 86.5,
+    "mw_points": 1038,
     "divisionno": "7278",
     "division_name": "6th Girls - Division 3",
     "grade": 6,
@@ -337,9 +337,9 @@
       "dow": "Sun",
       "starttime": "5:40 PM",
       "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7278",
+      "divisionno": "7279",
       "division_name": "6th Girls - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "45339",
       "away_teamno": "44650",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45339",
+      "opponent_name": "D3J-Milton (white)"
     }
   ]
 }

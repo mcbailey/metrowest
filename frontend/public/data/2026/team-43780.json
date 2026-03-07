@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43780",
   "team_name": "D4K-Millis (long)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 478,
     "pa": 527,
     "diff": -49,
-    "sos": 1497.851,
-    "sos_adj": 1486.313,
-    "power": 1515.262,
+    "sos": 1496.721,
+    "sos_adj": 1485.182,
+    "power": 1513.111,
     "rank": 4,
     "mw_rating": 44.1,
     "mw_points": 529,
@@ -282,7 +282,7 @@
       "location": "Hopkinton Doyle Gym",
       "divisionno": "7223",
       "division_name": "6th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "45642",
       "away_teamno": "43780",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45642",
+      "opponent_name": "D4K-Hopkinton (klotsche6)"
     }
   ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43897",
   "team_name": "D3K-Canton (green)",
   "town": null,
   "summary": {
     "wins": 12,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 700,
-    "pa": 619,
-    "diff": 81,
-    "sos": 1546.547,
-    "sos_adj": 1605.922,
-    "power": 1615.079,
+    "pf": 740,
+    "pa": 661,
+    "diff": 79,
+    "sos": 1547.239,
+    "sos_adj": 1606.063,
+    "power": 1605.665,
     "rank": 2,
-    "mw_rating": 109.3,
-    "mw_points": 1311,
+    "mw_rating": 104.4,
+    "mw_points": 1357,
     "divisionno": "7195",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44616",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "5:15 PM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7195",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "44582",
+      "away_teamno": "43897",
+      "home_score": 42,
+      "away_score": 40,
+      "team_score": 40,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44582",
+      "opponent_name": "D3J-King Philip"
+    },
     {
       "gameno": "376655",
       "date": "2026-03-01",
@@ -330,25 +349,5 @@
       "opponent_name": "D2K-Brookline (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44616",
-      "date": "2026-03-06",
-      "dow": "Fri",
-      "starttime": "5:15 PM",
-      "location": "Dana Barros - 5",
-      "divisionno": "7195",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "44582",
-      "away_teamno": "43897",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44582",
-      "opponent_name": "D3J-King Philip"
-    }
-  ]
+  "future_games": []
 }

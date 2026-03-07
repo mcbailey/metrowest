@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "45108",
   "team_name": "D4Q-Framingham (navy)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 293,
     "pa": 391,
     "diff": -98,
-    "sos": 1482.522,
-    "sos_adj": 1486.368,
-    "power": 1476.215,
+    "sos": 1491.966,
+    "sos_adj": 1495.812,
+    "power": 1480.614,
     "rank": 4,
-    "mw_rating": 44.7,
-    "mw_points": 536,
+    "mw_rating": 44.9,
+    "mw_points": 539,
     "divisionno": "7323",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
@@ -280,9 +280,9 @@
       "dow": "Sun",
       "starttime": "3:45 PM",
       "location": "Hopkinton-Marathon School",
-      "divisionno": "7323",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7317",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "43370",
       "away_teamno": "45108",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43370",
+      "opponent_name": "D5T-Natick"
     }
   ]
 }

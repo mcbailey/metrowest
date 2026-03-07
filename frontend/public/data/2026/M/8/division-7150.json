@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "M",
   "grade": 8,
   "divisionno": "7150",
@@ -17,12 +17,12 @@
       "pf": 637,
       "pa": 613,
       "diff": 24,
-      "sos": 1459.588,
-      "sos_adj": 1417.28,
-      "power": 1526.754,
+      "sos": 1461.606,
+      "sos_adj": 1419.298,
+      "power": 1518.765,
       "rank": 1,
-      "mw_rating": 48.7,
-      "mw_points": 584
+      "mw_rating": 48.8,
+      "mw_points": 586
     },
     {
       "teamno": "44752",
@@ -34,12 +34,12 @@
       "pf": 1005,
       "pa": 707,
       "diff": 298,
-      "sos": 1453.839,
-      "sos_adj": 1414.365,
-      "power": 1519.896,
+      "sos": 1459.225,
+      "sos_adj": 1419.751,
+      "power": 1513.362,
       "rank": 2,
-      "mw_rating": 56.8,
-      "mw_points": 682
+      "mw_rating": 56.9,
+      "mw_points": 683
     },
     {
       "teamno": "44073",
@@ -51,12 +51,12 @@
       "pf": 572,
       "pa": 535,
       "diff": 37,
-      "sos": 1464.775,
-      "sos_adj": 1421.917,
-      "power": 1469.116,
+      "sos": 1467.596,
+      "sos_adj": 1424.739,
+      "power": 1467.208,
       "rank": 3,
-      "mw_rating": 40.9,
-      "mw_points": 450
+      "mw_rating": 41.1,
+      "mw_points": 452
     },
     {
       "teamno": "44054",
@@ -68,12 +68,12 @@
       "pf": 624,
       "pa": 586,
       "diff": 38,
-      "sos": 1469.463,
-      "sos_adj": 1431.963,
-      "power": 1467.1,
+      "sos": 1470.263,
+      "sos_adj": 1432.763,
+      "power": 1465.139,
       "rank": 4,
-      "mw_rating": 42.4,
-      "mw_points": 509
+      "mw_rating": 42.5,
+      "mw_points": 510
     },
     {
       "teamno": "45254",
@@ -85,46 +85,46 @@
       "pf": 540,
       "pa": 499,
       "diff": 41,
-      "sos": 1478.158,
-      "sos_adj": 1440.658,
-      "power": 1457.679,
+      "sos": 1478.984,
+      "sos_adj": 1441.484,
+      "power": 1456.884,
       "rank": 5,
-      "mw_rating": 41.8,
-      "mw_points": 502
+      "mw_rating": 41.9,
+      "mw_points": 503
     },
     {
       "teamno": "43449",
       "name": "D5R-Winchester (black)",
       "town": null,
-      "wins": 9,
+      "wins": 10,
       "losses": 11,
       "ties": 0,
-      "pf": 765,
-      "pa": 797,
-      "diff": -32,
-      "sos": 1456.945,
-      "sos_adj": 1404.445,
-      "power": 1449.022,
+      "pf": 810,
+      "pa": 839,
+      "diff": -29,
+      "sos": 1456.19,
+      "sos_adj": 1403.809,
+      "power": 1455.879,
       "rank": 6,
-      "mw_rating": 28.3,
-      "mw_points": 340
+      "mw_rating": 30.4,
+      "mw_points": 395
     },
     {
       "teamno": "44443",
       "name": "D5R-Bedford (white)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 14,
       "ties": 0,
-      "pf": 688,
-      "pa": 817,
-      "diff": -129,
-      "sos": 1473.424,
-      "sos_adj": 1428.98,
-      "power": 1373.983,
+      "pf": 751,
+      "pa": 859,
+      "diff": -108,
+      "sos": 1466.922,
+      "sos_adj": 1419.553,
+      "power": 1400.228,
       "rank": 7,
-      "mw_rating": 25.5,
-      "mw_points": 306
+      "mw_rating": 26.5,
+      "mw_points": 345
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "F",
   "grade": 6,
   "divisionno": "7281",
@@ -17,9 +17,9 @@
       "pf": 482,
       "pa": 326,
       "diff": 156,
-      "sos": 1533.715,
-      "sos_adj": 1580.59,
-      "power": 1629.183,
+      "sos": 1529.33,
+      "sos_adj": 1576.205,
+      "power": 1628.087,
       "rank": 1,
       "mw_rating": 120.2,
       "mw_points": 1322
@@ -34,9 +34,9 @@
       "pf": 462,
       "pa": 395,
       "diff": 67,
-      "sos": 1534.107,
-      "sos_adj": 1584.107,
-      "power": 1619.481,
+      "sos": 1531.408,
+      "sos_adj": 1581.408,
+      "power": 1618.806,
       "rank": 2,
       "mw_rating": 100.3,
       "mw_points": 1204
@@ -51,9 +51,9 @@
       "pf": 526,
       "pa": 408,
       "diff": 118,
-      "sos": 1562.424,
-      "sos_adj": 1623.138,
-      "power": 1601.442,
+      "sos": 1559.918,
+      "sos_adj": 1620.632,
+      "power": 1600.815,
       "rank": 3,
       "mw_rating": 97.5,
       "mw_points": 1267
@@ -80,17 +80,17 @@
       "name": "D3M-Brookline (red)",
       "town": null,
       "wins": 3,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "pf": 259,
-      "pa": 322,
-      "diff": -63,
-      "sos": 1562.977,
-      "sos_adj": 1612.977,
-      "power": 1519.172,
+      "pf": 283,
+      "pa": 371,
+      "diff": -88,
+      "sos": 1560.442,
+      "sos_adj": 1605.896,
+      "power": 1491.089,
       "rank": 5,
-      "mw_rating": 60.6,
-      "mw_points": 667
+      "mw_rating": 57.7,
+      "mw_points": 692
     }
   ]
 }

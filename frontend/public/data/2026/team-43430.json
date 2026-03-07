@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43430",
   "team_name": "D7M-Bridgewater (rodrigues)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 189,
     "pa": 277,
     "diff": -88,
-    "sos": 1356.811,
-    "sos_adj": 1206.811,
-    "power": 1267.443,
+    "sos": 1353.501,
+    "sos_adj": 1203.501,
+    "power": 1266.616,
     "rank": 6,
     "mw_rating": 5.3,
     "mw_points": 64,
@@ -264,15 +264,15 @@
       "divisionno": "7590",
       "division_name": "4th Boys - Division 7",
       "home_teamno": "43430",
-      "away_teamno": "0",
+      "away_teamno": "44900",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44900",
+      "opponent_name": "D6N-North Attleboro (black)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44076",
   "team_name": "D2BJ-Wellesley (a)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 487,
     "pa": 564,
     "diff": -77,
-    "sos": 1596.171,
-    "sos_adj": 1689.028,
-    "power": 1616.325,
+    "sos": 1596.987,
+    "sos_adj": 1689.844,
+    "power": 1616.529,
     "rank": 4,
     "mw_rating": 101.9,
     "mw_points": 1325,
@@ -301,7 +301,7 @@
       "location": "Mass Premier - 5",
       "divisionno": "7049",
       "division_name": "8th Girls - Division 2",
-      "home_teamno": "0",
+      "home_teamno": "44652",
       "away_teamno": "44076",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44652",
+      "opponent_name": "D2BH-Attleboro (blue)"
     }
   ]
 }

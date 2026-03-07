@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44011",
   "team_name": "D4R-Somerville",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 266,
     "pa": 301,
     "diff": -35,
-    "sos": 1497.56,
-    "sos_adj": 1493.393,
-    "power": 1485.416,
+    "sos": 1495.03,
+    "sos_adj": 1490.864,
+    "power": 1486.077,
     "rank": 4,
     "mw_rating": 41.6,
     "mw_points": 499,
@@ -261,9 +261,9 @@
       "dow": "Sat",
       "starttime": "1:05 PM",
       "location": "Hopkinton-Elmwood School",
-      "divisionno": "7324",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7318",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44725",
       "away_teamno": "44011",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44725",
+      "opponent_name": "D5W-Weston"
     }
   ]
 }

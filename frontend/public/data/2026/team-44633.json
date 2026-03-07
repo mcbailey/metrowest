@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44633",
   "team_name": "D6Q-Ashland (white)",
   "town": null,
@@ -263,7 +263,7 @@
       "location": "Ashland Mindess School",
       "divisionno": "7209",
       "division_name": "6th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44405",
       "away_teamno": "44633",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44405",
+      "opponent_name": "D6J-Dedham (mclaughlin)"
     }
   ]
 }

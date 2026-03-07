@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44322",
   "team_name": "D7T-Medway (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 322,
     "pa": 223,
     "diff": 99,
-    "sos": 1343.385,
-    "sos_adj": 1197.93,
-    "power": 1359.168,
+    "sos": 1344.993,
+    "sos_adj": 1199.539,
+    "power": 1359.57,
     "rank": 2,
-    "mw_rating": 17.9,
-    "mw_points": 197,
+    "mw_rating": 18.0,
+    "mw_points": 198,
     "divisionno": "7594",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
@@ -244,7 +244,7 @@
       "location": "Foxboro Ahern Middle (Gym 1)",
       "divisionno": "7594",
       "division_name": "4th Boys - Division 7",
-      "home_teamno": "0",
+      "home_teamno": "44988",
       "away_teamno": "44322",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44988",
+      "opponent_name": "D6Q-Dover Sherborn (quinn)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43848",
   "team_name": "D7M-Raynham (cunio)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 191,
     "pa": 181,
     "diff": 10,
-    "sos": 1363.563,
-    "sos_adj": 1213.563,
-    "power": 1313.404,
-    "rank": 5,
+    "sos": 1364.71,
+    "sos_adj": 1214.71,
+    "power": 1313.69,
+    "rank": 4,
     "mw_rating": 10.3,
-    "mw_points": 123,
+    "mw_points": 124,
     "divisionno": "7555",
     "division_name": "4th Girls - Division 7",
     "grade": 4,
@@ -261,18 +261,18 @@
       "dow": "Sun",
       "starttime": "12:00 PM",
       "location": "North Attleboro Middle School",
-      "divisionno": "7555",
+      "divisionno": "7557",
       "division_name": "4th Girls - Division 7",
       "home_teamno": "43848",
-      "away_teamno": "0",
+      "away_teamno": "44415",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44415",
+      "opponent_name": "D7P-Dedham (grant)"
     }
   ]
 }

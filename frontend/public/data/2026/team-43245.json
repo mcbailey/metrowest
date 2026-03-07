@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43245",
   "team_name": "D3H-Dartmouth (green)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 1566,
     "pa": 1191,
     "diff": 375,
-    "sos": 1536.253,
-    "sos_adj": 1574.586,
-    "power": 1622.968,
+    "sos": 1536.301,
+    "sos_adj": 1574.634,
+    "power": 1616.298,
     "rank": 1,
-    "mw_rating": 97.9,
-    "mw_points": 1077,
+    "mw_rating": 98.0,
+    "mw_points": 1078,
     "divisionno": "7157",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
@@ -622,9 +622,9 @@
       "dow": "Sun",
       "starttime": "4:40 PM",
       "location": "Mass Premier - 5",
-      "divisionno": "7157",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "0",
+      "divisionno": "7154",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "45584",
       "away_teamno": "43245",
       "home_score": null,
       "away_score": null,
@@ -632,8 +632,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45584",
+      "opponent_name": "D4M-Stoughton"
     }
   ]
 }

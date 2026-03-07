@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "M",
   "grade": 4,
   "divisionno": "7587",
@@ -21,8 +21,8 @@
       "sos_adj": 1295.495,
       "power": 1449.398,
       "rank": 1,
-      "mw_rating": 34.1,
-      "mw_points": 443
+      "mw_rating": 34.2,
+      "mw_points": 444
     },
     {
       "teamno": "44456",
@@ -34,28 +34,28 @@
       "pf": 444,
       "pa": 350,
       "diff": 94,
-      "sos": 1409.853,
-      "sos_adj": 1320.568,
-      "power": 1429.436,
+      "sos": 1411.213,
+      "sos_adj": 1321.927,
+      "power": 1429.776,
       "rank": 2,
-      "mw_rating": 28.8,
-      "mw_points": 374
+      "mw_rating": 28.9,
+      "mw_points": 375
     },
     {
-      "teamno": "44992",
-      "name": "D6Q-Dover Sherborn (khan)",
+      "teamno": "44988",
+      "name": "D6Q-Dover Sherborn (quinn)",
       "town": null,
       "wins": 4,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 238,
-      "pa": 316,
-      "diff": -78,
-      "sos": 1385.141,
-      "sos_adj": 1276.808,
-      "power": 1356.377,
+      "pf": 326,
+      "pa": 386,
+      "diff": -60,
+      "sos": 1385.738,
+      "sos_adj": 1274.2,
+      "power": 1352.639,
       "rank": 3,
-      "mw_rating": 12.8,
+      "mw_rating": 11.9,
       "mw_points": 154
     },
     {
@@ -72,25 +72,25 @@
       "sos_adj": 1301.347,
       "power": 1343.551,
       "rank": 4,
-      "mw_rating": 15.1,
-      "mw_points": 181
+      "mw_rating": 15.2,
+      "mw_points": 182
     },
     {
-      "teamno": "44988",
-      "name": "D6Q-Dover Sherborn (quinn)",
+      "teamno": "44992",
+      "name": "D6Q-Dover Sherborn (khan)",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 9,
       "ties": 0,
-      "pf": 308,
-      "pa": 374,
-      "diff": -66,
-      "sos": 1387.561,
-      "sos_adj": 1275.061,
-      "power": 1338.582,
+      "pf": 250,
+      "pa": 334,
+      "diff": -84,
+      "sos": 1384.652,
+      "sos_adj": 1276.96,
+      "power": 1342.143,
       "rank": 5,
-      "mw_rating": 9.9,
-      "mw_points": 119
+      "mw_rating": 12.2,
+      "mw_points": 159
     },
     {
       "teamno": "43994",
@@ -106,8 +106,8 @@
       "sos_adj": 1290.351,
       "power": 1325.955,
       "rank": 6,
-      "mw_rating": 10.5,
-      "mw_points": 126
+      "mw_rating": 10.6,
+      "mw_points": 127
     },
     {
       "teamno": "43993",
@@ -123,8 +123,8 @@
       "sos_adj": 1290.784,
       "power": 1287.917,
       "rank": 7,
-      "mw_rating": 5.3,
-      "mw_points": 69
+      "mw_rating": 5.4,
+      "mw_points": 70
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "45348",
   "team_name": "D6P-Milton (white)",
   "town": null,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "9:30 AM",
       "location": "Foxboro Ahern Middle (Gym 2)",
-      "divisionno": "7549",
-      "division_name": "4th Girls - Division 6",
-      "home_teamno": "0",
+      "divisionno": "7557",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "43787",
       "away_teamno": "45348",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43787",
+      "opponent_name": "D7P-Millis (conlon)"
     }
   ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43090",
   "team_name": "D3H-Norwood (gold)",
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 13,
+    "losses": 14,
     "ties": 0,
-    "pf": 361,
-    "pa": 560,
-    "diff": -199,
-    "sos": 1555.319,
-    "sos_adj": 1605.319,
-    "power": 1477.366,
+    "pf": 384,
+    "pa": 591,
+    "diff": -207,
+    "sos": 1558.067,
+    "sos_adj": 1608.067,
+    "power": 1477.037,
     "rank": 9,
-    "mw_rating": 51.4,
-    "mw_points": 617,
+    "mw_rating": 51.0,
+    "mw_points": 663,
     "divisionno": "7262",
     "division_name": "7th Girls - Division 3",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46274",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "5:15 PM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7262",
+      "division_name": "7th Girls - Division 3",
+      "home_teamno": "43090",
+      "away_teamno": "43843",
+      "home_score": 23,
+      "away_score": 31,
+      "team_score": 23,
+      "opponent_score": 31,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43843",
+      "opponent_name": "D3H-Raynham (kinney)"
+    },
     {
       "gameno": "378167",
       "date": "2026-03-01",
@@ -292,25 +311,5 @@
       "opponent_name": "D3H-Walpole (a)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46274",
-      "date": "2026-03-06",
-      "dow": "Fri",
-      "starttime": "5:15 PM",
-      "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7262",
-      "division_name": "7th Girls - Division 3",
-      "home_teamno": "43090",
-      "away_teamno": "43843",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43843",
-      "opponent_name": "D3H-Raynham (kinney)"
-    }
-  ]
+  "future_games": []
 }

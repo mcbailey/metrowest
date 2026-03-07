@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44053",
   "team_name": "D3M-Newton (orange)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 630,
-    "pa": 706,
-    "diff": -76,
-    "sos": 1547.767,
-    "sos_adj": 1590.074,
-    "power": 1513.282,
-    "rank": 6,
-    "mw_rating": 65.1,
-    "mw_points": 781,
+    "pf": 677,
+    "pa": 758,
+    "diff": -81,
+    "sos": 1543.783,
+    "sos_adj": 1583.069,
+    "power": 1499.368,
+    "rank": 7,
+    "mw_rating": 62.0,
+    "mw_points": 806,
     "divisionno": "7160",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45718",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "7:45 PM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7156",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "44755",
+      "away_teamno": "44053",
+      "home_score": 52,
+      "away_score": 47,
+      "team_score": 47,
+      "opponent_score": 52,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44755",
+      "opponent_name": "D4R-Arlington (white)"
+    },
     {
       "gameno": "379707",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D3K-Medfield (bills)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45718",
-      "date": "2026-03-06",
-      "dow": "Fri",
-      "starttime": "7:45 PM",
-      "location": "Ashland Mindess School",
-      "divisionno": "7156",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "44755",
-      "away_teamno": "44053",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44755",
-      "opponent_name": "D4R-Arlington (white)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "F",
   "grade": 4,
   "divisionno": "7544",
@@ -17,12 +17,12 @@
       "pf": 282,
       "pa": 227,
       "diff": 55,
-      "sos": 1630.1,
-      "sos_adj": 1763.434,
-      "power": 1725.741,
+      "sos": 1631.682,
+      "sos_adj": 1765.015,
+      "power": 1721.398,
       "rank": 1,
-      "mw_rating": 146.4,
-      "mw_points": 1757
+      "mw_rating": 146.5,
+      "mw_points": 1758
     },
     {
       "teamno": "43849",
@@ -34,12 +34,12 @@
       "pf": 251,
       "pa": 229,
       "diff": 22,
-      "sos": 1631.434,
-      "sos_adj": 1764.767,
-      "power": 1714.072,
+      "sos": 1632.882,
+      "sos_adj": 1766.216,
+      "power": 1710.896,
       "rank": 2,
-      "mw_rating": 131.8,
-      "mw_points": 1582
+      "mw_rating": 131.9,
+      "mw_points": 1583
     },
     {
       "teamno": "43312",
@@ -51,12 +51,12 @@
       "pf": 428,
       "pa": 327,
       "diff": 101,
-      "sos": 1614.748,
-      "sos_adj": 1736.177,
-      "power": 1678.013,
+      "sos": 1616.854,
+      "sos_adj": 1738.283,
+      "power": 1677.892,
       "rank": 3,
-      "mw_rating": 137.1,
-      "mw_points": 1645
+      "mw_rating": 137.2,
+      "mw_points": 1646
     },
     {
       "teamno": "44647",
@@ -68,12 +68,12 @@
       "pf": 332,
       "pa": 385,
       "diff": -53,
-      "sos": 1630.485,
-      "sos_adj": 1755.485,
-      "power": 1671.593,
+      "sos": 1630.88,
+      "sos_adj": 1755.88,
+      "power": 1672.17,
       "rank": 4,
-      "mw_rating": 119.4,
-      "mw_points": 1433
+      "mw_rating": 119.5,
+      "mw_points": 1434
     },
     {
       "teamno": "44506",
@@ -85,29 +85,29 @@
       "pf": 258,
       "pa": 289,
       "diff": -31,
-      "sos": 1636.47,
-      "sos_adj": 1773.97,
-      "power": 1656.528,
+      "sos": 1637.831,
+      "sos_adj": 1775.331,
+      "power": 1659.315,
       "rank": 5,
-      "mw_rating": 119.5,
-      "mw_points": 1434
+      "mw_rating": 119.6,
+      "mw_points": 1435
     },
     {
       "teamno": "44592",
       "name": "D2K-King Philip",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 12,
       "ties": 0,
-      "pf": 145,
-      "pa": 405,
-      "diff": -260,
-      "sos": 1648.862,
-      "sos_adj": 1787.324,
-      "power": 1603.534,
+      "pf": 160,
+      "pa": 414,
+      "diff": -254,
+      "sos": 1636.185,
+      "sos_adj": 1764.756,
+      "power": 1617.299,
       "rank": 6,
-      "mw_rating": 85.0,
-      "mw_points": 1020
+      "mw_rating": 84.9,
+      "mw_points": 1103
     }
   ]
 }

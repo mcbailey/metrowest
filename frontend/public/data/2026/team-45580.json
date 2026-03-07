@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "45580",
   "team_name": "D2J-Stoughton",
   "town": null,
@@ -375,9 +375,9 @@
       "dow": "Sun",
       "starttime": "6:40 PM",
       "location": "Dana Barros - 1",
-      "divisionno": "7164",
-      "division_name": "8th Boys - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7157",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "44980",
       "away_teamno": "45580",
       "home_score": null,
       "away_score": null,
@@ -385,8 +385,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44980",
+      "opponent_name": "D3H-Acushnet - Fairhaven (lopes)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "M",
   "grade": 6,
   "divisionno": "7206",
@@ -17,12 +17,12 @@
       "pf": 410,
       "pa": 298,
       "diff": 112,
-      "sos": 1398.078,
-      "sos_adj": 1302.244,
-      "power": 1426.163,
+      "sos": 1400.847,
+      "sos_adj": 1305.013,
+      "power": 1421.795,
       "rank": 1,
-      "mw_rating": 30.7,
-      "mw_points": 338
+      "mw_rating": 30.8,
+      "mw_points": 339
     },
     {
       "teamno": "45128",
@@ -34,12 +34,12 @@
       "pf": 397,
       "pa": 376,
       "diff": 21,
-      "sos": 1394.714,
-      "sos_adj": 1294.714,
-      "power": 1386.626,
+      "sos": 1397.403,
+      "sos_adj": 1297.403,
+      "power": 1386.003,
       "rank": 2,
-      "mw_rating": 25.1,
-      "mw_points": 301
+      "mw_rating": 25.2,
+      "mw_points": 302
     },
     {
       "teamno": "45320",
@@ -51,12 +51,12 @@
       "pf": 444,
       "pa": 473,
       "diff": -29,
-      "sos": 1407.124,
-      "sos_adj": 1317.124,
-      "power": 1386.181,
+      "sos": 1409.14,
+      "sos_adj": 1319.14,
+      "power": 1385.995,
       "rank": 3,
       "mw_rating": 20.3,
-      "mw_points": 243
+      "mw_points": 244
     },
     {
       "teamno": "44194",
@@ -68,12 +68,12 @@
       "pf": 450,
       "pa": 479,
       "diff": -29,
-      "sos": 1400.35,
-      "sos_adj": 1300.35,
-      "power": 1356.5,
+      "sos": 1402.309,
+      "sos_adj": 1302.309,
+      "power": 1358.848,
       "rank": 4,
-      "mw_rating": 19.9,
-      "mw_points": 239
+      "mw_rating": 20.0,
+      "mw_points": 240
     },
     {
       "teamno": "44090",
@@ -85,12 +85,29 @@
       "pf": 394,
       "pa": 431,
       "diff": -37,
-      "sos": 1396.452,
-      "sos_adj": 1296.452,
-      "power": 1350.24,
+      "sos": 1398.967,
+      "sos_adj": 1298.967,
+      "power": 1353.256,
       "rank": 5,
       "mw_rating": 14.8,
       "mw_points": 178
+    },
+    {
+      "teamno": "44405",
+      "name": "D6J-Dedham (mclaughlin)",
+      "town": null,
+      "wins": 3,
+      "losses": 10,
+      "ties": 0,
+      "pf": 319,
+      "pa": 470,
+      "diff": -151,
+      "sos": 1406.023,
+      "sos_adj": 1306.023,
+      "power": 1334.419,
+      "rank": 6,
+      "mw_rating": 11.4,
+      "mw_points": 148
     },
     {
       "teamno": "44521",
@@ -102,29 +119,12 @@
       "pf": 254,
       "pa": 416,
       "diff": -162,
-      "sos": 1399.176,
-      "sos_adj": 1299.176,
-      "power": 1315.625,
-      "rank": 6,
-      "mw_rating": 9.5,
-      "mw_points": 114
-    },
-    {
-      "teamno": "44405",
-      "name": "D6J-Dedham (mclaughlin)",
-      "town": null,
-      "wins": 2,
-      "losses": 10,
-      "ties": 0,
-      "pf": 282,
-      "pa": 441,
-      "diff": -159,
-      "sos": 1409.65,
-      "sos_adj": 1309.65,
-      "power": 1309.048,
+      "sos": 1401.418,
+      "sos_adj": 1301.418,
+      "power": 1322.103,
       "rank": 7,
-      "mw_rating": 9.8,
-      "mw_points": 117
+      "mw_rating": 9.6,
+      "mw_points": 115
     }
   ]
 }

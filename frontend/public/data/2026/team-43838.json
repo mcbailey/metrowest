@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43838",
   "team_name": "D2M-Raynham (barry)",
   "town": null,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "8:00 AM",
       "location": "Taunton High School  2",
-      "divisionno": "7574",
-      "division_name": "4th Boys - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7585",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "43201",
       "away_teamno": "43838",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43201",
+      "opponent_name": "D6N-FLBC (white)"
     }
   ]
 }

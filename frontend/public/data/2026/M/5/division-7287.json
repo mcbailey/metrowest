@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "M",
   "grade": 5,
   "divisionno": "7287",
@@ -38,8 +38,8 @@
       "sos_adj": 1305.268,
       "power": 1406.276,
       "rank": 2,
-      "mw_rating": 25.4,
-      "mw_points": 279
+      "mw_rating": 25.5,
+      "mw_points": 280
     },
     {
       "teamno": "44078",
@@ -79,18 +79,18 @@
       "teamno": "45647",
       "name": "D6Q-Hopkinton (smith)",
       "town": null,
-      "wins": 7,
+      "wins": 8,
       "losses": 7,
       "ties": 0,
-      "pf": 494,
-      "pa": 434,
-      "diff": 60,
-      "sos": 1415.085,
-      "sos_adj": 1322.228,
-      "power": 1362.513,
+      "pf": 533,
+      "pa": 471,
+      "diff": 62,
+      "sos": 1416.166,
+      "sos_adj": 1326.166,
+      "power": 1377.528,
       "rank": 5,
-      "mw_rating": 27.3,
-      "mw_points": 300
+      "mw_rating": 29.7,
+      "mw_points": 356
     },
     {
       "teamno": "44372",

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "45432",
   "team_name": "D5T-Lincoln-Sudbury (white)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 451,
     "pa": 389,
     "diff": 62,
-    "sos": 1452.299,
-    "sos_adj": 1409.442,
-    "power": 1485.86,
+    "sos": 1452.783,
+    "sos_adj": 1409.926,
+    "power": 1481.381,
     "rank": 2,
     "mw_rating": 44.9,
     "mw_points": 539,
@@ -301,7 +301,7 @@
       "location": "Westborough Gibbons Middle School",
       "divisionno": "7295",
       "division_name": "5th Boys - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "43975",
       "away_teamno": "45432",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43975",
+      "opponent_name": "D4Q-Revere (white)"
     }
   ]
 }

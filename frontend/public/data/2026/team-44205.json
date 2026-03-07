@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44205",
   "team_name": "D1/2H-Sharon (gold)",
   "town": null,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "10:50 AM",
       "location": "Mass Premier - 2",
-      "divisionno": "7060",
-      "division_name": "7th Girls - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7258",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "43594",
       "away_teamno": "44205",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43594",
+      "opponent_name": "D4K-North Quincy (scott)"
     }
   ]
 }

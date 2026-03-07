@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44439",
   "team_name": "D6T-Bedford (white)",
   "town": null,
@@ -339,7 +339,7 @@
       "location": "Bedford Davis School",
       "divisionno": "7211",
       "division_name": "6th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44735",
       "away_teamno": "44439",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44735",
+      "opponent_name": "D5W-Arlington (grey)"
     }
   ]
 }

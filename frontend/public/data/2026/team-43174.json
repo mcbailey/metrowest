@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43174",
   "team_name": "D4J-Seekonk",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 418,
     "pa": 451,
     "diff": -33,
-    "sos": 1496.74,
-    "sos_adj": 1492.894,
-    "power": 1490.324,
+    "sos": 1499.454,
+    "sos_adj": 1495.608,
+    "power": 1491.002,
     "rank": 3,
     "mw_rating": 43.8,
     "mw_points": 569,
@@ -280,9 +280,9 @@
       "dow": "Sat",
       "starttime": "3:30 PM",
       "location": "Mass Premier - 6",
-      "divisionno": "7257",
-      "division_name": "7th Girls - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7250",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "43307",
       "away_teamno": "43174",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43307",
+      "opponent_name": "D5H-Franklin"
     }
   ]
 }

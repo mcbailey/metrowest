@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43134",
   "team_name": "D7M-Barrington RI (white)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 290,
     "pa": 248,
     "diff": 42,
-    "sos": 1350.988,
-    "sos_adj": 1200.988,
-    "power": 1337.958,
+    "sos": 1347.531,
+    "sos_adj": 1197.531,
+    "power": 1337.093,
     "rank": 3,
     "mw_rating": 12.9,
     "mw_points": 155,
@@ -261,9 +261,9 @@
       "dow": "Sat",
       "starttime": "11:00 AM",
       "location": "Attleboro Brennan Middle School",
-      "divisionno": "7590",
+      "divisionno": "7591",
       "division_name": "4th Boys - Division 7",
-      "home_teamno": "0",
+      "home_teamno": "44899",
       "away_teamno": "43134",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44899",
+      "opponent_name": "D7P-North Attleboro (silver)"
     }
   ]
 }

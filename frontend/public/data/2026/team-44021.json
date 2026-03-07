@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44021",
   "team_name": "D5W-Somerville (white)",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 355,
-    "pa": 468,
-    "diff": -113,
-    "sos": 1435.123,
-    "sos_adj": 1385.123,
-    "power": 1374.374,
+    "pf": 388,
+    "pa": 511,
+    "diff": -123,
+    "sos": 1438.532,
+    "sos_adj": 1388.532,
+    "power": 1367.715,
     "rank": 6,
-    "mw_rating": 23.7,
-    "mw_points": 261,
+    "mw_rating": 22.6,
+    "mw_points": 271,
     "divisionno": "7220",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46132",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Capuano School",
+      "divisionno": "7220",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "44021",
+      "away_teamno": "45226",
+      "home_score": 33,
+      "away_score": 43,
+      "team_score": 33,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45226",
+      "opponent_name": "D5T-Somerville (red)"
+    },
     {
       "gameno": "377971",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5W-Arlington (grey)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46132",
-      "date": "2026-03-06",
-      "dow": "Fri",
-      "starttime": "6:30 PM",
-      "location": "Capuano School",
-      "divisionno": "7220",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "44021",
-      "away_teamno": "45226",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45226",
-      "opponent_name": "D5T-Somerville (red)"
-    }
-  ]
+  "future_games": []
 }

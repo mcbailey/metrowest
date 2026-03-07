@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "M",
   "grade": 5,
   "divisionno": "7286",
@@ -17,12 +17,12 @@
       "pf": 656,
       "pa": 262,
       "diff": 394,
-      "sos": 1407.388,
-      "sos_adj": 1330.465,
-      "power": 1499.871,
+      "sos": 1407.813,
+      "sos_adj": 1330.89,
+      "power": 1488.251,
       "rank": 1,
-      "mw_rating": 42.7,
-      "mw_points": 512
+      "mw_rating": 42.8,
+      "mw_points": 513
     },
     {
       "teamno": "45099",
@@ -34,9 +34,9 @@
       "pf": 369,
       "pa": 234,
       "diff": 135,
-      "sos": 1397.749,
-      "sos_adj": 1307.749,
-      "power": 1452.097,
+      "sos": 1397.486,
+      "sos_adj": 1307.486,
+      "power": 1444.515,
       "rank": 2,
       "mw_rating": 32.8,
       "mw_points": 328
@@ -51,12 +51,12 @@
       "pf": 305,
       "pa": 290,
       "diff": 15,
-      "sos": 1396.55,
-      "sos_adj": 1304.884,
-      "power": 1419.665,
+      "sos": 1397.729,
+      "sos_adj": 1306.062,
+      "power": 1415.615,
       "rank": 3,
-      "mw_rating": 24.2,
-      "mw_points": 266
+      "mw_rating": 24.3,
+      "mw_points": 267
     },
     {
       "teamno": "44160",
@@ -68,29 +68,29 @@
       "pf": 285,
       "pa": 360,
       "diff": -75,
-      "sos": 1421.982,
-      "sos_adj": 1331.073,
-      "power": 1380.999,
+      "sos": 1420.693,
+      "sos_adj": 1329.784,
+      "power": 1380.853,
       "rank": 4,
-      "mw_rating": 14.8,
-      "mw_points": 163
+      "mw_rating": 14.9,
+      "mw_points": 164
     },
     {
       "teamno": "44218",
       "name": "D6M-Southboro (gold)",
       "town": null,
       "wins": 0,
-      "losses": 12,
+      "losses": 13,
       "ties": 0,
-      "pf": 216,
-      "pa": 492,
-      "diff": -276,
-      "sos": 1427.969,
-      "sos_adj": 1327.969,
-      "power": 1293.606,
+      "pf": 239,
+      "pa": 526,
+      "diff": -287,
+      "sos": 1424.108,
+      "sos_adj": 1327.954,
+      "power": 1291.285,
       "rank": 5,
-      "mw_rating": 5.0,
-      "mw_points": 60
+      "mw_rating": 5.4,
+      "mw_points": 70
     }
   ]
 }

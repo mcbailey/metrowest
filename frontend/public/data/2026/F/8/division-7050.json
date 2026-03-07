@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "F",
   "grade": 8,
   "divisionno": "7050",
@@ -17,12 +17,12 @@
       "pf": 538,
       "pa": 407,
       "diff": 131,
-      "sos": 1656.786,
-      "sos_adj": 1802.241,
-      "power": 1734.083,
+      "sos": 1654.445,
+      "sos_adj": 1799.899,
+      "power": 1728.896,
       "rank": 1,
-      "mw_rating": 193.6,
-      "mw_points": 2130
+      "mw_rating": 193.7,
+      "mw_points": 2131
     },
     {
       "teamno": "43436",
@@ -34,12 +34,29 @@
       "pf": 539,
       "pa": 430,
       "diff": 109,
-      "sos": 1646.709,
-      "sos_adj": 1787.618,
-      "power": 1727.465,
+      "sos": 1640.828,
+      "sos_adj": 1781.737,
+      "power": 1721.689,
       "rank": 2,
-      "mw_rating": 184.7,
-      "mw_points": 2032
+      "mw_rating": 184.9,
+      "mw_points": 2034
+    },
+    {
+      "teamno": "43945",
+      "name": "D1/2-Brookline (red)",
+      "town": null,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "pf": 607,
+      "pa": 503,
+      "diff": 104,
+      "sos": 1616.402,
+      "sos_adj": 1739.479,
+      "power": 1702.133,
+      "rank": 3,
+      "mw_rating": 107.8,
+      "mw_points": 1294
     },
     {
       "teamno": "43776",
@@ -51,29 +68,12 @@
       "pf": 513,
       "pa": 379,
       "diff": 134,
-      "sos": 1632.299,
-      "sos_adj": 1759.572,
-      "power": 1704.719,
-      "rank": 3,
-      "mw_rating": 155.6,
-      "mw_points": 1712
-    },
-    {
-      "teamno": "43945",
-      "name": "D1/2-Brookline (red)",
-      "town": null,
-      "wins": 7,
-      "losses": 5,
-      "ties": 0,
-      "pf": 576,
-      "pa": 480,
-      "diff": 96,
-      "sos": 1623.203,
-      "sos_adj": 1748.203,
-      "power": 1698.81,
+      "sos": 1629.627,
+      "sos_adj": 1756.899,
+      "power": 1701.319,
       "rank": 4,
-      "mw_rating": 103.5,
-      "mw_points": 1138
+      "mw_rating": 155.7,
+      "mw_points": 1713
     },
     {
       "teamno": "43339",
@@ -85,12 +85,12 @@
       "pf": 542,
       "pa": 543,
       "diff": -1,
-      "sos": 1647.584,
-      "sos_adj": 1789.25,
-      "power": 1698.645,
+      "sos": 1644.776,
+      "sos_adj": 1786.443,
+      "power": 1696.56,
       "rank": 5,
-      "mw_rating": 159.4,
-      "mw_points": 1753
+      "mw_rating": 159.6,
+      "mw_points": 1755
     },
     {
       "teamno": "45490",
@@ -102,29 +102,29 @@
       "pf": 369,
       "pa": 402,
       "diff": -33,
-      "sos": 1657.739,
-      "sos_adj": 1796.628,
-      "power": 1662.02,
+      "sos": 1654.377,
+      "sos_adj": 1793.266,
+      "power": 1663.643,
       "rank": 6,
-      "mw_rating": 123.9,
-      "mw_points": 1115
+      "mw_rating": 124.0,
+      "mw_points": 1116
     },
     {
       "teamno": "44983",
       "name": "D1/2-Acushnet - Fairhaven (ladd)",
       "town": null,
       "wins": 2,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 458,
-      "pa": 569,
-      "diff": -111,
-      "sos": 1661.306,
-      "sos_adj": 1796.306,
-      "power": 1633.474,
+      "pf": 509,
+      "pa": 624,
+      "diff": -115,
+      "sos": 1651.927,
+      "sos_adj": 1779.199,
+      "power": 1616.608,
       "rank": 7,
-      "mw_rating": 106.1,
-      "mw_points": 1061
+      "mw_rating": 100.6,
+      "mw_points": 1106
     }
   ]
 }

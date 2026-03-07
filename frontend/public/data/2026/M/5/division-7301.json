@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "M",
   "grade": 5,
   "divisionno": "7301",
@@ -21,8 +21,8 @@
       "sos_adj": 1559.809,
       "power": 1630.841,
       "rank": 1,
-      "mw_rating": 95.0,
-      "mw_points": 1140
+      "mw_rating": 95.1,
+      "mw_points": 1141
     },
     {
       "teamno": "44062",
@@ -31,15 +31,15 @@
       "wins": 6,
       "losses": 6,
       "ties": 0,
-      "pf": 476,
+      "pf": 460,
       "pa": 381,
-      "diff": 95,
-      "sos": 1499.193,
-      "sos_adj": 1507.527,
-      "power": 1534.388,
+      "diff": 79,
+      "sos": 1498.115,
+      "sos_adj": 1506.448,
+      "power": 1534.118,
       "rank": 2,
       "mw_rating": 59.5,
-      "mw_points": 773
+      "mw_points": 774
     },
     {
       "teamno": "44068",
@@ -68,29 +68,29 @@
       "pf": 416,
       "pa": 451,
       "diff": -35,
-      "sos": 1500.2,
-      "sos_adj": 1495.654,
-      "power": 1485.643,
+      "sos": 1501.376,
+      "sos_adj": 1496.83,
+      "power": 1485.937,
       "rank": 4,
-      "mw_rating": 44.5,
-      "mw_points": 534
+      "mw_rating": 44.6,
+      "mw_points": 535
     },
     {
       "teamno": "43975",
       "name": "D4Q-Revere (white)",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 15,
       "ties": 0,
-      "pf": 359,
-      "pa": 692,
-      "diff": -333,
-      "sos": 1496.958,
-      "sos_adj": 1488.624,
-      "power": 1430.676,
+      "pf": 388,
+      "pa": 719,
+      "diff": -331,
+      "sos": 1496.06,
+      "sos_adj": 1488.165,
+      "power": 1440.266,
       "rank": 5,
-      "mw_rating": 27.6,
-      "mw_points": 331
+      "mw_rating": 31.5,
+      "mw_points": 410
     },
     {
       "teamno": "44716",

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44822",
   "team_name": "D4H-Bourne (purple and white)",
   "town": null,
@@ -263,7 +263,7 @@
       "location": "Old Rochester Junior High School",
       "divisionno": "7151",
       "division_name": "8th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "43476",
       "away_teamno": "44822",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43476",
+      "opponent_name": "D3H-Somerset (blue)"
     }
   ]
 }

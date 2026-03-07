@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43932",
   "team_name": "D4H-Taunton (morrison)",
   "town": null,
@@ -317,10 +317,10 @@
       "date": "2026-03-07",
       "dow": "Sat",
       "starttime": "5:50 PM",
-      "location": "Taunton Hign School 1",
+      "location": "Taunton High School 1",
       "divisionno": "7240",
       "division_name": "8th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "45263",
       "away_teamno": "43932",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45263",
+      "opponent_name": "D3J-Medfield (luchini)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "F",
   "grade": 6,
   "divisionno": "7278",
@@ -17,12 +17,12 @@
       "pf": 539,
       "pa": 349,
       "diff": 190,
-      "sos": 1540.436,
-      "sos_adj": 1590.436,
-      "power": 1633.754,
+      "sos": 1542.286,
+      "sos_adj": 1592.286,
+      "power": 1634.217,
       "rank": 1,
-      "mw_rating": 113.1,
-      "mw_points": 1357
+      "mw_rating": 113.2,
+      "mw_points": 1358
     },
     {
       "teamno": "44475",
@@ -34,12 +34,12 @@
       "pf": 481,
       "pa": 384,
       "diff": 97,
-      "sos": 1559.476,
-      "sos_adj": 1620.19,
-      "power": 1625.063,
+      "sos": 1561.157,
+      "sos_adj": 1621.871,
+      "power": 1625.484,
       "rank": 2,
-      "mw_rating": 103.7,
-      "mw_points": 1348
+      "mw_rating": 103.9,
+      "mw_points": 1350
     },
     {
       "teamno": "43304",
@@ -51,12 +51,12 @@
       "pf": 569,
       "pa": 401,
       "diff": 168,
-      "sos": 1555.593,
-      "sos_adj": 1612.736,
-      "power": 1616.845,
+      "sos": 1557.275,
+      "sos_adj": 1614.418,
+      "power": 1617.266,
       "rank": 3,
-      "mw_rating": 98.5,
-      "mw_points": 1182
+      "mw_rating": 98.7,
+      "mw_points": 1184
     },
     {
       "teamno": "44650",
@@ -68,12 +68,12 @@
       "pf": 465,
       "pa": 451,
       "diff": 14,
-      "sos": 1561.387,
-      "sos_adj": 1614.512,
-      "power": 1571.024,
+      "sos": 1561.65,
+      "sos_adj": 1614.775,
+      "power": 1571.09,
       "rank": 4,
-      "mw_rating": 86.4,
-      "mw_points": 1037
+      "mw_rating": 86.5,
+      "mw_points": 1038
     },
     {
       "teamno": "43592",
@@ -85,46 +85,29 @@
       "pf": 293,
       "pa": 370,
       "diff": -77,
-      "sos": 1551.513,
-      "sos_adj": 1605.68,
-      "power": 1550.75,
+      "sos": 1553.475,
+      "sos_adj": 1607.642,
+      "power": 1551.24,
       "rank": 5,
-      "mw_rating": 81.3,
-      "mw_points": 976
-    },
-    {
-      "teamno": "43552",
-      "name": "D3H-Bridgewater (rooney)",
-      "town": null,
-      "wins": 3,
-      "losses": 9,
-      "ties": 0,
-      "pf": 279,
-      "pa": 382,
-      "diff": -103,
-      "sos": 1557.51,
-      "sos_adj": 1611.677,
-      "power": 1506.01,
-      "rank": 6,
-      "mw_rating": 64.1,
-      "mw_points": 769
+      "mw_rating": 81.5,
+      "mw_points": 978
     },
     {
       "teamno": "44487",
       "name": "D3H-Easton (black)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 12,
       "ties": 0,
-      "pf": 301,
-      "pa": 427,
-      "diff": -126,
-      "sos": 1561.039,
-      "sos_adj": 1607.467,
-      "power": 1503.471,
-      "rank": 7,
-      "mw_rating": 56.7,
-      "mw_points": 680
+      "pf": 326,
+      "pa": 443,
+      "diff": -117,
+      "sos": 1554.111,
+      "sos_adj": 1597.445,
+      "power": 1518.622,
+      "rank": 6,
+      "mw_rating": 58.5,
+      "mw_points": 761
     },
     {
       "teamno": "43129",
@@ -136,12 +119,29 @@
       "pf": 247,
       "pa": 436,
       "diff": -189,
-      "sos": 1529.644,
-      "sos_adj": 1570.553,
-      "power": 1498.508,
-      "rank": 8,
+      "sos": 1531.784,
+      "sos_adj": 1572.693,
+      "power": 1499.043,
+      "rank": 7,
       "mw_rating": 52.6,
-      "mw_points": 578
+      "mw_points": 579
+    },
+    {
+      "teamno": "43552",
+      "name": "D3H-Bridgewater (rooney)",
+      "town": null,
+      "wins": 3,
+      "losses": 10,
+      "ties": 0,
+      "pf": 304,
+      "pa": 423,
+      "diff": -119,
+      "sos": 1560.512,
+      "sos_adj": 1614.358,
+      "power": 1492.182,
+      "rank": 8,
+      "mw_rating": 62.6,
+      "mw_points": 814
     }
   ]
 }

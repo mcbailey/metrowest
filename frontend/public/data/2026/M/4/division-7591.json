@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "M",
   "grade": 4,
   "divisionno": "7591",
@@ -17,12 +17,12 @@
       "pf": 364,
       "pa": 196,
       "diff": 168,
-      "sos": 1348.784,
-      "sos_adj": 1207.117,
-      "power": 1385.164,
+      "sos": 1350.613,
+      "sos_adj": 1208.947,
+      "power": 1378.533,
       "rank": 1,
-      "mw_rating": 22.9,
-      "mw_points": 275
+      "mw_rating": 23.1,
+      "mw_points": 277
     },
     {
       "teamno": "44578",
@@ -34,12 +34,12 @@
       "pf": 402,
       "pa": 220,
       "diff": 182,
-      "sos": 1333.82,
-      "sos_adj": 1183.82,
-      "power": 1381.561,
+      "sos": 1336.312,
+      "sos_adj": 1186.312,
+      "power": 1374.874,
       "rank": 2,
-      "mw_rating": 20.6,
-      "mw_points": 247
+      "mw_rating": 20.7,
+      "mw_points": 248
     },
     {
       "teamno": "44111",
@@ -51,29 +51,12 @@
       "pf": 304,
       "pa": 360,
       "diff": -56,
-      "sos": 1381.899,
-      "sos_adj": 1254.976,
-      "power": 1305.933,
+      "sos": 1381.824,
+      "sos_adj": 1254.901,
+      "power": 1307.945,
       "rank": 3,
       "mw_rating": 11.3,
-      "mw_points": 135
-    },
-    {
-      "teamno": "44972",
-      "name": "D7P-Foxboro (white)",
-      "town": null,
-      "wins": 6,
-      "losses": 6,
-      "ties": 0,
-      "pf": 304,
-      "pa": 329,
-      "diff": -25,
-      "sos": 1349.802,
-      "sos_adj": 1203.969,
-      "power": 1296.983,
-      "rank": 4,
-      "mw_rating": 11.8,
-      "mw_points": 142
+      "mw_points": 136
     },
     {
       "teamno": "43688",
@@ -85,29 +68,46 @@
       "pf": 269,
       "pa": 331,
       "diff": -62,
-      "sos": 1346.461,
-      "sos_adj": 1196.461,
-      "power": 1292.552,
+      "sos": 1347.689,
+      "sos_adj": 1197.689,
+      "power": 1294.766,
+      "rank": 4,
+      "mw_rating": 7.2,
+      "mw_points": 86
+    },
+    {
+      "teamno": "44972",
+      "name": "D7P-Foxboro (white)",
+      "town": null,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "pf": 321,
+      "pa": 352,
+      "diff": -31,
+      "sos": 1353.526,
+      "sos_adj": 1207.372,
+      "power": 1287.303,
       "rank": 5,
-      "mw_rating": 7.1,
-      "mw_points": 85
+      "mw_rating": 11.0,
+      "mw_points": 143
     },
     {
       "teamno": "44899",
       "name": "D7P-North Attleboro (silver)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 10,
       "ties": 0,
-      "pf": 210,
-      "pa": 364,
-      "diff": -154,
-      "sos": 1365.968,
-      "sos_adj": 1220.134,
-      "power": 1240.164,
+      "pf": 238,
+      "pa": 384,
+      "diff": -146,
+      "sos": 1360.344,
+      "sos_adj": 1214.19,
+      "power": 1266.465,
       "rank": 6,
-      "mw_rating": 4.8,
-      "mw_points": 57
+      "mw_rating": 5.9,
+      "mw_points": 76
     }
   ]
 }

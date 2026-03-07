@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43643",
   "team_name": "D3M-Needham (gold)",
   "town": null,
@@ -248,8 +248,8 @@
       "away_teamno": "43942",
       "home_score": null,
       "away_score": null,
-      "team_score": null,
-      "opponent_score": 2,
+      "team_score": 2,
+      "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
       "opponent_teamno": "43942",
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "3:40 PM",
       "location": "Quincy Catholic Academy",
-      "divisionno": "7281",
-      "division_name": "6th Girls - Division 3",
-      "home_teamno": "0",
+      "divisionno": "7277",
+      "division_name": "6th Girls - Division 4",
+      "home_teamno": "44007",
       "away_teamno": "43643",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44007",
+      "opponent_name": "D4M-Somerville"
     }
   ]
 }

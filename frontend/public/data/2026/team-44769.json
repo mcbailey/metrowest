@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44769",
   "team_name": "D5W-Belmont (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 373,
     "pa": 262,
     "diff": 111,
-    "sos": 1434.095,
-    "sos_adj": 1387.22,
-    "power": 1458.7,
+    "sos": 1432.912,
+    "sos_adj": 1386.037,
+    "power": 1455.965,
     "rank": 3,
-    "mw_rating": 40.9,
-    "mw_points": 450,
+    "mw_rating": 41.1,
+    "mw_points": 452,
     "divisionno": "7318",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
@@ -340,15 +340,15 @@
       "divisionno": "7318",
       "division_name": "5th Girls - Division 5",
       "home_teamno": "44769",
-      "away_teamno": "0",
+      "away_teamno": "45156",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45156",
+      "opponent_name": "D4Q-Waltham Girls"
     }
   ]
 }

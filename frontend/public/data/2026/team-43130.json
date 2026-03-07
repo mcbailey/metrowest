@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43130",
   "team_name": "D4H-Barrington RI (gold)",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 514,
-    "pa": 397,
-    "diff": 117,
-    "sos": 1486.522,
-    "sos_adj": 1486.522,
-    "power": 1547.217,
-    "rank": 2,
-    "mw_rating": 68.9,
-    "mw_points": 827,
+    "pf": 541,
+    "pa": 428,
+    "diff": 113,
+    "sos": 1493.403,
+    "sos_adj": 1496.974,
+    "power": 1533.271,
+    "rank": 3,
+    "mw_rating": 67.2,
+    "mw_points": 873,
     "divisionno": "7256",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46273",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "5:30 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7256",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "43895",
+      "away_teamno": "43130",
+      "home_score": 31,
+      "away_score": 27,
+      "team_score": 27,
+      "opponent_score": 31,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43895",
+      "opponent_name": "D3H-Canton (green)"
+    },
     {
       "gameno": "376277",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D4J-Bridgewater (pineo)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46273",
-      "date": "2026-03-06",
-      "dow": "Fri",
-      "starttime": "5:30 PM",
-      "location": "Mass Premier - 2",
-      "divisionno": "7256",
-      "division_name": "7th Girls - Division 4",
-      "home_teamno": "43895",
-      "away_teamno": "43130",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43895",
-      "opponent_name": "D3H-Canton (green)"
-    }
-  ]
+  "future_games": []
 }

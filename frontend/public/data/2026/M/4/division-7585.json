@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "M",
   "grade": 4,
   "divisionno": "7585",
@@ -11,18 +11,18 @@
       "teamno": "43201",
       "name": "D6N-FLBC (white)",
       "town": null,
-      "wins": 9,
+      "wins": 10,
       "losses": 2,
       "ties": 0,
-      "pf": 390,
-      "pa": 319,
-      "diff": 71,
-      "sos": 1402.635,
-      "sos_adj": 1302.635,
-      "power": 1427.776,
+      "pf": 412,
+      "pa": 335,
+      "diff": 77,
+      "sos": 1404.399,
+      "sos_adj": 1304.399,
+      "power": 1439.118,
       "rank": 1,
-      "mw_rating": 30.6,
-      "mw_points": 337
+      "mw_rating": 31.3,
+      "mw_points": 376
     },
     {
       "teamno": "43350",
@@ -34,12 +34,12 @@
       "pf": 355,
       "pa": 340,
       "diff": 15,
-      "sos": 1397.707,
-      "sos_adj": 1305.399,
-      "power": 1405.678,
+      "sos": 1402.434,
+      "sos_adj": 1310.126,
+      "power": 1406.86,
       "rank": 2,
-      "mw_rating": 25.1,
-      "mw_points": 301
+      "mw_rating": 25.3,
+      "mw_points": 303
     },
     {
       "teamno": "43839",
@@ -51,12 +51,12 @@
       "pf": 333,
       "pa": 370,
       "diff": -37,
-      "sos": 1395.655,
-      "sos_adj": 1291.809,
-      "power": 1353.641,
+      "sos": 1401.5,
+      "sos_adj": 1297.654,
+      "power": 1355.103,
       "rank": 3,
-      "mw_rating": 15.2,
-      "mw_points": 198
+      "mw_rating": 15.4,
+      "mw_points": 200
     },
     {
       "teamno": "43967",
@@ -68,29 +68,29 @@
       "pf": 319,
       "pa": 392,
       "diff": -73,
-      "sos": 1387.466,
-      "sos_adj": 1283.299,
-      "power": 1347.693,
+      "sos": 1391.376,
+      "sos_adj": 1287.209,
+      "power": 1348.671,
       "rank": 4,
-      "mw_rating": 13.5,
-      "mw_points": 162
+      "mw_rating": 13.7,
+      "mw_points": 164
     },
     {
       "teamno": "44900",
       "name": "D6N-North Attleboro (black)",
       "town": null,
-      "wins": 0,
+      "wins": 1,
       "losses": 12,
       "ties": 0,
-      "pf": 217,
-      "pa": 394,
-      "diff": -177,
-      "sos": 1411.816,
-      "sos_adj": 1311.816,
-      "power": 1292.519,
+      "pf": 242,
+      "pa": 405,
+      "diff": -163,
+      "sos": 1404.697,
+      "sos_adj": 1300.851,
+      "power": 1312.824,
       "rank": 5,
-      "mw_rating": 5.0,
-      "mw_points": 60
+      "mw_rating": 6.0,
+      "mw_points": 78
     }
   ]
 }

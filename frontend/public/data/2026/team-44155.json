@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44155",
   "team_name": "D4M-Holliston (mcadams -red)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 389,
     "pa": 396,
     "diff": -7,
-    "sos": 1508.715,
-    "sos_adj": 1508.715,
-    "power": 1505.952,
+    "sos": 1507.394,
+    "sos_adj": 1507.394,
+    "power": 1505.622,
     "rank": 3,
     "mw_rating": 51.2,
     "mw_points": 563,
@@ -299,9 +299,9 @@
       "dow": "Sat",
       "starttime": "7:45 PM",
       "location": "Hopkinton Brown Gym",
-      "divisionno": "7243",
-      "division_name": "8th Girls - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7238",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "44338",
       "away_teamno": "44155",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44338",
+      "opponent_name": "D5K-Medway (white)"
     }
   ]
 }

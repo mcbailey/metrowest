@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "F",
   "grade": 6,
   "divisionno": "7279",
@@ -17,12 +17,12 @@
       "pf": 502,
       "pa": 416,
       "diff": 86,
-      "sos": 1556.117,
-      "sos_adj": 1609.451,
-      "power": 1630.829,
+      "sos": 1557.777,
+      "sos_adj": 1611.11,
+      "power": 1631.244,
       "rank": 1,
-      "mw_rating": 105.3,
-      "mw_points": 1263
+      "mw_rating": 105.4,
+      "mw_points": 1265
     },
     {
       "teamno": "44181",
@@ -34,12 +34,12 @@
       "pf": 602,
       "pa": 401,
       "diff": 201,
-      "sos": 1533.883,
-      "sos_adj": 1569.177,
-      "power": 1611.995,
+      "sos": 1531.44,
+      "sos_adj": 1566.734,
+      "power": 1611.384,
       "rank": 2,
-      "mw_rating": 100.9,
-      "mw_points": 1311
+      "mw_rating": 101.0,
+      "mw_points": 1313
     },
     {
       "teamno": "43949",
@@ -51,29 +51,29 @@
       "pf": 483,
       "pa": 489,
       "diff": -6,
-      "sos": 1554.131,
-      "sos_adj": 1607.977,
-      "power": 1568.188,
+      "sos": 1556.046,
+      "sos_adj": 1609.892,
+      "power": 1568.666,
       "rank": 3,
-      "mw_rating": 85.5,
-      "mw_points": 1026
+      "mw_rating": 85.6,
+      "mw_points": 1027
     },
     {
       "teamno": "45339",
       "name": "D3J-Milton (white)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 8,
       "ties": 0,
-      "pf": 376,
-      "pa": 387,
-      "diff": -11,
-      "sos": 1563.627,
-      "sos_adj": 1624.342,
-      "power": 1548.582,
+      "pf": 417,
+      "pa": 412,
+      "diff": 5,
+      "sos": 1554.812,
+      "sos_adj": 1614.812,
+      "power": 1564.873,
       "rank": 4,
-      "mw_rating": 80.8,
-      "mw_points": 970
+      "mw_rating": 83.3,
+      "mw_points": 1083
     },
     {
       "teamno": "44341",
@@ -90,7 +90,7 @@
       "power": 1548.466,
       "rank": 5,
       "mw_rating": 69.5,
-      "mw_points": 903
+      "mw_points": 904
     },
     {
       "teamno": "43403",
@@ -102,9 +102,9 @@
       "pf": 341,
       "pa": 370,
       "diff": -29,
-      "sos": 1556.467,
-      "sos_adj": 1610.634,
-      "power": 1542.454,
+      "sos": 1555.081,
+      "sos_adj": 1609.247,
+      "power": 1542.107,
       "rank": 6,
       "mw_rating": 75.8,
       "mw_points": 910
@@ -114,17 +114,17 @@
       "name": "D3J-Dedham (sullivan)",
       "town": null,
       "wins": 5,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "pf": 309,
-      "pa": 353,
-      "diff": -44,
-      "sos": 1528.99,
-      "sos_adj": 1562.324,
-      "power": 1541.279,
+      "pf": 331,
+      "pa": 390,
+      "diff": -59,
+      "sos": 1531.871,
+      "sos_adj": 1562.64,
+      "power": 1510.206,
       "rank": 7,
-      "mw_rating": 65.5,
-      "mw_points": 720
+      "mw_rating": 62.2,
+      "mw_points": 746
     },
     {
       "teamno": "43521",
@@ -136,12 +136,12 @@
       "pf": 238,
       "pa": 384,
       "diff": -146,
-      "sos": 1548.965,
-      "sos_adj": 1591.273,
-      "power": 1483.79,
+      "sos": 1545.77,
+      "sos_adj": 1588.078,
+      "power": 1482.991,
       "rank": 8,
-      "mw_rating": 48.5,
-      "mw_points": 582
+      "mw_rating": 48.6,
+      "mw_points": 583
     }
   ]
 }

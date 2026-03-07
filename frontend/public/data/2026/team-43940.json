@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43940",
   "team_name": "D4R-Brookline (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 641,
     "pa": 456,
     "diff": 185,
-    "sos": 1469.206,
-    "sos_adj": 1456.706,
-    "power": 1556.189,
-    "rank": 1,
-    "mw_rating": 70.7,
-    "mw_points": 778,
+    "sos": 1474.82,
+    "sos_adj": 1462.32,
+    "power": 1550.891,
+    "rank": 2,
+    "mw_rating": 70.9,
+    "mw_points": 780,
     "divisionno": "7156",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
@@ -320,7 +320,7 @@
       "location": "Concord-Carlisle High School",
       "divisionno": "7156",
       "division_name": "8th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "45105",
       "away_teamno": "43940",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45105",
+      "opponent_name": "D4R-Framingham (navy)"
     }
   ]
 }

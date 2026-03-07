@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44289",
   "team_name": "D6W-Belmont (navy)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 733,
     "pa": 630,
     "diff": 103,
-    "sos": 1408.627,
-    "sos_adj": 1319.153,
-    "power": 1443.696,
+    "sos": 1407.634,
+    "sos_adj": 1318.161,
+    "power": 1437.058,
     "rank": 1,
     "mw_rating": 36.7,
     "mw_points": 330,
@@ -415,7 +415,7 @@
       "location": "Bedford Lane School",
       "divisionno": "7143",
       "division_name": "8th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44443",
       "away_teamno": "44289",
       "home_score": null,
       "away_score": null,
@@ -423,8 +423,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44443",
+      "opponent_name": "D5R-Bedford (white)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43916",
   "team_name": "D3K-Wellesley (b)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 847,
     "pa": 935,
     "diff": -88,
-    "sos": 1554.375,
-    "sos_adj": 1609.931,
-    "power": 1518.162,
+    "sos": 1553.514,
+    "sos_adj": 1609.07,
+    "power": 1522.629,
     "rank": 6,
     "mw_rating": 62.4,
     "mw_points": 811,
@@ -375,9 +375,9 @@
       "dow": "Sun",
       "starttime": "7:15 PM",
       "location": "Ashland Mindess School",
-      "divisionno": "7159",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "0",
+      "divisionno": "7156",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "44755",
       "away_teamno": "43916",
       "home_score": null,
       "away_score": null,
@@ -385,8 +385,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44755",
+      "opponent_name": "D4R-Arlington (white)"
     }
   ]
 }

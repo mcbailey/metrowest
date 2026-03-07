@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44446",
   "team_name": "D4R-Bedford (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 470,
     "pa": 414,
     "diff": 56,
-    "sos": 1500.469,
-    "sos_adj": 1506.024,
-    "power": 1514.376,
+    "sos": 1502.09,
+    "sos_adj": 1507.646,
+    "power": 1513.494,
     "rank": 3,
-    "mw_rating": 68.5,
-    "mw_points": 822,
+    "mw_rating": 68.8,
+    "mw_points": 826,
     "divisionno": "7324",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
@@ -377,7 +377,7 @@
       "location": "Bedford Davis School",
       "divisionno": "7324",
       "division_name": "5th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "44787",
       "away_teamno": "44446",
       "home_score": null,
       "away_score": null,
@@ -385,8 +385,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44787",
+      "opponent_name": "D4Q-Lincoln-Sudbury (blue)"
     }
   ]
 }

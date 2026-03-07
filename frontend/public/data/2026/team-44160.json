@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44160",
   "team_name": "D6M-Holliston (peterson)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 285,
     "pa": 360,
     "diff": -75,
-    "sos": 1421.982,
-    "sos_adj": 1331.073,
-    "power": 1380.999,
+    "sos": 1420.693,
+    "sos_adj": 1329.784,
+    "power": 1380.853,
     "rank": 4,
-    "mw_rating": 14.8,
-    "mw_points": 163,
+    "mw_rating": 14.9,
+    "mw_points": 164,
     "divisionno": "7286",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
@@ -244,7 +244,7 @@
       "location": "Westborough Gibbons Middle School",
       "divisionno": "7286",
       "division_name": "5th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "43546",
       "away_teamno": "44160",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43546",
+      "opponent_name": "D5R-Millis (white)"
     }
   ]
 }

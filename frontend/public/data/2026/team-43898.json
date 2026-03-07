@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43898",
   "team_name": "D6K-Canton (white)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 433,
-    "pa": 422,
-    "diff": 11,
-    "sos": 1402.145,
-    "sos_adj": 1312.86,
-    "power": 1384.332,
+    "pf": 471,
+    "pa": 461,
+    "diff": 10,
+    "sos": 1404.823,
+    "sos_adj": 1314.823,
+    "power": 1379.827,
     "rank": 2,
-    "mw_rating": 24.6,
-    "mw_points": 295,
+    "mw_rating": 23.1,
+    "mw_points": 300,
     "divisionno": "7175",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45632",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "7:45 PM",
+      "location": "Mansfield Fieldhouse -4",
+      "divisionno": "7175",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "43703",
+      "away_teamno": "43898",
+      "home_score": 39,
+      "away_score": 38,
+      "team_score": 38,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43703",
+      "opponent_name": "D6J-Sharon (maroon-shemtov)"
+    },
     {
       "gameno": "377795",
       "date": "2026-03-01",
@@ -292,25 +311,5 @@
       "opponent_name": "D5M-Dedham (rider)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45632",
-      "date": "2026-03-06",
-      "dow": "Fri",
-      "starttime": "7:45 PM",
-      "location": "Mansfield Fieldhouse -4",
-      "divisionno": "7175",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "43703",
-      "away_teamno": "43898",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43703",
-      "opponent_name": "D6J-Sharon (maroon-shemtov)"
-    }
-  ]
+  "future_games": []
 }

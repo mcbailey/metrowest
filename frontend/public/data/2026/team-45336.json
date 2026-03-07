@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "45336",
   "team_name": "D5J-Milton (black)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 275,
-    "pa": 257,
-    "diff": 18,
-    "sos": 1445.495,
-    "sos_adj": 1395.495,
-    "power": 1407.957,
-    "rank": 5,
-    "mw_rating": 29.3,
-    "mw_points": 351,
+    "pf": 301,
+    "pa": 290,
+    "diff": 11,
+    "sos": 1449.576,
+    "sos_adj": 1399.576,
+    "power": 1397.772,
+    "rank": 6,
+    "mw_rating": 27.9,
+    "mw_points": 362,
     "divisionno": "7251",
     "division_name": "7th Girls - Division 5",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46302",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Mass Premier - 6",
+      "divisionno": "7251",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "45336",
+      "away_teamno": "43307",
+      "home_score": 26,
+      "away_score": 33,
+      "team_score": 26,
+      "opponent_score": 33,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43307",
+      "opponent_name": "D5H-Franklin"
+    },
     {
       "gameno": "378070",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5H-FLBC"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46302",
-      "date": "2026-03-06",
-      "dow": "Fri",
-      "starttime": "6:30 PM",
-      "location": "Mass Premier - 6",
-      "divisionno": "7251",
-      "division_name": "7th Girls - Division 5",
-      "home_teamno": "45336",
-      "away_teamno": "43307",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43307",
-      "opponent_name": "D5H-Franklin"
-    }
-  ]
+  "future_games": []
 }

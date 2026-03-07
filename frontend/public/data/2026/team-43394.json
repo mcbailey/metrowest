@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43394",
   "team_name": "D2BJ-Natick",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 616,
     "pa": 579,
     "diff": 37,
-    "sos": 1586.976,
-    "sos_adj": 1675.211,
-    "power": 1628.51,
+    "sos": 1585.829,
+    "sos_adj": 1674.064,
+    "power": 1628.224,
     "rank": 2,
-    "mw_rating": 120.2,
-    "mw_points": 1442,
+    "mw_rating": 120.3,
+    "mw_points": 1443,
     "divisionno": "7049",
     "division_name": "8th Girls - Division 2",
     "grade": 8,
@@ -358,7 +358,7 @@
       "location": "Mass Premier - 4",
       "divisionno": "7049",
       "division_name": "8th Girls - Division 2",
-      "home_teamno": "0",
+      "home_teamno": "43945",
       "away_teamno": "43394",
       "home_score": null,
       "away_score": null,
@@ -366,8 +366,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43945",
+      "opponent_name": "D1/2-Brookline (red)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "gender": "F",
   "grade": 5,
   "divisionno": "7324",
@@ -17,12 +17,12 @@
       "pf": 609,
       "pa": 307,
       "diff": 302,
-      "sos": 1493.09,
-      "sos_adj": 1505.59,
-      "power": 1593.525,
+      "sos": 1492.066,
+      "sos_adj": 1504.566,
+      "power": 1584.056,
       "rank": 1,
-      "mw_rating": 93.6,
-      "mw_points": 1123
+      "mw_rating": 93.8,
+      "mw_points": 1126
     },
     {
       "teamno": "44064",
@@ -34,12 +34,12 @@
       "pf": 367,
       "pa": 256,
       "diff": 111,
-      "sos": 1493.256,
-      "sos_adj": 1499.922,
-      "power": 1582.399,
+      "sos": 1495.324,
+      "sos_adj": 1501.99,
+      "power": 1574.674,
       "rank": 2,
-      "mw_rating": 77.2,
-      "mw_points": 849
+      "mw_rating": 77.4,
+      "mw_points": 851
     },
     {
       "teamno": "44446",
@@ -51,12 +51,12 @@
       "pf": 470,
       "pa": 414,
       "diff": 56,
-      "sos": 1500.469,
-      "sos_adj": 1506.024,
-      "power": 1514.376,
+      "sos": 1502.09,
+      "sos_adj": 1507.646,
+      "power": 1513.494,
       "rank": 3,
-      "mw_rating": 68.5,
-      "mw_points": 822
+      "mw_rating": 68.8,
+      "mw_points": 826
     },
     {
       "teamno": "44011",
@@ -68,9 +68,9 @@
       "pf": 266,
       "pa": 301,
       "diff": -35,
-      "sos": 1497.56,
-      "sos_adj": 1493.393,
-      "power": 1485.416,
+      "sos": 1495.03,
+      "sos_adj": 1490.864,
+      "power": 1486.077,
       "rank": 4,
       "mw_rating": 41.6,
       "mw_points": 499
@@ -79,35 +79,35 @@
       "teamno": "44684",
       "name": "D4R-Arlington (maroon)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 13,
       "ties": 0,
-      "pf": 388,
-      "pa": 494,
-      "diff": -106,
-      "sos": 1546.035,
-      "sos_adj": 1568.258,
-      "power": 1476.604,
+      "pf": 405,
+      "pa": 509,
+      "diff": -104,
+      "sos": 1538.198,
+      "sos_adj": 1556.619,
+      "power": 1485.254,
       "rank": 5,
-      "mw_rating": 51.5,
-      "mw_points": 618
+      "mw_rating": 52.3,
+      "mw_points": 680
     },
     {
       "teamno": "45759",
       "name": "D4R-Lexington (blue)",
       "town": null,
       "wins": 4,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 262,
-      "pa": 445,
-      "diff": -183,
-      "sos": 1511.863,
-      "sos_adj": 1488.53,
-      "power": 1433.073,
+      "pf": 281,
+      "pa": 492,
+      "diff": -211,
+      "sos": 1508.32,
+      "sos_adj": 1486.445,
+      "power": 1424.594,
       "rank": 6,
-      "mw_rating": 29.1,
-      "mw_points": 349
+      "mw_rating": 28.8,
+      "mw_points": 374
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "45438",
   "team_name": "D3M-Cambridge",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 462,
     "pa": 395,
     "diff": 67,
-    "sos": 1534.107,
-    "sos_adj": 1584.107,
-    "power": 1619.481,
+    "sos": 1531.408,
+    "sos_adj": 1581.408,
+    "power": 1618.806,
     "rank": 2,
     "mw_rating": 100.3,
     "mw_points": 1204,
@@ -280,9 +280,9 @@
       "dow": "Sun",
       "starttime": "2:20 PM",
       "location": "Quincy Catholic Academy",
-      "divisionno": "7281",
-      "division_name": "6th Girls - Division 3",
-      "home_teamno": "0",
+      "divisionno": "7276",
+      "division_name": "6th Girls - Division 4",
+      "home_teamno": "44156",
       "away_teamno": "45438",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44156",
+      "opponent_name": "D4K-Holliston (king-red 6th)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "44175",
   "team_name": "D6P-Holliston (king)",
   "town": null,
@@ -282,7 +282,7 @@
       "location": "Ashland Mindess School",
       "divisionno": "7549",
       "division_name": "4th Girls - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44515",
       "away_teamno": "44175",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44515",
+      "opponent_name": "D5N-Milford (red-calzoloia)"
     }
   ]
 }

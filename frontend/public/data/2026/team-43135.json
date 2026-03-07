@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-06",
+  "snapshot_date": "2026-03-07",
   "teamno": "43135",
   "team_name": "D7M-Barrington RI (white)",
   "town": null,
   "summary": {
     "wins": 0,
-    "losses": 13,
+    "losses": 14,
     "ties": 0,
-    "pf": 119,
-    "pa": 364,
-    "diff": -245,
-    "sos": 1385.421,
-    "sos_adj": 1243.113,
-    "power": 1246.75,
+    "pf": 126,
+    "pa": 386,
+    "diff": -260,
+    "sos": 1383.608,
+    "sos_adj": 1240.751,
+    "power": 1233.249,
     "rank": 6,
-    "mw_rating": 1.8,
-    "mw_points": 21,
+    "mw_rating": 1.7,
+    "mw_points": 22,
     "divisionno": "7555",
     "division_name": "4th Girls - Division 7",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45957",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7557",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "43135",
+      "away_teamno": "44415",
+      "home_score": 7,
+      "away_score": 22,
+      "team_score": 7,
+      "opponent_score": 22,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44415",
+      "opponent_name": "D7P-Dedham (grant)"
+    },
     {
       "gameno": "384559",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D7M-Seekonk (3)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45957",
-      "date": "2026-03-06",
-      "dow": "Fri",
-      "starttime": "6:30 PM",
-      "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7557",
-      "division_name": "4th Girls - Division 7",
-      "home_teamno": "43135",
-      "away_teamno": "44415",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44415",
-      "opponent_name": "D7P-Dedham (grant)"
-    }
-  ]
+  "future_games": []
 }
