@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45137",
   "team_name": "D6Q-Westwood",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 395,
-    "pa": 515,
-    "diff": -120,
-    "sos": 1400.334,
-    "sos_adj": 1300.334,
-    "power": 1377.18,
+    "pf": 436,
+    "pa": 571,
+    "diff": -135,
+    "sos": 1403.815,
+    "sos_adj": 1303.815,
+    "power": 1358.951,
     "rank": 5,
-    "mw_rating": 16.8,
-    "mw_points": 201,
+    "mw_rating": 15.9,
+    "mw_points": 206,
     "divisionno": "7141",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45855",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "5:50 PM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7141",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "44188",
+      "away_teamno": "45137",
+      "home_score": 56,
+      "away_score": 41,
+      "team_score": 41,
+      "opponent_score": 56,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44188",
+      "opponent_name": "D6K-Parkway  (blue)"
+    },
     {
       "gameno": "380807",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D6Q-North Quincy (clifford)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45855",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "5:50 PM",
-      "location": "Mass Premier - 4",
-      "divisionno": "7141",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "44188",
-      "away_teamno": "45137",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44188",
-      "opponent_name": "D6K-Parkway  (blue)"
-    }
-  ]
+  "future_games": []
 }

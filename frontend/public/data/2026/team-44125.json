@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44125",
   "team_name": "D4H-Berkley",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 299,
-    "pa": 432,
-    "diff": -133,
-    "sos": 1484.578,
-    "sos_adj": 1473.04,
-    "power": 1449.804,
-    "rank": 5,
-    "mw_rating": 33.2,
-    "mw_points": 431,
+    "pf": 318,
+    "pa": 458,
+    "diff": -140,
+    "sos": 1483.981,
+    "sos_adj": 1473.267,
+    "power": 1436.92,
+    "rank": 6,
+    "mw_rating": 32.7,
+    "mw_points": 458,
     "divisionno": "7240",
     "division_name": "8th Girls - Division 4",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46428",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "7:00 PM",
+      "location": "Dana Barros - 3",
+      "divisionno": "7241",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "44125",
+      "away_teamno": "44878",
+      "home_score": 19,
+      "away_score": 26,
+      "team_score": 19,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44878",
+      "opponent_name": "D4J-North Attleboro (red)"
+    },
     {
       "gameno": "46425",
       "date": "2026-03-04",
@@ -273,25 +292,5 @@
       "opponent_name": "D4H-FLBC"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46428",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "7:00 PM",
-      "location": "Dana Barros - 3",
-      "divisionno": "7241",
-      "division_name": "8th Girls - Division 4",
-      "home_teamno": "44125",
-      "away_teamno": "44878",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44878",
-      "opponent_name": "D4J-North Attleboro (red)"
-    }
-  ]
+  "future_games": []
 }

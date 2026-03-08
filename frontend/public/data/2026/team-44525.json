@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44525",
   "team_name": "D6Q-Milford (white-gelmini)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 487,
     "pa": 405,
     "diff": 82,
-    "sos": 1402.006,
-    "sos_adj": 1302.006,
-    "power": 1400.283,
+    "sos": 1401.44,
+    "sos_adj": 1301.44,
+    "power": 1397.664,
     "rank": 4,
-    "mw_rating": 25.4,
-    "mw_points": 305,
+    "mw_rating": 25.5,
+    "mw_points": 306,
     "divisionno": "7141",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
@@ -263,7 +263,7 @@
       "location": "Mass Premier - 1",
       "divisionno": "7141",
       "division_name": "8th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44187",
       "away_teamno": "44525",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44187",
+      "opponent_name": "D5J-Parkway  (white)"
     }
   ]
 }

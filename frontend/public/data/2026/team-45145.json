@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45145",
   "team_name": "D3J-North Quincy (regan)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 648,
-    "pa": 598,
-    "diff": 50,
-    "sos": 1524.608,
-    "sos_adj": 1570.762,
-    "power": 1585.824,
-    "rank": 1,
-    "mw_rating": 86.1,
-    "mw_points": 1119,
+    "pf": 690,
+    "pa": 651,
+    "diff": 39,
+    "sos": 1523.387,
+    "sos_adj": 1569.815,
+    "power": 1566.237,
+    "rank": 2,
+    "mw_rating": 83.3,
+    "mw_points": 1166,
     "divisionno": "7226",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45323",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "7:30 PM",
+      "location": "Sudbury Fieldhouse-Court 2",
+      "divisionno": "7228",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "45145",
+      "away_teamno": "44713",
+      "home_score": 42,
+      "away_score": 53,
+      "team_score": 42,
+      "opponent_score": 53,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44713",
+      "opponent_name": "D3M-Weston"
+    },
     {
       "gameno": "45319",
       "date": "2026-03-06",
@@ -273,25 +292,5 @@
       "opponent_name": "D3J-Canton (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45323",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "7:30 PM",
-      "location": "Sudbury Fieldhouse-Court 2",
-      "divisionno": "7228",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "45145",
-      "away_teamno": "44713",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44713",
-      "opponent_name": "D3M-Weston"
-    }
-  ]
+  "future_games": []
 }

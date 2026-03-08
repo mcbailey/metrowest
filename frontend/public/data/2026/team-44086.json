@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44086",
   "team_name": "D4P-Wellesley (black)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 455,
     "pa": 398,
     "diff": 57,
-    "sos": 1515.271,
-    "sos_adj": 1515.271,
-    "power": 1540.359,
+    "sos": 1513.676,
+    "sos_adj": 1513.676,
+    "power": 1536.306,
     "rank": 2,
-    "mw_rating": 62.7,
-    "mw_points": 752,
+    "mw_rating": 62.8,
+    "mw_points": 753,
     "divisionno": "7579",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "1:05 PM",
       "location": "Hopkinton-Marathon School",
-      "divisionno": "7579",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7582",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "44564",
       "away_teamno": "44086",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44564",
+      "opponent_name": "D5R-Needham (white)"
     }
   ]
 }

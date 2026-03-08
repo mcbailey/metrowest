@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44875",
   "team_name": "D5M-North Attleboro (white)",
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 12,
+    "losses": 13,
     "ties": 0,
-    "pf": 281,
-    "pa": 443,
-    "diff": -162,
-    "sos": 1437.667,
-    "sos_adj": 1364.59,
-    "power": 1343.379,
+    "pf": 303,
+    "pa": 489,
+    "diff": -186,
+    "sos": 1437.93,
+    "sos_adj": 1362.93,
+    "power": 1321.699,
     "rank": 7,
-    "mw_rating": 10.5,
-    "mw_points": 137,
+    "mw_rating": 10.1,
+    "mw_points": 142,
     "divisionno": "7292",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45305",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:40 PM",
+      "location": "Quincy Catholic Academy",
+      "divisionno": "7283",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "44875",
+      "away_teamno": "43106",
+      "home_score": 22,
+      "away_score": 46,
+      "team_score": 22,
+      "opponent_score": 46,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43106",
+      "opponent_name": "D6H-Seekonk (valletta)"
+    },
     {
       "gameno": "45298",
       "date": "2026-03-04",
@@ -273,25 +292,5 @@
       "opponent_name": "D5Q-Franklin"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45305",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "2:40 PM",
-      "location": "Quincy Catholic Academy",
-      "divisionno": "7283",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "44875",
-      "away_teamno": "43106",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43106",
-      "opponent_name": "D6H-Seekonk (valletta)"
-    }
-  ]
+  "future_games": []
 }

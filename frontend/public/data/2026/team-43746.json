@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43746",
   "team_name": "D5M-Needham (white)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 468,
-    "pa": 514,
-    "diff": -46,
-    "sos": 1449.515,
-    "sos_adj": 1391.822,
-    "power": 1392.499,
-    "rank": 6,
-    "mw_rating": 20.9,
-    "mw_points": 251,
+    "pf": 511,
+    "pa": 564,
+    "diff": -53,
+    "sos": 1448.656,
+    "sos_adj": 1391.513,
+    "power": 1381.251,
+    "rank": 7,
+    "mw_rating": 20.2,
+    "mw_points": 262,
     "divisionno": "7182",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45595",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:25 PM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7186",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "43746",
+      "away_teamno": "45303",
+      "home_score": 43,
+      "away_score": 50,
+      "team_score": 43,
+      "opponent_score": 50,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45303",
+      "opponent_name": "D5W-Medford (white)"
+    },
     {
       "gameno": "379790",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D5Q-Dover Sherborn (danielski)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45595",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "2:25 PM",
-      "location": "Hopkinton Brown Gym",
-      "divisionno": "7186",
-      "division_name": "7th Boys - Division 5",
-      "home_teamno": "43746",
-      "away_teamno": "45303",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45303",
-      "opponent_name": "D5W-Medford (white)"
-    }
-  ]
+  "future_games": []
 }

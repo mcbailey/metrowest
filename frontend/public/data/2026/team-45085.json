@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45085",
   "team_name": "D4M-Framingham (navy)",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1491.148,
     "power": 1564.33,
     "rank": 2,
-    "mw_rating": 70.3,
-    "mw_points": 844,
+    "mw_rating": 70.8,
+    "mw_points": 849,
     "divisionno": "7300",
     "division_name": "5th Boys - Division 4",
     "grade": 5,
@@ -263,7 +263,7 @@
       "location": "Ashland High School",
       "divisionno": "7300",
       "division_name": "5th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "43393",
       "away_teamno": "45085",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43393",
+      "opponent_name": "D4M-Natick"
     }
   ]
 }

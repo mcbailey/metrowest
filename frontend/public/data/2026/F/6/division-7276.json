@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "F",
   "grade": 6,
   "divisionno": "7276",
@@ -17,12 +17,12 @@
       "pf": 443,
       "pa": 239,
       "diff": 204,
-      "sos": 1488.874,
-      "sos_adj": 1493.04,
-      "power": 1592.354,
+      "sos": 1490.793,
+      "sos_adj": 1494.959,
+      "power": 1592.834,
       "rank": 1,
-      "mw_rating": 79.6,
-      "mw_points": 955
+      "mw_rating": 79.7,
+      "mw_points": 956
     },
     {
       "teamno": "44156",
@@ -34,29 +34,29 @@
       "pf": 341,
       "pa": 240,
       "diff": 101,
-      "sos": 1502.642,
-      "sos_adj": 1510.975,
-      "power": 1540.709,
+      "sos": 1505.205,
+      "sos_adj": 1513.539,
+      "power": 1541.35,
       "rank": 2,
-      "mw_rating": 69.3,
-      "mw_points": 762
+      "mw_rating": 69.5,
+      "mw_points": 764
     },
     {
       "teamno": "43704",
       "name": "D4K-Ashland",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 7,
       "ties": 0,
-      "pf": 226,
-      "pa": 275,
-      "diff": -49,
-      "sos": 1495.879,
-      "sos_adj": 1495.879,
-      "power": 1474.398,
+      "pf": 246,
+      "pa": 284,
+      "diff": -38,
+      "sos": 1492.467,
+      "sos_adj": 1488.3,
+      "power": 1489.775,
       "rank": 3,
-      "mw_rating": 44.6,
-      "mw_points": 490
+      "mw_rating": 46.0,
+      "mw_points": 552
     },
     {
       "teamno": "45246",
@@ -68,12 +68,12 @@
       "pf": 249,
       "pa": 349,
       "diff": -100,
-      "sos": 1501.698,
-      "sos_adj": 1501.698,
-      "power": 1460.926,
+      "sos": 1502.293,
+      "sos_adj": 1502.293,
+      "power": 1461.074,
       "rank": 4,
-      "mw_rating": 40.8,
-      "mw_points": 489
+      "mw_rating": 40.9,
+      "mw_points": 491
     },
     {
       "teamno": "45340",
@@ -85,12 +85,12 @@
       "pf": 186,
       "pa": 276,
       "diff": -90,
-      "sos": 1488.879,
-      "sos_adj": 1479.789,
-      "power": 1447.875,
+      "sos": 1489.582,
+      "sos_adj": 1480.491,
+      "power": 1448.05,
       "rank": 5,
-      "mw_rating": 37.1,
-      "mw_points": 408
+      "mw_rating": 37.2,
+      "mw_points": 409
     },
     {
       "teamno": "43187",
@@ -102,9 +102,9 @@
       "pf": 161,
       "pa": 318,
       "diff": -157,
-      "sos": 1498.004,
-      "sos_adj": 1498.004,
-      "power": 1440.115,
+      "sos": 1500.8,
+      "sos_adj": 1500.8,
+      "power": 1440.814,
       "rank": 6,
       "mw_rating": 30.1,
       "mw_points": 331
@@ -113,18 +113,18 @@
       "teamno": "43779",
       "name": "D4K-Millis",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 11,
       "ties": 0,
-      "pf": 196,
-      "pa": 340,
-      "diff": -144,
-      "sos": 1486.215,
-      "sos_adj": 1477.882,
-      "power": 1413.258,
+      "pf": 214,
+      "pa": 357,
+      "diff": -143,
+      "sos": 1484.606,
+      "sos_adj": 1473.068,
+      "power": 1417.853,
       "rank": 7,
-      "mw_rating": 26.9,
-      "mw_points": 323
+      "mw_rating": 29.2,
+      "mw_points": 380
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44447",
   "team_name": "D3Q-Bedford (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 441,
     "pa": 605,
     "diff": -164,
-    "sos": 1555.16,
-    "sos_adj": 1605.16,
-    "power": 1479.295,
+    "sos": 1558.358,
+    "sos_adj": 1608.358,
+    "power": 1488.544,
     "rank": 5,
-    "mw_rating": 67.1,
-    "mw_points": 805,
+    "mw_rating": 67.2,
+    "mw_points": 806,
     "divisionno": "7282",
     "division_name": "6th Girls - Division 3",
     "grade": 6,
@@ -415,7 +415,7 @@
       "location": "Bedford Lane School",
       "divisionno": "7282",
       "division_name": "6th Girls - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "45760",
       "away_teamno": "44447",
       "home_score": null,
       "away_score": null,
@@ -423,8 +423,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45760",
+      "opponent_name": "D3Q-Lexington (blue)"
     }
   ]
 }

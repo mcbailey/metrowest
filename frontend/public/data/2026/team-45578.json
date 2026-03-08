@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45578",
   "team_name": "D1H-Stoughton",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 1145,
     "pa": 888,
     "diff": 257,
-    "sos": 1626.387,
-    "sos_adj": 1761.387,
-    "power": 1758.111,
+    "sos": 1627.539,
+    "sos_adj": 1762.539,
+    "power": 1750.373,
     "rank": 1,
-    "mw_rating": 200.7,
-    "mw_points": 2408,
+    "mw_rating": 201.0,
+    "mw_points": 2412,
     "divisionno": "7234",
     "division_name": "6th Boys - Division 1",
     "grade": 6,
@@ -413,9 +413,9 @@
       "dow": "Sun",
       "starttime": "11:20 AM",
       "location": "Mass Premier - 5",
-      "divisionno": "7234",
+      "divisionno": "7235",
       "division_name": "6th Boys - Division 1",
-      "home_teamno": "0",
+      "home_teamno": "44192",
       "away_teamno": "45578",
       "home_score": null,
       "away_score": null,
@@ -423,8 +423,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44192",
+      "opponent_name": "D1J-Parkway  (red)"
     }
   ]
 }

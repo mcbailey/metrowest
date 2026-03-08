@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44066",
   "team_name": "D1/2J-Watertown (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 563,
     "pa": 657,
     "diff": -94,
-    "sos": 1653.218,
-    "sos_adj": 1797.336,
-    "power": 1667.347,
-    "rank": 6,
-    "mw_rating": 149.1,
-    "mw_points": 1789,
+    "sos": 1653.608,
+    "sos_adj": 1797.726,
+    "power": 1669.393,
+    "rank": 5,
+    "mw_rating": 149.2,
+    "mw_points": 1790,
     "divisionno": "7265",
     "division_name": "7th Girls - Division 1",
     "grade": 7,
@@ -356,9 +356,9 @@
       "dow": "Sun",
       "starttime": "9:40 AM",
       "location": "Mass Premier - 3",
-      "divisionno": "7265",
-      "division_name": "7th Girls - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7262",
+      "division_name": "7th Girls - Division 3",
+      "home_teamno": "46204",
       "away_teamno": "44066",
       "home_score": null,
       "away_score": null,
@@ -366,8 +366,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "46204",
+      "opponent_name": "D3H-New Bedford"
     }
   ]
 }

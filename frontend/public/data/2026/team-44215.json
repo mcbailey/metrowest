@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44215",
   "team_name": "D4N-Southboro (gold)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 371,
-    "pa": 405,
-    "diff": -34,
-    "sos": 1508.059,
-    "sos_adj": 1508.059,
-    "power": 1486.185,
+    "pf": 392,
+    "pa": 441,
+    "diff": -49,
+    "sos": 1502.772,
+    "sos_adj": 1498.925,
+    "power": 1454.678,
     "rank": 7,
-    "mw_rating": 53.5,
-    "mw_points": 642,
+    "mw_rating": 50.2,
+    "mw_points": 652,
     "divisionno": "7578",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44964",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:15 AM",
+      "location": "Southborough Trottier Middle School",
+      "divisionno": "7582",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "44564",
+      "away_teamno": "44215",
+      "home_score": 36,
+      "away_score": 21,
+      "team_score": 21,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44564",
+      "opponent_name": "D5R-Needham (white)"
+    },
     {
       "gameno": "385818",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D4M-Hopkinton (bouzan)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44964",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "10:15 AM",
-      "location": "Southborough Trottier Middle School",
-      "divisionno": "7582",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "44564",
-      "away_teamno": "44215",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44564",
-      "opponent_name": "D5R-Needham (white)"
-    }
-  ]
+  "future_games": []
 }

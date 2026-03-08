@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45427",
   "team_name": "D6T-Winchester (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 550,
     "pa": 596,
     "diff": -46,
-    "sos": 1409.303,
-    "sos_adj": 1317.198,
-    "power": 1393.378,
+    "sos": 1410.502,
+    "sos_adj": 1318.397,
+    "power": 1392.27,
     "rank": 3,
-    "mw_rating": 23.1,
-    "mw_points": 254,
+    "mw_rating": 23.4,
+    "mw_points": 257,
     "divisionno": "7211",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
@@ -416,15 +416,15 @@
       "divisionno": "7211",
       "division_name": "6th Boys - Division 6",
       "home_teamno": "45427",
-      "away_teamno": "0",
+      "away_teamno": "44736",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44736",
+      "opponent_name": "D6T-Arlington (black)"
     }
   ]
 }

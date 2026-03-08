@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44768",
   "team_name": "D7V-Arlington (red)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 12,
+    "losses": 13,
     "ties": 0,
-    "pf": 375,
-    "pa": 485,
-    "diff": -110,
-    "sos": 1354.031,
-    "sos_adj": 1204.031,
-    "power": 1298.612,
+    "pf": 401,
+    "pa": 517,
+    "diff": -116,
+    "sos": 1357.334,
+    "sos_adj": 1210.112,
+    "power": 1290.015,
     "rank": 4,
-    "mw_rating": 8.2,
-    "mw_points": 98,
+    "mw_rating": 8.0,
+    "mw_points": 104,
     "divisionno": "7595",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45100",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "6:25 PM",
+      "location": "Hopkinton-Marathon School",
+      "divisionno": "7595",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44768",
+      "away_teamno": "43994",
+      "home_score": 26,
+      "away_score": 32,
+      "team_score": 26,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43994",
+      "opponent_name": "D6Q-Canton (white)"
+    },
     {
       "gameno": "45095",
       "date": "2026-03-04",
@@ -349,25 +368,5 @@
       "opponent_name": "D7T-Arlington (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45100",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "6:25 PM",
-      "location": "Hopkinton-Marathon School",
-      "divisionno": "7595",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44768",
-      "away_teamno": "43994",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43994",
-      "opponent_name": "D6Q-Canton (white)"
-    }
-  ]
+  "future_games": []
 }

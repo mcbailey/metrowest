@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "F",
   "grade": 6,
   "divisionno": "7278",
@@ -21,8 +21,8 @@
       "sos_adj": 1592.286,
       "power": 1634.217,
       "rank": 1,
-      "mw_rating": 113.2,
-      "mw_points": 1358
+      "mw_rating": 113.3,
+      "mw_points": 1359
     },
     {
       "teamno": "44475",
@@ -51,12 +51,12 @@
       "pf": 569,
       "pa": 401,
       "diff": 168,
-      "sos": 1557.275,
-      "sos_adj": 1614.418,
-      "power": 1617.266,
+      "sos": 1559.261,
+      "sos_adj": 1616.404,
+      "power": 1617.762,
       "rank": 3,
-      "mw_rating": 98.7,
-      "mw_points": 1184
+      "mw_rating": 98.8,
+      "mw_points": 1185
     },
     {
       "teamno": "44650",
@@ -68,12 +68,12 @@
       "pf": 465,
       "pa": 451,
       "diff": 14,
-      "sos": 1561.65,
-      "sos_adj": 1614.775,
-      "power": 1571.09,
+      "sos": 1563.388,
+      "sos_adj": 1616.513,
+      "power": 1571.524,
       "rank": 4,
-      "mw_rating": 86.5,
-      "mw_points": 1038
+      "mw_rating": 86.6,
+      "mw_points": 1039
     },
     {
       "teamno": "43592",
@@ -85,12 +85,12 @@
       "pf": 293,
       "pa": 370,
       "diff": -77,
-      "sos": 1553.475,
-      "sos_adj": 1607.642,
-      "power": 1551.24,
+      "sos": 1555.793,
+      "sos_adj": 1609.959,
+      "power": 1551.82,
       "rank": 5,
-      "mw_rating": 81.5,
-      "mw_points": 978
+      "mw_rating": 81.7,
+      "mw_points": 980
     },
     {
       "teamno": "44487",
@@ -102,29 +102,29 @@
       "pf": 326,
       "pa": 443,
       "diff": -117,
-      "sos": 1554.111,
-      "sos_adj": 1597.445,
-      "power": 1518.622,
+      "sos": 1555.965,
+      "sos_adj": 1599.299,
+      "power": 1519.085,
       "rank": 6,
-      "mw_rating": 58.5,
-      "mw_points": 761
+      "mw_rating": 58.6,
+      "mw_points": 762
     },
     {
       "teamno": "43129",
       "name": "D3H-Barrington RI (gold)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 9,
       "ties": 0,
-      "pf": 247,
-      "pa": 436,
-      "diff": -189,
-      "sos": 1531.784,
-      "sos_adj": 1572.693,
-      "power": 1499.043,
+      "pf": 294,
+      "pa": 467,
+      "diff": -173,
+      "sos": 1526.818,
+      "sos_adj": 1564.318,
+      "power": 1517.806,
       "rank": 7,
-      "mw_rating": 52.6,
-      "mw_points": 579
+      "mw_rating": 55.1,
+      "mw_points": 661
     },
     {
       "teamno": "43552",
@@ -136,12 +136,12 @@
       "pf": 304,
       "pa": 423,
       "diff": -119,
-      "sos": 1560.512,
-      "sos_adj": 1614.358,
-      "power": 1492.182,
+      "sos": 1562.651,
+      "sos_adj": 1616.497,
+      "power": 1492.717,
       "rank": 8,
-      "mw_rating": 62.6,
-      "mw_points": 814
+      "mw_rating": 62.8,
+      "mw_points": 816
     }
   ]
 }

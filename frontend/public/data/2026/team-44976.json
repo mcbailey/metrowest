@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44976",
   "team_name": "D4H-Acushnet - Fairhaven (tevares)",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 621,
-    "pa": 476,
-    "diff": 145,
-    "sos": 1486.738,
-    "sos_adj": 1486.738,
-    "power": 1549.193,
-    "rank": 1,
-    "mw_rating": 72.7,
-    "mw_points": 872,
+    "pf": 652,
+    "pa": 514,
+    "diff": 138,
+    "sos": 1490.569,
+    "sos_adj": 1494.141,
+    "power": 1535.694,
+    "rank": 2,
+    "mw_rating": 70.8,
+    "mw_points": 920,
     "divisionno": "7297",
     "division_name": "5th Boys - Division 4",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45141",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "5:35 PM",
+      "location": "Foxboro Sage School",
+      "divisionno": "7297",
+      "division_name": "5th Boys - Division 4",
+      "home_teamno": "44976",
+      "away_teamno": "43324",
+      "home_score": 31,
+      "away_score": 38,
+      "team_score": 31,
+      "opponent_score": 38,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43324",
+      "opponent_name": "D3H-Mansfield (white)"
+    },
     {
       "gameno": "390049",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D4H-Barnstable  (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45141",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "5:35 PM",
-      "location": "Foxboro Sage School",
-      "divisionno": "7297",
-      "division_name": "5th Boys - Division 4",
-      "home_teamno": "44976",
-      "away_teamno": "43324",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43324",
-      "opponent_name": "D3H-Mansfield (white)"
-    }
-  ]
+  "future_games": []
 }

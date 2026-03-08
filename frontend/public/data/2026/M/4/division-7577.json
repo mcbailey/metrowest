@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "M",
   "grade": 4,
   "divisionno": "7577",
@@ -17,12 +17,12 @@
       "pf": 417,
       "pa": 361,
       "diff": 56,
-      "sos": 1494.553,
-      "sos_adj": 1507.053,
-      "power": 1547.508,
+      "sos": 1496.224,
+      "sos_adj": 1508.724,
+      "power": 1547.926,
       "rank": 1,
-      "mw_rating": 77.0,
-      "mw_points": 924
+      "mw_rating": 77.1,
+      "mw_points": 925
     },
     {
       "teamno": "45112",
@@ -34,12 +34,12 @@
       "pf": 412,
       "pa": 317,
       "diff": 95,
-      "sos": 1480.648,
-      "sos_adj": 1484.814,
-      "power": 1545.701,
+      "sos": 1482.32,
+      "sos_adj": 1486.486,
+      "power": 1546.119,
       "rank": 2,
-      "mw_rating": 76.1,
-      "mw_points": 837
+      "mw_rating": 76.2,
+      "mw_points": 838
     },
     {
       "teamno": "43604",
@@ -55,8 +55,8 @@
       "sos_adj": 1493.606,
       "power": 1543.612,
       "rank": 3,
-      "mw_rating": 79.4,
-      "mw_points": 873
+      "mw_rating": 79.6,
+      "mw_points": 875
     },
     {
       "teamno": "44398",
@@ -68,12 +68,12 @@
       "pf": 378,
       "pa": 366,
       "diff": 12,
-      "sos": 1494.683,
-      "sos_adj": 1494.683,
-      "power": 1484.806,
+      "sos": 1496.355,
+      "sos_adj": 1496.355,
+      "power": 1485.224,
       "rank": 4,
-      "mw_rating": 43.1,
-      "mw_points": 517
+      "mw_rating": 43.2,
+      "mw_points": 518
     },
     {
       "teamno": "45330",
@@ -102,12 +102,12 @@
       "pf": 261,
       "pa": 398,
       "diff": -137,
-      "sos": 1497.338,
-      "sos_adj": 1497.338,
-      "power": 1442.428,
+      "sos": 1499.01,
+      "sos_adj": 1499.01,
+      "power": 1442.846,
       "rank": 6,
       "mw_rating": 38.8,
-      "mw_points": 465
+      "mw_points": 466
     },
     {
       "teamno": "44216",
@@ -119,29 +119,29 @@
       "pf": 357,
       "pa": 430,
       "diff": -73,
-      "sos": 1493.564,
-      "sos_adj": 1486.421,
-      "power": 1421.263,
+      "sos": 1494.997,
+      "sos_adj": 1487.854,
+      "power": 1421.622,
       "rank": 7,
-      "mw_rating": 37.4,
-      "mw_points": 486
+      "mw_rating": 37.5,
+      "mw_points": 487
     },
     {
       "teamno": "43487",
       "name": "D4M-Northboro (red)",
       "town": null,
-      "wins": 0,
+      "wins": 1,
       "losses": 12,
       "ties": 0,
-      "pf": 256,
-      "pa": 471,
-      "diff": -215,
-      "sos": 1486.005,
-      "sos_adj": 1469.338,
-      "power": 1397.57,
+      "pf": 291,
+      "pa": 497,
+      "diff": -206,
+      "sos": 1474.0,
+      "sos_adj": 1447.077,
+      "power": 1407.051,
       "rank": 8,
-      "mw_rating": 21.7,
-      "mw_points": 260
+      "mw_rating": 21.9,
+      "mw_points": 285
     }
   ]
 }

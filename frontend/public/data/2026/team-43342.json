@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43342",
   "team_name": "D3H-Monomoy (blue/mccarthy)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 560,
     "pa": 439,
     "diff": 121,
-    "sos": 1563.819,
-    "sos_adj": 1623.819,
-    "power": 1615.803,
+    "sos": 1569.723,
+    "sos_adj": 1629.723,
+    "power": 1612.544,
     "rank": 3,
-    "mw_rating": 110.4,
-    "mw_points": 1104,
+    "mw_rating": 110.8,
+    "mw_points": 1108,
     "divisionno": "7225",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
@@ -263,7 +263,7 @@
       "location": "Taunton High Upper Gyn",
       "divisionno": "7225",
       "division_name": "6th Boys - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "44640",
       "away_teamno": "43342",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44640",
+      "opponent_name": "D2H-Attleboro (blue)"
     }
   ]
 }

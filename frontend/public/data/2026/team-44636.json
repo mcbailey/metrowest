@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44636",
   "team_name": "D7P-Attleboro (white)",
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 1,
+    "losses": 2,
     "ties": 0,
-    "pf": 364,
-    "pa": 196,
-    "diff": 168,
-    "sos": 1350.613,
-    "sos_adj": 1208.947,
-    "power": 1378.533,
+    "pf": 384,
+    "pa": 223,
+    "diff": 161,
+    "sos": 1362.212,
+    "sos_adj": 1227.597,
+    "power": 1369.415,
     "rank": 1,
-    "mw_rating": 23.1,
-    "mw_points": 277,
+    "mw_rating": 22.4,
+    "mw_points": 291,
     "divisionno": "7591",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45034",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "11:45 AM",
+      "location": "Hopkinton-Elmwood School",
+      "divisionno": "7591",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44200",
+      "away_teamno": "44636",
+      "home_score": 27,
+      "away_score": 20,
+      "team_score": 20,
+      "opponent_score": 27,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44200",
+      "opponent_name": "D5R-Parkway  (white)"
+    },
     {
       "gameno": "385632",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D7R-Parkway  (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45034",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "11:45 AM",
-      "location": "Hopkinton-Elmwood School",
-      "divisionno": "7591",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44200",
-      "away_teamno": "44636",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44200",
-      "opponent_name": "D5R-Parkway  (white)"
-    }
-  ]
+  "future_games": []
 }

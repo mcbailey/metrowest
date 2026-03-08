@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45155",
   "team_name": "D4M-Waltham Girls",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 322,
     "pa": 291,
     "diff": 31,
-    "sos": 1503.473,
-    "sos_adj": 1503.473,
-    "power": 1486.662,
+    "sos": 1501.711,
+    "sos_adj": 1501.711,
+    "power": 1486.221,
     "rank": 6,
-    "mw_rating": 47.8,
-    "mw_points": 574,
+    "mw_rating": 47.9,
+    "mw_points": 575,
     "divisionno": "7277",
     "division_name": "6th Girls - Division 4",
     "grade": 6,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "11:45 AM",
       "location": "Hopkinton Brown Gym",
-      "divisionno": "7277",
-      "division_name": "6th Girls - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7272",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "44993",
       "away_teamno": "45155",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44993",
+      "opponent_name": "D5R-Dover Sherborn (rainey)"
     }
   ]
 }

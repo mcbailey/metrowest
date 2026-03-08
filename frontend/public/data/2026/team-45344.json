@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45344",
   "team_name": "D5Q-Milton (silver)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 315,
     "pa": 223,
     "diff": 92,
-    "sos": 1443.759,
-    "sos_adj": 1393.759,
-    "power": 1490.878,
+    "sos": 1445.936,
+    "sos_adj": 1395.936,
+    "power": 1491.422,
     "rank": 2,
-    "mw_rating": 40.4,
-    "mw_points": 485,
+    "mw_rating": 40.5,
+    "mw_points": 486,
     "divisionno": "7315",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "6:25 PM",
       "location": "Hopkinton-Elmwood School",
-      "divisionno": "7315",
+      "divisionno": "7317",
       "division_name": "5th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "44764",
       "away_teamno": "45344",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44764",
+      "opponent_name": "D5T-Dover Sherborn (schaefers)"
     }
   ]
 }

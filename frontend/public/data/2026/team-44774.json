@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44774",
   "team_name": "D1J-Lincoln-Sudbury (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 931,
     "pa": 896,
     "diff": 35,
-    "sos": 1616.898,
-    "sos_adj": 1735.648,
-    "power": 1685.332,
+    "sos": 1616.174,
+    "sos_adj": 1734.924,
+    "power": 1683.759,
     "rank": 3,
-    "mw_rating": 138.7,
-    "mw_points": 1526,
+    "mw_rating": 138.8,
+    "mw_points": 1527,
     "divisionno": "7167",
     "division_name": "8th Boys - Division 1",
     "grade": 8,
@@ -337,9 +337,9 @@
       "dow": "Sun",
       "starttime": "12:20 PM",
       "location": "Dana Barros - 3",
-      "divisionno": "7167",
-      "division_name": "8th Boys - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7163",
+      "division_name": "8th Boys - Division 2",
+      "home_teamno": "43483",
       "away_teamno": "44774",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43483",
+      "opponent_name": "D2H-Rochester"
     }
   ]
 }

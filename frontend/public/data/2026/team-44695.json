@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44695",
   "team_name": "D2K-Dover Sherborn (cecil)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 875,
-    "pa": 898,
-    "diff": -23,
-    "sos": 1600.508,
-    "sos_adj": 1697.73,
-    "power": 1623.215,
+    "pf": 936,
+    "pa": 968,
+    "diff": -32,
+    "sos": 1604.307,
+    "sos_adj": 1704.307,
+    "power": 1614.624,
     "rank": 4,
-    "mw_rating": 101.4,
-    "mw_points": 1217,
+    "mw_rating": 101.5,
+    "mw_points": 1320,
     "divisionno": "7232",
     "division_name": "6th Boys - Division 2",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44662",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "8:20 AM",
+      "location": "Dana Barros - 3",
+      "divisionno": "7232",
+      "division_name": "6th Boys - Division 2",
+      "home_teamno": "44695",
+      "away_teamno": "44977",
+      "home_score": 61,
+      "away_score": 70,
+      "team_score": 61,
+      "opponent_score": 70,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44977",
+      "opponent_name": "D1H-Acushnet - Fairhaven (vardo)"
+    },
     {
       "gameno": "374553",
       "date": "2026-03-01",
@@ -368,25 +387,5 @@
       "opponent_name": "D3H-Rochester (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44662",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "8:20 AM",
-      "location": "Dana Barros - 3",
-      "divisionno": "7232",
-      "division_name": "6th Boys - Division 2",
-      "home_teamno": "44695",
-      "away_teamno": "44977",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44977",
-      "opponent_name": "D1H-Acushnet - Fairhaven (vardo)"
-    }
-  ]
+  "future_games": []
 }

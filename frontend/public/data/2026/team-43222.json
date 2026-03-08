@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43222",
   "team_name": "D2H-Mansfield (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 1145,
     "pa": 1069,
     "diff": 76,
-    "sos": 1585.655,
-    "sos_adj": 1675.238,
-    "power": 1667.979,
+    "sos": 1584.604,
+    "sos_adj": 1674.187,
+    "power": 1662.799,
     "rank": 1,
-    "mw_rating": 154.5,
-    "mw_points": 1854,
+    "mw_rating": 154.7,
+    "mw_points": 1856,
     "divisionno": "7230",
     "division_name": "6th Boys - Division 2",
     "grade": 6,
@@ -489,9 +489,9 @@
       "dow": "Sun",
       "starttime": "9:30 AM",
       "location": "Mass Premier - 2",
-      "divisionno": "7230",
+      "divisionno": "7232",
       "division_name": "6th Boys - Division 2",
-      "home_teamno": "0",
+      "home_teamno": "45641",
       "away_teamno": "43222",
       "home_score": null,
       "away_score": null,
@@ -499,8 +499,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45641",
+      "opponent_name": "D2K-Hopkinton (pantera6)"
     }
   ]
 }

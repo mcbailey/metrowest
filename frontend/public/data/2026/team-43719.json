@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43719",
   "team_name": "D6T-Concord-Carlisle (white)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 324,
     "pa": 581,
     "diff": -257,
-    "sos": 1411.529,
-    "sos_adj": 1317.779,
-    "power": 1320.546,
+    "sos": 1412.558,
+    "sos_adj": 1318.808,
+    "power": 1326.693,
     "rank": 5,
     "mw_rating": 10.8,
     "mw_points": 129,
@@ -337,9 +337,9 @@
       "dow": "Sun",
       "starttime": "11:50 AM",
       "location": "Watertown Middle School",
-      "divisionno": "7589",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "0",
+      "divisionno": "7594",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44767",
       "away_teamno": "43719",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44767",
+      "opponent_name": "D7T-Arlington (black)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43124",
   "team_name": "D6H-Barrington RI (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 538,
     "pa": 333,
     "diff": 205,
-    "sos": 1392.159,
-    "sos_adj": 1292.159,
-    "power": 1464.599,
+    "sos": 1392.142,
+    "sos_adj": 1292.142,
+    "power": 1455.439,
     "rank": 1,
-    "mw_rating": 34.2,
-    "mw_points": 410,
+    "mw_rating": 34.4,
+    "mw_points": 413,
     "divisionno": "7205",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
@@ -282,7 +282,7 @@
       "location": "Mass Premier - 6",
       "divisionno": "7205",
       "division_name": "6th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "43432",
       "away_teamno": "43124",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43432",
+      "opponent_name": "D5H-Westport (frias)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43936",
   "team_name": "D3M-Brookline (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 443,
     "pa": 549,
     "diff": -106,
-    "sos": 1547.131,
-    "sos_adj": 1597.131,
-    "power": 1519.525,
+    "sos": 1548.409,
+    "sos_adj": 1598.409,
+    "power": 1519.845,
     "rank": 6,
-    "mw_rating": 63.1,
-    "mw_points": 757,
+    "mw_rating": 63.3,
+    "mw_points": 759,
     "divisionno": "7228",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
@@ -280,9 +280,9 @@
       "dow": "Sun",
       "starttime": "8:00 AM",
       "location": "Ashland Mindess School",
-      "divisionno": "7228",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "0",
+      "divisionno": "7224",
+      "division_name": "6th Boys - Division 4",
+      "home_teamno": "45101",
       "away_teamno": "43936",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45101",
+      "opponent_name": "D4M-Framingham (navy)"
     }
   ]
 }

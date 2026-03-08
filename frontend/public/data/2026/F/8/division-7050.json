@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "F",
   "grade": 8,
   "divisionno": "7050",
@@ -21,8 +21,8 @@
       "sos_adj": 1799.899,
       "power": 1728.896,
       "rank": 1,
-      "mw_rating": 193.7,
-      "mw_points": 2131
+      "mw_rating": 193.8,
+      "mw_points": 2132
     },
     {
       "teamno": "43436",
@@ -38,25 +38,25 @@
       "sos_adj": 1781.737,
       "power": 1721.689,
       "rank": 2,
-      "mw_rating": 184.9,
-      "mw_points": 2034
+      "mw_rating": 185.2,
+      "mw_points": 2037
     },
     {
       "teamno": "43945",
       "name": "D1/2-Brookline (red)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 5,
       "ties": 0,
-      "pf": 607,
-      "pa": 503,
-      "diff": 104,
-      "sos": 1616.402,
-      "sos_adj": 1739.479,
-      "power": 1702.133,
+      "pf": 654,
+      "pa": 542,
+      "diff": 112,
+      "sos": 1613.409,
+      "sos_adj": 1734.838,
+      "power": 1708.782,
       "rank": 3,
-      "mw_rating": 107.8,
-      "mw_points": 1294
+      "mw_rating": 111.5,
+      "mw_points": 1450
     },
     {
       "teamno": "43776",
@@ -72,8 +72,8 @@
       "sos_adj": 1756.899,
       "power": 1701.319,
       "rank": 4,
-      "mw_rating": 155.7,
-      "mw_points": 1713
+      "mw_rating": 155.9,
+      "mw_points": 1715
     },
     {
       "teamno": "43339",
@@ -85,12 +85,12 @@
       "pf": 542,
       "pa": 543,
       "diff": -1,
-      "sos": 1644.776,
-      "sos_adj": 1786.443,
-      "power": 1696.56,
+      "sos": 1646.512,
+      "sos_adj": 1788.179,
+      "power": 1696.994,
       "rank": 5,
       "mw_rating": 159.6,
-      "mw_points": 1755
+      "mw_points": 1756
     },
     {
       "teamno": "45490",
@@ -102,12 +102,12 @@
       "pf": 369,
       "pa": 402,
       "diff": -33,
-      "sos": 1654.377,
-      "sos_adj": 1793.266,
-      "power": 1663.643,
+      "sos": 1655.534,
+      "sos_adj": 1794.423,
+      "power": 1663.932,
       "rank": 6,
-      "mw_rating": 124.0,
-      "mw_points": 1116
+      "mw_rating": 124.2,
+      "mw_points": 1118
     },
     {
       "teamno": "44983",
@@ -119,9 +119,9 @@
       "pf": 509,
       "pa": 624,
       "diff": -115,
-      "sos": 1651.927,
-      "sos_adj": 1779.199,
-      "power": 1616.608,
+      "sos": 1652.873,
+      "sos_adj": 1780.146,
+      "power": 1616.845,
       "rank": 7,
       "mw_rating": 100.6,
       "mw_points": 1106

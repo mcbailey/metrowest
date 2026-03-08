@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43433",
   "team_name": "D2K-Lexington (blue)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 852,
     "pa": 930,
     "diff": -78,
-    "sos": 1582.087,
-    "sos_adj": 1671.561,
-    "power": 1602.005,
+    "sos": 1581.697,
+    "sos_adj": 1671.171,
+    "power": 1603.496,
     "rank": 4,
     "mw_rating": 93.5,
     "mw_points": 1028,
@@ -394,9 +394,9 @@
       "dow": "Sun",
       "starttime": "1:40 PM",
       "location": "North Quincy High School (Ct 1)",
-      "divisionno": "7165",
-      "division_name": "8th Boys - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7160",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "44238",
       "away_teamno": "43433",
       "home_score": null,
       "away_score": null,
@@ -404,8 +404,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44238",
+      "opponent_name": "D3M-Wayland (black)"
     }
   ]
 }

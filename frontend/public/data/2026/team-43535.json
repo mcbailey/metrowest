@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43535",
   "team_name": "D6Q-Northboro (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 382,
     "pa": 338,
     "diff": 44,
-    "sos": 1424.493,
-    "sos_adj": 1342.674,
-    "power": 1387.405,
+    "sos": 1425.167,
+    "sos_adj": 1343.348,
+    "power": 1387.4,
     "rank": 3,
-    "mw_rating": 26.0,
-    "mw_points": 286,
+    "mw_rating": 26.2,
+    "mw_points": 288,
     "divisionno": "7177",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
@@ -244,7 +244,7 @@
       "location": "Hopkinton-Hopkins School",
       "divisionno": "7177",
       "division_name": "7th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44712",
       "away_teamno": "43535",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44712",
+      "opponent_name": "D6Q-Weston"
     }
   ]
 }

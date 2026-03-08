@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44469",
   "team_name": "D1A-Walpole (a)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 403,
     "pa": 244,
     "diff": 159,
-    "sos": 1634.481,
-    "sos_adj": 1770.196,
-    "power": 1677.412,
+    "sos": 1635.93,
+    "sos_adj": 1771.644,
+    "power": 1677.774,
     "rank": 2,
-    "mw_rating": 150.0,
-    "mw_points": 1650,
+    "mw_rating": 150.5,
+    "mw_points": 1655,
     "divisionno": "7090",
     "division_name": "4th Girls - Division 1",
     "grade": 4,
@@ -318,9 +318,9 @@
       "dow": "Sun",
       "starttime": "8:00 AM",
       "location": "Mansfield Fieldhouse -3",
-      "divisionno": "7090",
-      "division_name": "4th Girls - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7544",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "43312",
       "away_teamno": "44469",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43312",
+      "opponent_name": "D2K-Franklin"
     }
   ]
 }

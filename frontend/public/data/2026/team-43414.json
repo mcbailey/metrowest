@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43414",
   "team_name": "D1H-Brockton",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 712,
     "pa": 605,
     "diff": 107,
-    "sos": 1657.062,
-    "sos_adj": 1807.062,
-    "power": 1706.715,
-    "rank": 3,
-    "mw_rating": 169.2,
-    "mw_points": 1861,
+    "sos": 1655.12,
+    "sos_adj": 1805.12,
+    "power": 1706.229,
+    "rank": 2,
+    "mw_rating": 169.5,
+    "mw_points": 1864,
     "divisionno": "7166",
     "division_name": "8th Boys - Division 1",
     "grade": 8,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "12:10 PM",
       "location": "Mass Premier - 2",
-      "divisionno": "7166",
+      "divisionno": "7167",
       "division_name": "8th Boys - Division 1",
-      "home_teamno": "0",
+      "home_teamno": "45436",
       "away_teamno": "43414",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45436",
+      "opponent_name": "D1J-Cambridge"
     }
   ]
 }

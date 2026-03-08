@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43478",
   "team_name": "D5H-Somerset",
   "town": null,
   "summary": {
     "wins": 14,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 759,
-    "pa": 585,
-    "diff": 174,
-    "sos": 1440.128,
-    "sos_adj": 1381.304,
-    "power": 1475.005,
+    "pf": 792,
+    "pa": 635,
+    "diff": 157,
+    "sos": 1448.458,
+    "sos_adj": 1395.681,
+    "power": 1462.177,
     "rank": 2,
-    "mw_rating": 45.6,
-    "mw_points": 547,
+    "mw_rating": 45.7,
+    "mw_points": 594,
     "divisionno": "7212",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45364",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:00 PM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7212",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43478",
+      "away_teamno": "45626",
+      "home_score": 33,
+      "away_score": 50,
+      "team_score": 33,
+      "opponent_score": 50,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45626",
+      "opponent_name": "D3H-New Bedford"
+    },
     {
       "gameno": "378291",
       "date": "2026-03-01",
@@ -349,25 +368,5 @@
       "opponent_name": "D6R-Newton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45364",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "2:00 PM",
-      "location": "Mass Premier - 5",
-      "divisionno": "7212",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "43478",
-      "away_teamno": "45626",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45626",
-      "opponent_name": "D3H-New Bedford"
-    }
-  ]
+  "future_games": []
 }

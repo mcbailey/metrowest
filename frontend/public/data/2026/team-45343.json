@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45343",
   "team_name": "D5M-Milton (black)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 282,
     "pa": 257,
     "diff": 25,
-    "sos": 1447.753,
-    "sos_adj": 1401.919,
-    "power": 1445.403,
+    "sos": 1445.724,
+    "sos_adj": 1399.891,
+    "power": 1444.154,
     "rank": 3,
     "mw_rating": 30.2,
     "mw_points": 362,
@@ -263,7 +263,7 @@
       "location": "Mansfield Fieldhouse -2",
       "divisionno": "7314",
       "division_name": "5th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "44454",
       "away_teamno": "45343",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44454",
+      "opponent_name": "D5H-Barnstable  (white)"
     }
   ]
 }

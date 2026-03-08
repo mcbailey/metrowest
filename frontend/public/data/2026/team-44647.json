@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44647",
   "team_name": "D2K-Attleboro (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 332,
     "pa": 385,
     "diff": -53,
-    "sos": 1630.88,
-    "sos_adj": 1755.88,
-    "power": 1672.17,
+    "sos": 1632.89,
+    "sos_adj": 1757.89,
+    "power": 1672.673,
     "rank": 4,
-    "mw_rating": 119.5,
-    "mw_points": 1434,
+    "mw_rating": 119.8,
+    "mw_points": 1437,
     "divisionno": "7544",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
@@ -337,9 +337,9 @@
       "dow": "Sun",
       "starttime": "8:10 AM",
       "location": "Foxboro Sage School",
-      "divisionno": "7544",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7552",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "43556",
       "away_teamno": "44647",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43556",
+      "opponent_name": "D5M-Bridgewater (belz)"
     }
   ]
 }

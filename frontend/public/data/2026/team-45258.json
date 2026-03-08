@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45258",
   "team_name": "D1N-Waltham Boys (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 979,
     "pa": 484,
     "diff": 495,
-    "sos": 1607.87,
-    "sos_adj": 1715.764,
-    "power": 1730.169,
+    "sos": 1606.387,
+    "sos_adj": 1714.282,
+    "power": 1719.675,
     "rank": 2,
-    "mw_rating": 191.8,
-    "mw_points": 2302,
+    "mw_rating": 192.3,
+    "mw_points": 2308,
     "divisionno": "7573",
     "division_name": "4th Boys - Division 1",
     "grade": 4,
@@ -396,7 +396,7 @@
       "location": "Dana Barros - 1",
       "divisionno": "7573",
       "division_name": "4th Boys - Division 1",
-      "home_teamno": "0",
+      "home_teamno": "44898",
       "away_teamno": "45258",
       "home_score": null,
       "away_score": null,
@@ -404,8 +404,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44898",
+      "opponent_name": "D1M-North Attleboro (red)"
     }
   ]
 }

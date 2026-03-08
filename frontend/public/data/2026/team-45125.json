@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45125",
   "team_name": "D2K-Westwood",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 812,
     "pa": 775,
     "diff": 37,
-    "sos": 1603.788,
-    "sos_adj": 1703.788,
-    "power": 1638.999,
+    "sos": 1602.597,
+    "sos_adj": 1702.597,
+    "power": 1637.396,
     "rank": 1,
-    "mw_rating": 130.8,
-    "mw_points": 1569,
+    "mw_rating": 130.9,
+    "mw_points": 1571,
     "divisionno": "7232",
     "division_name": "6th Boys - Division 2",
     "grade": 6,
@@ -356,9 +356,9 @@
       "dow": "Sun",
       "starttime": "12:30 PM",
       "location": "Dana Barros - 4",
-      "divisionno": "7232",
-      "division_name": "6th Boys - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7225",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "45082",
       "away_teamno": "45125",
       "home_score": null,
       "away_score": null,
@@ -366,8 +366,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45082",
+      "opponent_name": "D3H-Fall River (jordyn)"
     }
   ]
 }

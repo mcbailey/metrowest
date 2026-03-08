@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44497",
   "team_name": "D4H-Wareham (silvia)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 289,
     "pa": 250,
     "diff": 39,
-    "sos": 1494.601,
-    "sos_adj": 1494.601,
-    "power": 1535.8,
+    "sos": 1492.731,
+    "sos_adj": 1492.731,
+    "power": 1535.332,
     "rank": 2,
     "mw_rating": 60.3,
     "mw_points": 663,
@@ -263,7 +263,7 @@
       "location": "Taunton High School  2",
       "divisionno": "7274",
       "division_name": "6th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "43129",
       "away_teamno": "44497",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43129",
+      "opponent_name": "D3H-Barrington RI (gold)"
     }
   ]
 }

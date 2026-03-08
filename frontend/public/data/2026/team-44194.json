@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44194",
   "team_name": "D6J-Parkway  (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 450,
     "pa": 479,
     "diff": -29,
-    "sos": 1402.309,
-    "sos_adj": 1302.309,
-    "power": 1358.848,
-    "rank": 4,
-    "mw_rating": 20.0,
-    "mw_points": 240,
+    "sos": 1402.861,
+    "sos_adj": 1302.861,
+    "power": 1358.986,
+    "rank": 5,
+    "mw_rating": 20.1,
+    "mw_points": 241,
     "divisionno": "7206",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
@@ -283,15 +283,15 @@
       "divisionno": "7206",
       "division_name": "6th Boys - Division 6",
       "home_teamno": "44194",
-      "away_teamno": "0",
+      "away_teamno": "43224",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43224",
+      "opponent_name": "D6H-Mansfield (green)"
     }
   ]
 }

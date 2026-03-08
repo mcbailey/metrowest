@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44778",
   "team_name": "D6T-Lincoln-Sudbury (green)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 680,
     "pa": 440,
     "diff": 240,
-    "sos": 1400.063,
-    "sos_adj": 1303.396,
-    "power": 1472.357,
+    "sos": 1398.873,
+    "sos_adj": 1302.206,
+    "power": 1462.408,
     "rank": 1,
-    "mw_rating": 37.5,
-    "mw_points": 450,
+    "mw_rating": 37.6,
+    "mw_points": 451,
     "divisionno": "7142",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
@@ -320,7 +320,7 @@
       "location": "Hopkinton Brown Gym",
       "divisionno": "7142",
       "division_name": "8th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44381",
       "away_teamno": "44778",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44381",
+      "opponent_name": "D5Q-Westborough"
     }
   ]
 }

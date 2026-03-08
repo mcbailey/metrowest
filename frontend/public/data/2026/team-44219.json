@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44219",
   "team_name": "D6H-Sharon (white)",
   "town": null,
   "summary": {
     "wins": 13,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 636,
-    "pa": 586,
-    "diff": 50,
-    "sos": 1431.055,
-    "sos_adj": 1361.61,
-    "power": 1457.114,
+    "pf": 658,
+    "pa": 623,
+    "diff": 35,
+    "sos": 1435.665,
+    "sos_adj": 1367.244,
+    "power": 1435.476,
     "rank": 2,
-    "mw_rating": 36.6,
-    "mw_points": 439,
+    "mw_rating": 34.7,
+    "mw_points": 451,
     "divisionno": "7283",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45233",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "5:40 PM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7283",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "43578",
+      "away_teamno": "44219",
+      "home_score": 37,
+      "away_score": 22,
+      "team_score": 22,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43578",
+      "opponent_name": "D5Q-North Quincy (sollinger)"
+    },
     {
       "gameno": "378855",
       "date": "2026-03-01",
@@ -368,25 +387,5 @@
       "opponent_name": "D5J-Dighton-Rehoboth (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45233",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "5:40 PM",
-      "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7283",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "43578",
-      "away_teamno": "44219",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43578",
-      "opponent_name": "D5Q-North Quincy (sollinger)"
-    }
-  ]
+  "future_games": []
 }

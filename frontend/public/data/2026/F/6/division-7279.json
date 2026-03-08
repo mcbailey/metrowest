@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "F",
   "grade": 6,
   "divisionno": "7279",
@@ -17,12 +17,12 @@
       "pf": 502,
       "pa": 416,
       "diff": 86,
-      "sos": 1557.777,
-      "sos_adj": 1611.11,
-      "power": 1631.244,
+      "sos": 1559.49,
+      "sos_adj": 1612.823,
+      "power": 1631.672,
       "rank": 1,
-      "mw_rating": 105.4,
-      "mw_points": 1265
+      "mw_rating": 105.5,
+      "mw_points": 1266
     },
     {
       "teamno": "44181",
@@ -38,8 +38,8 @@
       "sos_adj": 1566.734,
       "power": 1611.384,
       "rank": 2,
-      "mw_rating": 101.0,
-      "mw_points": 1313
+      "mw_rating": 101.1,
+      "mw_points": 1314
     },
     {
       "teamno": "43949",
@@ -51,12 +51,12 @@
       "pf": 483,
       "pa": 489,
       "diff": -6,
-      "sos": 1556.046,
-      "sos_adj": 1609.892,
-      "power": 1568.666,
+      "sos": 1558.023,
+      "sos_adj": 1611.869,
+      "power": 1569.16,
       "rank": 3,
-      "mw_rating": 85.6,
-      "mw_points": 1027
+      "mw_rating": 85.8,
+      "mw_points": 1029
     },
     {
       "teamno": "45339",
@@ -68,12 +68,12 @@
       "pf": 417,
       "pa": 412,
       "diff": 5,
-      "sos": 1554.812,
-      "sos_adj": 1614.812,
-      "power": 1564.873,
+      "sos": 1556.525,
+      "sos_adj": 1616.525,
+      "power": 1565.301,
       "rank": 4,
-      "mw_rating": 83.3,
-      "mw_points": 1083
+      "mw_rating": 83.5,
+      "mw_points": 1085
     },
     {
       "teamno": "44341",
@@ -85,12 +85,12 @@
       "pf": 322,
       "pa": 343,
       "diff": -21,
-      "sos": 1549.521,
-      "sos_adj": 1595.675,
-      "power": 1548.466,
+      "sos": 1551.497,
+      "sos_adj": 1597.651,
+      "power": 1548.96,
       "rank": 5,
-      "mw_rating": 69.5,
-      "mw_points": 904
+      "mw_rating": 69.6,
+      "mw_points": 905
     },
     {
       "teamno": "43403",
@@ -102,12 +102,12 @@
       "pf": 341,
       "pa": 370,
       "diff": -29,
-      "sos": 1555.081,
-      "sos_adj": 1609.247,
-      "power": 1542.107,
+      "sos": 1557.222,
+      "sos_adj": 1611.388,
+      "power": 1542.642,
       "rank": 6,
-      "mw_rating": 75.8,
-      "mw_points": 910
+      "mw_rating": 76.0,
+      "mw_points": 912
     },
     {
       "teamno": "44406",
@@ -119,29 +119,29 @@
       "pf": 331,
       "pa": 390,
       "diff": -59,
-      "sos": 1531.871,
-      "sos_adj": 1562.64,
-      "power": 1510.206,
+      "sos": 1533.847,
+      "sos_adj": 1564.616,
+      "power": 1510.7,
       "rank": 7,
-      "mw_rating": 62.2,
-      "mw_points": 746
+      "mw_rating": 62.3,
+      "mw_points": 748
     },
     {
       "teamno": "43521",
       "name": "D3J-Hopkinton (hinnenkamp)",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 12,
       "ties": 0,
-      "pf": 238,
-      "pa": 384,
-      "diff": -146,
-      "sos": 1545.77,
-      "sos_adj": 1588.078,
-      "power": 1482.991,
+      "pf": 274,
+      "pa": 401,
+      "diff": -127,
+      "sos": 1536.804,
+      "sos_adj": 1572.519,
+      "power": 1498.372,
       "rank": 8,
-      "mw_rating": 48.6,
-      "mw_points": 583
+      "mw_rating": 49.5,
+      "mw_points": 644
     }
   ]
 }

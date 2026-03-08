@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43448",
   "team_name": "D3M-Winchester (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 1252,
     "pa": 1157,
     "diff": 95,
-    "sos": 1546.363,
-    "sos_adj": 1592.659,
-    "power": 1610.863,
+    "sos": 1552.299,
+    "sos_adj": 1598.595,
+    "power": 1612.347,
     "rank": 3,
-    "mw_rating": 105.6,
-    "mw_points": 1267,
+    "mw_rating": 105.8,
+    "mw_points": 1270,
     "divisionno": "7160",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
@@ -546,9 +546,9 @@
       "dow": "Sun",
       "starttime": "3:00 PM",
       "location": "North Quincy High School (Ct 1)",
-      "divisionno": "7160",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "0",
+      "divisionno": "7154",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "43588",
       "away_teamno": "43448",
       "home_score": null,
       "away_score": null,
@@ -556,8 +556,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43588",
+      "opponent_name": "D4M-North Quincy (norton)"
     }
   ]
 }

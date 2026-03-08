@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "F",
   "grade": 5,
   "divisionno": "7317",
@@ -22,7 +22,7 @@
       "power": 1506.761,
       "rank": 1,
       "mw_rating": 54.3,
-      "mw_points": 651
+      "mw_points": 652
     },
     {
       "teamno": "43923",
@@ -38,8 +38,8 @@
       "sos_adj": 1398.064,
       "power": 1462.207,
       "rank": 2,
-      "mw_rating": 39.2,
-      "mw_points": 431
+      "mw_rating": 39.3,
+      "mw_points": 432
     },
     {
       "teamno": "43370",
@@ -59,21 +59,38 @@
       "mw_points": 299
     },
     {
+      "teamno": "44764",
+      "name": "D5T-Dover Sherborn (schaefers)",
+      "town": null,
+      "wins": 6,
+      "losses": 6,
+      "ties": 0,
+      "pf": 248,
+      "pa": 209,
+      "diff": 39,
+      "sos": 1449.184,
+      "sos_adj": 1399.184,
+      "power": 1432.561,
+      "rank": 4,
+      "mw_rating": 33.1,
+      "mw_points": 397
+    },
+    {
       "teamno": "44174",
       "name": "D5T-Holliston (ennis)",
       "town": null,
       "wins": 8,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pf": 291,
-      "pa": 279,
-      "diff": 12,
-      "sos": 1449.599,
-      "sos_adj": 1399.599,
-      "power": 1447.708,
-      "rank": 4,
-      "mw_rating": 37.8,
-      "mw_points": 454
+      "pf": 307,
+      "pa": 307,
+      "diff": 0,
+      "sos": 1451.119,
+      "sos_adj": 1401.119,
+      "power": 1427.692,
+      "rank": 5,
+      "mw_rating": 35.7,
+      "mw_points": 464
     },
     {
       "teamno": "44765",
@@ -88,26 +105,9 @@
       "sos": 1439.998,
       "sos_adj": 1389.998,
       "power": 1419.959,
-      "rank": 5,
-      "mw_rating": 28.0,
-      "mw_points": 336
-    },
-    {
-      "teamno": "44764",
-      "name": "D5T-Dover Sherborn (schaefers)",
-      "town": null,
-      "wins": 5,
-      "losses": 6,
-      "ties": 0,
-      "pf": 220,
-      "pa": 193,
-      "diff": 27,
-      "sos": 1452.805,
-      "sos_adj": 1402.805,
-      "power": 1413.069,
       "rank": 6,
-      "mw_rating": 30.8,
-      "mw_points": 339
+      "mw_rating": 28.1,
+      "mw_points": 337
     },
     {
       "teamno": "44210",

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44617",
   "team_name": "D5K-Newton (white)",
   "town": null,
@@ -11,18 +11,18 @@
     "pf": 296,
     "pa": 333,
     "diff": -37,
-    "sos": 1450.371,
-    "sos_adj": 1404.538,
-    "power": 1461.461,
-    "rank": 4,
-    "mw_rating": 31.7,
-    "mw_points": 349,
+    "sos": 1445.239,
+    "sos_adj": 1399.405,
+    "power": 1460.178,
+    "rank": 3,
+    "mw_rating": 35.5,
+    "mw_points": 426,
     "divisionno": "7238",
     "division_name": "8th Girls - Division 5",
     "grade": 8,
     "gender": "F",
     "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -267,12 +267,31 @@
       "away_teamno": "44617",
       "home_score": null,
       "away_score": null,
-      "team_score": null,
+      "team_score": 2,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
       "opponent_teamno": "45513",
       "opponent_name": "D4R-Everett"
+    },
+    {
+      "gameno": "46415",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7239",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "44369",
+      "away_teamno": "44617",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44369",
+      "opponent_name": "D5M-Belmont (white)"
     }
   ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44493",
   "team_name": "D5M-Wareham (silvia)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 451,
-    "pa": 348,
-    "diff": 103,
-    "sos": 1450.876,
-    "sos_adj": 1400.876,
-    "power": 1487.772,
-    "rank": 2,
-    "mw_rating": 43.1,
-    "mw_points": 474,
+    "pf": 483,
+    "pa": 385,
+    "diff": 98,
+    "sos": 1453.618,
+    "sos_adj": 1403.618,
+    "power": 1468.994,
+    "rank": 3,
+    "mw_rating": 40.7,
+    "mw_points": 488,
     "divisionno": "7581",
     "division_name": "4th Boys - Division 5",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44945",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "8:15 AM",
+      "location": "Old Rochester Junior High School",
+      "divisionno": "7581",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "43628",
+      "away_teamno": "44493",
+      "home_score": 37,
+      "away_score": 32,
+      "team_score": 32,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43628",
+      "opponent_name": "D5M-Middleborough (hufault)"
+    },
     {
       "gameno": "385464",
       "date": "2026-03-01",
@@ -235,25 +254,5 @@
       "opponent_name": "D5M-Monomoy (blue/teixiera)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44945",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "8:15 AM",
-      "location": "Old Rochester Junior High School",
-      "divisionno": "7581",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "43628",
-      "away_teamno": "44493",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43628",
-      "opponent_name": "D5M-Middleborough (hufault)"
-    }
-  ]
+  "future_games": []
 }

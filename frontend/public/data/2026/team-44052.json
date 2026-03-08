@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44052",
   "team_name": "D2K-Newton (black)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 816,
     "pa": 666,
     "diff": 150,
-    "sos": 1622.965,
-    "sos_adj": 1747.965,
-    "power": 1687.222,
+    "sos": 1624.311,
+    "sos_adj": 1749.311,
+    "power": 1682.535,
     "rank": 1,
-    "mw_rating": 158.1,
-    "mw_points": 1739,
+    "mw_rating": 158.5,
+    "mw_points": 1743,
     "divisionno": "7165",
     "division_name": "8th Boys - Division 2",
     "grade": 8,
@@ -320,7 +320,7 @@
       "location": "Dana Barros - 3",
       "divisionno": "7165",
       "division_name": "8th Boys - Division 2",
-      "home_teamno": "0",
+      "home_teamno": "44148",
       "away_teamno": "44052",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44148",
+      "opponent_name": "D2H-Easton (black)"
     }
   ]
 }

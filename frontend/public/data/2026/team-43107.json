@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43107",
   "team_name": "D3H-Seekonk (bradley)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 734,
     "pa": 691,
     "diff": 43,
-    "sos": 1551.801,
-    "sos_adj": 1595.134,
-    "power": 1595.831,
+    "sos": 1551.067,
+    "sos_adj": 1594.4,
+    "power": 1592.193,
     "rank": 4,
-    "mw_rating": 105.6,
-    "mw_points": 1162,
+    "mw_rating": 105.7,
+    "mw_points": 1163,
     "divisionno": "7225",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
@@ -337,9 +337,9 @@
       "dow": "Sun",
       "starttime": "1:20 PM",
       "location": "Taunton High Upper Gyn",
-      "divisionno": "7225",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "0",
+      "divisionno": "7212",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "44808",
       "away_teamno": "43107",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44808",
+      "opponent_name": "D5H-Fall River (hart)"
     }
   ]
 }

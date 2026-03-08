@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44072",
   "team_name": "D6R-Watertown (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 534,
     "pa": 489,
     "diff": 45,
-    "sos": 1402.659,
-    "sos_adj": 1302.659,
-    "power": 1411.914,
+    "sos": 1401.338,
+    "sos_adj": 1301.338,
+    "power": 1407.959,
     "rank": 2,
-    "mw_rating": 25.6,
-    "mw_points": 281,
+    "mw_rating": 25.7,
+    "mw_points": 283,
     "divisionno": "7178",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
@@ -320,7 +320,7 @@
       "location": "Hopkinton-Hopkins School",
       "divisionno": "7178",
       "division_name": "7th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "43873",
       "away_teamno": "44072",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43873",
+      "opponent_name": "D6Q-Southboro (white)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45650",
   "team_name": "D4M-Hopkinton (bouzan)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 417,
     "pa": 361,
     "diff": 56,
-    "sos": 1494.553,
-    "sos_adj": 1507.053,
-    "power": 1547.508,
+    "sos": 1496.224,
+    "sos_adj": 1508.724,
+    "power": 1547.926,
     "rank": 1,
-    "mw_rating": 77.0,
-    "mw_points": 924,
+    "mw_rating": 77.1,
+    "mw_points": 925,
     "divisionno": "7577",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "9:05 AM",
       "location": "Hopkinton-Marathon School",
-      "divisionno": "7577",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7583",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "45084",
       "away_teamno": "45650",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45084",
+      "opponent_name": "D5T-Framingham (navy)"
     }
   ]
 }

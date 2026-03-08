@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43604",
   "team_name": "D4M-Norwood (blue)",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1493.606,
     "power": 1543.612,
     "rank": 3,
-    "mw_rating": 79.4,
-    "mw_points": 873,
+    "mw_rating": 79.6,
+    "mw_points": 875,
     "divisionno": "7577",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
@@ -242,9 +242,9 @@
       "dow": "Sun",
       "starttime": "10:40 AM",
       "location": "Mansfield Fieldhouse -1",
-      "divisionno": "7577",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7581",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "43628",
       "away_teamno": "43604",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43628",
+      "opponent_name": "D5M-Middleborough (hufault)"
     }
   ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44378",
   "team_name": "D5T-Westborough",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 393,
-    "pa": 341,
-    "diff": 52,
-    "sos": 1445.886,
-    "sos_adj": 1391.72,
-    "power": 1456.884,
+    "pf": 409,
+    "pa": 370,
+    "diff": 39,
+    "sos": 1450.78,
+    "sos_adj": 1400.78,
+    "power": 1441.491,
     "rank": 3,
-    "mw_rating": 40.7,
-    "mw_points": 488,
+    "mw_rating": 39.5,
+    "mw_points": 513,
     "divisionno": "7295",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45198",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "12:05 PM",
+      "location": "Westborough Gibbons Middle School",
+      "divisionno": "7295",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "44378",
+      "away_teamno": "44716",
+      "home_score": 16,
+      "away_score": 29,
+      "team_score": 16,
+      "opponent_score": 29,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44716",
+      "opponent_name": "D4Q-Arlington (white)"
+    },
     {
       "gameno": "376978",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5W-Winchester (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45198",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "12:05 PM",
-      "location": "Westborough Gibbons Middle School",
-      "divisionno": "7295",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "44378",
-      "away_teamno": "44716",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44716",
-      "opponent_name": "D4Q-Arlington (white)"
-    }
-  ]
+  "future_games": []
 }

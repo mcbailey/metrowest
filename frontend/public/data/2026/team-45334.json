@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45334",
   "team_name": "D1/2J-Milton (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 914,
     "pa": 582,
     "diff": 332,
-    "sos": 1598.244,
-    "sos_adj": 1695.744,
-    "power": 1730.121,
+    "sos": 1598.942,
+    "sos_adj": 1696.442,
+    "power": 1723.427,
     "rank": 2,
-    "mw_rating": 203.4,
-    "mw_points": 2237,
+    "mw_rating": 203.6,
+    "mw_points": 2240,
     "divisionno": "7265",
     "division_name": "7th Girls - Division 1",
     "grade": 7,
@@ -415,7 +415,7 @@
       "location": "Dana Barros - 4",
       "divisionno": "7265",
       "division_name": "7th Girls - Division 1",
-      "home_teamno": "0",
+      "home_teamno": "44483",
       "away_teamno": "45334",
       "home_score": null,
       "away_score": null,
@@ -423,8 +423,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44483",
+      "opponent_name": "D1/2H-Easton (black)"
     }
   ]
 }

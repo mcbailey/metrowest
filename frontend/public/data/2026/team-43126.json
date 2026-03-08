@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43126",
   "team_name": "D5H-Barrington RI (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 432,
     "pa": 440,
     "diff": -8,
-    "sos": 1424.066,
-    "sos_adj": 1374.066,
-    "power": 1424.693,
-    "rank": 4,
-    "mw_rating": 36.2,
-    "mw_points": 398,
+    "sos": 1439.345,
+    "sos_adj": 1389.345,
+    "power": 1429.145,
+    "rank": 5,
+    "mw_rating": 36.5,
+    "mw_points": 401,
     "divisionno": "7179",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
@@ -263,7 +263,7 @@
       "location": "Taunton High School 3",
       "divisionno": "7179",
       "division_name": "7th Boys - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "43153",
       "away_teamno": "43126",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43153",
+      "opponent_name": "D5H-Dighton-Rehoboth (white)"
     }
   ]
 }

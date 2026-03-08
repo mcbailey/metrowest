@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44061",
   "team_name": "D3K-Wellesley ((a))",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 526,
     "pa": 386,
     "diff": 140,
-    "sos": 1538.215,
-    "sos_adj": 1584.048,
-    "power": 1593.288,
+    "sos": 1542.314,
+    "sos_adj": 1588.147,
+    "power": 1590.835,
     "rank": 2,
-    "mw_rating": 89.6,
-    "mw_points": 1075,
+    "mw_rating": 89.9,
+    "mw_points": 1079,
     "divisionno": "7305",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
@@ -263,7 +263,7 @@
       "location": "Sudbury Fieldhouse-Court 2",
       "divisionno": "7305",
       "division_name": "5th Boys - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "43462",
       "away_teamno": "44061",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43462",
+      "opponent_name": "D3K-Winchester (white)"
     }
   ]
 }

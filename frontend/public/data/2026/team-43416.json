@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43416",
   "team_name": "D1H-Brockton",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 651,
     "pa": 467,
     "diff": 184,
-    "sos": 1635.185,
-    "sos_adj": 1781.019,
-    "power": 1748.264,
+    "sos": 1633.636,
+    "sos_adj": 1779.469,
+    "power": 1741.326,
     "rank": 2,
-    "mw_rating": 193.8,
-    "mw_points": 2325,
+    "mw_rating": 194.0,
+    "mw_points": 2328,
     "divisionno": "7234",
     "division_name": "6th Boys - Division 1",
     "grade": 6,
@@ -263,7 +263,7 @@
       "location": "Mass Premier - 5",
       "divisionno": "7234",
       "division_name": "6th Boys - Division 1",
-      "home_teamno": "0",
+      "home_teamno": "43148",
       "away_teamno": "43416",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43148",
+      "opponent_name": "D1H-Dighton-Rehoboth (green)"
     }
   ]
 }

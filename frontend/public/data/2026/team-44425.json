@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44425",
   "team_name": "D4H-Norton",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 225,
     "pa": 305,
     "diff": -80,
-    "sos": 1516.665,
-    "sos_adj": 1512.119,
-    "power": 1481.42,
+    "sos": 1520.545,
+    "sos_adj": 1516.0,
+    "power": 1482.39,
     "rank": 6,
     "mw_rating": 43.1,
     "mw_points": 474,
@@ -244,7 +244,7 @@
       "location": "Taunton High Upper Gyn",
       "divisionno": "7319",
       "division_name": "5th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "43101",
       "away_teamno": "44425",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43101",
+      "opponent_name": "D4H-Swansea"
     }
   ]
 }

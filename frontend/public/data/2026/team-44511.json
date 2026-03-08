@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44511",
   "team_name": "D5Q-Milford (red-consigli)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 359,
     "pa": 189,
     "diff": 170,
-    "sos": 1441.847,
-    "sos_adj": 1396.393,
-    "power": 1527.587,
+    "sos": 1443.117,
+    "sos_adj": 1397.663,
+    "power": 1518.806,
     "rank": 1,
-    "mw_rating": 58.7,
-    "mw_points": 646,
+    "mw_rating": 58.9,
+    "mw_points": 648,
     "divisionno": "7271",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
@@ -263,7 +263,7 @@
       "location": "Westborough Gibbons Middle School",
       "divisionno": "7271",
       "division_name": "6th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "43686",
       "away_teamno": "44511",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43686",
+      "opponent_name": "D5H-Sharon (maroon)"
     }
   ]
 }

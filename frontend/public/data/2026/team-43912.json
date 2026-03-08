@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43912",
   "team_name": "D1H-Wellesley (a)",
   "town": null,
@@ -11,10 +11,10 @@
     "pf": 722,
     "pa": 751,
     "diff": -29,
-    "sos": 1644.555,
-    "sos_adj": 1780.27,
-    "power": 1655.942,
-    "rank": 6,
+    "sos": 1641.802,
+    "sos_adj": 1777.517,
+    "power": 1655.254,
+    "rank": 7,
     "mw_rating": 133.3,
     "mw_points": 1466,
     "divisionno": "7166",
@@ -318,9 +318,9 @@
       "dow": "Sun",
       "starttime": "5:40 PM",
       "location": "Dana Barros - 3",
-      "divisionno": "7166",
-      "division_name": "8th Boys - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7165",
+      "division_name": "8th Boys - Division 2",
+      "home_teamno": "44442",
       "away_teamno": "43912",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44442",
+      "opponent_name": "D2K-Bedford (blue)"
     }
   ]
 }

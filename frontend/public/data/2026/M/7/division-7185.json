@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "M",
   "grade": 7,
   "divisionno": "7185",
@@ -11,18 +11,18 @@
       "teamno": "44233",
       "name": "D5T-Wayland (black)",
       "town": null,
-      "wins": 15,
+      "wins": 16,
       "losses": 0,
       "ties": 0,
-      "pf": 824,
-      "pa": 395,
-      "diff": 429,
-      "sos": 1442.856,
-      "sos_adj": 1392.856,
-      "power": 1535.948,
+      "pf": 882,
+      "pa": 429,
+      "diff": 453,
+      "sos": 1443.041,
+      "sos_adj": 1393.041,
+      "power": 1537.144,
       "rank": 1,
-      "mw_rating": 59.7,
-      "mw_points": 716
+      "mw_rating": 59.9,
+      "mw_points": 778
     },
     {
       "teamno": "45302",
@@ -34,12 +34,12 @@
       "pf": 460,
       "pa": 403,
       "diff": 57,
-      "sos": 1456.307,
-      "sos_adj": 1410.474,
-      "power": 1488.689,
+      "sos": 1457.334,
+      "sos_adj": 1411.501,
+      "power": 1484.089,
       "rank": 2,
-      "mw_rating": 45.0,
-      "mw_points": 540
+      "mw_rating": 45.2,
+      "mw_points": 542
     },
     {
       "teamno": "44050",
@@ -51,12 +51,12 @@
       "pf": 495,
       "pa": 407,
       "diff": 88,
-      "sos": 1469.437,
-      "sos_adj": 1437.619,
-      "power": 1464.175,
+      "sos": 1470.666,
+      "sos_adj": 1438.847,
+      "power": 1462.755,
       "rank": 3,
-      "mw_rating": 46.3,
-      "mw_points": 509
+      "mw_rating": 46.5,
+      "mw_points": 511
     },
     {
       "teamno": "44776",
@@ -68,12 +68,12 @@
       "pf": 552,
       "pa": 651,
       "diff": -99,
-      "sos": 1465.638,
-      "sos_adj": 1428.971,
-      "power": 1456.621,
+      "sos": 1466.401,
+      "sos_adj": 1429.734,
+      "power": 1455.624,
       "rank": 4,
-      "mw_rating": 35.6,
-      "mw_points": 427
+      "mw_rating": 35.8,
+      "mw_points": 430
     },
     {
       "teamno": "43383",
@@ -85,12 +85,12 @@
       "pf": 370,
       "pa": 353,
       "diff": 17,
-      "sos": 1448.069,
-      "sos_adj": 1398.069,
-      "power": 1453.357,
+      "sos": 1449.616,
+      "sos_adj": 1399.616,
+      "power": 1452.11,
       "rank": 5,
-      "mw_rating": 36.2,
-      "mw_points": 398
+      "mw_rating": 36.4,
+      "mw_points": 400
     },
     {
       "teamno": "45315",
@@ -102,12 +102,12 @@
       "pf": 774,
       "pa": 988,
       "diff": -214,
-      "sos": 1443.309,
-      "sos_adj": 1391.309,
-      "power": 1398.668,
+      "sos": 1444.374,
+      "sos_adj": 1392.374,
+      "power": 1402.6,
       "rank": 6,
-      "mw_rating": 20.3,
-      "mw_points": 244
+      "mw_rating": 20.4,
+      "mw_points": 245
     }
   ]
 }

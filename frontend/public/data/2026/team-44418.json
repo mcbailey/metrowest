@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44418",
   "team_name": "D6K-Dedham (clifford)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 455,
-    "pa": 538,
-    "diff": -83,
-    "sos": 1404.156,
-    "sos_adj": 1308.002,
-    "power": 1360.561,
-    "rank": 5,
-    "mw_rating": 16.3,
-    "mw_points": 212,
+    "pf": 487,
+    "pa": 574,
+    "diff": -87,
+    "sos": 1405.496,
+    "sos_adj": 1309.068,
+    "power": 1350.835,
+    "rank": 6,
+    "mw_rating": 15.5,
+    "mw_points": 217,
     "divisionno": "7139",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45856",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "7:20 PM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7139",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "44418",
+      "away_teamno": "43731",
+      "home_score": 32,
+      "away_score": 36,
+      "team_score": 32,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43731",
+      "opponent_name": "D6J-Sharon (maroon-bernstein)"
+    },
     {
       "gameno": "45851",
       "date": "2026-03-04",
@@ -273,25 +292,5 @@
       "opponent_name": "D6M-Northboro (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45856",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "7:20 PM",
-      "location": "Mass Premier - 5",
-      "divisionno": "7139",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "44418",
-      "away_teamno": "43731",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43731",
-      "opponent_name": "D6J-Sharon (maroon-bernstein)"
-    }
-  ]
+  "future_games": []
 }

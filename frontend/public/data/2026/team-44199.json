@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44199",
   "team_name": "D2N-Parkway  (red)",
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 12,
+    "losses": 13,
     "ties": 0,
-    "pf": 373,
-    "pa": 615,
-    "diff": -242,
-    "sos": 1635.778,
-    "sos_adj": 1750.064,
-    "power": 1593.753,
+    "pf": 393,
+    "pa": 653,
+    "diff": -260,
+    "sos": 1624.662,
+    "sos_adj": 1727.996,
+    "power": 1559.517,
     "rank": 7,
-    "mw_rating": 84.3,
-    "mw_points": 1012,
+    "mw_rating": 78.6,
+    "mw_points": 1022,
     "divisionno": "7575",
     "division_name": "4th Boys - Division 2",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45014",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "9:40 AM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7582",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "43783",
+      "away_teamno": "44199",
+      "home_score": 38,
+      "away_score": 20,
+      "team_score": 20,
+      "opponent_score": 38,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43783",
+      "opponent_name": "D5R-Millis (maroon)"
+    },
     {
       "gameno": "385431",
       "date": "2026-03-01",
@@ -292,25 +311,5 @@
       "opponent_name": "D4N-Needham (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45014",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "9:40 AM",
-      "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7582",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "43783",
-      "away_teamno": "44199",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43783",
-      "opponent_name": "D5R-Millis (maroon)"
-    }
-  ]
+  "future_games": []
 }

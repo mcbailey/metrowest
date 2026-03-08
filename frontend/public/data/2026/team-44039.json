@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44039",
   "team_name": "D6Q-Newton (orange)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 216,
-    "pa": 189,
-    "diff": 27,
-    "sos": 1435.317,
-    "sos_adj": 1380.772,
-    "power": 1440.39,
-    "rank": 2,
-    "mw_rating": 37.3,
-    "mw_points": 410,
+    "pf": 240,
+    "pa": 219,
+    "diff": 21,
+    "sos": 1426.709,
+    "sos_adj": 1364.209,
+    "power": 1409.765,
+    "rank": 3,
+    "mw_rating": 34.3,
+    "mw_points": 411,
     "divisionno": "7551",
     "division_name": "4th Girls - Division 6",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45915",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:30 AM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7558",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "43469",
+      "away_teamno": "44039",
+      "home_score": 30,
+      "away_score": 24,
+      "team_score": 24,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43469",
+      "opponent_name": "D7Q-Winchester (black)"
+    },
     {
       "gameno": "384286",
       "date": "2026-03-01",
@@ -235,25 +254,5 @@
       "opponent_name": "D4N-Medfield (dicalogero)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45915",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "10:30 AM",
-      "location": "Ashland Mindess School",
-      "divisionno": "7558",
-      "division_name": "4th Girls - Division 7",
-      "home_teamno": "43469",
-      "away_teamno": "44039",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43469",
-      "opponent_name": "D7Q-Winchester (black)"
-    }
-  ]
+  "future_games": []
 }

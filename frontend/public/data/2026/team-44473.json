@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44473",
   "team_name": "D2H-Walpole (a)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 413,
     "pa": 339,
     "diff": 74,
-    "sos": 1615.767,
-    "sos_adj": 1719.338,
-    "power": 1642.483,
+    "sos": 1611.005,
+    "sos_adj": 1714.577,
+    "power": 1640.028,
     "rank": 3,
-    "mw_rating": 131.4,
-    "mw_points": 1445,
+    "mw_rating": 131.6,
+    "mw_points": 1448,
     "divisionno": "7327",
     "division_name": "5th Girls - Division 2",
     "grade": 5,
@@ -299,9 +299,9 @@
       "dow": "Sun",
       "starttime": "1:30 PM",
       "location": "Foxboro Sage School",
-      "divisionno": "7327",
+      "divisionno": "7328",
       "division_name": "5th Girls - Division 2",
-      "home_teamno": "0",
+      "home_teamno": "43641",
       "away_teamno": "44473",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43641",
+      "opponent_name": "D2J-Needham (gold)"
     }
   ]
 }

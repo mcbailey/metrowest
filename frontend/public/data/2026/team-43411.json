@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43411",
   "team_name": "D5M-Norwood (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 302,
     "pa": 319,
     "diff": -17,
-    "sos": 1458.088,
-    "sos_adj": 1411.659,
-    "power": 1419.03,
+    "sos": 1455.348,
+    "sos_adj": 1408.919,
+    "power": 1420.484,
     "rank": 6,
-    "mw_rating": 26.4,
-    "mw_points": 317,
+    "mw_rating": 26.5,
+    "mw_points": 318,
     "divisionno": "7314",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
@@ -301,7 +301,7 @@
       "location": "Mansfield Fieldhouse -2",
       "divisionno": "7314",
       "division_name": "5th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "45731",
       "away_teamno": "43411",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45731",
+      "opponent_name": "D5J-West Bridgewater (spillane)"
     }
   ]
 }

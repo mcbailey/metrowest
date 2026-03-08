@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44383",
   "team_name": "D4M-Westborough",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 371,
     "pa": 274,
     "diff": 97,
-    "sos": 1500.533,
-    "sos_adj": 1500.533,
-    "power": 1531.47,
+    "sos": 1498.77,
+    "sos_adj": 1498.77,
+    "power": 1531.03,
     "rank": 2,
-    "mw_rating": 62.3,
-    "mw_points": 748,
+    "mw_rating": 62.5,
+    "mw_points": 750,
     "divisionno": "7277",
     "division_name": "6th Girls - Division 4",
     "grade": 6,
@@ -263,7 +263,7 @@
       "location": "Westborough Gibbons Middle School",
       "divisionno": "7277",
       "division_name": "6th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "43704",
       "away_teamno": "44383",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43704",
+      "opponent_name": "D4K-Ashland"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43468",
   "team_name": "D2M-Winchester (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 675,
     "pa": 449,
     "diff": 226,
-    "sos": 1590.42,
-    "sos_adj": 1686.42,
-    "power": 1695.794,
+    "sos": 1591.566,
+    "sos_adj": 1687.566,
+    "power": 1692.412,
     "rank": 2,
-    "mw_rating": 148.8,
-    "mw_points": 1785,
+    "mw_rating": 149.1,
+    "mw_points": 1789,
     "divisionno": "7546",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
@@ -510,7 +510,7 @@
       "location": "Mansfield Fieldhouse -2",
       "divisionno": "7546",
       "division_name": "4th Girls - Division 2",
-      "home_teamno": "0",
+      "home_teamno": "43264",
       "away_teamno": "43468",
       "home_score": null,
       "away_score": null,
@@ -518,8 +518,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43264",
+      "opponent_name": "D2K-Dartmouth"
     }
   ]
 }

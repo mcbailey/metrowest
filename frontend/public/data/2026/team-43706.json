@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43706",
   "team_name": "D4M-Ashland",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 285,
     "pa": 252,
     "diff": 33,
-    "sos": 1495.864,
-    "sos_adj": 1495.864,
-    "power": 1527.394,
+    "sos": 1503.296,
+    "sos_adj": 1503.296,
+    "power": 1526.409,
     "rank": 3,
-    "mw_rating": 57.8,
-    "mw_points": 694,
+    "mw_rating": 58.0,
+    "mw_points": 696,
     "divisionno": "7322",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "4:45 PM",
       "location": "Ashland High School",
-      "divisionno": "7322",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7315",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "43986",
       "away_teamno": "43706",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43986",
+      "opponent_name": "D5Q-Canton (white)"
     }
   ]
 }

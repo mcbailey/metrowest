@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44123",
   "team_name": "D5J-Berkley",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1400.999,
     "power": 1526.982,
     "rank": 1,
-    "mw_rating": 59.4,
-    "mw_points": 713,
+    "mw_rating": 59.7,
+    "mw_points": 716,
     "divisionno": "7213",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
@@ -280,9 +280,9 @@
       "dow": "Sun",
       "starttime": "10:40 AM",
       "location": "Taunton High School 3",
-      "divisionno": "7213",
+      "divisionno": "7214",
       "division_name": "6th Boys - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "44089",
       "away_teamno": "44123",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44089",
+      "opponent_name": "D5K-Holbrook (blue)"
     }
   ]
 }

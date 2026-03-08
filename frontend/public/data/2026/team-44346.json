@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44346",
   "team_name": "D2L-Medway (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 236,
     "pa": 288,
     "diff": -52,
-    "sos": 1646.84,
-    "sos_adj": 1792.673,
-    "power": 1651.648,
+    "sos": 1646.329,
+    "sos_adj": 1792.162,
+    "power": 1651.521,
     "rank": 4,
-    "mw_rating": 95.2,
-    "mw_points": 1142,
+    "mw_rating": 95.3,
+    "mw_points": 1144,
     "divisionno": "7545",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "10:50 AM",
       "location": "Foxboro Sage School",
-      "divisionno": "7545",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7554",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "44379",
       "away_teamno": "44346",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44379",
+      "opponent_name": "D5P-Belmont (maroon)"
     }
   ]
 }

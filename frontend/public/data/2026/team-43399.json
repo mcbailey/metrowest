@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43399",
   "team_name": "D4Q-Natick",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1530.073,
     "power": 1545.231,
     "rank": 2,
-    "mw_rating": 75.4,
-    "mw_points": 754,
+    "mw_rating": 75.6,
+    "mw_points": 756,
     "divisionno": "7260",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
@@ -396,7 +396,7 @@
       "location": "Ashland Mindess School",
       "divisionno": "7260",
       "division_name": "7th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "45110",
       "away_teamno": "43399",
       "home_score": null,
       "away_score": null,
@@ -404,8 +404,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45110",
+      "opponent_name": "D3J-Framingham (navy)"
     }
   ]
 }

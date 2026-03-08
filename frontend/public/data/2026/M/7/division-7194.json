@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "M",
   "grade": 7,
   "divisionno": "7194",
@@ -21,8 +21,8 @@
       "sos_adj": 1568.081,
       "power": 1616.108,
       "rank": 1,
-      "mw_rating": 104.2,
-      "mw_points": 1355
+      "mw_rating": 104.4,
+      "mw_points": 1357
     },
     {
       "teamno": "44129",
@@ -34,9 +34,9 @@
       "pf": 864,
       "pa": 727,
       "diff": 137,
-      "sos": 1543.913,
-      "sos_adj": 1606.413,
-      "power": 1584.844,
+      "sos": 1546.07,
+      "sos_adj": 1608.57,
+      "power": 1585.383,
       "rank": 2,
       "mw_rating": 101.5,
       "mw_points": 1218
@@ -51,12 +51,12 @@
       "pf": 623,
       "pa": 693,
       "diff": -70,
-      "sos": 1555.585,
-      "sos_adj": 1619.871,
-      "power": 1541.352,
+      "sos": 1558.05,
+      "sos_adj": 1622.336,
+      "power": 1541.968,
       "rank": 3,
-      "mw_rating": 80.0,
-      "mw_points": 960
+      "mw_rating": 80.1,
+      "mw_points": 961
     },
     {
       "teamno": "44465",
@@ -68,9 +68,9 @@
       "pf": 676,
       "pa": 677,
       "diff": -1,
-      "sos": 1549.495,
-      "sos_adj": 1599.495,
-      "power": 1521.56,
+      "sos": 1547.194,
+      "sos_adj": 1597.194,
+      "power": 1520.985,
       "rank": 4,
       "mw_rating": 66.1,
       "mw_points": 859
@@ -90,24 +90,24 @@
       "power": 1509.249,
       "rank": 5,
       "mw_rating": 74.2,
-      "mw_points": 964
+      "mw_points": 965
     },
     {
       "teamno": "43954",
       "name": "D3J-Foxboro (blue)",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 13,
       "ties": 0,
-      "pf": 533,
-      "pa": 760,
-      "diff": -227,
-      "sos": 1542.397,
-      "sos_adj": 1578.111,
-      "power": 1458.136,
+      "pf": 588,
+      "pa": 790,
+      "diff": -202,
+      "sos": 1536.248,
+      "sos_adj": 1572.915,
+      "power": 1482.718,
       "rank": 6,
-      "mw_rating": 45.7,
-      "mw_points": 548
+      "mw_rating": 50.8,
+      "mw_points": 660
     }
   ]
 }

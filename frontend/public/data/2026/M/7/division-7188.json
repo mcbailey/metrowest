@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "M",
   "grade": 7,
   "divisionno": "7188",
@@ -21,8 +21,8 @@
       "sos_adj": 1517.681,
       "power": 1579.869,
       "rank": 1,
-      "mw_rating": 77.7,
-      "mw_points": 1010
+      "mw_rating": 77.9,
+      "mw_points": 1012
     },
     {
       "teamno": "44979",
@@ -34,12 +34,12 @@
       "pf": 627,
       "pa": 603,
       "diff": 24,
-      "sos": 1496.9,
-      "sos_adj": 1500.746,
-      "power": 1546.955,
+      "sos": 1496.41,
+      "sos_adj": 1500.256,
+      "power": 1546.832,
       "rank": 2,
-      "mw_rating": 65.8,
-      "mw_points": 789
+      "mw_rating": 65.9,
+      "mw_points": 791
     },
     {
       "teamno": "44496",
@@ -55,8 +55,8 @@
       "sos_adj": 1517.961,
       "power": 1537.438,
       "rank": 3,
-      "mw_rating": 58.9,
-      "mw_points": 648
+      "mw_rating": 59.0,
+      "mw_points": 649
     },
     {
       "teamno": "43235",
@@ -72,42 +72,42 @@
       "sos_adj": 1506.062,
       "power": 1531.342,
       "rank": 4,
-      "mw_rating": 63.5,
-      "mw_points": 762
+      "mw_rating": 63.7,
+      "mw_points": 764
     },
     {
       "teamno": "43251",
       "name": "D4H-Dartmouth (white)",
       "town": null,
-      "wins": 12,
+      "wins": 13,
       "losses": 11,
       "ties": 0,
-      "pf": 948,
-      "pa": 869,
-      "diff": 79,
-      "sos": 1515.086,
-      "sos_adj": 1525.955,
-      "power": 1501.076,
+      "pf": 1001,
+      "pa": 915,
+      "diff": 86,
+      "sos": 1512.503,
+      "sos_adj": 1522.919,
+      "power": 1513.198,
       "rank": 5,
-      "mw_rating": 59.8,
-      "mw_points": 718
+      "mw_rating": 61.6,
+      "mw_points": 801
     },
     {
       "teamno": "43821",
       "name": "D4H-Raynham (connolly)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 6,
       "ties": 0,
-      "pf": 530,
-      "pa": 550,
-      "diff": -20,
-      "sos": 1511.422,
-      "sos_adj": 1519.756,
-      "power": 1479.83,
+      "pf": 574,
+      "pa": 570,
+      "diff": 4,
+      "sos": 1503.161,
+      "sos_adj": 1510.853,
+      "power": 1495.26,
       "rank": 6,
-      "mw_rating": 57.1,
-      "mw_points": 685
+      "mw_rating": 59.0,
+      "mw_points": 767
     },
     {
       "teamno": "43109",
@@ -123,8 +123,8 @@
       "sos_adj": 1497.006,
       "power": 1451.087,
       "rank": 7,
-      "mw_rating": 43.1,
-      "mw_points": 431
+      "mw_rating": 43.2,
+      "mw_points": 432
     }
   ]
 }

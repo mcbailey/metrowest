@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45214",
   "team_name": "D1H-East Greenwich",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 1726,
     "pa": 1271,
     "diff": 455,
-    "sos": 1544.768,
-    "sos_adj": 1592.983,
-    "power": 1697.405,
-    "rank": 5,
-    "mw_rating": 202.0,
-    "mw_points": 1818,
+    "sos": 1545.382,
+    "sos_adj": 1593.596,
+    "power": 1697.558,
+    "rank": 4,
+    "mw_rating": 202.3,
+    "mw_points": 1821,
     "divisionno": "7166",
     "division_name": "8th Boys - Division 1",
     "grade": 8,
@@ -584,9 +584,9 @@
       "dow": "Wed",
       "starttime": "7:50 PM",
       "location": "Mass Premier - 1",
-      "divisionno": "7166",
-      "division_name": "8th Boys - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7164",
+      "division_name": "8th Boys - Division 2",
+      "home_teamno": "44584",
       "away_teamno": "45214",
       "home_score": null,
       "away_score": null,
@@ -594,8 +594,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44584",
+      "opponent_name": "D2J-King Philip"
     }
   ]
 }

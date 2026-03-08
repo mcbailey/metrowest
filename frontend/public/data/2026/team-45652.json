@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45652",
   "team_name": "D4P-Hopkinton (klotsche4)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 395,
     "pa": 381,
     "diff": 14,
-    "sos": 1518.035,
-    "sos_adj": 1518.035,
-    "power": 1532.208,
+    "sos": 1516.164,
+    "sos_adj": 1516.164,
+    "power": 1528.971,
     "rank": 3,
     "mw_rating": 62.3,
-    "mw_points": 747,
+    "mw_points": 748,
     "divisionno": "7579",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "11:45 AM",
       "location": "Hopkinton-Marathon School",
-      "divisionno": "7579",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7583",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "44435",
       "away_teamno": "45652",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44435",
+      "opponent_name": "D5T-Bedford (blue)"
     }
   ]
 }

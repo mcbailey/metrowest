@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44746",
   "team_name": "D6R-Arlington (black)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 755,
     "pa": 707,
     "diff": 48,
-    "sos": 1412.773,
-    "sos_adj": 1327.058,
-    "power": 1442.597,
+    "sos": 1412.509,
+    "sos_adj": 1326.795,
+    "power": 1436.448,
     "rank": 1,
-    "mw_rating": 24.8,
-    "mw_points": 273,
+    "mw_rating": 25.0,
+    "mw_points": 275,
     "divisionno": "7178",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
@@ -434,7 +434,7 @@
       "location": "Hopkinton-Hopkins School",
       "divisionno": "7178",
       "division_name": "7th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "45649",
       "away_teamno": "44746",
       "home_score": null,
       "away_score": null,
@@ -442,8 +442,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45649",
+      "opponent_name": "D6K-Hopkinton (pereira)"
     }
   ]
 }

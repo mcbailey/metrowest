@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "F",
   "grade": 8,
   "divisionno": "7243",
@@ -17,12 +17,12 @@
       "pf": 611,
       "pa": 495,
       "diff": 116,
-      "sos": 1489.303,
-      "sos_adj": 1489.303,
-      "power": 1561.935,
+      "sos": 1488.471,
+      "sos_adj": 1488.471,
+      "power": 1561.727,
       "rank": 1,
-      "mw_rating": 68.7,
-      "mw_points": 756
+      "mw_rating": 68.8,
+      "mw_points": 757
     },
     {
       "teamno": "43541",
@@ -34,29 +34,29 @@
       "pf": 486,
       "pa": 417,
       "diff": 69,
-      "sos": 1493.731,
-      "sos_adj": 1484.64,
-      "power": 1541.17,
+      "sos": 1493.126,
+      "sos_adj": 1484.035,
+      "power": 1541.019,
       "rank": 2,
-      "mw_rating": 68.4,
-      "mw_points": 752
+      "mw_rating": 68.6,
+      "mw_points": 754
     },
     {
       "teamno": "44155",
       "name": "D4M-Holliston (mcadams -red)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 7,
       "ties": 0,
-      "pf": 389,
-      "pa": 396,
-      "diff": -7,
-      "sos": 1507.394,
-      "sos_adj": 1507.394,
-      "power": 1505.622,
+      "pf": 422,
+      "pa": 425,
+      "diff": -3,
+      "sos": 1500.638,
+      "sos_adj": 1496.792,
+      "power": 1511.887,
       "rank": 3,
-      "mw_rating": 51.2,
-      "mw_points": 563
+      "mw_rating": 51.7,
+      "mw_points": 620
     },
     {
       "teamno": "43257",
@@ -68,29 +68,29 @@
       "pf": 414,
       "pa": 414,
       "diff": 0,
-      "sos": 1503.996,
-      "sos_adj": 1503.996,
-      "power": 1495.083,
+      "sos": 1503.52,
+      "sos_adj": 1503.52,
+      "power": 1494.964,
       "rank": 4,
-      "mw_rating": 51.8,
-      "mw_points": 673
+      "mw_rating": 51.9,
+      "mw_points": 674
     },
     {
       "teamno": "44509",
       "name": "D4M-Milford (red-cunningham)",
       "town": null,
       "wins": 6,
-      "losses": 6,
+      "losses": 7,
       "ties": 1,
-      "pf": 417,
-      "pa": 436,
-      "diff": -19,
-      "sos": 1513.847,
-      "sos_adj": 1513.847,
-      "power": 1482.456,
+      "pf": 435,
+      "pa": 483,
+      "diff": -48,
+      "sos": 1518.603,
+      "sos_adj": 1522.174,
+      "power": 1470.628,
       "rank": 5,
-      "mw_rating": 54.3,
-      "mw_points": 651
+      "mw_rating": 53.6,
+      "mw_points": 697
     },
     {
       "teamno": "44792",
@@ -102,12 +102,12 @@
       "pf": 423,
       "pa": 421,
       "diff": 2,
-      "sos": 1513.719,
-      "sos_adj": 1517.565,
-      "power": 1469.504,
+      "sos": 1513.206,
+      "sos_adj": 1517.052,
+      "power": 1469.376,
       "rank": 6,
-      "mw_rating": 49.2,
-      "mw_points": 640
+      "mw_rating": 49.3,
+      "mw_points": 641
     }
   ]
 }

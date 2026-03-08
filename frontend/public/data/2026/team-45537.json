@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45537",
   "team_name": "D2M-Lawrence",
   "town": null,
   "summary": {
     "wins": 0,
-    "losses": 12,
+    "losses": 13,
     "ties": 0,
-    "pf": 350,
-    "pa": 539,
-    "diff": -189,
-    "sos": 1606.655,
-    "sos_adj": 1706.655,
-    "power": 1549.298,
+    "pf": 382,
+    "pa": 578,
+    "diff": -196,
+    "sos": 1598.939,
+    "sos_adj": 1695.093,
+    "power": 1536.379,
     "rank": 6,
-    "mw_rating": 70.0,
-    "mw_points": 840,
+    "mw_rating": 68.1,
+    "mw_points": 885,
     "divisionno": "7310",
     "division_name": "5th Boys - Division 2",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45126",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "3:50 PM",
+      "location": "Watertown Middle School",
+      "divisionno": "7305",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "45537",
+      "away_teamno": "45431",
+      "home_score": 32,
+      "away_score": 39,
+      "team_score": 32,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45431",
+      "opponent_name": "D3K-Lincoln-Sudbury (blue)"
+    },
     {
       "gameno": "374345",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D2M-Bedford (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45126",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "3:50 PM",
-      "location": "Watertown Middle School",
-      "divisionno": "7305",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "45537",
-      "away_teamno": "45431",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45431",
-      "opponent_name": "D3K-Lincoln-Sudbury (blue)"
-    }
-  ]
+  "future_games": []
 }

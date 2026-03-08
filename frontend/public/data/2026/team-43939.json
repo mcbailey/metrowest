@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43939",
   "team_name": "D1J-Brookline (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 1294,
     "pa": 1265,
     "diff": 29,
-    "sos": 1622.94,
-    "sos_adj": 1748.94,
-    "power": 1644.21,
-    "rank": 6,
-    "mw_rating": 148.5,
-    "mw_points": 1633,
+    "sos": 1624.737,
+    "sos_adj": 1750.737,
+    "power": 1647.711,
+    "rank": 7,
+    "mw_rating": 148.6,
+    "mw_points": 1635,
     "divisionno": "7167",
     "division_name": "8th Boys - Division 1",
     "grade": 8,
@@ -546,9 +546,9 @@
       "dow": "Sun",
       "starttime": "4:20 PM",
       "location": "Dana Barros - 3",
-      "divisionno": "7167",
-      "division_name": "8th Boys - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7160",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "45304",
       "away_teamno": "43939",
       "home_score": null,
       "away_score": null,
@@ -556,8 +556,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45304",
+      "opponent_name": "D3M-Medford (blue)"
     }
   ]
 }

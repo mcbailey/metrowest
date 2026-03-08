@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45112",
   "team_name": "D4M-Westwood (black)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 412,
     "pa": 317,
     "diff": 95,
-    "sos": 1480.648,
-    "sos_adj": 1484.814,
-    "power": 1545.701,
+    "sos": 1482.32,
+    "sos_adj": 1486.486,
+    "power": 1546.119,
     "rank": 2,
-    "mw_rating": 76.1,
-    "mw_points": 837,
+    "mw_rating": 76.2,
+    "mw_points": 838,
     "divisionno": "7577",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "12:00 PM",
       "location": "Mansfield Fieldhouse -1",
-      "divisionno": "7577",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7581",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "44283",
       "away_teamno": "45112",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44283",
+      "opponent_name": "D5M-Rochester (red)"
     }
   ]
 }

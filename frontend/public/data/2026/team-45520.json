@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45520",
   "team_name": "2NDH-Mass Premier (blue)",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 428,
-    "pa": 309,
-    "diff": 119,
-    "sos": 1549.825,
-    "sos_adj": 1599.825,
-    "power": 1615.904,
+    "pf": 466,
+    "pa": 354,
+    "diff": 112,
+    "sos": 1558.064,
+    "sos_adj": 1608.064,
+    "power": 1598.893,
     "rank": 3,
-    "mw_rating": 103.3,
-    "mw_points": 1239,
+    "mw_rating": 98.9,
+    "mw_points": 1285,
     "divisionno": "7629",
     "division_name": "3rd Boys - Division 3",
     "grade": 3,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44497",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "4:00 PM",
+      "location": "Jr Mass Premier-1",
+      "divisionno": "7629",
+      "division_name": "3rd Boys - Division 3",
+      "home_teamno": "45520",
+      "away_teamno": "45527",
+      "home_score": 38,
+      "away_score": 45,
+      "team_score": 38,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45527",
+      "opponent_name": "2NDH-King Philip (gibbs)"
+    },
     {
       "gameno": "44495",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "2NDM-West Bridgewater (arel)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44497",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "4:00 PM",
-      "location": "Jr Mass Premier-1",
-      "divisionno": "7629",
-      "division_name": "3rd Boys - Division 3",
-      "home_teamno": "45520",
-      "away_teamno": "45527",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45527",
-      "opponent_name": "2NDH-King Philip (gibbs)"
-    }
-  ]
+  "future_games": []
 }

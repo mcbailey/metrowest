@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44881",
   "team_name": "D5J-North Attleboro (black)",
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 94,
-    "pa": 356,
-    "diff": -262,
-    "sos": 1454.84,
-    "sos_adj": 1409.006,
-    "power": 1353.56,
+    "pf": 100,
+    "pa": 376,
+    "diff": -276,
+    "sos": 1454.408,
+    "sos_adj": 1408.254,
+    "power": 1341.68,
     "rank": 7,
-    "mw_rating": 15.0,
-    "mw_points": 180,
+    "mw_rating": 14.7,
+    "mw_points": 191,
     "divisionno": "7312",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46063",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "4:30 PM",
+      "location": "Mansfield Fieldhouse -1",
+      "divisionno": "7312",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44881",
+      "away_teamno": "43550",
+      "home_score": 6,
+      "away_score": 20,
+      "team_score": 6,
+      "opponent_score": 20,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43550",
+      "opponent_name": "D5H-Bridgewater (mcdonald)"
+    },
     {
       "gameno": "375811",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5H-Raynham (b. leclerc)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46063",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "4:30 PM",
-      "location": "Mansfield Fieldhouse -1",
-      "divisionno": "7312",
-      "division_name": "5th Girls - Division 5",
-      "home_teamno": "44881",
-      "away_teamno": "43550",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43550",
-      "opponent_name": "D5H-Bridgewater (mcdonald)"
-    }
-  ]
+  "future_games": []
 }

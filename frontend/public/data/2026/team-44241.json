@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44241",
   "team_name": "D3J-Wayland (black)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 413,
-    "pa": 369,
-    "diff": 44,
-    "sos": 1564.863,
-    "sos_adj": 1622.006,
-    "power": 1577.307,
-    "rank": 3,
-    "mw_rating": 99.5,
-    "mw_points": 1194,
+    "pf": 434,
+    "pa": 393,
+    "diff": 41,
+    "sos": 1570.754,
+    "sos_adj": 1630.754,
+    "power": 1570.591,
+    "rank": 4,
+    "mw_rating": 97.5,
+    "mw_points": 1267,
     "divisionno": "7326",
     "division_name": "5th Girls - Division 3",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44816",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:35 PM",
+      "location": "Foxboro Sage School",
+      "divisionno": "7326",
+      "division_name": "5th Girls - Division 3",
+      "home_teamno": "44241",
+      "away_teamno": "43641",
+      "home_score": 21,
+      "away_score": 24,
+      "team_score": 21,
+      "opponent_score": 24,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43641",
+      "opponent_name": "D2J-Needham (gold)"
+    },
     {
       "gameno": "373611",
       "date": "2026-03-01",
@@ -292,25 +311,5 @@
       "opponent_name": "D2J-Natick"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44816",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "1:35 PM",
-      "location": "Foxboro Sage School",
-      "divisionno": "7326",
-      "division_name": "5th Girls - Division 3",
-      "home_teamno": "44241",
-      "away_teamno": "43641",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43641",
-      "opponent_name": "D2J-Needham (gold)"
-    }
-  ]
+  "future_games": []
 }

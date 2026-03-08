@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44706",
   "team_name": "D3K-Arlington (maroon)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 870,
     "pa": 759,
     "diff": 111,
-    "sos": 1554.187,
-    "sos_adj": 1614.187,
-    "power": 1623.161,
+    "sos": 1558.241,
+    "sos_adj": 1618.241,
+    "power": 1618.463,
     "rank": 1,
-    "mw_rating": 103.6,
-    "mw_points": 1140,
+    "mw_rating": 104.0,
+    "mw_points": 1144,
     "divisionno": "7305",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
@@ -413,9 +413,9 @@
       "dow": "Sun",
       "starttime": "2:30 PM",
       "location": "Watertown Middle School",
-      "divisionno": "7305",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "0",
+      "divisionno": "7300",
+      "division_name": "5th Boys - Division 4",
+      "home_teamno": "43538",
       "away_teamno": "44706",
       "home_score": null,
       "away_score": null,
@@ -423,8 +423,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43538",
+      "opponent_name": "D4M-Northboro (red)"
     }
   ]
 }

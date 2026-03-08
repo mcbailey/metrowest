@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44690",
   "team_name": "D5T-Arlington (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 336,
     "pa": 369,
     "diff": -33,
-    "sos": 1455.484,
-    "sos_adj": 1422.151,
-    "power": 1437.279,
+    "sos": 1452.747,
+    "sos_adj": 1419.414,
+    "power": 1437.171,
     "rank": 2,
-    "mw_rating": 46.0,
-    "mw_points": 506,
+    "mw_rating": 46.2,
+    "mw_points": 508,
     "divisionno": "7273",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
@@ -396,7 +396,7 @@
       "location": "Hopkinton Brown Gym",
       "divisionno": "7273",
       "division_name": "6th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "43779",
       "away_teamno": "44690",
       "home_score": null,
       "away_score": null,
@@ -404,8 +404,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43779",
+      "opponent_name": "D4K-Millis"
     }
   ]
 }

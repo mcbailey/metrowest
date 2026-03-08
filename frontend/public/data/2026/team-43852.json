@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43852",
   "team_name": "D5H-Westport (medeiros)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 458,
-    "pa": 411,
-    "diff": 47,
-    "sos": 1440.752,
-    "sos_adj": 1390.752,
-    "power": 1461.243,
+    "pf": 491,
+    "pa": 448,
+    "diff": 43,
+    "sos": 1447.005,
+    "sos_adj": 1397.005,
+    "power": 1450.525,
     "rank": 2,
-    "mw_rating": 40.6,
-    "mw_points": 487,
+    "mw_rating": 38.4,
+    "mw_points": 499,
     "divisionno": "7289",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45205",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "12:20 PM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7292",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "43852",
+      "away_teamno": "44420",
+      "home_score": 33,
+      "away_score": 37,
+      "team_score": 33,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44420",
+      "opponent_name": "D5M-Norton (purple)"
+    },
     {
       "gameno": "376335",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5J-Somerset"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45205",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "12:20 PM",
-      "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7292",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "43852",
-      "away_teamno": "44420",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44420",
-      "opponent_name": "D5M-Norton (purple)"
-    }
-  ]
+  "future_games": []
 }

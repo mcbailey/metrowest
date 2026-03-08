@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43773",
   "team_name": "D4R-Concord-Carlisle (maroon)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 241,
     "pa": 365,
     "diff": -124,
-    "sos": 1485.24,
-    "sos_adj": 1470.954,
-    "power": 1476.092,
+    "sos": 1483.158,
+    "sos_adj": 1468.873,
+    "power": 1477.237,
     "rank": 3,
-    "mw_rating": 46.3,
-    "mw_points": 556,
+    "mw_rating": 46.5,
+    "mw_points": 558,
     "divisionno": "7261",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
@@ -318,9 +318,9 @@
       "dow": "Sun",
       "starttime": "10:30 AM",
       "location": "Westborough Gibbons Middle School",
-      "divisionno": "7261",
-      "division_name": "7th Girls - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7252",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "43682",
       "away_teamno": "43773",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43682",
+      "opponent_name": "D5K-Ashland (white)"
     }
   ]
 }

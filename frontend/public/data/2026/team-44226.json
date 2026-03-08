@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44226",
   "team_name": "D4M-Southboro (maroon)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 382,
     "pa": 320,
     "diff": 62,
-    "sos": 1534.125,
-    "sos_adj": 1554.958,
-    "power": 1528.258,
+    "sos": 1532.362,
+    "sos_adj": 1553.196,
+    "power": 1527.817,
     "rank": 3,
-    "mw_rating": 68.0,
-    "mw_points": 816,
+    "mw_rating": 68.2,
+    "mw_points": 818,
     "divisionno": "7277",
     "division_name": "6th Girls - Division 4",
     "grade": 6,
@@ -263,7 +263,7 @@
       "location": "Southborough Trottier Middle School",
       "divisionno": "7277",
       "division_name": "6th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "43521",
       "away_teamno": "44226",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43521",
+      "opponent_name": "D3J-Hopkinton (hinnenkamp)"
     }
   ]
 }

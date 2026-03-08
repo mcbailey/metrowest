@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44068",
   "team_name": "D4Q-Watertown (white)",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 732,
-    "pa": 729,
-    "diff": 3,
-    "sos": 1517.412,
-    "sos_adj": 1535.833,
-    "power": 1507.966,
-    "rank": 3,
-    "mw_rating": 72.3,
-    "mw_points": 867,
+    "pf": 760,
+    "pa": 771,
+    "diff": -11,
+    "sos": 1524.323,
+    "sos_adj": 1541.823,
+    "power": 1494.132,
+    "rank": 4,
+    "mw_rating": 69.0,
+    "mw_points": 897,
     "divisionno": "7301",
     "division_name": "5th Boys - Division 4",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45120",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "5:10 PM",
+      "location": "Watertown Middle School",
+      "divisionno": "7301",
+      "division_name": "5th Boys - Division 4",
+      "home_teamno": "44068",
+      "away_teamno": "43538",
+      "home_score": 28,
+      "away_score": 42,
+      "team_score": 28,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43538",
+      "opponent_name": "D4M-Northboro (red)"
+    },
     {
       "gameno": "378780",
       "date": "2026-03-01",
@@ -387,25 +406,5 @@
       "opponent_name": "D2AJ-North Attleboro (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45120",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "5:10 PM",
-      "location": "Watertown Middle School",
-      "divisionno": "7301",
-      "division_name": "5th Boys - Division 4",
-      "home_teamno": "44068",
-      "away_teamno": "43538",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43538",
-      "opponent_name": "D4M-Northboro (red)"
-    }
-  ]
+  "future_games": []
 }

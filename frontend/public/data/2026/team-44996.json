@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44996",
   "team_name": "D5Q-Dover Sherborn (cavallaro)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 677,
     "pa": 470,
     "diff": 207,
-    "sos": 1455.103,
-    "sos_adj": 1421.77,
-    "power": 1488.483,
+    "sos": 1452.454,
+    "sos_adj": 1419.121,
+    "power": 1487.821,
     "rank": 2,
-    "mw_rating": 51.4,
-    "mw_points": 617,
+    "mw_rating": 51.6,
+    "mw_points": 619,
     "divisionno": "7149",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
@@ -259,11 +259,11 @@
       "gameno": "45753",
       "date": "2026-03-08",
       "dow": "Sun",
-      "starttime": "7:30 PM",
+      "starttime": "6:15 PM",
       "location": "Sudbury Fieldhouse-Court 2",
-      "divisionno": "7149",
+      "divisionno": "7150",
       "division_name": "8th Boys - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "44054",
       "away_teamno": "44996",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44054",
+      "opponent_name": "D5R-Newton (white)"
     }
   ]
 }

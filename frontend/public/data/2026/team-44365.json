@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44365",
   "team_name": "D4N-Holliston (javier)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 246,
     "pa": 449,
     "diff": -203,
-    "sos": 1522.841,
-    "sos_adj": 1535.341,
-    "power": 1437.07,
+    "sos": 1514.877,
+    "sos_adj": 1527.377,
+    "power": 1442.255,
     "rank": 8,
-    "mw_rating": 33.1,
-    "mw_points": 397,
+    "mw_rating": 33.2,
+    "mw_points": 398,
     "divisionno": "7578",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "5:05 PM",
       "location": "Hopkinton Brown Gym",
-      "divisionno": "7578",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7582",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "43192",
       "away_teamno": "44365",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43192",
+      "opponent_name": "D5R-Bellingham (josh)"
     }
   ]
 }

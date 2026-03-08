@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44217",
   "team_name": "D6M-Sharon (maroon-ip)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 594,
     "pa": 413,
     "diff": 181,
-    "sos": 1402.146,
-    "sos_adj": 1309.289,
-    "power": 1414.67,
+    "sos": 1403.426,
+    "sos_adj": 1310.568,
+    "power": 1414.99,
     "rank": 1,
-    "mw_rating": 33.5,
-    "mw_points": 368,
+    "mw_rating": 33.8,
+    "mw_points": 372,
     "divisionno": "7208",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
@@ -321,15 +321,15 @@
       "divisionno": "7208",
       "division_name": "6th Boys - Division 6",
       "home_teamno": "44217",
-      "away_teamno": "0",
+      "away_teamno": "43289",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43289",
+      "opponent_name": "D5J-Middleborough (terrasi)"
     }
   ]
 }

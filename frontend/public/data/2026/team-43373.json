@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43373",
   "team_name": "D2K-Natick",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 841,
     "pa": 800,
     "diff": 41,
-    "sos": 1615.09,
-    "sos_adj": 1731.757,
-    "power": 1635.465,
-    "rank": 2,
-    "mw_rating": 134.8,
-    "mw_points": 1348,
+    "sos": 1615.599,
+    "sos_adj": 1732.265,
+    "power": 1635.339,
+    "rank": 3,
+    "mw_rating": 135.0,
+    "mw_points": 1350,
     "divisionno": "7165",
     "division_name": "8th Boys - Division 2",
     "grade": 8,
@@ -337,9 +337,9 @@
       "dow": "Sun",
       "starttime": "3:00 PM",
       "location": "Dana Barros - 3",
-      "divisionno": "7165",
-      "division_name": "8th Boys - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7159",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "44186",
       "away_teamno": "43373",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44186",
+      "opponent_name": "D3K-Parkway  (red)"
     }
   ]
 }

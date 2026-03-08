@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43623",
   "team_name": "D5M-Norwood (blue)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 446,
-    "pa": 489,
-    "diff": -43,
-    "sos": 1436.476,
-    "sos_adj": 1386.476,
-    "power": 1412.498,
-    "rank": 4,
-    "mw_rating": 24.6,
-    "mw_points": 320,
+    "pf": 486,
+    "pa": 534,
+    "diff": -48,
+    "sos": 1437.097,
+    "sos_adj": 1383.525,
+    "power": 1392.524,
+    "rank": 5,
+    "mw_rating": 23.2,
+    "mw_points": 325,
     "divisionno": "7215",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45409",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "9:20 AM",
+      "location": "Quincy Catholic Academy",
+      "divisionno": "7210",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "43623",
+      "away_teamno": "44057",
+      "home_score": 40,
+      "away_score": 45,
+      "team_score": 40,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44057",
+      "opponent_name": "D6R-Wellesley (c)"
+    },
     {
       "gameno": "45402",
       "date": "2026-03-05",
@@ -273,25 +292,5 @@
       "opponent_name": "D5K-North Attleboro (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45409",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "9:20 AM",
-      "location": "Quincy Catholic Academy",
-      "divisionno": "7210",
-      "division_name": "6th Boys - Division 6",
-      "home_teamno": "43623",
-      "away_teamno": "44057",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44057",
-      "opponent_name": "D6R-Wellesley (c)"
-    }
-  ]
+  "future_games": []
 }

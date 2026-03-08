@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45322",
   "team_name": "D1-Milton (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 1441,
     "pa": 767,
     "diff": 674,
-    "sos": 1552.277,
-    "sos_adj": 1605.725,
-    "power": 1735.129,
+    "sos": 1550.728,
+    "sos_adj": 1604.176,
+    "power": 1734.742,
     "rank": 1,
-    "mw_rating": 201.4,
-    "mw_points": 2417,
+    "mw_rating": 201.6,
+    "mw_points": 2419,
     "divisionno": "7077",
     "division_name": "5th Boys - Division 1",
     "grade": 5,
@@ -603,9 +603,9 @@
       "dow": "Sun",
       "starttime": "9:30 AM",
       "location": "Foxboro Ahern Middle (Gym 1)",
-      "divisionno": "7077",
-      "division_name": "5th Boys - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7309",
+      "division_name": "5th Boys - Division 2",
+      "home_teamno": "43877",
       "away_teamno": "45322",
       "home_score": null,
       "away_score": null,
@@ -613,8 +613,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43877",
+      "opponent_name": "D2K-Southboro (maroon)"
     }
   ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44085",
   "team_name": "D5P-Wellesley (a)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 234,
-    "pa": 177,
-    "diff": 57,
-    "sos": 1461.256,
-    "sos_adj": 1427.923,
-    "power": 1450.446,
+    "pf": 247,
+    "pa": 209,
+    "diff": 38,
+    "sos": 1471.741,
+    "sos_adj": 1437.125,
+    "power": 1442.956,
     "rank": 3,
-    "mw_rating": 38.6,
-    "mw_points": 425,
+    "mw_rating": 36.3,
+    "mw_points": 436,
     "divisionno": "7554",
     "division_name": "4th Girls - Division 5",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44784",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:55 AM",
+      "location": "Foxboro Sage School",
+      "divisionno": "7554",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "44085",
+      "away_teamno": "44379",
+      "home_score": 13,
+      "away_score": 32,
+      "team_score": 13,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44379",
+      "opponent_name": "D5P-Belmont (maroon)"
+    },
     {
       "gameno": "384995",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D2M-Wayland (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44784",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "10:55 AM",
-      "location": "Foxboro Sage School",
-      "divisionno": "7554",
-      "division_name": "4th Girls - Division 5",
-      "home_teamno": "44085",
-      "away_teamno": "44379",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44379",
-      "opponent_name": "D5P-Belmont (maroon)"
-    }
-  ]
+  "future_games": []
 }

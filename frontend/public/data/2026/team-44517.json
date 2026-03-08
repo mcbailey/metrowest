@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44517",
   "team_name": "D7T-Milford (white-santomenna)",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 212,
-    "pa": 396,
-    "diff": -184,
-    "sos": 1365.491,
-    "sos_adj": 1223.825,
-    "power": 1295.892,
+    "pf": 242,
+    "pa": 428,
+    "diff": -186,
+    "sos": 1367.571,
+    "sos_adj": 1225.263,
+    "power": 1289.648,
     "rank": 6,
-    "mw_rating": 7.9,
-    "mw_points": 95,
+    "mw_rating": 7.5,
+    "mw_points": 97,
     "divisionno": "7594",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45098",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:25 AM",
+      "location": "Hopkinton-Elmwood School",
+      "divisionno": "7594",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44517",
+      "away_teamno": "44417",
+      "home_score": 30,
+      "away_score": 32,
+      "team_score": 30,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44417",
+      "opponent_name": "D7Q-Dedham (muyide)"
+    },
     {
       "gameno": "45091",
       "date": "2026-03-04",
@@ -254,25 +273,5 @@
       "opponent_name": "D7V-Reading (mcgowen)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45098",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "10:25 AM",
-      "location": "Hopkinton-Elmwood School",
-      "divisionno": "7594",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44517",
-      "away_teamno": "44417",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44417",
-      "opponent_name": "D7Q-Dedham (muyide)"
-    }
-  ]
+  "future_games": []
 }

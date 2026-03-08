@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44783",
   "team_name": "D5K-Lincoln-Sudbury (red)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 368,
-    "pa": 348,
-    "diff": 20,
-    "sos": 1446.269,
-    "sos_adj": 1396.269,
-    "power": 1455.009,
-    "rank": 5,
-    "mw_rating": 38.3,
-    "mw_points": 421,
+    "pf": 389,
+    "pa": 379,
+    "diff": 10,
+    "sos": 1453.495,
+    "sos_adj": 1403.495,
+    "power": 1442.184,
+    "rank": 6,
+    "mw_rating": 35.9,
+    "mw_points": 431,
     "divisionno": "7252",
     "division_name": "7th Girls - Division 5",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46293",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "11:45 AM",
+      "location": "Ashland High School",
+      "divisionno": "7252",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "44783",
+      "away_teamno": "43682",
+      "home_score": 21,
+      "away_score": 31,
+      "team_score": 21,
+      "opponent_score": 31,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43682",
+      "opponent_name": "D5K-Ashland (white)"
+    },
     {
       "gameno": "380558",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5M-Lexington (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46293",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "11:45 AM",
-      "location": "Ashland High School",
-      "divisionno": "7252",
-      "division_name": "7th Girls - Division 5",
-      "home_teamno": "44783",
-      "away_teamno": "43682",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43682",
-      "opponent_name": "D5K-Ashland (white)"
-    }
-  ]
+  "future_games": []
 }

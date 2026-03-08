@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43328",
   "team_name": "D2H-Mansfield (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 846,
     "pa": 808,
     "diff": 38,
-    "sos": 1605.433,
-    "sos_adj": 1717.197,
-    "power": 1646.039,
+    "sos": 1606.961,
+    "sos_adj": 1718.726,
+    "power": 1644.747,
     "rank": 2,
-    "mw_rating": 132.5,
-    "mw_points": 1590,
+    "mw_rating": 132.7,
+    "mw_points": 1592,
     "divisionno": "7163",
     "division_name": "8th Boys - Division 2",
     "grade": 8,
@@ -356,9 +356,9 @@
       "dow": "Sun",
       "starttime": "8:20 AM",
       "location": "Dana Barros - 3",
-      "divisionno": "7163",
+      "divisionno": "7164",
       "division_name": "8th Boys - Division 2",
-      "home_teamno": "0",
+      "home_teamno": "45308",
       "away_teamno": "43328",
       "home_score": null,
       "away_score": null,
@@ -366,8 +366,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45308",
+      "opponent_name": "D2J-Milton (red)"
     }
   ]
 }

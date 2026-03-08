@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45579",
   "team_name": "D3J-Stoughton",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 529,
     "pa": 658,
     "diff": -129,
-    "sos": 1563.63,
-    "sos_adj": 1621.322,
-    "power": 1503.124,
+    "sos": 1551.951,
+    "sos_adj": 1609.643,
+    "power": 1500.204,
     "rank": 6,
     "mw_rating": 59.2,
     "mw_points": 710,
@@ -282,7 +282,7 @@
       "location": "Taunton High School 3",
       "divisionno": "7226",
       "division_name": "6th Boys - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "45626",
       "away_teamno": "45579",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45626",
+      "opponent_name": "D3H-New Bedford"
     }
   ]
 }

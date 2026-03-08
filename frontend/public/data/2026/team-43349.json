@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43349",
   "team_name": "D1A-Mansfield (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 657,
     "pa": 277,
     "diff": 380,
-    "sos": 1607.645,
-    "sos_adj": 1712.908,
-    "power": 1700.415,
+    "sos": 1606.578,
+    "sos_adj": 1711.841,
+    "power": 1700.148,
     "rank": 1,
-    "mw_rating": 175.2,
-    "mw_points": 2102,
+    "mw_rating": 175.5,
+    "mw_points": 2106,
     "divisionno": "7090",
     "division_name": "4th Girls - Division 1",
     "grade": 4,
@@ -413,9 +413,9 @@
       "dow": "Sun",
       "starttime": "1:20 PM",
       "location": "Mansfield Fieldhouse -2",
-      "divisionno": "7090",
-      "division_name": "4th Girls - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7544",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "43849",
       "away_teamno": "43349",
       "home_score": null,
       "away_score": null,
@@ -423,8 +423,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43849",
+      "opponent_name": "D2K-Raynham (connolly)"
     }
   ]
 }

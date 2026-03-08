@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45249",
   "team_name": "D2M-Waltham Boys (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 793,
     "pa": 788,
     "diff": 5,
-    "sos": 1607.42,
-    "sos_adj": 1713.67,
-    "power": 1643.635,
+    "sos": 1608.743,
+    "sos_adj": 1714.993,
+    "power": 1643.965,
     "rank": 3,
-    "mw_rating": 133.1,
-    "mw_points": 1597,
+    "mw_rating": 133.3,
+    "mw_points": 1599,
     "divisionno": "7233",
     "division_name": "6th Boys - Division 2",
     "grade": 6,
@@ -339,7 +339,7 @@
       "location": "Dana Barros - 2",
       "divisionno": "7233",
       "division_name": "6th Boys - Division 2",
-      "home_teamno": "0",
+      "home_teamno": "43205",
       "away_teamno": "45249",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43205",
+      "opponent_name": "D2H-FLBC (white)"
     }
   ]
 }

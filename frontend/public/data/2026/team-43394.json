@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43394",
   "team_name": "D2BJ-Natick",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 616,
-    "pa": 579,
-    "diff": 37,
-    "sos": 1585.829,
-    "sos_adj": 1674.064,
-    "power": 1628.224,
+    "pf": 655,
+    "pa": 626,
+    "diff": 29,
+    "sos": 1591.225,
+    "sos_adj": 1682.892,
+    "power": 1621.488,
     "rank": 2,
-    "mw_rating": 120.3,
-    "mw_points": 1443,
+    "mw_rating": 118.7,
+    "mw_points": 1543,
     "divisionno": "7049",
     "division_name": "8th Girls - Division 2",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44924",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "4:30 PM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7049",
+      "division_name": "8th Girls - Division 2",
+      "home_teamno": "43945",
+      "away_teamno": "43394",
+      "home_score": 47,
+      "away_score": 39,
+      "team_score": 39,
+      "opponent_score": 47,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43945",
+      "opponent_name": "D1/2-Brookline (red)"
+    },
     {
       "gameno": "44918",
       "date": "2026-03-05",
@@ -349,25 +368,5 @@
       "opponent_name": "Chelmsford (Maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44924",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "4:30 PM",
-      "location": "Mass Premier - 4",
-      "divisionno": "7049",
-      "division_name": "8th Girls - Division 2",
-      "home_teamno": "43945",
-      "away_teamno": "43394",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43945",
-      "opponent_name": "D1/2-Brookline (red)"
-    }
-  ]
+  "future_games": []
 }

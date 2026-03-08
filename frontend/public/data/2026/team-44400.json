@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44400",
   "team_name": "D4J-Dedham (vanderstreet)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 234,
     "pa": 236,
     "diff": -2,
-    "sos": 1486.438,
-    "sos_adj": 1490.285,
-    "power": 1497.474,
+    "sos": 1490.862,
+    "sos_adj": 1494.708,
+    "power": 1498.589,
     "rank": 3,
-    "mw_rating": 45.4,
-    "mw_points": 545,
+    "mw_rating": 45.5,
+    "mw_points": 546,
     "divisionno": "7320",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
@@ -280,9 +280,9 @@
       "dow": "Sun",
       "starttime": "6:50 PM",
       "location": "Dana Barros - 2",
-      "divisionno": "7320",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7312",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "43303",
       "away_teamno": "44400",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43303",
+      "opponent_name": "D5J-Franklin"
     }
   ]
 }

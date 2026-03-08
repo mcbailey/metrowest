@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45433",
   "team_name": "D5T-Lincoln-Sudbury (red)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 484,
-    "pa": 432,
-    "diff": 52,
-    "sos": 1431.281,
-    "sos_adj": 1367.947,
-    "power": 1455.519,
+    "pf": 513,
+    "pa": 469,
+    "diff": 44,
+    "sos": 1432.994,
+    "sos_adj": 1367.369,
+    "power": 1430.58,
     "rank": 4,
-    "mw_rating": 35.4,
-    "mw_points": 425,
+    "mw_rating": 33.1,
+    "mw_points": 430,
     "divisionno": "7295",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45424",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "5:05 PM",
+      "location": "Hopkinton Doyle Gym",
+      "divisionno": "7287",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "45647",
+      "away_teamno": "45433",
+      "home_score": 37,
+      "away_score": 29,
+      "team_score": 29,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45647",
+      "opponent_name": "D6Q-Hopkinton (smith)"
+    },
     {
       "gameno": "376977",
       "date": "2026-03-01",
@@ -311,25 +330,5 @@
       "opponent_name": "D5J-Somerset"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45424",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "5:05 PM",
-      "location": "Hopkinton Doyle Gym",
-      "divisionno": "7287",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "45647",
-      "away_teamno": "45433",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45647",
-      "opponent_name": "D6Q-Hopkinton (smith)"
-    }
-  ]
+  "future_games": []
 }

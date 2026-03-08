@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "M",
   "grade": 7,
   "divisionno": "7193",
@@ -21,8 +21,8 @@
       "sos_adj": 1590.63,
       "power": 1592.124,
       "rank": 1,
-      "mw_rating": 95.4,
-      "mw_points": 1145
+      "mw_rating": 95.5,
+      "mw_points": 1146
     },
     {
       "teamno": "43199",
@@ -34,12 +34,12 @@
       "pf": 703,
       "pa": 569,
       "diff": 134,
-      "sos": 1538.509,
-      "sos_adj": 1588.509,
-      "power": 1591.996,
+      "sos": 1535.644,
+      "sos_adj": 1585.644,
+      "power": 1591.28,
       "rank": 2,
-      "mw_rating": 102.9,
-      "mw_points": 1338
+      "mw_rating": 103.0,
+      "mw_points": 1339
     },
     {
       "teamno": "44869",
@@ -55,8 +55,8 @@
       "sos_adj": 1556.187,
       "power": 1583.067,
       "rank": 3,
-      "mw_rating": 92.2,
-      "mw_points": 1106
+      "mw_rating": 92.3,
+      "mw_points": 1107
     },
     {
       "teamno": "43318",
@@ -68,9 +68,9 @@
       "pf": 675,
       "pa": 746,
       "diff": -71,
-      "sos": 1537.014,
-      "sos_adj": 1580.347,
-      "power": 1521.534,
+      "sos": 1535.677,
+      "sos_adj": 1579.01,
+      "power": 1521.2,
       "rank": 4,
       "mw_rating": 74.3,
       "mw_points": 966
@@ -89,25 +89,25 @@
       "sos_adj": 1599.632,
       "power": 1518.689,
       "rank": 5,
-      "mw_rating": 68.2,
-      "mw_points": 887
+      "mw_rating": 68.3,
+      "mw_points": 888
     },
     {
       "teamno": "43125",
       "name": "D3H-Barrington RI (gold)",
       "town": null,
       "wins": 2,
-      "losses": 13,
+      "losses": 14,
       "ties": 0,
-      "pf": 605,
-      "pa": 796,
-      "diff": -191,
-      "sos": 1572.141,
-      "sos_adj": 1638.807,
-      "power": 1511.148,
+      "pf": 635,
+      "pa": 851,
+      "diff": -216,
+      "sos": 1571.611,
+      "sos_adj": 1637.236,
+      "power": 1495.714,
       "rank": 6,
-      "mw_rating": 62.8,
-      "mw_points": 753
+      "mw_rating": 61.5,
+      "mw_points": 799
     }
   ]
 }

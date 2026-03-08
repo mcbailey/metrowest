@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43122",
   "team_name": "D3H-Seekonk (holland)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 595,
     "pa": 509,
     "diff": 86,
-    "sos": 1576.281,
-    "sos_adj": 1641.666,
-    "power": 1639.809,
-    "rank": 2,
-    "mw_rating": 102.2,
-    "mw_points": 1226,
+    "sos": 1579.846,
+    "sos_adj": 1645.23,
+    "power": 1640.7,
+    "rank": 3,
+    "mw_rating": 102.5,
+    "mw_points": 1230,
     "divisionno": "7303",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
@@ -282,7 +282,7 @@
       "location": "Mansfield Fieldhouse -4",
       "divisionno": "7303",
       "division_name": "5th Boys - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "43324",
       "away_teamno": "43122",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43324",
+      "opponent_name": "D3H-Mansfield (white)"
     }
   ]
 }

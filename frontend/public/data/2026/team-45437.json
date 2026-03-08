@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45437",
   "team_name": "D2M-Cambridge",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 978,
     "pa": 843,
     "diff": 135,
-    "sos": 1592.08,
-    "sos_adj": 1683.746,
-    "power": 1683.772,
+    "sos": 1593.255,
+    "sos_adj": 1684.922,
+    "power": 1684.066,
     "rank": 1,
-    "mw_rating": 135.8,
-    "mw_points": 1630,
+    "mw_rating": 136.1,
+    "mw_points": 1633,
     "divisionno": "7233",
     "division_name": "6th Boys - Division 2",
     "grade": 6,
@@ -375,9 +375,9 @@
       "dow": "Sun",
       "starttime": "8:30 AM",
       "location": "Dana Barros - 4",
-      "divisionno": "7233",
-      "division_name": "6th Boys - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7229",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "45300",
       "away_teamno": "45437",
       "home_score": null,
       "away_score": null,
@@ -385,8 +385,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45300",
+      "opponent_name": "D3Q-Medford (blue)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43700",
   "team_name": "D6J-Sharon (maroon-sekuler)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 448,
     "pa": 397,
     "diff": 51,
-    "sos": 1421.261,
-    "sos_adj": 1342.094,
-    "power": 1392.086,
+    "sos": 1421.041,
+    "sos_adj": 1341.875,
+    "power": 1392.031,
     "rank": 2,
-    "mw_rating": 24.9,
-    "mw_points": 274,
+    "mw_rating": 25.1,
+    "mw_points": 276,
     "divisionno": "7174",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
@@ -263,7 +263,7 @@
       "location": "Seekonk - Hurley Middle School",
       "divisionno": "7174",
       "division_name": "7th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44135",
       "away_teamno": "43700",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44135",
+      "opponent_name": "D6J-Easton (white)"
     }
   ]
 }

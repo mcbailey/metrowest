@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45016",
   "team_name": "D3J-Medfield (allen)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 489,
-    "pa": 531,
-    "diff": -42,
-    "sos": 1553.793,
-    "sos_adj": 1596.101,
-    "power": 1550.496,
+    "pf": 520,
+    "pa": 568,
+    "diff": -48,
+    "sos": 1558.045,
+    "sos_adj": 1600.902,
+    "power": 1540.425,
     "rank": 4,
-    "mw_rating": 73.8,
-    "mw_points": 885,
+    "mw_rating": 71.7,
+    "mw_points": 932,
     "divisionno": "7304",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45135",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:55 PM",
+      "location": "Foxboro Sage School",
+      "divisionno": "7304",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "45016",
+      "away_teamno": "44323",
+      "home_score": 31,
+      "away_score": 37,
+      "team_score": 31,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44323",
+      "opponent_name": "D3J-Medway (blue)"
+    },
     {
       "gameno": "378681",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D3J-Westwood"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45135",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "2:55 PM",
-      "location": "Foxboro Sage School",
-      "divisionno": "7304",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "45016",
-      "away_teamno": "44323",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44323",
-      "opponent_name": "D3J-Medway (blue)"
-    }
-  ]
+  "future_games": []
 }

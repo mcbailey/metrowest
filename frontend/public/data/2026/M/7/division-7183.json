@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "M",
   "grade": 7,
   "divisionno": "7183",
@@ -17,12 +17,12 @@
       "pf": 434,
       "pa": 228,
       "diff": 206,
-      "sos": 1442.292,
-      "sos_adj": 1392.292,
-      "power": 1509.519,
+      "sos": 1444.565,
+      "sos_adj": 1394.565,
+      "power": 1510.087,
       "rank": 1,
-      "mw_rating": 56.8,
-      "mw_points": 682
+      "mw_rating": 57.0,
+      "mw_points": 684
     },
     {
       "teamno": "45639",
@@ -34,12 +34,12 @@
       "pf": 591,
       "pa": 504,
       "diff": 87,
-      "sos": 1460.823,
-      "sos_adj": 1414.395,
-      "power": 1445.608,
+      "sos": 1462.609,
+      "sos_adj": 1416.18,
+      "power": 1446.055,
       "rank": 2,
-      "mw_rating": 34.5,
-      "mw_points": 449
+      "mw_rating": 34.7,
+      "mw_points": 451
     },
     {
       "teamno": "43920",
@@ -51,12 +51,12 @@
       "pf": 575,
       "pa": 518,
       "diff": 57,
-      "sos": 1450.179,
-      "sos_adj": 1400.179,
-      "power": 1444.969,
+      "sos": 1452.102,
+      "sos_adj": 1402.102,
+      "power": 1445.45,
       "rank": 3,
-      "mw_rating": 40.8,
-      "mw_points": 490
+      "mw_rating": 41.0,
+      "mw_points": 492
     },
     {
       "teamno": "44635",
@@ -68,29 +68,29 @@
       "pf": 482,
       "pa": 405,
       "diff": 77,
-      "sos": 1449.951,
-      "sos_adj": 1392.259,
-      "power": 1425.295,
+      "sos": 1451.874,
+      "sos_adj": 1394.181,
+      "power": 1425.775,
       "rank": 4,
-      "mw_rating": 28.8,
-      "mw_points": 374
+      "mw_rating": 28.9,
+      "mw_points": 376
     },
     {
       "teamno": "44705",
       "name": "D5Q-Dover Sherborn (danielski)",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 9,
       "ties": 0,
-      "pf": 378,
-      "pa": 460,
-      "diff": -82,
-      "sos": 1446.455,
-      "sos_adj": 1383.955,
-      "power": 1399.4,
+      "pf": 419,
+      "pa": 486,
+      "diff": -67,
+      "sos": 1440.958,
+      "sos_adj": 1375.574,
+      "power": 1416.051,
       "rank": 5,
-      "mw_rating": 16.5,
-      "mw_points": 198
+      "mw_rating": 18.2,
+      "mw_points": 237
     },
     {
       "teamno": "45317",
@@ -102,12 +102,12 @@
       "pf": 340,
       "pa": 461,
       "diff": -121,
-      "sos": 1448.487,
-      "sos_adj": 1398.487,
-      "power": 1396.0,
+      "sos": 1450.759,
+      "sos_adj": 1400.759,
+      "power": 1396.568,
       "rank": 6,
       "mw_rating": 20.3,
-      "mw_points": 243
+      "mw_points": 244
     },
     {
       "teamno": "44937",
@@ -123,8 +123,8 @@
       "sos_adj": 1378.848,
       "power": 1375.764,
       "rank": 7,
-      "mw_rating": 16.9,
-      "mw_points": 203
+      "mw_rating": 17.1,
+      "mw_points": 205
     }
   ]
 }

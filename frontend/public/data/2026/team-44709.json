@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44709",
   "team_name": "D3M-Weston",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 618,
     "pa": 520,
     "diff": 98,
-    "sos": 1541.174,
-    "sos_adj": 1591.174,
-    "power": 1615.956,
+    "sos": 1546.308,
+    "sos_adj": 1596.308,
+    "power": 1617.24,
     "rank": 2,
-    "mw_rating": 99.5,
-    "mw_points": 1194,
+    "mw_rating": 99.8,
+    "mw_points": 1197,
     "divisionno": "7160",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
@@ -263,7 +263,7 @@
       "location": "North Quincy High School (Ct 1)",
       "divisionno": "7160",
       "division_name": "8th Boys - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "44288",
       "away_teamno": "44709",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44288",
+      "opponent_name": "D3M-Belmont (white)"
     }
   ]
 }

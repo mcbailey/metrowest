@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43379",
   "team_name": "D3M-Natick",
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 8,
+    "losses": 9,
     "ties": 1,
-    "pf": 1069,
-    "pa": 932,
-    "diff": 137,
-    "sos": 1551.741,
-    "sos_adj": 1599.241,
-    "power": 1572.459,
+    "pf": 1122,
+    "pa": 987,
+    "diff": 135,
+    "sos": 1554.83,
+    "sos_adj": 1602.449,
+    "power": 1566.555,
     "rank": 3,
-    "mw_rating": 91.3,
-    "mw_points": 1095,
+    "mw_rating": 87.7,
+    "mw_points": 1140,
     "divisionno": "7196",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 20,
-    "games_scheduled_total": 1
+    "games_played_total": 21,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45513",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "3:10 PM",
+      "location": "Concord-Carlisle High School",
+      "divisionno": "7196",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "43379",
+      "away_teamno": "44522",
+      "home_score": 53,
+      "away_score": 55,
+      "team_score": 53,
+      "opponent_score": 55,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44522",
+      "opponent_name": "D3K-Milford (red-calzolaio)"
+    },
     {
       "gameno": "376655",
       "date": "2026-03-01",
@@ -406,25 +425,5 @@
       "opponent_name": "D3K-Northboro (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45513",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "3:10 PM",
-      "location": "Concord-Carlisle High School",
-      "divisionno": "7196",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "43379",
-      "away_teamno": "44522",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44522",
-      "opponent_name": "D3K-Milford (red-calzolaio)"
-    }
-  ]
+  "future_games": []
 }

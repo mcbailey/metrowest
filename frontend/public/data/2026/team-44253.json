@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44253",
   "team_name": "D2P-Wayland (black)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 468,
-    "pa": 393,
-    "diff": 75,
-    "sos": 1636.917,
-    "sos_adj": 1783.071,
-    "power": 1703.36,
-    "rank": 2,
-    "mw_rating": 129.5,
-    "mw_points": 1554,
+    "pf": 500,
+    "pa": 439,
+    "diff": 61,
+    "sos": 1647.114,
+    "sos_adj": 1793.542,
+    "power": 1690.327,
+    "rank": 4,
+    "mw_rating": 125.2,
+    "mw_points": 1627,
     "divisionno": "7576",
     "division_name": "4th Boys - Division 2",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44739",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:20 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7576",
+      "division_name": "4th Boys - Division 2",
+      "home_teamno": "44253",
+      "away_teamno": "43466",
+      "home_score": 32,
+      "away_score": 46,
+      "team_score": 32,
+      "opponent_score": 46,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43466",
+      "opponent_name": "D2P-Winchester (white)"
+    },
     {
       "gameno": "385433",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D2P-Weston"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44739",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "1:20 PM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7576",
-      "division_name": "4th Boys - Division 2",
-      "home_teamno": "44253",
-      "away_teamno": "43466",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43466",
-      "opponent_name": "D2P-Winchester (white)"
-    }
-  ]
+  "future_games": []
 }

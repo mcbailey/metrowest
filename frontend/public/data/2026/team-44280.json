@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44280",
   "team_name": "D5M-Wayland (orange)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 403,
     "pa": 428,
     "diff": -25,
-    "sos": 1450.581,
-    "sos_adj": 1403.914,
-    "power": 1435.783,
+    "sos": 1448.258,
+    "sos_adj": 1401.591,
+    "power": 1435.203,
     "rank": 3,
     "mw_rating": 31.0,
     "mw_points": 341,
@@ -320,7 +320,7 @@
       "location": "Southborough Trottier Middle School",
       "divisionno": "7253",
       "division_name": "7th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "44773",
       "away_teamno": "44280",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44773",
+      "opponent_name": "D5J-Dover Sherborn (anderson)"
     }
   ]
 }

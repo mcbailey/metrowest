@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43476",
   "team_name": "D3H-Somerset (blue)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 1038,
-    "pa": 1142,
-    "diff": -104,
-    "sos": 1536.915,
-    "sos_adj": 1577.54,
-    "power": 1529.739,
+    "pf": 1082,
+    "pa": 1215,
+    "diff": -133,
+    "sos": 1536.435,
+    "sos_adj": 1574.67,
+    "power": 1500.03,
     "rank": 7,
-    "mw_rating": 65.2,
-    "mw_points": 848,
+    "mw_rating": 62.4,
+    "mw_points": 873,
     "divisionno": "7157",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45738",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "5:00 PM",
+      "location": "Old Rochester Junior High School",
+      "divisionno": "7151",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "43476",
+      "away_teamno": "44822",
+      "home_score": 44,
+      "away_score": 73,
+      "team_score": 44,
+      "opponent_score": 73,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44822",
+      "opponent_name": "D4H-Bourne (purple and white)"
+    },
     {
       "gameno": "45733",
       "date": "2026-03-06",
@@ -330,25 +349,5 @@
       "opponent_name": "D3K-Wellesley (b)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45738",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "5:00 PM",
-      "location": "Old Rochester Junior High School",
-      "divisionno": "7151",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "43476",
-      "away_teamno": "44822",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44822",
-      "opponent_name": "D4H-Bourne (purple and white)"
-    }
-  ]
+  "future_games": []
 }

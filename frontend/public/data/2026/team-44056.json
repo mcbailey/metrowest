@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44056",
   "team_name": "D4M-Wellesley (b)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 611,
     "pa": 572,
     "diff": 39,
-    "sos": 1528.923,
-    "sos_adj": 1545.59,
-    "power": 1515.52,
-    "rank": 2,
-    "mw_rating": 66.8,
-    "mw_points": 802,
+    "sos": 1527.815,
+    "sos_adj": 1544.482,
+    "power": 1514.831,
+    "rank": 4,
+    "mw_rating": 66.9,
+    "mw_points": 803,
     "divisionno": "7224",
     "division_name": "6th Boys - Division 4",
     "grade": 6,
@@ -263,7 +263,7 @@
       "location": "Ashland Mindess School",
       "divisionno": "7224",
       "division_name": "6th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "43386",
       "away_teamno": "44056",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43386",
+      "opponent_name": "D4M-Natick"
     }
   ]
 }

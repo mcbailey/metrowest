@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44979",
   "team_name": "D4H-Acushnet - Fairhaven (myles)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 627,
     "pa": 603,
     "diff": 24,
-    "sos": 1496.9,
-    "sos_adj": 1500.746,
-    "power": 1546.955,
+    "sos": 1496.41,
+    "sos_adj": 1500.256,
+    "power": 1546.832,
     "rank": 2,
-    "mw_rating": 65.8,
-    "mw_points": 789,
+    "mw_rating": 65.9,
+    "mw_points": 791,
     "divisionno": "7188",
     "division_name": "7th Boys - Division 4",
     "grade": 7,
@@ -282,7 +282,7 @@
       "location": "Taunton High School 1",
       "divisionno": "7188",
       "division_name": "7th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "43821",
       "away_teamno": "44979",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43821",
+      "opponent_name": "D4H-Raynham (connolly)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44197",
   "team_name": "D2L-Parkway  (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 281,
     "pa": 368,
     "diff": -87,
-    "sos": 1638.238,
-    "sos_adj": 1773.952,
-    "power": 1654.736,
+    "sos": 1637.8,
+    "sos_adj": 1773.514,
+    "power": 1654.627,
     "rank": 3,
-    "mw_rating": 118.9,
-    "mw_points": 1427,
+    "mw_rating": 119.1,
+    "mw_points": 1429,
     "divisionno": "7545",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
@@ -299,9 +299,9 @@
       "dow": "Sun",
       "starttime": "12:10 PM",
       "location": "Foxboro Sage School",
-      "divisionno": "7545",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "0",
+      "divisionno": "7553",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "44209",
       "away_teamno": "44197",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44209",
+      "opponent_name": "D5N-Sharon (gold)"
     }
   ]
 }

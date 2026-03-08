@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "F",
   "grade": 6,
   "divisionno": "7277",
@@ -17,12 +17,12 @@
       "pf": 429,
       "pa": 292,
       "diff": 137,
-      "sos": 1496.879,
-      "sos_adj": 1505.213,
-      "power": 1585.145,
+      "sos": 1495.117,
+      "sos_adj": 1503.45,
+      "power": 1584.704,
       "rank": 1,
-      "mw_rating": 77.7,
-      "mw_points": 932
+      "mw_rating": 77.8,
+      "mw_points": 934
     },
     {
       "teamno": "44383",
@@ -34,12 +34,12 @@
       "pf": 371,
       "pa": 274,
       "diff": 97,
-      "sos": 1500.533,
-      "sos_adj": 1500.533,
-      "power": 1531.47,
+      "sos": 1498.77,
+      "sos_adj": 1498.77,
+      "power": 1531.03,
       "rank": 2,
-      "mw_rating": 62.3,
-      "mw_points": 748
+      "mw_rating": 62.5,
+      "mw_points": 750
     },
     {
       "teamno": "44226",
@@ -51,12 +51,12 @@
       "pf": 382,
       "pa": 320,
       "diff": 62,
-      "sos": 1534.125,
-      "sos_adj": 1554.958,
-      "power": 1528.258,
+      "sos": 1532.362,
+      "sos_adj": 1553.196,
+      "power": 1527.817,
       "rank": 3,
-      "mw_rating": 68.0,
-      "mw_points": 816
+      "mw_rating": 68.2,
+      "mw_points": 818
     },
     {
       "teamno": "44081",
@@ -68,9 +68,9 @@
       "pf": 363,
       "pa": 294,
       "diff": 69,
-      "sos": 1509.338,
-      "sos_adj": 1513.505,
-      "power": 1514.081,
+      "sos": 1507.575,
+      "sos_adj": 1511.742,
+      "power": 1513.64,
       "rank": 4,
       "mw_rating": 64.5,
       "mw_points": 774
@@ -80,17 +80,17 @@
       "name": "D4M-Weston",
       "town": null,
       "wins": 6,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pf": 214,
-      "pa": 230,
-      "diff": -16,
-      "sos": 1493.082,
-      "sos_adj": 1493.082,
-      "power": 1500.341,
+      "pf": 231,
+      "pa": 264,
+      "diff": -33,
+      "sos": 1499.588,
+      "sos_adj": 1503.754,
+      "power": 1487.146,
       "rank": 5,
-      "mw_rating": 54.7,
-      "mw_points": 602
+      "mw_rating": 54.1,
+      "mw_points": 649
     },
     {
       "teamno": "45155",
@@ -102,12 +102,12 @@
       "pf": 322,
       "pa": 291,
       "diff": 31,
-      "sos": 1503.473,
-      "sos_adj": 1503.473,
-      "power": 1486.662,
+      "sos": 1501.711,
+      "sos_adj": 1501.711,
+      "power": 1486.221,
       "rank": 6,
-      "mw_rating": 47.8,
-      "mw_points": 574
+      "mw_rating": 47.9,
+      "mw_points": 575
     },
     {
       "teamno": "45109",
@@ -119,12 +119,12 @@
       "pf": 193,
       "pa": 348,
       "diff": -155,
-      "sos": 1513.488,
-      "sos_adj": 1513.488,
-      "power": 1457.742,
+      "sos": 1511.373,
+      "sos_adj": 1511.373,
+      "power": 1457.213,
       "rank": 7,
-      "mw_rating": 35.6,
-      "mw_points": 356
+      "mw_rating": 35.7,
+      "mw_points": 357
     }
   ]
 }

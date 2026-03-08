@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44577",
   "team_name": "D7Q-King Philip (green)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 417,
     "pa": 332,
     "diff": 85,
-    "sos": 1382.562,
-    "sos_adj": 1270.062,
-    "power": 1361.943,
+    "sos": 1382.604,
+    "sos_adj": 1270.104,
+    "power": 1361.953,
     "rank": 1,
-    "mw_rating": 25.1,
-    "mw_points": 301,
+    "mw_rating": 25.4,
+    "mw_points": 305,
     "divisionno": "7592",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
@@ -263,7 +263,7 @@
       "location": "Mansfield Fieldhouse -1",
       "divisionno": "7592",
       "division_name": "4th Boys - Division 7",
-      "home_teamno": "0",
+      "home_teamno": "44110",
       "away_teamno": "44577",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44110",
+      "opponent_name": "D6P-Easton (orange)"
     }
   ]
 }

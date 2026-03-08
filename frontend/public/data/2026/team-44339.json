@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44339",
   "team_name": "D1/2J-Medway (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 500,
     "pa": 511,
     "diff": -11,
-    "sos": 1623.893,
-    "sos_adj": 1745.768,
-    "power": 1689.239,
+    "sos": 1623.691,
+    "sos_adj": 1745.566,
+    "power": 1687.659,
     "rank": 3,
-    "mw_rating": 148.9,
-    "mw_points": 1787,
+    "mw_rating": 149.2,
+    "mw_points": 1790,
     "divisionno": "7265",
     "division_name": "7th Girls - Division 1",
     "grade": 7,
@@ -356,9 +356,9 @@
       "dow": "Sun",
       "starttime": "4:30 PM",
       "location": "Mass Premier - 4",
-      "divisionno": "7265",
-      "division_name": "7th Girls - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7258",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "45335",
       "away_teamno": "44339",
       "home_score": null,
       "away_score": null,
@@ -366,8 +366,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45335",
+      "opponent_name": "D4K-Milton (white)"
     }
   ]
 }

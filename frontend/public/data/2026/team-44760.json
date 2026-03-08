@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44760",
   "team_name": "D6Q-Dover Sherborn (niblock)",
   "town": null,
   "summary": {
     "wins": 0,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 234,
-    "pa": 390,
-    "diff": -156,
-    "sos": 1402.858,
-    "sos_adj": 1307.404,
-    "power": 1294.976,
+    "pf": 262,
+    "pa": 419,
+    "diff": -157,
+    "sos": 1403.617,
+    "sos_adj": 1307.783,
+    "power": 1300.157,
     "rank": 7,
-    "mw_rating": 5.5,
-    "mw_points": 60,
+    "mw_rating": 5.4,
+    "mw_points": 65,
     "divisionno": "7177",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45643",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:25 AM",
+      "location": "Hopkinton-Hopkins School",
+      "divisionno": "7177",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44760",
+      "away_teamno": "45649",
+      "home_score": 28,
+      "away_score": 29,
+      "team_score": 28,
+      "opponent_score": 29,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45649",
+      "opponent_name": "D6K-Hopkinton (pereira)"
+    },
     {
       "gameno": "380054",
       "date": "2026-03-01",
@@ -235,25 +254,5 @@
       "opponent_name": "D6R-Watertown (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45643",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "10:25 AM",
-      "location": "Hopkinton-Hopkins School",
-      "divisionno": "7177",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44760",
-      "away_teamno": "45649",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45649",
-      "opponent_name": "D6K-Hopkinton (pereira)"
-    }
-  ]
+  "future_games": []
 }

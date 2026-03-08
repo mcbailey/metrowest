@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "M",
   "grade": 6,
   "divisionno": "7213",
@@ -21,8 +21,8 @@
       "sos_adj": 1400.999,
       "power": 1526.982,
       "rank": 1,
-      "mw_rating": 59.4,
-      "mw_points": 713
+      "mw_rating": 59.7,
+      "mw_points": 716
     },
     {
       "teamno": "43927",
@@ -38,25 +38,25 @@
       "sos_adj": 1402.625,
       "power": 1508.789,
       "rank": 2,
-      "mw_rating": 46.0,
-      "mw_points": 598
+      "mw_rating": 46.2,
+      "mw_points": 600
     },
     {
       "teamno": "43289",
       "name": "D5J-Middleborough (terrasi)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 6,
       "ties": 0,
-      "pf": 511,
-      "pa": 481,
-      "diff": 30,
-      "sos": 1446.236,
-      "sos_adj": 1392.069,
-      "power": 1461.457,
+      "pf": 565,
+      "pa": 516,
+      "diff": 49,
+      "sos": 1438.22,
+      "sos_adj": 1384.374,
+      "power": 1471.189,
       "rank": 3,
-      "mw_rating": 31.0,
-      "mw_points": 372
+      "mw_rating": 32.9,
+      "mw_points": 428
     },
     {
       "teamno": "43204",
@@ -72,8 +72,8 @@
       "sos_adj": 1403.259,
       "power": 1423.665,
       "rank": 4,
-      "mw_rating": 23.8,
-      "mw_points": 286
+      "mw_rating": 23.9,
+      "mw_points": 287
     },
     {
       "teamno": "43149",
@@ -97,17 +97,17 @@
       "name": "D5J-Bridgewater (senesi)",
       "town": null,
       "wins": 3,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 389,
-      "pa": 539,
-      "diff": -150,
-      "sos": 1468.015,
-      "sos_adj": 1422.182,
-      "power": 1385.381,
+      "pf": 424,
+      "pa": 593,
+      "diff": -169,
+      "sos": 1471.681,
+      "sos_adj": 1425.527,
+      "power": 1374.561,
       "rank": 6,
-      "mw_rating": 22.6,
-      "mw_points": 271
+      "mw_rating": 21.7,
+      "mw_points": 282
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43903",
   "team_name": "D4M-Southboro (maroon)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 273,
     "pa": 218,
     "diff": 55,
-    "sos": 1487.3,
-    "sos_adj": 1490.871,
-    "power": 1529.978,
+    "sos": 1493.285,
+    "sos_adj": 1496.857,
+    "power": 1528.249,
     "rank": 2,
-    "mw_rating": 62.7,
-    "mw_points": 752,
+    "mw_rating": 62.9,
+    "mw_points": 755,
     "divisionno": "7322",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
@@ -301,7 +301,7 @@
       "location": "Hopkinton-Marathon School",
       "divisionno": "7322",
       "division_name": "5th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "44514",
       "away_teamno": "43903",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44514",
+      "opponent_name": "D4M-Milford (red-chiccarelli)"
     }
   ]
 }

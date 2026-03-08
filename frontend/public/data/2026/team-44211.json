@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44211",
   "team_name": "D5J-Sharon (maroon)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 271,
     "pa": 253,
     "diff": 18,
-    "sos": 1452.64,
-    "sos_adj": 1406.807,
-    "power": 1440.198,
+    "sos": 1450.731,
+    "sos_adj": 1404.898,
+    "power": 1439.721,
     "rank": 3,
-    "mw_rating": 33.3,
-    "mw_points": 400,
+    "mw_rating": 33.5,
+    "mw_points": 402,
     "divisionno": "7312",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
@@ -263,7 +263,7 @@
       "location": "Attleboro Brennan Middle School",
       "divisionno": "7312",
       "division_name": "5th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "43550",
       "away_teamno": "44211",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43550",
+      "opponent_name": "D5H-Bridgewater (mcdonald)"
     }
   ]
 }

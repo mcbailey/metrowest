@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "F",
   "grade": 6,
   "divisionno": "7271",
@@ -17,12 +17,12 @@
       "pf": 359,
       "pa": 189,
       "diff": 170,
-      "sos": 1441.847,
-      "sos_adj": 1396.393,
-      "power": 1527.587,
+      "sos": 1443.117,
+      "sos_adj": 1397.663,
+      "power": 1518.806,
       "rank": 1,
-      "mw_rating": 58.7,
-      "mw_points": 646
+      "mw_rating": 58.9,
+      "mw_points": 648
     },
     {
       "teamno": "43405",
@@ -34,12 +34,12 @@
       "pf": 303,
       "pa": 230,
       "diff": 73,
-      "sos": 1448.543,
-      "sos_adj": 1409.257,
-      "power": 1491.461,
+      "sos": 1449.76,
+      "sos_adj": 1410.474,
+      "power": 1486.601,
       "rank": 2,
-      "mw_rating": 54.2,
-      "mw_points": 596
+      "mw_rating": 54.4,
+      "mw_points": 598
     },
     {
       "teamno": "43543",
@@ -51,29 +51,29 @@
       "pf": 308,
       "pa": 234,
       "diff": 74,
-      "sos": 1448.866,
-      "sos_adj": 1398.866,
-      "power": 1456.896,
+      "sos": 1448.405,
+      "sos_adj": 1398.405,
+      "power": 1454.813,
       "rank": 3,
-      "mw_rating": 34.6,
-      "mw_points": 381
+      "mw_rating": 34.7,
+      "mw_points": 382
     },
     {
       "teamno": "43522",
       "name": "D5Q-Hopkinton (mccullough)",
       "town": null,
       "wins": 6,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 260,
-      "pa": 267,
-      "diff": -7,
-      "sos": 1451.506,
-      "sos_adj": 1401.506,
-      "power": 1440.638,
+      "pf": 277,
+      "pa": 285,
+      "diff": -8,
+      "sos": 1452.107,
+      "sos_adj": 1405.953,
+      "power": 1436.734,
       "rank": 4,
-      "mw_rating": 32.5,
-      "mw_points": 390
+      "mw_rating": 31.9,
+      "mw_points": 415
     },
     {
       "teamno": "44770",
@@ -85,12 +85,12 @@
       "pf": 252,
       "pa": 318,
       "diff": -66,
-      "sos": 1453.743,
-      "sos_adj": 1403.743,
-      "power": 1429.294,
+      "sos": 1452.842,
+      "sos_adj": 1402.842,
+      "power": 1429.983,
       "rank": 5,
-      "mw_rating": 28.6,
-      "mw_points": 343
+      "mw_rating": 28.7,
+      "mw_points": 344
     },
     {
       "teamno": "44157",
@@ -102,12 +102,12 @@
       "pf": 212,
       "pa": 249,
       "diff": -37,
-      "sos": 1454.171,
-      "sos_adj": 1404.171,
-      "power": 1418.765,
+      "sos": 1453.227,
+      "sos_adj": 1403.227,
+      "power": 1420.507,
       "rank": 6,
-      "mw_rating": 21.0,
-      "mw_points": 252
+      "mw_rating": 21.1,
+      "mw_points": 253
     }
   ]
 }

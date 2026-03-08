@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43770",
   "team_name": "D4R-Concord-Carlisle (maroon)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 609,
     "pa": 307,
     "diff": 302,
-    "sos": 1492.066,
-    "sos_adj": 1504.566,
-    "power": 1584.056,
+    "sos": 1492.712,
+    "sos_adj": 1505.212,
+    "power": 1584.217,
     "rank": 1,
-    "mw_rating": 93.8,
-    "mw_points": 1126,
+    "mw_rating": 94.1,
+    "mw_points": 1129,
     "divisionno": "7324",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
@@ -320,7 +320,7 @@
       "location": "Sudbury Fieldhouse-Court 2",
       "divisionno": "7324",
       "division_name": "5th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "44343",
       "away_teamno": "43770",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44343",
+      "opponent_name": "D3J-Medway (blue)"
     }
   ]
 }

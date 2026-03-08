@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "F",
   "grade": 4,
   "divisionno": "7557",
@@ -11,18 +11,18 @@
       "teamno": "43599",
       "name": "D7P-North Quincy (haines)",
       "town": null,
-      "wins": 11,
+      "wins": 12,
       "losses": 1,
       "ties": 0,
-      "pf": 288,
-      "pa": 154,
-      "diff": 134,
-      "sos": 1343.278,
-      "sos_adj": 1193.278,
-      "power": 1385.137,
+      "pf": 312,
+      "pa": 166,
+      "diff": 146,
+      "sos": 1347.189,
+      "sos_adj": 1201.035,
+      "power": 1408.026,
       "rank": 1,
-      "mw_rating": 23.3,
-      "mw_points": 280
+      "mw_rating": 24.7,
+      "mw_points": 321
     },
     {
       "teamno": "43787",
@@ -34,12 +34,12 @@
       "pf": 291,
       "pa": 154,
       "diff": 137,
-      "sos": 1361.022,
-      "sos_adj": 1226.406,
-      "power": 1357.937,
+      "sos": 1364.866,
+      "sos_adj": 1230.251,
+      "power": 1358.898,
       "rank": 2,
       "mw_rating": 17.5,
-      "mw_points": 227
+      "mw_points": 228
     },
     {
       "teamno": "43499",
@@ -51,12 +51,12 @@
       "pf": 215,
       "pa": 197,
       "diff": 18,
-      "sos": 1374.044,
-      "sos_adj": 1247.121,
-      "power": 1331.318,
+      "sos": 1376.193,
+      "sos_adj": 1249.27,
+      "power": 1331.855,
       "rank": 3,
-      "mw_rating": 16.1,
-      "mw_points": 193
+      "mw_rating": 16.3,
+      "mw_points": 196
     },
     {
       "teamno": "45347",
@@ -68,12 +68,12 @@
       "pf": 204,
       "pa": 187,
       "diff": 17,
-      "sos": 1383.135,
-      "sos_adj": 1263.135,
-      "power": 1322.558,
+      "sos": 1386.467,
+      "sos_adj": 1266.467,
+      "power": 1323.391,
       "rank": 4,
-      "mw_rating": 11.7,
-      "mw_points": 140
+      "mw_rating": 11.8,
+      "mw_points": 141
     },
     {
       "teamno": "44415",
@@ -85,12 +85,12 @@
       "pf": 177,
       "pa": 247,
       "diff": -70,
-      "sos": 1351.154,
-      "sos_adj": 1201.154,
-      "power": 1299.745,
+      "sos": 1354.999,
+      "sos_adj": 1204.999,
+      "power": 1300.706,
       "rank": 5,
-      "mw_rating": 6.6,
-      "mw_points": 86
+      "mw_rating": 6.7,
+      "mw_points": 87
     },
     {
       "teamno": "44198",
@@ -102,29 +102,29 @@
       "pf": 169,
       "pa": 191,
       "diff": -22,
-      "sos": 1357.128,
-      "sos_adj": 1215.462,
-      "power": 1289.337,
+      "sos": 1361.293,
+      "sos_adj": 1219.627,
+      "power": 1290.378,
       "rank": 6,
-      "mw_rating": 11.5,
-      "mw_points": 138
+      "mw_rating": 11.7,
+      "mw_points": 140
     },
     {
       "teamno": "44790",
       "name": "D7P-Dover Sherborn (davis)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 9,
       "ties": 1,
-      "pf": 124,
-      "pa": 317,
-      "diff": -193,
-      "sos": 1359.355,
-      "sos_adj": 1209.355,
-      "power": 1255.466,
+      "pf": 136,
+      "pa": 323,
+      "diff": -187,
+      "sos": 1358.264,
+      "sos_adj": 1208.264,
+      "power": 1271.731,
       "rank": 7,
-      "mw_rating": 4.3,
-      "mw_points": 52
+      "mw_rating": 5.5,
+      "mw_points": 71
     }
   ]
 }

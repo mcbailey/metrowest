@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44127",
   "team_name": "D5M-Berkley",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 277,
-    "pa": 483,
-    "diff": -206,
-    "sos": 1458.813,
-    "sos_adj": 1408.813,
-    "power": 1389.857,
+    "pf": 296,
+    "pa": 508,
+    "diff": -212,
+    "sos": 1451.426,
+    "sos_adj": 1397.259,
+    "power": 1373.323,
     "rank": 8,
-    "mw_rating": 21.4,
-    "mw_points": 235,
+    "mw_rating": 20.0,
+    "mw_points": 240,
     "divisionno": "7581",
     "division_name": "4th Boys - Division 5",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45027",
+      "date": "2026-03-06",
+      "dow": "Fri",
+      "starttime": "6:15 PM",
+      "location": "Old Rochester Junior High School",
+      "divisionno": "7584",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "44127",
+      "away_teamno": "44994",
+      "home_score": 19,
+      "away_score": 25,
+      "team_score": 19,
+      "opponent_score": 25,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44994",
+      "opponent_name": "D6M-Acushnet - Fairhaven (ryan)"
+    },
     {
       "gameno": "385481",
       "date": "2026-03-01",
@@ -235,25 +254,5 @@
       "opponent_name": "D5M-Seekonk (rego)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45027",
-      "date": "2026-03-06",
-      "dow": "Fri",
-      "starttime": "6:15 PM",
-      "location": "Old Rochester Junior High School",
-      "divisionno": "7584",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "44127",
-      "away_teamno": "44994",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44994",
-      "opponent_name": "D6M-Acushnet - Fairhaven (ryan)"
-    }
-  ]
+  "future_games": []
 }

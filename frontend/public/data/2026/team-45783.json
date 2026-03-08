@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45783",
   "team_name": "2NDH-Everett (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 241,
     "pa": 280,
     "diff": -39,
-    "sos": 1554.508,
-    "sos_adj": 1604.508,
-    "power": 1511.931,
+    "sos": 1554.058,
+    "sos_adj": 1604.058,
+    "power": 1516.988,
     "rank": 8,
-    "mw_rating": 68.2,
-    "mw_points": 614,
+    "mw_rating": 68.3,
+    "mw_points": 615,
     "divisionno": "7629",
     "division_name": "3rd Boys - Division 3",
     "grade": 3,
@@ -60,8 +60,8 @@
       "opponent_score": 21,
       "status": "final",
       "is_home": false,
-      "opponent_teamno": "46149",
-      "opponent_name": "2NDM-Everett (white)"
+      "opponent_teamno": "45523",
+      "opponent_name": "2NDM-Mass Premier (king philip)"
     },
     {
       "gameno": "390442",

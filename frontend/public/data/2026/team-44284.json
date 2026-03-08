@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44284",
   "team_name": "D7M-Rochester (white)",
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 1,
+    "losses": 2,
     "ties": 0,
-    "pf": 373,
-    "pa": 201,
-    "diff": 172,
-    "sos": 1317.558,
-    "sos_adj": 1167.558,
-    "power": 1367.302,
+    "pf": 390,
+    "pa": 236,
+    "diff": 154,
+    "sos": 1320.691,
+    "sos_adj": 1174.537,
+    "power": 1347.595,
     "rank": 2,
-    "mw_rating": 20.1,
-    "mw_points": 241,
+    "mw_rating": 18.9,
+    "mw_points": 246,
     "divisionno": "7590",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45056",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:15 PM",
+      "location": "Old Rochester Junior High School",
+      "divisionno": "7590",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44284",
+      "away_teamno": "43350",
+      "home_score": 17,
+      "away_score": 35,
+      "team_score": 17,
+      "opponent_score": 35,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43350",
+      "opponent_name": "D6N-Dighton-Rehoboth"
+    },
     {
       "gameno": "385529",
       "date": "2026-02-28",
@@ -254,25 +273,5 @@
       "opponent_name": "D7M-Barnstable  (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45056",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "1:15 PM",
-      "location": "Old Rochester Junior High School",
-      "divisionno": "7590",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44284",
-      "away_teamno": "43350",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43350",
-      "opponent_name": "D6N-Dighton-Rehoboth"
-    }
-  ]
+  "future_games": []
 }

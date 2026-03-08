@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44301",
   "team_name": "D1J-Belmont (maroon)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 1146,
     "pa": 980,
     "diff": 166,
-    "sos": 1618.651,
-    "sos_adj": 1742.46,
-    "power": 1707.662,
+    "sos": 1619.167,
+    "sos_adj": 1742.976,
+    "power": 1704.337,
     "rank": 2,
-    "mw_rating": 190.3,
-    "mw_points": 2283,
+    "mw_rating": 190.5,
+    "mw_points": 2286,
     "divisionno": "7235",
     "division_name": "6th Boys - Division 1",
     "grade": 6,
@@ -434,7 +434,7 @@
       "location": "Mass Premier - 5",
       "divisionno": "7235",
       "division_name": "6th Boys - Division 1",
-      "home_teamno": "0",
+      "home_teamno": "45533",
       "away_teamno": "44301",
       "home_score": null,
       "away_score": null,
@@ -442,8 +442,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45533",
+      "opponent_name": "D1J-Lawrence"
     }
   ]
 }

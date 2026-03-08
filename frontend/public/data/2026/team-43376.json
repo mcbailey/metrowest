@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43376",
   "team_name": "D5Q-Natick",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 577,
     "pa": 530,
     "diff": 47,
-    "sos": 1449.993,
-    "sos_adj": 1403.84,
-    "power": 1462.864,
+    "sos": 1446.943,
+    "sos_adj": 1400.79,
+    "power": 1462.102,
     "rank": 3,
-    "mw_rating": 34.2,
-    "mw_points": 410,
+    "mw_rating": 34.4,
+    "mw_points": 413,
     "divisionno": "7149",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
@@ -280,9 +280,9 @@
       "dow": "Sun",
       "starttime": "6:25 PM",
       "location": "Hopkinton-Hopkins School",
-      "divisionno": "7149",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "0",
+      "divisionno": "7140",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "43532",
       "away_teamno": "43376",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43532",
+      "opponent_name": "D6M-Northboro (white)"
     }
   ]
 }

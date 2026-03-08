@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44480",
   "team_name": "D5J-Walpole (b)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 397,
-    "pa": 410,
-    "diff": -13,
-    "sos": 1461.761,
-    "sos_adj": 1429.618,
-    "power": 1445.288,
-    "rank": 2,
-    "mw_rating": 50.0,
-    "mw_points": 600,
+    "pf": 415,
+    "pa": 466,
+    "diff": -51,
+    "sos": 1466.447,
+    "sos_adj": 1436.447,
+    "power": 1431.278,
+    "rank": 3,
+    "mw_rating": 48.2,
+    "mw_points": 627,
     "divisionno": "7237",
     "division_name": "8th Girls - Division 5",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46405",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "8:10 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7237",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "43175",
+      "away_teamno": "44480",
+      "home_score": 56,
+      "away_score": 18,
+      "team_score": 18,
+      "opponent_score": 56,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43175",
+      "opponent_name": "D4H-Seekonk"
+    },
     {
       "gameno": "392229",
       "date": "2026-03-01",
@@ -292,25 +311,5 @@
       "opponent_name": "D5J-Canton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46405",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "8:10 PM",
-      "location": "Mass Premier - 2",
-      "divisionno": "7237",
-      "division_name": "8th Girls - Division 5",
-      "home_teamno": "43175",
-      "away_teamno": "44480",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43175",
-      "opponent_name": "D4H-Seekonk"
-    }
-  ]
+  "future_games": []
 }

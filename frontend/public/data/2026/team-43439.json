@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43439",
   "team_name": "D1/2H-Foxboro (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 1027,
     "pa": 711,
     "diff": 316,
-    "sos": 1615.545,
-    "sos_adj": 1736.598,
-    "power": 1755.62,
+    "sos": 1614.944,
+    "sos_adj": 1735.996,
+    "power": 1747.073,
     "rank": 1,
-    "mw_rating": 216.8,
-    "mw_points": 2385,
+    "mw_rating": 217.2,
+    "mw_points": 2389,
     "divisionno": "7060",
     "division_name": "7th Girls - Division 1",
     "grade": 7,
@@ -396,7 +396,7 @@
       "location": "Dana Barros - 5",
       "divisionno": "7060",
       "division_name": "7th Girls - Division 1",
-      "home_teamno": "0",
+      "home_teamno": "44651",
       "away_teamno": "43439",
       "home_score": null,
       "away_score": null,
@@ -404,8 +404,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44651",
+      "opponent_name": "D1/2H-Attleboro (blue)"
     }
   ]
 }

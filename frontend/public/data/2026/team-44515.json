@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44515",
   "team_name": "D5N-Milford (red-calzoloia)",
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 116,
-    "pa": 339,
-    "diff": -223,
-    "sos": 1447.788,
-    "sos_adj": 1397.788,
-    "power": 1366.198,
+    "pf": 132,
+    "pa": 365,
+    "diff": -233,
+    "sos": 1446.121,
+    "sos_adj": 1392.275,
+    "power": 1344.838,
     "rank": 6,
-    "mw_rating": 13.5,
-    "mw_points": 162,
+    "mw_rating": 12.9,
+    "mw_points": 167,
     "divisionno": "7553",
     "division_name": "4th Girls - Division 5",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45912",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "4:45 PM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7549",
+      "division_name": "4th Girls - Division 6",
+      "home_teamno": "44515",
+      "away_teamno": "44175",
+      "home_score": 16,
+      "away_score": 26,
+      "team_score": 16,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44175",
+      "opponent_name": "D6P-Holliston (king)"
+    },
     {
       "gameno": "45905",
       "date": "2026-03-06",
@@ -254,25 +273,5 @@
       "opponent_name": "D5N-Sharon (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45912",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "4:45 PM",
-      "location": "Ashland Mindess School",
-      "divisionno": "7549",
-      "division_name": "4th Girls - Division 6",
-      "home_teamno": "44515",
-      "away_teamno": "44175",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44175",
-      "opponent_name": "D6P-Holliston (king)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44232",
   "team_name": "D3M-Wayland (black)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 539,
     "pa": 586,
     "diff": -47,
-    "sos": 1551.545,
-    "sos_adj": 1608.687,
-    "power": 1529.89,
+    "sos": 1552.992,
+    "sos_adj": 1610.135,
+    "power": 1530.252,
     "rank": 5,
-    "mw_rating": 66.7,
-    "mw_points": 800,
+    "mw_rating": 66.8,
+    "mw_points": 801,
     "divisionno": "7228",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
@@ -301,7 +301,7 @@
       "location": "Ashland Mindess School",
       "divisionno": "7228",
       "division_name": "6th Boys - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "44329",
       "away_teamno": "44232",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44329",
+      "opponent_name": "D3M-Medway (blue)"
     }
   ]
 }

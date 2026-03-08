@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43715",
   "team_name": "D5W-Concord-Carlisle (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 562,
     "pa": 565,
     "diff": -3,
-    "sos": 1452.981,
-    "sos_adj": 1416.87,
-    "power": 1464.765,
+    "sos": 1457.183,
+    "sos_adj": 1421.072,
+    "power": 1463.511,
     "rank": 2,
-    "mw_rating": 40.1,
-    "mw_points": 481,
+    "mw_rating": 40.3,
+    "mw_points": 483,
     "divisionno": "7186",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
@@ -377,7 +377,7 @@
       "location": "Sudbury Fieldhouse-Court 1",
       "divisionno": "7186",
       "division_name": "7th Boys - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "45303",
       "away_teamno": "43715",
       "home_score": null,
       "away_score": null,
@@ -385,8 +385,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45303",
+      "opponent_name": "D5W-Medford (white)"
     }
   ]
 }

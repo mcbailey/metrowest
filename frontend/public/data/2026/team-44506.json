@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44506",
   "team_name": "D2K-Easton (black)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 258,
-    "pa": 289,
-    "diff": -31,
-    "sos": 1637.831,
-    "sos_adj": 1775.331,
-    "power": 1659.315,
+    "pf": 273,
+    "pa": 310,
+    "diff": -37,
+    "sos": 1644.369,
+    "sos_adj": 1782.83,
+    "power": 1653.828,
     "rank": 5,
-    "mw_rating": 119.6,
-    "mw_points": 1435,
+    "mw_rating": 115.9,
+    "mw_points": 1506,
     "divisionno": "7544",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44767",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:30 PM",
+      "location": "Foxboro Ahern Middle (Gym 1)",
+      "divisionno": "7544",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "44506",
+      "away_teamno": "43264",
+      "home_score": 15,
+      "away_score": 21,
+      "team_score": 15,
+      "opponent_score": 21,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43264",
+      "opponent_name": "D2K-Dartmouth"
+    },
     {
       "gameno": "384059",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D2K-King Philip"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44767",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "2:30 PM",
-      "location": "Foxboro Ahern Middle (Gym 1)",
-      "divisionno": "7544",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "44506",
-      "away_teamno": "43264",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43264",
-      "opponent_name": "D2K-Dartmouth"
-    }
-  ]
+  "future_games": []
 }

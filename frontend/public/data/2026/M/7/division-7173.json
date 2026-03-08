@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "M",
   "grade": 7,
   "divisionno": "7173",
@@ -17,12 +17,12 @@
       "pf": 697,
       "pa": 503,
       "diff": 194,
-      "sos": 1400.397,
-      "sos_adj": 1309.772,
-      "power": 1473.294,
+      "sos": 1403.309,
+      "sos_adj": 1312.684,
+      "power": 1474.022,
       "rank": 1,
-      "mw_rating": 31.0,
-      "mw_points": 372
+      "mw_rating": 31.3,
+      "mw_points": 375
     },
     {
       "teamno": "43423",
@@ -34,12 +34,12 @@
       "pf": 447,
       "pa": 432,
       "diff": 15,
-      "sos": 1409.67,
-      "sos_adj": 1327.527,
-      "power": 1448.155,
+      "sos": 1409.808,
+      "sos_adj": 1327.665,
+      "power": 1448.189,
       "rank": 2,
-      "mw_rating": 33.4,
-      "mw_points": 434
+      "mw_rating": 33.6,
+      "mw_points": 437
     },
     {
       "teamno": "43327",
@@ -55,8 +55,8 @@
       "sos_adj": 1348.752,
       "power": 1416.263,
       "rank": 3,
-      "mw_rating": 34.6,
-      "mw_points": 380
+      "mw_rating": 34.8,
+      "mw_points": 383
     },
     {
       "teamno": "43832",
@@ -68,12 +68,29 @@
       "pf": 484,
       "pa": 405,
       "diff": 79,
-      "sos": 1405.787,
-      "sos_adj": 1309.633,
-      "power": 1387.487,
+      "sos": 1403.995,
+      "sos_adj": 1307.841,
+      "power": 1387.039,
       "rank": 4,
-      "mw_rating": 21.0,
-      "mw_points": 273
+      "mw_rating": 21.2,
+      "mw_points": 275
+    },
+    {
+      "teamno": "43319",
+      "name": "D6H-Middleborough (benson)",
+      "town": null,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "pf": 395,
+      "pa": 410,
+      "diff": -15,
+      "sos": 1412.248,
+      "sos_adj": 1319.941,
+      "power": 1382.7,
+      "rank": 5,
+      "mw_rating": 20.9,
+      "mw_points": 271
     },
     {
       "teamno": "43111",
@@ -85,46 +102,29 @@
       "pf": 392,
       "pa": 395,
       "diff": -3,
-      "sos": 1409.28,
-      "sos_adj": 1314.28,
-      "power": 1377.534,
-      "rank": 5,
-      "mw_rating": 21.9,
-      "mw_points": 219
-    },
-    {
-      "teamno": "43319",
-      "name": "D6H-Middleborough (benson)",
-      "town": null,
-      "wins": 5,
-      "losses": 7,
-      "ties": 0,
-      "pf": 348,
-      "pa": 393,
-      "diff": -45,
-      "sos": 1418.867,
-      "sos_adj": 1327.2,
-      "power": 1365.595,
+      "sos": 1409.473,
+      "sos_adj": 1314.473,
+      "power": 1377.583,
       "rank": 6,
-      "mw_rating": 19.9,
-      "mw_points": 239
+      "mw_rating": 22.0,
+      "mw_points": 220
     },
     {
       "teamno": "43840",
       "name": "D6H-Westport (gallant)",
       "town": null,
       "wins": 7,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "pf": 322,
-      "pa": 369,
-      "diff": -47,
-      "sos": 1398.187,
-      "sos_adj": 1302.732,
-      "power": 1357.912,
+      "pf": 351,
+      "pa": 418,
+      "diff": -67,
+      "sos": 1402.334,
+      "sos_adj": 1310.668,
+      "power": 1342.424,
       "rank": 7,
-      "mw_rating": 25.5,
-      "mw_points": 280
+      "mw_rating": 24.3,
+      "mw_points": 291
     }
   ]
 }

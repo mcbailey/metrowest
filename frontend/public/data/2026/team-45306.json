@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45306",
   "team_name": "D6T-Medford (gray)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 423,
     "pa": 396,
     "diff": 27,
-    "sos": 1388.094,
-    "sos_adj": 1288.094,
-    "power": 1383.67,
-    "rank": 3,
-    "mw_rating": 24.9,
-    "mw_points": 274,
+    "sos": 1392.863,
+    "sos_adj": 1292.863,
+    "power": 1383.698,
+    "rank": 4,
+    "mw_rating": 25.1,
+    "mw_points": 276,
     "divisionno": "7142",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
@@ -244,7 +244,7 @@
       "location": "Bedford Davis School",
       "divisionno": "7142",
       "division_name": "8th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44756",
       "away_teamno": "45306",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44756",
+      "opponent_name": "D6T-Arlington (black)"
     }
   ]
 }

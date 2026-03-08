@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44696",
   "team_name": "D3K-Arlington (maroon)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 685,
     "pa": 614,
     "diff": 71,
-    "sos": 1563.152,
-    "sos_adj": 1624.263,
-    "power": 1595.481,
+    "sos": 1564.005,
+    "sos_adj": 1625.117,
+    "power": 1595.695,
     "rank": 2,
-    "mw_rating": 98.6,
-    "mw_points": 1085,
+    "mw_rating": 98.8,
+    "mw_points": 1087,
     "divisionno": "7248",
     "division_name": "8th Girls - Division 3",
     "grade": 8,
@@ -396,7 +396,7 @@
       "location": "Westborough Gibbons Middle School",
       "divisionno": "7248",
       "division_name": "8th Girls - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "44385",
       "away_teamno": "44696",
       "home_score": null,
       "away_score": null,
@@ -404,8 +404,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44385",
+      "opponent_name": "D3J-Westborough"
     }
   ]
 }

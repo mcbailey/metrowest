@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44411",
   "team_name": "D4Q-Dedham (kleinsasser)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 595,
     "pa": 562,
     "diff": 33,
-    "sos": 1482.889,
-    "sos_adj": 1478.722,
-    "power": 1535.262,
+    "sos": 1483.279,
+    "sos_adj": 1479.112,
+    "power": 1535.359,
     "rank": 2,
-    "mw_rating": 57.0,
-    "mw_points": 684,
+    "mw_rating": 57.2,
+    "mw_points": 686,
     "divisionno": "7155",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
@@ -263,7 +263,7 @@
       "location": "Sudbury Fieldhouse-Court 2",
       "divisionno": "7155",
       "division_name": "8th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "44380",
       "away_teamno": "44411",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44380",
+      "opponent_name": "D4Q-Westborough"
     }
   ]
 }

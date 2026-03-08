@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45257",
   "team_name": "D4M-Medfield (abba)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 402,
-    "pa": 483,
-    "diff": -81,
-    "sos": 1508.356,
-    "sos_adj": 1504.51,
-    "power": 1483.537,
-    "rank": 3,
-    "mw_rating": 55.8,
-    "mw_points": 670,
+    "pf": 422,
+    "pa": 523,
+    "diff": -101,
+    "sos": 1512.751,
+    "sos_adj": 1512.751,
+    "power": 1471.406,
+    "rank": 4,
+    "mw_rating": 55.0,
+    "mw_points": 715,
     "divisionno": "7259",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46266",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "9:15 AM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7259",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "45257",
+      "away_teamno": "43944",
+      "home_score": 20,
+      "away_score": 40,
+      "team_score": 20,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43944",
+      "opponent_name": "D3J-Brookline (red)"
+    },
     {
       "gameno": "377309",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D3H-Canton (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46266",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "9:15 AM",
-      "location": "Ashland Mindess School",
-      "divisionno": "7259",
-      "division_name": "7th Girls - Division 4",
-      "home_teamno": "45257",
-      "away_teamno": "43944",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43944",
-      "opponent_name": "D3J-Brookline (red)"
-    }
-  ]
+  "future_games": []
 }

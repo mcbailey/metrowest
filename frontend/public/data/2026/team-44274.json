@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44274",
   "team_name": "D6R-Wayland (silver)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 395,
     "pa": 376,
     "diff": 19,
-    "sos": 1410.469,
-    "sos_adj": 1310.469,
-    "power": 1389.072,
+    "sos": 1409.422,
+    "sos_adj": 1309.422,
+    "power": 1387.665,
     "rank": 3,
-    "mw_rating": 24.0,
-    "mw_points": 288,
+    "mw_rating": 24.1,
+    "mw_points": 289,
     "divisionno": "7210",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
@@ -263,7 +263,7 @@
       "location": "Frisoli Youth Center",
       "divisionno": "7210",
       "division_name": "6th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44714",
       "away_teamno": "44274",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44714",
+      "opponent_name": "D6R-Weston"
     }
   ]
 }

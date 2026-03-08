@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44575",
   "team_name": "D2M-King Philip (black)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 497,
-    "pa": 535,
-    "diff": -38,
-    "sos": 1587.243,
-    "sos_adj": 1683.397,
-    "power": 1595.325,
+    "pf": 533,
+    "pa": 578,
+    "diff": -45,
+    "sos": 1591.869,
+    "sos_adj": 1688.298,
+    "power": 1589.125,
     "rank": 7,
-    "mw_rating": 92.5,
-    "mw_points": 1203,
+    "mw_rating": 90.9,
+    "mw_points": 1273,
     "divisionno": "7631",
     "division_name": "3rd Boys - Division 2",
     "grade": 3,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44481",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:40 AM",
+      "location": "Jr Mass Premier-1",
+      "divisionno": "7632",
+      "division_name": "3rd Boys - Division 2",
+      "home_teamno": "44575",
+      "away_teamno": "44574",
+      "home_score": 36,
+      "away_score": 43,
+      "team_score": 36,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44574",
+      "opponent_name": "D2N-King Philip (white)"
+    },
     {
       "gameno": "44478",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D2M-North Attleboro (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44481",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "10:40 AM",
-      "location": "Jr Mass Premier-1",
-      "divisionno": "7632",
-      "division_name": "3rd Boys - Division 2",
-      "home_teamno": "44575",
-      "away_teamno": "44574",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44574",
-      "opponent_name": "D2N-King Philip (white)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43421",
   "team_name": "D5J-Bridgewater (senesi)",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 389,
-    "pa": 539,
-    "diff": -150,
-    "sos": 1468.015,
-    "sos_adj": 1422.182,
-    "power": 1385.381,
+    "pf": 424,
+    "pa": 593,
+    "diff": -169,
+    "sos": 1471.681,
+    "sos_adj": 1425.527,
+    "power": 1374.561,
     "rank": 6,
-    "mw_rating": 22.6,
-    "mw_points": 271,
+    "mw_rating": 21.7,
+    "mw_points": 282,
     "divisionno": "7213",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45440",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:50 PM",
+      "location": "Taunton High Upper Gyn",
+      "divisionno": "7213",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43421",
+      "away_teamno": "43289",
+      "home_score": 35,
+      "away_score": 54,
+      "team_score": 35,
+      "opponent_score": 54,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43289",
+      "opponent_name": "D5J-Middleborough (terrasi)"
+    },
     {
       "gameno": "378297",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5J-Taunton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45440",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "1:50 PM",
-      "location": "Taunton High Upper Gyn",
-      "divisionno": "7213",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "43421",
-      "away_teamno": "43289",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43289",
-      "opponent_name": "D5J-Middleborough (terrasi)"
-    }
-  ]
+  "future_games": []
 }

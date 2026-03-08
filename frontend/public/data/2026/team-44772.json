@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44772",
   "team_name": "D5T-Belmont (navy)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 387,
-    "pa": 320,
-    "diff": 67,
-    "sos": 1439.885,
-    "sos_adj": 1395.767,
-    "power": 1432.725,
+    "pf": 409,
+    "pa": 365,
+    "diff": 44,
+    "sos": 1443.15,
+    "sos_adj": 1398.705,
+    "power": 1414.619,
     "rank": 3,
-    "mw_rating": 27.5,
-    "mw_points": 302,
+    "mw_rating": 26.0,
+    "mw_points": 312,
     "divisionno": "7273",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46175",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "9:05 AM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7273",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "44772",
+      "away_teamno": "44993",
+      "home_score": 22,
+      "away_score": 45,
+      "team_score": 22,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44993",
+      "opponent_name": "D5R-Dover Sherborn (rainey)"
+    },
     {
       "gameno": "380405",
       "date": "2026-03-01",
@@ -349,25 +368,5 @@
       "opponent_name": "D3Q-Lexington (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46175",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "9:05 AM",
-      "location": "Hopkinton Brown Gym",
-      "divisionno": "7273",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "44772",
-      "away_teamno": "44993",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44993",
-      "opponent_name": "D5R-Dover Sherborn (rainey)"
-    }
-  ]
+  "future_games": []
 }

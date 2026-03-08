@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44896",
   "team_name": "D1A-North Attleboro (red)",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1733.561,
     "power": 1664.772,
     "rank": 3,
-    "mw_rating": 158.1,
-    "mw_points": 1897,
+    "mw_rating": 158.4,
+    "mw_points": 1901,
     "divisionno": "7090",
     "division_name": "4th Girls - Division 1",
     "grade": 4,
@@ -299,9 +299,9 @@
       "dow": "Sun",
       "starttime": "9:20 AM",
       "location": "Mansfield Fieldhouse -3",
-      "divisionno": "7090",
-      "division_name": "4th Girls - Division 1",
-      "home_teamno": "0",
+      "divisionno": "7546",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "44038",
       "away_teamno": "44896",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44038",
+      "opponent_name": "D2M-Newton (black)"
     }
   ]
 }

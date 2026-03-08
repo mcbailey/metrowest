@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45260",
   "team_name": "D3K-Medfield (bills)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 647,
-    "pa": 556,
-    "diff": 91,
-    "sos": 1541.843,
-    "sos_adj": 1595.689,
-    "power": 1607.543,
+    "pf": 694,
+    "pa": 607,
+    "diff": 87,
+    "sos": 1541.032,
+    "sos_adj": 1591.032,
+    "power": 1583.509,
     "rank": 3,
-    "mw_rating": 90.3,
-    "mw_points": 1084,
+    "mw_rating": 85.4,
+    "mw_points": 1110,
     "divisionno": "7159",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45690",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "6:20 PM",
+      "location": "North Quincy High School (Ct 1)",
+      "divisionno": "7154",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "43588",
+      "away_teamno": "45260",
+      "home_score": 51,
+      "away_score": 47,
+      "team_score": 47,
+      "opponent_score": 51,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43588",
+      "opponent_name": "D4M-North Quincy (norton)"
+    },
     {
       "gameno": "379704",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D3J-Canton (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45690",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "6:20 PM",
-      "location": "North Quincy High School (Ct 1)",
-      "divisionno": "7154",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "43588",
-      "away_teamno": "45260",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43588",
-      "opponent_name": "D4M-North Quincy (norton)"
-    }
-  ]
+  "future_games": []
 }

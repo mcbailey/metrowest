@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45583",
   "team_name": "D4J-Stoughton",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 512,
     "pa": 448,
     "diff": 64,
-    "sos": 1494.203,
-    "sos_adj": 1494.203,
-    "power": 1547.269,
+    "sos": 1491.463,
+    "sos_adj": 1491.463,
+    "power": 1541.712,
     "rank": 2,
-    "mw_rating": 67.7,
-    "mw_points": 745,
+    "mw_rating": 67.9,
+    "mw_points": 747,
     "divisionno": "7189",
     "division_name": "7th Boys - Division 4",
     "grade": 7,
@@ -261,9 +261,9 @@
       "dow": "Sun",
       "starttime": "9:20 AM",
       "location": "Taunton High School 1",
-      "divisionno": "7189",
-      "division_name": "7th Boys - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7180",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "43299",
       "away_teamno": "45583",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43299",
+      "opponent_name": "D5J-Franklin"
     }
   ]
 }

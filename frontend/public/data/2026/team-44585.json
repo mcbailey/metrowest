@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44585",
   "team_name": "D5J-King Philip",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 557,
     "pa": 478,
     "diff": 79,
-    "sos": 1445.014,
-    "sos_adj": 1395.014,
-    "power": 1462.522,
+    "sos": 1447.229,
+    "sos_adj": 1397.229,
+    "power": 1463.076,
     "rank": 3,
-    "mw_rating": 36.6,
-    "mw_points": 439,
+    "mw_rating": 36.9,
+    "mw_points": 443,
     "divisionno": "7146",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
@@ -263,7 +263,7 @@
       "location": "Hopkinton-Hopkins School",
       "divisionno": "7146",
       "division_name": "8th Boys - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "43331",
       "away_teamno": "44585",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43331",
+      "opponent_name": "D5H-Mansfield (green)"
     }
   ]
 }

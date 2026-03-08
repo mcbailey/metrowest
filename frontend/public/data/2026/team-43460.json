@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43460",
   "team_name": "D3Q-Winchester (white)",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 22,
+    "losses": 23,
     "ties": 0,
-    "pf": 855,
-    "pa": 1091,
-    "diff": -236,
-    "sos": 1567.964,
-    "sos_adj": 1615.964,
-    "power": 1469.853,
+    "pf": 879,
+    "pa": 1118,
+    "diff": -239,
+    "sos": 1566.208,
+    "sos_adj": 1614.285,
+    "power": 1462.706,
     "rank": 7,
-    "mw_rating": 53.3,
-    "mw_points": 640,
+    "mw_rating": 52.7,
+    "mw_points": 685,
     "divisionno": "7229",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 24,
-    "games_scheduled_total": 1
+    "games_played_total": 25,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45343",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:30 AM",
+      "location": "Sudbury Fieldhouse-Court 1",
+      "divisionno": "7229",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "44329",
+      "away_teamno": "43460",
+      "home_score": 27,
+      "away_score": 24,
+      "team_score": 24,
+      "opponent_score": 27,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44329",
+      "opponent_name": "D3M-Medway (blue)"
+    },
     {
       "gameno": "378940",
       "date": "2026-03-01",
@@ -482,25 +501,5 @@
       "opponent_name": "Stoneham (A)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45343",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "10:30 AM",
-      "location": "Sudbury Fieldhouse-Court 1",
-      "divisionno": "7229",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "44329",
-      "away_teamno": "43460",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44329",
-      "opponent_name": "D3M-Medway (blue)"
-    }
-  ]
+  "future_games": []
 }

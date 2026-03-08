@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43463",
   "team_name": "D5W-Winchester (black)",
   "town": null,
   "summary": {
     "wins": 18,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 765,
-    "pa": 441,
-    "diff": 324,
-    "sos": 1430.028,
-    "sos_adj": 1375.266,
-    "power": 1487.373,
+    "pf": 795,
+    "pa": 479,
+    "diff": 316,
+    "sos": 1430.51,
+    "sos_adj": 1378.238,
+    "power": 1471.63,
     "rank": 2,
-    "mw_rating": 55.3,
-    "mw_points": 663,
+    "mw_rating": 53.2,
+    "mw_points": 692,
     "divisionno": "7296",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 21,
-    "games_scheduled_total": 1
+    "games_played_total": 22,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45166",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:30 AM",
+      "location": "Ashland High School",
+      "divisionno": "7296",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "45298",
+      "away_teamno": "43463",
+      "home_score": 38,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 38,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45298",
+      "opponent_name": "D4Q-Medford (blue)"
+    },
     {
       "gameno": "376986",
       "date": "2026-03-01",
@@ -425,25 +444,5 @@
       "opponent_name": "D5W-Arlington (grey)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45166",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "10:30 AM",
-      "location": "Ashland High School",
-      "divisionno": "7296",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "45298",
-      "away_teamno": "43463",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45298",
-      "opponent_name": "D4Q-Medford (blue)"
-    }
-  ]
+  "future_games": []
 }

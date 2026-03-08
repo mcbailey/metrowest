@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "F",
   "grade": 4,
   "divisionno": "7090",
@@ -17,12 +17,12 @@
       "pf": 657,
       "pa": 277,
       "diff": 380,
-      "sos": 1607.645,
-      "sos_adj": 1712.908,
-      "power": 1700.415,
+      "sos": 1606.578,
+      "sos_adj": 1711.841,
+      "power": 1700.148,
       "rank": 1,
-      "mw_rating": 175.2,
-      "mw_points": 2102
+      "mw_rating": 175.5,
+      "mw_points": 2106
     },
     {
       "teamno": "44469",
@@ -34,12 +34,12 @@
       "pf": 403,
       "pa": 244,
       "diff": 159,
-      "sos": 1634.481,
-      "sos_adj": 1770.196,
-      "power": 1677.412,
+      "sos": 1635.93,
+      "sos_adj": 1771.644,
+      "power": 1677.774,
       "rank": 2,
-      "mw_rating": 150.0,
-      "mw_points": 1650
+      "mw_rating": 150.5,
+      "mw_points": 1655
     },
     {
       "teamno": "44896",
@@ -55,42 +55,42 @@
       "sos_adj": 1733.561,
       "power": 1664.772,
       "rank": 3,
-      "mw_rating": 158.1,
-      "mw_points": 1897
+      "mw_rating": 158.4,
+      "mw_points": 1901
     },
     {
       "teamno": "43447",
       "name": "D1A-Foxboro (blue)",
       "town": null,
       "wins": 9,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 352,
-      "pa": 297,
-      "diff": 55,
-      "sos": 1605.992,
-      "sos_adj": 1709.326,
-      "power": 1629.846,
+      "pf": 366,
+      "pa": 322,
+      "diff": 44,
+      "sos": 1611.103,
+      "sos_adj": 1717.353,
+      "power": 1613.716,
       "rank": 4,
-      "mw_rating": 123.8,
-      "mw_points": 1485
+      "mw_rating": 119.8,
+      "mw_points": 1557
     },
     {
       "teamno": "45151",
       "name": "D1A-Waltham Girls",
       "town": null,
-      "wins": 1,
+      "wins": 2,
       "losses": 12,
       "ties": 0,
-      "pf": 155,
-      "pa": 436,
-      "diff": -281,
-      "sos": 1635.982,
-      "sos_adj": 1766.751,
-      "power": 1567.987,
+      "pf": 180,
+      "pa": 455,
+      "diff": -275,
+      "sos": 1633.737,
+      "sos_adj": 1765.88,
+      "power": 1582.974,
       "rank": 5,
-      "mw_rating": 75.8,
-      "mw_points": 985
+      "mw_rating": 81.2,
+      "mw_points": 1137
     }
   ]
 }

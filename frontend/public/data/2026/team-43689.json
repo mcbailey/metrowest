@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43689",
   "team_name": "D3J-Sharon (gold)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 1099,
     "pa": 990,
     "diff": 109,
-    "sos": 1545.868,
-    "sos_adj": 1590.868,
-    "power": 1566.261,
+    "sos": 1541.478,
+    "sos_adj": 1586.478,
+    "power": 1565.164,
     "rank": 4,
     "mw_rating": 98.8,
     "mw_points": 1185,
@@ -432,9 +432,9 @@
       "dow": "Sun",
       "starttime": "6:40 PM",
       "location": "Foxboro Charter H.S.",
-      "divisionno": "7158",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "0",
+      "divisionno": "7151",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "43240",
       "away_teamno": "43689",
       "home_score": null,
       "away_score": null,
@@ -442,8 +442,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43240",
+      "opponent_name": "D4H-Middleborough (colp)"
     }
   ]
 }

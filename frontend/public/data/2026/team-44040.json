@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44040",
   "team_name": "D1N-Newton (black)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 875,
     "pa": 485,
     "diff": 390,
-    "sos": 1597.508,
-    "sos_adj": 1700.008,
-    "power": 1732.564,
+    "sos": 1597.302,
+    "sos_adj": 1699.802,
+    "power": 1721.757,
     "rank": 1,
-    "mw_rating": 174.6,
-    "mw_points": 2270,
+    "mw_rating": 175.2,
+    "mw_points": 2277,
     "divisionno": "7573",
     "division_name": "4th Boys - Division 1",
     "grade": 4,
@@ -434,7 +434,7 @@
       "location": "Dana Barros - 1",
       "divisionno": "7573",
       "division_name": "4th Boys - Division 1",
-      "home_teamno": "0",
+      "home_teamno": "44970",
       "away_teamno": "44040",
       "home_score": null,
       "away_score": null,
@@ -442,8 +442,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44970",
+      "opponent_name": "D1M-Foxboro (blue)"
     }
   ]
 }

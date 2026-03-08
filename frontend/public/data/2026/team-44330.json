@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44330",
   "team_name": "D5R-Medway (white)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 442,
-    "pa": 508,
-    "diff": -66,
-    "sos": 1452.842,
-    "sos_adj": 1402.842,
-    "power": 1429.405,
-    "rank": 4,
-    "mw_rating": 30.2,
-    "mw_points": 392,
+    "pf": 470,
+    "pa": 548,
+    "diff": -78,
+    "sos": 1452.348,
+    "sos_adj": 1402.348,
+    "power": 1412.716,
+    "rank": 6,
+    "mw_rating": 28.8,
+    "mw_points": 403,
     "divisionno": "7217",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45412",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "12:00 PM",
+      "location": "Quincy Catholic Academy",
+      "divisionno": "7217",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "44330",
+      "away_teamno": "43184",
+      "home_score": 28,
+      "away_score": 40,
+      "team_score": 28,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43184",
+      "opponent_name": "D5K-Bellingham"
+    },
     {
       "gameno": "45408",
       "date": "2026-03-05",
@@ -273,25 +292,5 @@
       "opponent_name": "D5R-Medfield (blood)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45412",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "12:00 PM",
-      "location": "Quincy Catholic Academy",
-      "divisionno": "7217",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "44330",
-      "away_teamno": "43184",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43184",
-      "opponent_name": "D5K-Bellingham"
-    }
-  ]
+  "future_games": []
 }

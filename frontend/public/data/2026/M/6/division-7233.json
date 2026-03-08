@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "M",
   "grade": 6,
   "divisionno": "7233",
@@ -17,12 +17,12 @@
       "pf": 978,
       "pa": 843,
       "diff": 135,
-      "sos": 1592.08,
-      "sos_adj": 1683.746,
-      "power": 1683.772,
+      "sos": 1593.255,
+      "sos_adj": 1684.922,
+      "power": 1684.066,
       "rank": 1,
-      "mw_rating": 135.8,
-      "mw_points": 1630
+      "mw_rating": 136.1,
+      "mw_points": 1633
     },
     {
       "teamno": "43935",
@@ -38,8 +38,8 @@
       "sos_adj": 1677.275,
       "power": 1667.591,
       "rank": 2,
-      "mw_rating": 138.3,
-      "mw_points": 1521
+      "mw_rating": 138.5,
+      "mw_points": 1523
     },
     {
       "teamno": "45249",
@@ -51,29 +51,29 @@
       "pf": 793,
       "pa": 788,
       "diff": 5,
-      "sos": 1607.42,
-      "sos_adj": 1713.67,
-      "power": 1643.635,
+      "sos": 1608.743,
+      "sos_adj": 1714.993,
+      "power": 1643.965,
       "rank": 3,
-      "mw_rating": 133.1,
-      "mw_points": 1597
+      "mw_rating": 133.3,
+      "mw_points": 1599
     },
     {
       "teamno": "44045",
       "name": "D2M-Newton (black)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 7,
       "ties": 0,
-      "pf": 630,
-      "pa": 659,
-      "diff": -29,
-      "sos": 1607.828,
-      "sos_adj": 1707.828,
-      "power": 1611.666,
+      "pf": 696,
+      "pa": 704,
+      "diff": -8,
+      "sos": 1605.454,
+      "sos_adj": 1705.454,
+      "power": 1626.945,
       "rank": 4,
-      "mw_rating": 112.3,
-      "mw_points": 1347
+      "mw_rating": 115.6,
+      "mw_points": 1503
     },
     {
       "teamno": "45504",
@@ -85,9 +85,9 @@
       "pf": 561,
       "pa": 726,
       "diff": -165,
-      "sos": 1602.044,
-      "sos_adj": 1694.901,
-      "power": 1584.364,
+      "sos": 1603.556,
+      "sos_adj": 1696.413,
+      "power": 1584.742,
       "rank": 5,
       "mw_rating": 87.7,
       "mw_points": 1140

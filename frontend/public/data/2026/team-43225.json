@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43225",
   "team_name": "D2H-Barnstable  (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 796,
     "pa": 768,
     "diff": 28,
-    "sos": 1566.484,
-    "sos_adj": 1650.859,
-    "power": 1662.229,
+    "sos": 1567.44,
+    "sos_adj": 1651.815,
+    "power": 1657.517,
     "rank": 1,
-    "mw_rating": 142.4,
-    "mw_points": 1282,
+    "mw_rating": 142.9,
+    "mw_points": 1286,
     "divisionno": "7163",
     "division_name": "8th Boys - Division 2",
     "grade": 8,
@@ -396,7 +396,7 @@
       "location": "Foxboro Ahern Middle (Gym 2)",
       "divisionno": "7163",
       "division_name": "8th Boys - Division 2",
-      "home_teamno": "0",
+      "home_teamno": "45501",
       "away_teamno": "43225",
       "home_score": null,
       "away_score": null,
@@ -404,8 +404,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45501",
+      "opponent_name": "D1J-Everett"
     }
   ]
 }

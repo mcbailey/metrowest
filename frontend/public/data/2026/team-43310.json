@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43310",
   "team_name": "D1N-Franklin",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 629,
-    "pa": 610,
-    "diff": 19,
-    "sos": 1629.851,
-    "sos_adj": 1744.557,
-    "power": 1656.956,
+    "pf": 654,
+    "pa": 640,
+    "diff": 14,
+    "sos": 1628.544,
+    "sos_adj": 1742.433,
+    "power": 1643.763,
     "rank": 4,
-    "mw_rating": 150.9,
-    "mw_points": 1811,
+    "mw_rating": 147.2,
+    "mw_points": 1914,
     "divisionno": "7573",
     "division_name": "4th Boys - Division 1",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44737",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:40 AM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7573",
+      "division_name": "4th Boys - Division 1",
+      "home_teamno": "43346",
+      "away_teamno": "43310",
+      "home_score": 30,
+      "away_score": 25,
+      "team_score": 25,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43346",
+      "opponent_name": "D1M-Mansfield (white)"
+    },
     {
       "gameno": "385428",
       "date": "2026-03-01",
@@ -349,25 +368,5 @@
       "opponent_name": "D2N-Stoughton"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44737",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "10:40 AM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7573",
-      "division_name": "4th Boys - Division 1",
-      "home_teamno": "43346",
-      "away_teamno": "43310",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43346",
-      "opponent_name": "D1M-Mansfield (white)"
-    }
-  ]
+  "future_games": []
 }

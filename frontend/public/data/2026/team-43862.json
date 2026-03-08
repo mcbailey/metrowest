@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43862",
   "team_name": "D5Q-Southboro (white)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 7,
+    "losses": 8,
     "ties": 1,
-    "pf": 458,
-    "pa": 539,
-    "diff": -81,
-    "sos": 1466.752,
-    "sos_adj": 1424.444,
-    "power": 1419.818,
+    "pf": 486,
+    "pa": 574,
+    "diff": -88,
+    "sos": 1465.65,
+    "sos_adj": 1422.792,
+    "power": 1406.987,
     "rank": 6,
-    "mw_rating": 30.0,
-    "mw_points": 360,
+    "mw_rating": 28.5,
+    "mw_points": 371,
     "divisionno": "7149",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45780",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "2:25 PM",
+      "location": "Hopkinton Doyle Gym",
+      "divisionno": "7149",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "43331",
+      "away_teamno": "43862",
+      "home_score": 35,
+      "away_score": 28,
+      "team_score": 28,
+      "opponent_score": 35,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43331",
+      "opponent_name": "D5H-Mansfield (green)"
+    },
     {
       "gameno": "381015",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "Marlboro (black) 8B D2S"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45780",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "2:25 PM",
-      "location": "Hopkinton Doyle Gym",
-      "divisionno": "7149",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "43331",
-      "away_teamno": "43862",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43331",
-      "opponent_name": "D5H-Mansfield (green)"
-    }
-  ]
+  "future_games": []
 }

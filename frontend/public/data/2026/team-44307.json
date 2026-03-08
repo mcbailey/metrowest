@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44307",
   "team_name": "D6T-Belmont (gray)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 576,
     "pa": 642,
     "diff": -66,
-    "sos": 1414.531,
-    "sos_adj": 1322.426,
-    "power": 1363.546,
+    "sos": 1417.831,
+    "sos_adj": 1325.726,
+    "power": 1366.077,
     "rank": 4,
-    "mw_rating": 27.5,
-    "mw_points": 330,
+    "mw_rating": 27.7,
+    "mw_points": 332,
     "divisionno": "7211",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
@@ -396,7 +396,7 @@
       "location": "Hopkinton Brown Gym",
       "divisionno": "7211",
       "division_name": "6th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44703",
       "away_teamno": "44307",
       "home_score": null,
       "away_score": null,
@@ -404,8 +404,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44703",
+      "opponent_name": "D6Q-Dover Sherborn (shannon)"
     }
   ]
 }

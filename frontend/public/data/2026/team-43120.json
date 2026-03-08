@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43120",
   "team_name": "D6J-Seekonk (mcbride)",
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 1,
+    "losses": 2,
     "ties": 0,
-    "pf": 545,
-    "pa": 394,
-    "diff": 151,
-    "sos": 1390.58,
-    "sos_adj": 1294.747,
-    "power": 1449.436,
+    "pf": 569,
+    "pa": 440,
+    "diff": 129,
+    "sos": 1398.701,
+    "sos_adj": 1306.394,
+    "power": 1429.675,
     "rank": 1,
-    "mw_rating": 35.0,
-    "mw_points": 420,
+    "mw_rating": 33.3,
+    "mw_points": 433,
     "divisionno": "7138",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45800",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "5:50 PM",
+      "location": "Taunton High School  2",
+      "divisionno": "7138",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "43120",
+      "away_teamno": "43098",
+      "home_score": 24,
+      "away_score": 46,
+      "team_score": 24,
+      "opponent_score": 46,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43098",
+      "opponent_name": "D5H-Swansea (black)"
+    },
     {
       "gameno": "379275",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D6J-North Attleboro (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45800",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "5:50 PM",
-      "location": "Taunton High School  2",
-      "divisionno": "7138",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "43120",
-      "away_teamno": "43098",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43098",
-      "opponent_name": "D5H-Swansea (black)"
-    }
-  ]
+  "future_games": []
 }

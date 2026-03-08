@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43764",
   "team_name": "D4N-Needham (blue)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 634,
     "pa": 562,
     "diff": 72,
-    "sos": 1524.827,
-    "sos_adj": 1552.327,
-    "power": 1550.444,
+    "sos": 1520.936,
+    "sos_adj": 1548.436,
+    "power": 1545.735,
     "rank": 1,
     "mw_rating": 67.8,
-    "mw_points": 813,
+    "mw_points": 814,
     "divisionno": "7578",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
@@ -413,9 +413,9 @@
       "dow": "Sun",
       "starttime": "9:20 AM",
       "location": "Mansfield Fieldhouse -1",
-      "divisionno": "7578",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7581",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "43827",
       "away_teamno": "43764",
       "home_score": null,
       "away_score": null,
@@ -423,8 +423,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43827",
+      "opponent_name": "D5M-Westport (barrera)"
     }
   ]
 }

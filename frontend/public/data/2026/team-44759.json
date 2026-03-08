@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44759",
   "team_name": "D6W-Arlington (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 513,
     "pa": 427,
     "diff": 86,
-    "sos": 1389.227,
-    "sos_adj": 1289.227,
-    "power": 1398.776,
+    "sos": 1389.888,
+    "sos_adj": 1289.888,
+    "power": 1398.941,
     "rank": 2,
-    "mw_rating": 21.6,
-    "mw_points": 238,
+    "mw_rating": 21.8,
+    "mw_points": 240,
     "divisionno": "7143",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
@@ -320,7 +320,7 @@
       "location": "Westborough Gibbons Middle School",
       "divisionno": "7143",
       "division_name": "8th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44444",
       "away_teamno": "44759",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44444",
+      "opponent_name": "D6W-Bedford (black)"
     }
   ]
 }

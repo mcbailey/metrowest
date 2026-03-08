@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45345",
   "team_name": "D4J-Milton (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 201,
     "pa": 208,
     "diff": -7,
-    "sos": 1469.075,
-    "sos_adj": 1469.075,
-    "power": 1494.304,
+    "sos": 1473.753,
+    "sos_adj": 1473.753,
+    "power": 1495.27,
     "rank": 4,
-    "mw_rating": 60.5,
-    "mw_points": 665,
+    "mw_rating": 60.6,
+    "mw_points": 666,
     "divisionno": "7320",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
@@ -242,9 +242,9 @@
       "dow": "Sun",
       "starttime": "10:15 AM",
       "location": "Southborough Trottier Middle School",
-      "divisionno": "7320",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7314",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44474",
       "away_teamno": "45345",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44474",
+      "opponent_name": "D5M-Walpole (b)"
     }
   ]
 }

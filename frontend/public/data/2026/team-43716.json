@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43716",
   "team_name": "D2K-Concord-Carlisle (maroon)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 1087,
     "pa": 1130,
     "diff": -43,
-    "sos": 1595.316,
-    "sos_adj": 1690.771,
-    "power": 1600.746,
+    "sos": 1594.116,
+    "sos_adj": 1689.571,
+    "power": 1602.64,
     "rank": 5,
     "mw_rating": 142.2,
     "mw_points": 1564,
@@ -491,7 +491,7 @@
       "location": "Dana Barros - 3",
       "divisionno": "7165",
       "division_name": "8th Boys - Division 2",
-      "home_teamno": "0",
+      "home_teamno": "43300",
       "away_teamno": "43716",
       "home_score": null,
       "away_score": null,
@@ -499,8 +499,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43300",
+      "opponent_name": "D2J-Franklin"
     }
   ]
 }

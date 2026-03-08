@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45356",
   "team_name": "D3H-West Bridgewater (maher)",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 174,
-    "pa": 327,
-    "diff": -153,
-    "sos": 1556.617,
-    "sos_adj": 1595.079,
-    "power": 1513.937,
+    "pf": 192,
+    "pa": 347,
+    "diff": -155,
+    "sos": 1547.407,
+    "sos_adj": 1579.55,
+    "power": 1502.278,
     "rank": 6,
-    "mw_rating": 54.0,
-    "mw_points": 648,
+    "mw_rating": 50.7,
+    "mw_points": 659,
     "divisionno": "7325",
     "division_name": "5th Girls - Division 3",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46003",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:50 PM",
+      "location": "Taunton High School 3",
+      "divisionno": "7312",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "45356",
+      "away_teamno": "43334",
+      "home_score": 18,
+      "away_score": 20,
+      "team_score": 18,
+      "opponent_score": 20,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43334",
+      "opponent_name": "D5J-Mansfield (green)"
+    },
     {
       "gameno": "392446",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D1A-Mansfield (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46003",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "1:50 PM",
-      "location": "Taunton High School 3",
-      "divisionno": "7312",
-      "division_name": "5th Girls - Division 5",
-      "home_teamno": "45356",
-      "away_teamno": "43334",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43334",
-      "opponent_name": "D5J-Mansfield (green)"
-    }
-  ]
+  "future_games": []
 }

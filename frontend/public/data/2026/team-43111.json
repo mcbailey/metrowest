@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "43111",
   "team_name": "D6H-Seekonk (perez)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 392,
     "pa": 395,
     "diff": -3,
-    "sos": 1409.28,
-    "sos_adj": 1314.28,
-    "power": 1377.534,
-    "rank": 5,
-    "mw_rating": 21.9,
-    "mw_points": 219,
+    "sos": 1409.473,
+    "sos_adj": 1314.473,
+    "power": 1377.583,
+    "rank": 6,
+    "mw_rating": 22.0,
+    "mw_points": 220,
     "divisionno": "7173",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
@@ -244,7 +244,7 @@
       "location": "Mansfield Fieldhouse -2",
       "divisionno": "7173",
       "division_name": "7th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "43319",
       "away_teamno": "43111",
       "home_score": null,
       "away_score": null,
@@ -252,8 +252,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43319",
+      "opponent_name": "D6H-Middleborough (benson)"
     }
   ]
 }

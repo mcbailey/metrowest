@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45347",
   "team_name": "D7P-Milton (silver)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 204,
     "pa": 187,
     "diff": 17,
-    "sos": 1383.135,
-    "sos_adj": 1263.135,
-    "power": 1322.558,
+    "sos": 1386.467,
+    "sos_adj": 1266.467,
+    "power": 1323.391,
     "rank": 4,
-    "mw_rating": 11.7,
-    "mw_points": 140,
+    "mw_rating": 11.8,
+    "mw_points": 141,
     "divisionno": "7557",
     "division_name": "4th Girls - Division 7",
     "grade": 4,
@@ -318,9 +318,9 @@
       "dow": "Sun",
       "starttime": "10:25 AM",
       "location": "Hopkinton-Hopkins School",
-      "divisionno": "7557",
+      "divisionno": "7558",
       "division_name": "4th Girls - Division 7",
-      "home_teamno": "0",
+      "home_teamno": "45107",
       "away_teamno": "45347",
       "home_score": null,
       "away_score": null,
@@ -328,8 +328,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45107",
+      "opponent_name": "D7Q-Framingham (navy)"
     }
   ]
 }

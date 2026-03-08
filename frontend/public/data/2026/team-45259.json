@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45259",
   "team_name": "D6R-Waltham Boys (white)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 312,
     "pa": 362,
     "diff": -50,
-    "sos": 1390.446,
-    "sos_adj": 1290.446,
-    "power": 1349.41,
-    "rank": 4,
-    "mw_rating": 14.9,
-    "mw_points": 179,
+    "sos": 1391.864,
+    "sos_adj": 1291.864,
+    "power": 1349.764,
+    "rank": 5,
+    "mw_rating": 15.0,
+    "mw_points": 180,
     "divisionno": "7588",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
@@ -264,15 +264,15 @@
       "divisionno": "7588",
       "division_name": "4th Boys - Division 6",
       "home_teamno": "45259",
-      "away_teamno": "0",
+      "away_teamno": "44354",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44354",
+      "opponent_name": "D6R-Belmont (white)"
     }
   ]
 }

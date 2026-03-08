@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "F",
   "grade": 6,
   "divisionno": "7282",
@@ -17,12 +17,12 @@
       "pf": 547,
       "pa": 541,
       "diff": 6,
-      "sos": 1543.383,
-      "sos_adj": 1591.11,
-      "power": 1583.048,
+      "sos": 1544.942,
+      "sos_adj": 1592.67,
+      "power": 1581.16,
       "rank": 1,
-      "mw_rating": 89.6,
-      "mw_points": 986
+      "mw_rating": 89.7,
+      "mw_points": 987
     },
     {
       "teamno": "44387",
@@ -34,12 +34,12 @@
       "pf": 483,
       "pa": 439,
       "diff": 44,
-      "sos": 1555.102,
-      "sos_adj": 1607.602,
-      "power": 1565.201,
+      "sos": 1556.08,
+      "sos_adj": 1608.58,
+      "power": 1565.365,
       "rank": 2,
       "mw_rating": 85.3,
-      "mw_points": 1023
+      "mw_points": 1024
     },
     {
       "teamno": "44687",
@@ -51,29 +51,29 @@
       "pf": 435,
       "pa": 578,
       "diff": -143,
-      "sos": 1554.387,
-      "sos_adj": 1609.65,
-      "power": 1536.986,
+      "sos": 1557.08,
+      "sos_adj": 1612.344,
+      "power": 1540.452,
       "rank": 3,
-      "mw_rating": 67.0,
-      "mw_points": 804
+      "mw_rating": 67.2,
+      "mw_points": 806
     },
     {
       "teamno": "45760",
       "name": "D3Q-Lexington (blue)",
       "town": null,
-      "wins": 7,
+      "wins": 8,
       "losses": 14,
       "ties": 0,
-      "pf": 508,
-      "pa": 574,
-      "diff": -66,
-      "sos": 1513.624,
-      "sos_adj": 1535.052,
-      "power": 1510.538,
+      "pf": 542,
+      "pa": 591,
+      "diff": -49,
+      "sos": 1512.624,
+      "sos_adj": 1533.079,
+      "power": 1532.184,
       "rank": 4,
-      "mw_rating": 54.4,
-      "mw_points": 653
+      "mw_rating": 56.6,
+      "mw_points": 736
     },
     {
       "teamno": "44447",
@@ -85,12 +85,12 @@
       "pf": 441,
       "pa": 605,
       "diff": -164,
-      "sos": 1555.16,
-      "sos_adj": 1605.16,
-      "power": 1479.295,
+      "sos": 1558.358,
+      "sos_adj": 1608.358,
+      "power": 1488.544,
       "rank": 5,
-      "mw_rating": 67.1,
-      "mw_points": 805
+      "mw_rating": 67.2,
+      "mw_points": 806
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "44176",
   "team_name": "D6Q-Holliston (marien)",
   "town": null,
@@ -11,10 +11,10 @@
     "pf": 206,
     "pa": 255,
     "diff": -49,
-    "sos": 1431.197,
-    "sos_adj": 1369.658,
-    "power": 1418.744,
-    "rank": 3,
+    "sos": 1425.974,
+    "sos_adj": 1364.435,
+    "power": 1417.439,
+    "rank": 2,
     "mw_rating": 31.3,
     "mw_points": 375,
     "divisionno": "7551",
@@ -280,9 +280,9 @@
       "dow": "Sun",
       "starttime": "1:05 PM",
       "location": "Hopkinton-Elmwood School",
-      "divisionno": "7551",
-      "division_name": "4th Girls - Division 6",
-      "home_teamno": "0",
+      "divisionno": "7558",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "43469",
       "away_teamno": "44176",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43469",
+      "opponent_name": "D7Q-Winchester (black)"
     }
   ]
 }

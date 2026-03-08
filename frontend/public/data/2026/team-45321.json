@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "teamno": "45321",
   "team_name": "D6M-Milton (silver)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 288,
     "pa": 372,
     "diff": -84,
-    "sos": 1401.249,
-    "sos_adj": 1305.416,
-    "power": 1363.336,
+    "sos": 1401.399,
+    "sos_adj": 1305.566,
+    "power": 1363.373,
     "rank": 3,
-    "mw_rating": 20.8,
-    "mw_points": 249,
+    "mw_rating": 21.0,
+    "mw_points": 252,
     "divisionno": "7208",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
@@ -263,7 +263,7 @@
       "location": "Foxboro Charter H.S.",
       "divisionno": "7208",
       "division_name": "6th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44090",
       "away_teamno": "45321",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44090",
+      "opponent_name": "D6J-Holbrook (orange)"
     }
   ]
 }

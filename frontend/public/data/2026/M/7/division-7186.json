@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-07",
+  "snapshot_date": "2026-03-08",
   "gender": "M",
   "grade": 7,
   "divisionno": "7186",
@@ -17,12 +17,12 @@
       "pf": 559,
       "pa": 420,
       "diff": 139,
-      "sos": 1435.861,
-      "sos_adj": 1385.861,
-      "power": 1507.779,
+      "sos": 1440.511,
+      "sos_adj": 1390.511,
+      "power": 1501.56,
       "rank": 1,
-      "mw_rating": 45.8,
-      "mw_points": 550
+      "mw_rating": 46.0,
+      "mw_points": 552
     },
     {
       "teamno": "43715",
@@ -34,12 +34,12 @@
       "pf": 562,
       "pa": 565,
       "diff": -3,
-      "sos": 1452.981,
-      "sos_adj": 1416.87,
-      "power": 1464.765,
+      "sos": 1457.183,
+      "sos_adj": 1421.072,
+      "power": 1463.511,
       "rank": 2,
-      "mw_rating": 40.1,
-      "mw_points": 481
+      "mw_rating": 40.3,
+      "mw_points": 483
     },
     {
       "teamno": "44071",
@@ -51,29 +51,29 @@
       "pf": 533,
       "pa": 550,
       "diff": -17,
-      "sos": 1465.886,
-      "sos_adj": 1422.553,
-      "power": 1421.567,
+      "sos": 1466.408,
+      "sos_adj": 1423.075,
+      "power": 1423.855,
       "rank": 3,
-      "mw_rating": 32.6,
-      "mw_points": 359
+      "mw_rating": 32.7,
+      "mw_points": 360
     },
     {
       "teamno": "45303",
       "name": "D5W-Medford (white)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 8,
       "ties": 0,
-      "pf": 461,
-      "pa": 537,
-      "diff": -76,
-      "sos": 1443.307,
-      "sos_adj": 1393.307,
-      "power": 1400.967,
+      "pf": 511,
+      "pa": 580,
+      "diff": -69,
+      "sos": 1445.414,
+      "sos_adj": 1395.414,
+      "power": 1421.226,
       "rank": 4,
-      "mw_rating": 25.6,
-      "mw_points": 307
+      "mw_rating": 27.9,
+      "mw_points": 363
     },
     {
       "teamno": "44441",
@@ -85,29 +85,29 @@
       "pf": 588,
       "pa": 715,
       "diff": -127,
-      "sos": 1454.444,
-      "sos_adj": 1407.385,
-      "power": 1394.5,
+      "sos": 1456.578,
+      "sos_adj": 1409.519,
+      "power": 1399.518,
       "rank": 5,
-      "mw_rating": 26.6,
-      "mw_points": 319
+      "mw_rating": 26.8,
+      "mw_points": 321
     },
     {
       "teamno": "44744",
       "name": "D5W-Arlington (grey)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 14,
       "ties": 0,
-      "pf": 492,
-      "pa": 708,
-      "diff": -216,
-      "sos": 1437.447,
-      "sos_adj": 1376.336,
-      "power": 1335.845,
+      "pf": 524,
+      "pa": 736,
+      "diff": -212,
+      "sos": 1434.994,
+      "sos_adj": 1371.836,
+      "power": 1357.17,
       "rank": 6,
-      "mw_rating": 11.2,
-      "mw_points": 134
+      "mw_rating": 13.3,
+      "mw_points": 173
     }
   ]
 }
