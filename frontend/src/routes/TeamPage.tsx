@@ -1,6 +1,7 @@
 import { Link, useLocation, useParams } from "react-router-dom";
 import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import { loadJson } from "../data";
+import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
 import { DivisionRankingData, DivisionsData, IndexData, RankingTeam, TeamData, TeamGame } from "../types";
 
 type FinalGame = {
@@ -642,6 +643,55 @@ export function TeamPage() {
   }, [location.search]);
 
   const backTo = location.search ? `/${location.search}` : "/";
+  const canonicalPath = teamno ? `/team/${teamno}` : "/team";
+  const seoTitle =
+    team && team.team_name
+      ? `${team.team_name} | MWStats Team Profile`
+      : teamno
+      ? `Team ${teamno} | MWStats`
+      : SEO_SITE_NAME;
+  const seoDescription =
+    team && team.summary.division_name
+      ? `${team.team_name}: ${team.summary.wins}-${team.summary.losses}${team.summary.ties ? `-${team.summary.ties}` : ""} in ${team.summary.division_name}. Power, SoS, results, and upcoming games.`
+      : "Team profile with power ranking, SoS, game results, and upcoming schedule.";
+  const seoJsonLd = useMemo(
+    () =>
+      team
+        ? [
+            {
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              name: seoTitle,
+              description: seoDescription,
+              url: `${SEO_SITE_URL}${canonicalPath}`,
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "SportsTeam",
+              name: team.team_name,
+              sport: "Basketball",
+              url: `${SEO_SITE_URL}${canonicalPath}`,
+              memberOf: {
+                "@type": "SportsOrganization",
+                name: "Metrowest Youth Basketball",
+              },
+            },
+          ]
+        : {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: seoTitle,
+            description: seoDescription,
+            url: `${SEO_SITE_URL}${canonicalPath}`,
+          },
+    [canonicalPath, seoDescription, seoTitle, team]
+  );
+  usePageSeo({
+    title: seoTitle,
+    description: seoDescription,
+    canonicalPath,
+    jsonLd: seoJsonLd,
+  });
 
   useEffect(() => {
     if (!teamno) return;

@@ -2,8 +2,11 @@ import { Link, Route, Routes } from "react-router-dom";
 import { DivisionPage } from "./routes/DivisionPage";
 import { GlossaryPage } from "./routes/GlossaryPage";
 import { TeamPage } from "./routes/TeamPage";
+import { useSiteSchema } from "./seo";
 
 export default function App() {
+  useSiteSchema();
+
   return (
     <div className="page">
       <header className="topbar">
