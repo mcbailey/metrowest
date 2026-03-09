@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "gender": "F",
   "grade": 5,
   "divisionno": "7318",
@@ -17,12 +17,12 @@
       "pf": 310,
       "pa": 187,
       "diff": 123,
-      "sos": 1447.119,
-      "sos_adj": 1401.286,
-      "power": 1481.344,
+      "sos": 1448.325,
+      "sos_adj": 1402.492,
+      "power": 1481.645,
       "rank": 1,
-      "mw_rating": 50.4,
-      "mw_points": 605
+      "mw_rating": 50.6,
+      "mw_points": 607
     },
     {
       "teamno": "44725",
@@ -38,25 +38,25 @@
       "sos_adj": 1400.31,
       "power": 1468.359,
       "rank": 2,
-      "mw_rating": 39.2,
-      "mw_points": 510
+      "mw_rating": 39.3,
+      "mw_points": 511
     },
     {
       "teamno": "44277",
       "name": "D5W-Wayland (orange)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 6,
       "ties": 0,
-      "pf": 223,
-      "pa": 227,
-      "diff": -4,
-      "sos": 1447.171,
-      "sos_adj": 1397.171,
-      "power": 1448.356,
+      "pf": 244,
+      "pa": 243,
+      "diff": 1,
+      "sos": 1443.941,
+      "sos_adj": 1393.941,
+      "power": 1458.407,
       "rank": 3,
-      "mw_rating": 31.2,
-      "mw_points": 343
+      "mw_rating": 33.3,
+      "mw_points": 400
     },
     {
       "teamno": "44769",
@@ -73,7 +73,7 @@
       "power": 1441.96,
       "rank": 4,
       "mw_rating": 39.8,
-      "mw_points": 477
+      "mw_points": 478
     },
     {
       "teamno": "43465",
@@ -89,8 +89,8 @@
       "sos_adj": 1396.799,
       "power": 1417.9,
       "rank": 5,
-      "mw_rating": 30.1,
-      "mw_points": 361
+      "mw_rating": 30.2,
+      "mw_points": 362
     },
     {
       "teamno": "44686",

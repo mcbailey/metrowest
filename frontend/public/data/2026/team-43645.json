@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43645",
   "team_name": "D1/2J-Needham (gold)",
   "town": null,
   "summary": {
     "wins": 14,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 636,
-    "pa": 535,
-    "diff": 101,
-    "sos": 1635.481,
-    "sos_adj": 1773.716,
-    "power": 1733.862,
-    "rank": 1,
-    "mw_rating": 188.4,
-    "mw_points": 2261,
+    "pf": 671,
+    "pa": 593,
+    "diff": 78,
+    "sos": 1639.788,
+    "sos_adj": 1778.677,
+    "power": 1716.109,
+    "rank": 2,
+    "mw_rating": 181.9,
+    "mw_points": 2365,
     "divisionno": "7265",
     "division_name": "7th Girls - Division 1",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44856",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7265",
+      "division_name": "7th Girls - Division 1",
+      "home_teamno": "43337",
+      "away_teamno": "43645",
+      "home_score": 58,
+      "away_score": 35,
+      "team_score": 35,
+      "opponent_score": 58,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43337",
+      "opponent_name": "D1/2H-Mansfield (white)"
+    },
     {
       "gameno": "373905",
       "date": "2026-03-01",
@@ -349,25 +368,5 @@
       "opponent_name": "D3J-Brookline (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44856",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "2:00 PM",
-      "location": "Dana Barros - 5",
-      "divisionno": "7265",
-      "division_name": "7th Girls - Division 1",
-      "home_teamno": "43337",
-      "away_teamno": "43645",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43337",
-      "opponent_name": "D1/2H-Mansfield (white)"
-    }
-  ]
+  "future_games": []
 }

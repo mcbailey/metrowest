@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44299",
   "team_name": "D4Q-Belmont (white)",
   "town": null,
   "summary": {
     "wins": 12,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 780,
-    "pa": 674,
-    "diff": 106,
-    "sos": 1485.087,
-    "sos_adj": 1476.753,
-    "power": 1551.624,
+    "pf": 822,
+    "pa": 734,
+    "diff": 88,
+    "sos": 1481.87,
+    "sos_adj": 1476.607,
+    "power": 1530.655,
     "rank": 2,
-    "mw_rating": 67.6,
-    "mw_points": 743,
+    "mw_rating": 65.9,
+    "mw_points": 791,
     "divisionno": "7192",
     "division_name": "7th Boys - Division 4",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45542",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "1:15 PM",
+      "location": "Sudbury Fieldhouse-Court 1",
+      "divisionno": "7192",
+      "division_name": "7th Boys - Division 4",
+      "home_teamno": "43868",
+      "away_teamno": "44299",
+      "home_score": 60,
+      "away_score": 42,
+      "team_score": 42,
+      "opponent_score": 60,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43868",
+      "opponent_name": "D3K-Southboro (maroon)"
+    },
     {
       "gameno": "379971",
       "date": "2026-03-01",
@@ -368,25 +387,5 @@
       "opponent_name": "D4Q-Arlington (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45542",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "1:15 PM",
-      "location": "Sudbury Fieldhouse-Court 1",
-      "divisionno": "7192",
-      "division_name": "7th Boys - Division 4",
-      "home_teamno": "0",
-      "away_teamno": "44299",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
-    }
-  ]
+  "future_games": []
 }

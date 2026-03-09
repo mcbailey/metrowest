@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44967",
   "team_name": "D5K-Foxboro (gold)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 372,
-    "pa": 500,
-    "diff": -128,
-    "sos": 1455.062,
-    "sos_adj": 1405.062,
-    "power": 1413.227,
+    "pf": 408,
+    "pa": 543,
+    "diff": -135,
+    "sos": 1455.571,
+    "sos_adj": 1405.571,
+    "power": 1400.894,
     "rank": 6,
-    "mw_rating": 24.7,
-    "mw_points": 296,
+    "mw_rating": 23.6,
+    "mw_points": 307,
     "divisionno": "7214",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45469",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:40 AM",
+      "location": "Attleboro Wamsutta Middle school",
+      "divisionno": "7214",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43204",
+      "away_teamno": "44967",
+      "home_score": 43,
+      "away_score": 36,
+      "team_score": 36,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43204",
+      "opponent_name": "D5J-FLBC (blue)"
+    },
     {
       "gameno": "378289",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5M-Canton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45469",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "9:40 AM",
-      "location": "Attleboro Wamsutta Middle school",
-      "divisionno": "7214",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "43204",
-      "away_teamno": "44967",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43204",
-      "opponent_name": "D5J-FLBC (blue)"
-    }
-  ]
+  "future_games": []
 }

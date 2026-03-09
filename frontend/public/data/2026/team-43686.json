@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43686",
   "team_name": "D5H-Sharon (maroon)",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 347,
-    "pa": 257,
-    "diff": 90,
-    "sos": 1441.402,
-    "sos_adj": 1391.402,
-    "power": 1465.077,
+    "pf": 360,
+    "pa": 279,
+    "diff": 81,
+    "sos": 1441.965,
+    "sos_adj": 1391.965,
+    "power": 1447.358,
     "rank": 3,
-    "mw_rating": 42.0,
-    "mw_points": 546,
+    "mw_rating": 39.8,
+    "mw_points": 557,
     "divisionno": "7267",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46155",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:15 AM",
+      "location": "Westborough Gibbons Middle School",
+      "divisionno": "7271",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "43686",
+      "away_teamno": "44511",
+      "home_score": 13,
+      "away_score": 22,
+      "team_score": 13,
+      "opponent_score": 22,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44511",
+      "opponent_name": "D5Q-Milford (red-consigli)"
+    },
     {
       "gameno": "46150",
       "date": "2026-03-07",
@@ -292,25 +311,5 @@
       "opponent_name": "D5J-King Philip"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46155",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "9:15 AM",
-      "location": "Westborough Gibbons Middle School",
-      "divisionno": "7271",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "43686",
-      "away_teamno": "44511",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44511",
-      "opponent_name": "D5Q-Milford (red-consigli)"
-    }
-  ]
+  "future_games": []
 }

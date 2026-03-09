@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "gender": "F",
   "grade": 5,
   "divisionno": "7324",
@@ -11,18 +11,18 @@
       "teamno": "43770",
       "name": "D4R-Concord-Carlisle (maroon)",
       "town": null,
-      "wins": 14,
+      "wins": 15,
       "losses": 2,
       "ties": 0,
-      "pf": 609,
-      "pa": 307,
-      "diff": 302,
-      "sos": 1492.712,
-      "sos_adj": 1505.212,
-      "power": 1584.217,
+      "pf": 648,
+      "pa": 325,
+      "diff": 323,
+      "sos": 1494.391,
+      "sos_adj": 1509.097,
+      "power": 1606.747,
       "rank": 1,
-      "mw_rating": 94.1,
-      "mw_points": 1129
+      "mw_rating": 95.9,
+      "mw_points": 1247
     },
     {
       "teamno": "44064",
@@ -34,12 +34,12 @@
       "pf": 377,
       "pa": 285,
       "diff": 92,
-      "sos": 1497.645,
-      "sos_adj": 1507.02,
-      "power": 1553.409,
+      "sos": 1499.441,
+      "sos_adj": 1508.816,
+      "power": 1553.858,
       "rank": 2,
-      "mw_rating": 74.8,
-      "mw_points": 898
+      "mw_rating": 75.2,
+      "mw_points": 902
     },
     {
       "teamno": "44446",
@@ -51,9 +51,9 @@
       "pf": 492,
       "pa": 442,
       "diff": 50,
-      "sos": 1501.964,
-      "sos_adj": 1507.227,
-      "power": 1498.568,
+      "sos": 1503.476,
+      "sos_adj": 1508.74,
+      "power": 1498.946,
       "rank": 3,
       "mw_rating": 65.8,
       "mw_points": 855
@@ -68,12 +68,12 @@
       "pf": 295,
       "pa": 318,
       "diff": -23,
-      "sos": 1483.389,
-      "sos_adj": 1475.697,
-      "power": 1497.741,
+      "sos": 1485.601,
+      "sos_adj": 1477.908,
+      "power": 1498.294,
       "rank": 4,
-      "mw_rating": 43.0,
-      "mw_points": 559
+      "mw_rating": 43.1,
+      "mw_points": 560
     },
     {
       "teamno": "44684",
@@ -85,12 +85,12 @@
       "pf": 426,
       "pa": 540,
       "diff": -114,
-      "sos": 1533.55,
-      "sos_adj": 1553.55,
-      "power": 1472.383,
+      "sos": 1534.987,
+      "sos_adj": 1554.987,
+      "power": 1472.743,
       "rank": 5,
-      "mw_rating": 51.9,
-      "mw_points": 727
+      "mw_rating": 52.0,
+      "mw_points": 728
     },
     {
       "teamno": "45759",
@@ -102,12 +102,12 @@
       "pf": 281,
       "pa": 492,
       "diff": -211,
-      "sos": 1507.784,
-      "sos_adj": 1485.909,
-      "power": 1424.46,
+      "sos": 1513.173,
+      "sos_adj": 1491.298,
+      "power": 1425.807,
       "rank": 6,
       "mw_rating": 28.9,
-      "mw_points": 375
+      "mw_points": 376
     }
   ]
 }

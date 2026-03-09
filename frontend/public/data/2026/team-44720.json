@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44720",
   "team_name": "D4Q-Weston",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 155,
     "pa": 363,
     "diff": -208,
-    "sos": 1508.475,
-    "sos_adj": 1503.475,
-    "power": 1451.09,
+    "sos": 1505.097,
+    "sos_adj": 1500.097,
+    "power": 1450.246,
     "rank": 5,
     "mw_rating": 25.4,
     "mw_points": 279,
@@ -280,18 +280,18 @@
       "dow": "Wed",
       "starttime": "6:30 PM",
       "location": "Mass Premier - 4",
-      "divisionno": "7260",
-      "division_name": "7th Girls - Division 4",
+      "divisionno": "7253",
+      "division_name": "7th Girls - Division 5",
       "home_teamno": "44720",
-      "away_teamno": "0",
+      "away_teamno": "44280",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44280",
+      "opponent_name": "D5M-Wayland (orange)"
     }
   ]
 }

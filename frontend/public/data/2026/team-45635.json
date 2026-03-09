@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45635",
   "team_name": "D3K-Hopkinton (orloff)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 614,
-    "pa": 688,
-    "diff": -74,
-    "sos": 1548.631,
-    "sos_adj": 1598.631,
-    "power": 1529.651,
-    "rank": 5,
-    "mw_rating": 72.8,
-    "mw_points": 946,
+    "pf": 670,
+    "pa": 745,
+    "diff": -75,
+    "sos": 1556.332,
+    "sos_adj": 1606.332,
+    "power": 1528.431,
+    "rank": 6,
+    "mw_rating": 70.9,
+    "mw_points": 992,
     "divisionno": "7159",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45691",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "12:20 PM",
+      "location": "North Quincy High School (Ct 1)",
+      "divisionno": "7159",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "45635",
+      "away_teamno": "43531",
+      "home_score": 56,
+      "away_score": 57,
+      "team_score": 56,
+      "opponent_score": 57,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43531",
+      "opponent_name": "D3K-Northboro (red)"
+    },
     {
       "gameno": "45684",
       "date": "2026-03-07",
@@ -273,25 +292,5 @@
       "opponent_name": "D3M-Revere"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45691",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "12:20 PM",
-      "location": "North Quincy High School (Ct 1)",
-      "divisionno": "7159",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "45635",
-      "away_teamno": "43531",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43531",
-      "opponent_name": "D3K-Northboro (red)"
-    }
-  ]
+  "future_games": []
 }

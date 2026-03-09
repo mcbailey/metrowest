@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45125",
   "team_name": "D2K-Westwood",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 812,
-    "pa": 775,
-    "diff": 37,
-    "sos": 1602.597,
-    "sos_adj": 1702.597,
-    "power": 1637.396,
-    "rank": 1,
-    "mw_rating": 130.9,
-    "mw_points": 1571,
+    "pf": 863,
+    "pa": 833,
+    "diff": 30,
+    "sos": 1602.465,
+    "sos_adj": 1699.688,
+    "power": 1610.787,
+    "rank": 4,
+    "mw_rating": 124.6,
+    "mw_points": 1620,
     "divisionno": "7232",
     "division_name": "6th Boys - Division 2",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44678",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "12:30 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7225",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "45082",
+      "away_teamno": "45125",
+      "home_score": 58,
+      "away_score": 51,
+      "team_score": 51,
+      "opponent_score": 58,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45082",
+      "opponent_name": "D3H-Fall River (jordyn)"
+    },
     {
       "gameno": "374552",
       "date": "2026-03-01",
@@ -349,25 +368,5 @@
       "opponent_name": "D2M-Brookline (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44678",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "12:30 PM",
-      "location": "Dana Barros - 4",
-      "divisionno": "7225",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "45082",
-      "away_teamno": "45125",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45082",
-      "opponent_name": "D3H-Fall River (jordyn)"
-    }
-  ]
+  "future_games": []
 }

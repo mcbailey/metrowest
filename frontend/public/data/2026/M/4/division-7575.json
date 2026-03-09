@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "gender": "M",
   "grade": 4,
   "divisionno": "7575",
@@ -17,29 +17,29 @@
       "pf": 670,
       "pa": 583,
       "diff": 87,
-      "sos": 1620.961,
-      "sos_adj": 1740.406,
-      "power": 1702.395,
+      "sos": 1620.022,
+      "sos_adj": 1739.466,
+      "power": 1702.16,
       "rank": 1,
-      "mw_rating": 139.0,
-      "mw_points": 1807
+      "mw_rating": 139.2,
+      "mw_points": 1809
     },
     {
       "teamno": "44613",
       "name": "D2N-Norwell",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 8,
       "ties": 0,
-      "pf": 440,
-      "pa": 469,
-      "diff": -29,
-      "sos": 1629.289,
-      "sos_adj": 1756.212,
-      "power": 1671.805,
+      "pf": 467,
+      "pa": 487,
+      "diff": -20,
+      "sos": 1629.496,
+      "sos_adj": 1758.067,
+      "power": 1684.954,
       "rank": 2,
-      "mw_rating": 120.2,
-      "mw_points": 1562
+      "mw_rating": 122.6,
+      "mw_points": 1717
     },
     {
       "teamno": "44397",
@@ -51,12 +51,12 @@
       "pf": 425,
       "pa": 425,
       "diff": 0,
-      "sos": 1624.091,
-      "sos_adj": 1744.924,
-      "power": 1661.981,
+      "sos": 1625.5,
+      "sos_adj": 1746.333,
+      "power": 1662.333,
       "rank": 3,
-      "mw_rating": 109.5,
-      "mw_points": 1314
+      "mw_rating": 109.7,
+      "mw_points": 1316
     },
     {
       "teamno": "44576",
@@ -68,12 +68,12 @@
       "pf": 403,
       "pa": 431,
       "diff": -28,
-      "sos": 1641.212,
-      "sos_adj": 1779.673,
-      "power": 1659.031,
+      "sos": 1638.61,
+      "sos_adj": 1777.071,
+      "power": 1658.381,
       "rank": 4,
-      "mw_rating": 115.6,
-      "mw_points": 1503
+      "mw_rating": 115.8,
+      "mw_points": 1505
     },
     {
       "teamno": "44637",
@@ -102,9 +102,9 @@
       "pf": 252,
       "pa": 483,
       "diff": -231,
-      "sos": 1633.979,
-      "sos_adj": 1743.07,
-      "power": 1571.229,
+      "sos": 1635.517,
+      "sos_adj": 1744.608,
+      "power": 1571.613,
       "rank": 6,
       "mw_rating": 55.0,
       "mw_points": 825
@@ -123,8 +123,8 @@
       "sos_adj": 1727.996,
       "power": 1559.517,
       "rank": 7,
-      "mw_rating": 78.6,
-      "mw_points": 1022
+      "mw_rating": 78.7,
+      "mw_points": 1023
     }
   ]
 }

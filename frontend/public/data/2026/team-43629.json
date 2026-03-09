@@ -1,30 +1,68 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43629",
   "team_name": "D4J-Middleborough (edwards)",
   "town": null,
   "summary": {
-    "wins": 0,
+    "wins": 2,
     "losses": 12,
     "ties": 0,
-    "pf": 260,
-    "pa": 619,
-    "diff": -359,
-    "sos": 1544.61,
-    "sos_adj": 1552.943,
-    "power": 1430.352,
+    "pf": 342,
+    "pa": 675,
+    "diff": -333,
+    "sos": 1529.329,
+    "sos_adj": 1532.901,
+    "power": 1460.509,
     "rank": 4,
-    "mw_rating": 28.3,
-    "mw_points": 340,
+    "mw_rating": 33.9,
+    "mw_points": 474,
     "divisionno": "7257",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46334",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "5:40 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7251",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "43629",
+      "away_teamno": "43896",
+      "home_score": 37,
+      "away_score": 30,
+      "team_score": 37,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43896",
+      "opponent_name": "D5J-Canton (green)"
+    },
+    {
+      "gameno": "46332",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "4:30 PM",
+      "location": "Taunton High School 1",
+      "divisionno": "7257",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "44126",
+      "away_teamno": "43629",
+      "home_score": 26,
+      "away_score": 45,
+      "team_score": 45,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44126",
+      "opponent_name": "D4J-Berkley"
+    },
     {
       "gameno": "376277",
       "date": "2026-03-01",
@@ -254,25 +292,5 @@
       "opponent_name": "D3H-New Bedford"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46332",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "4:30 PM",
-      "location": "Taunton High School 1",
-      "divisionno": "7257",
-      "division_name": "7th Girls - Division 4",
-      "home_teamno": "44126",
-      "away_teamno": "43629",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44126",
-      "opponent_name": "D4J-Berkley"
-    }
-  ]
+  "future_games": []
 }

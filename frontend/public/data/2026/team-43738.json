@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43738",
   "team_name": "D6K-Needham (white)",
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 564,
-    "pa": 448,
-    "diff": 116,
-    "sos": 1388.766,
-    "sos_adj": 1288.766,
-    "power": 1433.141,
+    "pf": 618,
+    "pa": 509,
+    "diff": 109,
+    "sos": 1397.549,
+    "sos_adj": 1297.549,
+    "power": 1418.487,
     "rank": 1,
-    "mw_rating": 33.8,
-    "mw_points": 405,
+    "mw_rating": 31.9,
+    "mw_points": 414,
     "divisionno": "7139",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45782",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "7:45 PM",
+      "location": "Hopkinton-Hopkins School",
+      "divisionno": "7140",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "45106",
+      "away_teamno": "43738",
+      "home_score": 61,
+      "away_score": 54,
+      "team_score": 54,
+      "opponent_score": 61,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45106",
+      "opponent_name": "D6M-Framingham (white)"
+    },
     {
       "gameno": "379189",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D6M-Medway (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45782",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "7:45 PM",
-      "location": "Hopkinton-Hopkins School",
-      "divisionno": "7140",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "45106",
-      "away_teamno": "43738",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45106",
-      "opponent_name": "D6M-Framingham (white)"
-    }
-  ]
+  "future_games": []
 }

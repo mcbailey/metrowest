@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43153",
   "team_name": "D5H-Dighton-Rehoboth (white)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 17,
+    "losses": 18,
     "ties": 0,
-    "pf": 1039,
-    "pa": 1165,
-    "diff": -126,
-    "sos": 1445.229,
-    "sos_adj": 1387.537,
-    "power": 1378.417,
+    "pf": 1078,
+    "pa": 1213,
+    "diff": -135,
+    "sos": 1450.476,
+    "sos_adj": 1393.068,
+    "power": 1367.941,
     "rank": 7,
-    "mw_rating": 23.3,
-    "mw_points": 279,
+    "mw_rating": 22.2,
+    "mw_points": 289,
     "divisionno": "7179",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 26,
-    "games_scheduled_total": 1
+    "games_played_total": 27,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45620",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:20 AM",
+      "location": "Taunton High School 3",
+      "divisionno": "7179",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "43153",
+      "away_teamno": "43126",
+      "home_score": 39,
+      "away_score": 48,
+      "team_score": 39,
+      "opponent_score": 48,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43126",
+      "opponent_name": "D5H-Barrington RI (blue)"
+    },
     {
       "gameno": "45616",
       "date": "2026-03-07",
@@ -520,25 +539,5 @@
       "opponent_name": "D5M-Medway (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45620",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "9:20 AM",
-      "location": "Taunton High School 3",
-      "divisionno": "7179",
-      "division_name": "7th Boys - Division 5",
-      "home_teamno": "43153",
-      "away_teamno": "43126",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43126",
-      "opponent_name": "D5H-Barrington RI (blue)"
-    }
-  ]
+  "future_games": []
 }

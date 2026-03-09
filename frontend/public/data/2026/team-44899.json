@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44899",
   "team_name": "D7P-North Attleboro (silver)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 264,
-    "pa": 399,
-    "diff": -135,
-    "sos": 1356.658,
-    "sos_adj": 1210.23,
-    "power": 1286.442,
+    "pf": 292,
+    "pa": 433,
+    "diff": -141,
+    "sos": 1360.377,
+    "sos_adj": 1217.044,
+    "power": 1278.816,
     "rank": 6,
-    "mw_rating": 7.2,
-    "mw_points": 101,
+    "mw_rating": 7.1,
+    "mw_points": 106,
     "divisionno": "7591",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45118",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "8:20 AM",
+      "location": "Attleboro Brennan Middle School",
+      "divisionno": "7591",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44900",
+      "away_teamno": "44899",
+      "home_score": 34,
+      "away_score": 28,
+      "team_score": 28,
+      "opponent_score": 34,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44900",
+      "opponent_name": "D6N-North Attleboro (black)"
+    },
     {
       "gameno": "45116",
       "date": "2026-03-07",
@@ -292,25 +311,5 @@
       "opponent_name": "D7R-Medfield (creed)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45118",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "8:20 AM",
-      "location": "Attleboro Brennan Middle School",
-      "divisionno": "7591",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44900",
-      "away_teamno": "44899",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44900",
-      "opponent_name": "D6N-North Attleboro (black)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44032",
   "team_name": "D5T-Newton (orange)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 240,
     "pa": 179,
     "diff": 61,
-    "sos": 1443.92,
-    "sos_adj": 1398.087,
-    "power": 1484.151,
+    "sos": 1444.372,
+    "sos_adj": 1398.539,
+    "power": 1484.264,
     "rank": 1,
-    "mw_rating": 46.2,
-    "mw_points": 554,
+    "mw_rating": 46.3,
+    "mw_points": 556,
     "divisionno": "7273",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
@@ -263,7 +263,7 @@
       "location": "Mass Premier - 3",
       "divisionno": "7273",
       "division_name": "6th Girls - Division 5",
-      "home_teamno": "0",
+      "home_teamno": "44690",
       "away_teamno": "44032",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44690",
+      "opponent_name": "D5T-Arlington (white)"
     }
   ]
 }

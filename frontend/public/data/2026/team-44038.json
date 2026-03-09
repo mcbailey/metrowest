@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44038",
   "team_name": "D2M-Newton (black)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 372,
-    "pa": 294,
-    "diff": 78,
-    "sos": 1629.632,
-    "sos_adj": 1769.632,
-    "power": 1724.952,
+    "pf": 397,
+    "pa": 327,
+    "diff": 70,
+    "sos": 1629.482,
+    "sos_adj": 1766.982,
+    "power": 1707.701,
     "rank": 1,
-    "mw_rating": 138.4,
-    "mw_points": 1799,
+    "mw_rating": 135.7,
+    "mw_points": 1900,
     "divisionno": "7546",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44775",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:20 AM",
+      "location": "Mansfield Fieldhouse -3",
+      "divisionno": "7546",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "44038",
+      "away_teamno": "44896",
+      "home_score": 25,
+      "away_score": 33,
+      "team_score": 25,
+      "opponent_score": 33,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44896",
+      "opponent_name": "D1A-North Attleboro (red)"
+    },
     {
       "gameno": "44771",
       "date": "2026-03-07",
@@ -311,25 +330,5 @@
       "opponent_name": "D2M-Winchester (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44775",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "9:20 AM",
-      "location": "Mansfield Fieldhouse -3",
-      "divisionno": "7546",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "44038",
-      "away_teamno": "44896",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44896",
-      "opponent_name": "D1A-North Attleboro (red)"
-    }
-  ]
+  "future_games": []
 }

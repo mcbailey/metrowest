@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43475",
   "team_name": "D2H-Somerset",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 910,
-    "pa": 917,
-    "diff": -7,
-    "sos": 1605.493,
-    "sos_adj": 1705.493,
-    "power": 1610.769,
+    "pf": 948,
+    "pa": 971,
+    "diff": -23,
+    "sos": 1605.636,
+    "sos_adj": 1705.636,
+    "power": 1597.452,
     "rank": 4,
-    "mw_rating": 113.0,
-    "mw_points": 1469,
+    "mw_rating": 110.0,
+    "mw_points": 1540,
     "divisionno": "7198",
     "division_name": "7th Boys - Division 2",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44630",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "5:20 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7200",
+      "division_name": "7th Boys - Division 2",
+      "home_teamno": "43475",
+      "away_teamno": "45638",
+      "home_score": 38,
+      "away_score": 54,
+      "team_score": 38,
+      "opponent_score": 54,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45638",
+      "opponent_name": "D2K-Hopkinton (pantera7)"
+    },
     {
       "gameno": "44618",
       "date": "2026-03-06",
@@ -349,25 +368,5 @@
       "opponent_name": "D2J-Medway (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44630",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "5:20 PM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7200",
-      "division_name": "7th Boys - Division 2",
-      "home_teamno": "43475",
-      "away_teamno": "45638",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45638",
-      "opponent_name": "D2K-Hopkinton (pantera7)"
-    }
-  ]
+  "future_games": []
 }

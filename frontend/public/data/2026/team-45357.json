@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45357",
   "team_name": "D5H-West Bridgewater (bell)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 250,
-    "pa": 330,
-    "diff": -80,
-    "sos": 1450.569,
-    "sos_adj": 1400.569,
-    "power": 1409.501,
-    "rank": 6,
+    "pf": 267,
+    "pa": 348,
+    "diff": -81,
+    "sos": 1450.945,
+    "sos_adj": 1404.791,
+    "power": 1407.224,
+    "rank": 5,
     "mw_rating": 25.0,
-    "mw_points": 300,
+    "mw_points": 325,
     "divisionno": "7267",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46243",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "2:40 PM",
+      "location": "Mansfield Fieldhouse -4",
+      "divisionno": "7267",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "45357",
+      "away_teamno": "43320",
+      "home_score": 17,
+      "away_score": 18,
+      "team_score": 17,
+      "opponent_score": 18,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43320",
+      "opponent_name": "D4H-Middleborough (norvish)"
+    },
     {
       "gameno": "376213",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5J-Milton (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46243",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "2:40 PM",
-      "location": "Mansfield Fieldhouse -4",
-      "divisionno": "7267",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "45357",
-      "away_teamno": "43320",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43320",
-      "opponent_name": "D4H-Middleborough (norvish)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45105",
   "team_name": "D4R-Framingham (navy)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 789,
     "pa": 645,
     "diff": 144,
-    "sos": 1495.548,
-    "sos_adj": 1489.298,
-    "power": 1575.395,
+    "sos": 1496.328,
+    "sos_adj": 1490.078,
+    "power": 1575.59,
     "rank": 1,
-    "mw_rating": 61.9,
-    "mw_points": 866,
+    "mw_rating": 62.0,
+    "mw_points": 868,
     "divisionno": "7156",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
@@ -340,15 +340,15 @@
       "divisionno": "7156",
       "division_name": "8th Boys - Division 4",
       "home_teamno": "45105",
-      "away_teamno": "0",
+      "away_teamno": "43916",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43916",
+      "opponent_name": "D3K-Wellesley (b)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44982",
   "team_name": "D4H-Acushnet - Fairhaven (ashley)",
   "town": null,
@@ -11,18 +11,18 @@
     "pf": 385,
     "pa": 317,
     "diff": 68,
-    "sos": 1498.308,
-    "sos_adj": 1502.854,
-    "power": 1527.827,
+    "sos": 1503.758,
+    "sos_adj": 1508.304,
+    "power": 1529.19,
     "rank": 3,
-    "mw_rating": 51.2,
-    "mw_points": 563,
+    "mw_rating": 51.5,
+    "mw_points": 566,
     "divisionno": "7256",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
     "games_played_total": 11,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -273,6 +273,25 @@
       "is_home": false,
       "opponent_teamno": "46204",
       "opponent_name": "D3H-New Bedford"
+    },
+    {
+      "gameno": "47167",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "6:00 PM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7252",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "43682",
+      "away_teamno": "44982",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43682",
+      "opponent_name": "D5K-Ashland (white)"
     }
   ]
 }

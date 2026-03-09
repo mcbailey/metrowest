@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44399",
   "team_name": "D2J-Dedham (clarke)",
   "town": null,
   "summary": {
     "wins": 13,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 479,
-    "pa": 301,
-    "diff": 178,
-    "sos": 1583.665,
-    "sos_adj": 1670.332,
-    "power": 1692.186,
-    "rank": 1,
-    "mw_rating": 146.3,
-    "mw_points": 1755,
+    "pf": 500,
+    "pa": 325,
+    "diff": 175,
+    "sos": 1589.144,
+    "sos_adj": 1679.769,
+    "power": 1685.598,
+    "rank": 2,
+    "mw_rating": 142.9,
+    "mw_points": 1858,
     "divisionno": "7328",
     "division_name": "5th Girls - Division 2",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44803",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "3:45 PM",
+      "location": "Foxboro Ahern Middle (Gym 1)",
+      "divisionno": "7328",
+      "division_name": "5th Girls - Division 2",
+      "home_teamno": "44399",
+      "away_teamno": "44029",
+      "home_score": 21,
+      "away_score": 24,
+      "team_score": 21,
+      "opponent_score": 24,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44029",
+      "opponent_name": "D1-Newton (black)"
+    },
     {
       "gameno": "373519",
       "date": "2026-03-01",
@@ -311,25 +330,5 @@
       "opponent_name": "D2H-Norwood (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44803",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "3:45 PM",
-      "location": "Foxboro Ahern Middle (Gym 1)",
-      "divisionno": "7328",
-      "division_name": "5th Girls - Division 2",
-      "home_teamno": "44399",
-      "away_teamno": "44029",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44029",
-      "opponent_name": "D1-Newton (black)"
-    }
-  ]
+  "future_games": []
 }

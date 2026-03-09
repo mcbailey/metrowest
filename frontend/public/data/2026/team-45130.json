@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45130",
   "team_name": "D5M-Westwood",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 278,
-    "pa": 322,
-    "diff": -44,
-    "sos": 1453.307,
-    "sos_adj": 1403.307,
-    "power": 1427.759,
-    "rank": 2,
-    "mw_rating": 33.0,
-    "mw_points": 396,
+    "pf": 294,
+    "pa": 350,
+    "diff": -56,
+    "sos": 1458.644,
+    "sos_adj": 1412.215,
+    "power": 1415.102,
+    "rank": 3,
+    "mw_rating": 32.6,
+    "mw_points": 424,
     "divisionno": "7270",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46198",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "6:40 PM",
+      "location": "Mansfield Fieldhouse -3",
+      "divisionno": "7270",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "45130",
+      "away_teamno": "45340",
+      "home_score": 16,
+      "away_score": 28,
+      "team_score": 16,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45340",
+      "opponent_name": "D4K-Milton (silver)"
+    },
     {
       "gameno": "380400",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D5R-Brookline (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46198",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "6:40 PM",
-      "location": "Mansfield Fieldhouse -3",
-      "divisionno": "7270",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "45130",
-      "away_teamno": "45340",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45340",
-      "opponent_name": "D4K-Milton (silver)"
-    }
-  ]
+  "future_games": []
 }

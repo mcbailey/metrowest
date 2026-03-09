@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43294",
   "team_name": "D2AJ-Franklin",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 13,
+    "losses": 14,
     "ties": 0,
-    "pf": 575,
-    "pa": 727,
-    "diff": -152,
-    "sos": 1606.667,
-    "sos_adj": 1712.549,
-    "power": 1574.675,
+    "pf": 610,
+    "pa": 763,
+    "diff": -153,
+    "sos": 1606.03,
+    "sos_adj": 1711.585,
+    "power": 1571.63,
     "rank": 5,
-    "mw_rating": 97.8,
-    "mw_points": 1173,
+    "mw_rating": 95.6,
+    "mw_points": 1243,
     "divisionno": "7308",
     "division_name": "5th Boys - Division 2",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45143",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:20 AM",
+      "location": "Mansfield Fieldhouse -4",
+      "divisionno": "7309",
+      "division_name": "5th Boys - Division 2",
+      "home_teamno": "43576",
+      "away_teamno": "43294",
+      "home_score": 36,
+      "away_score": 35,
+      "team_score": 35,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43576",
+      "opponent_name": "D2K-North Quincy (chen)"
+    },
     {
       "gameno": "374272",
       "date": "2026-03-01",
@@ -349,25 +368,5 @@
       "opponent_name": "D2AJ-King Philip"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45143",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "9:20 AM",
-      "location": "Mansfield Fieldhouse -4",
-      "divisionno": "7309",
-      "division_name": "5th Boys - Division 2",
-      "home_teamno": "43576",
-      "away_teamno": "43294",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43576",
-      "opponent_name": "D2K-North Quincy (chen)"
-    }
-  ]
+  "future_games": []
 }

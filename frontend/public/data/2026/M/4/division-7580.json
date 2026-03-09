@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "gender": "M",
   "grade": 4,
   "divisionno": "7580",
@@ -12,17 +12,17 @@
       "name": "D4Q-Westwood (silver)",
       "town": null,
       "wins": 9,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "pf": 462,
-      "pa": 380,
-      "diff": 82,
-      "sos": 1536.929,
-      "sos_adj": 1571.545,
-      "power": 1556.682,
+      "pf": 489,
+      "pa": 408,
+      "diff": 81,
+      "sos": 1536.595,
+      "sos_adj": 1568.738,
+      "power": 1550.578,
       "rank": 1,
-      "mw_rating": 75.8,
-      "mw_points": 909
+      "mw_rating": 72.1,
+      "mw_points": 937
     },
     {
       "teamno": "44087",
@@ -34,12 +34,12 @@
       "pf": 386,
       "pa": 296,
       "diff": 90,
-      "sos": 1470.032,
-      "sos_adj": 1460.941,
-      "power": 1487.862,
+      "sos": 1470.687,
+      "sos_adj": 1461.596,
+      "power": 1488.025,
       "rank": 2,
-      "mw_rating": 48.9,
-      "mw_points": 538
+      "mw_rating": 49.0,
+      "mw_points": 539
     },
     {
       "teamno": "44213",
@@ -55,25 +55,25 @@
       "sos_adj": 1460.802,
       "power": 1480.464,
       "rank": 3,
-      "mw_rating": 52.7,
-      "mw_points": 632
+      "mw_rating": 52.8,
+      "mw_points": 633
     },
     {
       "teamno": "44041",
       "name": "D4Q-Newton (orange)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 9,
       "ties": 0,
-      "pf": 410,
-      "pa": 464,
-      "diff": -54,
-      "sos": 1489.75,
-      "sos_adj": 1497.443,
-      "power": 1465.893,
+      "pf": 440,
+      "pa": 492,
+      "diff": -52,
+      "sos": 1480.675,
+      "sos_adj": 1487.817,
+      "power": 1469.062,
       "rank": 4,
-      "mw_rating": 48.9,
-      "mw_points": 489
+      "mw_rating": 51.8,
+      "mw_points": 570
     },
     {
       "teamno": "43488",
@@ -85,29 +85,29 @@
       "pf": 291,
       "pa": 356,
       "diff": -65,
-      "sos": 1468.037,
-      "sos_adj": 1463.871,
-      "power": 1448.575,
+      "sos": 1468.637,
+      "sos_adj": 1464.471,
+      "power": 1448.725,
       "rank": 5,
-      "mw_rating": 38.1,
-      "mw_points": 457
+      "mw_rating": 38.2,
+      "mw_points": 458
     },
     {
       "teamno": "44762",
       "name": "D4Q-Arlington (white)",
       "town": null,
       "wins": 5,
-      "losses": 13,
+      "losses": 14,
       "ties": 0,
-      "pf": 419,
-      "pa": 601,
-      "diff": -182,
-      "sos": 1485.619,
-      "sos_adj": 1477.285,
-      "power": 1408.066,
+      "pf": 447,
+      "pa": 631,
+      "diff": -184,
+      "sos": 1485.201,
+      "sos_adj": 1477.306,
+      "power": 1402.495,
       "rank": 6,
-      "mw_rating": 47.9,
-      "mw_points": 527
+      "mw_rating": 46.0,
+      "mw_points": 552
     }
   ]
 }

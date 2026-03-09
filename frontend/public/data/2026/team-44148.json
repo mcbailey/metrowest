@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44148",
   "team_name": "D2H-Easton (black)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 669,
-    "pa": 697,
-    "diff": -28,
-    "sos": 1588.109,
-    "sos_adj": 1677.394,
-    "power": 1604.173,
+    "pf": 703,
+    "pa": 754,
+    "diff": -51,
+    "sos": 1589.187,
+    "sos_adj": 1679.187,
+    "power": 1591.984,
     "rank": 4,
-    "mw_rating": 105.8,
-    "mw_points": 1481,
+    "mw_rating": 103.6,
+    "mw_points": 1554,
     "divisionno": "7163",
     "division_name": "8th Boys - Division 2",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44581",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:40 AM",
+      "location": "Dana Barros - 3",
+      "divisionno": "7165",
+      "division_name": "8th Boys - Division 2",
+      "home_teamno": "44148",
+      "away_teamno": "44052",
+      "home_score": 34,
+      "away_score": 57,
+      "team_score": 34,
+      "opponent_score": 57,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44052",
+      "opponent_name": "D2K-Newton (black)"
+    },
     {
       "gameno": "44566",
       "date": "2026-03-07",
@@ -292,25 +311,5 @@
       "opponent_name": "D2H-Attleboro (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44581",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "9:40 AM",
-      "location": "Dana Barros - 3",
-      "divisionno": "7165",
-      "division_name": "8th Boys - Division 2",
-      "home_teamno": "44148",
-      "away_teamno": "44052",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44052",
-      "opponent_name": "D2K-Newton (black)"
-    }
-  ]
+  "future_games": []
 }

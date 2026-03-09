@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "gender": "M",
   "grade": 6,
   "divisionno": "7229",
@@ -12,34 +12,17 @@
       "name": "D3Q-Medford (blue)",
       "town": null,
       "wins": 13,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "pf": 718,
-      "pa": 489,
-      "diff": 229,
-      "sos": 1535.797,
-      "sos_adj": 1585.797,
-      "power": 1645.151,
+      "pf": 771,
+      "pa": 560,
+      "diff": 211,
+      "sos": 1542.292,
+      "sos_adj": 1595.863,
+      "power": 1625.774,
       "rank": 1,
-      "mw_rating": 117.8,
-      "mw_points": 1531
-    },
-    {
-      "teamno": "44728",
-      "name": "D3Q-Arlington (maroon)",
-      "town": null,
-      "wins": 13,
-      "losses": 8,
-      "ties": 0,
-      "pf": 980,
-      "pa": 892,
-      "diff": 88,
-      "sos": 1530.024,
-      "sos_adj": 1587.167,
-      "power": 1619.408,
-      "rank": 2,
-      "mw_rating": 93.1,
-      "mw_points": 1210
+      "mw_rating": 114.6,
+      "mw_points": 1604
     },
     {
       "teamno": "43712",
@@ -51,12 +34,29 @@
       "pf": 929,
       "pa": 773,
       "diff": 156,
-      "sos": 1538.742,
-      "sos_adj": 1594.005,
-      "power": 1601.803,
+      "sos": 1535.867,
+      "sos_adj": 1591.13,
+      "power": 1601.084,
+      "rank": 2,
+      "mw_rating": 96.2,
+      "mw_points": 1250
+    },
+    {
+      "teamno": "44728",
+      "name": "D3Q-Arlington (maroon)",
+      "town": null,
+      "wins": 13,
+      "losses": 9,
+      "ties": 0,
+      "pf": 1023,
+      "pa": 947,
+      "diff": 76,
+      "sos": 1533.836,
+      "sos_adj": 1592.927,
+      "power": 1600.364,
       "rank": 3,
-      "mw_rating": 96.1,
-      "mw_points": 1249
+      "mw_rating": 91.6,
+      "mw_points": 1282
     },
     {
       "teamno": "45516",
@@ -68,12 +68,12 @@
       "pf": 937,
       "pa": 842,
       "diff": 95,
-      "sos": 1562.006,
-      "sos_adj": 1617.006,
-      "power": 1571.167,
+      "sos": 1563.466,
+      "sos_adj": 1618.466,
+      "power": 1571.532,
       "rank": 4,
-      "mw_rating": 105.2,
-      "mw_points": 1368
+      "mw_rating": 105.3,
+      "mw_points": 1369
     },
     {
       "teamno": "45755",
@@ -85,12 +85,12 @@
       "pf": 793,
       "pa": 782,
       "diff": 11,
-      "sos": 1531.318,
-      "sos_adj": 1576.055,
-      "power": 1553.966,
+      "sos": 1528.443,
+      "sos_adj": 1573.18,
+      "power": 1553.247,
       "rank": 5,
-      "mw_rating": 85.6,
-      "mw_points": 1198
+      "mw_rating": 85.7,
+      "mw_points": 1200
     },
     {
       "teamno": "44438",
@@ -102,12 +102,12 @@
       "pf": 732,
       "pa": 808,
       "diff": -76,
-      "sos": 1557.717,
-      "sos_adj": 1610.349,
-      "power": 1516.928,
+      "sos": 1551.868,
+      "sos_adj": 1604.5,
+      "power": 1515.466,
       "rank": 6,
-      "mw_rating": 73.9,
-      "mw_points": 961
+      "mw_rating": 74.0,
+      "mw_points": 962
     },
     {
       "teamno": "43460",
@@ -119,12 +119,12 @@
       "pf": 879,
       "pa": 1118,
       "diff": -239,
-      "sos": 1566.208,
-      "sos_adj": 1614.285,
-      "power": 1462.706,
+      "sos": 1562.006,
+      "sos_adj": 1610.083,
+      "power": 1461.656,
       "rank": 7,
-      "mw_rating": 52.7,
-      "mw_points": 685
+      "mw_rating": 52.8,
+      "mw_points": 686
     }
   ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44495",
   "team_name": "D4H-Wareham (silvia)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 509,
-    "pa": 377,
-    "diff": 132,
-    "sos": 1492.573,
-    "sos_adj": 1492.573,
-    "power": 1521.923,
-    "rank": 2,
-    "mw_rating": 64.1,
-    "mw_points": 769,
+    "pf": 547,
+    "pa": 429,
+    "diff": 118,
+    "sos": 1494.119,
+    "sos_adj": 1501.811,
+    "power": 1509.748,
+    "rank": 3,
+    "mw_rating": 64.7,
+    "mw_points": 841,
     "divisionno": "7221",
     "division_name": "6th Boys - Division 4",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45329",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "4:30 PM",
+      "location": "Taunton High School  2",
+      "divisionno": "7221",
+      "division_name": "6th Boys - Division 4",
+      "home_teamno": "44495",
+      "away_teamno": "43621",
+      "home_score": 38,
+      "away_score": 52,
+      "team_score": 38,
+      "opponent_score": 52,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43621",
+      "opponent_name": "D2J-Norwood (gold)"
+    },
     {
       "gameno": "376406",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D4H-Swansea"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45329",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "4:30 PM",
-      "location": "Taunton High School  2",
-      "divisionno": "7221",
-      "division_name": "6th Boys - Division 4",
-      "home_teamno": "44495",
-      "away_teamno": "43621",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43621",
-      "opponent_name": "D2J-Norwood (gold)"
-    }
-  ]
+  "future_games": []
 }

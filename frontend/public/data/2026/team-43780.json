@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43780",
   "team_name": "D4K-Millis (long)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 478,
-    "pa": 527,
-    "diff": -49,
-    "sos": 1494.556,
-    "sos_adj": 1483.018,
-    "power": 1512.57,
+    "pf": 520,
+    "pa": 578,
+    "diff": -58,
+    "sos": 1491.463,
+    "sos_adj": 1480.749,
+    "power": 1491.505,
     "rank": 4,
-    "mw_rating": 44.2,
-    "mw_points": 530,
+    "mw_rating": 42.7,
+    "mw_points": 555,
     "divisionno": "7223",
     "division_name": "6th Boys - Division 4",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45381",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "6:25 PM",
+      "location": "Hopkinton Doyle Gym",
+      "divisionno": "7223",
+      "division_name": "6th Boys - Division 4",
+      "home_teamno": "45642",
+      "away_teamno": "43780",
+      "home_score": 51,
+      "away_score": 42,
+      "team_score": 42,
+      "opponent_score": 51,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45642",
+      "opponent_name": "D4K-Hopkinton (klotsche6)"
+    },
     {
       "gameno": "377971",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D2H-West Bridgewater (ryan)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45381",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "6:25 PM",
-      "location": "Hopkinton Doyle Gym",
-      "divisionno": "7223",
-      "division_name": "6th Boys - Division 4",
-      "home_teamno": "45642",
-      "away_teamno": "43780",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45642",
-      "opponent_name": "D4K-Hopkinton (klotsche6)"
-    }
-  ]
+  "future_games": []
 }

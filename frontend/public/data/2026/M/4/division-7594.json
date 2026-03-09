@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "gender": "M",
   "grade": 4,
   "divisionno": "7594",
@@ -11,18 +11,18 @@
       "teamno": "44079",
       "name": "D7T-Watertown (white)",
       "town": null,
-      "wins": 11,
+      "wins": 12,
       "losses": 2,
       "ties": 0,
-      "pf": 441,
-      "pa": 277,
-      "diff": 164,
-      "sos": 1353.314,
-      "sos_adj": 1218.698,
-      "power": 1405.805,
+      "pf": 470,
+      "pa": 300,
+      "diff": 170,
+      "sos": 1352.259,
+      "sos_adj": 1216.545,
+      "power": 1413.758,
       "rank": 1,
-      "mw_rating": 23.9,
-      "mw_points": 263
+      "mw_rating": 24.3,
+      "mw_points": 292
     },
     {
       "teamno": "44322",
@@ -34,12 +34,12 @@
       "pf": 351,
       "pa": 245,
       "diff": 106,
-      "sos": 1345.704,
-      "sos_adj": 1204.037,
-      "power": 1380.367,
+      "sos": 1343.537,
+      "sos_adj": 1201.87,
+      "power": 1379.825,
       "rank": 2,
-      "mw_rating": 19.6,
-      "mw_points": 235
+      "mw_rating": 19.7,
+      "mw_points": 236
     },
     {
       "teamno": "44321",
@@ -51,12 +51,12 @@
       "pf": 394,
       "pa": 303,
       "diff": 91,
-      "sos": 1362.522,
-      "sos_adj": 1212.522,
-      "power": 1362.659,
+      "sos": 1361.299,
+      "sos_adj": 1211.299,
+      "power": 1362.354,
       "rank": 3,
       "mw_rating": 16.3,
-      "mw_points": 195
+      "mw_points": 196
     },
     {
       "teamno": "43408",
@@ -68,12 +68,12 @@
       "pf": 451,
       "pa": 363,
       "diff": 88,
-      "sos": 1372.674,
-      "sos_adj": 1233.388,
-      "power": 1344.84,
+      "sos": 1372.434,
+      "sos_adj": 1233.148,
+      "power": 1344.78,
       "rank": 4,
-      "mw_rating": 13.8,
-      "mw_points": 166
+      "mw_rating": 13.9,
+      "mw_points": 167
     },
     {
       "teamno": "44320",
@@ -85,12 +85,12 @@
       "pf": 372,
       "pa": 332,
       "diff": 40,
-      "sos": 1366.618,
-      "sos_adj": 1234.475,
-      "power": 1323.003,
+      "sos": 1365.569,
+      "sos_adj": 1233.426,
+      "power": 1322.741,
       "rank": 5,
       "mw_rating": 14.6,
-      "mw_points": 204
+      "mw_points": 205
     },
     {
       "teamno": "44517",
@@ -102,9 +102,9 @@
       "pf": 242,
       "pa": 428,
       "diff": -186,
-      "sos": 1367.571,
-      "sos_adj": 1225.263,
-      "power": 1289.648,
+      "sos": 1367.312,
+      "sos_adj": 1225.005,
+      "power": 1289.583,
       "rank": 6,
       "mw_rating": 7.5,
       "mw_points": 97
@@ -114,17 +114,17 @@
       "name": "D7T-Arlington (black)",
       "town": null,
       "wins": 2,
-      "losses": 14,
+      "losses": 15,
       "ties": 0,
-      "pf": 302,
-      "pa": 566,
-      "diff": -264,
-      "sos": 1360.056,
-      "sos_adj": 1216.306,
-      "power": 1257.861,
+      "pf": 316,
+      "pa": 600,
+      "diff": -284,
+      "sos": 1363.936,
+      "sos_adj": 1222.759,
+      "power": 1248.463,
       "rank": 7,
-      "mw_rating": 3.1,
-      "mw_points": 34
+      "mw_rating": 3.3,
+      "mw_points": 39
     }
   ]
 }

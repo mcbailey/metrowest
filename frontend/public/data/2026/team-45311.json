@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45311",
   "team_name": "D5Q-Milton (gold)",
   "town": null,
   "summary": {
     "wins": 18,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 1173,
-    "pa": 1017,
-    "diff": 156,
-    "sos": 1472.306,
-    "sos_adj": 1453.075,
-    "power": 1512.464,
+    "pf": 1215,
+    "pa": 1061,
+    "diff": 154,
+    "sos": 1473.21,
+    "sos_adj": 1452.84,
+    "power": 1503.307,
     "rank": 1,
-    "mw_rating": 49.7,
-    "mw_points": 596,
+    "mw_rating": 46.7,
+    "mw_points": 607,
     "divisionno": "7149",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 26,
-    "games_scheduled_total": 1
+    "games_played_total": 27,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45752",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "2:30 PM",
+      "location": "Sudbury Fieldhouse-Court 2",
+      "divisionno": "7150",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "45502",
+      "away_teamno": "45311",
+      "home_score": 44,
+      "away_score": 42,
+      "team_score": 42,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45502",
+      "opponent_name": "D5R-Everett"
+    },
     {
       "gameno": "381013",
       "date": "2026-03-01",
@@ -520,25 +539,5 @@
       "opponent_name": "Pembroke (White 8B D3 (SSYBL))"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45752",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "2:30 PM",
-      "location": "Sudbury Fieldhouse-Court 2",
-      "divisionno": "7150",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "45502",
-      "away_teamno": "45311",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45502",
-      "opponent_name": "D5R-Everett"
-    }
-  ]
+  "future_games": []
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45249",
   "team_name": "D2M-Waltham Boys (red)",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 793,
-    "pa": 788,
-    "diff": 5,
-    "sos": 1608.743,
-    "sos_adj": 1714.993,
-    "power": 1643.965,
+    "pf": 844,
+    "pa": 849,
+    "diff": -5,
+    "sos": 1611.515,
+    "sos_adj": 1717.398,
+    "power": 1630.636,
     "rank": 3,
-    "mw_rating": 133.3,
-    "mw_points": 1599,
+    "mw_rating": 128.7,
+    "mw_points": 1673,
     "divisionno": "7233",
     "division_name": "6th Boys - Division 2",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44676",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "8:10 AM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7233",
+      "division_name": "6th Boys - Division 2",
+      "home_teamno": "43205",
+      "away_teamno": "45249",
+      "home_score": 61,
+      "away_score": 51,
+      "team_score": 51,
+      "opponent_score": 61,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43205",
+      "opponent_name": "D2H-FLBC (white)"
+    },
     {
       "gameno": "374556",
       "date": "2026-03-01",
@@ -330,25 +349,5 @@
       "opponent_name": "D2K-Southboro (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44676",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "8:10 AM",
-      "location": "Dana Barros - 2",
-      "divisionno": "7233",
-      "division_name": "6th Boys - Division 2",
-      "home_teamno": "43205",
-      "away_teamno": "45249",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43205",
-      "opponent_name": "D2H-FLBC (white)"
-    }
-  ]
+  "future_games": []
 }

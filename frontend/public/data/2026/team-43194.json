@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43194",
   "team_name": "D5Q-Bellingham (donato)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 446,
-    "pa": 355,
-    "diff": 91,
-    "sos": 1444.725,
-    "sos_adj": 1398.571,
-    "power": 1469.804,
+    "pf": 473,
+    "pa": 395,
+    "diff": 78,
+    "sos": 1446.095,
+    "sos_adj": 1399.667,
+    "power": 1449.766,
     "rank": 3,
-    "mw_rating": 38.9,
-    "mw_points": 506,
+    "mw_rating": 36.9,
+    "mw_points": 516,
     "divisionno": "7293",
     "division_name": "5th Boys - Division 5",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45234",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:40 AM",
+      "location": "Mansfield Fieldhouse -3",
+      "divisionno": "7293",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "43094",
+      "away_teamno": "43194",
+      "home_score": 40,
+      "away_score": 27,
+      "team_score": 27,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43094",
+      "opponent_name": "D5H-Swansea (black)"
+    },
     {
       "gameno": "45230",
       "date": "2026-03-07",
@@ -273,25 +292,5 @@
       "opponent_name": "D5M-Mansfield (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45234",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "10:40 AM",
-      "location": "Mansfield Fieldhouse -3",
-      "divisionno": "7293",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "43094",
-      "away_teamno": "43194",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43094",
-      "opponent_name": "D5H-Swansea (black)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44415",
   "team_name": "D7P-Dedham (grant)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 177,
-    "pa": 247,
-    "diff": -70,
-    "sos": 1354.999,
-    "sos_adj": 1204.999,
-    "power": 1300.706,
+    "pf": 193,
+    "pa": 266,
+    "diff": -73,
+    "sos": 1357.917,
+    "sos_adj": 1207.917,
+    "power": 1292.448,
     "rank": 5,
-    "mw_rating": 6.7,
-    "mw_points": 87,
+    "mw_rating": 6.4,
+    "mw_points": 89,
     "divisionno": "7557",
     "division_name": "4th Girls - Division 7",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45960",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "North Attleboro Middle School",
+      "divisionno": "7557",
+      "division_name": "4th Girls - Division 7",
+      "home_teamno": "43848",
+      "away_teamno": "44415",
+      "home_score": 19,
+      "away_score": 16,
+      "team_score": 16,
+      "opponent_score": 19,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43848",
+      "opponent_name": "D7M-Raynham (cunio)"
+    },
     {
       "gameno": "45957",
       "date": "2026-03-06",
@@ -273,25 +292,5 @@
       "opponent_name": "D7P-Parkway  (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45960",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "12:00 PM",
-      "location": "North Attleboro Middle School",
-      "divisionno": "7557",
-      "division_name": "4th Girls - Division 7",
-      "home_teamno": "43848",
-      "away_teamno": "44415",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43848",
-      "opponent_name": "D7M-Raynham (cunio)"
-    }
-  ]
+  "future_games": []
 }

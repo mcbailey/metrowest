@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44150",
   "team_name": "D4M-Easton (orange)",
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 13,
+    "losses": 14,
     "ties": 0,
-    "pf": 550,
-    "pa": 792,
-    "diff": -242,
-    "sos": 1504.944,
-    "sos_adj": 1501.611,
-    "power": 1445.959,
+    "pf": 578,
+    "pa": 847,
+    "diff": -269,
+    "sos": 1507.097,
+    "sos_adj": 1503.972,
+    "power": 1432.613,
     "rank": 7,
-    "mw_rating": 32.3,
-    "mw_points": 420,
+    "mw_rating": 31.8,
+    "mw_points": 445,
     "divisionno": "7154",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45769",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "1:15 PM",
+      "location": "Old Rochester Junior High School",
+      "divisionno": "7154",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "44150",
+      "away_teamno": "43424",
+      "home_score": 28,
+      "away_score": 55,
+      "team_score": 28,
+      "opponent_score": 55,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43424",
+      "opponent_name": "D4J-Bridgewater (hinman)"
+    },
     {
       "gameno": "45765",
       "date": "2026-03-05",
@@ -292,25 +311,5 @@
       "opponent_name": "D4M-North Attleboro (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45769",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "1:15 PM",
-      "location": "Old Rochester Junior High School",
-      "divisionno": "7154",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "44150",
-      "away_teamno": "43424",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43424",
-      "opponent_name": "D4J-Bridgewater (hinman)"
-    }
-  ]
+  "future_games": []
 }

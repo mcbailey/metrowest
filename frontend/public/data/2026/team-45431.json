@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45431",
   "team_name": "D3K-Lincoln-Sudbury (blue)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 602,
-    "pa": 667,
-    "diff": -65,
-    "sos": 1566.312,
-    "sos_adj": 1625.136,
-    "power": 1548.103,
+    "pf": 635,
+    "pa": 715,
+    "diff": -80,
+    "sos": 1569.808,
+    "sos_adj": 1625.364,
+    "power": 1523.179,
     "rank": 5,
-    "mw_rating": 82.9,
-    "mw_points": 1078,
+    "mw_rating": 78.9,
+    "mw_points": 1104,
     "divisionno": "7305",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45130",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "3:15 PM",
+      "location": "Southborough Mary Finn School",
+      "divisionno": "7301",
+      "division_name": "5th Boys - Division 4",
+      "home_teamno": "45431",
+      "away_teamno": "45753",
+      "home_score": 33,
+      "away_score": 48,
+      "team_score": 33,
+      "opponent_score": 48,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45753",
+      "opponent_name": "D4Q-Lexington (blue)"
+    },
     {
       "gameno": "45126",
       "date": "2026-03-07",
@@ -349,25 +368,5 @@
       "opponent_name": "D5Q-King Philip"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45130",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "3:15 PM",
-      "location": "Southborough Mary Finn School",
-      "divisionno": "7301",
-      "division_name": "5th Boys - Division 4",
-      "home_teamno": "45431",
-      "away_teamno": "45753",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45753",
-      "opponent_name": "D4Q-Lexington (blue)"
-    }
-  ]
+  "future_games": []
 }

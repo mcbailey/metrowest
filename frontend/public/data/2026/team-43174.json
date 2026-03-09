@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43174",
   "team_name": "D4J-Seekonk",
   "town": null,
@@ -11,18 +11,18 @@
     "pf": 469,
     "pa": 468,
     "diff": 1,
-    "sos": 1496.226,
-    "sos_adj": 1489.083,
-    "power": 1507.686,
+    "sos": 1502.591,
+    "sos_adj": 1495.449,
+    "power": 1509.277,
     "rank": 3,
-    "mw_rating": 44.9,
-    "mw_points": 629,
+    "mw_rating": 45.1,
+    "mw_points": 632,
     "divisionno": "7257",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
     "games_played_total": 14,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -292,5 +292,25 @@
       "opponent_name": "D4J-Norton (purple)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "47168",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "7:20 PM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7252",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "43174",
+      "away_teamno": "44384",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44384",
+      "opponent_name": "D5K-Westborough"
+    }
+  ]
 }

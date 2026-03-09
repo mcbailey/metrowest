@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44135",
   "team_name": "D6J-Easton (white)",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 373,
-    "pa": 495,
-    "diff": -122,
-    "sos": 1402.318,
-    "sos_adj": 1310.652,
-    "power": 1360.308,
+    "pf": 397,
+    "pa": 540,
+    "diff": -143,
+    "sos": 1401.974,
+    "sos_adj": 1309.667,
+    "power": 1343.515,
     "rank": 5,
-    "mw_rating": 13.0,
-    "mw_points": 156,
+    "mw_rating": 12.4,
+    "mw_points": 161,
     "divisionno": "7174",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45676",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:35 AM",
+      "location": "Seekonk - Hurley Middle School",
+      "divisionno": "7174",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44135",
+      "away_teamno": "43700",
+      "home_score": 24,
+      "away_score": 45,
+      "team_score": 24,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43700",
+      "opponent_name": "D6J-Sharon (maroon-sekuler)"
+    },
     {
       "gameno": "45669",
       "date": "2026-03-07",
@@ -254,25 +273,5 @@
       "opponent_name": "D6J-West Bridgewater (wiech)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45676",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "10:35 AM",
-      "location": "Seekonk - Hurley Middle School",
-      "divisionno": "7174",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44135",
-      "away_teamno": "43700",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43700",
-      "opponent_name": "D6J-Sharon (maroon-sekuler)"
-    }
-  ]
+  "future_games": []
 }

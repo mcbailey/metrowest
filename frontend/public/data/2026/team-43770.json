@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43770",
   "team_name": "D4R-Concord-Carlisle (maroon)",
   "town": null,
   "summary": {
-    "wins": 14,
+    "wins": 15,
     "losses": 2,
     "ties": 0,
-    "pf": 609,
-    "pa": 307,
-    "diff": 302,
-    "sos": 1492.712,
-    "sos_adj": 1505.212,
-    "power": 1584.217,
+    "pf": 648,
+    "pa": 325,
+    "diff": 323,
+    "sos": 1494.391,
+    "sos_adj": 1509.097,
+    "power": 1606.747,
     "rank": 1,
-    "mw_rating": 94.1,
-    "mw_points": 1129,
+    "mw_rating": 95.9,
+    "mw_points": 1247,
     "divisionno": "7324",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45966",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "5:00 PM",
+      "location": "Sudbury Fieldhouse-Court 2",
+      "divisionno": "7324",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "44343",
+      "away_teamno": "43770",
+      "home_score": 18,
+      "away_score": 39,
+      "team_score": 39,
+      "opponent_score": 18,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44343",
+      "opponent_name": "D3J-Medway (blue)"
+    },
     {
       "gameno": "373611",
       "date": "2026-03-01",
@@ -311,25 +330,5 @@
       "opponent_name": "D5W-Arlington (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45966",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "5:00 PM",
-      "location": "Sudbury Fieldhouse-Court 2",
-      "divisionno": "7324",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "44343",
-      "away_teamno": "43770",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44343",
-      "opponent_name": "D3J-Medway (blue)"
-    }
-  ]
+  "future_games": []
 }

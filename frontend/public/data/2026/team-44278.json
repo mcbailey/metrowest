@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44278",
   "team_name": "D5R-Wayland (orange)",
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 0,
+    "losses": 1,
     "ties": 0,
-    "pf": 380,
-    "pa": 141,
-    "diff": 239,
-    "sos": 1440.906,
-    "sos_adj": 1390.906,
-    "power": 1526.507,
+    "pf": 396,
+    "pa": 178,
+    "diff": 218,
+    "sos": 1452.324,
+    "sos_adj": 1410.657,
+    "power": 1510.503,
     "rank": 1,
-    "mw_rating": 57.2,
-    "mw_points": 629,
+    "mw_rating": 56.4,
+    "mw_points": 677,
     "divisionno": "7272",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46165",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "6:00 PM",
+      "location": "Bedford Davis School",
+      "divisionno": "7272",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "44687",
+      "away_teamno": "44278",
+      "home_score": 37,
+      "away_score": 16,
+      "team_score": 16,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44687",
+      "opponent_name": "D3Q-Arlington (maroon)"
+    },
     {
       "gameno": "46161",
       "date": "2026-03-07",
@@ -254,25 +273,5 @@
       "opponent_name": "D5R-Brookline (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46165",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "6:00 PM",
-      "location": "Bedford Davis School",
-      "divisionno": "7272",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "44687",
-      "away_teamno": "44278",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44687",
-      "opponent_name": "D3Q-Arlington (maroon)"
-    }
-  ]
+  "future_games": []
 }

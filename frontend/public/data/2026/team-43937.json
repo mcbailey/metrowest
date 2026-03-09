@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43937",
   "team_name": "D2K-Brookline (red)",
   "town": null,
   "summary": {
     "wins": 15,
-    "losses": 1,
+    "losses": 2,
     "ties": 0,
-    "pf": 810,
-    "pa": 571,
-    "diff": 239,
-    "sos": 1576.384,
-    "sos_adj": 1657.634,
-    "power": 1686.212,
+    "pf": 854,
+    "pa": 619,
+    "diff": 235,
+    "sos": 1580.417,
+    "sos_adj": 1665.712,
+    "power": 1677.878,
     "rank": 1,
-    "mw_rating": 160.3,
-    "mw_points": 1924,
+    "mw_rating": 156.0,
+    "mw_points": 2028,
     "divisionno": "7200",
     "division_name": "7th Boys - Division 2",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "43801",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "12:20 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7200",
+      "division_name": "7th Boys - Division 2",
+      "home_teamno": "43937",
+      "away_teamno": "45627",
+      "home_score": 44,
+      "away_score": 48,
+      "team_score": 44,
+      "opponent_score": 48,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45627",
+      "opponent_name": "D1H-New Bedford  (red)"
+    },
     {
       "gameno": "374736",
       "date": "2026-03-02",
@@ -330,25 +349,5 @@
       "opponent_name": "D3K-Canton (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "43801",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "12:20 PM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7200",
-      "division_name": "7th Boys - Division 2",
-      "home_teamno": "43937",
-      "away_teamno": "45627",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45627",
-      "opponent_name": "D1H-New Bedford  (red)"
-    }
-  ]
+  "future_games": []
 }

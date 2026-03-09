@@ -1,28 +1,28 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43227",
   "team_name": "D3H-Barnstable  (red)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 359,
-    "pa": 303,
-    "diff": 56,
-    "sos": 1553.632,
-    "sos_adj": 1590.298,
-    "power": 1541.599,
-    "rank": 4,
-    "mw_rating": 74.7,
-    "mw_points": 896,
+    "pf": 377,
+    "pa": 335,
+    "diff": 42,
+    "sos": 1555.678,
+    "sos_adj": 1590.053,
+    "power": 1521.87,
+    "rank": 5,
+    "mw_rating": 75.5,
+    "mw_points": 906,
     "divisionno": "7325",
     "division_name": "5th Girls - Division 3",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
     {
@@ -43,6 +43,25 @@
       "is_home": false,
       "opponent_teamno": "44183",
       "opponent_name": "D4M-Parkway  (red)"
+    },
+    {
+      "gameno": "393977",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "10:00 AM",
+      "location": "Barnstable High School",
+      "divisionno": "7325",
+      "division_name": "5th Girls - Division 3",
+      "home_teamno": "45497",
+      "away_teamno": "43227",
+      "home_score": 32,
+      "away_score": 18,
+      "team_score": 18,
+      "opponent_score": 32,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45497",
+      "opponent_name": "West Warwick (orange/black) 6G D2"
     },
     {
       "gameno": "373576",
@@ -311,25 +330,5 @@
       "opponent_name": "D3H-Bridgewater (driscoll)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "393977",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "10:00 AM",
-      "location": "Barnstable High School",
-      "divisionno": "7325",
-      "division_name": "5th Girls - Division 3",
-      "home_teamno": "45497",
-      "away_teamno": "43227",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45497",
-      "opponent_name": "West Warwick (orange/black) 6G D2"
-    }
-  ]
+  "future_games": []
 }

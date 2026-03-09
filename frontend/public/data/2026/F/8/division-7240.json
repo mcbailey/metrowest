@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "gender": "F",
   "grade": 8,
   "divisionno": "7240",
@@ -17,12 +17,12 @@
       "pf": 759,
       "pa": 508,
       "diff": 251,
-      "sos": 1481.02,
-      "sos_adj": 1477.687,
-      "power": 1596.605,
+      "sos": 1479.651,
+      "sos_adj": 1476.318,
+      "power": 1596.263,
       "rank": 1,
-      "mw_rating": 76.7,
-      "mw_points": 920
+      "mw_rating": 76.8,
+      "mw_points": 922
     },
     {
       "teamno": "43484",
@@ -34,12 +34,12 @@
       "pf": 435,
       "pa": 370,
       "diff": 65,
-      "sos": 1504.628,
-      "sos_adj": 1508.795,
-      "power": 1520.592,
+      "sos": 1502.917,
+      "sos_adj": 1507.083,
+      "power": 1520.165,
       "rank": 2,
-      "mw_rating": 65.0,
-      "mw_points": 780
+      "mw_rating": 65.2,
+      "mw_points": 782
     },
     {
       "teamno": "43213",
@@ -56,24 +56,24 @@
       "power": 1519.863,
       "rank": 3,
       "mw_rating": 63.6,
-      "mw_points": 699
+      "mw_points": 700
     },
     {
       "teamno": "43175",
       "name": "D4H-Seekonk",
       "town": null,
       "wins": 5,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 518,
-      "pa": 546,
-      "diff": -28,
-      "sos": 1512.602,
-      "sos_adj": 1509.031,
-      "power": 1475.196,
+      "pf": 552,
+      "pa": 593,
+      "diff": -41,
+      "sos": 1514.588,
+      "sos_adj": 1511.255,
+      "power": 1460.35,
       "rank": 4,
-      "mw_rating": 46.0,
-      "mw_points": 598
+      "mw_rating": 44.6,
+      "mw_points": 624
     },
     {
       "teamno": "43131",
@@ -85,12 +85,12 @@
       "pf": 295,
       "pa": 407,
       "diff": -112,
-      "sos": 1505.597,
-      "sos_adj": 1496.506,
-      "power": 1444.186,
+      "sos": 1503.73,
+      "sos_adj": 1494.639,
+      "power": 1443.719,
       "rank": 5,
-      "mw_rating": 37.1,
-      "mw_points": 408
+      "mw_rating": 37.2,
+      "mw_points": 409
     },
     {
       "teamno": "44125",

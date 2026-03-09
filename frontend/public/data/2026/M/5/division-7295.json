@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "gender": "M",
   "grade": 5,
   "divisionno": "7295",
@@ -21,8 +21,8 @@
       "sos_adj": 1410.844,
       "power": 1505.839,
       "rank": 1,
-      "mw_rating": 51.4,
-      "mw_points": 668
+      "mw_rating": 51.5,
+      "mw_points": 669
     },
     {
       "teamno": "45432",
@@ -34,12 +34,12 @@
       "pf": 488,
       "pa": 423,
       "diff": 65,
-      "sos": 1453.522,
-      "sos_adj": 1413.522,
-      "power": 1494.059,
+      "sos": 1451.681,
+      "sos_adj": 1411.681,
+      "power": 1493.599,
       "rank": 2,
-      "mw_rating": 47.7,
-      "mw_points": 620
+      "mw_rating": 47.8,
+      "mw_points": 621
     },
     {
       "teamno": "44378",
@@ -72,8 +72,8 @@
       "sos_adj": 1367.369,
       "power": 1430.58,
       "rank": 4,
-      "mw_rating": 33.1,
-      "mw_points": 430
+      "mw_rating": 33.2,
+      "mw_points": 431
     },
     {
       "teamno": "43934",
@@ -85,12 +85,12 @@
       "pf": 279,
       "pa": 388,
       "diff": -109,
-      "sos": 1451.629,
-      "sos_adj": 1401.629,
-      "power": 1429.99,
+      "sos": 1449.328,
+      "sos_adj": 1399.328,
+      "power": 1429.415,
       "rank": 5,
-      "mw_rating": 29.4,
-      "mw_points": 353
+      "mw_rating": 29.6,
+      "mw_points": 355
     },
     {
       "teamno": "45088",
@@ -114,17 +114,17 @@
       "name": "D5T-Weston",
       "town": null,
       "wins": 2,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 253,
-      "pa": 419,
-      "diff": -166,
-      "sos": 1448.931,
-      "sos_adj": 1395.085,
-      "power": 1379.43,
+      "pf": 279,
+      "pa": 454,
+      "diff": -175,
+      "sos": 1447.407,
+      "sos_adj": 1390.265,
+      "power": 1357.521,
       "rank": 7,
-      "mw_rating": 17.0,
-      "mw_points": 221
+      "mw_rating": 16.2,
+      "mw_points": 227
     }
   ]
 }

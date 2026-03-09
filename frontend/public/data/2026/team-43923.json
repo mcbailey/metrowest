@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43923",
   "team_name": "D5T-Southboro (white)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 257,
-    "pa": 196,
-    "diff": 61,
-    "sos": 1448.064,
-    "sos_adj": 1398.064,
-    "power": 1462.207,
+    "pf": 274,
+    "pa": 225,
+    "diff": 49,
+    "sos": 1453.025,
+    "sos_adj": 1406.871,
+    "power": 1447.823,
     "rank": 2,
-    "mw_rating": 39.3,
-    "mw_points": 432,
+    "mw_rating": 38.3,
+    "mw_points": 459,
     "divisionno": "7317",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46014",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:05 AM",
+      "location": "Hopkinton-Elmwood School",
+      "divisionno": "7317",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "43923",
+      "away_teamno": "45632",
+      "home_score": 17,
+      "away_score": 29,
+      "team_score": 17,
+      "opponent_score": 29,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45632",
+      "opponent_name": "D4M-Hopkinton (sakakeeny)"
+    },
     {
       "gameno": "380485",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D5W-Winchester (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46014",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "9:05 AM",
-      "location": "Hopkinton-Elmwood School",
-      "divisionno": "7317",
-      "division_name": "5th Girls - Division 5",
-      "home_teamno": "43923",
-      "away_teamno": "45632",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45632",
-      "opponent_name": "D4M-Hopkinton (sakakeeny)"
-    }
-  ]
+  "future_games": []
 }

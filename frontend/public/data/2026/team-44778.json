@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44778",
   "team_name": "D6T-Lincoln-Sudbury (green)",
   "town": null,
   "summary": {
     "wins": 14,
-    "losses": 1,
+    "losses": 2,
     "ties": 0,
-    "pf": 680,
-    "pa": 440,
-    "diff": 240,
-    "sos": 1398.873,
-    "sos_adj": 1302.206,
-    "power": 1462.408,
+    "pf": 707,
+    "pa": 487,
+    "diff": 220,
+    "sos": 1405.192,
+    "sos_adj": 1311.442,
+    "power": 1440.987,
     "rank": 1,
-    "mw_rating": 37.6,
-    "mw_points": 451,
+    "mw_rating": 35.9,
+    "mw_points": 466,
     "divisionno": "7142",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45781",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "7:45 PM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7142",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "44381",
+      "away_teamno": "44778",
+      "home_score": 47,
+      "away_score": 27,
+      "team_score": 27,
+      "opponent_score": 47,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44381",
+      "opponent_name": "D5Q-Westborough"
+    },
     {
       "gameno": "380811",
       "date": "2026-03-01",
@@ -311,25 +330,5 @@
       "opponent_name": "D5H-Somerset (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45781",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "7:45 PM",
-      "location": "Hopkinton Brown Gym",
-      "divisionno": "7142",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "44381",
-      "away_teamno": "44778",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44381",
-      "opponent_name": "D5Q-Westborough"
-    }
-  ]
+  "future_games": []
 }

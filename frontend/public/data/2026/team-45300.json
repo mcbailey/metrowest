@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45300",
   "team_name": "D3Q-Medford (blue)",
   "town": null,
   "summary": {
     "wins": 13,
-    "losses": 0,
+    "losses": 1,
     "ties": 0,
-    "pf": 718,
-    "pa": 489,
-    "diff": 229,
-    "sos": 1535.797,
-    "sos_adj": 1585.797,
-    "power": 1645.151,
+    "pf": 771,
+    "pa": 560,
+    "diff": 211,
+    "sos": 1542.292,
+    "sos_adj": 1595.863,
+    "power": 1625.774,
     "rank": 1,
-    "mw_rating": 117.8,
-    "mw_points": 1531,
+    "mw_rating": 114.6,
+    "mw_points": 1604,
     "divisionno": "7229",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44677",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "8:30 AM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7229",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "45300",
+      "away_teamno": "45437",
+      "home_score": 53,
+      "away_score": 71,
+      "team_score": 53,
+      "opponent_score": 71,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45437",
+      "opponent_name": "D2M-Cambridge"
+    },
     {
       "gameno": "44666",
       "date": "2026-03-07",
@@ -273,25 +292,5 @@
       "opponent_name": "D3M-Medway (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44677",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "8:30 AM",
-      "location": "Dana Barros - 4",
-      "divisionno": "7229",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "45300",
-      "away_teamno": "45437",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45437",
-      "opponent_name": "D2M-Cambridge"
-    }
-  ]
+  "future_games": []
 }

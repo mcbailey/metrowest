@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44371",
   "team_name": "D5N-Westborough",
   "town": null,
   "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 7,
     "ties": 0,
-    "pf": 235,
-    "pa": 254,
-    "diff": -19,
-    "sos": 1428.035,
-    "sos_adj": 1361.368,
-    "power": 1420.164,
+    "pf": 256,
+    "pa": 272,
+    "diff": -16,
+    "sos": 1428.065,
+    "sos_adj": 1358.834,
+    "power": 1428.607,
     "rank": 3,
-    "mw_rating": 23.6,
-    "mw_points": 283,
+    "mw_rating": 24.7,
+    "mw_points": 321,
     "divisionno": "7553",
     "division_name": "4th Girls - Division 5",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45916",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:25 AM",
+      "location": "Hopkinton-Elmwood School",
+      "divisionno": "7549",
+      "division_name": "4th Girls - Division 6",
+      "home_teamno": "44371",
+      "away_teamno": "44175",
+      "home_score": 21,
+      "away_score": 18,
+      "team_score": 21,
+      "opponent_score": 18,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44175",
+      "opponent_name": "D6P-Holliston (king)"
+    },
     {
       "gameno": "45913",
       "date": "2026-03-06",
@@ -254,25 +273,5 @@
       "opponent_name": "D5N-Needham (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45916",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "10:25 AM",
-      "location": "Hopkinton-Elmwood School",
-      "divisionno": "7549",
-      "division_name": "4th Girls - Division 6",
-      "home_teamno": "44371",
-      "away_teamno": "44175",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44175",
-      "opponent_name": "D6P-Holliston (king)"
-    }
-  ]
+  "future_games": []
 }

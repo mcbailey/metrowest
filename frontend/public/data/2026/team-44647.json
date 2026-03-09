@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44647",
   "team_name": "D2K-Attleboro (blue)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 332,
-    "pa": 385,
-    "diff": -53,
-    "sos": 1632.89,
-    "sos_adj": 1757.89,
-    "power": 1672.673,
-    "rank": 4,
-    "mw_rating": 119.8,
-    "mw_points": 1437,
+    "pf": 352,
+    "pa": 409,
+    "diff": -57,
+    "sos": 1623.544,
+    "sos_adj": 1738.25,
+    "power": 1640.853,
+    "rank": 5,
+    "mw_rating": 111.3,
+    "mw_points": 1447,
     "divisionno": "7544",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44787",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "8:10 AM",
+      "location": "Foxboro Sage School",
+      "divisionno": "7552",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "43556",
+      "away_teamno": "44647",
+      "home_score": 24,
+      "away_score": 20,
+      "team_score": 20,
+      "opponent_score": 24,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43556",
+      "opponent_name": "D5M-Bridgewater (belz)"
+    },
     {
       "gameno": "384058",
       "date": "2026-03-01",
@@ -330,25 +349,5 @@
       "opponent_name": "D4M-Medfield (baker)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44787",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "8:10 AM",
-      "location": "Foxboro Sage School",
-      "divisionno": "7552",
-      "division_name": "4th Girls - Division 5",
-      "home_teamno": "43556",
-      "away_teamno": "44647",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43556",
-      "opponent_name": "D5M-Bridgewater (belz)"
-    }
-  ]
+  "future_games": []
 }

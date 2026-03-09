@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45527",
   "team_name": "2NDH-King Philip (gibbs)",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 492,
-    "pa": 359,
-    "diff": 133,
-    "sos": 1557.59,
-    "sos_adj": 1603.423,
-    "power": 1629.678,
+    "pf": 532,
+    "pa": 407,
+    "diff": 125,
+    "sos": 1569.214,
+    "sos_adj": 1615.368,
+    "power": 1619.76,
     "rank": 2,
-    "mw_rating": 102.8,
-    "mw_points": 1233,
+    "mw_rating": 98.3,
+    "mw_points": 1278,
     "divisionno": "7629",
     "division_name": "3rd Boys - Division 3",
     "grade": 3,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44498",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:40 AM",
+      "location": "Jr Mass Premier-1",
+      "divisionno": "7629",
+      "division_name": "3rd Boys - Division 3",
+      "home_teamno": "45527",
+      "away_teamno": "43756",
+      "home_score": 40,
+      "away_score": 48,
+      "team_score": 40,
+      "opponent_score": 48,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43756",
+      "opponent_name": "2NDH-Mansfield (black)"
+    },
     {
       "gameno": "44497",
       "date": "2026-03-07",
@@ -254,25 +273,5 @@
       "opponent_name": "2NDM-North Attleboro (bertrand)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44498",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "10:40 AM",
-      "location": "Jr Mass Premier-1",
-      "divisionno": "7629",
-      "division_name": "3rd Boys - Division 3",
-      "home_teamno": "45527",
-      "away_teamno": "43756",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43756",
-      "opponent_name": "2NDH-Mansfield (black)"
-    }
-  ]
+  "future_games": []
 }

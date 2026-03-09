@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45506",
   "team_name": "D2N-Mansfield (green)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 409,
     "pa": 393,
     "diff": 16,
-    "sos": 1610.965,
-    "sos_adj": 1715.511,
-    "power": 1612.692,
+    "sos": 1611.926,
+    "sos_adj": 1716.472,
+    "power": 1612.932,
     "rank": 5,
-    "mw_rating": 113.3,
-    "mw_points": 1246,
+    "mw_rating": 113.4,
+    "mw_points": 1247,
     "divisionno": "7632",
     "division_name": "3rd Boys - Division 2",
     "grade": 3,
@@ -60,8 +60,8 @@
       "opponent_score": 27,
       "status": "final",
       "is_home": false,
-      "opponent_teamno": "45217",
-      "opponent_name": "2NDM-North Quincy (nowill)"
+      "opponent_teamno": "46180",
+      "opponent_name": "2NDM-Mass Premier (norfolk maki)"
     },
     {
       "gameno": "393193",

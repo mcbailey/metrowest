@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45768",
   "team_name": "D5P-Lexington (blue)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 277,
-    "pa": 436,
-    "diff": -159,
-    "sos": 1469.686,
-    "sos_adj": 1428.51,
-    "power": 1419.839,
+    "pf": 291,
+    "pa": 460,
+    "diff": -169,
+    "sos": 1473.994,
+    "sos_adj": 1432.327,
+    "power": 1406.549,
     "rank": 4,
-    "mw_rating": 43.3,
-    "mw_points": 520,
+    "mw_rating": 40.8,
+    "mw_points": 530,
     "divisionno": "7554",
     "division_name": "4th Girls - Division 5",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45895",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Southborough Mary Finn School",
+      "divisionno": "7554",
+      "division_name": "4th Girls - Division 5",
+      "home_teamno": "45768",
+      "away_teamno": "43683",
+      "home_score": 14,
+      "away_score": 24,
+      "team_score": 14,
+      "opponent_score": 24,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43683",
+      "opponent_name": "D5N-Needham (blue)"
+    },
     {
       "gameno": "384996",
       "date": "2026-03-01",
@@ -349,25 +368,5 @@
       "opponent_name": "D2M-Winchester (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45895",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "2:00 PM",
-      "location": "Southborough Mary Finn School",
-      "divisionno": "7554",
-      "division_name": "4th Girls - Division 5",
-      "home_teamno": "45768",
-      "away_teamno": "43683",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43683",
-      "opponent_name": "D5N-Needham (blue)"
-    }
-  ]
+  "future_games": []
 }

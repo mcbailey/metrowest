@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44077",
   "team_name": "D4Q-Wellesley (b)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 407,
-    "pa": 411,
-    "diff": -4,
-    "sos": 1502.625,
-    "sos_adj": 1498.458,
-    "power": 1514.563,
+    "pf": 450,
+    "pa": 455,
+    "diff": -5,
+    "sos": 1510.339,
+    "sos_adj": 1506.493,
+    "power": 1513.105,
     "rank": 3,
-    "mw_rating": 58.0,
-    "mw_points": 696,
+    "mw_rating": 55.6,
+    "mw_points": 723,
     "divisionno": "7244",
     "division_name": "8th Girls - Division 4",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46359",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:30 AM",
+      "location": "Ashland High School",
+      "divisionno": "7244",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "44077",
+      "away_teamno": "44067",
+      "home_score": 43,
+      "away_score": 44,
+      "team_score": 43,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44067",
+      "opponent_name": "D4Q-Watertown (white)"
+    },
     {
       "gameno": "377900",
       "date": "2026-03-01",
@@ -254,25 +273,5 @@
       "opponent_name": "D4Q-Lincoln-Sudbury (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46359",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "10:30 AM",
-      "location": "Ashland High School",
-      "divisionno": "7244",
-      "division_name": "8th Girls - Division 4",
-      "home_teamno": "44077",
-      "away_teamno": "44067",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44067",
-      "opponent_name": "D4Q-Watertown (white)"
-    }
-  ]
+  "future_games": []
 }

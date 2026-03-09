@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44213",
   "team_name": "D4Q-Southboro (white)",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1460.802,
     "power": 1480.464,
     "rank": 3,
-    "mw_rating": 52.7,
-    "mw_points": 632,
+    "mw_rating": 52.8,
+    "mw_points": 633,
     "divisionno": "7580",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
@@ -261,9 +261,9 @@
       "dow": "Mon",
       "starttime": "5:15 PM",
       "location": "Dana Barros - 1",
-      "divisionno": "7580",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7583",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "44629",
       "away_teamno": "44213",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44629",
+      "opponent_name": "D5T-Ashland (blue)"
     }
   ]
 }

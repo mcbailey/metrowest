@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45651",
   "team_name": "D4N-Hopkinton (kessell)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 394,
-    "pa": 336,
-    "diff": 58,
-    "sos": 1482.285,
-    "sos_adj": 1482.285,
-    "power": 1517.856,
+    "pf": 416,
+    "pa": 379,
+    "diff": 37,
+    "sos": 1487.708,
+    "sos_adj": 1487.708,
+    "power": 1501.342,
     "rank": 4,
-    "mw_rating": 66.1,
-    "mw_points": 727,
+    "mw_rating": 62.9,
+    "mw_points": 755,
     "divisionno": "7578",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 11,
-    "games_scheduled_total": 1
+    "games_played_total": 12,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44953",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "Mansfield Fieldhouse -1",
+      "divisionno": "7578",
+      "division_name": "4th Boys - Division 4",
+      "home_teamno": "45113",
+      "away_teamno": "45651",
+      "home_score": 43,
+      "away_score": 22,
+      "team_score": 22,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45113",
+      "opponent_name": "D4N-Westwood (green)"
+    },
     {
       "gameno": "385802",
       "date": "2026-02-22",
@@ -235,25 +254,5 @@
       "opponent_name": "D4M-Northboro (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44953",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "8:00 AM",
-      "location": "Mansfield Fieldhouse -1",
-      "divisionno": "7578",
-      "division_name": "4th Boys - Division 4",
-      "home_teamno": "45113",
-      "away_teamno": "45651",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45113",
-      "opponent_name": "D4N-Westwood (green)"
-    }
-  ]
+  "future_games": []
 }

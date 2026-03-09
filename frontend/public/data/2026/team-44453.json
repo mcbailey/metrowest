@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44453",
   "team_name": "D3N-Foxboro (gold)",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 324,
-    "pa": 187,
-    "diff": 137,
-    "sos": 1599.177,
-    "sos_adj": 1703.023,
-    "power": 1685.365,
+    "pf": 337,
+    "pa": 209,
+    "diff": 128,
+    "sos": 1607.735,
+    "sos_adj": 1714.878,
+    "power": 1671.968,
     "rank": 1,
-    "mw_rating": 142.1,
-    "mw_points": 1847,
+    "mw_rating": 139.1,
+    "mw_points": 1947,
     "divisionno": "7638",
     "division_name": "3rd Girls - Division 3",
     "grade": 3,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44520",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:20 AM",
+      "location": "Jr Mass Premier-1",
+      "divisionno": "7638",
+      "division_name": "3rd Girls - Division 3",
+      "home_teamno": "44453",
+      "away_teamno": "45510",
+      "home_score": 13,
+      "away_score": 22,
+      "team_score": 13,
+      "opponent_score": 22,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45510",
+      "opponent_name": "D1H-Mansfield (green)"
+    },
     {
       "gameno": "44519",
       "date": "2026-03-07",
@@ -273,25 +292,5 @@
       "opponent_name": "D3N-King Philip (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44520",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "9:20 AM",
-      "location": "Jr Mass Premier-1",
-      "divisionno": "7638",
-      "division_name": "3rd Girls - Division 3",
-      "home_teamno": "44453",
-      "away_teamno": "45510",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45510",
-      "opponent_name": "D1H-Mansfield (green)"
-    }
-  ]
+  "future_games": []
 }

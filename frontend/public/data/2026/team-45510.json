@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45510",
   "team_name": "D1H-Mansfield (green)",
   "town": null,
   "summary": {
-    "wins": 11,
+    "wins": 12,
     "losses": 1,
     "ties": 0,
-    "pf": 319,
-    "pa": 175,
-    "diff": 144,
-    "sos": 1615.367,
-    "sos_adj": 1732.034,
-    "power": 1731.035,
+    "pf": 341,
+    "pa": 188,
+    "diff": 153,
+    "sos": 1611.439,
+    "sos_adj": 1722.977,
+    "power": 1737.481,
     "rank": 1,
-    "mw_rating": 167.7,
-    "mw_points": 2012,
+    "mw_rating": 164.2,
+    "mw_points": 2134,
     "divisionno": "7635",
     "division_name": "3rd Girls - Division 1",
     "grade": 3,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44520",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "9:20 AM",
+      "location": "Jr Mass Premier-1",
+      "divisionno": "7638",
+      "division_name": "3rd Girls - Division 3",
+      "home_teamno": "44453",
+      "away_teamno": "45510",
+      "home_score": 13,
+      "away_score": 22,
+      "team_score": 22,
+      "opponent_score": 13,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44453",
+      "opponent_name": "D3N-Foxboro (gold)"
+    },
     {
       "gameno": "44518",
       "date": "2026-03-07",
@@ -254,25 +273,5 @@
       "opponent_name": "D1J-Walpole (orange)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44520",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "9:20 AM",
-      "location": "Jr Mass Premier-1",
-      "divisionno": "7638",
-      "division_name": "3rd Girls - Division 3",
-      "home_teamno": "44453",
-      "away_teamno": "45510",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44453",
-      "opponent_name": "D3N-Foxboro (gold)"
-    }
-  ]
+  "future_games": []
 }

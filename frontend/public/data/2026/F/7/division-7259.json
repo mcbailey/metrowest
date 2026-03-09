@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "gender": "F",
   "grade": 7,
   "divisionno": "7259",
@@ -11,18 +11,18 @@
       "teamno": "43548",
       "name": "D4M-Millis",
       "town": null,
-      "wins": 11,
+      "wins": 12,
       "losses": 2,
       "ties": 0,
-      "pf": 447,
-      "pa": 322,
-      "diff": 125,
-      "sos": 1491.564,
-      "sos_adj": 1495.41,
-      "power": 1572.233,
+      "pf": 482,
+      "pa": 352,
+      "diff": 130,
+      "sos": 1494.34,
+      "sos_adj": 1501.483,
+      "power": 1589.661,
       "rank": 1,
-      "mw_rating": 76.7,
-      "mw_points": 997
+      "mw_rating": 79.6,
+      "mw_points": 1114
     },
     {
       "teamno": "43681",
@@ -34,12 +34,12 @@
       "pf": 490,
       "pa": 352,
       "diff": 138,
-      "sos": 1498.262,
-      "sos_adj": 1501.595,
-      "power": 1527.324,
+      "sos": 1498.525,
+      "sos_adj": 1501.858,
+      "power": 1527.39,
       "rank": 2,
-      "mw_rating": 62.4,
-      "mw_points": 811
+      "mw_rating": 62.5,
+      "mw_points": 813
     },
     {
       "teamno": "44179",
@@ -51,12 +51,12 @@
       "pf": 441,
       "pa": 378,
       "diff": 63,
-      "sos": 1495.761,
-      "sos_adj": 1491.595,
-      "power": 1482.667,
+      "sos": 1496.089,
+      "sos_adj": 1491.923,
+      "power": 1482.749,
       "rank": 3,
       "mw_rating": 51.8,
-      "mw_points": 621
+      "mw_points": 622
     },
     {
       "teamno": "45257",
@@ -72,25 +72,25 @@
       "sos_adj": 1512.751,
       "power": 1471.406,
       "rank": 4,
-      "mw_rating": 55.0,
-      "mw_points": 715
+      "mw_rating": 55.2,
+      "mw_points": 717
     },
     {
       "teamno": "44510",
       "name": "D4M-Milford (red-kearnan)",
       "town": null,
       "wins": 1,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 231,
-      "pa": 459,
-      "diff": -228,
-      "sos": 1503.36,
-      "sos_adj": 1490.86,
-      "power": 1431.09,
+      "pf": 251,
+      "pa": 505,
+      "diff": -254,
+      "sos": 1506.062,
+      "sos_adj": 1494.523,
+      "power": 1419.051,
       "rank": 5,
-      "mw_rating": 21.3,
-      "mw_points": 298
+      "mw_rating": 21.5,
+      "mw_points": 323
     }
   ]
 }

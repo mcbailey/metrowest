@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45533",
   "team_name": "D1J-Lawrence",
   "town": null,
   "summary": {
     "wins": 12,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 888,
-    "pa": 754,
-    "diff": 134,
-    "sos": 1599.982,
-    "sos_adj": 1708.806,
-    "power": 1701.333,
-    "rank": 3,
-    "mw_rating": 171.2,
-    "mw_points": 2225,
+    "pf": 931,
+    "pa": 801,
+    "diff": 130,
+    "sos": 1605.489,
+    "sos_adj": 1716.6,
+    "power": 1694.352,
+    "rank": 4,
+    "mw_rating": 166.2,
+    "mw_points": 2327,
     "divisionno": "7235",
     "division_name": "6th Boys - Division 1",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44652",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "2:00 PM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7235",
+      "division_name": "6th Boys - Division 1",
+      "home_teamno": "45533",
+      "away_teamno": "44301",
+      "home_score": 43,
+      "away_score": 47,
+      "team_score": 43,
+      "opponent_score": 47,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44301",
+      "opponent_name": "D1J-Belmont (maroon)"
+    },
     {
       "gameno": "44647",
       "date": "2026-03-07",
@@ -349,25 +368,5 @@
       "opponent_name": "Masconomet (A) 6B D1"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44652",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "2:00 PM",
-      "location": "Mass Premier - 5",
-      "divisionno": "7235",
-      "division_name": "6th Boys - Division 1",
-      "home_teamno": "45533",
-      "away_teamno": "44301",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44301",
-      "opponent_name": "D1J-Belmont (maroon)"
-    }
-  ]
+  "future_games": []
 }

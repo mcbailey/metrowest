@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43431",
   "team_name": "D4H-Westport (demoura)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 300,
-    "pa": 226,
-    "diff": 74,
-    "sos": 1539.576,
-    "sos_adj": 1552.076,
-    "power": 1565.584,
-    "rank": 2,
-    "mw_rating": 70.6,
-    "mw_points": 847,
+    "pf": 317,
+    "pa": 248,
+    "diff": 69,
+    "sos": 1537.172,
+    "sos_adj": 1548.71,
+    "power": 1549.441,
+    "rank": 3,
+    "mw_rating": 67.3,
+    "mw_points": 875,
     "divisionno": "7319",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45973",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "2:40 PM",
+      "location": "Mansfield Fieldhouse -3",
+      "divisionno": "7322",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "44183",
+      "away_teamno": "43431",
+      "home_score": 22,
+      "away_score": 17,
+      "team_score": 17,
+      "opponent_score": 22,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44183",
+      "opponent_name": "D4M-Parkway  (red)"
+    },
     {
       "gameno": "45969",
       "date": "2026-03-07",
@@ -254,25 +273,5 @@
       "opponent_name": "D4H-Bourne (purple/jensen)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45973",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "2:40 PM",
-      "location": "Mansfield Fieldhouse -3",
-      "divisionno": "7322",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "44183",
-      "away_teamno": "43431",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44183",
-      "opponent_name": "D4M-Parkway  (red)"
-    }
-  ]
+  "future_games": []
 }

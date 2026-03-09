@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43160",
   "team_name": "D2H-Dighton-Rehoboth",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 396,
-    "pa": 360,
-    "diff": 36,
-    "sos": 1581.063,
-    "sos_adj": 1673.371,
-    "power": 1639.563,
+    "pf": 416,
+    "pa": 391,
+    "diff": 25,
+    "sos": 1588.907,
+    "sos_adj": 1681.764,
+    "power": 1628.739,
     "rank": 4,
-    "mw_rating": 113.5,
-    "mw_points": 1362,
+    "mw_rating": 110.2,
+    "mw_points": 1433,
     "divisionno": "7327",
     "division_name": "5th Girls - Division 2",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44819",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:00 AM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7327",
+      "division_name": "5th Girls - Division 2",
+      "home_teamno": "43160",
+      "away_teamno": "43410",
+      "home_score": 20,
+      "away_score": 31,
+      "team_score": 20,
+      "opponent_score": 31,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43410",
+      "opponent_name": "D2H-Norwood (gold)"
+    },
     {
       "gameno": "373517",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D1-Milton (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44819",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "10:00 AM",
-      "location": "Mass Premier - 5",
-      "divisionno": "7327",
-      "division_name": "5th Girls - Division 2",
-      "home_teamno": "43160",
-      "away_teamno": "43410",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43410",
-      "opponent_name": "D2H-Norwood (gold)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44045",
   "team_name": "D2M-Newton (black)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 696,
-    "pa": 704,
-    "diff": -8,
-    "sos": 1605.454,
-    "sos_adj": 1705.454,
-    "power": 1626.945,
+    "pf": 741,
+    "pa": 753,
+    "diff": -12,
+    "sos": 1611.826,
+    "sos_adj": 1711.826,
+    "power": 1621.807,
     "rank": 4,
-    "mw_rating": 115.6,
-    "mw_points": 1503,
+    "mw_rating": 112.5,
+    "mw_points": 1575,
     "divisionno": "7233",
     "division_name": "6th Boys - Division 2",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44679",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "4:30 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7233",
+      "division_name": "6th Boys - Division 2",
+      "home_teamno": "44045",
+      "away_teamno": "43935",
+      "home_score": 45,
+      "away_score": 49,
+      "team_score": 45,
+      "opponent_score": 49,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43935",
+      "opponent_name": "D2M-Brookline (red)"
+    },
     {
       "gameno": "44670",
       "date": "2026-03-07",
@@ -292,25 +311,5 @@
       "opponent_name": "D1J-Needham (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44679",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "4:30 PM",
-      "location": "Dana Barros - 4",
-      "divisionno": "7233",
-      "division_name": "6th Boys - Division 2",
-      "home_teamno": "44045",
-      "away_teamno": "43935",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43935",
-      "opponent_name": "D2M-Brookline (red)"
-    }
-  ]
+  "future_games": []
 }

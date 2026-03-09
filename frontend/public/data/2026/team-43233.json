@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43233",
   "team_name": "D4H-Barnstable  (red)",
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 522,
-    "pa": 453,
-    "diff": 69,
-    "sos": 1479.7,
-    "sos_adj": 1468.161,
-    "power": 1553.695,
-    "rank": 1,
-    "mw_rating": 70.4,
-    "mw_points": 915,
+    "pf": 542,
+    "pa": 504,
+    "diff": 38,
+    "sos": 1490.618,
+    "sos_adj": 1476.332,
+    "power": 1524.814,
+    "rank": 2,
+    "mw_rating": 66.1,
+    "mw_points": 926,
     "divisionno": "7297",
     "division_name": "5th Boys - Division 4",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45177",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "5:40 PM",
+      "location": "Attleboro Brennan Middle School",
+      "divisionno": "7292",
+      "division_name": "5th Boys - Division 5",
+      "home_teamno": "45353",
+      "away_teamno": "43233",
+      "home_score": 51,
+      "away_score": 20,
+      "team_score": 20,
+      "opponent_score": 51,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45353",
+      "opponent_name": "D5M-West Bridgewater"
+    },
     {
       "gameno": "45175",
       "date": "2026-03-07",
@@ -273,25 +292,5 @@
       "opponent_name": "D4H-Acushnet - Fairhaven (tevares)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45177",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "5:40 PM",
-      "location": "Attleboro Brennan Middle School",
-      "divisionno": "7292",
-      "division_name": "5th Boys - Division 5",
-      "home_teamno": "45353",
-      "away_teamno": "43233",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45353",
-      "opponent_name": "D5M-West Bridgewater"
-    }
-  ]
+  "future_games": []
 }

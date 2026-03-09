@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45303",
   "team_name": "D5W-Medford (white)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 511,
-    "pa": 580,
-    "diff": -69,
-    "sos": 1445.414,
-    "sos_adj": 1395.414,
-    "power": 1421.226,
-    "rank": 4,
-    "mw_rating": 27.9,
-    "mw_points": 363,
+    "pf": 545,
+    "pa": 617,
+    "diff": -72,
+    "sos": 1449.069,
+    "sos_adj": 1399.069,
+    "power": 1414.39,
+    "rank": 5,
+    "mw_rating": 26.7,
+    "mw_points": 374,
     "divisionno": "7186",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45602",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "6:15 PM",
+      "location": "Sudbury Fieldhouse-Court 1",
+      "divisionno": "7186",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "45303",
+      "away_teamno": "43715",
+      "home_score": 34,
+      "away_score": 37,
+      "team_score": 34,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43715",
+      "opponent_name": "D5W-Concord-Carlisle (white)"
+    },
     {
       "gameno": "45595",
       "date": "2026-03-07",
@@ -273,25 +292,5 @@
       "opponent_name": "D5W-Arlington (grey)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45602",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "6:15 PM",
-      "location": "Sudbury Fieldhouse-Court 1",
-      "divisionno": "7186",
-      "division_name": "7th Boys - Division 5",
-      "home_teamno": "45303",
-      "away_teamno": "43715",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43715",
-      "opponent_name": "D5W-Concord-Carlisle (white)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43542",
   "team_name": "D4Q-Northboro (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 461,
     "pa": 427,
     "diff": 34,
-    "sos": 1504.704,
-    "sos_adj": 1499.148,
-    "power": 1541.219,
-    "rank": 3,
-    "mw_rating": 58.7,
-    "mw_points": 704,
+    "sos": 1499.598,
+    "sos_adj": 1494.042,
+    "power": 1539.942,
+    "rank": 2,
+    "mw_rating": 58.9,
+    "mw_points": 707,
     "divisionno": "7260",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
@@ -375,9 +375,9 @@
       "dow": "Mon",
       "starttime": "6:45 PM",
       "location": "Mass Premier - 1",
-      "divisionno": "7260",
-      "division_name": "7th Girls - Division 4",
-      "home_teamno": "0",
+      "divisionno": "7252",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "43400",
       "away_teamno": "43542",
       "home_score": null,
       "away_score": null,
@@ -385,8 +385,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43400",
+      "opponent_name": "D5K-Natick (blue)"
     }
   ]
 }

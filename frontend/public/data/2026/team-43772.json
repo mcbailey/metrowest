@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43772",
   "team_name": "D2-Concord-Carlisle (maroon)",
   "town": null,
   "summary": {
     "wins": 18,
-    "losses": 1,
+    "losses": 2,
     "ties": 0,
-    "pf": 736,
-    "pa": 393,
-    "diff": 343,
-    "sos": 1592.841,
-    "sos_adj": 1692.841,
-    "power": 1716.844,
+    "pf": 772,
+    "pa": 433,
+    "diff": 339,
+    "sos": 1596.482,
+    "sos_adj": 1698.982,
+    "power": 1707.045,
     "rank": 1,
-    "mw_rating": 183.4,
-    "mw_points": 2201,
+    "mw_rating": 177.5,
+    "mw_points": 2307,
     "divisionno": "7071",
     "division_name": "6th Girls - Division 2",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44827",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "1:15 PM",
+      "location": "Foxboro Ahern Middle (Gym 2)",
+      "divisionno": "7071",
+      "division_name": "6th Girls - Division 2",
+      "home_teamno": "46027",
+      "away_teamno": "43772",
+      "home_score": 40,
+      "away_score": 36,
+      "team_score": 36,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "46027",
+      "opponent_name": "D1-New Bedford"
+    },
     {
       "gameno": "387663",
       "date": "2026-03-01",
@@ -387,25 +406,5 @@
       "opponent_name": "D3Q-Arlington (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44827",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "1:15 PM",
-      "location": "Foxboro Ahern Middle (Gym 2)",
-      "divisionno": "7071",
-      "division_name": "6th Girls - Division 2",
-      "home_teamno": "46027",
-      "away_teamno": "43772",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "46027",
-      "opponent_name": "D1-New Bedford"
-    }
-  ]
+  "future_games": []
 }

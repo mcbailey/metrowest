@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43679",
   "team_name": "D4Q-Blackstone-Millville (liggett)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 501,
-    "pa": 543,
-    "diff": -42,
-    "sos": 1495.642,
-    "sos_adj": 1491.796,
-    "power": 1472.488,
-    "rank": 5,
-    "mw_rating": 45.9,
-    "mw_points": 596,
+    "pf": 530,
+    "pa": 590,
+    "diff": -60,
+    "sos": 1500.535,
+    "sos_adj": 1496.963,
+    "power": 1457.046,
+    "rank": 6,
+    "mw_rating": 44.5,
+    "mw_points": 623,
     "divisionno": "7155",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45767",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "5:00 PM",
+      "location": "Old Rochester Junior High School",
+      "divisionno": "7155",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "43679",
+      "away_teamno": "44424",
+      "home_score": 29,
+      "away_score": 47,
+      "team_score": 29,
+      "opponent_score": 47,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44424",
+      "opponent_name": "D4M-Norton (purple)"
+    },
     {
       "gameno": "45761",
       "date": "2026-03-05",
@@ -273,25 +292,5 @@
       "opponent_name": "D4R-Concord-Carlisle (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45767",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "5:00 PM",
-      "location": "Old Rochester Junior High School",
-      "divisionno": "7155",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "43679",
-      "away_teamno": "44424",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44424",
-      "opponent_name": "D4M-Norton (purple)"
-    }
-  ]
+  "future_games": []
 }

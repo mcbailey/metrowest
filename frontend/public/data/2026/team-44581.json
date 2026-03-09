@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44581",
   "team_name": "D5K-King Philip",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 607,
-    "pa": 531,
-    "diff": 76,
-    "sos": 1455.503,
-    "sos_adj": 1405.503,
-    "power": 1477.079,
-    "rank": 3,
-    "mw_rating": 44.2,
-    "mw_points": 575,
+    "pf": 647,
+    "pa": 574,
+    "diff": 73,
+    "sos": 1456.665,
+    "sos_adj": 1409.606,
+    "power": 1468.541,
+    "rank": 4,
+    "mw_rating": 42.9,
+    "mw_points": 600,
     "divisionno": "7214",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45398",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "North Attleboro Middle School",
+      "divisionno": "7214",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "44581",
+      "away_teamno": "44872",
+      "home_score": 40,
+      "away_score": 43,
+      "team_score": 40,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44872",
+      "opponent_name": "D4H-North Attleboro (white)"
+    },
     {
       "gameno": "45395",
       "date": "2026-03-04",
@@ -330,25 +349,5 @@
       "opponent_name": "D6R-Newton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45398",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "8:00 AM",
-      "location": "North Attleboro Middle School",
-      "divisionno": "7214",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "44581",
-      "away_teamno": "44872",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44872",
-      "opponent_name": "D4H-North Attleboro (white)"
-    }
-  ]
+  "future_games": []
 }

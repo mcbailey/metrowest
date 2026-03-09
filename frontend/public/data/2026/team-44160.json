@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44160",
   "team_name": "D6M-Holliston (peterson)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 316,
-    "pa": 379,
-    "diff": -63,
-    "sos": 1417.449,
-    "sos_adj": 1329.949,
-    "power": 1407.682,
+    "pf": 341,
+    "pa": 406,
+    "diff": -65,
+    "sos": 1414.812,
+    "sos_adj": 1326.351,
+    "power": 1397.877,
     "rank": 4,
-    "mw_rating": 18.1,
-    "mw_points": 217,
+    "mw_rating": 17.2,
+    "mw_points": 223,
     "divisionno": "7286",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45294",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "3:45 PM",
+      "location": "Hopkinton Doyle Gym",
+      "divisionno": "7286",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "45122",
+      "away_teamno": "44160",
+      "home_score": 27,
+      "away_score": 25,
+      "team_score": 25,
+      "opponent_score": 27,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45122",
+      "opponent_name": "D6K-Westwood"
+    },
     {
       "gameno": "45290",
       "date": "2026-03-07",
@@ -254,25 +273,5 @@
       "opponent_name": "D6M-Hopkinton (levine)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45294",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "3:45 PM",
-      "location": "Hopkinton Doyle Gym",
-      "divisionno": "7286",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "45122",
-      "away_teamno": "44160",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45122",
-      "opponent_name": "D6K-Westwood"
-    }
-  ]
+  "future_games": []
 }

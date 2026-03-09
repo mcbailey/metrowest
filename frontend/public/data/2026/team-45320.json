@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45320",
   "team_name": "D6J-Milton (black)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 474,
     "pa": 496,
     "diff": -22,
-    "sos": 1407.335,
-    "sos_adj": 1316.71,
-    "power": 1399.558,
+    "sos": 1407.43,
+    "sos_adj": 1316.805,
+    "power": 1399.581,
     "rank": 2,
-    "mw_rating": 21.4,
-    "mw_points": 278,
+    "mw_rating": 21.5,
+    "mw_points": 279,
     "divisionno": "7206",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
@@ -337,9 +337,9 @@
       "dow": "Mon",
       "starttime": "5:15 PM",
       "location": "Ashland Mindess School",
-      "divisionno": "7206",
+      "divisionno": "7209",
       "division_name": "6th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44163",
       "away_teamno": "45320",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44163",
+      "opponent_name": "D6Q-Holliston (lyskowski-white)"
     }
   ]
 }

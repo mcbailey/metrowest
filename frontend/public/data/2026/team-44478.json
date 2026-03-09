@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44478",
   "team_name": "D5H-Walpole (b)",
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 426,
-    "pa": 230,
-    "diff": 196,
-    "sos": 1457.728,
-    "sos_adj": 1434.651,
-    "power": 1524.014,
-    "rank": 2,
-    "mw_rating": 62.0,
-    "mw_points": 744,
+    "pf": 446,
+    "pa": 270,
+    "diff": 176,
+    "sos": 1462.973,
+    "sos_adj": 1441.545,
+    "power": 1504.133,
+    "rank": 3,
+    "mw_rating": 59.2,
+    "mw_points": 770,
     "divisionno": "7250",
     "division_name": "7th Girls - Division 5",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46289",
+      "date": "2026-03-07",
+      "dow": "Sat",
+      "starttime": "1:50 PM",
+      "location": "Taunton High School 1",
+      "divisionno": "7250",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "44427",
+      "away_teamno": "44478",
+      "home_score": 40,
+      "away_score": 20,
+      "team_score": 20,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44427",
+      "opponent_name": "D4J-Norton (purple)"
+    },
     {
       "gameno": "392331",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D3H-Canton (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46289",
-      "date": "2026-03-07",
-      "dow": "Sat",
-      "starttime": "1:50 PM",
-      "location": "Taunton High School 1",
-      "divisionno": "7250",
-      "division_name": "7th Girls - Division 5",
-      "home_teamno": "44427",
-      "away_teamno": "44478",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44427",
-      "opponent_name": "D4J-Norton (purple)"
-    }
-  ]
+  "future_games": []
 }

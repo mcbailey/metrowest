@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44034",
   "team_name": "D5K-Newton (orange)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 363,
-    "pa": 342,
-    "diff": 21,
-    "sos": 1449.416,
-    "sos_adj": 1403.263,
-    "power": 1448.302,
-    "rank": 5,
-    "mw_rating": 43.2,
-    "mw_points": 562,
+    "pf": 387,
+    "pa": 380,
+    "diff": 7,
+    "sos": 1456.847,
+    "sos_adj": 1410.419,
+    "power": 1435.039,
+    "rank": 6,
+    "mw_rating": 41.0,
+    "mw_points": 574,
     "divisionno": "7252",
     "division_name": "7th Girls - Division 5",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46297",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "11:45 AM",
+      "location": "Westborough Gibbons Middle School",
+      "divisionno": "7252",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "44384",
+      "away_teamno": "44034",
+      "home_score": 38,
+      "away_score": 24,
+      "team_score": 24,
+      "opponent_score": 38,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44384",
+      "opponent_name": "D5K-Westborough"
+    },
     {
       "gameno": "46294",
       "date": "2026-03-07",
@@ -273,25 +292,5 @@
       "opponent_name": "D5M-Arlington (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46297",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "11:45 AM",
-      "location": "Westborough Gibbons Middle School",
-      "divisionno": "7252",
-      "division_name": "7th Girls - Division 5",
-      "home_teamno": "44384",
-      "away_teamno": "44034",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44384",
-      "opponent_name": "D5K-Westborough"
-    }
-  ]
+  "future_games": []
 }

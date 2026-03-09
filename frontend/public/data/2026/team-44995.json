@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44995",
   "team_name": "D1H-Dover Sherborn (case)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 889,
-    "pa": 942,
-    "diff": -53,
-    "sos": 1631.573,
-    "sos_adj": 1760.985,
-    "power": 1655.594,
-    "rank": 6,
-    "mw_rating": 167.3,
-    "mw_points": 2007,
+    "pf": 947,
+    "pa": 1005,
+    "diff": -58,
+    "sos": 1637.893,
+    "sos_adj": 1768.449,
+    "power": 1651.009,
+    "rank": 7,
+    "mw_rating": 162.3,
+    "mw_points": 2110,
     "divisionno": "7166",
     "division_name": "8th Boys - Division 1",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "43786",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "8:50 AM",
+      "location": "Mass Premier - 6",
+      "divisionno": "7166",
+      "division_name": "8th Boys - Division 1",
+      "home_teamno": "44995",
+      "away_teamno": "43929",
+      "home_score": 58,
+      "away_score": 63,
+      "team_score": 58,
+      "opponent_score": 63,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43929",
+      "opponent_name": "D1H-Taunton (banks)"
+    },
     {
       "gameno": "374922",
       "date": "2026-03-01",
@@ -349,25 +368,5 @@
       "opponent_name": "D1J-Belmont (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "43786",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "8:50 AM",
-      "location": "Mass Premier - 6",
-      "divisionno": "7166",
-      "division_name": "8th Boys - Division 1",
-      "home_teamno": "44995",
-      "away_teamno": "43929",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43929",
-      "opponent_name": "D1H-Taunton (banks)"
-    }
-  ]
+  "future_games": []
 }

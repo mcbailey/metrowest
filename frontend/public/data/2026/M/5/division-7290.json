@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "gender": "M",
   "grade": 5,
   "divisionno": "7290",
@@ -17,29 +17,29 @@
       "pf": 476,
       "pa": 344,
       "diff": 132,
-      "sos": 1454.752,
-      "sos_adj": 1416.29,
-      "power": 1519.953,
+      "sos": 1457.972,
+      "sos_adj": 1419.511,
+      "power": 1520.758,
       "rank": 1,
-      "mw_rating": 58.9,
-      "mw_points": 766
+      "mw_rating": 59.2,
+      "mw_points": 770
     },
     {
       "teamno": "43428",
       "name": "D5J-Bridgewater (dwyer)",
       "town": null,
-      "wins": 7,
+      "wins": 8,
       "losses": 6,
       "ties": 0,
-      "pf": 474,
-      "pa": 425,
-      "diff": 49,
-      "sos": 1450.031,
-      "sos_adj": 1403.877,
-      "power": 1472.023,
+      "pf": 520,
+      "pa": 450,
+      "diff": 70,
+      "sos": 1452.719,
+      "sos_adj": 1406.291,
+      "power": 1488.327,
       "rank": 2,
-      "mw_rating": 35.8,
-      "mw_points": 465
+      "mw_rating": 37.5,
+      "mw_points": 525
     },
     {
       "teamno": "43479",
@@ -51,12 +51,12 @@
       "pf": 639,
       "pa": 567,
       "diff": 72,
-      "sos": 1444.969,
-      "sos_adj": 1391.844,
-      "power": 1432.748,
+      "sos": 1449.94,
+      "sos_adj": 1396.815,
+      "power": 1433.991,
       "rank": 3,
-      "mw_rating": 38.7,
-      "mw_points": 503
+      "mw_rating": 39.1,
+      "mw_points": 508
     },
     {
       "teamno": "43351",
@@ -68,29 +68,29 @@
       "pf": 533,
       "pa": 518,
       "diff": 15,
-      "sos": 1459.1,
-      "sos_adj": 1405.529,
-      "power": 1421.055,
+      "sos": 1464.184,
+      "sos_adj": 1410.612,
+      "power": 1422.326,
       "rank": 4,
-      "mw_rating": 31.5,
-      "mw_points": 409
+      "mw_rating": 31.8,
+      "mw_points": 413
     },
     {
       "teamno": "43969",
       "name": "D5J-Taunton (garner)",
       "town": null,
-      "wins": 2,
+      "wins": 3,
       "losses": 9,
       "ties": 0,
-      "pf": 304,
-      "pa": 438,
-      "diff": -134,
-      "sos": 1451.152,
-      "sos_adj": 1401.152,
-      "power": 1369.374,
+      "pf": 346,
+      "pa": 462,
+      "diff": -116,
+      "sos": 1447.937,
+      "sos_adj": 1393.77,
+      "power": 1389.502,
       "rank": 5,
-      "mw_rating": 18.5,
-      "mw_points": 203
+      "mw_rating": 20.3,
+      "mw_points": 244
     }
   ]
 }

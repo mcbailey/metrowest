@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "45134",
   "team_name": "D3H-Westwood",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 449,
     "pa": 549,
     "diff": -100,
-    "sos": 1562.646,
-    "sos_adj": 1622.021,
-    "power": 1549.061,
+    "sos": 1560.759,
+    "sos_adj": 1620.134,
+    "power": 1548.589,
     "rank": 7,
-    "mw_rating": 82.1,
-    "mw_points": 1067,
+    "mw_rating": 82.2,
+    "mw_points": 1069,
     "divisionno": "7262",
     "division_name": "7th Girls - Division 3",
     "grade": 7,
@@ -340,15 +340,15 @@
       "divisionno": "7262",
       "division_name": "7th Girls - Division 3",
       "home_teamno": "45134",
-      "away_teamno": "0",
+      "away_teamno": "44066",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44066",
+      "opponent_name": "D1/2J-Watertown (white)"
     }
   ]
 }

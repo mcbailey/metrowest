@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43823",
   "team_name": "D1-North Attleboro (red)",
   "town": null,
@@ -11,12 +11,12 @@
     "pf": 648,
     "pa": 352,
     "diff": 296,
-    "sos": 1589.994,
-    "sos_adj": 1686.423,
-    "power": 1733.873,
+    "sos": 1591.15,
+    "sos_adj": 1687.579,
+    "power": 1726.685,
     "rank": 1,
-    "mw_rating": 185.2,
-    "mw_points": 2037,
+    "mw_rating": 185.6,
+    "mw_points": 2042,
     "divisionno": "7072",
     "division_name": "6th Girls - Division 1",
     "grade": 6,
@@ -301,7 +301,7 @@
       "location": "Mass Premier - 5",
       "divisionno": "7072",
       "division_name": "6th Girls - Division 1",
-      "home_teamno": "0",
+      "home_teamno": "45338",
       "away_teamno": "43823",
       "home_score": null,
       "away_score": null,
@@ -309,8 +309,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45338",
+      "opponent_name": "D1-Milton (red)"
     }
   ]
 }

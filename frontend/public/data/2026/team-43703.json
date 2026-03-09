@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "43703",
   "team_name": "D6J-Sharon (maroon-shemtov)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 544,
-    "pa": 679,
-    "diff": -135,
-    "sos": 1430.639,
-    "sos_adj": 1362.992,
-    "power": 1369.696,
-    "rank": 3,
-    "mw_rating": 25.5,
-    "mw_points": 332,
+    "pf": 577,
+    "pa": 718,
+    "diff": -141,
+    "sos": 1428.782,
+    "sos_adj": 1359.338,
+    "power": 1357.169,
+    "rank": 4,
+    "mw_rating": 24.1,
+    "mw_points": 337,
     "divisionno": "7174",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45635",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "4:50 PM",
+      "location": "Mass Premier - 6",
+      "divisionno": "7174",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "43703",
+      "away_teamno": "43423",
+      "home_score": 33,
+      "away_score": 39,
+      "team_score": 33,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43423",
+      "opponent_name": "D6H-Bridgewater (mcbride)"
+    },
     {
       "gameno": "45632",
       "date": "2026-03-06",
@@ -349,25 +368,5 @@
       "opponent_name": "East Greenwich (Maroon) 7B D1"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45635",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "4:50 PM",
-      "location": "Mass Premier - 6",
-      "divisionno": "7174",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "43703",
-      "away_teamno": "43423",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43423",
-      "opponent_name": "D6H-Bridgewater (mcbride)"
-    }
-  ]
+  "future_games": []
 }

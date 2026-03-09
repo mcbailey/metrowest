@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-08",
+  "snapshot_date": "2026-03-09",
   "teamno": "44331",
   "team_name": "D2J-Medway (blue)",
   "town": null,
   "summary": {
     "wins": 14,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 918,
-    "pa": 821,
-    "diff": 97,
-    "sos": 1588.399,
-    "sos_adj": 1682.844,
-    "power": 1671.031,
-    "rank": 1,
-    "mw_rating": 146.0,
-    "mw_points": 1752,
+    "pf": 971,
+    "pa": 882,
+    "diff": 89,
+    "sos": 1591.145,
+    "sos_adj": 1683.25,
+    "power": 1642.035,
+    "rank": 3,
+    "mw_rating": 138.5,
+    "mw_points": 1801,
     "divisionno": "7199",
     "division_name": "7th Boys - Division 2",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44633",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "1:30 PM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7196",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "44440",
+      "away_teamno": "44331",
+      "home_score": 61,
+      "away_score": 53,
+      "team_score": 53,
+      "opponent_score": 61,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44440",
+      "opponent_name": "D3M-Bedford (blue)"
+    },
     {
       "gameno": "374835",
       "date": "2026-03-01",
@@ -368,25 +387,5 @@
       "opponent_name": "D2H-Somerset"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44633",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "1:30 PM",
-      "location": "Dana Barros - 2",
-      "divisionno": "7196",
-      "division_name": "7th Boys - Division 3",
-      "home_teamno": "44440",
-      "away_teamno": "44331",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44440",
-      "opponent_name": "D3M-Bedford (blue)"
-    }
-  ]
+  "future_games": []
 }
