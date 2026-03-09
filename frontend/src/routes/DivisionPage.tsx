@@ -3,6 +3,7 @@ import { Link, useSearchParams } from "react-router-dom";
 import { Filters, FilterState } from "../components/Filters";
 import { RankingsTable } from "../components/RankingsTable";
 import { loadJson } from "../data";
+import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
 import { DivisionRankingData, DivisionsData, IndexData, RankingTeam } from "../types";
 
 type DisplayTeam = RankingTeam & {
@@ -347,6 +348,33 @@ export function DivisionPage() {
     params.set("division", filters.divisionno || "ALL");
     return `?${params.toString()}`;
   }, [filters]);
+
+  const seoTitle = display ? `${display.title} | MWStats` : SEO_SITE_NAME;
+  const seoDescription = display
+    ? `${display.title}. ${display.teams.length} teams with power ranking, SoS, and game-based metrics. Updated daily.`
+    : "Metrowest youth basketball power rankings, division standings, team ratings, and schedule-driven analytics.";
+  const canonicalPath = filters ? `/${queryString}` : "/";
+  const seoJsonLd = useMemo(
+    () => ({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: seoTitle,
+      description: seoDescription,
+      url: `${SEO_SITE_URL}${canonicalPath}`,
+      isPartOf: {
+        "@type": "WebSite",
+        name: SEO_SITE_NAME,
+        url: SEO_SITE_URL,
+      },
+    }),
+    [canonicalPath, seoDescription, seoTitle]
+  );
+  usePageSeo({
+    title: seoTitle,
+    description: seoDescription,
+    canonicalPath,
+    jsonLd: seoJsonLd,
+  });
 
   if (error) return <p className="error">{error}</p>;
   if (!filters || !index || !divisions || !display) return <p>Loading data...</p>;

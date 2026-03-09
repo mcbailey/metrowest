@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { RankingTeam } from "../types";
 
 type DisplayTeam = RankingTeam & {
@@ -53,7 +53,6 @@ function nullableNumber(value: number | null | undefined, missingValue: number):
 }
 
 export function RankingsTable({ teams, showGroup = false, queryString = "" }: Props) {
-  const navigate = useNavigate();
   const [sortKey, setSortKey] = useState<SortKey>("rank");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
   const tableWrapRef = useRef<HTMLDivElement | null>(null);
@@ -228,10 +227,14 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
           {sortedTeams.map((team) => {
             const gp = gamesPlayed(team);
             return (
-              <tr key={team.teamno} onClick={() => navigate(`/team/${team.teamno}${queryString}`)}>
+              <tr key={team.teamno}>
                 <td>{team.rank}</td>
                 {showGroup ? <td>{team.subgroup ?? "-"}</td> : null}
-                <td>{team.name}</td>
+                <td>
+                  <Link to={`/team/${team.teamno}${queryString}`} className="team-link">
+                    {team.name}
+                  </Link>
+                </td>
                 <td>{team.wins}</td>
                 <td>{team.losses}</td>
                 <td>{team.ties}</td>

@@ -1,8 +1,23 @@
 import { Link, useLocation } from "react-router-dom";
+import { SEO_SITE_URL, usePageSeo } from "../seo";
 
 export function GlossaryPage() {
   const location = useLocation();
   const backTo = location.search ? `/${location.search}` : "/";
+  usePageSeo({
+    title: "Glossary | MWStats",
+    description:
+      "Coach-friendly glossary for MWStats metrics: SoS, adjusted SoS, power ranking, MW rating, MW points, quality wins, bad losses, and quadrant map categories.",
+    canonicalPath: "/glossary",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "MWStats Glossary",
+      description:
+        "Coach-friendly glossary for MWStats basketball ranking and team analytics terms.",
+      url: `${SEO_SITE_URL}/glossary`,
+    },
+  });
 
   return (
     <div className="stack">
