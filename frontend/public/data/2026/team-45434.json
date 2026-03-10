@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "45434",
   "team_name": "D4Q-Cambridge",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 374,
-    "pa": 397,
-    "diff": -23,
-    "sos": 1491.778,
-    "sos_adj": 1484.635,
-    "power": 1480.791,
+    "pf": 417,
+    "pa": 442,
+    "diff": -25,
+    "sos": 1493.796,
+    "sos_adj": 1487.13,
+    "power": 1475.71,
     "rank": 4,
-    "mw_rating": 49.8,
-    "mw_points": 647,
+    "mw_rating": 48.0,
+    "mw_points": 672,
     "divisionno": "7260",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46283",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "7:00 PM",
+      "location": "Ottoson Middle School",
+      "divisionno": "7261",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "44691",
+      "away_teamno": "45434",
+      "home_score": 45,
+      "away_score": 43,
+      "team_score": 43,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44691",
+      "opponent_name": "D4R-Arlington (maroon)"
+    },
     {
       "gameno": "46280",
       "date": "2026-03-08",
@@ -292,25 +311,5 @@
       "opponent_name": "D4R-Somerville"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46283",
-      "date": "2026-03-09",
-      "dow": "Mon",
-      "starttime": "7:00 PM",
-      "location": "Ottoson Middle School",
-      "divisionno": "7261",
-      "division_name": "7th Girls - Division 4",
-      "home_teamno": "44691",
-      "away_teamno": "45434",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44691",
-      "opponent_name": "D4R-Arlington (maroon)"
-    }
-  ]
+  "future_games": []
 }

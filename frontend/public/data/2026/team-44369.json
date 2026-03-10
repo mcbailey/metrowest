@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "44369",
   "team_name": "D5M-Belmont (white)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 476,
-    "pa": 515,
-    "diff": -39,
-    "sos": 1457.446,
-    "sos_adj": 1425.867,
-    "power": 1436.328,
+    "pf": 497,
+    "pa": 540,
+    "diff": -43,
+    "sos": 1459.664,
+    "sos_adj": 1427.164,
+    "power": 1427.625,
     "rank": 3,
-    "mw_rating": 37.4,
-    "mw_points": 449,
+    "mw_rating": 35.3,
+    "mw_points": 459,
     "divisionno": "7239",
     "division_name": "8th Girls - Division 5",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46415",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7239",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "44369",
+      "away_teamno": "44617",
+      "home_score": 21,
+      "away_score": 25,
+      "team_score": 21,
+      "opponent_score": 25,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44617",
+      "opponent_name": "D5K-Newton (white)"
+    },
     {
       "gameno": "46413",
       "date": "2026-03-07",
@@ -387,25 +406,5 @@
       "opponent_name": "D4R-Arlington (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46415",
-      "date": "2026-03-09",
-      "dow": "Mon",
-      "starttime": "7:45 PM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7239",
-      "division_name": "8th Girls - Division 5",
-      "home_teamno": "44369",
-      "away_teamno": "44617",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44617",
-      "opponent_name": "D5K-Newton (white)"
-    }
-  ]
+  "future_games": []
 }

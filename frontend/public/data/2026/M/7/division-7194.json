@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "gender": "M",
   "grade": 7,
   "divisionno": "7194",
@@ -17,12 +17,12 @@
       "pf": 837,
       "pa": 704,
       "diff": 133,
-      "sos": 1530.172,
-      "sos_adj": 1577.047,
-      "power": 1609.9,
+      "sos": 1530.561,
+      "sos_adj": 1577.436,
+      "power": 1604.683,
       "rank": 1,
       "mw_rating": 102.1,
-      "mw_points": 1429
+      "mw_points": 1430
     },
     {
       "teamno": "44129",
@@ -34,9 +34,9 @@
       "pf": 901,
       "pa": 776,
       "diff": 125,
-      "sos": 1549.851,
-      "sos_adj": 1614.557,
-      "power": 1570.668,
+      "sos": 1550.13,
+      "sos_adj": 1614.836,
+      "power": 1570.285,
       "rank": 2,
       "mw_rating": 99.2,
       "mw_points": 1290
@@ -51,12 +51,12 @@
       "pf": 668,
       "pa": 729,
       "diff": -61,
-      "sos": 1553.648,
-      "sos_adj": 1613.648,
-      "power": 1556.207,
+      "sos": 1552.916,
+      "sos_adj": 1612.916,
+      "power": 1556.995,
       "rank": 3,
-      "mw_rating": 80.8,
-      "mw_points": 1050
+      "mw_rating": 80.9,
+      "mw_points": 1051
     },
     {
       "teamno": "44465",
@@ -68,9 +68,9 @@
       "pf": 676,
       "pa": 677,
       "diff": -1,
-      "sos": 1547.919,
-      "sos_adj": 1597.919,
-      "power": 1521.167,
+      "sos": 1548.128,
+      "sos_adj": 1598.128,
+      "power": 1525.3,
       "rank": 4,
       "mw_rating": 66.2,
       "mw_points": 860
@@ -85,29 +85,29 @@
       "pf": 778,
       "pa": 927,
       "diff": -149,
-      "sos": 1542.132,
-      "sos_adj": 1589.354,
-      "power": 1507.892,
+      "sos": 1541.502,
+      "sos_adj": 1588.724,
+      "power": 1512.929,
       "rank": 5,
-      "mw_rating": 74.3,
-      "mw_points": 966
+      "mw_rating": 74.4,
+      "mw_points": 967
     },
     {
       "teamno": "43954",
       "name": "D3J-Foxboro (blue)",
       "town": null,
-      "wins": 2,
-      "losses": 13,
+      "wins": 3,
+      "losses": 14,
       "ties": 0,
-      "pf": 588,
-      "pa": 790,
-      "diff": -202,
-      "sos": 1535.515,
-      "sos_adj": 1572.182,
-      "power": 1482.535,
+      "pf": 669,
+      "pa": 882,
+      "diff": -213,
+      "sos": 1532.584,
+      "sos_adj": 1564.937,
+      "power": 1472.647,
       "rank": 6,
-      "mw_rating": 50.8,
-      "mw_points": 660
+      "mw_rating": 51.3,
+      "mw_points": 769
     }
   ]
 }

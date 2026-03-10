@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "43916",
   "team_name": "D3K-Wellesley (b)",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 11,
     "ties": 0,
-    "pf": 904,
-    "pa": 986,
-    "diff": -82,
-    "sos": 1549.383,
-    "sos_adj": 1602.015,
-    "power": 1534.547,
+    "pf": 957,
+    "pa": 1035,
+    "diff": -78,
+    "sos": 1547.26,
+    "sos_adj": 1597.26,
+    "power": 1546.634,
     "rank": 5,
-    "mw_rating": 64.0,
-    "mw_points": 896,
+    "mw_rating": 65.5,
+    "mw_points": 983,
     "divisionno": "7159",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45726",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "7:45 PM",
+      "location": "Mansfield Fieldhouse -3",
+      "divisionno": "7156",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "45105",
+      "away_teamno": "43916",
+      "home_score": 49,
+      "away_score": 53,
+      "team_score": 53,
+      "opponent_score": 49,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45105",
+      "opponent_name": "D4R-Framingham (navy)"
+    },
     {
       "gameno": "45723",
       "date": "2026-03-08",
@@ -387,25 +406,5 @@
       "opponent_name": "D3H-Somerset (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45726",
-      "date": "2026-03-09",
-      "dow": "Mon",
-      "starttime": "7:45 PM",
-      "location": "Mansfield Fieldhouse -3",
-      "divisionno": "7156",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "45105",
-      "away_teamno": "43916",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45105",
-      "opponent_name": "D4R-Framingham (navy)"
-    }
-  ]
+  "future_games": []
 }

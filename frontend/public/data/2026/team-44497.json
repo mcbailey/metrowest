@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "44497",
   "team_name": "D4H-Wareham (silvia)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 326,
     "pa": 284,
     "diff": 42,
-    "sos": 1500.71,
-    "sos_adj": 1504.877,
-    "power": 1553.245,
+    "sos": 1492.985,
+    "sos_adj": 1497.151,
+    "power": 1546.111,
     "rank": 2,
     "mw_rating": 64.9,
     "mw_points": 779,
@@ -282,7 +282,7 @@
       "location": "Old Rochester Junior High School",
       "divisionno": "7274",
       "division_name": "6th Girls - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "44487",
       "away_teamno": "44497",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44487",
+      "opponent_name": "D3H-Easton (black)"
     }
   ]
 }

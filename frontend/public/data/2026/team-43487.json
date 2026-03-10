@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "43487",
   "team_name": "D4M-Northboro (red)",
   "town": null,
   "summary": {
     "wins": 1,
-    "losses": 12,
+    "losses": 13,
     "ties": 0,
-    "pf": 291,
-    "pa": 497,
-    "diff": -206,
-    "sos": 1469.842,
-    "sos_adj": 1442.919,
-    "power": 1406.012,
+    "pf": 308,
+    "pa": 528,
+    "diff": -220,
+    "sos": 1462.606,
+    "sos_adj": 1426.892,
+    "power": 1378.501,
     "rank": 8,
-    "mw_rating": 21.9,
-    "mw_points": 285,
+    "mw_rating": 20.4,
+    "mw_points": 286,
     "divisionno": "7577",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45073",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "5:15 PM",
+      "location": "Mansfield Fieldhouse -2",
+      "divisionno": "7594",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44321",
+      "away_teamno": "43487",
+      "home_score": 31,
+      "away_score": 17,
+      "team_score": 17,
+      "opponent_score": 31,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44321",
+      "opponent_name": "D7T-Medway (white)"
+    },
     {
       "gameno": "45069",
       "date": "2026-03-07",
@@ -273,25 +292,5 @@
       "opponent_name": "D4N-Hopkinton (kessell)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45073",
-      "date": "2026-03-09",
-      "dow": "Mon",
-      "starttime": "5:15 PM",
-      "location": "Mansfield Fieldhouse -2",
-      "divisionno": "7594",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44321",
-      "away_teamno": "43487",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44321",
-      "opponent_name": "D7T-Medway (white)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "45643",
   "team_name": "D6J-Hopkinton (feigen)",
   "town": null,
   "summary": {
     "wins": 13,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 565,
-    "pa": 449,
-    "diff": 116,
-    "sos": 1417.357,
-    "sos_adj": 1344.023,
-    "power": 1450.079,
+    "pf": 595,
+    "pa": 490,
+    "diff": 105,
+    "sos": 1424.725,
+    "sos_adj": 1355.975,
+    "power": 1430.695,
     "rank": 1,
-    "mw_rating": 46.8,
-    "mw_points": 561,
+    "mw_rating": 45.1,
+    "mw_points": 586,
     "divisionno": "7284",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45191",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "6:30 PM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7284",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "44518",
+      "away_teamno": "45643",
+      "home_score": 41,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 41,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44518",
+      "opponent_name": "D4J-Milford (red-karp)"
+    },
     {
       "gameno": "45188",
       "date": "2026-03-07",
@@ -311,25 +330,5 @@
       "opponent_name": "D6H-Berkley"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45191",
-      "date": "2026-03-09",
-      "dow": "Mon",
-      "starttime": "6:30 PM",
-      "location": "Hopkinton Brown Gym",
-      "divisionno": "7284",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "44518",
-      "away_teamno": "45643",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44518",
-      "opponent_name": "D4J-Milford (red-karp)"
-    }
-  ]
+  "future_games": []
 }

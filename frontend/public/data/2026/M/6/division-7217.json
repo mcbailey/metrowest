@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "gender": "M",
   "grade": 6,
   "divisionno": "7217",
@@ -17,12 +17,12 @@
       "pf": 615,
       "pa": 364,
       "diff": 251,
-      "sos": 1449.296,
-      "sos_adj": 1403.142,
-      "power": 1532.059,
+      "sos": 1451.233,
+      "sos_adj": 1405.079,
+      "power": 1523.165,
       "rank": 1,
-      "mw_rating": 52.6,
-      "mw_points": 684
+      "mw_rating": 52.7,
+      "mw_points": 685
     },
     {
       "teamno": "45428",
@@ -34,12 +34,12 @@
       "pf": 630,
       "pa": 415,
       "diff": 215,
-      "sos": 1458.606,
-      "sos_adj": 1417.981,
-      "power": 1489.993,
+      "sos": 1459.887,
+      "sos_adj": 1419.262,
+      "power": 1485.514,
       "rank": 2,
-      "mw_rating": 48.3,
-      "mw_points": 628
+      "mw_rating": 48.4,
+      "mw_points": 629
     },
     {
       "teamno": "44375",
@@ -51,29 +51,29 @@
       "pf": 540,
       "pa": 520,
       "diff": 20,
-      "sos": 1460.286,
-      "sos_adj": 1413.857,
-      "power": 1458.997,
+      "sos": 1460.99,
+      "sos_adj": 1414.562,
+      "power": 1457.37,
       "rank": 3,
-      "mw_rating": 42.2,
-      "mw_points": 591
+      "mw_rating": 42.3,
+      "mw_points": 592
     },
     {
       "teamno": "44208",
       "name": "D5R-Southboro (gold)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 8,
       "ties": 0,
-      "pf": 441,
-      "pa": 497,
-      "diff": -56,
-      "sos": 1446.559,
-      "sos_adj": 1388.867,
-      "power": 1435.568,
+      "pf": 472,
+      "pa": 516,
+      "diff": -44,
+      "sos": 1441.463,
+      "sos_adj": 1380.749,
+      "power": 1447.901,
       "rank": 4,
-      "mw_rating": 25.5,
-      "mw_points": 332
+      "mw_rating": 26.6,
+      "mw_points": 373
     },
     {
       "teamno": "45243",
@@ -85,12 +85,12 @@
       "pf": 431,
       "pa": 448,
       "diff": -17,
-      "sos": 1479.277,
-      "sos_adj": 1439.992,
-      "power": 1414.839,
+      "sos": 1478.797,
+      "sos_adj": 1439.511,
+      "power": 1417.984,
       "rank": 5,
-      "mw_rating": 39.5,
-      "mw_points": 514
+      "mw_rating": 39.6,
+      "mw_points": 515
     },
     {
       "teamno": "44330",
@@ -102,12 +102,12 @@
       "pf": 470,
       "pa": 548,
       "diff": -78,
-      "sos": 1453.51,
-      "sos_adj": 1403.51,
-      "power": 1413.007,
+      "sos": 1454.535,
+      "sos_adj": 1404.535,
+      "power": 1415.8,
       "rank": 6,
-      "mw_rating": 28.9,
-      "mw_points": 405
+      "mw_rating": 29.0,
+      "mw_points": 406
     },
     {
       "teamno": "45229",
@@ -119,9 +119,9 @@
       "pf": 249,
       "pa": 432,
       "diff": -183,
-      "sos": 1440.548,
-      "sos_adj": 1376.912,
-      "power": 1354.789,
+      "sos": 1441.881,
+      "sos_adj": 1378.245,
+      "power": 1362.816,
       "rank": 7,
       "mw_rating": 14.0,
       "mw_points": 154

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "gender": "F",
   "grade": 7,
   "divisionno": "7258",
@@ -17,9 +17,9 @@
       "pf": 556,
       "pa": 350,
       "diff": 206,
-      "sos": 1503.415,
-      "sos_adj": 1506.987,
-      "power": 1565.161,
+      "sos": 1502.005,
+      "sos_adj": 1505.576,
+      "power": 1558.467,
       "rank": 1,
       "mw_rating": 78.8,
       "mw_points": 1024
@@ -34,12 +34,12 @@
       "pf": 504,
       "pa": 406,
       "diff": 98,
-      "sos": 1512.186,
-      "sos_adj": 1522.9,
-      "power": 1533.876,
+      "sos": 1510.613,
+      "sos_adj": 1521.327,
+      "power": 1530.668,
       "rank": 2,
-      "mw_rating": 67.8,
-      "mw_points": 949
+      "mw_rating": 67.9,
+      "mw_points": 950
     },
     {
       "teamno": "44604",
@@ -51,29 +51,12 @@
       "pf": 458,
       "pa": 368,
       "diff": 90,
-      "sos": 1503.024,
-      "sos_adj": 1499.178,
-      "power": 1522.933,
+      "sos": 1500.801,
+      "sos_adj": 1496.955,
+      "power": 1520.063,
       "rank": 3,
-      "mw_rating": 58.7,
-      "mw_points": 763
-    },
-    {
-      "teamno": "43189",
-      "name": "D4K-Bellingham",
-      "town": null,
-      "wins": 1,
-      "losses": 10,
-      "ties": 0,
-      "pf": 292,
-      "pa": 382,
-      "diff": -90,
-      "sos": 1501.637,
-      "sos_adj": 1492.546,
-      "power": 1451.441,
-      "rank": 4,
-      "mw_rating": 26.3,
-      "mw_points": 289
+      "mw_rating": 58.8,
+      "mw_points": 764
     },
     {
       "teamno": "44408",
@@ -85,12 +68,29 @@
       "pf": 299,
       "pa": 445,
       "diff": -146,
-      "sos": 1482.718,
-      "sos_adj": 1462.718,
-      "power": 1442.677,
-      "rank": 5,
+      "sos": 1481.115,
+      "sos_adj": 1461.115,
+      "power": 1447.077,
+      "rank": 4,
       "mw_rating": 37.3,
       "mw_points": 485
+    },
+    {
+      "teamno": "43189",
+      "name": "D4K-Bellingham",
+      "town": null,
+      "wins": 1,
+      "losses": 11,
+      "ties": 0,
+      "pf": 312,
+      "pa": 428,
+      "diff": -116,
+      "sos": 1502.181,
+      "sos_adj": 1493.847,
+      "power": 1441.463,
+      "rank": 5,
+      "mw_rating": 26.2,
+      "mw_points": 314
     }
   ]
 }

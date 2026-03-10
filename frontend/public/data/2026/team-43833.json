@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "43833",
   "team_name": "D4H-Raynham (testa)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 509,
     "pa": 413,
     "diff": 96,
-    "sos": 1477.802,
-    "sos_adj": 1469.468,
-    "power": 1547.601,
+    "sos": 1474.054,
+    "sos_adj": 1465.721,
+    "power": 1541.141,
     "rank": 1,
     "mw_rating": 60.4,
     "mw_points": 845,
@@ -282,7 +282,7 @@
       "location": "Dana Barros - 5",
       "divisionno": "7221",
       "division_name": "6th Boys - Division 4",
-      "home_teamno": "0",
+      "home_teamno": "45626",
       "away_teamno": "43833",
       "home_score": null,
       "away_score": null,
@@ -290,8 +290,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "45626",
+      "opponent_name": "D3H-New Bedford"
     }
   ]
 }

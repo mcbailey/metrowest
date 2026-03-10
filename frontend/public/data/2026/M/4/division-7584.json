@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "gender": "M",
   "grade": 4,
   "divisionno": "7584",
@@ -17,12 +17,12 @@
       "pf": 465,
       "pa": 385,
       "diff": 80,
-      "sos": 1403.525,
-      "sos_adj": 1307.371,
-      "power": 1461.493,
+      "sos": 1403.557,
+      "sos_adj": 1307.403,
+      "power": 1453.036,
       "rank": 1,
-      "mw_rating": 31.4,
-      "mw_points": 408
+      "mw_rating": 31.5,
+      "mw_points": 409
     },
     {
       "teamno": "44994",
@@ -34,12 +34,12 @@
       "pf": 483,
       "pa": 355,
       "diff": 128,
-      "sos": 1429.057,
-      "sos_adj": 1352.134,
-      "power": 1437.572,
+      "sos": 1428.459,
+      "sos_adj": 1351.536,
+      "power": 1432.469,
       "rank": 2,
-      "mw_rating": 36.6,
-      "mw_points": 476
+      "mw_rating": 36.7,
+      "mw_points": 477
     },
     {
       "teamno": "43133",
@@ -51,12 +51,12 @@
       "pf": 445,
       "pa": 431,
       "diff": 14,
-      "sos": 1408.963,
-      "sos_adj": 1308.963,
-      "power": 1410.875,
+      "sos": 1408.067,
+      "sos_adj": 1308.067,
+      "power": 1407.288,
       "rank": 3,
       "mw_rating": 24.1,
-      "mw_points": 337
+      "mw_points": 338
     },
     {
       "teamno": "43265",
@@ -68,29 +68,29 @@
       "pf": 447,
       "pa": 388,
       "diff": 59,
-      "sos": 1425.446,
-      "sos_adj": 1325.446,
-      "power": 1386.251,
+      "sos": 1422.901,
+      "sos_adj": 1322.901,
+      "power": 1385.126,
       "rank": 4,
-      "mw_rating": 22.8,
-      "mw_points": 296
+      "mw_rating": 22.9,
+      "mw_points": 297
     },
     {
       "teamno": "43154",
       "name": "D6M-Seekonk (blessing)",
       "town": null,
       "wins": 5,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 391,
-      "pa": 429,
-      "diff": -38,
-      "sos": 1402.13,
-      "sos_adj": 1302.13,
-      "power": 1358.433,
+      "pf": 402,
+      "pa": 450,
+      "diff": -48,
+      "sos": 1403.647,
+      "sos_adj": 1303.647,
+      "power": 1342.891,
       "rank": 5,
-      "mw_rating": 16.8,
-      "mw_points": 218
+      "mw_rating": 16.0,
+      "mw_points": 224
     }
   ]
 }

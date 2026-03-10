@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "45333",
   "team_name": "D5J-Milton (black)",
   "town": null,
@@ -11,18 +11,18 @@
     "pf": 389,
     "pa": 410,
     "diff": -21,
-    "sos": 1446.55,
-    "sos_adj": 1407.265,
-    "power": 1447.556,
+    "sos": 1446.56,
+    "sos_adj": 1407.274,
+    "power": 1446.735,
     "rank": 2,
-    "mw_rating": 39.4,
-    "mw_points": 552,
+    "mw_rating": 39.5,
+    "mw_points": 553,
     "divisionno": "7237",
     "division_name": "8th Girls - Division 5",
     "grade": 8,
     "gender": "F",
     "games_played_total": 14,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -292,5 +292,25 @@
       "opponent_name": "D5J-Norwood (blue)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "47201",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "7:10 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7237",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "43946",
+      "away_teamno": "45333",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43946",
+      "opponent_name": "D4Q-Brookline (white)"
+    }
+  ]
 }

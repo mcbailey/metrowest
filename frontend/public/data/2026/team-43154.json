@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "43154",
   "team_name": "D6M-Seekonk (blessing)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 391,
-    "pa": 429,
-    "diff": -38,
-    "sos": 1402.13,
-    "sos_adj": 1302.13,
-    "power": 1358.433,
+    "pf": 402,
+    "pa": 450,
+    "diff": -48,
+    "sos": 1403.647,
+    "sos_adj": 1303.647,
+    "power": 1342.891,
     "rank": 5,
-    "mw_rating": 16.8,
-    "mw_points": 218,
+    "mw_rating": 16.0,
+    "mw_points": 224,
     "divisionno": "7584",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45089",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "5:00 PM",
+      "location": "Old Rochester Junior High School",
+      "divisionno": "7585",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "43154",
+      "away_teamno": "43967",
+      "home_score": 11,
+      "away_score": 21,
+      "team_score": 11,
+      "opponent_score": 21,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43967",
+      "opponent_name": "D6N-Taunton (daye)"
+    },
     {
       "gameno": "45088",
       "date": "2026-03-07",
@@ -273,25 +292,5 @@
       "opponent_name": "D6N-Raynham (lyons)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45089",
-      "date": "2026-03-09",
-      "dow": "Mon",
-      "starttime": "5:00 PM",
-      "location": "Old Rochester Junior High School",
-      "divisionno": "7585",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "43154",
-      "away_teamno": "43967",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43967",
-      "opponent_name": "D6N-Taunton (daye)"
-    }
-  ]
+  "future_games": []
 }

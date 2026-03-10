@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "gender": "M",
   "grade": 8,
   "divisionno": "7146",
@@ -17,12 +17,12 @@
       "pf": 1602,
       "pa": 1171,
       "diff": 431,
-      "sos": 1456.275,
-      "sos_adj": 1467.566,
-      "power": 1596.297,
+      "sos": 1461.295,
+      "sos_adj": 1472.585,
+      "power": 1583.361,
       "rank": 1,
-      "mw_rating": 59.9,
-      "mw_points": 778
+      "mw_rating": 59.1,
+      "mw_points": 768
     },
     {
       "teamno": "44524",
@@ -34,12 +34,12 @@
       "pf": 709,
       "pa": 484,
       "diff": 225,
-      "sos": 1468.279,
-      "sos_adj": 1438.279,
-      "power": 1531.575,
+      "sos": 1468.262,
+      "sos_adj": 1438.262,
+      "power": 1523.12,
       "rank": 2,
-      "mw_rating": 55.3,
-      "mw_points": 774
+      "mw_rating": 55.4,
+      "mw_points": 775
     },
     {
       "teamno": "43301",
@@ -51,12 +51,12 @@
       "pf": 642,
       "pa": 583,
       "diff": 59,
-      "sos": 1453.879,
-      "sos_adj": 1411.571,
-      "power": 1459.998,
+      "sos": 1454.972,
+      "sos_adj": 1412.665,
+      "power": 1458.31,
       "rank": 3,
-      "mw_rating": 41.2,
-      "mw_points": 535
+      "mw_rating": 41.3,
+      "mw_points": 537
     },
     {
       "teamno": "44585",
@@ -68,12 +68,12 @@
       "pf": 595,
       "pa": 523,
       "diff": 72,
-      "sos": 1449.472,
-      "sos_adj": 1399.472,
-      "power": 1446.642,
+      "sos": 1449.306,
+      "sos_adj": 1399.306,
+      "power": 1445.673,
       "rank": 4,
-      "mw_rating": 35.2,
-      "mw_points": 458
+      "mw_rating": 35.3,
+      "mw_points": 459
     },
     {
       "teamno": "44468",
@@ -85,9 +85,9 @@
       "pf": 773,
       "pa": 703,
       "diff": 70,
-      "sos": 1455.241,
-      "sos_adj": 1411.491,
-      "power": 1445.5,
+      "sos": 1453.474,
+      "sos_adj": 1409.724,
+      "power": 1444.546,
       "rank": 5,
       "mw_rating": 44.2,
       "mw_points": 574
@@ -96,35 +96,35 @@
       "teamno": "44335",
       "name": "D5J-Medway (white)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 11,
       "ties": 0,
-      "pf": 534,
-      "pa": 709,
-      "diff": -175,
-      "sos": 1443.732,
-      "sos_adj": 1383.732,
-      "power": 1402.792,
+      "pf": 581,
+      "pa": 753,
+      "diff": -172,
+      "sos": 1439.893,
+      "sos_adj": 1377.393,
+      "power": 1413.345,
       "rank": 6,
-      "mw_rating": 18.9,
-      "mw_points": 264
+      "mw_rating": 20.2,
+      "mw_points": 303
     },
     {
       "teamno": "44187",
       "name": "D5J-Parkway  (white)",
       "town": null,
       "wins": 3,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 480,
-      "pa": 637,
-      "diff": -157,
-      "sos": 1460.786,
-      "sos_adj": 1403.094,
-      "power": 1402.447,
+      "pf": 511,
+      "pa": 670,
+      "diff": -159,
+      "sos": 1455.796,
+      "sos_adj": 1395.081,
+      "power": 1392.82,
       "rank": 7,
-      "mw_rating": 17.9,
-      "mw_points": 233
+      "mw_rating": 17.0,
+      "mw_points": 238
     },
     {
       "teamno": "45136",
@@ -136,12 +136,12 @@
       "pf": 423,
       "pa": 543,
       "diff": -120,
-      "sos": 1454.091,
-      "sos_adj": 1400.244,
-      "power": 1379.023,
+      "sos": 1453.078,
+      "sos_adj": 1399.232,
+      "power": 1384.624,
       "rank": 8,
-      "mw_rating": 23.5,
-      "mw_points": 306
+      "mw_rating": 23.6,
+      "mw_points": 307
     }
   ]
 }

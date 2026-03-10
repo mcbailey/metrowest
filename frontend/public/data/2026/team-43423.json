@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "43423",
   "team_name": "D6H-Bridgewater (mcbride)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "D6H-Raynham (maddock-b)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "47155",
+      "date": "2026-03-12",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Mansfield Fieldhouse -1",
+      "divisionno": "7173",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44705",
+      "away_teamno": "43423",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44705",
+      "opponent_name": "D5Q-Dover Sherborn (danielski)"
+    }
+  ]
 }

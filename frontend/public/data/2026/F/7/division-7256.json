@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "gender": "F",
   "grade": 7,
   "divisionno": "7256",
@@ -17,12 +17,12 @@
       "pf": 702,
       "pa": 470,
       "diff": 232,
-      "sos": 1499.85,
-      "sos_adj": 1507.542,
-      "power": 1594.003,
+      "sos": 1504.732,
+      "sos_adj": 1512.424,
+      "power": 1586.012,
       "rank": 1,
-      "mw_rating": 83.4,
-      "mw_points": 1084
+      "mw_rating": 83.5,
+      "mw_points": 1086
     },
     {
       "teamno": "43130",
@@ -34,12 +34,12 @@
       "pf": 541,
       "pa": 428,
       "diff": 113,
-      "sos": 1497.282,
-      "sos_adj": 1500.854,
-      "power": 1534.241,
+      "sos": 1499.814,
+      "sos_adj": 1503.385,
+      "power": 1531.471,
       "rank": 2,
-      "mw_rating": 67.9,
-      "mw_points": 883
+      "mw_rating": 68.0,
+      "mw_points": 884
     },
     {
       "teamno": "44982",
@@ -51,12 +51,12 @@
       "pf": 385,
       "pa": 317,
       "diff": 68,
-      "sos": 1503.758,
-      "sos_adj": 1508.304,
-      "power": 1529.19,
+      "sos": 1506.259,
+      "sos_adj": 1510.804,
+      "power": 1527.103,
       "rank": 3,
-      "mw_rating": 51.5,
-      "mw_points": 566
+      "mw_rating": 51.6,
+      "mw_points": 567
     },
     {
       "teamno": "43343",
@@ -68,29 +68,29 @@
       "pf": 626,
       "pa": 470,
       "diff": 156,
-      "sos": 1528.387,
-      "sos_adj": 1532.554,
-      "power": 1521.975,
+      "sos": 1528.185,
+      "sos_adj": 1532.352,
+      "power": 1520.541,
       "rank": 4,
-      "mw_rating": 52.8,
-      "mw_points": 845
+      "mw_rating": 52.9,
+      "mw_points": 846
     },
     {
       "teamno": "43485",
       "name": "D4H-Rochester",
       "town": null,
-      "wins": 3,
+      "wins": 4,
       "losses": 9,
       "ties": 0,
-      "pf": 365,
-      "pa": 468,
-      "diff": -103,
-      "sos": 1518.009,
-      "sos_adj": 1522.176,
-      "power": 1490.476,
+      "pf": 411,
+      "pa": 488,
+      "diff": -77,
+      "sos": 1513.297,
+      "sos_adj": 1517.143,
+      "power": 1510.703,
       "rank": 5,
-      "mw_rating": 34.3,
-      "mw_points": 480
+      "mw_rating": 37.2,
+      "mw_points": 558
     }
   ]
 }

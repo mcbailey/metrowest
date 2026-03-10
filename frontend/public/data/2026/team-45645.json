@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "45645",
   "team_name": "D6M-Hopkinton (levine)",
   "town": null,
   "summary": {
-    "wins": 14,
+    "wins": 15,
     "losses": 0,
     "ties": 0,
-    "pf": 708,
-    "pa": 286,
-    "diff": 422,
-    "sos": 1413.838,
-    "sos_adj": 1338.838,
-    "power": 1509.067,
+    "pf": 760,
+    "pa": 323,
+    "diff": 437,
+    "sos": 1415.682,
+    "sos_adj": 1342.349,
+    "power": 1515.604,
     "rank": 1,
-    "mw_rating": 44.7,
-    "mw_points": 581,
+    "mw_rating": 45.9,
+    "mw_points": 642,
     "divisionno": "7286",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45190",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "6:30 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7286",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "45645",
+      "away_teamno": "44044",
+      "home_score": 52,
+      "away_score": 37,
+      "team_score": 52,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44044",
+      "opponent_name": "D5T-Newton (white)"
+    },
     {
       "gameno": "45187",
       "date": "2026-03-07",
@@ -292,25 +311,5 @@
       "opponent_name": "D6M-Holliston (peterson)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45190",
-      "date": "2026-03-09",
-      "dow": "Mon",
-      "starttime": "6:30 PM",
-      "location": "Dana Barros - 4",
-      "divisionno": "7286",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "45645",
-      "away_teamno": "44044",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44044",
-      "opponent_name": "D5T-Newton (white)"
-    }
-  ]
+  "future_games": []
 }

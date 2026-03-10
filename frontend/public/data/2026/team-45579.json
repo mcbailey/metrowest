@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "45579",
   "team_name": "D3J-Stoughton",
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 529,
-    "pa": 658,
-    "diff": -129,
-    "sos": 1551.951,
-    "sos_adj": 1609.643,
-    "power": 1500.204,
+    "pf": 576,
+    "pa": 717,
+    "diff": -141,
+    "sos": 1551.685,
+    "sos_adj": 1608.828,
+    "power": 1486.781,
     "rank": 6,
-    "mw_rating": 59.2,
-    "mw_points": 710,
+    "mw_rating": 58.1,
+    "mw_points": 755,
     "divisionno": "7226",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45368",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "Taunton High School 3",
+      "divisionno": "7226",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "45626",
+      "away_teamno": "45579",
+      "home_score": 59,
+      "away_score": 47,
+      "team_score": 47,
+      "opponent_score": 59,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45626",
+      "opponent_name": "D3H-New Bedford"
+    },
     {
       "gameno": "378492",
       "date": "2026-03-01",
@@ -273,25 +292,5 @@
       "opponent_name": "D3J-Norton (purple)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45368",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "12:00 PM",
-      "location": "Taunton High School 3",
-      "divisionno": "7226",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "45626",
-      "away_teamno": "45579",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45626",
-      "opponent_name": "D3H-New Bedford"
-    }
-  ]
+  "future_games": []
 }

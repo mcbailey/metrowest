@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "44640",
   "team_name": "D2H-Attleboro (blue)",
   "town": null,
   "summary": {
     "wins": 3,
-    "losses": 13,
+    "losses": 14,
     "ties": 0,
-    "pf": 636,
-    "pa": 799,
-    "diff": -163,
-    "sos": 1589.64,
-    "sos_adj": 1674.015,
-    "power": 1588.432,
-    "rank": 4,
-    "mw_rating": 83.4,
-    "mw_points": 1001,
+    "pf": 682,
+    "pa": 856,
+    "diff": -174,
+    "sos": 1589.317,
+    "sos_adj": 1671.67,
+    "power": 1562.228,
+    "rank": 5,
+    "mw_rating": 80.5,
+    "mw_points": 1046,
     "divisionno": "7230",
     "division_name": "6th Boys - Division 2",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45335",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "12:00 PM",
+      "location": "Taunton High Upper Gyn",
+      "divisionno": "7225",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "44640",
+      "away_teamno": "43342",
+      "home_score": 46,
+      "away_score": 57,
+      "team_score": 46,
+      "opponent_score": 57,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43342",
+      "opponent_name": "D3H-Monomoy (blue/mccarthy)"
+    },
     {
       "gameno": "45328",
       "date": "2026-03-07",
@@ -330,25 +349,5 @@
       "opponent_name": "Warwick (Garcia) 6B D1N"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45335",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "12:00 PM",
-      "location": "Taunton High Upper Gyn",
-      "divisionno": "7225",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "44640",
-      "away_teamno": "43342",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43342",
-      "opponent_name": "D3H-Monomoy (blue/mccarthy)"
-    }
-  ]
+  "future_games": []
 }

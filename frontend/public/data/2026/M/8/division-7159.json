@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "gender": "M",
   "grade": 8,
   "divisionno": "7159",
@@ -17,12 +17,12 @@
       "pf": 1048,
       "pa": 734,
       "diff": 314,
-      "sos": 1544.723,
-      "sos_adj": 1600.279,
-      "power": 1672.426,
+      "sos": 1547.393,
+      "sos_adj": 1602.948,
+      "power": 1662.108,
       "rank": 1,
-      "mw_rating": 126.3,
-      "mw_points": 1642
+      "mw_rating": 126.5,
+      "mw_points": 1644
     },
     {
       "teamno": "43531",
@@ -34,12 +34,12 @@
       "pf": 735,
       "pa": 646,
       "diff": 89,
-      "sos": 1557.077,
-      "sos_adj": 1621.362,
-      "power": 1609.872,
+      "sos": 1558.844,
+      "sos_adj": 1623.129,
+      "power": 1606.11,
       "rank": 2,
-      "mw_rating": 109.0,
-      "mw_points": 1417
+      "mw_rating": 109.1,
+      "mw_points": 1418
     },
     {
       "teamno": "45260",
@@ -51,46 +51,46 @@
       "pf": 694,
       "pa": 607,
       "diff": 87,
-      "sos": 1544.032,
-      "sos_adj": 1594.032,
-      "power": 1584.259,
+      "sos": 1546.669,
+      "sos_adj": 1596.669,
+      "power": 1582.593,
       "rank": 3,
-      "mw_rating": 85.5,
-      "mw_points": 1112
+      "mw_rating": 85.7,
+      "mw_points": 1114
     },
     {
       "teamno": "44334",
       "name": "D3K-Medway (blue)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 14,
       "ties": 0,
-      "pf": 972,
-      "pa": 1093,
-      "diff": -121,
-      "sos": 1534.982,
-      "sos_adj": 1566.8,
-      "power": 1537.664,
+      "pf": 1008,
+      "pa": 1124,
+      "diff": -116,
+      "sos": 1533.126,
+      "sos_adj": 1563.561,
+      "power": 1549.491,
       "rank": 4,
-      "mw_rating": 67.4,
-      "mw_points": 944
+      "mw_rating": 68.8,
+      "mw_points": 1032
     },
     {
       "teamno": "43916",
       "name": "D3K-Wellesley (b)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 11,
       "ties": 0,
-      "pf": 904,
-      "pa": 986,
-      "diff": -82,
-      "sos": 1549.383,
-      "sos_adj": 1602.015,
-      "power": 1534.547,
+      "pf": 957,
+      "pa": 1035,
+      "diff": -78,
+      "sos": 1547.26,
+      "sos_adj": 1597.26,
+      "power": 1546.634,
       "rank": 5,
-      "mw_rating": 64.0,
-      "mw_points": 896
+      "mw_rating": 65.5,
+      "mw_points": 983
     },
     {
       "teamno": "45635",
@@ -102,12 +102,12 @@
       "pf": 670,
       "pa": 745,
       "diff": -75,
-      "sos": 1556.332,
-      "sos_adj": 1606.332,
-      "power": 1528.431,
+      "sos": 1557.738,
+      "sos_adj": 1607.738,
+      "power": 1532.348,
       "rank": 6,
       "mw_rating": 70.9,
-      "mw_points": 992
+      "mw_points": 993
     },
     {
       "teamno": "43786",
@@ -119,12 +119,12 @@
       "pf": 669,
       "pa": 740,
       "diff": -71,
-      "sos": 1547.394,
-      "sos_adj": 1589.702,
-      "power": 1522.785,
+      "sos": 1549.082,
+      "sos_adj": 1591.389,
+      "power": 1526.921,
       "rank": 7,
-      "mw_rating": 76.1,
-      "mw_points": 913
+      "mw_rating": 76.3,
+      "mw_points": 915
     },
     {
       "teamno": "43374",
@@ -136,12 +136,12 @@
       "pf": 918,
       "pa": 1057,
       "diff": -139,
-      "sos": 1550.853,
-      "sos_adj": 1592.52,
-      "power": 1501.89,
+      "sos": 1551.521,
+      "sos_adj": 1593.187,
+      "power": 1507.93,
       "rank": 8,
       "mw_rating": 61.5,
-      "mw_points": 799
+      "mw_points": 800
     }
   ]
 }

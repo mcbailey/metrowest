@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "44878",
   "team_name": "D4J-North Attleboro (red)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "D4J-Norton (purple)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "47200",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "7:00 PM",
+      "location": "Dana Barros - 3",
+      "divisionno": "7238",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "44617",
+      "away_teamno": "44878",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44617",
+      "opponent_name": "D5K-Newton (white)"
+    }
+  ]
 }

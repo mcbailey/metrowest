@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "gender": "M",
   "grade": 7,
   "divisionno": "7198",
@@ -34,12 +34,12 @@
       "pf": 1080,
       "pa": 1006,
       "diff": 74,
-      "sos": 1592.132,
-      "sos_adj": 1684.989,
-      "power": 1633.882,
+      "sos": 1592.578,
+      "sos_adj": 1685.435,
+      "power": 1633.994,
       "rank": 2,
-      "mw_rating": 124.3,
-      "mw_points": 1616
+      "mw_rating": 124.4,
+      "mw_points": 1617
     },
     {
       "teamno": "43341",
@@ -51,12 +51,12 @@
       "pf": 743,
       "pa": 784,
       "diff": -41,
-      "sos": 1598.405,
-      "sos_adj": 1698.405,
-      "power": 1627.26,
+      "sos": 1598.698,
+      "sos_adj": 1698.698,
+      "power": 1627.333,
       "rank": 3,
-      "mw_rating": 109.3,
-      "mw_points": 1530
+      "mw_rating": 109.4,
+      "mw_points": 1531
     },
     {
       "teamno": "43475",
@@ -68,29 +68,29 @@
       "pf": 948,
       "pa": 971,
       "diff": -23,
-      "sos": 1605.636,
-      "sos_adj": 1705.636,
-      "power": 1597.452,
+      "sos": 1605.896,
+      "sos_adj": 1705.896,
+      "power": 1597.517,
       "rank": 4,
-      "mw_rating": 110.0,
-      "mw_points": 1540
+      "mw_rating": 110.1,
+      "mw_points": 1541
     },
     {
       "teamno": "43298",
       "name": "D2H-Franklin",
       "town": null,
-      "wins": 7,
+      "wins": 8,
       "losses": 15,
       "ties": 0,
-      "pf": 1036,
-      "pa": 1193,
-      "diff": -157,
-      "sos": 1566.923,
-      "sos_adj": 1635.105,
-      "power": 1594.626,
+      "pf": 1077,
+      "pa": 1233,
+      "diff": -156,
+      "sos": 1563.81,
+      "sos_adj": 1629.027,
+      "power": 1596.613,
       "rank": 5,
-      "mw_rating": 92.9,
-      "mw_points": 1115
+      "mw_rating": 92.6,
+      "mw_points": 1204
     }
   ]
 }

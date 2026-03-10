@@ -1,30 +1,68 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "43954",
   "team_name": "D3J-Foxboro (blue)",
   "town": null,
   "summary": {
-    "wins": 2,
-    "losses": 13,
+    "wins": 3,
+    "losses": 14,
     "ties": 0,
-    "pf": 588,
-    "pa": 790,
-    "diff": -202,
-    "sos": 1535.515,
-    "sos_adj": 1572.182,
-    "power": 1482.535,
+    "pf": 669,
+    "pa": 882,
+    "diff": -213,
+    "sos": 1532.584,
+    "sos_adj": 1564.937,
+    "power": 1472.647,
     "rank": 6,
-    "mw_rating": 50.8,
-    "mw_points": 660,
+    "mw_rating": 51.3,
+    "mw_points": 769,
     "divisionno": "7194",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45561",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "6:15 PM",
+      "location": "Old Rochester Junior High School",
+      "divisionno": "7189",
+      "division_name": "7th Boys - Division 4",
+      "home_teamno": "43954",
+      "away_teamno": "45583",
+      "home_score": 39,
+      "away_score": 52,
+      "team_score": 39,
+      "opponent_score": 52,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45583",
+      "opponent_name": "D4J-Stoughton"
+    },
+    {
+      "gameno": "45558",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:40 AM",
+      "location": "Taunton High School 1",
+      "divisionno": "7188",
+      "division_name": "7th Boys - Division 4",
+      "home_teamno": "43251",
+      "away_teamno": "43954",
+      "home_score": 40,
+      "away_score": 42,
+      "team_score": 42,
+      "opponent_score": 40,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43251",
+      "opponent_name": "D4H-Dartmouth (white)"
+    },
     {
       "gameno": "45551",
       "date": "2026-03-07",
@@ -311,25 +349,5 @@
       "opponent_name": "D4H-Dartmouth (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45558",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "10:40 AM",
-      "location": "Taunton High School 1",
-      "divisionno": "7188",
-      "division_name": "7th Boys - Division 4",
-      "home_teamno": "43251",
-      "away_teamno": "43954",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43251",
-      "opponent_name": "D4H-Dartmouth (white)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "44869",
   "team_name": "D3H-North Attleboro (white)",
   "town": null,
@@ -15,8 +15,8 @@
     "sos_adj": 1555.018,
     "power": 1592.978,
     "rank": 2,
-    "mw_rating": 94.1,
-    "mw_points": 1223,
+    "mw_rating": 94.2,
+    "mw_points": 1224,
     "divisionno": "7193",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
@@ -434,7 +434,7 @@
       "location": "Old Rochester Junior High School",
       "divisionno": "7193",
       "division_name": "7th Boys - Division 3",
-      "home_teamno": "0",
+      "home_teamno": "43298",
       "away_teamno": "44869",
       "home_score": null,
       "away_score": null,
@@ -442,8 +442,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43298",
+      "opponent_name": "D2H-Franklin"
     }
   ]
 }

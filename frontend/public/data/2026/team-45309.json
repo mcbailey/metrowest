@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "45309",
   "team_name": "D4M-Milton (white)",
   "town": null,
   "summary": {
-    "wins": 18,
+    "wins": 19,
     "losses": 10,
     "ties": 0,
-    "pf": 1403,
-    "pa": 1305,
-    "diff": 98,
-    "sos": 1510.431,
-    "sos_adj": 1531.86,
-    "power": 1550.968,
+    "pf": 1464,
+    "pa": 1363,
+    "diff": 101,
+    "sos": 1512.606,
+    "sos_adj": 1533.296,
+    "power": 1556.009,
     "rank": 2,
-    "mw_rating": 65.7,
-    "mw_points": 920,
+    "mw_rating": 67.1,
+    "mw_points": 1007,
     "divisionno": "7154",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 28,
-    "games_scheduled_total": 1
+    "games_played_total": 29,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45740",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "7:45 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7155",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "45309",
+      "away_teamno": "43736",
+      "home_score": 61,
+      "away_score": 58,
+      "team_score": 61,
+      "opponent_score": 58,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43736",
+      "opponent_name": "D4Q-Needham (blue)"
+    },
     {
       "gameno": "45737",
       "date": "2026-03-07",
@@ -558,25 +577,5 @@
       "opponent_name": "D3J-Foxboro (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45740",
-      "date": "2026-03-09",
-      "dow": "Mon",
-      "starttime": "7:45 PM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7155",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "45309",
-      "away_teamno": "43736",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43736",
-      "opponent_name": "D4Q-Needham (blue)"
-    }
-  ]
+  "future_games": []
 }

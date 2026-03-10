@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "45306",
   "team_name": "D6T-Medford (gray)",
   "town": null,
@@ -259,8 +259,8 @@
       "gameno": "45823",
       "date": "2026-03-10",
       "dow": "Tue",
-      "starttime": "7:45 PM",
-      "location": "Dana Barros - 1",
+      "starttime": "7:00 PM",
+      "location": "McGlynn Middle School",
       "divisionno": "7143",
       "division_name": "8th Boys - Division 6",
       "home_teamno": "45765",

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "43437",
   "team_name": "D5H-Foxboro (gold)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "F",
     "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -330,6 +330,25 @@
       "is_home": true,
       "opponent_teamno": "43217",
       "opponent_name": "D5H-FLBC"
+    },
+    {
+      "gameno": "47164",
+      "date": "2026-03-13",
+      "dow": "Fri",
+      "starttime": "5:15 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7250",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "43437",
+      "away_teamno": "43542",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "43542",
+      "opponent_name": "D4Q-Northboro (red)"
     }
   ]
 }

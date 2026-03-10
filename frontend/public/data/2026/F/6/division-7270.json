@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "gender": "F",
   "grade": 6,
   "divisionno": "7270",
@@ -17,29 +17,29 @@
       "pf": 406,
       "pa": 319,
       "diff": 87,
-      "sos": 1446.814,
-      "sos_adj": 1406.189,
-      "power": 1491.078,
+      "sos": 1449.325,
+      "sos_adj": 1408.7,
+      "power": 1486.503,
       "rank": 1,
-      "mw_rating": 48.8,
-      "mw_points": 634
+      "mw_rating": 48.9,
+      "mw_points": 635
     },
     {
       "teamno": "44964",
       "name": "D5M-Milford (black-orourke)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 8,
       "ties": 0,
-      "pf": 242,
-      "pa": 304,
-      "diff": -62,
-      "sos": 1446.769,
-      "sos_adj": 1400.936,
-      "power": 1444.794,
+      "pf": 267,
+      "pa": 320,
+      "diff": -53,
+      "sos": 1446.156,
+      "sos_adj": 1400.002,
+      "power": 1458.912,
       "rank": 2,
-      "mw_rating": 27.0,
-      "mw_points": 324
+      "mw_rating": 29.2,
+      "mw_points": 380
     },
     {
       "teamno": "45130",
@@ -51,12 +51,12 @@
       "pf": 294,
       "pa": 350,
       "diff": -56,
-      "sos": 1458.644,
-      "sos_adj": 1412.215,
-      "power": 1415.102,
+      "sos": 1459.571,
+      "sos_adj": 1413.142,
+      "power": 1417.879,
       "rank": 3,
-      "mw_rating": 32.6,
-      "mw_points": 424
+      "mw_rating": 32.7,
+      "mw_points": 425
     },
     {
       "teamno": "44182",
@@ -68,12 +68,12 @@
       "pf": 238,
       "pa": 271,
       "diff": -33,
-      "sos": 1460.192,
-      "sos_adj": 1410.192,
-      "power": 1410.054,
+      "sos": 1460.846,
+      "sos_adj": 1410.846,
+      "power": 1413.217,
       "rank": 4,
       "mw_rating": 25.3,
-      "mw_points": 303
+      "mw_points": 304
     },
     {
       "teamno": "44342",
@@ -85,12 +85,12 @@
       "pf": 236,
       "pa": 305,
       "diff": -69,
-      "sos": 1459.405,
-      "sos_adj": 1412.977,
-      "power": 1392.124,
+      "sos": 1460.256,
+      "sos_adj": 1413.827,
+      "power": 1397.199,
       "rank": 5,
       "mw_rating": 20.6,
-      "mw_points": 288
+      "mw_points": 289
     },
     {
       "teamno": "43644",
@@ -102,9 +102,9 @@
       "pf": 303,
       "pa": 455,
       "diff": -152,
-      "sos": 1481.639,
-      "sos_adj": 1446.345,
-      "power": 1385.357,
+      "sos": 1481.127,
+      "sos_adj": 1445.833,
+      "power": 1391.602,
       "rank": 6,
       "mw_rating": 22.6,
       "mw_points": 271

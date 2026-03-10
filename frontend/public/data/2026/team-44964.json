@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "44964",
   "team_name": "D5M-Milford (black-orourke)",
   "town": null,
   "summary": {
-    "wins": 4,
+    "wins": 5,
     "losses": 8,
     "ties": 0,
-    "pf": 242,
-    "pa": 304,
-    "diff": -62,
-    "sos": 1446.769,
-    "sos_adj": 1400.936,
-    "power": 1444.794,
+    "pf": 267,
+    "pa": 320,
+    "diff": -53,
+    "sos": 1446.156,
+    "sos_adj": 1400.002,
+    "power": 1458.912,
     "rank": 2,
-    "mw_rating": 27.0,
-    "mw_points": 324,
+    "mw_rating": 29.2,
+    "mw_points": 380,
     "divisionno": "7270",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46247",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "5:15 PM",
+      "location": "Mansfield Fieldhouse -4",
+      "divisionno": "7270",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "44964",
+      "away_teamno": "44476",
+      "home_score": 25,
+      "away_score": 16,
+      "team_score": 25,
+      "opponent_score": 16,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44476",
+      "opponent_name": "D5J-Walpole (b)"
+    },
     {
       "gameno": "46245",
       "date": "2026-03-08",
@@ -254,25 +273,5 @@
       "opponent_name": "D5M-Medway (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46247",
-      "date": "2026-03-09",
-      "dow": "Mon",
-      "starttime": "5:15 PM",
-      "location": "Mansfield Fieldhouse -4",
-      "divisionno": "7270",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "44964",
-      "away_teamno": "44476",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44476",
-      "opponent_name": "D5J-Walpole (b)"
-    }
-  ]
+  "future_games": []
 }

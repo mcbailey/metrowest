@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "44759",
   "team_name": "D6W-Arlington (red)",
   "town": null,
@@ -335,11 +335,11 @@
       "gameno": "45843",
       "date": "2026-03-10",
       "dow": "Tue",
-      "starttime": "7:45 PM",
-      "location": "Dana Barros - 2",
+      "starttime": "7:40 PM",
+      "location": "Watertown Middle School",
       "divisionno": "7143",
       "division_name": "8th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44074",
       "away_teamno": "44759",
       "home_score": null,
       "away_score": null,
@@ -347,8 +347,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44074",
+      "opponent_name": "D6T-Watertown (red)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "43535",
   "team_name": "D6Q-Northboro (white)",
   "town": null,
@@ -261,9 +261,9 @@
       "dow": "Thu",
       "starttime": "7:45 PM",
       "location": "Ashland Mindess School",
-      "divisionno": "7177",
+      "divisionno": "7178",
       "division_name": "7th Boys - Division 6",
-      "home_teamno": "0",
+      "home_teamno": "44235",
       "away_teamno": "43535",
       "home_score": null,
       "away_score": null,
@@ -271,8 +271,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44235",
+      "opponent_name": "D6R-Wayland (orange)"
     }
   ]
 }

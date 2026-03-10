@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "44417",
   "team_name": "D7Q-Dedham (muyide)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 7,
     "ties": 0,
-    "pf": 378,
-    "pa": 353,
-    "diff": 25,
-    "sos": 1348.4,
-    "sos_adj": 1209.114,
-    "power": 1321.939,
+    "pf": 405,
+    "pa": 372,
+    "diff": 33,
+    "sos": 1348.613,
+    "sos_adj": 1208.613,
+    "power": 1335.665,
     "rank": 3,
-    "mw_rating": 12.3,
-    "mw_points": 160,
+    "mw_rating": 13.1,
+    "mw_points": 183,
     "divisionno": "7592",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45102",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "6:30 PM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7592",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "43688",
+      "away_teamno": "44417",
+      "home_score": 19,
+      "away_score": 27,
+      "team_score": 27,
+      "opponent_score": 19,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43688",
+      "opponent_name": "D7P-Sharon (maroon)"
+    },
     {
       "gameno": "45098",
       "date": "2026-03-07",
@@ -292,25 +311,5 @@
       "opponent_name": "D7Q-North Quincy (furcillo)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45102",
-      "date": "2026-03-09",
-      "dow": "Mon",
-      "starttime": "6:30 PM",
-      "location": "Dana Barros - 5",
-      "divisionno": "7592",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "43688",
-      "away_teamno": "44417",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43688",
-      "opponent_name": "D7P-Sharon (maroon)"
-    }
-  ]
+  "future_games": []
 }

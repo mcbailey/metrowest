@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-09",
+  "snapshot_date": "2026-03-10",
   "teamno": "45320",
   "team_name": "D6J-Milton (black)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 9,
     "ties": 0,
-    "pf": 474,
-    "pa": 496,
-    "diff": -22,
-    "sos": 1407.43,
-    "sos_adj": 1316.805,
-    "power": 1399.581,
+    "pf": 512,
+    "pa": 514,
+    "diff": -2,
+    "sos": 1405.839,
+    "sos_adj": 1314.663,
+    "power": 1414.052,
     "rank": 2,
-    "mw_rating": 21.5,
-    "mw_points": 279,
+    "mw_rating": 22.4,
+    "mw_points": 314,
     "divisionno": "7206",
     "division_name": "6th Boys - Division 6",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45487",
+      "date": "2026-03-09",
+      "dow": "Mon",
+      "starttime": "5:15 PM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7209",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "44163",
+      "away_teamno": "45320",
+      "home_score": 18,
+      "away_score": 38,
+      "team_score": 38,
+      "opponent_score": 18,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44163",
+      "opponent_name": "D6Q-Holliston (lyskowski-white)"
+    },
     {
       "gameno": "45483",
       "date": "2026-03-07",
@@ -330,25 +349,5 @@
       "opponent_name": "D5H-Somerset"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45487",
-      "date": "2026-03-09",
-      "dow": "Mon",
-      "starttime": "5:15 PM",
-      "location": "Ashland Mindess School",
-      "divisionno": "7209",
-      "division_name": "6th Boys - Division 6",
-      "home_teamno": "44163",
-      "away_teamno": "45320",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44163",
-      "opponent_name": "D6Q-Holliston (lyskowski-white)"
-    }
-  ]
+  "future_games": []
 }
