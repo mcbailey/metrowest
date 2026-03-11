@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "gender": "M",
   "grade": 8,
   "divisionno": "7166",
@@ -17,12 +17,29 @@
       "pf": 921,
       "pa": 793,
       "diff": 128,
-      "sos": 1607.947,
-      "sos_adj": 1720.447,
-      "power": 1724.66,
+      "sos": 1610.219,
+      "sos_adj": 1722.719,
+      "power": 1725.228,
       "rank": 1,
       "mw_rating": 172.3,
       "mw_points": 2068
+    },
+    {
+      "teamno": "45214",
+      "name": "D1H-East Greenwich",
+      "town": null,
+      "wins": 31,
+      "losses": 2,
+      "ties": 0,
+      "pf": 2010,
+      "pa": 1448,
+      "diff": 562,
+      "sos": 1537.988,
+      "sos_adj": 1578.897,
+      "power": 1721.139,
+      "rank": 2,
+      "mw_rating": 205.4,
+      "mw_points": 1849
     },
     {
       "teamno": "43586",
@@ -37,26 +54,9 @@
       "sos": 1631.469,
       "sos_adj": 1761.469,
       "power": 1705.917,
-      "rank": 2,
+      "rank": 3,
       "mw_rating": 160.1,
       "mw_points": 2241
-    },
-    {
-      "teamno": "45214",
-      "name": "D1H-East Greenwich",
-      "town": null,
-      "wins": 26,
-      "losses": 2,
-      "ties": 0,
-      "pf": 1726,
-      "pa": 1271,
-      "diff": 455,
-      "sos": 1546.07,
-      "sos_adj": 1594.284,
-      "power": 1697.73,
-      "rank": 3,
-      "mw_rating": 202.9,
-      "mw_points": 1826
     },
     {
       "teamno": "43414",
@@ -68,9 +68,9 @@
       "pf": 786,
       "pa": 685,
       "diff": 101,
-      "sos": 1659.736,
-      "sos_adj": 1809.736,
-      "power": 1696.438,
+      "sos": 1662.765,
+      "sos_adj": 1812.765,
+      "power": 1697.195,
       "rank": 4,
       "mw_rating": 164.0,
       "mw_points": 1968
@@ -102,9 +102,9 @@
       "pf": 783,
       "pa": 794,
       "diff": -11,
-      "sos": 1636.758,
-      "sos_adj": 1770.092,
-      "power": 1667.845,
+      "sos": 1639.181,
+      "sos_adj": 1772.514,
+      "power": 1668.451,
       "rank": 6,
       "mw_rating": 135.3,
       "mw_points": 1624
@@ -119,12 +119,12 @@
       "pf": 947,
       "pa": 1005,
       "diff": -58,
-      "sos": 1637.893,
-      "sos_adj": 1768.449,
-      "power": 1651.009,
+      "sos": 1639.912,
+      "sos_adj": 1770.468,
+      "power": 1651.514,
       "rank": 7,
-      "mw_rating": 162.3,
-      "mw_points": 2110
+      "mw_rating": 162.7,
+      "mw_points": 2115
     }
   ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "43467",
   "team_name": "D6T-Winchester (black)",
   "town": null,
   "summary": {
     "wins": 19,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 846,
-    "pa": 456,
-    "diff": 390,
-    "sos": 1401.717,
-    "sos_adj": 1308.859,
-    "power": 1481.289,
+    "pf": 889,
+    "pa": 508,
+    "diff": 381,
+    "sos": 1406.891,
+    "sos_adj": 1315.982,
+    "power": 1454.209,
     "rank": 1,
-    "mw_rating": 37.3,
-    "mw_points": 447,
+    "mw_rating": 35.3,
+    "mw_points": 459,
     "divisionno": "7589",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 21,
-    "games_scheduled_total": 1
+    "games_played_total": 22,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45023",
+      "date": "2026-03-08",
+      "dow": "Sun",
+      "starttime": "10:45 AM",
+      "location": "Sudbury Fieldhouse-Court 2",
+      "divisionno": "7589",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "43467",
+      "away_teamno": "45511",
+      "home_score": 43,
+      "away_score": 52,
+      "team_score": 43,
+      "opponent_score": 52,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45511",
+      "opponent_name": "D5T-Everett"
+    },
     {
       "gameno": "385724",
       "date": "2026-03-01",
@@ -425,25 +444,5 @@
       "opponent_name": "D7T-Watertown (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45023",
-      "date": "2026-03-08",
-      "dow": "Sun",
-      "starttime": "10:45 AM",
-      "location": "Sudbury Fieldhouse-Court 2",
-      "divisionno": "7589",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "43467",
-      "away_teamno": "45511",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45511",
-      "opponent_name": "D5T-Everett"
-    }
-  ]
+  "future_games": []
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "43149",
   "team_name": "D5J-Dighton-Rehoboth (white)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 484,
-    "pa": 618,
-    "diff": -134,
-    "sos": 1463.69,
-    "sos_adj": 1413.69,
-    "power": 1420.164,
+    "pf": 506,
+    "pa": 665,
+    "diff": -159,
+    "sos": 1463.033,
+    "sos_adj": 1409.462,
+    "power": 1389.219,
     "rank": 5,
-    "mw_rating": 27.2,
-    "mw_points": 353,
+    "mw_rating": 25.6,
+    "mw_points": 359,
     "divisionno": "7213",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45473",
+      "date": "2026-03-10",
+      "dow": "Tue",
+      "starttime": "5:15 PM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7205",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "44422",
+      "away_teamno": "43149",
+      "home_score": 47,
+      "away_score": 22,
+      "team_score": 22,
+      "opponent_score": 47,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44422",
+      "opponent_name": "D6H-Norton (white)"
+    },
     {
       "gameno": "45470",
       "date": "2026-03-08",
@@ -273,25 +292,5 @@
       "opponent_name": "D5J-Berkley"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45473",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "5:15 PM",
-      "location": "Mass Premier - 4",
-      "divisionno": "7205",
-      "division_name": "6th Boys - Division 6",
-      "home_teamno": "44422",
-      "away_teamno": "43149",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44422",
-      "opponent_name": "D6H-Norton (white)"
-    }
-  ]
+  "future_games": []
 }

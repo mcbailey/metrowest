@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "gender": "M",
   "grade": 4,
   "divisionno": "7582",
@@ -17,29 +17,29 @@
       "pf": 571,
       "pa": 438,
       "diff": 133,
-      "sos": 1459.546,
-      "sos_adj": 1415.796,
-      "power": 1505.189,
+      "sos": 1458.152,
+      "sos_adj": 1414.402,
+      "power": 1504.84,
       "rank": 1,
       "mw_rating": 47.4,
-      "mw_points": 663
+      "mw_points": 664
     },
     {
       "teamno": "43783",
       "name": "D5R-Millis (maroon)",
       "town": null,
       "wins": 6,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 468,
-      "pa": 489,
-      "diff": -21,
-      "sos": 1475.691,
-      "sos_adj": 1436.405,
-      "power": 1491.82,
+      "pf": 502,
+      "pa": 528,
+      "diff": -26,
+      "sos": 1477.504,
+      "sos_adj": 1434.17,
+      "power": 1468.133,
       "rank": 2,
-      "mw_rating": 37.0,
-      "mw_points": 518
+      "mw_rating": 34.9,
+      "mw_points": 524
     },
     {
       "teamno": "45328",
@@ -51,12 +51,12 @@
       "pf": 727,
       "pa": 673,
       "diff": 54,
-      "sos": 1478.787,
-      "sos_adj": 1452.787,
-      "power": 1457.878,
+      "sos": 1475.427,
+      "sos_adj": 1449.427,
+      "power": 1457.038,
       "rank": 3,
-      "mw_rating": 32.5,
-      "mw_points": 423
+      "mw_rating": 32.6,
+      "mw_points": 424
     },
     {
       "teamno": "44516",
@@ -68,12 +68,12 @@
       "pf": 334,
       "pa": 338,
       "diff": -4,
-      "sos": 1472.735,
-      "sos_adj": 1438.12,
-      "power": 1452.863,
+      "sos": 1471.019,
+      "sos_adj": 1436.404,
+      "power": 1452.434,
       "rank": 4,
-      "mw_rating": 35.1,
-      "mw_points": 421
+      "mw_rating": 35.3,
+      "mw_points": 423
     },
     {
       "teamno": "43598",
@@ -90,7 +90,24 @@
       "power": 1451.514,
       "rank": 5,
       "mw_rating": 31.9,
-      "mw_points": 414
+      "mw_points": 415
+    },
+    {
+      "teamno": "43192",
+      "name": "D5R-Bellingham (josh)",
+      "town": null,
+      "wins": 5,
+      "losses": 10,
+      "ties": 0,
+      "pf": 400,
+      "pa": 449,
+      "diff": -49,
+      "sos": 1443.338,
+      "sos_adj": 1383.338,
+      "power": 1444.773,
+      "rank": 6,
+      "mw_rating": 23.9,
+      "mw_points": 359
     },
     {
       "teamno": "43687",
@@ -102,29 +119,12 @@
       "pf": 431,
       "pa": 390,
       "diff": 41,
-      "sos": 1470.555,
-      "sos_adj": 1427.698,
-      "power": 1443.47,
-      "rank": 6,
-      "mw_rating": 43.7,
-      "mw_points": 524
-    },
-    {
-      "teamno": "43192",
-      "name": "D5R-Bellingham (josh)",
-      "town": null,
-      "wins": 4,
-      "losses": 10,
-      "ties": 0,
-      "pf": 366,
-      "pa": 417,
-      "diff": -51,
-      "sos": 1446.063,
-      "sos_adj": 1388.92,
-      "power": 1439.773,
+      "sos": 1468.962,
+      "sos_adj": 1426.105,
+      "power": 1443.072,
       "rank": 7,
-      "mw_rating": 22.9,
-      "mw_points": 320
+      "mw_rating": 43.8,
+      "mw_points": 526
     },
     {
       "teamno": "44901",
@@ -136,12 +136,12 @@
       "pf": 369,
       "pa": 463,
       "diff": -94,
-      "sos": 1461.252,
-      "sos_adj": 1411.252,
-      "power": 1412.001,
+      "sos": 1459.659,
+      "sos_adj": 1409.659,
+      "power": 1411.603,
       "rank": 8,
-      "mw_rating": 27.6,
-      "mw_points": 386
+      "mw_rating": 27.7,
+      "mw_points": 388
     },
     {
       "teamno": "44200",

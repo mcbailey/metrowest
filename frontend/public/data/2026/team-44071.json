@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "44071",
   "team_name": "D5W-Watertown (white)",
   "town": null,
@@ -354,8 +354,8 @@
       "gameno": "45606",
       "date": "2026-03-12",
       "dow": "Thu",
-      "starttime": "7:45 PM",
-      "location": "Mansfield Fieldhouse -2",
+      "starttime": "6:30 PM",
+      "location": "Watertown Middle School",
       "divisionno": "7186",
       "division_name": "7th Boys - Division 5",
       "home_teamno": "44071",

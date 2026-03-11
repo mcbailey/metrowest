@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "45325",
   "team_name": "D4J-Milton (silver)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 5,
     "gender": "M",
     "games_played_total": 26,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -558,6 +558,25 @@
       "is_home": true,
       "opponent_teamno": "47263",
       "opponent_name": "Halifax (D3 SSYBL)"
+    },
+    {
+      "gameno": "47203",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "2:50 PM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7300",
+      "division_name": "5th Boys - Division 4",
+      "home_teamno": "45325",
+      "away_teamno": "45085",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45085",
+      "opponent_name": "D4M-Framingham (navy)"
     }
   ]
 }

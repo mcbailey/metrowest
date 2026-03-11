@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "44056",
   "team_name": "D4M-Wellesley (b)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 661,
-    "pa": 619,
-    "diff": 42,
-    "sos": 1523.972,
-    "sos_adj": 1539.356,
-    "power": 1524.152,
-    "rank": 1,
-    "mw_rating": 68.4,
-    "mw_points": 889,
+    "pf": 694,
+    "pa": 663,
+    "diff": 31,
+    "sos": 1527.795,
+    "sos_adj": 1545.652,
+    "power": 1510.411,
+    "rank": 3,
+    "mw_rating": 66.7,
+    "mw_points": 934,
     "divisionno": "7224",
     "division_name": "6th Boys - Division 4",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45355",
+      "date": "2026-03-10",
+      "dow": "Tue",
+      "starttime": "7:45 PM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7224",
+      "division_name": "6th Boys - Division 4",
+      "home_teamno": "44056",
+      "away_teamno": "43936",
+      "home_score": 33,
+      "away_score": 44,
+      "team_score": 33,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43936",
+      "opponent_name": "D3M-Brookline (white)"
+    },
     {
       "gameno": "45353",
       "date": "2026-03-08",
@@ -273,25 +292,5 @@
       "opponent_name": "D4M-Newton (orange)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45355",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "7:45 PM",
-      "location": "Ashland Mindess School",
-      "divisionno": "7224",
-      "division_name": "6th Boys - Division 4",
-      "home_teamno": "44056",
-      "away_teamno": "43936",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43936",
-      "opponent_name": "D3M-Brookline (white)"
-    }
-  ]
+  "future_games": []
 }

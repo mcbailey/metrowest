@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "45753",
   "team_name": "D4Q-Lexington (blue)",
   "town": null,
   "summary": {
     "wins": 17,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 826,
-    "pa": 536,
-    "diff": 290,
-    "sos": 1526.223,
-    "sos_adj": 1563.065,
-    "power": 1635.949,
+    "pf": 863,
+    "pa": 580,
+    "diff": 283,
+    "sos": 1528.015,
+    "sos_adj": 1565.515,
+    "power": 1616.749,
     "rank": 1,
-    "mw_rating": 97.2,
-    "mw_points": 1263,
+    "mw_rating": 93.4,
+    "mw_points": 1308,
     "divisionno": "7301",
     "division_name": "5th Boys - Division 4",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45132",
+      "date": "2026-03-10",
+      "dow": "Tue",
+      "starttime": "6:30 PM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7301",
+      "division_name": "5th Boys - Division 4",
+      "home_teamno": "45753",
+      "away_teamno": "44061",
+      "home_score": 37,
+      "away_score": 44,
+      "team_score": 37,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44061",
+      "opponent_name": "D3K-Wellesley ((a))"
+    },
     {
       "gameno": "45130",
       "date": "2026-03-08",
@@ -387,25 +406,5 @@
       "opponent_name": "D4M-Southboro (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45132",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "6:30 PM",
-      "location": "Dana Barros - 5",
-      "divisionno": "7301",
-      "division_name": "5th Boys - Division 4",
-      "home_teamno": "45753",
-      "away_teamno": "44061",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44061",
-      "opponent_name": "D3K-Wellesley ((a))"
-    }
-  ]
+  "future_games": []
 }

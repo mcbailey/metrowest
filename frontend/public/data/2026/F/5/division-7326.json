@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "gender": "F",
   "grade": 5,
   "divisionno": "7326",
@@ -17,29 +17,29 @@
       "pf": 370,
       "pa": 316,
       "diff": 54,
-      "sos": 1543.98,
-      "sos_adj": 1593.98,
-      "power": 1621.709,
+      "sos": 1545.845,
+      "sos_adj": 1595.845,
+      "power": 1616.104,
       "rank": 1,
-      "mw_rating": 96.1,
-      "mw_points": 1346
+      "mw_rating": 96.2,
+      "mw_points": 1347
     },
     {
       "teamno": "45054",
       "name": "D3J-Medfield (hatten)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 8,
       "ties": 0,
-      "pf": 336,
-      "pa": 289,
-      "diff": 47,
-      "sos": 1531.902,
-      "sos_adj": 1570.364,
-      "power": 1582.587,
+      "pf": 374,
+      "pa": 306,
+      "diff": 68,
+      "sos": 1528.57,
+      "sos_adj": 1564.284,
+      "power": 1591.585,
       "rank": 2,
-      "mw_rating": 63.4,
-      "mw_points": 761
+      "mw_rating": 65.1,
+      "mw_points": 846
     },
     {
       "teamno": "44343",
@@ -51,12 +51,12 @@
       "pf": 326,
       "pa": 296,
       "diff": 30,
-      "sos": 1556.555,
-      "sos_adj": 1599.412,
-      "power": 1571.337,
+      "sos": 1556.449,
+      "sos_adj": 1599.306,
+      "power": 1570.412,
       "rank": 3,
-      "mw_rating": 81.2,
-      "mw_points": 1137
+      "mw_rating": 81.3,
+      "mw_points": 1138
     },
     {
       "teamno": "44241",
@@ -68,12 +68,12 @@
       "pf": 434,
       "pa": 393,
       "diff": 41,
-      "sos": 1570.754,
-      "sos_adj": 1630.754,
-      "power": 1570.591,
+      "sos": 1569.679,
+      "sos_adj": 1629.679,
+      "power": 1570.282,
       "rank": 4,
       "mw_rating": 97.5,
-      "mw_points": 1267
+      "mw_points": 1268
     },
     {
       "teamno": "44386",
@@ -85,12 +85,12 @@
       "pf": 551,
       "pa": 472,
       "diff": 79,
-      "sos": 1536.864,
-      "sos_adj": 1566.864,
-      "power": 1519.281,
+      "sos": 1537.062,
+      "sos_adj": 1567.062,
+      "power": 1522.824,
       "rank": 5,
-      "mw_rating": 70.7,
-      "mw_points": 919
+      "mw_rating": 70.8,
+      "mw_points": 920
     },
     {
       "teamno": "43777",
@@ -102,12 +102,12 @@
       "pf": 242,
       "pa": 348,
       "diff": -106,
-      "sos": 1554.19,
-      "sos_adj": 1600.023,
-      "power": 1483.694,
+      "sos": 1556.303,
+      "sos_adj": 1602.136,
+      "power": 1492.103,
       "rank": 6,
-      "mw_rating": 50.4,
-      "mw_points": 605
+      "mw_rating": 50.5,
+      "mw_points": 606
     }
   ]
 }

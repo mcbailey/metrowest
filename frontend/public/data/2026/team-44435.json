@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "44435",
   "team_name": "D5T-Bedford (blue)",
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 628,
-    "pa": 538,
-    "diff": 90,
-    "sos": 1489.414,
-    "sos_adj": 1472.747,
-    "power": 1516.999,
+    "pf": 666,
+    "pa": 584,
+    "diff": 82,
+    "sos": 1496.453,
+    "sos_adj": 1478.032,
+    "power": 1506.015,
     "rank": 4,
-    "mw_rating": 43.8,
-    "mw_points": 613,
+    "mw_rating": 41.5,
+    "mw_points": 623,
     "divisionno": "7583",
     "division_name": "4th Boys - Division 5",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44971",
+      "date": "2026-03-10",
+      "dow": "Tue",
+      "starttime": "5:25 PM",
+      "location": "Hopkinton Brown Gym",
+      "divisionno": "7583",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "44435",
+      "away_teamno": "45084",
+      "home_score": 38,
+      "away_score": 46,
+      "team_score": 38,
+      "opponent_score": 46,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45084",
+      "opponent_name": "D5T-Framingham (navy)"
+    },
     {
       "gameno": "44968",
       "date": "2026-03-08",
@@ -368,25 +387,5 @@
       "opponent_name": "D5R-Parkway  (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44971",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "5:25 PM",
-      "location": "Hopkinton Brown Gym",
-      "divisionno": "7583",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "44435",
-      "away_teamno": "45084",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45084",
-      "opponent_name": "D5T-Framingham (navy)"
-    }
-  ]
+  "future_games": []
 }

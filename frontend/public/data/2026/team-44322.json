@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "44322",
   "team_name": "D7T-Medway (red)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 13,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -273,5 +273,25 @@
       "opponent_name": "D7V-Lexington (gold)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "47069",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "12:40 PM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7594",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44354",
+      "away_teamno": "44322",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44354",
+      "opponent_name": "D6R-Belmont (white)"
+    }
+  ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "45765",
   "team_name": "D6W-Lexington (white)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 591,
-    "pa": 629,
-    "diff": -38,
-    "sos": 1408.479,
-    "sos_adj": 1314.034,
-    "power": 1389.128,
+    "pf": 631,
+    "pa": 671,
+    "diff": -40,
+    "sos": 1410.797,
+    "sos_adj": 1316.06,
+    "power": 1381.358,
     "rank": 3,
-    "mw_rating": 25.0,
-    "mw_points": 300,
+    "mw_rating": 23.5,
+    "mw_points": 306,
     "divisionno": "7143",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45823",
+      "date": "2026-03-10",
+      "dow": "Tue",
+      "starttime": "7:00 PM",
+      "location": "McGlynn Middle School",
+      "divisionno": "7143",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "45765",
+      "away_teamno": "45306",
+      "home_score": 40,
+      "away_score": 42,
+      "team_score": 40,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45306",
+      "opponent_name": "D6T-Medford (gray)"
+    },
     {
       "gameno": "45822",
       "date": "2026-03-08",
@@ -368,25 +387,5 @@
       "opponent_name": "D5R-Bedford (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45823",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "7:00 PM",
-      "location": "McGlynn Middle School",
-      "divisionno": "7143",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "45765",
-      "away_teamno": "45306",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45306",
-      "opponent_name": "D6T-Medford (gray)"
-    }
-  ]
+  "future_games": []
 }

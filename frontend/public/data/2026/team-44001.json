@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "44001",
   "team_name": "D3M-Chelsea",
   "town": null,
   "summary": {
-    "wins": 3,
+    "wins": 4,
     "losses": 11,
     "ties": 0,
-    "pf": 558,
-    "pa": 647,
-    "diff": -89,
-    "sos": 1544.998,
-    "sos_adj": 1584.284,
-    "power": 1530.593,
-    "rank": 6,
-    "mw_rating": 53.6,
-    "mw_points": 751,
+    "pf": 602,
+    "pa": 671,
+    "diff": -69,
+    "sos": 1540.382,
+    "sos_adj": 1577.049,
+    "power": 1546.968,
+    "rank": 4,
+    "mw_rating": 55.6,
+    "mw_points": 834,
     "divisionno": "7196",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45547",
+      "date": "2026-03-10",
+      "dow": "Tue",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 3",
+      "divisionno": "7191",
+      "division_name": "7th Boys - Division 4",
+      "home_teamno": "44001",
+      "away_teamno": "43744",
+      "home_score": 44,
+      "away_score": 24,
+      "team_score": 44,
+      "opponent_score": 24,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43744",
+      "opponent_name": "D4M-Needham (blue)"
+    },
     {
       "gameno": "45545",
       "date": "2026-03-08",
@@ -292,25 +311,5 @@
       "opponent_name": "D3K-Milford (red-calzolaio)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45547",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "7:45 PM",
-      "location": "Dana Barros - 3",
-      "divisionno": "7191",
-      "division_name": "7th Boys - Division 4",
-      "home_teamno": "44001",
-      "away_teamno": "43744",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43744",
-      "opponent_name": "D4M-Needham (blue)"
-    }
-  ]
+  "future_games": []
 }

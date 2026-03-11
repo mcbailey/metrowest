@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "43204",
   "team_name": "D5J-FLBC (blue)",
   "town": null,
   "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 9,
     "ties": 0,
-    "pf": 482,
-    "pa": 581,
-    "diff": -99,
-    "sos": 1458.907,
-    "sos_adj": 1405.335,
-    "power": 1439.203,
+    "pf": 522,
+    "pa": 615,
+    "diff": -93,
+    "sos": 1451.346,
+    "sos_adj": 1394.68,
+    "power": 1447.524,
     "rank": 4,
-    "mw_rating": 26.4,
-    "mw_points": 343,
+    "mw_rating": 27.4,
+    "mw_points": 384,
     "divisionno": "7213",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45472",
+      "date": "2026-03-10",
+      "dow": "Tue",
+      "starttime": "5:15 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7205",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "43204",
+      "away_teamno": "43108",
+      "home_score": 40,
+      "away_score": 34,
+      "team_score": 40,
+      "opponent_score": 34,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43108",
+      "opponent_name": "D6H-Seekonk (gertrudes)"
+    },
     {
       "gameno": "45469",
       "date": "2026-03-08",
@@ -292,25 +311,5 @@
       "opponent_name": "D5J-Middleborough (terrasi)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45472",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "5:15 PM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7205",
-      "division_name": "6th Boys - Division 6",
-      "home_teamno": "43204",
-      "away_teamno": "43108",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43108",
-      "opponent_name": "D6H-Seekonk (gertrudes)"
-    }
-  ]
+  "future_games": []
 }

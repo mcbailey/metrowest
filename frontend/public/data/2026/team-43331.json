@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "43331",
   "team_name": "D5H-Mansfield (green)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 586,
-    "pa": 648,
-    "diff": -62,
-    "sos": 1449.426,
-    "sos_adj": 1396.092,
-    "power": 1441.222,
-    "rank": 5,
-    "mw_rating": 30.1,
-    "mw_points": 422,
+    "pf": 617,
+    "pa": 693,
+    "diff": -76,
+    "sos": 1450.758,
+    "sos_adj": 1397.633,
+    "power": 1422.475,
+    "rank": 6,
+    "mw_rating": 28.8,
+    "mw_points": 432,
     "divisionno": "7145",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45786",
+      "date": "2026-03-10",
+      "dow": "Tue",
+      "starttime": "7:55 PM",
+      "location": "Hopkinton Doyle Gym",
+      "divisionno": "7149",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "43331",
+      "away_teamno": "43376",
+      "home_score": 31,
+      "away_score": 45,
+      "team_score": 31,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43376",
+      "opponent_name": "D5Q-Natick"
+    },
     {
       "gameno": "45784",
       "date": "2026-03-08",
@@ -311,25 +330,5 @@
       "opponent_name": "D6H-Taunton (hibbard)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45786",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "7:55 PM",
-      "location": "Hopkinton Doyle Gym",
-      "divisionno": "7149",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "43331",
-      "away_teamno": "43376",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43376",
-      "opponent_name": "D5Q-Natick"
-    }
-  ]
+  "future_games": []
 }

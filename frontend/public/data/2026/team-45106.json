@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "45106",
   "team_name": "D6M-Framingham (white)",
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pf": 648,
-    "pa": 475,
-    "diff": 173,
-    "sos": 1387.312,
-    "sos_adj": 1287.312,
-    "power": 1455.402,
+    "pf": 694,
+    "pa": 524,
+    "diff": 170,
+    "sos": 1395.654,
+    "sos_adj": 1299.225,
+    "power": 1439.178,
     "rank": 1,
-    "mw_rating": 31.9,
-    "mw_points": 414,
+    "mw_rating": 30.4,
+    "mw_points": 425,
     "divisionno": "7140",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45785",
+      "date": "2026-03-10",
+      "dow": "Tue",
+      "starttime": "6:30 PM",
+      "location": "Mansfield Fieldhouse -1",
+      "divisionno": "7140",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "45106",
+      "away_teamno": "44381",
+      "home_score": 46,
+      "away_score": 49,
+      "team_score": 46,
+      "opponent_score": 49,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44381",
+      "opponent_name": "D5Q-Westborough"
+    },
     {
       "gameno": "45782",
       "date": "2026-03-08",
@@ -273,25 +292,5 @@
       "opponent_name": "D6K-Parkway  (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45785",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "6:30 PM",
-      "location": "Mansfield Fieldhouse -1",
-      "divisionno": "7140",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "45106",
-      "away_teamno": "44381",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44381",
-      "opponent_name": "D5Q-Westborough"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "gender": "M",
   "grade": 4,
   "divisionno": "7576",
@@ -34,12 +34,12 @@
       "pf": 1034,
       "pa": 685,
       "diff": 349,
-      "sos": 1606.592,
-      "sos_adj": 1712.361,
-      "power": 1716.566,
+      "sos": 1606.987,
+      "sos_adj": 1712.756,
+      "power": 1716.665,
       "rank": 2,
       "mw_rating": 152.6,
-      "mw_points": 2136
+      "mw_points": 2137
     },
     {
       "teamno": "44718",
@@ -68,12 +68,12 @@
       "pf": 500,
       "pa": 439,
       "diff": 61,
-      "sos": 1652.239,
-      "sos_adj": 1798.667,
-      "power": 1691.164,
+      "sos": 1653.706,
+      "sos_adj": 1800.135,
+      "power": 1691.531,
       "rank": 4,
-      "mw_rating": 125.5,
-      "mw_points": 1632
+      "mw_rating": 125.7,
+      "mw_points": 1634
     },
     {
       "teamno": "43711",
@@ -85,12 +85,12 @@
       "pf": 560,
       "pa": 570,
       "diff": -10,
-      "sos": 1630.507,
-      "sos_adj": 1758.285,
-      "power": 1678.731,
+      "sos": 1631.078,
+      "sos_adj": 1758.855,
+      "power": 1678.874,
       "rank": 5,
-      "mw_rating": 111.8,
-      "mw_points": 1453
+      "mw_rating": 111.9,
+      "mw_points": 1454
     },
     {
       "teamno": "44761",
@@ -102,12 +102,12 @@
       "pf": 655,
       "pa": 697,
       "diff": -42,
-      "sos": 1655.015,
-      "sos_adj": 1788.348,
-      "power": 1650.182,
+      "sos": 1655.504,
+      "sos_adj": 1788.837,
+      "power": 1650.304,
       "rank": 6,
       "mw_rating": 111.9,
-      "mw_points": 1566
+      "mw_points": 1567
     },
     {
       "teamno": "44353",
@@ -119,9 +119,9 @@
       "pf": 920,
       "pa": 949,
       "diff": -29,
-      "sos": 1549.5,
-      "sos_adj": 1595.797,
-      "power": 1646.641,
+      "sos": 1549.881,
+      "sos_adj": 1596.177,
+      "power": 1646.736,
       "rank": 7,
       "mw_rating": 79.1,
       "mw_points": 1028
@@ -130,18 +130,18 @@
       "teamno": "44058",
       "name": "D2P-Brookline (red)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 12,
       "ties": 0,
-      "pf": 422,
-      "pa": 582,
-      "diff": -160,
-      "sos": 1609.438,
-      "sos_adj": 1725.063,
-      "power": 1636.764,
+      "pf": 458,
+      "pa": 611,
+      "diff": -153,
+      "sos": 1599.455,
+      "sos_adj": 1705.337,
+      "power": 1639.538,
       "rank": 8,
-      "mw_rating": 71.5,
-      "mw_points": 929
+      "mw_rating": 70.4,
+      "mw_points": 985
     }
   ]
 }

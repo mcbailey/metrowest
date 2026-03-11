@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "44466",
   "team_name": "D5J-Walpole (b)",
   "town": null,
   "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 6,
     "ties": 0,
-    "pf": 449,
-    "pa": 434,
-    "diff": 15,
-    "sos": 1454.722,
-    "sos_adj": 1396.389,
-    "power": 1439.442,
+    "pf": 487,
+    "pa": 467,
+    "diff": 20,
+    "sos": 1451.802,
+    "sos_adj": 1394.11,
+    "power": 1451.259,
     "rank": 5,
-    "mw_rating": 31.8,
-    "mw_points": 382,
+    "mw_rating": 34.1,
+    "mw_points": 443,
     "divisionno": "7180",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45621",
+      "date": "2026-03-10",
+      "dow": "Tue",
+      "starttime": "7:45 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7180",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "44466",
+      "away_teamno": "43482",
+      "home_score": 38,
+      "away_score": 33,
+      "team_score": 38,
+      "opponent_score": 33,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43482",
+      "opponent_name": "D5H-Rochester (white)"
+    },
     {
       "gameno": "45618",
       "date": "2026-03-08",
@@ -254,25 +273,5 @@
       "opponent_name": "D5H-Attleboro (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45621",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "7:45 PM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7180",
-      "division_name": "7th Boys - Division 5",
-      "home_teamno": "44466",
-      "away_teamno": "43482",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43482",
-      "opponent_name": "D5H-Rochester (white)"
-    }
-  ]
+  "future_games": []
 }

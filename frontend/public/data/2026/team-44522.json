@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "44522",
   "team_name": "D3K-Milford (red-calzolaio)",
   "town": null,
@@ -15,14 +15,14 @@
     "sos_adj": 1571.59,
     "power": 1604.058,
     "rank": 3,
-    "mw_rating": 96.3,
-    "mw_points": 1348,
+    "mw_rating": 96.4,
+    "mw_points": 1349,
     "divisionno": "7195",
     "division_name": "7th Boys - Division 3",
     "grade": 7,
     "gender": "M",
     "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -349,6 +349,25 @@
       "is_home": false,
       "opponent_teamno": "45665",
       "opponent_name": "D3M-Malden"
+    },
+    {
+      "gameno": "47144",
+      "date": "2026-03-13",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7195",
+      "division_name": "7th Boys - Division 3",
+      "home_teamno": "44522",
+      "away_teamno": "44642",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44642",
+      "opponent_name": "D3H-Attleboro (blue)"
     }
   ]
 }

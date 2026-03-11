@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-10",
+  "snapshot_date": "2026-03-11",
   "teamno": "43432",
   "team_name": "D5H-Westport (frias)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 514,
-    "pa": 603,
-    "diff": -89,
-    "sos": 1441.753,
-    "sos_adj": 1384.61,
-    "power": 1425.814,
+    "pf": 538,
+    "pa": 654,
+    "diff": -116,
+    "sos": 1445.782,
+    "sos_adj": 1389.115,
+    "power": 1409.865,
     "rank": 4,
-    "mw_rating": 27.1,
-    "mw_points": 380,
+    "mw_rating": 26.0,
+    "mw_points": 390,
     "divisionno": "7212",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45444",
+      "date": "2026-03-10",
+      "dow": "Tue",
+      "starttime": "7:45 PM",
+      "location": "Mass Premier - 1",
+      "divisionno": "7213",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43289",
+      "away_teamno": "43432",
+      "home_score": 51,
+      "away_score": 24,
+      "team_score": 24,
+      "opponent_score": 51,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43289",
+      "opponent_name": "D5J-Middleborough (terrasi)"
+    },
     {
       "gameno": "45442",
       "date": "2026-03-08",
@@ -292,25 +311,5 @@
       "opponent_name": "D5H-Barnstable  (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45444",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "7:45 PM",
-      "location": "Mass Premier - 1",
-      "divisionno": "7213",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "43289",
-      "away_teamno": "43432",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43289",
-      "opponent_name": "D5J-Middleborough (terrasi)"
-    }
-  ]
+  "future_games": []
 }
