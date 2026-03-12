@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "43700",
   "team_name": "D6J-Sharon (maroon-sekuler)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 493,
-    "pa": 421,
-    "diff": 72,
-    "sos": 1414.338,
-    "sos_adj": 1333.569,
-    "power": 1406.501,
+    "pf": 523,
+    "pa": 462,
+    "diff": 61,
+    "sos": 1418.836,
+    "sos_adj": 1340.265,
+    "power": 1390.154,
     "rank": 1,
-    "mw_rating": 25.8,
-    "mw_points": 310,
+    "mw_rating": 24.6,
+    "mw_points": 320,
     "divisionno": "7174",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45680",
+      "date": "2026-03-10",
+      "dow": "Tue",
+      "starttime": "7:45 PM",
+      "location": "Mansfield Fieldhouse -2",
+      "divisionno": "7174",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "45317",
+      "away_teamno": "43700",
+      "home_score": 41,
+      "away_score": 30,
+      "team_score": 30,
+      "opponent_score": 41,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45317",
+      "opponent_name": "D5Q-Milton (black)"
+    },
     {
       "gameno": "45676",
       "date": "2026-03-08",
@@ -273,25 +292,5 @@
       "opponent_name": "D6K-Westwood"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45680",
-      "date": "2026-03-10",
-      "dow": "Tue",
-      "starttime": "7:45 PM",
-      "location": "Mansfield Fieldhouse -2",
-      "divisionno": "7174",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "45317",
-      "away_teamno": "43700",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45317",
-      "opponent_name": "D5Q-Milton (black)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "gender": "F",
   "grade": 7,
   "divisionno": "7251",
@@ -17,12 +17,12 @@
       "pf": 416,
       "pa": 251,
       "diff": 165,
-      "sos": 1439.48,
-      "sos_adj": 1389.48,
-      "power": 1509.022,
+      "sos": 1442.009,
+      "sos_adj": 1392.009,
+      "power": 1502.239,
       "rank": 1,
-      "mw_rating": 53.7,
-      "mw_points": 698
+      "mw_rating": 53.8,
+      "mw_points": 699
     },
     {
       "teamno": "43646",
@@ -34,12 +34,29 @@
       "pf": 468,
       "pa": 305,
       "diff": 163,
-      "sos": 1448.4,
-      "sos_adj": 1404.65,
-      "power": 1452.403,
+      "sos": 1450.385,
+      "sos_adj": 1406.635,
+      "power": 1451.525,
       "rank": 2,
       "mw_rating": 44.2,
       "mw_points": 574
+    },
+    {
+      "teamno": "44158",
+      "name": "D5J-Holliston (cooper-red 7th)",
+      "town": null,
+      "wins": 5,
+      "losses": 10,
+      "ties": 0,
+      "pf": 299,
+      "pa": 389,
+      "diff": -90,
+      "sos": 1449.929,
+      "sos_adj": 1403.263,
+      "power": 1447.492,
+      "rank": 3,
+      "mw_rating": 28.3,
+      "mw_points": 396
     },
     {
       "teamno": "44340",
@@ -51,29 +68,12 @@
       "pf": 362,
       "pa": 347,
       "diff": 15,
-      "sos": 1453.275,
-      "sos_adj": 1410.967,
-      "power": 1435.556,
-      "rank": 3,
-      "mw_rating": 32.9,
-      "mw_points": 427
-    },
-    {
-      "teamno": "44158",
-      "name": "D5J-Holliston (cooper-red 7th)",
-      "town": null,
-      "wins": 4,
-      "losses": 10,
-      "ties": 0,
-      "pf": 274,
-      "pa": 371,
-      "diff": -97,
-      "sos": 1451.043,
-      "sos_adj": 1404.614,
-      "power": 1432.85,
+      "sos": 1455.193,
+      "sos_adj": 1412.886,
+      "power": 1436.504,
       "rank": 4,
-      "mw_rating": 26.2,
-      "mw_points": 340
+      "mw_rating": 32.9,
+      "mw_points": 428
     },
     {
       "teamno": "43896",
@@ -85,12 +85,12 @@
       "pf": 384,
       "pa": 506,
       "diff": -122,
-      "sos": 1450.643,
-      "sos_adj": 1406.893,
-      "power": 1431.929,
+      "sos": 1452.404,
+      "sos_adj": 1408.654,
+      "power": 1433.099,
       "rank": 5,
-      "mw_rating": 27.1,
-      "mw_points": 380
+      "mw_rating": 27.2,
+      "mw_points": 381
     },
     {
       "teamno": "45336",
@@ -102,9 +102,9 @@
       "pf": 301,
       "pa": 290,
       "diff": 11,
-      "sos": 1449.749,
-      "sos_adj": 1399.749,
-      "power": 1397.815,
+      "sos": 1451.251,
+      "sos_adj": 1401.251,
+      "power": 1402.153,
       "rank": 6,
       "mw_rating": 28.0,
       "mw_points": 364
@@ -119,9 +119,9 @@
       "pf": 324,
       "pa": 496,
       "diff": -172,
-      "sos": 1448.542,
-      "sos_adj": 1402.113,
-      "power": 1397.168,
+      "sos": 1450.416,
+      "sos_adj": 1403.988,
+      "power": 1401.723,
       "rank": 7,
       "mw_rating": 20.8,
       "mw_points": 291
@@ -136,12 +136,12 @@
       "pf": 307,
       "pa": 513,
       "diff": -206,
-      "sos": 1462.451,
-      "sos_adj": 1418.701,
-      "power": 1376.518,
+      "sos": 1463.031,
+      "sos_adj": 1419.281,
+      "power": 1383.229,
       "rank": 8,
-      "mw_rating": 20.9,
-      "mw_points": 272
+      "mw_rating": 21.0,
+      "mw_points": 273
     }
   ]
 }

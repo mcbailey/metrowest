@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "gender": "M",
   "grade": 8,
   "divisionno": "7167",
@@ -17,12 +17,12 @@
       "pf": 694,
       "pa": 552,
       "diff": 142,
-      "sos": 1645.6,
-      "sos_adj": 1791.433,
-      "power": 1753.929,
+      "sos": 1647.091,
+      "sos_adj": 1792.924,
+      "power": 1747.444,
       "rank": 1,
-      "mw_rating": 195.5,
-      "mw_points": 2346
+      "mw_rating": 195.6,
+      "mw_points": 2347
     },
     {
       "teamno": "44774",
@@ -34,9 +34,9 @@
       "pf": 992,
       "pa": 944,
       "diff": 48,
-      "sos": 1617.562,
-      "sos_adj": 1735.209,
-      "power": 1694.958,
+      "sos": 1617.57,
+      "sos_adj": 1735.217,
+      "power": 1692.594,
       "rank": 2,
       "mw_rating": 140.4,
       "mw_points": 1685
@@ -51,12 +51,12 @@
       "pf": 1351,
       "pa": 1185,
       "diff": 166,
-      "sos": 1626.018,
-      "sos_adj": 1752.018,
-      "power": 1688.742,
+      "sos": 1626.721,
+      "sos_adj": 1752.721,
+      "power": 1687.594,
       "rank": 3,
-      "mw_rating": 159.5,
-      "mw_points": 2233
+      "mw_rating": 159.6,
+      "mw_points": 2234
     },
     {
       "teamno": "45436",
@@ -68,12 +68,29 @@
       "pf": 747,
       "pa": 797,
       "diff": -50,
-      "sos": 1644.985,
-      "sos_adj": 1784.271,
-      "power": 1683.383,
+      "sos": 1645.673,
+      "sos_adj": 1784.959,
+      "power": 1683.574,
       "rank": 4,
-      "mw_rating": 144.0,
-      "mw_points": 1872
+      "mw_rating": 144.1,
+      "mw_points": 1873
+    },
+    {
+      "teamno": "45501",
+      "name": "D1J-Everett",
+      "town": null,
+      "wins": 5,
+      "losses": 11,
+      "ties": 0,
+      "pf": 808,
+      "pa": 865,
+      "diff": -57,
+      "sos": 1633.283,
+      "sos_adj": 1761.408,
+      "power": 1669.307,
+      "rank": 5,
+      "mw_rating": 116.3,
+      "mw_points": 1628
     },
     {
       "teamno": "43939",
@@ -85,12 +102,12 @@
       "pf": 1362,
       "pa": 1310,
       "diff": 52,
-      "sos": 1621.735,
-      "sos_adj": 1744.812,
-      "power": 1660.842,
-      "rank": 5,
-      "mw_rating": 146.6,
-      "mw_points": 1759
+      "sos": 1621.869,
+      "sos_adj": 1744.946,
+      "power": 1662.162,
+      "rank": 6,
+      "mw_rating": 146.7,
+      "mw_points": 1760
     },
     {
       "teamno": "45253",
@@ -102,29 +119,12 @@
       "pf": 937,
       "pa": 1000,
       "diff": -63,
-      "sos": 1640.488,
-      "sos_adj": 1772.841,
-      "power": 1658.505,
-      "rank": 6,
-      "mw_rating": 146.8,
-      "mw_points": 1908
-    },
-    {
-      "teamno": "45501",
-      "name": "D1J-Everett",
-      "town": null,
-      "wins": 4,
-      "losses": 11,
-      "ties": 0,
-      "pf": 740,
-      "pa": 809,
-      "diff": -69,
-      "sos": 1641.198,
-      "sos_adj": 1774.532,
-      "power": 1656.959,
+      "sos": 1640.71,
+      "sos_adj": 1773.063,
+      "power": 1660.782,
       "rank": 7,
-      "mw_rating": 115.8,
-      "mw_points": 1505
+      "mw_rating": 146.9,
+      "mw_points": 1909
     }
   ]
 }

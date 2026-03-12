@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "gender": "F",
   "grade": 6,
   "divisionno": "7279",
@@ -22,7 +22,7 @@
       "power": 1636.565,
       "rank": 1,
       "mw_rating": 109.9,
-      "mw_points": 1428
+      "mw_points": 1429
     },
     {
       "teamno": "44181",
@@ -73,7 +73,7 @@
       "power": 1557.287,
       "rank": 4,
       "mw_rating": 83.4,
-      "mw_points": 1167
+      "mw_points": 1168
     },
     {
       "teamno": "44341",

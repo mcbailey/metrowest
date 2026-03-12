@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "44964",
   "team_name": "D5M-Milford (black-orourke)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 13,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -273,5 +273,25 @@
       "opponent_name": "D5M-Medway (white)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "47141",
+      "date": "2026-03-13",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Mansfield Fieldhouse -1",
+      "divisionno": "7271",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "44157",
+      "away_teamno": "44964",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44157",
+      "opponent_name": "D5Q-Holliston (wing - white)"
+    }
+  ]
 }

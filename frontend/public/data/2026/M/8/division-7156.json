@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "gender": "M",
   "grade": 8,
   "divisionno": "7156",
@@ -17,12 +17,12 @@
       "pf": 838,
       "pa": 698,
       "diff": 140,
-      "sos": 1500.158,
-      "sos_adj": 1497.217,
-      "power": 1557.371,
+      "sos": 1501.156,
+      "sos_adj": 1498.215,
+      "power": 1557.621,
       "rank": 1,
-      "mw_rating": 60.9,
-      "mw_points": 913
+      "mw_rating": 61.0,
+      "mw_points": 915
     },
     {
       "teamno": "43997",
@@ -34,12 +34,12 @@
       "pf": 599,
       "pa": 506,
       "diff": 93,
-      "sos": 1499.107,
-      "sos_adj": 1502.678,
-      "power": 1539.615,
+      "sos": 1500.319,
+      "sos_adj": 1503.89,
+      "power": 1539.918,
       "rank": 2,
-      "mw_rating": 72.2,
-      "mw_points": 938
+      "mw_rating": 72.3,
+      "mw_points": 940
     },
     {
       "teamno": "43940",
@@ -55,8 +55,8 @@
       "sos_adj": 1472.193,
       "power": 1534.945,
       "rank": 3,
-      "mw_rating": 67.7,
-      "mw_points": 812
+      "mw_rating": 67.8,
+      "mw_points": 814
     },
     {
       "teamno": "44755",
@@ -68,29 +68,29 @@
       "pf": 1052,
       "pa": 1061,
       "diff": -9,
-      "sos": 1501.652,
-      "sos_adj": 1506.0,
-      "power": 1522.731,
+      "sos": 1502.39,
+      "sos_adj": 1506.738,
+      "power": 1522.915,
       "rank": 4,
-      "mw_rating": 58.3,
-      "mw_points": 816
+      "mw_rating": 58.4,
+      "mw_points": 818
     },
     {
       "teamno": "44780",
       "name": "D4R-Lincoln-Sudbury (red)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 6,
       "ties": 0,
-      "pf": 636,
-      "pa": 673,
-      "diff": -37,
-      "sos": 1484.907,
-      "sos_adj": 1477.764,
-      "power": 1502.887,
+      "pf": 686,
+      "pa": 712,
+      "diff": -26,
+      "sos": 1480.641,
+      "sos_adj": 1470.641,
+      "power": 1513.829,
       "rank": 5,
-      "mw_rating": 55.9,
-      "mw_points": 726
+      "mw_rating": 56.2,
+      "mw_points": 787
     },
     {
       "teamno": "43717",
@@ -102,12 +102,12 @@
       "pf": 824,
       "pa": 805,
       "diff": 19,
-      "sos": 1499.55,
-      "sos_adj": 1499.55,
-      "power": 1456.313,
+      "sos": 1500.443,
+      "sos_adj": 1500.443,
+      "power": 1456.536,
       "rank": 6,
-      "mw_rating": 49.8,
-      "mw_points": 647
+      "mw_rating": 49.9,
+      "mw_points": 648
     },
     {
       "teamno": "43434",
@@ -119,9 +119,9 @@
       "pf": 802,
       "pa": 947,
       "diff": -145,
-      "sos": 1491.417,
-      "sos_adj": 1476.417,
-      "power": 1420.353,
+      "sos": 1493.113,
+      "sos_adj": 1478.113,
+      "power": 1420.777,
       "rank": 7,
       "mw_rating": 32.6,
       "mw_points": 457

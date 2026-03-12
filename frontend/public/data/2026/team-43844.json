@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "43844",
   "team_name": "D5H-Raynham (stankewicz)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "F",
     "games_played_total": 17,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -349,5 +349,25 @@
       "opponent_name": "D3J-Parkway  (red)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "47137",
+      "date": "2026-03-13",
+      "dow": "Fri",
+      "starttime": "5:15 PM",
+      "location": "Mass Premier - 6",
+      "divisionno": "7268",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "43900",
+      "away_teamno": "43844",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "43900",
+      "opponent_name": "D5J-Canton (white)"
+    }
+  ]
 }

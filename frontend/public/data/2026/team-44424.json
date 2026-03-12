@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "44424",
   "team_name": "D4M-Norton (purple)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 633,
-    "pa": 699,
-    "diff": -66,
-    "sos": 1503.725,
-    "sos_adj": 1503.725,
-    "power": 1517.93,
+    "pf": 674,
+    "pa": 745,
+    "diff": -71,
+    "sos": 1502.022,
+    "sos_adj": 1498.897,
+    "power": 1493.639,
     "rank": 4,
-    "mw_rating": 48.3,
-    "mw_points": 628,
+    "mw_rating": 45.6,
+    "mw_points": 638,
     "divisionno": "7154",
     "division_name": "8th Boys - Division 4",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45770",
+      "date": "2026-03-11",
+      "dow": "Wed",
+      "starttime": "7:45 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7146",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "44424",
+      "away_teamno": "45310",
+      "home_score": 41,
+      "away_score": 46,
+      "team_score": 41,
+      "opponent_score": 46,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45310",
+      "opponent_name": "D5J-Milton (black)"
+    },
     {
       "gameno": "45767",
       "date": "2026-03-08",
@@ -311,25 +330,5 @@
       "opponent_name": "D4H-Middleborough (colp)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45770",
-      "date": "2026-03-11",
-      "dow": "Wed",
-      "starttime": "7:45 PM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7146",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "44424",
-      "away_teamno": "45310",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45310",
-      "opponent_name": "D5J-Milton (black)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "44001",
   "team_name": "D3M-Chelsea",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 7,
     "gender": "M",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "D3K-Milford (red-calzolaio)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "47146",
+      "date": "2026-03-13",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7189",
+      "division_name": "7th Boys - Division 4",
+      "home_teamno": "44001",
+      "away_teamno": "45583",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "45583",
+      "opponent_name": "D4J-Stoughton"
+    }
+  ]
 }

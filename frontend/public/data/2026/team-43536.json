@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "43536",
   "team_name": "D3M-Northboro (red)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 10,
     "ties": 0,
-    "pf": 740,
-    "pa": 742,
-    "diff": -2,
-    "sos": 1571.442,
-    "sos_adj": 1642.03,
-    "power": 1571.458,
+    "pf": 784,
+    "pa": 785,
+    "diff": -1,
+    "sos": 1574.283,
+    "sos_adj": 1643.727,
+    "power": 1578.029,
     "rank": 2,
-    "mw_rating": 94.1,
-    "mw_points": 1223,
+    "mw_rating": 95.9,
+    "mw_points": 1342,
     "divisionno": "7228",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45325",
+      "date": "2026-03-11",
+      "dow": "Wed",
+      "starttime": "6:30 PM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7228",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "44713",
+      "away_teamno": "43536",
+      "home_score": 43,
+      "away_score": 44,
+      "team_score": 44,
+      "opponent_score": 43,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44713",
+      "opponent_name": "D3M-Weston"
+    },
     {
       "gameno": "45322",
       "date": "2026-03-07",
@@ -349,25 +368,5 @@
       "opponent_name": "D1J-Natick"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45325",
-      "date": "2026-03-11",
-      "dow": "Wed",
-      "starttime": "6:30 PM",
-      "location": "Dana Barros - 2",
-      "divisionno": "7228",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "44713",
-      "away_teamno": "43536",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44713",
-      "opponent_name": "D3M-Weston"
-    }
-  ]
+  "future_games": []
 }

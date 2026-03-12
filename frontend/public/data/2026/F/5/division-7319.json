@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "gender": "F",
   "grade": 5,
   "divisionno": "7319",
@@ -17,12 +17,12 @@
       "pf": 463,
       "pa": 280,
       "diff": 183,
-      "sos": 1524.45,
-      "sos_adj": 1543.2,
-      "power": 1625.78,
+      "sos": 1522.58,
+      "sos_adj": 1541.33,
+      "power": 1613.814,
       "rank": 1,
-      "mw_rating": 90.4,
-      "mw_points": 1356
+      "mw_rating": 90.5,
+      "mw_points": 1357
     },
     {
       "teamno": "44816",
@@ -34,12 +34,12 @@
       "pf": 428,
       "pa": 348,
       "diff": 80,
-      "sos": 1520.12,
-      "sos_adj": 1520.12,
-      "power": 1564.181,
+      "sos": 1517.365,
+      "sos_adj": 1517.365,
+      "power": 1557.577,
       "rank": 2,
       "mw_rating": 66.4,
-      "mw_points": 929
+      "mw_points": 930
     },
     {
       "teamno": "43431",
@@ -51,29 +51,29 @@
       "pf": 317,
       "pa": 248,
       "diff": 69,
-      "sos": 1537.172,
-      "sos_adj": 1548.71,
-      "power": 1549.441,
+      "sos": 1533.808,
+      "sos_adj": 1545.346,
+      "power": 1544.873,
       "rank": 3,
-      "mw_rating": 67.3,
-      "mw_points": 875
+      "mw_rating": 67.4,
+      "mw_points": 876
     },
     {
       "teamno": "43101",
       "name": "D4H-Swansea",
       "town": null,
       "wins": 6,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "pf": 279,
-      "pa": 273,
-      "diff": 6,
-      "sos": 1507.432,
-      "sos_adj": 1486.004,
-      "power": 1504.115,
+      "pf": 302,
+      "pa": 298,
+      "diff": 4,
+      "sos": 1504.607,
+      "sos_adj": 1484.607,
+      "power": 1495.2,
       "rank": 4,
-      "mw_rating": 38.9,
-      "mw_points": 544
+      "mw_rating": 37.9,
+      "mw_points": 569
     },
     {
       "teamno": "43846",
@@ -85,9 +85,9 @@
       "pf": 235,
       "pa": 285,
       "diff": -50,
-      "sos": 1522.338,
-      "sos_adj": 1518.767,
-      "power": 1485.101,
+      "sos": 1519.004,
+      "sos_adj": 1515.432,
+      "power": 1486.226,
       "rank": 5,
       "mw_rating": 48.1,
       "mw_points": 673
@@ -102,12 +102,12 @@
       "pf": 246,
       "pa": 327,
       "diff": -81,
-      "sos": 1517.741,
-      "sos_adj": 1513.574,
-      "power": 1477.673,
+      "sos": 1515.55,
+      "sos_adj": 1511.383,
+      "power": 1479.698,
       "rank": 6,
-      "mw_rating": 41.7,
-      "mw_points": 500
+      "mw_rating": 41.8,
+      "mw_points": 501
     }
   ]
 }

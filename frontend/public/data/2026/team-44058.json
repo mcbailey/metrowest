@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "44058",
   "team_name": "D2P-Brookline (red)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 4,
     "gender": "M",
     "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -368,6 +368,25 @@
       "is_home": true,
       "opponent_teamno": "45585",
       "opponent_name": "D2N-Stoughton"
+    },
+    {
+      "gameno": "47063",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "12:30 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7586",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "44094",
+      "away_teamno": "44058",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44094",
+      "opponent_name": "D6P-Holbrook (blue)"
     }
   ]
 }

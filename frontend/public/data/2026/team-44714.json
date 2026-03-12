@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "44714",
   "team_name": "D6R-Weston",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "D6R-Newton (white)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "47129",
+      "date": "2026-03-13",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7210",
+      "division_name": "6th Boys - Division 6",
+      "home_teamno": "44090",
+      "away_teamno": "44714",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44090",
+      "opponent_name": "D6J-Holbrook (orange)"
+    }
+  ]
 }

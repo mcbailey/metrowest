@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "43531",
   "team_name": "D3K-Northboro (red)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 4,
     "ties": 0,
-    "pf": 735,
-    "pa": 646,
-    "diff": 89,
-    "sos": 1558.844,
-    "sos_adj": 1623.129,
-    "power": 1606.11,
+    "pf": 792,
+    "pa": 698,
+    "diff": 94,
+    "sos": 1555.476,
+    "sos_adj": 1622.142,
+    "power": 1622.237,
     "rank": 2,
-    "mw_rating": 109.1,
-    "mw_points": 1418,
+    "mw_rating": 112.3,
+    "mw_points": 1572,
     "divisionno": "7159",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45695",
+      "date": "2026-03-11",
+      "dow": "Wed",
+      "starttime": "6:40 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7159",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "43433",
+      "away_teamno": "43531",
+      "home_score": 52,
+      "away_score": 57,
+      "team_score": 57,
+      "opponent_score": 52,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43433",
+      "opponent_name": "D2K-Lexington (blue)"
+    },
     {
       "gameno": "45691",
       "date": "2026-03-08",
@@ -292,25 +311,5 @@
       "opponent_name": "D3M-Winchester (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45695",
-      "date": "2026-03-11",
-      "dow": "Wed",
-      "starttime": "6:40 PM",
-      "location": "Mass Premier - 2",
-      "divisionno": "7159",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "43433",
-      "away_teamno": "43531",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43433",
-      "opponent_name": "D2K-Lexington (blue)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "44178",
   "team_name": "D4J-Parkway  (red)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 519,
-    "pa": 491,
-    "diff": 28,
-    "sos": 1503.449,
-    "sos_adj": 1499.603,
-    "power": 1527.55,
-    "rank": 3,
-    "mw_rating": 58.8,
-    "mw_points": 764,
+    "pf": 561,
+    "pa": 544,
+    "diff": 17,
+    "sos": 1507.625,
+    "sos_adj": 1507.625,
+    "power": 1510.747,
+    "rank": 6,
+    "mw_rating": 57.8,
+    "mw_points": 809,
     "divisionno": "7241",
     "division_name": "8th Girls - Division 4",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46378",
+      "date": "2026-03-11",
+      "dow": "Wed",
+      "starttime": "6:15 PM",
+      "location": "Old Rochester Junior High School",
+      "divisionno": "7241",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "43308",
+      "away_teamno": "44178",
+      "home_score": 53,
+      "away_score": 42,
+      "team_score": 42,
+      "opponent_score": 53,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43308",
+      "opponent_name": "D3H-Franklin"
+    },
     {
       "gameno": "46375",
       "date": "2026-03-07",
@@ -273,25 +292,5 @@
       "opponent_name": "D4J-Westwood"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46378",
-      "date": "2026-03-11",
-      "dow": "Wed",
-      "starttime": "6:15 PM",
-      "location": "Old Rochester Junior High School",
-      "divisionno": "7241",
-      "division_name": "8th Girls - Division 4",
-      "home_teamno": "43308",
-      "away_teamno": "44178",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43308",
-      "opponent_name": "D3H-Franklin"
-    }
-  ]
+  "future_games": []
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "43448",
   "team_name": "D3M-Winchester (white)",
   "town": null,
   "summary": {
-    "wins": 17,
+    "wins": 18,
     "losses": 11,
     "ties": 0,
-    "pf": 1312,
-    "pa": 1198,
-    "diff": 114,
-    "sos": 1547.228,
-    "sos_adj": 1591.87,
-    "power": 1622.297,
-    "rank": 3,
-    "mw_rating": 104.6,
-    "mw_points": 1360,
+    "pf": 1384,
+    "pa": 1265,
+    "diff": 119,
+    "sos": 1548.682,
+    "sos_adj": 1593.509,
+    "power": 1628.857,
+    "rank": 1,
+    "mw_rating": 105.7,
+    "mw_points": 1480,
     "divisionno": "7160",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 28,
-    "games_scheduled_total": 1
+    "games_played_total": 29,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45696",
+      "date": "2026-03-11",
+      "dow": "Wed",
+      "starttime": "7:50 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7160",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "43448",
+      "away_teamno": "44709",
+      "home_score": 72,
+      "away_score": 67,
+      "team_score": 72,
+      "opponent_score": 67,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44709",
+      "opponent_name": "D3M-Weston"
+    },
     {
       "gameno": "45694",
       "date": "2026-03-08",
@@ -558,25 +577,5 @@
       "opponent_name": "Newburyport (A)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45696",
-      "date": "2026-03-11",
-      "dow": "Wed",
-      "starttime": "7:50 PM",
-      "location": "Mass Premier - 2",
-      "divisionno": "7160",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "43448",
-      "away_teamno": "44709",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44709",
-      "opponent_name": "D3M-Weston"
-    }
-  ]
+  "future_games": []
 }

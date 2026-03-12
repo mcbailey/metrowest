@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "gender": "M",
   "grade": 8,
   "divisionno": "7163",
@@ -11,18 +11,18 @@
       "teamno": "43328",
       "name": "D2H-Mansfield (white)",
       "town": null,
-      "wins": 11,
+      "wins": 12,
       "losses": 7,
       "ties": 0,
-      "pf": 894,
-      "pa": 849,
-      "diff": 45,
-      "sos": 1603.16,
-      "sos_adj": 1714.271,
-      "power": 1654.901,
+      "pf": 964,
+      "pa": 907,
+      "diff": 57,
+      "sos": 1603.661,
+      "sos_adj": 1714.187,
+      "power": 1666.319,
       "rank": 1,
-      "mw_rating": 134.5,
-      "mw_points": 1749
+      "mw_rating": 136.3,
+      "mw_points": 1908
     },
     {
       "teamno": "43225",
@@ -34,9 +34,9 @@
       "pf": 858,
       "pa": 833,
       "diff": 25,
-      "sos": 1570.076,
-      "sos_adj": 1658.311,
-      "power": 1651.252,
+      "sos": 1574.099,
+      "sos_adj": 1662.334,
+      "power": 1648.591,
       "rank": 2,
       "mw_rating": 138.6,
       "mw_points": 1386
@@ -51,12 +51,12 @@
       "pf": 785,
       "pa": 833,
       "diff": -48,
-      "sos": 1593.501,
-      "sos_adj": 1690.56,
-      "power": 1598.496,
+      "sos": 1594.961,
+      "sos_adj": 1692.02,
+      "power": 1601.275,
       "rank": 3,
-      "mw_rating": 104.9,
-      "mw_points": 1469
+      "mw_rating": 105.1,
+      "mw_points": 1471
     },
     {
       "teamno": "44148",
@@ -68,9 +68,9 @@
       "pf": 703,
       "pa": 754,
       "diff": -51,
-      "sos": 1589.187,
-      "sos_adj": 1679.187,
-      "power": 1591.984,
+      "sos": 1590.519,
+      "sos_adj": 1680.519,
+      "power": 1595.098,
       "rank": 4,
       "mw_rating": 103.6,
       "mw_points": 1554
@@ -85,12 +85,12 @@
       "pf": 669,
       "pa": 631,
       "diff": 38,
-      "sos": 1568.151,
-      "sos_adj": 1637.382,
-      "power": 1570.826,
+      "sos": 1569.702,
+      "sos_adj": 1638.933,
+      "power": 1575.066,
       "rank": 5,
-      "mw_rating": 97.4,
-      "mw_points": 1071
+      "mw_rating": 97.5,
+      "mw_points": 1072
     },
     {
       "teamno": "44644",
@@ -102,12 +102,12 @@
       "pf": 779,
       "pa": 964,
       "diff": -185,
-      "sos": 1596.436,
-      "sos_adj": 1687.061,
-      "power": 1567.744,
+      "sos": 1597.028,
+      "sos_adj": 1687.653,
+      "power": 1573.294,
       "rank": 6,
-      "mw_rating": 99.0,
-      "mw_points": 1188
+      "mw_rating": 99.1,
+      "mw_points": 1189
     }
   ]
 }

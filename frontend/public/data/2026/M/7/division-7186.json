@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "gender": "M",
   "grade": 7,
   "divisionno": "7186",
@@ -21,8 +21,8 @@
       "sos_adj": 1401.248,
       "power": 1528.299,
       "rank": 1,
-      "mw_rating": 49.9,
-      "mw_points": 699
+      "mw_rating": 50.0,
+      "mw_points": 700
     },
     {
       "teamno": "43715",
@@ -34,12 +34,12 @@
       "pf": 599,
       "pa": 599,
       "diff": 0,
-      "sos": 1458.666,
-      "sos_adj": 1421.824,
-      "power": 1468.599,
+      "sos": 1460.591,
+      "sos_adj": 1423.749,
+      "power": 1469.081,
       "rank": 2,
-      "mw_rating": 41.7,
-      "mw_points": 542
+      "mw_rating": 41.9,
+      "mw_points": 544
     },
     {
       "teamno": "44071",
@@ -55,25 +55,25 @@
       "sos_adj": 1416.343,
       "power": 1439.777,
       "rank": 3,
-      "mw_rating": 33.5,
-      "mw_points": 402
+      "mw_rating": 33.6,
+      "mw_points": 403
     },
     {
       "teamno": "44441",
       "name": "D5W-Bedford (white)",
       "town": null,
-      "wins": 7,
+      "wins": 8,
       "losses": 11,
       "ties": 0,
-      "pf": 635,
-      "pa": 755,
-      "diff": -120,
-      "sos": 1455.71,
-      "sos_adj": 1408.488,
-      "power": 1418.462,
+      "pf": 664,
+      "pa": 779,
+      "diff": -115,
+      "sos": 1453.883,
+      "sos_adj": 1406.515,
+      "power": 1431.69,
       "rank": 4,
-      "mw_rating": 29.2,
-      "mw_points": 379
+      "mw_rating": 31.2,
+      "mw_points": 437
     },
     {
       "teamno": "45303",
@@ -102,9 +102,9 @@
       "pf": 542,
       "pa": 756,
       "diff": -214,
-      "sos": 1437.269,
-      "sos_adj": 1372.269,
-      "power": 1356.188,
+      "sos": 1438.184,
+      "sos_adj": 1373.184,
+      "power": 1356.416,
       "rank": 6,
       "mw_rating": 12.7,
       "mw_points": 178

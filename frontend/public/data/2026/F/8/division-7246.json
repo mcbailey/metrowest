@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "gender": "F",
   "grade": 8,
   "divisionno": "7246",
@@ -17,12 +17,12 @@
       "pf": 878,
       "pa": 727,
       "diff": 151,
-      "sos": 1547.289,
-      "sos_adj": 1597.289,
-      "power": 1626.137,
+      "sos": 1548.344,
+      "sos_adj": 1598.344,
+      "power": 1619.969,
       "rank": 1,
-      "mw_rating": 113.6,
-      "mw_points": 1363
+      "mw_rating": 113.8,
+      "mw_points": 1365
     },
     {
       "teamno": "43596",
@@ -34,12 +34,12 @@
       "pf": 508,
       "pa": 413,
       "diff": 95,
-      "sos": 1551.842,
-      "sos_adj": 1601.842,
-      "power": 1613.151,
+      "sos": 1550.46,
+      "sos_adj": 1600.46,
+      "power": 1607.787,
       "rank": 2,
-      "mw_rating": 99.9,
-      "mw_points": 1299
+      "mw_rating": 100.0,
+      "mw_points": 1300
     },
     {
       "teamno": "44479",
@@ -51,46 +51,46 @@
       "pf": 535,
       "pa": 561,
       "diff": -26,
-      "sos": 1574.528,
-      "sos_adj": 1637.861,
-      "power": 1589.833,
+      "sos": 1572.37,
+      "sos_adj": 1635.703,
+      "power": 1587.506,
       "rank": 3,
       "mw_rating": 95.1,
-      "mw_points": 1331
+      "mw_points": 1332
     },
     {
       "teamno": "43308",
       "name": "D3H-Franklin",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 9,
       "ties": 0,
-      "pf": 495,
-      "pa": 508,
-      "diff": -13,
-      "sos": 1556.417,
-      "sos_adj": 1606.417,
-      "power": 1571.821,
+      "pf": 548,
+      "pa": 550,
+      "diff": -2,
+      "sos": 1548.615,
+      "sos_adj": 1595.281,
+      "power": 1581.786,
       "rank": 4,
-      "mw_rating": 69.7,
-      "mw_points": 976
+      "mw_rating": 70.7,
+      "mw_points": 1061
     },
     {
       "teamno": "43892",
       "name": "D3H-Canton (green)",
       "town": null,
       "wins": 3,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 448,
-      "pa": 548,
-      "diff": -100,
-      "sos": 1567.577,
-      "sos_adj": 1621.423,
-      "power": 1537.093,
+      "pf": 485,
+      "pa": 595,
+      "diff": -110,
+      "sos": 1565.01,
+      "sos_adj": 1615.01,
+      "power": 1513.364,
       "rank": 5,
-      "mw_rating": 60.5,
-      "mw_points": 726
+      "mw_rating": 57.9,
+      "mw_points": 752
     }
   ]
 }

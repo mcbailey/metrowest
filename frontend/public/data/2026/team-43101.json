@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "43101",
   "team_name": "D4H-Swansea",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 279,
-    "pa": 273,
-    "diff": 6,
-    "sos": 1507.432,
-    "sos_adj": 1486.004,
-    "power": 1504.115,
+    "pf": 302,
+    "pa": 298,
+    "diff": 4,
+    "sos": 1504.607,
+    "sos_adj": 1484.607,
+    "power": 1495.2,
     "rank": 4,
-    "mw_rating": 38.9,
-    "mw_points": 544,
+    "mw_rating": 37.9,
+    "mw_points": 569,
     "divisionno": "7319",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46040",
+      "date": "2026-03-11",
+      "dow": "Wed",
+      "starttime": "5:15 PM",
+      "location": "Mass Premier - 6",
+      "divisionno": "7320",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "44880",
+      "away_teamno": "43101",
+      "home_score": 25,
+      "away_score": 23,
+      "team_score": 23,
+      "opponent_score": 25,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44880",
+      "opponent_name": "D4J-North Attleboro (white)"
+    },
     {
       "gameno": "46038",
       "date": "2026-03-08",
@@ -292,25 +311,5 @@
       "opponent_name": "D4H-Middleborough (colp)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46040",
-      "date": "2026-03-11",
-      "dow": "Wed",
-      "starttime": "5:15 PM",
-      "location": "Mass Premier - 6",
-      "divisionno": "7320",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "44880",
-      "away_teamno": "43101",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44880",
-      "opponent_name": "D4J-North Attleboro (white)"
-    }
-  ]
+  "future_games": []
 }

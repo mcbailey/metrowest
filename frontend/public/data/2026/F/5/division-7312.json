@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "gender": "F",
   "grade": 5,
   "divisionno": "7312",
@@ -17,12 +17,12 @@
       "pf": 425,
       "pa": 209,
       "diff": 216,
-      "sos": 1468.24,
-      "sos_adj": 1434.907,
-      "power": 1506.575,
+      "sos": 1468.083,
+      "sos_adj": 1434.749,
+      "power": 1500.501,
       "rank": 1,
-      "mw_rating": 55.1,
-      "mw_points": 826
+      "mw_rating": 55.2,
+      "mw_points": 828
     },
     {
       "teamno": "44502",
@@ -34,29 +34,29 @@
       "pf": 406,
       "pa": 140,
       "diff": 266,
-      "sos": 1441.016,
-      "sos_adj": 1394.862,
-      "power": 1488.837,
+      "sos": 1442.299,
+      "sos_adj": 1396.145,
+      "power": 1483.896,
       "rank": 2,
-      "mw_rating": 50.5,
-      "mw_points": 657
+      "mw_rating": 50.6,
+      "mw_points": 658
     },
     {
       "teamno": "44211",
       "name": "D5J-Sharon (maroon)",
       "town": null,
       "wins": 7,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 292,
-      "pa": 264,
-      "diff": 28,
-      "sos": 1445.738,
-      "sos_adj": 1399.584,
-      "power": 1454.891,
+      "pf": 299,
+      "pa": 278,
+      "diff": 21,
+      "sos": 1447.825,
+      "sos_adj": 1401.396,
+      "power": 1436.845,
       "rank": 3,
-      "mw_rating": 35.2,
-      "mw_points": 458
+      "mw_rating": 33.5,
+      "mw_points": 469
     },
     {
       "teamno": "43303",
@@ -68,9 +68,9 @@
       "pf": 262,
       "pa": 271,
       "diff": -9,
-      "sos": 1458.926,
-      "sos_adj": 1416.069,
-      "power": 1415.374,
+      "sos": 1457.152,
+      "sos_adj": 1414.295,
+      "power": 1417.545,
       "rank": 4,
       "mw_rating": 32.9,
       "mw_points": 427
@@ -85,9 +85,9 @@
       "pf": 217,
       "pa": 370,
       "diff": -153,
-      "sos": 1442.817,
-      "sos_adj": 1392.817,
-      "power": 1407.489,
+      "sos": 1443.536,
+      "sos_adj": 1393.536,
+      "power": 1410.49,
       "rank": 5,
       "mw_rating": 27.0,
       "mw_points": 351
@@ -102,9 +102,9 @@
       "pf": 191,
       "pa": 453,
       "diff": -262,
-      "sos": 1454.62,
-      "sos_adj": 1408.466,
-      "power": 1380.525,
+      "sos": 1454.543,
+      "sos_adj": 1408.389,
+      "power": 1386.415,
       "rank": 6,
       "mw_rating": 17.9,
       "mw_points": 233
@@ -119,12 +119,12 @@
       "pf": 100,
       "pa": 376,
       "diff": -276,
-      "sos": 1449.864,
-      "sos_adj": 1403.71,
-      "power": 1340.544,
+      "sos": 1450.262,
+      "sos_adj": 1404.108,
+      "power": 1350.432,
       "rank": 7,
-      "mw_rating": 14.8,
-      "mw_points": 192
+      "mw_rating": 14.9,
+      "mw_points": 193
     }
   ]
 }

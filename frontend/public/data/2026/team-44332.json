@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "44332",
   "team_name": "D5M-Medway (white)",
   "town": null,
@@ -11,9 +11,9 @@
     "pf": 738,
     "pa": 700,
     "diff": 38,
-    "sos": 1457.313,
-    "sos_adj": 1414.813,
-    "power": 1515.581,
+    "sos": 1456.19,
+    "sos_adj": 1413.69,
+    "power": 1515.301,
     "rank": 1,
     "mw_rating": 45.9,
     "mw_points": 689,
@@ -416,15 +416,15 @@
       "divisionno": "7182",
       "division_name": "7th Boys - Division 5",
       "home_teamno": "44332",
-      "away_teamno": "44190",
+      "away_teamno": "43109",
       "home_score": null,
       "away_score": null,
       "team_score": null,
       "opponent_score": null,
       "status": "scheduled",
       "is_home": true,
-      "opponent_teamno": "44190",
-      "opponent_name": "D5M-Parkway  (white)"
+      "opponent_teamno": "43109",
+      "opponent_name": "D4H-Seekonk (payne)"
     }
   ]
 }

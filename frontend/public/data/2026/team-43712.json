@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "43712",
   "team_name": "D3Q-Concord-Carlisle (maroon)",
   "town": null,
   "summary": {
     "wins": 13,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 929,
-    "pa": 773,
-    "diff": 156,
-    "sos": 1535.867,
-    "sos_adj": 1591.13,
-    "power": 1601.084,
-    "rank": 2,
-    "mw_rating": 96.2,
-    "mw_points": 1251,
+    "pf": 975,
+    "pa": 821,
+    "diff": 154,
+    "sos": 1542.02,
+    "sos_adj": 1599.52,
+    "power": 1591.919,
+    "rank": 3,
+    "mw_rating": 94.4,
+    "mw_points": 1322,
     "divisionno": "7229",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45324",
+      "date": "2026-03-11",
+      "dow": "Wed",
+      "starttime": "6:30 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7229",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "45504",
+      "away_teamno": "43712",
+      "home_score": 48,
+      "away_score": 46,
+      "team_score": 46,
+      "opponent_score": 48,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45504",
+      "opponent_name": "D2M-Everett"
+    },
     {
       "gameno": "45320",
       "date": "2026-03-07",
@@ -387,25 +406,5 @@
       "opponent_name": "D3Q-Bedford (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45324",
-      "date": "2026-03-11",
-      "dow": "Wed",
-      "starttime": "6:30 PM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7229",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "45504",
-      "away_teamno": "43712",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45504",
-      "opponent_name": "D2M-Everett"
-    }
-  ]
+  "future_games": []
 }

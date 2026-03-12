@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "gender": "M",
   "grade": 8,
   "divisionno": "7151",
@@ -17,12 +17,12 @@
       "pf": 1333,
       "pa": 938,
       "diff": 395,
-      "sos": 1495.52,
-      "sos_adj": 1495.52,
-      "power": 1566.578,
+      "sos": 1496.647,
+      "sos_adj": 1496.647,
+      "power": 1566.86,
       "rank": 1,
-      "mw_rating": 78.9,
-      "mw_points": 1104
+      "mw_rating": 79.0,
+      "mw_points": 1106
     },
     {
       "teamno": "44822",
@@ -38,25 +38,25 @@
       "sos_adj": 1490.81,
       "power": 1541.083,
       "rank": 2,
-      "mw_rating": 67.7,
-      "mw_points": 948
+      "mw_rating": 67.8,
+      "mw_points": 949
     },
     {
       "teamno": "44494",
       "name": "D4H-Wareham (lopes)",
       "town": null,
       "wins": 6,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pf": 524,
-      "pa": 529,
-      "diff": -5,
-      "sos": 1495.274,
-      "sos_adj": 1495.274,
-      "power": 1514.537,
+      "pf": 564,
+      "pa": 584,
+      "diff": -20,
+      "sos": 1500.05,
+      "sos_adj": 1500.05,
+      "power": 1495.444,
       "rank": 3,
-      "mw_rating": 56.0,
-      "mw_points": 616
+      "mw_rating": 53.5,
+      "mw_points": 642
     },
     {
       "teamno": "43127",
@@ -85,9 +85,9 @@
       "pf": 437,
       "pa": 732,
       "diff": -295,
-      "sos": 1507.73,
-      "sos_adj": 1507.73,
-      "power": 1432.018,
+      "sos": 1505.65,
+      "sos_adj": 1505.65,
+      "power": 1431.498,
       "rank": 5,
       "mw_rating": 29.1,
       "mw_points": 378

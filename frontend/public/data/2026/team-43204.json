@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "43204",
   "team_name": "D5J-FLBC (blue)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 6,
     "gender": "M",
     "games_played_total": 15,
-    "games_scheduled_total": 0
+    "games_scheduled_total": 1
   },
   "past_games": [
     {
@@ -311,5 +311,25 @@
       "opponent_name": "D5J-Middleborough (terrasi)"
     }
   ],
-  "future_games": []
+  "future_games": [
+    {
+      "gameno": "47126",
+      "date": "2026-03-13",
+      "dow": "Fri",
+      "starttime": "6:30 PM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7218",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43204",
+      "away_teamno": "44231",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": true,
+      "opponent_teamno": "44231",
+      "opponent_name": "D5T-Wayland (orange)"
+    }
+  ]
 }

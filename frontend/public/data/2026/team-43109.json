@@ -1,28 +1,28 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "43109",
   "team_name": "D4H-Seekonk (payne)",
   "town": null,
   "summary": {
-    "wins": 4,
-    "losses": 10,
+    "wins": 5,
+    "losses": 9,
     "ties": 0,
     "pf": 553,
-    "pa": 634,
-    "diff": -81,
-    "sos": 1496.87,
-    "sos_adj": 1482.585,
-    "power": 1452.518,
+    "pa": 630,
+    "diff": -77,
+    "sos": 1495.308,
+    "sos_adj": 1481.022,
+    "power": 1468.531,
     "rank": 7,
-    "mw_rating": 41.8,
-    "mw_points": 502,
+    "mw_rating": 46.1,
+    "mw_points": 553,
     "divisionno": "7188",
     "division_name": "7th Boys - Division 4",
     "grade": 7,
     "gender": "M",
     "games_played_total": 14,
-    "games_scheduled_total": 2
+    "games_scheduled_total": 3
   },
   "past_games": [
     {
@@ -35,10 +35,10 @@
       "division_name": "7th Boys - Division 5",
       "home_teamno": "44190",
       "away_teamno": "43109",
-      "home_score": 38,
+      "home_score": 34,
       "away_score": 37,
       "team_score": 37,
-      "opponent_score": 38,
+      "opponent_score": 34,
       "status": "final",
       "is_home": false,
       "opponent_teamno": "44190",
@@ -330,6 +330,25 @@
       "is_home": false,
       "opponent_teamno": "44496",
       "opponent_name": "D4H-Wareham (suarez)"
+    },
+    {
+      "gameno": "47150",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "7:30 PM",
+      "location": "Mass Premier - 6",
+      "divisionno": "7182",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "44332",
+      "away_teamno": "43109",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44332",
+      "opponent_name": "D5M-Medway (white)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "gender": "M",
   "grade": 8,
   "divisionno": "7154",
@@ -17,12 +17,12 @@
       "pf": 948,
       "pa": 809,
       "diff": 139,
-      "sos": 1509.181,
-      "sos_adj": 1523.887,
-      "power": 1625.701,
+      "sos": 1507.37,
+      "sos_adj": 1522.076,
+      "power": 1625.249,
       "rank": 1,
       "mw_rating": 88.5,
-      "mw_points": 1327
+      "mw_points": 1328
     },
     {
       "teamno": "45309",
@@ -34,12 +34,12 @@
       "pf": 1464,
       "pa": 1363,
       "diff": 101,
-      "sos": 1512.606,
-      "sos_adj": 1533.296,
-      "power": 1556.009,
+      "sos": 1511.545,
+      "sos_adj": 1532.234,
+      "power": 1555.744,
       "rank": 2,
-      "mw_rating": 67.1,
-      "mw_points": 1007
+      "mw_rating": 67.2,
+      "mw_points": 1008
     },
     {
       "teamno": "43588",
@@ -55,25 +55,25 @@
       "sos_adj": 1517.02,
       "power": 1532.486,
       "rank": 3,
-      "mw_rating": 71.3,
-      "mw_points": 998
+      "mw_rating": 71.4,
+      "mw_points": 1000
     },
     {
       "teamno": "44424",
       "name": "D4M-Norton (purple)",
       "town": null,
       "wins": 5,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "pf": 633,
-      "pa": 699,
-      "diff": -66,
-      "sos": 1503.725,
-      "sos_adj": 1503.725,
-      "power": 1517.93,
+      "pf": 674,
+      "pa": 745,
+      "diff": -71,
+      "sos": 1502.022,
+      "sos_adj": 1498.897,
+      "power": 1493.639,
       "rank": 4,
-      "mw_rating": 48.3,
-      "mw_points": 628
+      "mw_rating": 45.6,
+      "mw_points": 638
     },
     {
       "teamno": "44866",
@@ -85,9 +85,9 @@
       "pf": 944,
       "pa": 892,
       "diff": 52,
-      "sos": 1502.27,
-      "sos_adj": 1504.651,
-      "power": 1484.073,
+      "sos": 1500.804,
+      "sos_adj": 1503.185,
+      "power": 1483.707,
       "rank": 5,
       "mw_rating": 58.3,
       "mw_points": 758
@@ -102,9 +102,9 @@
       "pf": 609,
       "pa": 682,
       "diff": -73,
-      "sos": 1512.714,
-      "sos_adj": 1502.0,
-      "power": 1454.725,
+      "sos": 1510.515,
+      "sos_adj": 1499.801,
+      "power": 1454.175,
       "rank": 6,
       "mw_rating": 39.5,
       "mw_points": 514
@@ -119,9 +119,9 @@
       "pf": 578,
       "pa": 847,
       "diff": -269,
-      "sos": 1507.695,
-      "sos_adj": 1504.57,
-      "power": 1439.601,
+      "sos": 1505.771,
+      "sos_adj": 1502.646,
+      "power": 1439.12,
       "rank": 7,
       "mw_rating": 31.8,
       "mw_points": 445

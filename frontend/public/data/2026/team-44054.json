@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "44054",
   "team_name": "D5R-Newton (white)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 752,
-    "pa": 682,
-    "diff": 70,
-    "sos": 1459.2,
-    "sos_adj": 1423.485,
-    "power": 1500.889,
-    "rank": 2,
-    "mw_rating": 46.4,
-    "mw_points": 650,
+    "pf": 791,
+    "pa": 732,
+    "diff": 59,
+    "sos": 1462.099,
+    "sos_adj": 1428.766,
+    "power": 1477.891,
+    "rank": 3,
+    "mw_rating": 45.0,
+    "mw_points": 675,
     "divisionno": "7150",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45756",
+      "date": "2026-03-11",
+      "dow": "Wed",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7150",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "44780",
+      "away_teamno": "44054",
+      "home_score": 50,
+      "away_score": 39,
+      "team_score": 39,
+      "opponent_score": 50,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44780",
+      "opponent_name": "D4R-Lincoln-Sudbury (red)"
+    },
     {
       "gameno": "45753",
       "date": "2026-03-08",
@@ -292,25 +311,5 @@
       "opponent_name": "D5Q-Hopkinton (selchan8)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45756",
-      "date": "2026-03-11",
-      "dow": "Wed",
-      "starttime": "7:45 PM",
-      "location": "Dana Barros - 4",
-      "divisionno": "7150",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "44780",
-      "away_teamno": "44054",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44780",
-      "opponent_name": "D4R-Lincoln-Sudbury (red)"
-    }
-  ]
+  "future_games": []
 }

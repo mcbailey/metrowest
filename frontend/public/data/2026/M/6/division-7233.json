@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "gender": "M",
   "grade": 6,
   "divisionno": "7233",
@@ -17,12 +17,12 @@
       "pf": 1049,
       "pa": 896,
       "diff": 153,
-      "sos": 1589.249,
-      "sos_adj": 1678.723,
-      "power": 1693.235,
+      "sos": 1589.271,
+      "sos_adj": 1678.745,
+      "power": 1685.885,
       "rank": 1,
-      "mw_rating": 135.3,
-      "mw_points": 1759
+      "mw_rating": 135.4,
+      "mw_points": 1760
     },
     {
       "teamno": "43935",
@@ -34,12 +34,12 @@
       "pf": 1047,
       "pa": 806,
       "diff": 241,
-      "sos": 1589.079,
-      "sos_adj": 1678.553,
-      "power": 1674.642,
+      "sos": 1589.585,
+      "sos_adj": 1679.059,
+      "power": 1669.268,
       "rank": 2,
-      "mw_rating": 140.3,
-      "mw_points": 1684
+      "mw_rating": 140.4,
+      "mw_points": 1685
     },
     {
       "teamno": "45249",
@@ -51,9 +51,9 @@
       "pf": 844,
       "pa": 849,
       "diff": -5,
-      "sos": 1611.515,
-      "sos_adj": 1717.398,
-      "power": 1630.636,
+      "sos": 1611.474,
+      "sos_adj": 1717.356,
+      "power": 1630.497,
       "rank": 3,
       "mw_rating": 128.7,
       "mw_points": 1673
@@ -68,29 +68,29 @@
       "pf": 741,
       "pa": 753,
       "diff": -12,
-      "sos": 1611.826,
-      "sos_adj": 1711.826,
-      "power": 1621.807,
+      "sos": 1611.235,
+      "sos_adj": 1711.235,
+      "power": 1622.274,
       "rank": 4,
-      "mw_rating": 112.5,
-      "mw_points": 1575
+      "mw_rating": 112.6,
+      "mw_points": 1577
     },
     {
       "teamno": "45504",
       "name": "D2M-Everett",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 11,
       "ties": 0,
-      "pf": 616,
-      "pa": 769,
-      "diff": -153,
-      "sos": 1597.608,
-      "sos_adj": 1687.608,
-      "power": 1599.797,
+      "pf": 664,
+      "pa": 815,
+      "diff": -151,
+      "sos": 1592.755,
+      "sos_adj": 1680.255,
+      "power": 1606.823,
       "rank": 5,
-      "mw_rating": 89.9,
-      "mw_points": 1258
+      "mw_rating": 91.8,
+      "mw_points": 1377
     }
   ]
 }

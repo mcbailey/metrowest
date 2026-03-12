@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-11",
+  "snapshot_date": "2026-03-12",
   "teamno": "44770",
   "team_name": "D5Q-Dover Sherborn (panettiere)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 274,
-    "pa": 330,
-    "diff": -56,
-    "sos": 1452.268,
-    "sos_adj": 1402.268,
-    "power": 1445.315,
-    "rank": 4,
-    "mw_rating": 30.9,
-    "mw_points": 401,
+    "pf": 294,
+    "pa": 360,
+    "diff": -66,
+    "sos": 1454.764,
+    "sos_adj": 1404.764,
+    "power": 1428.505,
+    "rank": 6,
+    "mw_rating": 29.4,
+    "mw_points": 412,
     "divisionno": "7271",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46217",
+      "date": "2026-03-11",
+      "dow": "Wed",
+      "starttime": "6:30 PM",
+      "location": "Dana Barros - 5",
+      "divisionno": "7272",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "44513",
+      "away_teamno": "44770",
+      "home_score": 30,
+      "away_score": 20,
+      "team_score": 20,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44513",
+      "opponent_name": "D5R-Milford (white-bertoni)"
+    },
     {
       "gameno": "46214",
       "date": "2026-03-08",
@@ -273,25 +292,5 @@
       "opponent_name": "D5Q-Holliston (wing - white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46217",
-      "date": "2026-03-11",
-      "dow": "Wed",
-      "starttime": "6:30 PM",
-      "location": "Dana Barros - 5",
-      "divisionno": "7272",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "44513",
-      "away_teamno": "44770",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44513",
-      "opponent_name": "D5R-Milford (white-bertoni)"
-    }
-  ]
+  "future_games": []
 }
