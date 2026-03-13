@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "teamno": "43932",
   "team_name": "D4H-Taunton (morrison)",
   "town": null,
@@ -22,7 +22,7 @@
     "grade": 8,
     "gender": "F",
     "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_scheduled_total": 2
   },
   "past_games": [
     {
@@ -349,6 +349,25 @@
       "is_home": true,
       "opponent_teamno": "44428",
       "opponent_name": "D4J-Norton (purple)"
+    },
+    {
+      "gameno": "47194",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "6:50 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7240",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "44035",
+      "away_teamno": "43932",
+      "home_score": null,
+      "away_score": null,
+      "team_score": null,
+      "opponent_score": null,
+      "status": "scheduled",
+      "is_home": false,
+      "opponent_teamno": "44035",
+      "opponent_name": "D3K-Newton (black)"
     }
   ]
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "teamno": "44631",
   "team_name": "D6J-Ashland (white)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "pf": 353,
-    "pa": 348,
-    "diff": 5,
-    "sos": 1398.212,
-    "sos_adj": 1302.059,
-    "power": 1402.377,
-    "rank": 3,
-    "mw_rating": 25.2,
-    "mw_points": 327,
+    "pf": 390,
+    "pa": 394,
+    "diff": -4,
+    "sos": 1403.342,
+    "sos_adj": 1310.484,
+    "power": 1389.467,
+    "rank": 4,
+    "mw_rating": 24.1,
+    "mw_points": 337,
     "divisionno": "7284",
     "division_name": "5th Boys - Division 6",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45264",
+      "date": "2026-03-12",
+      "dow": "Thu",
+      "starttime": "5:15 PM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7284",
+      "division_name": "5th Boys - Division 6",
+      "home_teamno": "44631",
+      "away_teamno": "45256",
+      "home_score": 37,
+      "away_score": 46,
+      "team_score": 37,
+      "opponent_score": 46,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45256",
+      "opponent_name": "D5W-Waltham Boys (white)"
+    },
     {
       "gameno": "45261",
       "date": "2026-03-08",
@@ -273,25 +292,5 @@
       "opponent_name": "D6J-Milton (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45264",
-      "date": "2026-03-12",
-      "dow": "Thu",
-      "starttime": "5:15 PM",
-      "location": "Ashland Mindess School",
-      "divisionno": "7284",
-      "division_name": "5th Boys - Division 6",
-      "home_teamno": "44631",
-      "away_teamno": "45256",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45256",
-      "opponent_name": "D5W-Waltham Boys (white)"
-    }
-  ]
+  "future_games": []
 }

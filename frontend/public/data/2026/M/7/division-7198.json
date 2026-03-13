@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "gender": "M",
   "grade": 7,
   "divisionno": "7198",
@@ -12,17 +12,17 @@
       "name": "D2H-North Attleboro (red)",
       "town": null,
       "wins": 10,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pf": 691,
-      "pa": 631,
-      "diff": 60,
-      "sos": 1598.844,
-      "sos_adj": 1695.51,
-      "power": 1657.291,
+      "pf": 741,
+      "pa": 683,
+      "diff": 58,
+      "sos": 1600.686,
+      "sos_adj": 1697.561,
+      "power": 1651.319,
       "rank": 1,
-      "mw_rating": 139.3,
-      "mw_points": 1811
+      "mw_rating": 134.4,
+      "mw_points": 1882
     },
     {
       "teamno": "43147",
@@ -34,12 +34,12 @@
       "pf": 1080,
       "pa": 1006,
       "diff": 74,
-      "sos": 1593.437,
-      "sos_adj": 1686.294,
-      "power": 1632.945,
+      "sos": 1593.025,
+      "sos_adj": 1685.882,
+      "power": 1632.842,
       "rank": 2,
       "mw_rating": 124.5,
-      "mw_points": 1618
+      "mw_points": 1619
     },
     {
       "teamno": "43341",
@@ -85,12 +85,12 @@
       "pf": 948,
       "pa": 971,
       "diff": -23,
-      "sos": 1605.792,
-      "sos_adj": 1705.792,
-      "power": 1600.387,
+      "sos": 1605.311,
+      "sos_adj": 1705.311,
+      "power": 1600.267,
       "rank": 5,
-      "mw_rating": 110.1,
-      "mw_points": 1542
+      "mw_rating": 110.2,
+      "mw_points": 1543
     }
   ]
 }

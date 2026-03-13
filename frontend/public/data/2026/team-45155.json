@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "teamno": "45155",
   "team_name": "D4M-Waltham Girls",
   "town": null,
@@ -297,8 +297,8 @@
       "gameno": "47138",
       "date": "2026-03-13",
       "dow": "Fri",
-      "starttime": "6:30 PM",
-      "location": "Mass Premier - 6",
+      "starttime": "6:00 PM",
+      "location": "Ottoson Middle School",
       "divisionno": "7273",
       "division_name": "6th Girls - Division 5",
       "home_teamno": "45155",

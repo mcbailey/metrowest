@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "gender": "M",
   "grade": 6,
   "divisionno": "7234",
@@ -17,12 +17,12 @@
       "pf": 1205,
       "pa": 955,
       "diff": 250,
-      "sos": 1632.987,
-      "sos_adj": 1768.701,
-      "power": 1736.51,
+      "sos": 1633.627,
+      "sos_adj": 1769.341,
+      "power": 1730.986,
       "rank": 1,
-      "mw_rating": 193.5,
-      "mw_points": 2516
+      "mw_rating": 193.6,
+      "mw_points": 2517
     },
     {
       "teamno": "43416",
@@ -34,12 +34,12 @@
       "pf": 699,
       "pa": 518,
       "diff": 181,
-      "sos": 1640.475,
-      "sos_adj": 1786.629,
-      "power": 1734.031,
+      "sos": 1641.637,
+      "sos_adj": 1787.79,
+      "power": 1729.334,
       "rank": 2,
       "mw_rating": 187.2,
-      "mw_points": 2433
+      "mw_points": 2434
     },
     {
       "teamno": "43148",
@@ -51,12 +51,12 @@
       "pf": 882,
       "pa": 770,
       "diff": 112,
-      "sos": 1655.592,
-      "sos_adj": 1802.259,
-      "power": 1713.689,
+      "sos": 1655.214,
+      "sos_adj": 1801.881,
+      "power": 1711.032,
       "rank": 3,
-      "mw_rating": 172.4,
-      "mw_points": 2241
+      "mw_rating": 172.5,
+      "mw_points": 2242
     },
     {
       "teamno": "44871",
@@ -68,12 +68,29 @@
       "pf": 1221,
       "pa": 1208,
       "diff": 13,
-      "sos": 1620.677,
-      "sos_adj": 1741.047,
-      "power": 1703.264,
+      "sos": 1620.932,
+      "sos_adj": 1741.302,
+      "power": 1700.277,
       "rank": 4,
-      "mw_rating": 187.7,
-      "mw_points": 2440
+      "mw_rating": 187.8,
+      "mw_points": 2441
+    },
+    {
+      "teamno": "44977",
+      "name": "D1H-Acushnet - Fairhaven (vardo)",
+      "town": null,
+      "wins": 5,
+      "losses": 10,
+      "ties": 0,
+      "pf": 697,
+      "pa": 805,
+      "diff": -108,
+      "sos": 1638.483,
+      "sos_adj": 1778.483,
+      "power": 1659.157,
+      "rank": 5,
+      "mw_rating": 125.7,
+      "mw_points": 1885
     },
     {
       "teamno": "43420",
@@ -85,29 +102,12 @@
       "pf": 675,
       "pa": 751,
       "diff": -76,
-      "sos": 1634.213,
-      "sos_adj": 1762.784,
-      "power": 1653.886,
-      "rank": 5,
-      "mw_rating": 124.1,
-      "mw_points": 1613
-    },
-    {
-      "teamno": "44977",
-      "name": "D1H-Acushnet - Fairhaven (vardo)",
-      "town": null,
-      "wins": 4,
-      "losses": 10,
-      "ties": 0,
-      "pf": 638,
-      "pa": 748,
-      "diff": -110,
-      "sos": 1641.663,
-      "sos_adj": 1784.52,
-      "power": 1651.685,
+      "sos": 1634.2,
+      "sos_adj": 1762.771,
+      "power": 1656.314,
       "rank": 6,
-      "mw_rating": 123.3,
-      "mw_points": 1726
+      "mw_rating": 124.3,
+      "mw_points": 1616
     },
     {
       "teamno": "43926",
@@ -119,12 +119,12 @@
       "pf": 726,
       "pa": 1011,
       "diff": -285,
-      "sos": 1660.904,
-      "sos_adj": 1802.08,
-      "power": 1584.099,
+      "sos": 1659.385,
+      "sos_adj": 1800.562,
+      "power": 1594.112,
       "rank": 7,
-      "mw_rating": 115.4,
-      "mw_points": 1500
+      "mw_rating": 115.5,
+      "mw_points": 1501
     }
   ]
 }

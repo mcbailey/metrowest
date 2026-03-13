@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "gender": "M",
   "grade": 8,
   "divisionno": "7166",
@@ -17,12 +17,12 @@
       "pf": 921,
       "pa": 793,
       "diff": 128,
-      "sos": 1610.798,
-      "sos_adj": 1723.298,
-      "power": 1719.668,
+      "sos": 1609.81,
+      "sos_adj": 1722.31,
+      "power": 1719.421,
       "rank": 1,
-      "mw_rating": 172.4,
-      "mw_points": 2069
+      "mw_rating": 172.5,
+      "mw_points": 2070
     },
     {
       "teamno": "45214",
@@ -34,12 +34,12 @@
       "pf": 2055,
       "pa": 1490,
       "diff": 565,
-      "sos": 1540.496,
-      "sos_adj": 1583.143,
-      "power": 1717.519,
+      "sos": 1540.031,
+      "sos_adj": 1582.678,
+      "power": 1717.403,
       "rank": 2,
-      "mw_rating": 201.2,
-      "mw_points": 2012
+      "mw_rating": 201.3,
+      "mw_points": 2013
     },
     {
       "teamno": "43586",
@@ -55,8 +55,8 @@
       "sos_adj": 1761.322,
       "power": 1703.075,
       "rank": 3,
-      "mw_rating": 160.1,
-      "mw_points": 2242
+      "mw_rating": 160.2,
+      "mw_points": 2243
     },
     {
       "teamno": "43414",
@@ -72,8 +72,8 @@
       "sos_adj": 1811.956,
       "power": 1696.342,
       "rank": 4,
-      "mw_rating": 164.1,
-      "mw_points": 1969
+      "mw_rating": 164.2,
+      "mw_points": 1970
     },
     {
       "teamno": "43735",
@@ -85,9 +85,9 @@
       "pf": 605,
       "pa": 569,
       "diff": 36,
-      "sos": 1644.487,
-      "sos_adj": 1785.396,
-      "power": 1680.041,
+      "sos": 1643.05,
+      "sos_adj": 1783.959,
+      "power": 1679.682,
       "rank": 5,
       "mw_rating": 152.6,
       "mw_points": 1678
@@ -97,17 +97,17 @@
       "name": "D1H-Wellesley (a)",
       "town": null,
       "wins": 6,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 783,
-      "pa": 794,
-      "diff": -11,
-      "sos": 1638.971,
-      "sos_adj": 1772.304,
-      "power": 1669.616,
+      "pf": 834,
+      "pa": 852,
+      "diff": -18,
+      "sos": 1640.775,
+      "sos_adj": 1775.15,
+      "power": 1658.472,
       "rank": 6,
-      "mw_rating": 135.3,
-      "mw_points": 1624
+      "mw_rating": 132.7,
+      "mw_points": 1725
     },
     {
       "teamno": "44995",
@@ -119,12 +119,12 @@
       "pf": 947,
       "pa": 1005,
       "diff": -58,
-      "sos": 1639.288,
-      "sos_adj": 1769.844,
-      "power": 1654.218,
+      "sos": 1640.167,
+      "sos_adj": 1770.722,
+      "power": 1654.438,
       "rank": 7,
-      "mw_rating": 162.8,
-      "mw_points": 2116
+      "mw_rating": 162.9,
+      "mw_points": 2118
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "teamno": "43328",
   "team_name": "D2H-Mansfield (white)",
   "town": null,
@@ -396,7 +396,7 @@
       "location": "Mass Premier - 1",
       "divisionno": "7163",
       "division_name": "8th Boys - Division 2",
-      "home_teamno": "0",
+      "home_teamno": "44774",
       "away_teamno": "43328",
       "home_score": null,
       "away_score": null,
@@ -404,8 +404,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "44774",
+      "opponent_name": "D1J-Lincoln-Sudbury (blue)"
     }
   ]
 }

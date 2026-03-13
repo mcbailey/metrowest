@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "teamno": "45642",
   "team_name": "D4K-Hopkinton (klotsche6)",
   "town": null,
   "summary": {
     "wins": 4,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 456,
-    "pa": 570,
-    "diff": -114,
-    "sos": 1498.615,
-    "sos_adj": 1488.615,
-    "power": 1473.944,
-    "rank": 5,
-    "mw_rating": 38.9,
-    "mw_points": 544,
+    "pf": 488,
+    "pa": 617,
+    "diff": -129,
+    "sos": 1500.291,
+    "sos_adj": 1487.791,
+    "power": 1448.502,
+    "rank": 6,
+    "mw_rating": 36.9,
+    "mw_points": 554,
     "divisionno": "7223",
     "division_name": "6th Boys - Division 4",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45384",
+      "date": "2026-03-12",
+      "dow": "Thu",
+      "starttime": "6:40 PM",
+      "location": "Mass Premier - 1",
+      "divisionno": "7217",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "45642",
+      "away_teamno": "44162",
+      "home_score": 32,
+      "away_score": 47,
+      "team_score": 32,
+      "opponent_score": 47,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44162",
+      "opponent_name": "D5R-Holliston (gum - red)"
+    },
     {
       "gameno": "45381",
       "date": "2026-03-08",
@@ -311,25 +330,5 @@
       "opponent_name": "D4M-Belmont (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45384",
-      "date": "2026-03-12",
-      "dow": "Thu",
-      "starttime": "6:40 PM",
-      "location": "Mass Premier - 1",
-      "divisionno": "7217",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "45642",
-      "away_teamno": "44162",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44162",
-      "opponent_name": "D5R-Holliston (gum - red)"
-    }
-  ]
+  "future_games": []
 }

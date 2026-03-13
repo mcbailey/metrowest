@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "teamno": "44400",
   "team_name": "D4J-Dedham (vanderstreet)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 251,
-    "pa": 247,
-    "diff": 4,
-    "sos": 1485.703,
-    "sos_adj": 1485.703,
-    "power": 1506.258,
-    "rank": 1,
-    "mw_rating": 46.8,
-    "mw_points": 608,
+    "pf": 269,
+    "pa": 269,
+    "diff": 0,
+    "sos": 1487.669,
+    "sos_adj": 1487.669,
+    "power": 1495.356,
+    "rank": 3,
+    "mw_rating": 45.2,
+    "mw_points": 633,
     "divisionno": "7320",
     "division_name": "5th Girls - Division 4",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "46017",
+      "date": "2026-03-12",
+      "dow": "Thu",
+      "starttime": "5:15 PM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7322",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "45632",
+      "away_teamno": "44400",
+      "home_score": 22,
+      "away_score": 18,
+      "team_score": 18,
+      "opponent_score": 22,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45632",
+      "opponent_name": "D4M-Hopkinton (sakakeeny)"
+    },
     {
       "gameno": "46013",
       "date": "2026-03-08",
@@ -292,25 +311,5 @@
       "opponent_name": "D4J-Milton (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "46017",
-      "date": "2026-03-12",
-      "dow": "Thu",
-      "starttime": "5:15 PM",
-      "location": "Dana Barros - 2",
-      "divisionno": "7322",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "45632",
-      "away_teamno": "44400",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45632",
-      "opponent_name": "D4M-Hopkinton (sakakeeny)"
-    }
-  ]
+  "future_games": []
 }

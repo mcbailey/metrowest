@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "gender": "M",
   "grade": 6,
   "divisionno": "7232",
@@ -12,17 +12,17 @@
       "name": "D2K-Wellesley (a)",
       "town": null,
       "wins": 9,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 678,
-      "pa": 639,
-      "diff": 39,
-      "sos": 1592.143,
-      "sos_adj": 1688.81,
-      "power": 1644.596,
+      "pf": 723,
+      "pa": 689,
+      "diff": 34,
+      "sos": 1595.339,
+      "sos_adj": 1692.214,
+      "power": 1633.408,
       "rank": 1,
-      "mw_rating": 127.8,
-      "mw_points": 1534
+      "mw_rating": 123.5,
+      "mw_points": 1605
     },
     {
       "teamno": "44204",
@@ -34,9 +34,9 @@
       "pf": 788,
       "pa": 807,
       "diff": -19,
-      "sos": 1595.539,
-      "sos_adj": 1686.164,
-      "power": 1617.991,
+      "sos": 1593.415,
+      "sos_adj": 1684.04,
+      "power": 1617.815,
       "rank": 2,
       "mw_rating": 123.5,
       "mw_points": 1605
@@ -51,9 +51,9 @@
       "pf": 936,
       "pa": 968,
       "diff": -32,
-      "sos": 1602.491,
-      "sos_adj": 1702.491,
-      "power": 1614.17,
+      "sos": 1602.242,
+      "sos_adj": 1702.242,
+      "power": 1615.253,
       "rank": 3,
       "mw_rating": 101.6,
       "mw_points": 1321
@@ -68,12 +68,12 @@
       "pf": 863,
       "pa": 833,
       "diff": 30,
-      "sos": 1602.465,
-      "sos_adj": 1699.688,
-      "power": 1610.787,
+      "sos": 1602.667,
+      "sos_adj": 1699.889,
+      "power": 1612.251,
       "rank": 4,
-      "mw_rating": 124.7,
-      "mw_points": 1621
+      "mw_rating": 124.8,
+      "mw_points": 1622
     },
     {
       "teamno": "45641",
@@ -85,12 +85,12 @@
       "pf": 746,
       "pa": 813,
       "diff": -67,
-      "sos": 1582.02,
-      "sos_adj": 1664.373,
-      "power": 1601.512,
+      "sos": 1582.822,
+      "sos_adj": 1665.175,
+      "power": 1603.171,
       "rank": 5,
-      "mw_rating": 109.6,
-      "mw_points": 1535
+      "mw_rating": 109.7,
+      "mw_points": 1536
     }
   ]
 }

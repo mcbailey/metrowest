@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "gender": "M",
   "grade": 8,
   "divisionno": "7140",
@@ -22,7 +22,7 @@
       "power": 1439.178,
       "rank": 1,
       "mw_rating": 30.4,
-      "mw_points": 425
+      "mw_points": 426
     },
     {
       "teamno": "43532",
@@ -38,25 +38,8 @@
       "sos_adj": 1302.307,
       "power": 1427.633,
       "rank": 2,
-      "mw_rating": 31.2,
-      "mw_points": 437
-    },
-    {
-      "teamno": "44382",
-      "name": "D6M-Westborough",
-      "town": null,
-      "wins": 7,
-      "losses": 7,
-      "ties": 0,
-      "pf": 481,
-      "pa": 539,
-      "diff": -58,
-      "sos": 1394.806,
-      "sos_adj": 1294.806,
-      "power": 1376.656,
-      "rank": 3,
-      "mw_rating": 19.6,
-      "mw_points": 274
+      "mw_rating": 31.3,
+      "mw_points": 438
     },
     {
       "teamno": "44336",
@@ -71,9 +54,26 @@
       "sos": 1396.497,
       "sos_adj": 1296.497,
       "power": 1365.646,
-      "rank": 4,
+      "rank": 3,
       "mw_rating": 20.5,
       "mw_points": 267
+    },
+    {
+      "teamno": "44382",
+      "name": "D6M-Westborough",
+      "town": null,
+      "wins": 7,
+      "losses": 8,
+      "ties": 0,
+      "pf": 507,
+      "pa": 575,
+      "diff": -68,
+      "sos": 1398.828,
+      "sos_adj": 1298.828,
+      "power": 1362.046,
+      "rank": 4,
+      "mw_rating": 18.6,
+      "mw_points": 279
     },
     {
       "teamno": "44997",
@@ -102,9 +102,9 @@
       "pf": 367,
       "pa": 418,
       "diff": -51,
-      "sos": 1407.497,
-      "sos_adj": 1311.343,
-      "power": 1334.501,
+      "sos": 1405.895,
+      "sos_adj": 1309.742,
+      "power": 1334.1,
       "rank": 6,
       "mw_rating": 12.5,
       "mw_points": 162
@@ -119,9 +119,9 @@
       "pf": 387,
       "pa": 605,
       "diff": -218,
-      "sos": 1400.872,
-      "sos_adj": 1300.872,
-      "power": 1307.356,
+      "sos": 1399.27,
+      "sos_adj": 1299.27,
+      "power": 1306.955,
       "rank": 7,
       "mw_rating": 7.1,
       "mw_points": 92

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "gender": "M",
   "grade": 5,
   "divisionno": "7292",
@@ -17,12 +17,12 @@
       "pf": 793,
       "pa": 389,
       "diff": 404,
-      "sos": 1468.126,
-      "sos_adj": 1449.376,
-      "power": 1590.903,
+      "sos": 1469.49,
+      "sos_adj": 1450.74,
+      "power": 1591.244,
       "rank": 1,
-      "mw_rating": 71.8,
-      "mw_points": 1005
+      "mw_rating": 71.9,
+      "mw_points": 1006
     },
     {
       "teamno": "44088",
@@ -34,12 +34,12 @@
       "pf": 701,
       "pa": 497,
       "diff": 204,
-      "sos": 1462.506,
-      "sos_adj": 1432.506,
-      "power": 1514.34,
+      "sos": 1463.961,
+      "sos_adj": 1433.961,
+      "power": 1514.703,
       "rank": 2,
-      "mw_rating": 55.9,
-      "mw_points": 839
+      "mw_rating": 56.0,
+      "mw_points": 840
     },
     {
       "teamno": "44420",
@@ -51,12 +51,12 @@
       "pf": 575,
       "pa": 480,
       "diff": 95,
-      "sos": 1449.717,
-      "sos_adj": 1402.842,
-      "power": 1477.228,
+      "sos": 1451.081,
+      "sos_adj": 1404.206,
+      "power": 1477.569,
       "rank": 3,
-      "mw_rating": 43.3,
-      "mw_points": 650
+      "mw_rating": 43.4,
+      "mw_points": 651
     },
     {
       "teamno": "44203",
@@ -68,29 +68,29 @@
       "pf": 583,
       "pa": 508,
       "diff": 75,
-      "sos": 1462.724,
-      "sos_adj": 1412.724,
-      "power": 1453.021,
+      "sos": 1464.282,
+      "sos_adj": 1414.282,
+      "power": 1453.411,
       "rank": 4,
       "mw_rating": 42.2,
-      "mw_points": 548
+      "mw_points": 549
     },
     {
       "teamno": "44115",
       "name": "D5M-Easton (orange)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 9,
       "ties": 0,
-      "pf": 485,
-      "pa": 490,
-      "diff": -5,
-      "sos": 1460.037,
-      "sos_adj": 1402.345,
-      "power": 1427.418,
+      "pf": 524,
+      "pa": 520,
+      "diff": 4,
+      "sos": 1457.761,
+      "sos_adj": 1400.618,
+      "power": 1443.353,
       "rank": 5,
-      "mw_rating": 21.8,
-      "mw_points": 283
+      "mw_rating": 24.1,
+      "mw_points": 337
     },
     {
       "teamno": "43325",
@@ -102,9 +102,9 @@
       "pf": 294,
       "pa": 531,
       "diff": -237,
-      "sos": 1463.134,
-      "sos_adj": 1402.42,
-      "power": 1373.11,
+      "sos": 1464.693,
+      "sos_adj": 1403.979,
+      "power": 1373.5,
       "rank": 6,
       "mw_rating": 17.2,
       "mw_points": 241

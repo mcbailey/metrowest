@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "gender": "F",
   "grade": 6,
   "divisionno": "7278",
@@ -17,12 +17,12 @@
       "pf": 663,
       "pa": 469,
       "diff": 194,
-      "sos": 1553.597,
-      "sos_adj": 1609.847,
-      "power": 1635.506,
+      "sos": 1554.632,
+      "sos_adj": 1610.882,
+      "power": 1635.765,
       "rank": 1,
       "mw_rating": 101.6,
-      "mw_points": 1422
+      "mw_points": 1423
     },
     {
       "teamno": "44475",
@@ -34,12 +34,12 @@
       "pf": 509,
       "pa": 409,
       "diff": 100,
-      "sos": 1559.387,
-      "sos_adj": 1619.387,
-      "power": 1625.269,
+      "sos": 1560.49,
+      "sos_adj": 1620.49,
+      "power": 1625.545,
       "rank": 2,
-      "mw_rating": 105.5,
-      "mw_points": 1477
+      "mw_rating": 105.6,
+      "mw_points": 1478
     },
     {
       "teamno": "44598",
@@ -51,12 +51,12 @@
       "pf": 565,
       "pa": 392,
       "diff": 173,
-      "sos": 1552.862,
-      "sos_adj": 1609.112,
-      "power": 1613.757,
+      "sos": 1554.93,
+      "sos_adj": 1611.18,
+      "power": 1614.274,
       "rank": 3,
-      "mw_rating": 112.6,
-      "mw_points": 1464
+      "mw_rating": 112.7,
+      "mw_points": 1465
     },
     {
       "teamno": "44650",
@@ -68,12 +68,12 @@
       "pf": 497,
       "pa": 487,
       "diff": 10,
-      "sos": 1562.379,
-      "sos_adj": 1615.32,
-      "power": 1560.855,
+      "sos": 1563.352,
+      "sos_adj": 1616.293,
+      "power": 1561.098,
       "rank": 4,
-      "mw_rating": 83.7,
-      "mw_points": 1088
+      "mw_rating": 83.8,
+      "mw_points": 1089
     },
     {
       "teamno": "43592",
@@ -85,29 +85,29 @@
       "pf": 320,
       "pa": 399,
       "diff": -79,
-      "sos": 1555.821,
-      "sos_adj": 1609.667,
-      "power": 1546.682,
+      "sos": 1557.094,
+      "sos_adj": 1610.94,
+      "power": 1547.001,
       "rank": 5,
-      "mw_rating": 79.1,
-      "mw_points": 1028
+      "mw_rating": 79.2,
+      "mw_points": 1029
     },
     {
       "teamno": "44487",
       "name": "D3H-Easton (black)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 12,
       "ties": 0,
-      "pf": 353,
-      "pa": 464,
-      "diff": -111,
-      "sos": 1546.293,
-      "sos_adj": 1586.918,
-      "power": 1532.693,
+      "pf": 378,
+      "pa": 484,
+      "diff": -106,
+      "sos": 1543.578,
+      "sos_adj": 1581.813,
+      "power": 1543.828,
       "rank": 6,
-      "mw_rating": 60.4,
-      "mw_points": 846
+      "mw_rating": 62.1,
+      "mw_points": 931
     },
     {
       "teamno": "43129",
@@ -124,7 +124,7 @@
       "power": 1508.61,
       "rank": 7,
       "mw_rating": 52.9,
-      "mw_points": 687
+      "mw_points": 688
     },
     {
       "teamno": "43552",
@@ -136,9 +136,9 @@
       "pf": 304,
       "pa": 423,
       "diff": -119,
-      "sos": 1562.49,
-      "sos_adj": 1616.336,
-      "power": 1500.067,
+      "sos": 1563.763,
+      "sos_adj": 1617.609,
+      "power": 1500.385,
       "rank": 8,
       "mw_rating": 62.8,
       "mw_points": 816

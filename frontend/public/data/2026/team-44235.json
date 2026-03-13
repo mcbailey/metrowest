@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "teamno": "44235",
   "team_name": "D6R-Wayland (orange)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 363,
-    "pa": 338,
-    "diff": 25,
-    "sos": 1394.938,
-    "sos_adj": 1294.938,
-    "power": 1376.42,
-    "rank": 6,
-    "mw_rating": 20.3,
-    "mw_points": 244,
+    "pf": 388,
+    "pa": 379,
+    "diff": 9,
+    "sos": 1397.702,
+    "sos_adj": 1297.702,
+    "power": 1358.338,
+    "rank": 7,
+    "mw_rating": 19.2,
+    "mw_points": 249,
     "divisionno": "7178",
     "division_name": "7th Boys - Division 6",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 12,
-    "games_scheduled_total": 1
+    "games_played_total": 13,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45650",
+      "date": "2026-03-12",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Ashland Mindess School",
+      "divisionno": "7178",
+      "division_name": "7th Boys - Division 6",
+      "home_teamno": "44235",
+      "away_teamno": "43535",
+      "home_score": 25,
+      "away_score": 41,
+      "team_score": 25,
+      "opponent_score": 41,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43535",
+      "opponent_name": "D6Q-Northboro (white)"
+    },
     {
       "gameno": "45647",
       "date": "2026-03-08",
@@ -254,25 +273,5 @@
       "opponent_name": "D6Q-Westborough (weigensberg)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45650",
-      "date": "2026-03-12",
-      "dow": "Thu",
-      "starttime": "7:45 PM",
-      "location": "Ashland Mindess School",
-      "divisionno": "7178",
-      "division_name": "7th Boys - Division 6",
-      "home_teamno": "44235",
-      "away_teamno": "43535",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43535",
-      "opponent_name": "D6Q-Northboro (white)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "teamno": "45501",
   "team_name": "D1J-Everett",
   "town": null,
@@ -11,10 +11,10 @@
     "pf": 808,
     "pa": 865,
     "diff": -57,
-    "sos": 1633.283,
-    "sos_adj": 1761.408,
-    "power": 1669.307,
-    "rank": 5,
+    "sos": 1634.239,
+    "sos_adj": 1762.364,
+    "power": 1669.546,
+    "rank": 6,
     "mw_rating": 116.3,
     "mw_points": 1628,
     "divisionno": "7167",
@@ -396,7 +396,7 @@
       "location": "Mass Premier - 2",
       "divisionno": "7167",
       "division_name": "8th Boys - Division 1",
-      "home_teamno": "0",
+      "home_teamno": "43939",
       "away_teamno": "45501",
       "home_score": null,
       "away_score": null,
@@ -404,8 +404,8 @@
       "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
-      "opponent_teamno": "0",
-      "opponent_name": "* To Be Determined *"
+      "opponent_teamno": "43939",
+      "opponent_name": "D1J-Brookline (red)"
     }
   ]
 }

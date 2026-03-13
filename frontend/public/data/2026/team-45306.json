@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "teamno": "45306",
   "team_name": "D6T-Medford (gray)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 503,
-    "pa": 471,
-    "diff": 32,
-    "sos": 1394.468,
-    "sos_adj": 1294.468,
-    "power": 1398.308,
+    "pf": 537,
+    "pa": 515,
+    "diff": 22,
+    "sos": 1399.908,
+    "sos_adj": 1303.479,
+    "power": 1385.094,
     "rank": 3,
-    "mw_rating": 27.2,
-    "mw_points": 354,
+    "mw_rating": 26.1,
+    "mw_points": 365,
     "divisionno": "7142",
     "division_name": "8th Boys - Division 6",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47185",
+      "date": "2026-03-12",
+      "dow": "Thu",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7142",
+      "division_name": "8th Boys - Division 6",
+      "home_teamno": "44335",
+      "away_teamno": "45306",
+      "home_score": 44,
+      "away_score": 34,
+      "team_score": 34,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44335",
+      "opponent_name": "D5J-Medway (white)"
+    },
     {
       "gameno": "45823",
       "date": "2026-03-10",
@@ -273,25 +292,5 @@
       "opponent_name": "D6T-Arlington (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47185",
-      "date": "2026-03-12",
-      "dow": "Thu",
-      "starttime": "7:45 PM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7142",
-      "division_name": "8th Boys - Division 6",
-      "home_teamno": "44335",
-      "away_teamno": "45306",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44335",
-      "opponent_name": "D5J-Medway (white)"
-    }
-  ]
+  "future_games": []
 }

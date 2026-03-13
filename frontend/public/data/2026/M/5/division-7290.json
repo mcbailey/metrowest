@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "gender": "M",
   "grade": 5,
   "divisionno": "7290",
@@ -17,12 +17,12 @@
       "pf": 476,
       "pa": 344,
       "diff": 132,
-      "sos": 1457.972,
-      "sos_adj": 1419.511,
-      "power": 1520.758,
+      "sos": 1458.329,
+      "sos_adj": 1419.867,
+      "power": 1513.009,
       "rank": 1,
-      "mw_rating": 59.2,
-      "mw_points": 770
+      "mw_rating": 59.3,
+      "mw_points": 771
     },
     {
       "teamno": "43428",
@@ -34,9 +34,9 @@
       "pf": 520,
       "pa": 450,
       "diff": 70,
-      "sos": 1452.719,
-      "sos_adj": 1406.291,
-      "power": 1488.327,
+      "sos": 1450.433,
+      "sos_adj": 1404.004,
+      "power": 1482.83,
       "rank": 2,
       "mw_rating": 37.5,
       "mw_points": 525
@@ -51,12 +51,12 @@
       "pf": 639,
       "pa": 567,
       "diff": 72,
-      "sos": 1449.94,
-      "sos_adj": 1396.815,
-      "power": 1433.991,
+      "sos": 1447.558,
+      "sos_adj": 1394.433,
+      "power": 1433.667,
       "rank": 3,
-      "mw_rating": 39.1,
-      "mw_points": 508
+      "mw_rating": 39.2,
+      "mw_points": 509
     },
     {
       "teamno": "43351",
@@ -68,29 +68,29 @@
       "pf": 533,
       "pa": 518,
       "diff": 15,
-      "sos": 1464.184,
-      "sos_adj": 1410.612,
-      "power": 1422.326,
+      "sos": 1461.222,
+      "sos_adj": 1407.651,
+      "power": 1423.368,
       "rank": 4,
-      "mw_rating": 31.8,
-      "mw_points": 413
+      "mw_rating": 31.9,
+      "mw_points": 414
     },
     {
       "teamno": "43969",
       "name": "D5J-Taunton (garner)",
       "town": null,
       "wins": 3,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 346,
-      "pa": 462,
-      "diff": -116,
-      "sos": 1447.937,
-      "sos_adj": 1393.77,
-      "power": 1389.502,
+      "pf": 376,
+      "pa": 501,
+      "diff": -125,
+      "sos": 1449.178,
+      "sos_adj": 1395.332,
+      "power": 1382.086,
       "rank": 5,
-      "mw_rating": 20.3,
-      "mw_points": 244
+      "mw_rating": 19.6,
+      "mw_points": 255
     }
   ]
 }

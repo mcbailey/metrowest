@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "teamno": "45580",
   "team_name": "D2J-Stoughton",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 10,
+    "losses": 11,
     "ties": 1,
-    "pf": 784,
-    "pa": 928,
-    "diff": -144,
-    "sos": 1577.808,
-    "sos_adj": 1654.124,
-    "power": 1606.401,
-    "rank": 5,
-    "mw_rating": 105.5,
-    "mw_points": 1266,
+    "pf": 822,
+    "pa": 984,
+    "diff": -162,
+    "sos": 1577.868,
+    "sos_adj": 1652.868,
+    "power": 1572.598,
+    "rank": 6,
+    "mw_rating": 100.9,
+    "mw_points": 1311,
     "divisionno": "7164",
     "division_name": "8th Boys - Division 2",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45710",
+      "date": "2026-03-11",
+      "dow": "Wed",
+      "starttime": "5:15 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7157",
+      "division_name": "8th Boys - Division 3",
+      "home_teamno": "43097",
+      "away_teamno": "45580",
+      "home_score": 56,
+      "away_score": 38,
+      "team_score": 38,
+      "opponent_score": 56,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43097",
+      "opponent_name": "D3H-Swansea (gold)"
+    },
     {
       "gameno": "45706",
       "date": "2026-03-08",
@@ -387,25 +406,5 @@
       "opponent_name": "Braintree 8B D2"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45710",
-      "date": "2026-03-11",
-      "dow": "Wed",
-      "starttime": "5:15 PM",
-      "location": "Dana Barros - 4",
-      "divisionno": "7157",
-      "division_name": "8th Boys - Division 3",
-      "home_teamno": "43097",
-      "away_teamno": "45580",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43097",
-      "opponent_name": "D3H-Swansea (gold)"
-    }
-  ]
+  "future_games": []
 }

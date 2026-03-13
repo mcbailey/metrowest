@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-12",
+  "snapshot_date": "2026-03-13",
   "gender": "M",
   "grade": 6,
   "divisionno": "7217",
@@ -11,18 +11,18 @@
       "teamno": "44162",
       "name": "D5R-Holliston (gum - red)",
       "town": null,
-      "wins": 11,
+      "wins": 12,
       "losses": 2,
       "ties": 0,
-      "pf": 615,
-      "pa": 364,
-      "diff": 251,
-      "sos": 1451.233,
-      "sos_adj": 1405.079,
-      "power": 1523.165,
+      "pf": 662,
+      "pa": 396,
+      "diff": 266,
+      "sos": 1452.953,
+      "sos_adj": 1410.096,
+      "power": 1546.202,
       "rank": 1,
-      "mw_rating": 52.8,
-      "mw_points": 686
+      "mw_rating": 54.8,
+      "mw_points": 767
     },
     {
       "teamno": "45428",
@@ -51,12 +51,12 @@
       "pf": 540,
       "pa": 520,
       "diff": 20,
-      "sos": 1460.99,
-      "sos_adj": 1414.562,
-      "power": 1457.37,
+      "sos": 1463.065,
+      "sos_adj": 1416.636,
+      "power": 1457.889,
       "rank": 3,
-      "mw_rating": 42.4,
-      "mw_points": 593
+      "mw_rating": 42.5,
+      "mw_points": 595
     },
     {
       "teamno": "44208",
@@ -68,9 +68,9 @@
       "pf": 472,
       "pa": 516,
       "diff": -44,
-      "sos": 1441.463,
-      "sos_adj": 1380.749,
-      "power": 1447.901,
+      "sos": 1443.537,
+      "sos_adj": 1382.823,
+      "power": 1448.42,
       "rank": 4,
       "mw_rating": 26.7,
       "mw_points": 374
@@ -89,8 +89,8 @@
       "sos_adj": 1439.511,
       "power": 1417.984,
       "rank": 5,
-      "mw_rating": 39.6,
-      "mw_points": 515
+      "mw_rating": 39.7,
+      "mw_points": 516
     },
     {
       "teamno": "44330",
@@ -102,9 +102,9 @@
       "pf": 470,
       "pa": 548,
       "diff": -78,
-      "sos": 1454.535,
-      "sos_adj": 1404.535,
-      "power": 1415.8,
+      "sos": 1456.609,
+      "sos_adj": 1406.609,
+      "power": 1416.319,
       "rank": 6,
       "mw_rating": 29.1,
       "mw_points": 407
