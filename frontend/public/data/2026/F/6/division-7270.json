@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-13",
+  "snapshot_date": "2026-03-14",
   "gender": "F",
   "grade": 6,
   "divisionno": "7270",
@@ -21,25 +21,25 @@
       "sos_adj": 1408.7,
       "power": 1486.503,
       "rank": 1,
-      "mw_rating": 49.0,
-      "mw_points": 637
+      "mw_rating": 49.1,
+      "mw_points": 638
     },
     {
       "teamno": "44964",
       "name": "D5M-Milford (black-orourke)",
       "town": null,
-      "wins": 5,
+      "wins": 6,
       "losses": 8,
       "ties": 0,
-      "pf": 267,
-      "pa": 320,
-      "diff": -53,
-      "sos": 1446.156,
-      "sos_adj": 1400.002,
-      "power": 1458.912,
+      "pf": 306,
+      "pa": 351,
+      "diff": -45,
+      "sos": 1445.048,
+      "sos_adj": 1398.619,
+      "power": 1472.863,
       "rank": 2,
-      "mw_rating": 29.2,
-      "mw_points": 380
+      "mw_rating": 31.1,
+      "mw_points": 436
     },
     {
       "teamno": "45130",
@@ -55,8 +55,8 @@
       "sos_adj": 1413.142,
       "power": 1417.879,
       "rank": 3,
-      "mw_rating": 32.8,
-      "mw_points": 426
+      "mw_rating": 32.9,
+      "mw_points": 427
     },
     {
       "teamno": "44182",
@@ -72,8 +72,8 @@
       "sos_adj": 1410.846,
       "power": 1413.217,
       "rank": 4,
-      "mw_rating": 25.3,
-      "mw_points": 304
+      "mw_rating": 25.4,
+      "mw_points": 305
     },
     {
       "teamno": "44342",
@@ -89,8 +89,8 @@
       "sos_adj": 1413.827,
       "power": 1397.199,
       "rank": 5,
-      "mw_rating": 20.6,
-      "mw_points": 289
+      "mw_rating": 20.7,
+      "mw_points": 290
     },
     {
       "teamno": "43644",
@@ -102,9 +102,9 @@
       "pf": 303,
       "pa": 455,
       "diff": -152,
-      "sos": 1481.127,
-      "sos_adj": 1445.833,
-      "power": 1391.602,
+      "sos": 1480.006,
+      "sos_adj": 1444.712,
+      "power": 1391.322,
       "rank": 6,
       "mw_rating": 22.7,
       "mw_points": 272

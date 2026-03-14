@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-13",
+  "snapshot_date": "2026-03-14",
   "teamno": "44334",
   "team_name": "D3K-Medway (blue)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 14,
+    "losses": 15,
     "ties": 0,
-    "pf": 1008,
-    "pa": 1124,
-    "diff": -116,
-    "sos": 1532.914,
-    "sos_adj": 1563.349,
-    "power": 1549.438,
-    "rank": 4,
-    "mw_rating": 68.8,
-    "mw_points": 1032,
+    "pf": 1055,
+    "pa": 1183,
+    "diff": -128,
+    "sos": 1531.89,
+    "sos_adj": 1561.056,
+    "power": 1519.007,
+    "rank": 7,
+    "mw_rating": 66.1,
+    "mw_points": 1058,
     "divisionno": "7159",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 23,
-    "games_scheduled_total": 1
+    "games_played_total": 24,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47177",
+      "date": "2026-03-13",
+      "dow": "Fri",
+      "starttime": "7:45 PM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7154",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "45309",
+      "away_teamno": "44334",
+      "home_score": 59,
+      "away_score": 47,
+      "team_score": 47,
+      "opponent_score": 59,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45309",
+      "opponent_name": "D4M-Milton (white)"
+    },
     {
       "gameno": "45725",
       "date": "2026-03-09",
@@ -463,25 +482,5 @@
       "opponent_name": "D2K-Concord-Carlisle (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47177",
-      "date": "2026-03-13",
-      "dow": "Fri",
-      "starttime": "7:45 PM",
-      "location": "Dana Barros - 2",
-      "divisionno": "7154",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "45309",
-      "away_teamno": "44334",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45309",
-      "opponent_name": "D4M-Milton (white)"
-    }
-  ]
+  "future_games": []
 }

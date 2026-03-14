@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-13",
+  "snapshot_date": "2026-03-14",
   "teamno": "43531",
   "team_name": "D3K-Northboro (red)",
   "town": null,
   "summary": {
     "wins": 11,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 792,
-    "pa": 698,
-    "diff": 94,
-    "sos": 1555.476,
-    "sos_adj": 1622.142,
-    "power": 1622.237,
+    "pf": 846,
+    "pa": 760,
+    "diff": 86,
+    "sos": 1552.197,
+    "sos_adj": 1614.697,
+    "power": 1588.253,
     "rank": 2,
-    "mw_rating": 112.3,
-    "mw_points": 1572,
+    "mw_rating": 106.5,
+    "mw_points": 1597,
     "divisionno": "7159",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47173",
+      "date": "2026-03-13",
+      "dow": "Fri",
+      "starttime": "6:00 PM",
+      "location": "Mass Premier - 1",
+      "divisionno": "7154",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "45584",
+      "away_teamno": "43531",
+      "home_score": 62,
+      "away_score": 54,
+      "team_score": 54,
+      "opponent_score": 62,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45584",
+      "opponent_name": "D4M-Stoughton"
+    },
     {
       "gameno": "45695",
       "date": "2026-03-11",
@@ -311,25 +330,5 @@
       "opponent_name": "D3M-Winchester (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47173",
-      "date": "2026-03-13",
-      "dow": "Fri",
-      "starttime": "6:00 PM",
-      "location": "Mass Premier - 1",
-      "divisionno": "7154",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "45584",
-      "away_teamno": "43531",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45584",
-      "opponent_name": "D4M-Stoughton"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-13",
+  "snapshot_date": "2026-03-14",
   "gender": "M",
   "grade": 8,
   "divisionno": "7150",
@@ -17,12 +17,12 @@
       "pf": 722,
       "pa": 706,
       "diff": 16,
-      "sos": 1463.98,
-      "sos_adj": 1423.98,
-      "power": 1498.362,
+      "sos": 1462.096,
+      "sos_adj": 1422.096,
+      "power": 1497.891,
       "rank": 1,
       "mw_rating": 48.4,
-      "mw_points": 677
+      "mw_points": 678
     },
     {
       "teamno": "44752",
@@ -34,9 +34,9 @@
       "pf": 1037,
       "pa": 756,
       "diff": 281,
-      "sos": 1466.489,
-      "sos_adj": 1428.989,
-      "power": 1488.587,
+      "sos": 1462.25,
+      "sos_adj": 1424.75,
+      "power": 1487.528,
       "rank": 2,
       "mw_rating": 54.9,
       "mw_points": 714
@@ -59,23 +59,6 @@
       "mw_points": 675
     },
     {
-      "teamno": "43449",
-      "name": "D5R-Winchester (black)",
-      "town": null,
-      "wins": 12,
-      "losses": 11,
-      "ties": 0,
-      "pf": 884,
-      "pa": 900,
-      "diff": -16,
-      "sos": 1445.119,
-      "sos_adj": 1390.771,
-      "power": 1466.994,
-      "rank": 4,
-      "mw_rating": 33.0,
-      "mw_points": 495
-    },
-    {
       "teamno": "44073",
       "name": "D5R-Watertown (white)",
       "town": null,
@@ -85,12 +68,29 @@
       "pf": 612,
       "pa": 579,
       "diff": 33,
-      "sos": 1471.969,
-      "sos_adj": 1431.969,
-      "power": 1457.474,
+      "sos": 1468.2,
+      "sos_adj": 1428.2,
+      "power": 1456.532,
+      "rank": 4,
+      "mw_rating": 40.5,
+      "mw_points": 486
+    },
+    {
+      "teamno": "43449",
+      "name": "D5R-Winchester (black)",
+      "town": null,
+      "wins": 12,
+      "losses": 12,
+      "ties": 0,
+      "pf": 919,
+      "pa": 949,
+      "diff": -30,
+      "sos": 1446.5,
+      "sos_adj": 1392.333,
+      "power": 1446.187,
       "rank": 5,
-      "mw_rating": 40.4,
-      "mw_points": 485
+      "mw_rating": 31.6,
+      "mw_points": 505
     },
     {
       "teamno": "45254",
@@ -107,7 +107,7 @@
       "power": 1444.973,
       "rank": 6,
       "mw_rating": 41.2,
-      "mw_points": 535
+      "mw_points": 536
     },
     {
       "teamno": "44443",
@@ -119,9 +119,9 @@
       "pf": 818,
       "pa": 926,
       "diff": -108,
-      "sos": 1461.149,
-      "sos_adj": 1411.149,
-      "power": 1404.044,
+      "sos": 1457.112,
+      "sos_adj": 1407.112,
+      "power": 1403.034,
       "rank": 7,
       "mw_rating": 26.5,
       "mw_points": 397

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-13",
+  "snapshot_date": "2026-03-14",
   "gender": "F",
   "grade": 6,
   "divisionno": "7071",
@@ -21,8 +21,8 @@
       "sos_adj": 1700.666,
       "power": 1699.236,
       "rank": 1,
-      "mw_rating": 177.5,
-      "mw_points": 2308
+      "mw_rating": 177.6,
+      "mw_points": 2309
     },
     {
       "teamno": "44031",
@@ -34,29 +34,29 @@
       "pf": 499,
       "pa": 449,
       "diff": 50,
-      "sos": 1619.088,
-      "sos_adj": 1734.472,
-      "power": 1672.832,
+      "sos": 1620.601,
+      "sos_adj": 1735.986,
+      "power": 1673.211,
       "rank": 2,
-      "mw_rating": 147.1,
-      "mw_points": 1765
+      "mw_rating": 147.2,
+      "mw_points": 1766
     },
     {
       "teamno": "43899",
       "name": "D2-Canton (green)",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 9,
       "ties": 0,
-      "pf": 457,
-      "pa": 501,
-      "diff": -44,
-      "sos": 1598.092,
-      "sos_adj": 1691.425,
-      "power": 1630.502,
+      "pf": 494,
+      "pa": 507,
+      "diff": -13,
+      "sos": 1593.591,
+      "sos_adj": 1684.216,
+      "power": 1643.457,
       "rank": 3,
-      "mw_rating": 94.5,
-      "mw_points": 1134
+      "mw_rating": 96.3,
+      "mw_points": 1252
     },
     {
       "teamno": "45245",
@@ -68,12 +68,12 @@
       "pf": 566,
       "pa": 533,
       "diff": 33,
-      "sos": 1633.712,
-      "sos_adj": 1760.378,
-      "power": 1626.811,
+      "sos": 1635.023,
+      "sos_adj": 1761.69,
+      "power": 1627.139,
       "rank": 4,
-      "mw_rating": 138.4,
-      "mw_points": 1661
+      "mw_rating": 138.5,
+      "mw_points": 1662
     },
     {
       "teamno": "43179",
@@ -102,12 +102,12 @@
       "pf": 449,
       "pa": 625,
       "diff": -176,
-      "sos": 1618.741,
-      "sos_adj": 1724.991,
-      "power": 1590.618,
+      "sos": 1619.971,
+      "sos_adj": 1726.221,
+      "power": 1590.925,
       "rank": 6,
       "mw_rating": 102.5,
-      "mw_points": 1332
+      "mw_points": 1333
     }
   ]
 }

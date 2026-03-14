@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-13",
+  "snapshot_date": "2026-03-14",
   "gender": "F",
   "grade": 7,
   "divisionno": "7060",
@@ -17,12 +17,12 @@
       "pf": 1097,
       "pa": 752,
       "diff": 345,
-      "sos": 1618.004,
-      "sos_adj": 1740.504,
-      "power": 1758.822,
+      "sos": 1616.997,
+      "sos_adj": 1739.497,
+      "power": 1749.95,
       "rank": 1,
-      "mw_rating": 216.5,
-      "mw_points": 2598
+      "mw_rating": 216.6,
+      "mw_points": 2599
     },
     {
       "teamno": "43337",
@@ -34,12 +34,12 @@
       "pf": 860,
       "pa": 721,
       "diff": 139,
-      "sos": 1620.392,
-      "sos_adj": 1745.392,
-      "power": 1709.35,
+      "sos": 1619.395,
+      "sos_adj": 1744.395,
+      "power": 1705.551,
       "rank": 2,
-      "mw_rating": 180.7,
-      "mw_points": 2349
+      "mw_rating": 180.8,
+      "mw_points": 2350
     },
     {
       "teamno": "45582",
@@ -51,12 +51,12 @@
       "pf": 579,
       "pa": 480,
       "diff": 99,
-      "sos": 1645.964,
-      "sos_adj": 1788.272,
-      "power": 1695.066,
+      "sos": 1643.357,
+      "sos_adj": 1785.664,
+      "power": 1693.364,
       "rank": 3,
-      "mw_rating": 170.3,
-      "mw_points": 2044
+      "mw_rating": 170.4,
+      "mw_points": 2045
     },
     {
       "teamno": "44651",
@@ -68,9 +68,9 @@
       "pf": 775,
       "pa": 782,
       "diff": -7,
-      "sos": 1643.943,
-      "sos_adj": 1786.049,
-      "power": 1686.396,
+      "sos": 1642.226,
+      "sos_adj": 1784.331,
+      "power": 1685.728,
       "rank": 4,
       "mw_rating": 147.9,
       "mw_points": 1923
@@ -85,12 +85,12 @@
       "pf": 607,
       "pa": 651,
       "diff": -44,
-      "sos": 1638.291,
-      "sos_adj": 1779.467,
-      "power": 1679.42,
+      "sos": 1636.865,
+      "sos_adj": 1778.041,
+      "power": 1679.359,
       "rank": 5,
-      "mw_rating": 146.5,
-      "mw_points": 1905
+      "mw_rating": 146.6,
+      "mw_points": 1906
     },
     {
       "teamno": "43931",
@@ -110,23 +110,6 @@
       "mw_points": 0
     },
     {
-      "teamno": "44205",
-      "name": "D1/2H-Sharon (gold)",
-      "town": null,
-      "wins": 2,
-      "losses": 11,
-      "ties": 0,
-      "pf": 382,
-      "pa": 604,
-      "diff": -222,
-      "sos": 1636.409,
-      "sos_adj": 1767.179,
-      "power": 1628.601,
-      "rank": 7,
-      "mw_rating": 99.7,
-      "mw_points": 1196
-    },
-    {
       "teamno": "43822",
       "name": "D1/2H-North Attleboro (red)",
       "town": null,
@@ -136,12 +119,29 @@
       "pf": 831,
       "pa": 853,
       "diff": -22,
-      "sos": 1625.895,
-      "sos_adj": 1745.895,
-      "power": 1617.668,
+      "sos": 1624.139,
+      "sos_adj": 1744.139,
+      "power": 1622.86,
+      "rank": 7,
+      "mw_rating": 150.7,
+      "mw_points": 1808
+    },
+    {
+      "teamno": "44205",
+      "name": "D1/2H-Sharon (gold)",
+      "town": null,
+      "wins": 2,
+      "losses": 12,
+      "ties": 0,
+      "pf": 412,
+      "pa": 640,
+      "diff": -228,
+      "sos": 1631.795,
+      "sos_adj": 1756.795,
+      "power": 1609.218,
       "rank": 8,
-      "mw_rating": 150.6,
-      "mw_points": 1807
+      "mw_rating": 95.5,
+      "mw_points": 1241
     }
   ]
 }

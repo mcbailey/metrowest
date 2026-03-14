@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-13",
+  "snapshot_date": "2026-03-14",
   "gender": "F",
   "grade": 6,
   "divisionno": "7271",
@@ -17,9 +17,9 @@
       "pf": 405,
       "pa": 223,
       "diff": 182,
-      "sos": 1448.751,
-      "sos_adj": 1406.443,
-      "power": 1532.424,
+      "sos": 1447.062,
+      "sos_adj": 1404.754,
+      "power": 1532.001,
       "rank": 1,
       "mw_rating": 61.4,
       "mw_points": 798
@@ -38,8 +38,8 @@
       "sos_adj": 1414.352,
       "power": 1477.725,
       "rank": 2,
-      "mw_rating": 51.2,
-      "mw_points": 614
+      "mw_rating": 51.3,
+      "mw_points": 615
     },
     {
       "teamno": "43543",
@@ -59,23 +59,6 @@
       "mw_points": 489
     },
     {
-      "teamno": "44157",
-      "name": "D5Q-Holliston (wing - white)",
-      "town": null,
-      "wins": 5,
-      "losses": 9,
-      "ties": 0,
-      "pf": 267,
-      "pa": 297,
-      "diff": -30,
-      "sos": 1450.544,
-      "sos_adj": 1404.115,
-      "power": 1449.597,
-      "rank": 4,
-      "mw_rating": 27.8,
-      "mw_points": 389
-    },
-    {
       "teamno": "43522",
       "name": "D5Q-Hopkinton (mccullough)",
       "town": null,
@@ -85,12 +68,29 @@
       "pf": 277,
       "pa": 285,
       "diff": -8,
-      "sos": 1454.637,
-      "sos_adj": 1408.483,
-      "power": 1437.592,
-      "rank": 5,
+      "sos": 1452.948,
+      "sos_adj": 1406.794,
+      "power": 1437.169,
+      "rank": 4,
       "mw_rating": 32.2,
       "mw_points": 418
+    },
+    {
+      "teamno": "44157",
+      "name": "D5Q-Holliston (wing - white)",
+      "town": null,
+      "wins": 5,
+      "losses": 10,
+      "ties": 0,
+      "pf": 298,
+      "pa": 336,
+      "diff": -38,
+      "sos": 1452.459,
+      "sos_adj": 1405.792,
+      "power": 1433.55,
+      "rank": 5,
+      "mw_rating": 26.7,
+      "mw_points": 400
     },
     {
       "teamno": "44770",
@@ -106,8 +106,8 @@
       "sos_adj": 1404.764,
       "power": 1428.505,
       "rank": 6,
-      "mw_rating": 29.4,
-      "mw_points": 412
+      "mw_rating": 29.5,
+      "mw_points": 413
     }
   ]
 }

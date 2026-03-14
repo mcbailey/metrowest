@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-13",
+  "snapshot_date": "2026-03-14",
   "gender": "F",
   "grade": 6,
   "divisionno": "7267",
@@ -11,18 +11,18 @@
       "teamno": "43844",
       "name": "D5H-Raynham (stankewicz)",
       "town": null,
-      "wins": 13,
+      "wins": 14,
       "losses": 4,
       "ties": 0,
-      "pf": 415,
-      "pa": 281,
-      "diff": 134,
-      "sos": 1444.655,
-      "sos_adj": 1403.479,
-      "power": 1514.94,
+      "pf": 442,
+      "pa": 304,
+      "diff": 138,
+      "sos": 1445.376,
+      "sos_adj": 1403.709,
+      "power": 1523.075,
       "rank": 1,
-      "mw_rating": 52.2,
-      "mw_points": 731
+      "mw_rating": 52.8,
+      "mw_points": 792
     },
     {
       "teamno": "43336",
@@ -34,12 +34,12 @@
       "pf": 395,
       "pa": 310,
       "diff": 85,
-      "sos": 1464.25,
-      "sos_adj": 1426.75,
-      "power": 1482.529,
+      "sos": 1464.924,
+      "sos_adj": 1427.424,
+      "power": 1482.698,
       "rank": 2,
-      "mw_rating": 50.1,
-      "mw_points": 651
+      "mw_rating": 50.2,
+      "mw_points": 653
     },
     {
       "teamno": "43686",
@@ -72,8 +72,8 @@
       "sos_adj": 1419.994,
       "power": 1418.379,
       "rank": 4,
-      "mw_rating": 37.3,
-      "mw_points": 485
+      "mw_rating": 37.4,
+      "mw_points": 486
     },
     {
       "teamno": "45357",
@@ -106,8 +106,8 @@
       "sos_adj": 1405.137,
       "power": 1410.069,
       "rank": 6,
-      "mw_rating": 25.7,
-      "mw_points": 308
+      "mw_rating": 25.8,
+      "mw_points": 309
     },
     {
       "teamno": "44491",
@@ -119,12 +119,12 @@
       "pf": 282,
       "pa": 328,
       "diff": -46,
-      "sos": 1445.97,
-      "sos_adj": 1395.97,
-      "power": 1394.176,
+      "sos": 1446.798,
+      "sos_adj": 1396.798,
+      "power": 1394.383,
       "rank": 7,
-      "mw_rating": 23.8,
-      "mw_points": 309
+      "mw_rating": 23.9,
+      "mw_points": 310
     }
   ]
 }

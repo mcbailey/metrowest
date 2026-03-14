@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-13",
+  "snapshot_date": "2026-03-14",
   "teamno": "43629",
   "team_name": "D4J-Middleborough (edwards)",
   "town": null,
   "summary": {
     "wins": 2,
-    "losses": 12,
+    "losses": 13,
     "ties": 0,
-    "pf": 342,
-    "pa": 675,
-    "diff": -333,
-    "sos": 1529.329,
-    "sos_adj": 1532.901,
-    "power": 1460.509,
+    "pf": 391,
+    "pa": 726,
+    "diff": -335,
+    "sos": 1521.73,
+    "sos_adj": 1521.73,
+    "power": 1451.866,
     "rank": 4,
-    "mw_rating": 33.9,
-    "mw_points": 474,
+    "mw_rating": 32.3,
+    "mw_points": 484,
     "divisionno": "7257",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47171",
+      "date": "2026-03-13",
+      "dow": "Fri",
+      "starttime": "7:30 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7253",
+      "division_name": "7th Girls - Division 5",
+      "home_teamno": "43629",
+      "away_teamno": "44280",
+      "home_score": 49,
+      "away_score": 51,
+      "team_score": 49,
+      "opponent_score": 51,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44280",
+      "opponent_name": "D5M-Wayland (orange)"
+    },
     {
       "gameno": "46334",
       "date": "2026-03-08",
@@ -292,25 +311,5 @@
       "opponent_name": "D3H-New Bedford"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47171",
-      "date": "2026-03-13",
-      "dow": "Fri",
-      "starttime": "7:30 PM",
-      "location": "Mass Premier - 2",
-      "divisionno": "7253",
-      "division_name": "7th Girls - Division 5",
-      "home_teamno": "43629",
-      "away_teamno": "44280",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44280",
-      "opponent_name": "D5M-Wayland (orange)"
-    }
-  ]
+  "future_games": []
 }
