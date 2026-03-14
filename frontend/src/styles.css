@@ -486,3 +486,78 @@ h3 {
 .glossary-item .method-list {
   margin-top: 0.35rem;
 }
+
+.southborough-banner {
+  margin-top: 0.55rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  border: 1px solid #d2b87a;
+  background: linear-gradient(135deg, #fff8e7 0%, #fff2d4 100%);
+  border-radius: 10px;
+  padding: 0.45rem 0.6rem;
+}
+
+.southborough-logo {
+  width: 70px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.southborough-copy {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  color: #4f1327;
+}
+
+.southborough-copy strong {
+  font-size: 0.93rem;
+}
+
+.southborough-copy span {
+  font-size: 0.85rem;
+}
+
+.southborough-theme .panel {
+  border-color: #d1b06d;
+  background: linear-gradient(180deg, #fffef9 0%, #fffaf0 100%);
+}
+
+.southborough-theme .summary-grid > div,
+.southborough-theme .glossary-item {
+  border-color: #d5bb80;
+  background: #fff7e6;
+}
+
+.southborough-theme .games th,
+.southborough-theme .rankings th {
+  background: #6f1734;
+  color: #fff5df;
+  border-color: #7e2d46;
+}
+
+.southborough-theme .games td,
+.southborough-theme .rankings td {
+  border-color: #e4cf9c;
+}
+
+.southborough-theme .games tbody tr:nth-child(even),
+.southborough-theme .rankings tbody tr:nth-child(even) {
+  background: #fff8ea;
+}
+
+.southborough-theme .meta,
+.southborough-theme .metric-note {
+  color: #5e1d34;
+}
+
+.southborough-theme .home-link,
+.southborough-theme .method-link,
+.southborough-theme .team-link {
+  color: #6f1734;
+}
+
+.southborough-theme .team-link:hover {
+  color: #9f243d;
+}

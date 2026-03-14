@@ -1074,9 +1074,11 @@ export function TeamPage() {
   const selectedConnectionTeamName = selectedConnectionTeam
     ? (connectionTeamNameByNo[selectedConnectionTeam] ?? selectedConnectionTeam)
     : "";
+  const southboroughContext = `${team.team_name} ${team.town ?? ""} ${team.summary.division_name ?? ""}`;
+  const isSouthboroughTeam = /southboro(?:ugh)?/i.test(southboroughContext);
 
   return (
-    <div className="stack">
+    <div className={`stack ${isSouthboroughTeam ? "southborough-theme" : ""}`}>
       <p>
         <Link to={backTo} className="home-link">
           Back to rankings
@@ -1092,6 +1094,23 @@ export function TeamPage() {
           Division record: {team.summary.wins}-{team.summary.losses}
           {team.summary.ties ? `-${team.summary.ties}` : ""} | Total listed games: {team.summary.games_played_total ?? team.past_games.length} final, {team.summary.games_scheduled_total ?? team.future_games.length} upcoming
         </p>
+        {isSouthboroughTeam ? (
+          <div className="southborough-banner" aria-label="Southborough team styling">
+            <img
+              src="https://southboroughbasketball.teamsnapsites.com/wp-content/uploads/sites/590/2023/10/Main-Logo.png"
+              alt="Southborough Youth Basketball logo"
+              className="southborough-logo"
+              loading="lazy"
+              onError={(e) => {
+                e.currentTarget.style.display = "none";
+              }}
+            />
+            <div className="southborough-copy">
+              <strong>Southborough Spotlight</strong>
+              <span>Special town colors enabled: maroon, gold, and white.</span>
+            </div>
+          </div>
+        ) : null}
       </section>
 
       <section className="summary-grid panel">
