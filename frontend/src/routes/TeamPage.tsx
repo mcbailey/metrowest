@@ -1,5 +1,5 @@
 import { Link, useLocation, useParams } from "react-router-dom";
-import { useEffect, useMemo, useState, type CSSProperties } from "react";
+import { useEffect, useMemo, useState, type CSSProperties, type ReactNode } from "react";
 import { loadJson } from "../data";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
 import { DivisionRankingData, DivisionsData, IndexData, RankingTeam, TeamData, TeamGame } from "../types";
@@ -1076,6 +1076,25 @@ export function TeamPage() {
     : "";
   const southboroughContext = `${team.team_name} ${team.town ?? ""} ${team.summary.division_name ?? ""}`;
   const isSouthboroughTeam = /southboro(?:ugh)?/i.test(southboroughContext);
+  const teamLinkQuery = useMemo(() => {
+    const params = new URLSearchParams(location.search);
+    if (activeSeason && !params.get("season")) {
+      params.set("season", activeSeason);
+    }
+    const text = params.toString();
+    return text ? `?${text}` : "";
+  }, [activeSeason, location.search]);
+
+  const renderTeamNameLink = (targetTeamNo: string | null | undefined, label: string | null | undefined): ReactNode => {
+    const cleanLabel = (label ?? "").trim();
+    if (!cleanLabel) return "TBD";
+    if (!targetTeamNo) return cleanLabel;
+    return (
+      <Link className="team-link" to={`/team/${targetTeamNo}${teamLinkQuery}`}>
+        {cleanLabel}
+      </Link>
+    );
+  };
 
   return (
     <div className={`stack ${isSouthboroughTeam ? "southborough-theme" : ""}`}>
@@ -1160,7 +1179,7 @@ export function TeamPage() {
                 return (
                   <tr key={g.gameno}>
                     <td>{g.date ?? "TBD"}</td>
-                    <td>{g.opponent_name ?? "TBD"}</td>
+                    <td>{renderTeamNameLink(g.opponent_teamno, g.opponent_name)}</td>
                     <td>{scores.team ?? "-"}</td>
                     <td>{scores.opp ?? "-"}</td>
                     <td>{outcome(scores.team, scores.opp)}</td>
@@ -1200,7 +1219,7 @@ export function TeamPage() {
                 <tr key={g.gameno}>
                   <td>{g.date ?? "TBD"}</td>
                   <td>{g.starttime ?? "TBD"}</td>
-                  <td>{g.opponent_name ?? "TBD"}</td>
+                  <td>{renderTeamNameLink(g.opponent_teamno, g.opponent_name)}</td>
                   <td>{g.is_home === null ? "TBD" : g.is_home ? "Home" : "Away"}</td>
                   <td>{g.location ?? "TBD"}</td>
                 </tr>
@@ -1323,8 +1342,8 @@ export function TeamPage() {
               <thead>
                 <tr>
                   <th>Metric</th>
-                  <th>{team.team_name}</th>
-                  <th>{compareTeamData.team_name}</th>
+                  <th>{renderTeamNameLink(team.teamno, team.team_name)}</th>
+                  <th>{renderTeamNameLink(compareTeamData.teamno, compareTeamData.team_name)}</th>
                 </tr>
               </thead>
               <tbody>
@@ -1381,7 +1400,7 @@ export function TeamPage() {
             connectionPath.length > 0 ? (
               <>
                 <p className="meta compact">
-                  Connection found from <strong>{team.team_name}</strong> to <strong>{selectedConnectionTeamName}</strong> in {connectionPath.length} game
+                  Connection found from <strong>{renderTeamNameLink(team.teamno, team.team_name)}</strong> to <strong>{renderTeamNameLink(selectedConnectionTeam, selectedConnectionTeamName)}</strong> in {connectionPath.length} game
                   {connectionPath.length === 1 ? "" : "s"}.
                 </p>
                 <div className="table-wrap">
@@ -1410,7 +1429,7 @@ export function TeamPage() {
                           <tr key={step.fromTeamno + "-" + step.toTeamno + "-" + step.game.gameno + "-" + String(idx)}>
                             <td>{idx + 1}</td>
                             <td>{step.game.date ?? "TBD"}</td>
-                            <td>{fromName} vs {toName}</td>
+                            <td>{renderTeamNameLink(step.fromTeamno, fromName)} vs {renderTeamNameLink(step.toTeamno, toName)}</td>
                             <td>{scoreLabel}</td>
                             <td>{statusLabel}</td>
                             <td>{step.game.division_name ?? "-"}</td>
