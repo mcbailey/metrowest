@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "gender": "F",
   "grade": 4,
   "divisionno": "7559",
@@ -25,23 +25,6 @@
       "mw_points": 340
     },
     {
-      "teamno": "44897",
-      "name": "D7N-North Attleboro (white)",
-      "town": null,
-      "wins": 7,
-      "losses": 6,
-      "ties": 0,
-      "pf": 236,
-      "pa": 207,
-      "diff": 29,
-      "sos": 1350.07,
-      "sos_adj": 1200.07,
-      "power": 1342.802,
-      "rank": 2,
-      "mw_rating": 11.8,
-      "mw_points": 153
-    },
-    {
       "teamno": "45234",
       "name": "D7N-Millis (sheridan)",
       "town": null,
@@ -51,12 +34,29 @@
       "pf": 247,
       "pa": 164,
       "diff": 83,
-      "sos": 1353.212,
-      "sos_adj": 1203.212,
-      "power": 1332.14,
+      "sos": 1354.88,
+      "sos_adj": 1204.88,
+      "power": 1332.556,
+      "rank": 2,
+      "mw_rating": 14.9,
+      "mw_points": 164
+    },
+    {
+      "teamno": "44897",
+      "name": "D7N-North Attleboro (white)",
+      "town": null,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "pf": 255,
+      "pa": 233,
+      "diff": 22,
+      "sos": 1354.485,
+      "sos_adj": 1204.485,
+      "power": 1328.899,
       "rank": 3,
-      "mw_rating": 14.7,
-      "mw_points": 162
+      "mw_rating": 11.0,
+      "mw_points": 154
     },
     {
       "teamno": "44823",

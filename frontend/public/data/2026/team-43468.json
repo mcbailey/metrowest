@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "43468",
   "team_name": "D2M-Winchester (white)",
   "town": null,
   "summary": {
     "wins": 20,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 688,
-    "pa": 461,
-    "diff": 227,
-    "sos": 1591.698,
-    "sos_adj": 1689.775,
-    "power": 1696.113,
-    "rank": 2,
-    "mw_rating": 150.1,
-    "mw_points": 1951,
+    "pf": 703,
+    "pa": 488,
+    "diff": 215,
+    "sos": 1594.04,
+    "sos_adj": 1692.188,
+    "power": 1674.609,
+    "rank": 3,
+    "mw_rating": 146.7,
+    "mw_points": 2054,
     "divisionno": "7546",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 26,
-    "games_scheduled_total": 1
+    "games_played_total": 27,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44776",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "8:00 AM",
+      "location": "Mass Premier - 1",
+      "divisionno": "7546",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "43468",
+      "away_teamno": "43349",
+      "home_score": 15,
+      "away_score": 27,
+      "team_score": 15,
+      "opponent_score": 27,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43349",
+      "opponent_name": "D1A-Mansfield (white)"
+    },
     {
       "gameno": "44773",
       "date": "2026-03-08",
@@ -520,25 +539,5 @@
       "opponent_name": "D2K-Franklin"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44776",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "8:00 AM",
-      "location": "Mass Premier - 1",
-      "divisionno": "7546",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "43468",
-      "away_teamno": "43349",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43349",
-      "opponent_name": "D1A-Mansfield (white)"
-    }
-  ]
+  "future_games": []
 }

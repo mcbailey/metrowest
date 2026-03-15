@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "gender": "M",
   "grade": 4,
   "divisionno": "7575",
@@ -21,25 +21,25 @@
       "sos_adj": 1738.529,
       "power": 1698.947,
       "rank": 1,
-      "mw_rating": 139.2,
-      "mw_points": 1810
+      "mw_rating": 139.3,
+      "mw_points": 1811
     },
     {
       "teamno": "44613",
       "name": "D2N-Norwell",
       "town": null,
-      "wins": 6,
+      "wins": 7,
       "losses": 8,
       "ties": 0,
-      "pf": 467,
-      "pa": 487,
-      "diff": -20,
-      "sos": 1629.403,
-      "sos_adj": 1757.975,
-      "power": 1684.137,
+      "pf": 502,
+      "pa": 512,
+      "diff": -10,
+      "sos": 1630.185,
+      "sos_adj": 1760.185,
+      "power": 1698.533,
       "rank": 2,
-      "mw_rating": 122.6,
-      "mw_points": 1717
+      "mw_rating": 125.1,
+      "mw_points": 1876
     },
     {
       "teamno": "44397",
@@ -51,12 +51,12 @@
       "pf": 425,
       "pa": 425,
       "diff": 0,
-      "sos": 1625.033,
-      "sos_adj": 1745.867,
-      "power": 1663.391,
+      "sos": 1626.572,
+      "sos_adj": 1747.405,
+      "power": 1663.776,
       "rank": 3,
-      "mw_rating": 109.8,
-      "mw_points": 1317
+      "mw_rating": 109.9,
+      "mw_points": 1319
     },
     {
       "teamno": "44576",
@@ -73,7 +73,7 @@
       "power": 1660.411,
       "rank": 4,
       "mw_rating": 115.9,
-      "mw_points": 1506
+      "mw_points": 1507
     },
     {
       "teamno": "44637",
@@ -119,12 +119,12 @@
       "pf": 393,
       "pa": 653,
       "diff": -260,
-      "sos": 1622.529,
-      "sos_adj": 1725.863,
-      "power": 1569.982,
+      "sos": 1621.299,
+      "sos_adj": 1724.632,
+      "power": 1569.674,
       "rank": 7,
-      "mw_rating": 78.8,
-      "mw_points": 1024
+      "mw_rating": 78.9,
+      "mw_points": 1025
     }
   ]
 }

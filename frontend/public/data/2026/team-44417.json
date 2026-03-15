@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "44417",
   "team_name": "D7Q-Dedham (muyide)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 405,
-    "pa": 372,
-    "diff": 33,
-    "sos": 1348.613,
-    "sos_adj": 1208.613,
-    "power": 1335.665,
+    "pf": 434,
+    "pa": 407,
+    "diff": 27,
+    "sos": 1352.851,
+    "sos_adj": 1215.351,
+    "power": 1325.033,
     "rank": 3,
-    "mw_rating": 13.1,
-    "mw_points": 183,
+    "mw_rating": 12.5,
+    "mw_points": 188,
     "divisionno": "7592",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47071",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "11:30 AM",
+      "location": "Mass Premier - 6",
+      "divisionno": "7592",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44900",
+      "away_teamno": "44417",
+      "home_score": 35,
+      "away_score": 29,
+      "team_score": 29,
+      "opponent_score": 35,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44900",
+      "opponent_name": "D6N-North Attleboro (black)"
+    },
     {
       "gameno": "45102",
       "date": "2026-03-09",
@@ -311,25 +330,5 @@
       "opponent_name": "D7Q-North Quincy (furcillo)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47071",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "11:30 AM",
-      "location": "Mass Premier - 6",
-      "divisionno": "7592",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44900",
-      "away_teamno": "44417",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44900",
-      "opponent_name": "D6N-North Attleboro (black)"
-    }
-  ]
+  "future_games": []
 }

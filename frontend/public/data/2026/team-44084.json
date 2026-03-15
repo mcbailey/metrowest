@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "44084",
   "team_name": "D3J-Wellesley (a)",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 370,
-    "pa": 316,
-    "diff": 54,
-    "sos": 1545.845,
-    "sos_adj": 1595.845,
-    "power": 1616.104,
-    "rank": 1,
-    "mw_rating": 96.2,
-    "mw_points": 1347,
+    "pf": 397,
+    "pa": 347,
+    "diff": 50,
+    "sos": 1554.071,
+    "sos_adj": 1600.738,
+    "power": 1601.871,
+    "rank": 2,
+    "mw_rating": 91.5,
+    "mw_points": 1373,
     "divisionno": "7326",
     "division_name": "5th Girls - Division 3",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47102",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "3:00 PM",
+      "location": "Dana Barros - 3",
+      "divisionno": "7324",
+      "division_name": "5th Girls - Division 4",
+      "home_teamno": "43770",
+      "away_teamno": "44084",
+      "home_score": 31,
+      "away_score": 27,
+      "team_score": 27,
+      "opponent_score": 31,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43770",
+      "opponent_name": "D4R-Concord-Carlisle (maroon)"
+    },
     {
       "gameno": "45967",
       "date": "2026-03-08",
@@ -292,25 +311,5 @@
       "opponent_name": "D3J-Medway (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47102",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "3:00 PM",
-      "location": "Dana Barros - 3",
-      "divisionno": "7324",
-      "division_name": "5th Girls - Division 4",
-      "home_teamno": "43770",
-      "away_teamno": "44084",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43770",
-      "opponent_name": "D4R-Concord-Carlisle (maroon)"
-    }
-  ]
+  "future_games": []
 }

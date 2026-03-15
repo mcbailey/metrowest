@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "44323",
   "team_name": "D3J-Medway (blue)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 571,
-    "pa": 555,
-    "diff": 16,
-    "sos": 1551.762,
-    "sos_adj": 1601.762,
-    "power": 1613.15,
+    "pf": 611,
+    "pa": 599,
+    "diff": 12,
+    "sos": 1554.742,
+    "sos_adj": 1604.742,
+    "power": 1601.17,
     "rank": 2,
-    "mw_rating": 85.6,
-    "mw_points": 1284,
+    "mw_rating": 83.1,
+    "mw_points": 1329,
     "divisionno": "7304",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47086",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "2:10 PM",
+      "location": "Mass Premier - 6",
+      "divisionno": "7305",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "44323",
+      "away_teamno": "44706",
+      "home_score": 40,
+      "away_score": 44,
+      "team_score": 40,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44706",
+      "opponent_name": "D3K-Arlington (maroon)"
+    },
     {
       "gameno": "45146",
       "date": "2026-03-10",
@@ -349,25 +368,5 @@
       "opponent_name": "D1-Wayland (black)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47086",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "2:10 PM",
-      "location": "Mass Premier - 6",
-      "divisionno": "7305",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "44323",
-      "away_teamno": "44706",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44706",
-      "opponent_name": "D3K-Arlington (maroon)"
-    }
-  ]
+  "future_games": []
 }

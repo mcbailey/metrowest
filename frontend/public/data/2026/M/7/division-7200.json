@@ -1,29 +1,12 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "gender": "M",
   "grade": 7,
   "divisionno": "7200",
   "division_name": "7th Boys - Division 2",
   "divisiontier": "2",
   "rankings": [
-    {
-      "teamno": "45638",
-      "name": "D2K-Hopkinton (pantera7)",
-      "town": null,
-      "wins": 12,
-      "losses": 3,
-      "ties": 0,
-      "pf": 727,
-      "pa": 615,
-      "diff": 112,
-      "sos": 1586.463,
-      "sos_adj": 1679.797,
-      "power": 1677.278,
-      "rank": 1,
-      "mw_rating": 137.9,
-      "mw_points": 1931
-    },
     {
       "teamno": "43937",
       "name": "D2K-Brookline (red)",
@@ -37,9 +20,26 @@
       "sos": 1581.826,
       "sos_adj": 1667.12,
       "power": 1672.085,
+      "rank": 1,
+      "mw_rating": 156.5,
+      "mw_points": 2035
+    },
+    {
+      "teamno": "45638",
+      "name": "D2K-Hopkinton (pantera7)",
+      "town": null,
+      "wins": 12,
+      "losses": 4,
+      "ties": 0,
+      "pf": 772,
+      "pa": 670,
+      "diff": 102,
+      "sos": 1590.612,
+      "sos_adj": 1684.362,
+      "power": 1662.196,
       "rank": 2,
-      "mw_rating": 156.4,
-      "mw_points": 2033
+      "mw_rating": 133.5,
+      "mw_points": 2003
     },
     {
       "teamno": "43918",
@@ -68,9 +68,9 @@
       "pf": 986,
       "pa": 1072,
       "diff": -86,
-      "sos": 1591.798,
-      "sos_adj": 1678.64,
-      "power": 1570.91,
+      "sos": 1590.659,
+      "sos_adj": 1677.501,
+      "power": 1570.625,
       "rank": 4,
       "mw_rating": 98.8,
       "mw_points": 1185

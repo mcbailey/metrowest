@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "44385",
   "team_name": "D3J-Westborough",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 408,
-    "pa": 432,
-    "diff": -24,
-    "sos": 1545.972,
-    "sos_adj": 1599.818,
-    "power": 1564.836,
+    "pf": 432,
+    "pa": 471,
+    "diff": -39,
+    "sos": 1550.818,
+    "sos_adj": 1607.961,
+    "power": 1550.764,
     "rank": 4,
-    "mw_rating": 84.9,
-    "mw_points": 1104,
+    "mw_rating": 83.9,
+    "mw_points": 1175,
     "divisionno": "7247",
     "division_name": "8th Girls - Division 3",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47191",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "6:40 PM",
+      "location": "Mass Premier - 1",
+      "divisionno": "7247",
+      "division_name": "8th Girls - Division 3",
+      "home_teamno": "44385",
+      "away_teamno": "43157",
+      "home_score": 24,
+      "away_score": 39,
+      "team_score": 24,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43157",
+      "opponent_name": "D2BH-Dighton-Rehoboth"
+    },
     {
       "gameno": "46340",
       "date": "2026-03-08",
@@ -273,25 +292,5 @@
       "opponent_name": "D3J-Medway (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47191",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "6:40 PM",
-      "location": "Mass Premier - 1",
-      "divisionno": "7247",
-      "division_name": "8th Girls - Division 3",
-      "home_teamno": "44385",
-      "away_teamno": "43157",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43157",
-      "opponent_name": "D2BH-Dighton-Rehoboth"
-    }
-  ]
+  "future_games": []
 }

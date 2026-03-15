@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "45333",
   "team_name": "D5J-Milton (black)",
   "town": null,
   "summary": {
     "wins": 8,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 389,
-    "pa": 410,
-    "diff": -21,
-    "sos": 1446.56,
-    "sos_adj": 1407.274,
-    "power": 1446.735,
+    "pf": 401,
+    "pa": 437,
+    "diff": -36,
+    "sos": 1452.773,
+    "sos_adj": 1416.107,
+    "power": 1433.892,
     "rank": 2,
-    "mw_rating": 39.5,
-    "mw_points": 553,
+    "mw_rating": 38.5,
+    "mw_points": 578,
     "divisionno": "7237",
     "division_name": "8th Girls - Division 5",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47201",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "8:20 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7237",
+      "division_name": "8th Girls - Division 5",
+      "home_teamno": "43946",
+      "away_teamno": "45333",
+      "home_score": 27,
+      "away_score": 12,
+      "team_score": 12,
+      "opponent_score": 27,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43946",
+      "opponent_name": "D4Q-Brookline (white)"
+    },
     {
       "gameno": "46429",
       "date": "2026-03-07",
@@ -292,25 +311,5 @@
       "opponent_name": "D5J-Norwood (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47201",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "8:20 PM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7237",
-      "division_name": "8th Girls - Division 5",
-      "home_teamno": "43946",
-      "away_teamno": "45333",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43946",
-      "opponent_name": "D4Q-Brookline (white)"
-    }
-  ]
+  "future_games": []
 }

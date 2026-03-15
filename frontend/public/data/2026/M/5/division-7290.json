@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "gender": "M",
   "grade": 5,
   "divisionno": "7290",
@@ -17,29 +17,29 @@
       "pf": 476,
       "pa": 344,
       "diff": 132,
-      "sos": 1458.329,
-      "sos_adj": 1419.867,
-      "power": 1513.009,
+      "sos": 1452.306,
+      "sos_adj": 1413.845,
+      "power": 1511.504,
       "rank": 1,
-      "mw_rating": 59.3,
-      "mw_points": 771
+      "mw_rating": 59.5,
+      "mw_points": 773
     },
     {
       "teamno": "43428",
       "name": "D5J-Bridgewater (dwyer)",
       "town": null,
       "wins": 8,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pf": 520,
-      "pa": 450,
-      "diff": 70,
-      "sos": 1450.433,
-      "sos_adj": 1404.004,
-      "power": 1482.83,
+      "pf": 552,
+      "pa": 489,
+      "diff": 63,
+      "sos": 1449.68,
+      "sos_adj": 1399.68,
+      "power": 1452.39,
       "rank": 2,
-      "mw_rating": 37.5,
-      "mw_points": 525
+      "mw_rating": 35.4,
+      "mw_points": 531
     },
     {
       "teamno": "43479",
@@ -51,12 +51,12 @@
       "pf": 639,
       "pa": 567,
       "diff": 72,
-      "sos": 1447.558,
-      "sos_adj": 1394.433,
-      "power": 1433.667,
+      "sos": 1445.112,
+      "sos_adj": 1391.987,
+      "power": 1433.055,
       "rank": 3,
-      "mw_rating": 39.2,
-      "mw_points": 509
+      "mw_rating": 39.3,
+      "mw_points": 511
     },
     {
       "teamno": "43351",
@@ -68,12 +68,12 @@
       "pf": 533,
       "pa": 518,
       "diff": 15,
-      "sos": 1461.222,
-      "sos_adj": 1407.651,
-      "power": 1423.368,
+      "sos": 1455.63,
+      "sos_adj": 1402.059,
+      "power": 1421.97,
       "rank": 4,
-      "mw_rating": 31.9,
-      "mw_points": 414
+      "mw_rating": 32.0,
+      "mw_points": 416
     },
     {
       "teamno": "43969",
@@ -85,12 +85,12 @@
       "pf": 376,
       "pa": 501,
       "diff": -125,
-      "sos": 1449.178,
-      "sos_adj": 1395.332,
-      "power": 1382.086,
+      "sos": 1443.156,
+      "sos_adj": 1389.309,
+      "power": 1380.58,
       "rank": 5,
-      "mw_rating": 19.6,
-      "mw_points": 255
+      "mw_rating": 19.8,
+      "mw_points": 257
     }
   ]
 }

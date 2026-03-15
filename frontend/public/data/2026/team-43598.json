@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "43598",
   "team_name": "D5R-North Quincy (miller)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "pf": 437,
-    "pa": 460,
-    "diff": -23,
-    "sos": 1440.046,
-    "sos_adj": 1390.046,
-    "power": 1451.514,
+    "pf": 466,
+    "pa": 516,
+    "diff": -50,
+    "sos": 1455.923,
+    "sos_adj": 1420.209,
+    "power": 1449.804,
     "rank": 5,
-    "mw_rating": 31.9,
-    "mw_points": 415,
+    "mw_rating": 34.6,
+    "mw_points": 485,
     "divisionno": "7582",
     "division_name": "4th Boys - Division 5",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47059",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "10:40 AM",
+      "location": "Foxboro Charter H.S.",
+      "divisionno": "7582",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "43598",
+      "away_teamno": "44353",
+      "home_score": 29,
+      "away_score": 56,
+      "team_score": 29,
+      "opponent_score": 56,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44353",
+      "opponent_name": "D2P-Belmont (maroon)"
+    },
     {
       "gameno": "44985",
       "date": "2026-03-09",
@@ -273,25 +292,5 @@
       "opponent_name": "D5R-Needham (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47059",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "10:40 AM",
-      "location": "Foxboro Charter H.S.",
-      "divisionno": "7582",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "43598",
-      "away_teamno": "44353",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44353",
-      "opponent_name": "D2P-Belmont (maroon)"
-    }
-  ]
+  "future_games": []
 }

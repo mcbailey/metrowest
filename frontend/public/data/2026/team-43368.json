@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "43368",
   "team_name": "D2J-Natick",
   "town": null,
   "summary": {
     "wins": 13,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 500,
-    "pa": 393,
-    "diff": 107,
-    "sos": 1586.617,
-    "sos_adj": 1668.97,
-    "power": 1652.747,
+    "pf": 526,
+    "pa": 430,
+    "diff": 96,
+    "sos": 1588.678,
+    "sos_adj": 1669.233,
+    "power": 1615.084,
     "rank": 3,
-    "mw_rating": 135.9,
-    "mw_points": 1631,
+    "mw_rating": 128.9,
+    "mw_points": 1676,
     "divisionno": "7328",
     "division_name": "5th Girls - Division 2",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44821",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "12:00 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7325",
+      "division_name": "5th Girls - Division 3",
+      "home_teamno": "43549",
+      "away_teamno": "43368",
+      "home_score": 37,
+      "away_score": 26,
+      "team_score": 26,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43549",
+      "opponent_name": "D3H-Bridgewater (driscoll)"
+    },
     {
       "gameno": "44817",
       "date": "2026-03-08",
@@ -349,25 +368,5 @@
       "opponent_name": "Chelmsford (Maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44821",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "12:00 PM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7325",
-      "division_name": "5th Girls - Division 3",
-      "home_teamno": "43549",
-      "away_teamno": "43368",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43549",
-      "opponent_name": "D3H-Bridgewater (driscoll)"
-    }
-  ]
+  "future_games": []
 }

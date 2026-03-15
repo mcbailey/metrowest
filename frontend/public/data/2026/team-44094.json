@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "44094",
   "team_name": "D6P-Holbrook (blue)",
   "town": null,
   "summary": {
     "wins": 14,
-    "losses": 0,
+    "losses": 1,
     "ties": 0,
-    "pf": 539,
-    "pa": 326,
-    "diff": 213,
-    "sos": 1438.73,
-    "sos_adj": 1367.301,
-    "power": 1495.204,
+    "pf": 572,
+    "pa": 363,
+    "diff": 209,
+    "sos": 1454.82,
+    "sos_adj": 1398.153,
+    "power": 1495.339,
     "rank": 2,
-    "mw_rating": 52.4,
-    "mw_points": 733,
+    "mw_rating": 53.7,
+    "mw_points": 805,
     "divisionno": "7586",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47063",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "12:30 PM",
+      "location": "Dana Barros - 4",
+      "divisionno": "7586",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "44094",
+      "away_teamno": "44058",
+      "home_score": 33,
+      "away_score": 37,
+      "team_score": 33,
+      "opponent_score": 37,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44058",
+      "opponent_name": "D2P-Brookline (red)"
+    },
     {
       "gameno": "45015",
       "date": "2026-03-09",
@@ -292,25 +311,5 @@
       "opponent_name": "D6Q-Dover Sherborn (khan)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47063",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "12:30 PM",
-      "location": "Dana Barros - 4",
-      "divisionno": "7586",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "44094",
-      "away_teamno": "44058",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44058",
-      "opponent_name": "D2P-Brookline (red)"
-    }
-  ]
+  "future_games": []
 }

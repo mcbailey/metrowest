@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "44035",
   "team_name": "D3K-Newton (black)",
   "town": null,
   "summary": {
     "wins": 5,
-    "losses": 13,
+    "losses": 14,
     "ties": 0,
-    "pf": 562,
-    "pa": 669,
-    "diff": -107,
-    "sos": 1547.495,
-    "sos_adj": 1591.94,
-    "power": 1547.03,
+    "pf": 603,
+    "pa": 714,
+    "diff": -111,
+    "sos": 1546.255,
+    "sos_adj": 1588.36,
+    "power": 1528.188,
     "rank": 4,
-    "mw_rating": 62.2,
-    "mw_points": 808,
+    "mw_rating": 59.6,
+    "mw_points": 834,
     "divisionno": "7248",
     "division_name": "8th Girls - Division 3",
     "grade": 8,
     "gender": "F",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47194",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "6:50 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7240",
+      "division_name": "8th Girls - Division 4",
+      "home_teamno": "44035",
+      "away_teamno": "43932",
+      "home_score": 41,
+      "away_score": 45,
+      "team_score": 41,
+      "opponent_score": 45,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43932",
+      "opponent_name": "D4H-Taunton (morrison)"
+    },
     {
       "gameno": "46363",
       "date": "2026-03-11",
@@ -368,25 +387,5 @@
       "opponent_name": "D3K-Waltham Girls (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47194",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "6:50 PM",
-      "location": "Mass Premier - 2",
-      "divisionno": "7240",
-      "division_name": "8th Girls - Division 4",
-      "home_teamno": "44035",
-      "away_teamno": "43932",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43932",
-      "opponent_name": "D4H-Taunton (morrison)"
-    }
-  ]
+  "future_games": []
 }

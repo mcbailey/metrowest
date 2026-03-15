@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "43625",
   "team_name": "D1-Hingham (black)",
   "town": null,
   "summary": {
     "wins": 16,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 1318,
-    "pa": 1104,
-    "diff": 214,
-    "sos": 1555.155,
-    "sos_adj": 1612.562,
-    "power": 1637.035,
-    "rank": 5,
-    "mw_rating": 169.6,
-    "mw_points": 2035,
+    "pf": 1348,
+    "pa": 1157,
+    "diff": 191,
+    "sos": 1563.605,
+    "sos_adj": 1624.319,
+    "power": 1631.75,
+    "rank": 6,
+    "mw_rating": 164.2,
+    "mw_points": 2135,
     "divisionno": "7077",
     "division_name": "5th Boys - Division 1",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 27,
-    "games_scheduled_total": 1
+    "games_played_total": 28,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44700",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "8:20 AM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7077",
+      "division_name": "5th Boys - Division 1",
+      "home_teamno": "43625",
+      "away_teamno": "45322",
+      "home_score": 30,
+      "away_score": 53,
+      "team_score": 30,
+      "opponent_score": 53,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45322",
+      "opponent_name": "D1-Milton (red)"
+    },
     {
       "gameno": "44697",
       "date": "2026-03-08",
@@ -539,25 +558,5 @@
       "opponent_name": "Plymouth North (Blue/Tirlia)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44700",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "8:20 AM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7077",
-      "division_name": "5th Boys - Division 1",
-      "home_teamno": "43625",
-      "away_teamno": "45322",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45322",
-      "opponent_name": "D1-Milton (red)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "gender": "F",
   "grade": 8,
   "divisionno": "7240",
@@ -11,18 +11,18 @@
       "teamno": "43932",
       "name": "D4H-Taunton (morrison)",
       "town": null,
-      "wins": 14,
+      "wins": 15,
       "losses": 2,
       "ties": 0,
-      "pf": 806,
-      "pa": 545,
-      "diff": 261,
-      "sos": 1485.258,
-      "sos_adj": 1485.258,
-      "power": 1607.533,
+      "pf": 851,
+      "pa": 586,
+      "diff": 265,
+      "sos": 1488.239,
+      "sos_adj": 1491.18,
+      "power": 1619.563,
       "rank": 1,
-      "mw_rating": 79.7,
-      "mw_points": 1036
+      "mw_rating": 82.1,
+      "mw_points": 1150
     },
     {
       "teamno": "43484",
@@ -34,12 +34,12 @@
       "pf": 435,
       "pa": 370,
       "diff": 65,
-      "sos": 1503.042,
-      "sos_adj": 1507.208,
-      "power": 1518.356,
+      "sos": 1504.214,
+      "sos_adj": 1508.381,
+      "power": 1518.649,
       "rank": 2,
       "mw_rating": 65.3,
-      "mw_points": 783
+      "mw_points": 784
     },
     {
       "teamno": "43213",
@@ -51,12 +51,12 @@
       "pf": 474,
       "pa": 348,
       "diff": 126,
-      "sos": 1501.103,
-      "sos_adj": 1492.012,
-      "power": 1518.005,
+      "sos": 1502.382,
+      "sos_adj": 1493.291,
+      "power": 1518.325,
       "rank": 3,
-      "mw_rating": 63.8,
-      "mw_points": 702
+      "mw_rating": 63.9,
+      "mw_points": 703
     },
     {
       "teamno": "43175",
@@ -68,12 +68,12 @@
       "pf": 552,
       "pa": 593,
       "diff": -41,
-      "sos": 1516.219,
-      "sos_adj": 1512.886,
-      "power": 1465.004,
+      "sos": 1518.095,
+      "sos_adj": 1514.761,
+      "power": 1465.473,
       "rank": 4,
-      "mw_rating": 44.6,
-      "mw_points": 625
+      "mw_rating": 44.7,
+      "mw_points": 626
     },
     {
       "teamno": "43131",
@@ -85,9 +85,9 @@
       "pf": 295,
       "pa": 407,
       "diff": -112,
-      "sos": 1504.782,
-      "sos_adj": 1495.691,
-      "power": 1449.476,
+      "sos": 1506.061,
+      "sos_adj": 1496.97,
+      "power": 1449.796,
       "rank": 5,
       "mw_rating": 37.2,
       "mw_points": 409
@@ -106,8 +106,8 @@
       "sos_adj": 1473.798,
       "power": 1442.692,
       "rank": 6,
-      "mw_rating": 32.7,
-      "mw_points": 458
+      "mw_rating": 32.8,
+      "mw_points": 459
     }
   ]
 }

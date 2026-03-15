@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "44968",
   "team_name": "D2AJ-Foxboro (blue)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 788,
-    "pa": 774,
-    "diff": 14,
-    "sos": 1607.423,
-    "sos_adj": 1704.923,
-    "power": 1625.604,
+    "pf": 830,
+    "pa": 828,
+    "diff": 2,
+    "sos": 1606.081,
+    "sos_adj": 1701.319,
+    "power": 1595.456,
     "rank": 3,
-    "mw_rating": 109.8,
-    "mw_points": 1537,
+    "mw_rating": 105.5,
+    "mw_points": 1583,
     "divisionno": "7308",
     "division_name": "5th Boys - Division 2",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 20,
-    "games_scheduled_total": 1
+    "games_played_total": 21,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44732",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "6:40 PM",
+      "location": "Foxboro Charter H.S.",
+      "divisionno": "7303",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "44459",
+      "away_teamno": "44968",
+      "home_score": 54,
+      "away_score": 42,
+      "team_score": 42,
+      "opponent_score": 54,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44459",
+      "opponent_name": "D3H-Walpole (a)"
+    },
     {
       "gameno": "44729",
       "date": "2026-03-08",
@@ -406,25 +425,5 @@
       "opponent_name": "D3H-Mansfield (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44732",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "6:40 PM",
-      "location": "Foxboro Charter H.S.",
-      "divisionno": "7303",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "44459",
-      "away_teamno": "44968",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44459",
-      "opponent_name": "D3H-Walpole (a)"
-    }
-  ]
+  "future_games": []
 }

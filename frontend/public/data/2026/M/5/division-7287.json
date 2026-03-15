@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "gender": "M",
   "grade": 5,
   "divisionno": "7287",
@@ -22,24 +22,24 @@
       "power": 1432.046,
       "rank": 1,
       "mw_rating": 35.5,
-      "mw_points": 461
+      "mw_points": 462
     },
     {
       "teamno": "45647",
       "name": "D6Q-Hopkinton (smith)",
       "town": null,
       "wins": 10,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "pf": 608,
-      "pa": 521,
-      "diff": 87,
-      "sos": 1415.53,
-      "sos_adj": 1330.236,
-      "power": 1429.224,
+      "pf": 644,
+      "pa": 563,
+      "diff": 81,
+      "sos": 1418.48,
+      "sos_adj": 1335.147,
+      "power": 1416.473,
       "rank": 2,
-      "mw_rating": 34.0,
-      "mw_points": 476
+      "mw_rating": 32.4,
+      "mw_points": 486
     },
     {
       "teamno": "44078",
@@ -51,12 +51,12 @@
       "pf": 460,
       "pa": 482,
       "diff": -22,
-      "sos": 1403.071,
-      "sos_adj": 1312.446,
-      "power": 1403.595,
+      "sos": 1403.671,
+      "sos_adj": 1313.046,
+      "power": 1403.745,
       "rank": 3,
       "mw_rating": 22.9,
-      "mw_points": 297
+      "mw_points": 298
     },
     {
       "teamno": "44273",
@@ -68,29 +68,29 @@
       "pf": 387,
       "pa": 354,
       "diff": 33,
-      "sos": 1402.843,
-      "sos_adj": 1307.009,
-      "power": 1393.068,
+      "sos": 1403.643,
+      "sos_adj": 1307.81,
+      "power": 1393.268,
       "rank": 4,
-      "mw_rating": 24.3,
-      "mw_points": 292
+      "mw_rating": 24.4,
+      "mw_points": 293
     },
     {
       "teamno": "44372",
       "name": "D6Q-Westborough (heinrich)",
       "town": null,
-      "wins": 4,
+      "wins": 5,
       "losses": 9,
       "ties": 0,
-      "pf": 361,
-      "pa": 400,
-      "diff": -39,
-      "sos": 1399.492,
-      "sos_adj": 1303.338,
-      "power": 1383.448,
+      "pf": 392,
+      "pa": 429,
+      "diff": -37,
+      "sos": 1398.327,
+      "sos_adj": 1301.898,
+      "power": 1390.291,
       "rank": 5,
-      "mw_rating": 15.1,
-      "mw_points": 196
+      "mw_rating": 16.7,
+      "mw_points": 234
     },
     {
       "teamno": "43996",
@@ -102,12 +102,12 @@
       "pf": 424,
       "pa": 405,
       "diff": 19,
-      "sos": 1417.593,
-      "sos_adj": 1324.736,
-      "power": 1380.693,
+      "sos": 1418.279,
+      "sos_adj": 1325.422,
+      "power": 1380.865,
       "rank": 6,
-      "mw_rating": 24.8,
-      "mw_points": 298
+      "mw_rating": 24.9,
+      "mw_points": 299
     }
   ]
 }

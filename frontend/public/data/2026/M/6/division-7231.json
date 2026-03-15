@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "gender": "M",
   "grade": 6,
   "divisionno": "7231",
@@ -12,17 +12,17 @@
       "name": "D2J-Milton (red)",
       "town": null,
       "wins": 19,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "pf": 1194,
-      "pa": 1084,
-      "diff": 110,
-      "sos": 1575.904,
-      "sos_adj": 1677.571,
-      "power": 1686.762,
+      "pf": 1244,
+      "pa": 1146,
+      "diff": 98,
+      "sos": 1579.061,
+      "sos_adj": 1680.674,
+      "power": 1670.461,
       "rank": 1,
-      "mw_rating": 133.9,
-      "mw_points": 2009
+      "mw_rating": 130.1,
+      "mw_points": 2081
     },
     {
       "teamno": "44462",
@@ -34,12 +34,12 @@
       "pf": 894,
       "pa": 698,
       "diff": 196,
-      "sos": 1589.614,
-      "sos_adj": 1676.456,
-      "power": 1661.067,
+      "sos": 1588.416,
+      "sos_adj": 1675.258,
+      "power": 1660.767,
       "rank": 2,
-      "mw_rating": 132.3,
-      "mw_points": 1720
+      "mw_rating": 132.4,
+      "mw_points": 1721
     },
     {
       "teamno": "44403",
@@ -72,8 +72,8 @@
       "sos_adj": 1683.709,
       "power": 1581.11,
       "rank": 4,
-      "mw_rating": 89.3,
-      "mw_points": 1161
+      "mw_rating": 89.4,
+      "mw_points": 1162
     },
     {
       "teamno": "44966",
@@ -85,9 +85,9 @@
       "pf": 650,
       "pa": 772,
       "diff": -122,
-      "sos": 1580.6,
-      "sos_adj": 1663.933,
-      "power": 1579.109,
+      "sos": 1579.082,
+      "sos_adj": 1662.416,
+      "power": 1578.73,
       "rank": 5,
       "mw_rating": 82.7,
       "mw_points": 1075

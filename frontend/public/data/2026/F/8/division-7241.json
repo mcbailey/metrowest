@@ -1,12 +1,29 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "gender": "F",
   "grade": 8,
   "divisionno": "7241",
   "division_name": "8th Girls - Division 4",
   "divisiontier": "4",
   "rankings": [
+    {
+      "teamno": "44428",
+      "name": "D4J-Norton (purple)",
+      "town": null,
+      "wins": 12,
+      "losses": 2,
+      "ties": 0,
+      "pf": 675,
+      "pa": 370,
+      "diff": 305,
+      "sos": 1523.547,
+      "sos_adj": 1534.262,
+      "power": 1561.813,
+      "rank": 1,
+      "mw_rating": 80.0,
+      "mw_points": 960
+    },
     {
       "teamno": "45332",
       "name": "D4J-Milton (white)",
@@ -20,26 +37,9 @@
       "sos": 1507.814,
       "sos_adj": 1513.077,
       "power": 1561.732,
-      "rank": 1,
+      "rank": 2,
       "mw_rating": 58.5,
       "mw_points": 877
-    },
-    {
-      "teamno": "44428",
-      "name": "D4J-Norton (purple)",
-      "town": null,
-      "wins": 12,
-      "losses": 2,
-      "ties": 0,
-      "pf": 675,
-      "pa": 370,
-      "diff": 305,
-      "sos": 1522.362,
-      "sos_adj": 1533.077,
-      "power": 1561.517,
-      "rank": 2,
-      "mw_rating": 79.9,
-      "mw_points": 959
     },
     {
       "teamno": "45586",
@@ -62,18 +62,18 @@
       "teamno": "44878",
       "name": "D4J-North Attleboro (red)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 7,
       "ties": 0,
-      "pf": 367,
-      "pa": 510,
-      "diff": -143,
-      "sos": 1464.409,
-      "sos_adj": 1437.743,
-      "power": 1511.091,
+      "pf": 396,
+      "pa": 527,
+      "diff": -131,
+      "sos": 1462.472,
+      "sos_adj": 1434.347,
+      "power": 1522.686,
       "rank": 4,
-      "mw_rating": 44.4,
-      "mw_points": 622
+      "mw_rating": 45.3,
+      "mw_points": 680
     },
     {
       "teamno": "44178",
@@ -102,12 +102,12 @@
       "pf": 524,
       "pa": 502,
       "diff": 22,
-      "sos": 1515.414,
-      "sos_adj": 1515.414,
-      "power": 1504.272,
+      "sos": 1516.52,
+      "sos_adj": 1516.52,
+      "power": 1504.549,
       "rank": 6,
-      "mw_rating": 50.0,
-      "mw_points": 700
+      "mw_rating": 50.1,
+      "mw_points": 701
     }
   ]
 }

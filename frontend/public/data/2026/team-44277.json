@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-14",
+  "snapshot_date": "2026-03-15",
   "teamno": "44277",
   "team_name": "D5W-Wayland (orange)",
   "town": null,
   "summary": {
     "wins": 7,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
-    "pf": 258,
-    "pa": 256,
-    "diff": 2,
-    "sos": 1444.533,
-    "sos_adj": 1394.533,
-    "power": 1460.533,
+    "pf": 274,
+    "pa": 284,
+    "diff": -10,
+    "sos": 1450.069,
+    "sos_adj": 1403.64,
+    "power": 1446.29,
     "rank": 3,
-    "mw_rating": 35.3,
-    "mw_points": 459,
+    "mw_rating": 34.6,
+    "mw_points": 485,
     "divisionno": "7318",
     "division_name": "5th Girls - Division 5",
     "grade": 5,
     "gender": "F",
-    "games_played_total": 13,
-    "games_scheduled_total": 1
+    "games_played_total": 14,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47111",
+      "date": "2026-03-14",
+      "dow": "Sat",
+      "starttime": "4:00 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7318",
+      "division_name": "5th Girls - Division 5",
+      "home_teamno": "44277",
+      "away_teamno": "44649",
+      "home_score": 16,
+      "away_score": 28,
+      "team_score": 16,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44649",
+      "opponent_name": "D4J-Attleboro (blue)"
+    },
     {
       "gameno": "46054",
       "date": "2026-03-12",
@@ -273,25 +292,5 @@
       "opponent_name": "D5T-Dover Sherborn (obrien)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47111",
-      "date": "2026-03-14",
-      "dow": "Sat",
-      "starttime": "4:00 PM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7318",
-      "division_name": "5th Girls - Division 5",
-      "home_teamno": "44277",
-      "away_teamno": "44649",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44649",
-      "opponent_name": "D4J-Attleboro (blue)"
-    }
-  ]
+  "future_games": []
 }
