@@ -1029,6 +1029,14 @@ export function TeamPage() {
     if (!team || !selectedConnectionTeam) return null;
     return findConnectionPath(connectionGraph, team.teamno, selectedConnectionTeam, 7);
   }, [connectionGraph, selectedConnectionTeam, team?.teamno]);
+  const teamLinkQuery = useMemo(() => {
+    const params = new URLSearchParams(location.search);
+    if (activeSeason && !params.get("season")) {
+      params.set("season", activeSeason);
+    }
+    const text = params.toString();
+    return text ? `?${text}` : "";
+  }, [activeSeason, location.search]);
 
   if (error) return <p className="error">{error}</p>;
   if (!team) return <p>Loading team...</p>;
@@ -1076,14 +1084,6 @@ export function TeamPage() {
     : "";
   const southboroughContext = `${team.team_name} ${team.town ?? ""} ${team.summary.division_name ?? ""}`;
   const isSouthboroughTeam = /southboro(?:ugh)?/i.test(southboroughContext);
-  const teamLinkQuery = useMemo(() => {
-    const params = new URLSearchParams(location.search);
-    if (activeSeason && !params.get("season")) {
-      params.set("season", activeSeason);
-    }
-    const text = params.toString();
-    return text ? `?${text}` : "";
-  }, [activeSeason, location.search]);
 
   const renderTeamNameLink = (targetTeamNo: string | null | undefined, label: string | null | undefined): ReactNode => {
     const cleanLabel = (label ?? "").trim();
