@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "43844",
   "team_name": "D5H-Raynham (stankewicz)",
   "town": null,
   "summary": {
     "wins": 14,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 442,
-    "pa": 304,
-    "diff": 138,
-    "sos": 1445.376,
-    "sos_adj": 1403.709,
-    "power": 1523.075,
+    "pf": 457,
+    "pa": 325,
+    "diff": 132,
+    "sos": 1449.409,
+    "sos_adj": 1409.935,
+    "power": 1508.124,
     "rank": 1,
-    "mw_rating": 52.8,
-    "mw_points": 792,
+    "mw_rating": 51.1,
+    "mw_points": 817,
     "divisionno": "7267",
     "division_name": "6th Girls - Division 5",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47139",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "2:20 PM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7267",
+      "division_name": "6th Girls - Division 5",
+      "home_teamno": "45155",
+      "away_teamno": "43844",
+      "home_score": 21,
+      "away_score": 15,
+      "team_score": 15,
+      "opponent_score": 21,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45155",
+      "opponent_name": "D4M-Waltham Girls"
+    },
     {
       "gameno": "47137",
       "date": "2026-03-13",
@@ -368,25 +387,5 @@
       "opponent_name": "D3J-Parkway  (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47139",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "2:20 PM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7267",
-      "division_name": "6th Girls - Division 5",
-      "home_teamno": "45155",
-      "away_teamno": "43844",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45155",
-      "opponent_name": "D4M-Waltham Girls"
-    }
-  ]
+  "future_games": []
 }

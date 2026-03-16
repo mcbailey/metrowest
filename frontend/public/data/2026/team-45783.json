@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "45783",
   "team_name": "2NDH-Everett (red)",
   "town": null,
@@ -60,8 +60,8 @@
       "opponent_score": 21,
       "status": "final",
       "is_home": false,
-      "opponent_teamno": "46149",
-      "opponent_name": "2NDM-Everett (white)"
+      "opponent_teamno": "45523",
+      "opponent_name": "2NDM-Mass Premier (king philip)"
     },
     {
       "gameno": "390442",

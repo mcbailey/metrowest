@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "45334",
   "team_name": "D1/2J-Milton (red)",
   "town": null,
   "summary": {
     "wins": 19,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 1015,
-    "pa": 662,
-    "diff": 353,
-    "sos": 1604.2,
-    "sos_adj": 1706.473,
-    "power": 1737.33,
+    "pf": 1057,
+    "pa": 722,
+    "diff": 335,
+    "sos": 1612.731,
+    "sos_adj": 1717.079,
+    "power": 1723.128,
     "rank": 1,
-    "mw_rating": 204.9,
-    "mw_points": 2663,
+    "mw_rating": 197.8,
+    "mw_points": 2769,
     "divisionno": "7265",
     "division_name": "7th Girls - Division 1",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 22,
-    "games_scheduled_total": 1
+    "games_played_total": 23,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44860",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "5:10 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7265",
+      "division_name": "7th Girls - Division 1",
+      "home_teamno": "45334",
+      "away_teamno": "43439",
+      "home_score": 42,
+      "away_score": 60,
+      "team_score": 42,
+      "opponent_score": 60,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43439",
+      "opponent_name": "D1/2H-Foxboro (blue)"
+    },
     {
       "gameno": "44859",
       "date": "2026-03-14",
@@ -444,25 +463,5 @@
       "opponent_name": "D3J-Milton (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44860",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "5:10 PM",
-      "location": "Mass Premier - 2",
-      "divisionno": "7265",
-      "division_name": "7th Girls - Division 1",
-      "home_teamno": "45334",
-      "away_teamno": "43439",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43439",
-      "opponent_name": "D1/2H-Foxboro (blue)"
-    }
-  ]
+  "future_games": []
 }

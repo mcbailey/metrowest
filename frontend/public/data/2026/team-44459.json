@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "44459",
   "team_name": "D3H-Walpole (a)",
   "town": null,
   "summary": {
-    "wins": 17,
+    "wins": 18,
     "losses": 1,
     "ties": 0,
-    "pf": 781,
-    "pa": 582,
-    "diff": 199,
-    "sos": 1556.092,
-    "sos_adj": 1614.425,
-    "power": 1690.405,
+    "pf": 825,
+    "pa": 621,
+    "diff": 204,
+    "sos": 1557.644,
+    "sos_adj": 1618.171,
+    "power": 1702.148,
     "rank": 1,
-    "mw_rating": 120.3,
-    "mw_points": 1804,
+    "mw_rating": 122.7,
+    "mw_points": 1963,
     "divisionno": "7303",
     "division_name": "5th Boys - Division 3",
     "grade": 5,
     "gender": "M",
-    "games_played_total": 18,
-    "games_scheduled_total": 1
+    "games_played_total": 19,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44733",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "11:20 AM",
+      "location": "Mass Premier - 3",
+      "divisionno": "7303",
+      "division_name": "5th Boys - Division 3",
+      "home_teamno": "44459",
+      "away_teamno": "44390",
+      "home_score": 44,
+      "away_score": 39,
+      "team_score": 44,
+      "opponent_score": 39,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44390",
+      "opponent_name": "D2K-Dedham (auguste)"
+    },
     {
       "gameno": "44732",
       "date": "2026-03-14",
@@ -368,25 +387,5 @@
       "opponent_name": "D3H-Brockton"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44733",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "11:20 AM",
-      "location": "Mass Premier - 3",
-      "divisionno": "7303",
-      "division_name": "5th Boys - Division 3",
-      "home_teamno": "44459",
-      "away_teamno": "44390",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44390",
-      "opponent_name": "D2K-Dedham (auguste)"
-    }
-  ]
+  "future_games": []
 }

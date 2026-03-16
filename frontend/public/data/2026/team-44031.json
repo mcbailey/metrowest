@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "44031",
   "team_name": "D2-Newton (black)",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pf": 539,
-    "pa": 476,
-    "diff": 63,
-    "sos": 1616.061,
-    "sos_adj": 1726.775,
-    "power": 1684.174,
+    "pf": 581,
+    "pa": 528,
+    "diff": 53,
+    "sos": 1620.445,
+    "sos_adj": 1733.778,
+    "power": 1670.91,
     "rank": 2,
-    "mw_rating": 145.3,
-    "mw_points": 1889,
+    "mw_rating": 142.2,
+    "mw_points": 1991,
     "divisionno": "7071",
     "division_name": "6th Girls - Division 2",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44845",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "11:00 AM",
+      "location": "Mass Premier - 1",
+      "divisionno": "7071",
+      "division_name": "6th Girls - Division 2",
+      "home_teamno": "44031",
+      "away_teamno": "43172",
+      "home_score": 42,
+      "away_score": 52,
+      "team_score": 42,
+      "opponent_score": 52,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43172",
+      "opponent_name": "D1-Seekonk (blue)"
+    },
     {
       "gameno": "44844",
       "date": "2026-03-14",
@@ -292,25 +311,5 @@
       "opponent_name": "D2-Dighton-Rehoboth"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44845",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "11:00 AM",
-      "location": "Mass Premier - 1",
-      "divisionno": "7071",
-      "division_name": "6th Girls - Division 2",
-      "home_teamno": "44031",
-      "away_teamno": "43172",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43172",
-      "opponent_name": "D1-Seekonk (blue)"
-    }
-  ]
+  "future_games": []
 }

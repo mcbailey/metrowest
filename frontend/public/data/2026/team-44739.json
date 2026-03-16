@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "44739",
   "team_name": "D2M-Arlington (maroon)",
   "town": null,
   "summary": {
     "wins": 23,
-    "losses": 9,
+    "losses": 10,
     "ties": 0,
-    "pf": 1667,
-    "pa": 1417,
-    "diff": 250,
-    "sos": 1573.889,
-    "sos_adj": 1656.701,
-    "power": 1690.82,
-    "rank": 1,
-    "mw_rating": 146.1,
-    "mw_points": 2191,
+    "pf": 1717,
+    "pa": 1480,
+    "diff": 237,
+    "sos": 1579.25,
+    "sos_adj": 1662.583,
+    "power": 1675.983,
+    "rank": 2,
+    "mw_rating": 141.3,
+    "mw_points": 2261,
     "divisionno": "7201",
     "division_name": "7th Boys - Division 2",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 32,
-    "games_scheduled_total": 1
+    "games_played_total": 33,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44641",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "6:40 PM",
+      "location": "Mass Premier - 2",
+      "divisionno": "7201",
+      "division_name": "7th Boys - Division 2",
+      "home_teamno": "44739",
+      "away_teamno": "45435",
+      "home_score": 50,
+      "away_score": 63,
+      "team_score": 50,
+      "opponent_score": 63,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "45435",
+      "opponent_name": "D2M-Cambridge"
+    },
     {
       "gameno": "44640",
       "date": "2026-03-14",
@@ -634,25 +653,5 @@
       "opponent_name": "Grafton (GREEN) 7B D1S"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44641",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "6:40 PM",
-      "location": "Mass Premier - 2",
-      "divisionno": "7201",
-      "division_name": "7th Boys - Division 2",
-      "home_teamno": "44739",
-      "away_teamno": "45435",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "45435",
-      "opponent_name": "D2M-Cambridge"
-    }
-  ]
+  "future_games": []
 }

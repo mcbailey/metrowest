@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "44212",
   "team_name": "D4P-Southboro (maroon)",
   "town": null,
   "summary": {
     "wins": 9,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "pf": 534,
-    "pa": 577,
-    "diff": -43,
-    "sos": 1511.781,
-    "sos_adj": 1517.664,
-    "power": 1523.821,
-    "rank": 3,
-    "mw_rating": 56.3,
-    "mw_points": 901,
+    "pf": 562,
+    "pa": 621,
+    "diff": -59,
+    "sos": 1510.986,
+    "sos_adj": 1513.764,
+    "power": 1487.244,
+    "rank": 4,
+    "mw_rating": 53.6,
+    "mw_points": 911,
     "divisionno": "7579",
     "division_name": "4th Boys - Division 4",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47058",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "9:20 AM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7581",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "44212",
+      "away_teamno": "43827",
+      "home_score": 28,
+      "away_score": 44,
+      "team_score": 28,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43827",
+      "opponent_name": "D5M-Westport (barrera)"
+    },
     {
       "gameno": "47057",
       "date": "2026-03-14",
@@ -349,25 +368,5 @@
       "opponent_name": "D4P-Westwood (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47058",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "9:20 AM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7581",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "44212",
-      "away_teamno": "43827",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43827",
-      "opponent_name": "D5M-Westport (barrera)"
-    }
-  ]
+  "future_games": []
 }

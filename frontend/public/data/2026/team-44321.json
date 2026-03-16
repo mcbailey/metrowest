@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "44321",
   "team_name": "D7T-Medway (white)",
   "town": null,
   "summary": {
-    "wins": 10,
+    "wins": 11,
     "losses": 4,
     "ties": 0,
-    "pf": 458,
-    "pa": 334,
-    "diff": 124,
-    "sos": 1368.017,
-    "sos_adj": 1232.302,
-    "power": 1421.684,
+    "pf": 489,
+    "pa": 357,
+    "diff": 132,
+    "sos": 1371.716,
+    "sos_adj": 1235.049,
+    "power": 1435.826,
     "rank": 1,
-    "mw_rating": 22.3,
-    "mw_points": 312,
+    "mw_rating": 22.7,
+    "mw_points": 341,
     "divisionno": "7594",
     "division_name": "4th Boys - Division 7",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47070",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7594",
+      "division_name": "4th Boys - Division 7",
+      "home_teamno": "44322",
+      "away_teamno": "44321",
+      "home_score": 23,
+      "away_score": 31,
+      "team_score": 31,
+      "opponent_score": 23,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44322",
+      "opponent_name": "D7T-Medway (red)"
+    },
     {
       "gameno": "47068",
       "date": "2026-03-14",
@@ -292,25 +311,5 @@
       "opponent_name": "D7V-Concord-Carlisle (gold)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47070",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "8:00 AM",
-      "location": "Mass Premier - 5",
-      "divisionno": "7594",
-      "division_name": "4th Boys - Division 7",
-      "home_teamno": "44322",
-      "away_teamno": "44321",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44322",
-      "opponent_name": "D7T-Medway (red)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "gender": "F",
   "grade": 7,
   "divisionno": "7262",
@@ -17,12 +17,12 @@
       "pf": 618,
       "pa": 334,
       "diff": 284,
-      "sos": 1564.817,
-      "sos_adj": 1636.245,
-      "power": 1637.278,
+      "sos": 1565.928,
+      "sos_adj": 1637.357,
+      "power": 1637.556,
       "rank": 1,
-      "mw_rating": 123.9,
-      "mw_points": 1611
+      "mw_rating": 124.1,
+      "mw_points": 1613
     },
     {
       "teamno": "43306",
@@ -34,29 +34,29 @@
       "pf": 545,
       "pa": 466,
       "diff": 79,
-      "sos": 1564.013,
-      "sos_adj": 1629.638,
-      "power": 1607.485,
+      "sos": 1565.957,
+      "sos_adj": 1631.582,
+      "power": 1607.971,
       "rank": 2,
-      "mw_rating": 95.4,
-      "mw_points": 1431
+      "mw_rating": 95.5,
+      "mw_points": 1433
     },
     {
       "teamno": "43843",
       "name": "D3H-Raynham (kinney)",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 7,
       "ties": 0,
-      "pf": 517,
-      "pa": 593,
-      "diff": -76,
-      "sos": 1537.737,
-      "sos_adj": 1584.404,
-      "power": 1583.217,
+      "pf": 548,
+      "pa": 618,
+      "diff": -70,
+      "sos": 1537.664,
+      "sos_adj": 1584.539,
+      "power": 1594.921,
       "rank": 3,
-      "mw_rating": 81.0,
-      "mw_points": 1215
+      "mw_rating": 83.3,
+      "mw_points": 1332
     },
     {
       "teamno": "46204",
@@ -72,8 +72,8 @@
       "sos_adj": 1534.411,
       "power": 1573.963,
       "rank": 4,
-      "mw_rating": 75.8,
-      "mw_points": 758
+      "mw_rating": 76.0,
+      "mw_points": 760
     },
     {
       "teamno": "44477",
@@ -85,9 +85,9 @@
       "pf": 690,
       "pa": 633,
       "diff": 57,
-      "sos": 1540.727,
-      "sos_adj": 1595.99,
-      "power": 1566.936,
+      "sos": 1541.546,
+      "sos_adj": 1596.809,
+      "power": 1567.141,
       "rank": 5,
       "mw_rating": 91.7,
       "mw_points": 1284
@@ -102,12 +102,12 @@
       "pf": 413,
       "pa": 372,
       "diff": 41,
-      "sos": 1556.452,
-      "sos_adj": 1602.286,
-      "power": 1551.021,
+      "sos": 1559.045,
+      "sos_adj": 1604.879,
+      "power": 1551.67,
       "rank": 6,
       "mw_rating": 85.3,
-      "mw_points": 1023
+      "mw_points": 1024
     },
     {
       "teamno": "45134",
@@ -123,8 +123,8 @@
       "sos_adj": 1627.973,
       "power": 1549.679,
       "rank": 7,
-      "mw_rating": 83.6,
-      "mw_points": 1171
+      "mw_rating": 83.7,
+      "mw_points": 1172
     },
     {
       "teamno": "43895",
@@ -136,12 +136,12 @@
       "pf": 564,
       "pa": 617,
       "diff": -53,
-      "sos": 1540.567,
-      "sos_adj": 1584.685,
-      "power": 1515.451,
+      "sos": 1542.398,
+      "sos_adj": 1586.515,
+      "power": 1515.909,
       "rank": 8,
-      "mw_rating": 59.4,
-      "mw_points": 832
+      "mw_rating": 59.5,
+      "mw_points": 833
     },
     {
       "teamno": "43090",
@@ -153,9 +153,9 @@
       "pf": 384,
       "pa": 591,
       "diff": -207,
-      "sos": 1555.207,
-      "sos_adj": 1605.207,
-      "power": 1485.07,
+      "sos": 1557.281,
+      "sos_adj": 1607.281,
+      "power": 1485.588,
       "rank": 9,
       "mw_rating": 51.0,
       "mw_points": 663

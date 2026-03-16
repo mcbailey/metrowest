@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "gender": "M",
   "grade": 7,
   "divisionno": "7201",
@@ -8,38 +8,38 @@
   "divisiontier": "2",
   "rankings": [
     {
+      "teamno": "45435",
+      "name": "D2M-Cambridge",
+      "town": null,
+      "wins": 12,
+      "losses": 8,
+      "ties": 0,
+      "pf": 984,
+      "pa": 949,
+      "diff": 35,
+      "sos": 1611.663,
+      "sos_adj": 1714.163,
+      "power": 1692.717,
+      "rank": 1,
+      "mw_rating": 128.6,
+      "mw_points": 2186
+    },
+    {
       "teamno": "44739",
       "name": "D2M-Arlington (maroon)",
       "town": null,
       "wins": 23,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 1667,
-      "pa": 1417,
-      "diff": 250,
-      "sos": 1573.889,
-      "sos_adj": 1656.701,
-      "power": 1690.82,
-      "rank": 1,
-      "mw_rating": 146.1,
-      "mw_points": 2191
-    },
-    {
-      "teamno": "45435",
-      "name": "D2M-Cambridge",
-      "town": null,
-      "wins": 11,
-      "losses": 8,
-      "ties": 0,
-      "pf": 921,
-      "pa": 899,
-      "diff": 22,
-      "sos": 1611.475,
-      "sos_adj": 1714.107,
-      "power": 1676.396,
+      "pf": 1717,
+      "pa": 1480,
+      "diff": 237,
+      "sos": 1579.25,
+      "sos_adj": 1662.583,
+      "power": 1675.983,
       "rank": 2,
-      "mw_rating": 126.6,
-      "mw_points": 2025
+      "mw_rating": 141.3,
+      "mw_points": 2261
     },
     {
       "teamno": "44048",
@@ -56,7 +56,7 @@
       "power": 1641.994,
       "rank": 3,
       "mw_rating": 132.9,
-      "mw_points": 1860
+      "mw_points": 1861
     },
     {
       "teamno": "45503",
@@ -85,9 +85,9 @@
       "pf": 841,
       "pa": 1011,
       "diff": -170,
-      "sos": 1607.744,
-      "sos_adj": 1695.244,
-      "power": 1573.576,
+      "sos": 1605.57,
+      "sos_adj": 1693.07,
+      "power": 1573.033,
       "rank": 5,
       "mw_rating": 90.9,
       "mw_points": 1181
@@ -102,12 +102,12 @@
       "pf": 910,
       "pa": 1100,
       "diff": -190,
-      "sos": 1599.188,
-      "sos_adj": 1680.14,
-      "power": 1556.932,
+      "sos": 1597.117,
+      "sos_adj": 1678.07,
+      "power": 1556.414,
       "rank": 6,
-      "mw_rating": 101.0,
-      "mw_points": 1313
+      "mw_rating": 101.1,
+      "mw_points": 1314
     }
   ]
 }

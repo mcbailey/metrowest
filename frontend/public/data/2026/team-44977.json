@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "44977",
   "team_name": "D1H-Acushnet - Fairhaven (vardo)",
   "town": null,
   "summary": {
     "wins": 6,
-    "losses": 10,
+    "losses": 11,
     "ties": 0,
-    "pf": 749,
-    "pa": 841,
-    "diff": -92,
-    "sos": 1636.163,
-    "sos_adj": 1773.663,
-    "power": 1673.342,
-    "rank": 5,
-    "mw_rating": 127.9,
-    "mw_points": 2047,
+    "pf": 798,
+    "pa": 908,
+    "diff": -110,
+    "sos": 1636.028,
+    "sos_adj": 1771.322,
+    "power": 1647.354,
+    "rank": 6,
+    "mw_rating": 124.5,
+    "mw_points": 2117,
     "divisionno": "7234",
     "division_name": "6th Boys - Division 1",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44687",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "5:00 PM",
+      "location": "Mass Premier - 1",
+      "divisionno": "7233",
+      "division_name": "6th Boys - Division 2",
+      "home_teamno": "45437",
+      "away_teamno": "44977",
+      "home_score": 67,
+      "away_score": 49,
+      "team_score": 49,
+      "opponent_score": 67,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45437",
+      "opponent_name": "D2M-Cambridge"
+    },
     {
       "gameno": "44685",
       "date": "2026-03-14",
@@ -330,25 +349,5 @@
       "opponent_name": "D1J-Parkway  (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44687",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "5:00 PM",
-      "location": "Mass Premier - 1",
-      "divisionno": "7233",
-      "division_name": "6th Boys - Division 2",
-      "home_teamno": "45437",
-      "away_teamno": "44977",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45437",
-      "opponent_name": "D2M-Cambridge"
-    }
-  ]
+  "future_games": []
 }

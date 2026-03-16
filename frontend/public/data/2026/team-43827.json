@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "43827",
   "team_name": "D5M-Westport (barrera)",
   "town": null,
   "summary": {
-    "wins": 13,
+    "wins": 14,
     "losses": 2,
     "ties": 0,
-    "pf": 682,
-    "pa": 401,
-    "diff": 281,
-    "sos": 1441.799,
-    "sos_adj": 1401.799,
-    "power": 1555.278,
+    "pf": 726,
+    "pa": 429,
+    "diff": 297,
+    "sos": 1443.98,
+    "sos_adj": 1406.48,
+    "power": 1573.935,
     "rank": 1,
-    "mw_rating": 55.8,
-    "mw_points": 837,
+    "mw_rating": 57.7,
+    "mw_points": 923,
     "divisionno": "7581",
     "division_name": "4th Boys - Division 5",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47058",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "9:20 AM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7581",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "44212",
+      "away_teamno": "43827",
+      "home_score": 28,
+      "away_score": 44,
+      "team_score": 44,
+      "opponent_score": 28,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44212",
+      "opponent_name": "D4P-Southboro (maroon)"
+    },
     {
       "gameno": "47056",
       "date": "2026-03-14",
@@ -311,25 +330,5 @@
       "opponent_name": "D5M-Monomoy (blue/teixiera)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47058",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "9:20 AM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7581",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "44212",
-      "away_teamno": "43827",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44212",
-      "opponent_name": "D4P-Southboro (maroon)"
-    }
-  ]
+  "future_games": []
 }

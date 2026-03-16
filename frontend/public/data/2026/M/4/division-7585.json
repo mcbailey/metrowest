@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "gender": "M",
   "grade": 4,
   "divisionno": "7585",
@@ -17,12 +17,12 @@
       "pf": 433,
       "pa": 363,
       "diff": 70,
-      "sos": 1425.326,
-      "sos_adj": 1344.557,
-      "power": 1436.046,
+      "sos": 1427.049,
+      "sos_adj": 1346.28,
+      "power": 1436.477,
       "rank": 1,
-      "mw_rating": 35.2,
-      "mw_points": 458
+      "mw_rating": 35.3,
+      "mw_points": 459
     },
     {
       "teamno": "43350",
@@ -34,12 +34,29 @@
       "pf": 417,
       "pa": 389,
       "diff": 28,
-      "sos": 1405.265,
-      "sos_adj": 1308.599,
-      "power": 1403.618,
+      "sos": 1408.253,
+      "sos_adj": 1311.586,
+      "power": 1404.365,
       "rank": 2,
-      "mw_rating": 25.0,
-      "mw_points": 350
+      "mw_rating": 25.1,
+      "mw_points": 352
+    },
+    {
+      "teamno": "44900",
+      "name": "D6N-North Attleboro (black)",
+      "town": null,
+      "wins": 5,
+      "losses": 12,
+      "ties": 0,
+      "pf": 369,
+      "pa": 504,
+      "diff": -135,
+      "sos": 1386.692,
+      "sos_adj": 1274.927,
+      "power": 1369.232,
+      "rank": 3,
+      "mw_rating": 10.8,
+      "mw_points": 184
     },
     {
       "teamno": "43839",
@@ -51,29 +68,12 @@
       "pf": 359,
       "pa": 397,
       "diff": -38,
-      "sos": 1402.948,
-      "sos_adj": 1299.376,
-      "power": 1353.533,
-      "rank": 3,
-      "mw_rating": 15.4,
-      "mw_points": 215
-    },
-    {
-      "teamno": "44900",
-      "name": "D6N-North Attleboro (black)",
-      "town": null,
-      "wins": 4,
-      "losses": 12,
-      "ties": 0,
-      "pf": 337,
-      "pa": 481,
-      "diff": -144,
-      "sos": 1387.261,
-      "sos_adj": 1274.761,
-      "power": 1352.385,
+      "sos": 1406.149,
+      "sos_adj": 1302.577,
+      "power": 1354.333,
       "rank": 4,
-      "mw_rating": 9.2,
-      "mw_points": 147
+      "mw_rating": 15.5,
+      "mw_points": 217
     },
     {
       "teamno": "43967",
@@ -85,12 +85,12 @@
       "pf": 389,
       "pa": 470,
       "diff": -81,
-      "sos": 1396.394,
-      "sos_adj": 1289.727,
-      "power": 1340.687,
+      "sos": 1399.381,
+      "sos_adj": 1292.715,
+      "power": 1341.434,
       "rank": 5,
-      "mw_rating": 16.3,
-      "mw_points": 244
+      "mw_rating": 16.4,
+      "mw_points": 246
     }
   ]
 }

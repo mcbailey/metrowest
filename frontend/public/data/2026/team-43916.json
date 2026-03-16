@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "43916",
   "team_name": "D3K-Wellesley (b)",
   "town": null,
   "summary": {
     "wins": 10,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
-    "pf": 1009,
-    "pa": 1084,
-    "diff": -75,
-    "sos": 1541.301,
-    "sos_adj": 1588.92,
-    "power": 1553.061,
+    "pf": 1053,
+    "pa": 1136,
+    "diff": -83,
+    "sos": 1542.563,
+    "sos_adj": 1588.017,
+    "power": 1530.893,
     "rank": 4,
-    "mw_rating": 66.8,
-    "mw_points": 1069,
+    "mw_rating": 64.4,
+    "mw_points": 1094,
     "divisionno": "7159",
     "division_name": "8th Boys - Division 3",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 21,
-    "games_scheduled_total": 1
+    "games_played_total": 22,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47178",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "5:20 PM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7154",
+      "division_name": "8th Boys - Division 4",
+      "home_teamno": "45309",
+      "away_teamno": "43916",
+      "home_score": 52,
+      "away_score": 44,
+      "team_score": 44,
+      "opponent_score": 52,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "45309",
+      "opponent_name": "D4M-Milton (white)"
+    },
     {
       "gameno": "47176",
       "date": "2026-03-13",
@@ -425,25 +444,5 @@
       "opponent_name": "D3H-Somerset (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47178",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "5:20 PM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7154",
-      "division_name": "8th Boys - Division 4",
-      "home_teamno": "45309",
-      "away_teamno": "43916",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "45309",
-      "opponent_name": "D4M-Milton (white)"
-    }
-  ]
+  "future_games": []
 }

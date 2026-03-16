@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "gender": "F",
   "grade": 4,
   "divisionno": "7546",
@@ -21,25 +21,25 @@
       "sos_adj": 1765.558,
       "power": 1704.5,
       "rank": 1,
-      "mw_rating": 135.9,
-      "mw_points": 1903
+      "mw_rating": 136.0,
+      "mw_points": 1904
     },
     {
       "teamno": "43853",
       "name": "D2M-Natick",
       "town": null,
-      "wins": 8,
+      "wins": 9,
       "losses": 9,
       "ties": 0,
-      "pf": 387,
-      "pa": 378,
-      "diff": 9,
-      "sos": 1609.806,
-      "sos_adj": 1739.217,
-      "power": 1684.35,
+      "pf": 415,
+      "pa": 404,
+      "diff": 11,
+      "sos": 1611.433,
+      "sos_adj": 1741.988,
+      "power": 1690.717,
       "rank": 2,
-      "mw_rating": 103.2,
-      "mw_points": 1445
+      "mw_rating": 106.8,
+      "mw_points": 1602
     },
     {
       "teamno": "43468",
@@ -55,8 +55,8 @@
       "sos_adj": 1692.188,
       "power": 1674.609,
       "rank": 3,
-      "mw_rating": 146.7,
-      "mw_points": 2054
+      "mw_rating": 146.8,
+      "mw_points": 2055
     },
     {
       "teamno": "44276",
@@ -85,9 +85,9 @@
       "pf": 315,
       "pa": 437,
       "diff": -122,
-      "sos": 1583.571,
-      "sos_adj": 1657.255,
-      "power": 1578.989,
+      "sos": 1584.367,
+      "sos_adj": 1658.052,
+      "power": 1579.188,
       "rank": 5,
       "mw_rating": 80.0,
       "mw_points": 960

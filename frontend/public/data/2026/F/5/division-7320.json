@@ -1,12 +1,29 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "gender": "F",
   "grade": 5,
   "divisionno": "7320",
   "division_name": "5th Girls - Division 4",
   "divisiontier": "4",
   "rankings": [
+    {
+      "teamno": "44649",
+      "name": "D4J-Attleboro (blue)",
+      "town": null,
+      "wins": 6,
+      "losses": 10,
+      "ties": 0,
+      "pf": 299,
+      "pa": 351,
+      "diff": -52,
+      "sos": 1474.606,
+      "sos_adj": 1465.231,
+      "power": 1512.271,
+      "rank": 1,
+      "mw_rating": 41.6,
+      "mw_points": 666
+    },
     {
       "teamno": "43446",
       "name": "D4J-Foxboro (blue)",
@@ -17,12 +34,12 @@
       "pf": 324,
       "pa": 346,
       "diff": -22,
-      "sos": 1517.957,
-      "sos_adj": 1539.385,
-      "power": 1501.318,
-      "rank": 1,
-      "mw_rating": 67.4,
-      "mw_points": 944
+      "sos": 1519.394,
+      "sos_adj": 1540.823,
+      "power": 1501.677,
+      "rank": 2,
+      "mw_rating": 67.5,
+      "mw_points": 945
     },
     {
       "teamno": "43185",
@@ -34,29 +51,12 @@
       "pf": 302,
       "pa": 292,
       "diff": 10,
-      "sos": 1485.279,
-      "sos_adj": 1481.708,
-      "power": 1497.289,
-      "rank": 2,
-      "mw_rating": 51.9,
-      "mw_points": 726
-    },
-    {
-      "teamno": "44649",
-      "name": "D4J-Attleboro (blue)",
-      "town": null,
-      "wins": 5,
-      "losses": 10,
-      "ties": 0,
-      "pf": 261,
-      "pa": 322,
-      "diff": -61,
-      "sos": 1474.254,
-      "sos_adj": 1464.254,
-      "power": 1496.933,
+      "sos": 1488.154,
+      "sos_adj": 1484.583,
+      "power": 1498.007,
       "rank": 3,
-      "mw_rating": 38.8,
-      "mw_points": 582
+      "mw_rating": 52.0,
+      "mw_points": 728
     },
     {
       "teamno": "44400",
@@ -68,12 +68,12 @@
       "pf": 269,
       "pa": 269,
       "diff": 0,
-      "sos": 1487.753,
-      "sos_adj": 1487.753,
-      "power": 1495.377,
+      "sos": 1489.095,
+      "sos_adj": 1489.095,
+      "power": 1495.712,
       "rank": 4,
-      "mw_rating": 45.3,
-      "mw_points": 634
+      "mw_rating": 45.4,
+      "mw_points": 635
     },
     {
       "teamno": "45345",
@@ -85,12 +85,12 @@
       "pf": 217,
       "pa": 236,
       "diff": -19,
-      "sos": 1486.687,
-      "sos_adj": 1482.521,
-      "power": 1469.726,
+      "sos": 1490.042,
+      "sos_adj": 1485.875,
+      "power": 1470.565,
       "rank": 5,
-      "mw_rating": 57.3,
-      "mw_points": 688
+      "mw_rating": 57.5,
+      "mw_points": 690
     },
     {
       "teamno": "44880",
@@ -102,9 +102,9 @@
       "pf": 300,
       "pa": 385,
       "diff": -85,
-      "sos": 1491.432,
-      "sos_adj": 1484.765,
-      "power": 1443.515,
+      "sos": 1494.115,
+      "sos_adj": 1487.448,
+      "power": 1444.186,
       "rank": 6,
       "mw_rating": 41.6,
       "mw_points": 624

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "gender": "M",
   "grade": 8,
   "divisionno": "7166",
@@ -11,18 +11,18 @@
       "teamno": "45214",
       "name": "D1H-East Greenwich",
       "town": null,
-      "wins": 34,
+      "wins": 35,
       "losses": 2,
       "ties": 0,
-      "pf": 2154,
-      "pa": 1577,
-      "diff": 577,
-      "sos": 1542.743,
-      "sos_adj": 1587.187,
-      "power": 1731.026,
+      "pf": 2202,
+      "pa": 1617,
+      "diff": 585,
+      "sos": 1545.649,
+      "sos_adj": 1592.947,
+      "power": 1739.587,
       "rank": 1,
-      "mw_rating": 202.3,
-      "mw_points": 2225
+      "mw_rating": 203.1,
+      "mw_points": 2437
     },
     {
       "teamno": "43929",
@@ -34,9 +34,9 @@
       "pf": 967,
       "pa": 845,
       "diff": 122,
-      "sos": 1620.74,
-      "sos_adj": 1735.446,
-      "power": 1714.044,
+      "sos": 1621.857,
+      "sos_adj": 1736.563,
+      "power": 1714.323,
       "rank": 2,
       "mw_rating": 167.0,
       "mw_points": 2171
@@ -51,12 +51,12 @@
       "pf": 819,
       "pa": 733,
       "diff": 86,
-      "sos": 1630.552,
-      "sos_adj": 1760.552,
-      "power": 1702.883,
+      "sos": 1629.919,
+      "sos_adj": 1759.919,
+      "power": 1702.724,
       "rank": 3,
       "mw_rating": 160.4,
-      "mw_points": 2245
+      "mw_points": 2246
     },
     {
       "teamno": "43414",
@@ -68,12 +68,12 @@
       "pf": 786,
       "pa": 685,
       "diff": 101,
-      "sos": 1662.382,
-      "sos_adj": 1812.382,
-      "power": 1696.449,
+      "sos": 1663.173,
+      "sos_adj": 1813.173,
+      "power": 1696.647,
       "rank": 4,
       "mw_rating": 164.3,
-      "mw_points": 1971
+      "mw_points": 1972
     },
     {
       "teamno": "43735",
@@ -85,9 +85,9 @@
       "pf": 605,
       "pa": 569,
       "diff": 36,
-      "sos": 1642.014,
-      "sos_adj": 1782.923,
-      "power": 1679.423,
+      "sos": 1641.15,
+      "sos_adj": 1782.059,
+      "power": 1679.207,
       "rank": 5,
       "mw_rating": 152.6,
       "mw_points": 1678
@@ -106,8 +106,8 @@
       "sos_adj": 1775.47,
       "power": 1658.552,
       "rank": 6,
-      "mw_rating": 132.8,
-      "mw_points": 1726
+      "mw_rating": 132.9,
+      "mw_points": 1727
     },
     {
       "teamno": "44995",
@@ -123,8 +123,8 @@
       "sos_adj": 1771.006,
       "power": 1654.509,
       "rank": 7,
-      "mw_rating": 163.2,
-      "mw_points": 2122
+      "mw_rating": 163.4,
+      "mw_points": 2124
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "gender": "F",
   "grade": 6,
   "divisionno": "7267",
@@ -12,17 +12,17 @@
       "name": "D5H-Raynham (stankewicz)",
       "town": null,
       "wins": 14,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "pf": 442,
-      "pa": 304,
-      "diff": 138,
-      "sos": 1445.376,
-      "sos_adj": 1403.709,
-      "power": 1523.075,
+      "pf": 457,
+      "pa": 325,
+      "diff": 132,
+      "sos": 1449.409,
+      "sos_adj": 1409.935,
+      "power": 1508.124,
       "rank": 1,
-      "mw_rating": 52.8,
-      "mw_points": 792
+      "mw_rating": 51.1,
+      "mw_points": 817
     },
     {
       "teamno": "43336",
@@ -34,12 +34,12 @@
       "pf": 395,
       "pa": 310,
       "diff": 85,
-      "sos": 1464.924,
-      "sos_adj": 1427.424,
-      "power": 1482.698,
+      "sos": 1462.172,
+      "sos_adj": 1424.672,
+      "power": 1482.01,
       "rank": 2,
-      "mw_rating": 50.2,
-      "mw_points": 653
+      "mw_rating": 50.3,
+      "mw_points": 654
     },
     {
       "teamno": "43686",
@@ -51,9 +51,9 @@
       "pf": 360,
       "pa": 279,
       "diff": 81,
-      "sos": 1444.786,
-      "sos_adj": 1394.786,
-      "power": 1446.877,
+      "sos": 1443.319,
+      "sos_adj": 1393.319,
+      "power": 1446.51,
       "rank": 3,
       "mw_rating": 39.8,
       "mw_points": 557
@@ -68,12 +68,12 @@
       "pf": 360,
       "pa": 387,
       "diff": -27,
-      "sos": 1467.053,
-      "sos_adj": 1419.994,
-      "power": 1418.379,
+      "sos": 1464.464,
+      "sos_adj": 1417.405,
+      "power": 1417.732,
       "rank": 4,
-      "mw_rating": 37.4,
-      "mw_points": 486
+      "mw_rating": 37.5,
+      "mw_points": 487
     },
     {
       "teamno": "45357",
@@ -85,9 +85,9 @@
       "pf": 267,
       "pa": 348,
       "diff": -81,
-      "sos": 1453.563,
-      "sos_adj": 1407.409,
-      "power": 1411.026,
+      "sos": 1451.87,
+      "sos_adj": 1405.716,
+      "power": 1410.603,
       "rank": 5,
       "mw_rating": 25.0,
       "mw_points": 325
@@ -102,12 +102,12 @@
       "pf": 202,
       "pa": 280,
       "diff": -78,
-      "sos": 1455.137,
-      "sos_adj": 1405.137,
-      "power": 1410.069,
+      "sos": 1453.303,
+      "sos_adj": 1403.303,
+      "power": 1409.61,
       "rank": 6,
       "mw_rating": 25.8,
-      "mw_points": 309
+      "mw_points": 310
     },
     {
       "teamno": "44491",
@@ -119,12 +119,12 @@
       "pf": 282,
       "pa": 328,
       "diff": -46,
-      "sos": 1446.798,
-      "sos_adj": 1396.798,
-      "power": 1394.383,
+      "sos": 1445.105,
+      "sos_adj": 1395.105,
+      "power": 1393.96,
       "rank": 7,
       "mw_rating": 23.9,
-      "mw_points": 310
+      "mw_points": 311
     }
   ]
 }

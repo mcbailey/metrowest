@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "44645",
   "team_name": "D5H-Attleboro (white)",
   "town": null,
   "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 10,
     "ties": 0,
-    "pf": 669,
-    "pa": 718,
-    "diff": -49,
-    "sos": 1453.734,
-    "sos_adj": 1403.734,
-    "power": 1460.958,
-    "rank": 5,
-    "mw_rating": 27.5,
-    "mw_points": 413,
+    "pf": 727,
+    "pa": 762,
+    "diff": -35,
+    "sos": 1451.649,
+    "sos_adj": 1401.649,
+    "power": 1475.135,
+    "rank": 4,
+    "mw_rating": 29.4,
+    "mw_points": 471,
     "divisionno": "7145",
     "division_name": "8th Boys - Division 5",
     "grade": 8,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47187",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "5:30 PM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7146",
+      "division_name": "8th Boys - Division 5",
+      "home_teamno": "44645",
+      "away_teamno": "44335",
+      "home_score": 58,
+      "away_score": 44,
+      "team_score": 58,
+      "opponent_score": 44,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44335",
+      "opponent_name": "D5J-Medway (white)"
+    },
     {
       "gameno": "47186",
       "date": "2026-03-12",
@@ -330,25 +349,5 @@
       "opponent_name": "D4M-North Attleboro (red)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47187",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "5:30 PM",
-      "location": "Mass Premier - 4",
-      "divisionno": "7146",
-      "division_name": "8th Boys - Division 5",
-      "home_teamno": "44645",
-      "away_teamno": "44335",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44335",
-      "opponent_name": "D5J-Medway (white)"
-    }
-  ]
+  "future_games": []
 }

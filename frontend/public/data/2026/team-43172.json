@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "43172",
   "team_name": "D1-Seekonk (blue)",
   "town": null,
   "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 8,
     "ties": 0,
-    "pf": 508,
-    "pa": 540,
-    "diff": -32,
-    "sos": 1615.868,
-    "sos_adj": 1726.583,
-    "power": 1665.576,
-    "rank": 6,
-    "mw_rating": 115.7,
-    "mw_points": 1504,
+    "pf": 560,
+    "pa": 582,
+    "diff": -22,
+    "sos": 1615.002,
+    "sos_adj": 1725.002,
+    "power": 1677.974,
+    "rank": 3,
+    "mw_rating": 118.8,
+    "mw_points": 1663,
     "divisionno": "7072",
     "division_name": "6th Girls - Division 1",
     "grade": 6,
     "gender": "F",
-    "games_played_total": 14,
-    "games_scheduled_total": 1
+    "games_played_total": 15,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "44845",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "11:00 AM",
+      "location": "Mass Premier - 1",
+      "divisionno": "7071",
+      "division_name": "6th Girls - Division 2",
+      "home_teamno": "44031",
+      "away_teamno": "43172",
+      "home_score": 42,
+      "away_score": 52,
+      "team_score": 52,
+      "opponent_score": 42,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44031",
+      "opponent_name": "D2-Newton (black)"
+    },
     {
       "gameno": "44843",
       "date": "2026-03-14",
@@ -292,25 +311,5 @@
       "opponent_name": "D3H-Attleboro (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "44845",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "11:00 AM",
-      "location": "Mass Premier - 1",
-      "divisionno": "7071",
-      "division_name": "6th Girls - Division 2",
-      "home_teamno": "44031",
-      "away_teamno": "43172",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44031",
-      "opponent_name": "D2-Newton (black)"
-    }
-  ]
+  "future_games": []
 }

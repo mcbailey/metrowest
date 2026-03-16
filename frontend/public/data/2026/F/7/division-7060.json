@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "gender": "F",
   "grade": 7,
   "divisionno": "7060",
@@ -11,18 +11,18 @@
       "teamno": "43439",
       "name": "D1/2H-Foxboro (blue)",
       "town": null,
-      "wins": 19,
+      "wins": 20,
       "losses": 2,
       "ties": 0,
-      "pf": 1158,
-      "pa": 806,
-      "diff": 352,
-      "sos": 1618.326,
-      "sos_adj": 1742.135,
-      "power": 1758.424,
+      "pf": 1218,
+      "pa": 848,
+      "diff": 370,
+      "sos": 1620.449,
+      "sos_adj": 1745.449,
+      "power": 1770.6,
       "rank": 1,
       "mw_rating": 216.1,
-      "mw_points": 2809
+      "mw_points": 3026
     },
     {
       "teamno": "45582",
@@ -38,8 +38,8 @@
       "sos_adj": 1785.664,
       "power": 1693.364,
       "rank": 2,
-      "mw_rating": 170.6,
-      "mw_points": 2047
+      "mw_rating": 170.7,
+      "mw_points": 2048
     },
     {
       "teamno": "43337",
@@ -51,12 +51,12 @@
       "pf": 899,
       "pa": 777,
       "diff": 122,
-      "sos": 1624.026,
-      "sos_adj": 1750.217,
-      "power": 1690.991,
+      "sos": 1623.306,
+      "sos_adj": 1749.496,
+      "power": 1690.81,
       "rank": 3,
       "mw_rating": 175.1,
-      "mw_points": 2451
+      "mw_points": 2452
     },
     {
       "teamno": "44651",
@@ -68,9 +68,9 @@
       "pf": 775,
       "pa": 782,
       "diff": -7,
-      "sos": 1641.102,
-      "sos_adj": 1783.207,
-      "power": 1685.447,
+      "sos": 1641.898,
+      "sos_adj": 1784.004,
+      "power": 1685.646,
       "rank": 4,
       "mw_rating": 147.9,
       "mw_points": 1923
@@ -119,12 +119,12 @@
       "pf": 831,
       "pa": 853,
       "diff": -22,
-      "sos": 1621.598,
-      "sos_adj": 1741.598,
-      "power": 1622.224,
+      "sos": 1622.203,
+      "sos_adj": 1742.203,
+      "power": 1622.376,
       "rank": 7,
       "mw_rating": 150.8,
-      "mw_points": 1809
+      "mw_points": 1810
     },
     {
       "teamno": "44205",

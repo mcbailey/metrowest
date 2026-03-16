@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "43853",
   "team_name": "D2M-Natick",
   "town": null,
   "summary": {
-    "wins": 8,
+    "wins": 9,
     "losses": 9,
     "ties": 0,
-    "pf": 387,
-    "pa": 378,
-    "diff": 9,
-    "sos": 1609.806,
-    "sos_adj": 1739.217,
-    "power": 1684.35,
+    "pf": 415,
+    "pa": 404,
+    "diff": 11,
+    "sos": 1611.433,
+    "sos_adj": 1741.988,
+    "power": 1690.717,
     "rank": 2,
-    "mw_rating": 103.2,
-    "mw_points": 1445,
+    "mw_rating": 106.8,
+    "mw_points": 1602,
     "divisionno": "7546",
     "division_name": "4th Girls - Division 2",
     "grade": 4,
     "gender": "F",
-    "games_played_total": 17,
-    "games_scheduled_total": 1
+    "games_played_total": 18,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "45889",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "8:00 AM",
+      "location": "Dana Barros - 1",
+      "divisionno": "7546",
+      "division_name": "4th Girls - Division 2",
+      "home_teamno": "43853",
+      "away_teamno": "43684",
+      "home_score": 28,
+      "away_score": 26,
+      "team_score": 28,
+      "opponent_score": 26,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43684",
+      "opponent_name": "D2L-Needham (gold)"
+    },
     {
       "gameno": "45888",
       "date": "2026-03-14",
@@ -349,25 +368,5 @@
       "opponent_name": "D2L-Medway (blue)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "45889",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "8:00 AM",
-      "location": "Dana Barros - 1",
-      "divisionno": "7546",
-      "division_name": "4th Girls - Division 2",
-      "home_teamno": "43853",
-      "away_teamno": "43684",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43684",
-      "opponent_name": "D2L-Needham (gold)"
-    }
-  ]
+  "future_games": []
 }

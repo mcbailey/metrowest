@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "gender": "M",
   "grade": 7,
   "divisionno": "7188",
@@ -17,12 +17,12 @@
       "pf": 791,
       "pa": 556,
       "diff": 235,
-      "sos": 1512.656,
-      "sos_adj": 1530.303,
-      "power": 1571.102,
+      "sos": 1513.623,
+      "sos_adj": 1531.27,
+      "power": 1571.344,
       "rank": 1,
-      "mw_rating": 77.8,
-      "mw_points": 1089
+      "mw_rating": 77.9,
+      "mw_points": 1090
     },
     {
       "teamno": "44979",
@@ -34,12 +34,12 @@
       "pf": 733,
       "pa": 699,
       "diff": 34,
-      "sos": 1501.04,
-      "sos_adj": 1504.374,
-      "power": 1542.922,
+      "sos": 1502.137,
+      "sos_adj": 1505.47,
+      "power": 1543.196,
       "rank": 2,
       "mw_rating": 64.6,
-      "mw_points": 904
+      "mw_points": 905
     },
     {
       "teamno": "43235",
@@ -51,12 +51,12 @@
       "pf": 769,
       "pa": 655,
       "diff": 114,
-      "sos": 1505.559,
-      "sos_adj": 1502.226,
-      "power": 1539.806,
+      "sos": 1506.656,
+      "sos_adj": 1503.322,
+      "power": 1540.08,
       "rank": 3,
-      "mw_rating": 63.1,
-      "mw_points": 947
+      "mw_rating": 63.2,
+      "mw_points": 948
     },
     {
       "teamno": "44496",
@@ -85,12 +85,29 @@
       "pf": 1041,
       "pa": 957,
       "diff": 84,
-      "sos": 1512.851,
-      "sos_adj": 1524.851,
-      "power": 1505.399,
+      "sos": 1513.509,
+      "sos_adj": 1525.509,
+      "power": 1505.564,
       "rank": 5,
       "mw_rating": 60.5,
       "mw_points": 847
+    },
+    {
+      "teamno": "43109",
+      "name": "D4H-Seekonk (payne)",
+      "town": null,
+      "wins": 7,
+      "losses": 9,
+      "ties": 0,
+      "pf": 653,
+      "pa": 702,
+      "diff": -49,
+      "sos": 1485.767,
+      "sos_adj": 1467.017,
+      "power": 1495.431,
+      "rank": 6,
+      "mw_rating": 48.4,
+      "mw_points": 678
     },
     {
       "teamno": "43821",
@@ -102,29 +119,12 @@
       "pf": 620,
       "pa": 631,
       "diff": -11,
-      "sos": 1510.69,
-      "sos_adj": 1517.833,
-      "power": 1485.192,
-      "rank": 6,
-      "mw_rating": 56.8,
-      "mw_points": 795
-    },
-    {
-      "teamno": "43109",
-      "name": "D4H-Seekonk (payne)",
-      "town": null,
-      "wins": 6,
-      "losses": 9,
-      "ties": 0,
-      "pf": 604,
-      "pa": 660,
-      "diff": -56,
-      "sos": 1489.248,
-      "sos_adj": 1472.581,
-      "power": 1484.49,
+      "sos": 1511.865,
+      "sos_adj": 1519.008,
+      "power": 1485.485,
       "rank": 7,
-      "mw_rating": 47.3,
-      "mw_points": 615
+      "mw_rating": 56.9,
+      "mw_points": 796
     }
   ]
 }

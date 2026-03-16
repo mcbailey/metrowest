@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "gender": "F",
   "grade": 8,
   "divisionno": "7244",
@@ -17,12 +17,12 @@
       "pf": 760,
       "pa": 555,
       "diff": 205,
-      "sos": 1487.492,
-      "sos_adj": 1481.936,
-      "power": 1551.947,
+      "sos": 1488.357,
+      "sos_adj": 1482.802,
+      "power": 1552.163,
       "rank": 1,
-      "mw_rating": 62.3,
-      "mw_points": 935
+      "mw_rating": 62.4,
+      "mw_points": 936
     },
     {
       "teamno": "43647",
@@ -34,12 +34,29 @@
       "pf": 401,
       "pa": 295,
       "diff": 106,
-      "sos": 1512.492,
-      "sos_adj": 1517.038,
-      "power": 1524.604,
+      "sos": 1513.909,
+      "sos_adj": 1518.454,
+      "power": 1524.958,
       "rank": 2,
       "mw_rating": 69.6,
-      "mw_points": 765
+      "mw_points": 766
+    },
+    {
+      "teamno": "43946",
+      "name": "D4Q-Brookline (white)",
+      "town": null,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "pf": 380,
+      "pa": 442,
+      "diff": -62,
+      "sos": 1487.887,
+      "sos_adj": 1477.172,
+      "power": 1512.877,
+      "rank": 3,
+      "mw_rating": 44.2,
+      "mw_points": 574
     },
     {
       "teamno": "44077",
@@ -51,29 +68,12 @@
       "pf": 450,
       "pa": 455,
       "diff": -5,
-      "sos": 1509.104,
-      "sos_adj": 1505.257,
-      "power": 1511.648,
-      "rank": 3,
-      "mw_rating": 55.8,
-      "mw_points": 725
-    },
-    {
-      "teamno": "43946",
-      "name": "D4Q-Brookline (white)",
-      "town": null,
-      "wins": 5,
-      "losses": 8,
-      "ties": 0,
-      "pf": 341,
-      "pa": 408,
-      "diff": -67,
-      "sos": 1488.153,
-      "sos_adj": 1476.615,
-      "power": 1501.054,
+      "sos": 1510.302,
+      "sos_adj": 1506.456,
+      "power": 1511.947,
       "rank": 4,
-      "mw_rating": 40.7,
-      "mw_points": 488
+      "mw_rating": 55.9,
+      "mw_points": 726
     },
     {
       "teamno": "44036",
@@ -102,12 +102,12 @@
       "pf": 558,
       "pa": 618,
       "diff": -60,
-      "sos": 1511.115,
-      "sos_adj": 1511.115,
-      "power": 1457.758,
+      "sos": 1512.032,
+      "sos_adj": 1512.032,
+      "power": 1457.987,
       "rank": 6,
-      "mw_rating": 47.6,
-      "mw_points": 571
+      "mw_rating": 47.7,
+      "mw_points": 572
     }
   ]
 }

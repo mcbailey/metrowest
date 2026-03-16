@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "45252",
   "team_name": "D5W-Waltham Boys (white)",
   "town": null,
   "summary": {
     "wins": 12,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pf": 720,
-    "pa": 534,
-    "diff": 186,
-    "sos": 1452.877,
-    "sos_adj": 1406.21,
-    "power": 1540.693,
+    "pf": 762,
+    "pa": 583,
+    "diff": 179,
+    "sos": 1458.343,
+    "sos_adj": 1414.593,
+    "power": 1523.937,
     "rank": 1,
-    "mw_rating": 51.1,
-    "mw_points": 766,
+    "mw_rating": 49.6,
+    "mw_points": 793,
     "divisionno": "7186",
     "division_name": "7th Boys - Division 5",
     "grade": 7,
     "gender": "M",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47151",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "5:00 PM",
+      "location": "Mass Premier - 5",
+      "divisionno": "7186",
+      "division_name": "7th Boys - Division 5",
+      "home_teamno": "43109",
+      "away_teamno": "45252",
+      "home_score": 49,
+      "away_score": 42,
+      "team_score": 42,
+      "opponent_score": 49,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "43109",
+      "opponent_name": "D4H-Seekonk (payne)"
+    },
     {
       "gameno": "47149",
       "date": "2026-03-14",
@@ -311,25 +330,5 @@
       "opponent_name": "D5W-Watertown (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47151",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "5:00 PM",
-      "location": "Mass Premier - 5",
-      "divisionno": "7186",
-      "division_name": "7th Boys - Division 5",
-      "home_teamno": "43109",
-      "away_teamno": "45252",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "43109",
-      "opponent_name": "D4H-Seekonk (payne)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "44971",
   "team_name": "D6P-Foxboro (gold)",
   "town": null,
   "summary": {
-    "wins": 13,
+    "wins": 14,
     "losses": 6,
     "ties": 0,
-    "pf": 597,
-    "pa": 450,
-    "diff": 147,
-    "sos": 1418.793,
-    "sos_adj": 1339.845,
-    "power": 1463.405,
+    "pf": 638,
+    "pa": 480,
+    "diff": 158,
+    "sos": 1417.134,
+    "sos_adj": 1337.134,
+    "power": 1473.52,
     "rank": 3,
-    "mw_rating": 30.3,
-    "mw_points": 485,
+    "mw_rating": 31.1,
+    "mw_points": 528,
     "divisionno": "7586",
     "division_name": "4th Boys - Division 6",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 19,
-    "games_scheduled_total": 1
+    "games_played_total": 20,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47067",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "10:50 AM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7586",
+      "division_name": "4th Boys - Division 6",
+      "home_teamno": "44971",
+      "away_teamno": "43210",
+      "home_score": 41,
+      "away_score": 30,
+      "team_score": 41,
+      "opponent_score": 30,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "43210",
+      "opponent_name": "D6M-FLBC (blue)"
+    },
     {
       "gameno": "47066",
       "date": "2026-03-14",
@@ -387,25 +406,5 @@
       "opponent_name": "D5R-Parkway  (white)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47067",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "10:50 AM",
-      "location": "Dana Barros - 2",
-      "divisionno": "7586",
-      "division_name": "4th Boys - Division 6",
-      "home_teamno": "44971",
-      "away_teamno": "43210",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "43210",
-      "opponent_name": "D6M-FLBC (blue)"
-    }
-  ]
+  "future_games": []
 }

@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "43174",
   "team_name": "D4J-Seekonk",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 8,
     "ties": 0,
-    "pf": 509,
-    "pa": 485,
-    "diff": 24,
-    "sos": 1497.635,
-    "sos_adj": 1487.635,
-    "power": 1521.162,
+    "pf": 541,
+    "pa": 512,
+    "diff": 29,
+    "sos": 1499.999,
+    "sos_adj": 1490.624,
+    "power": 1533.51,
     "rank": 3,
-    "mw_rating": 46.3,
-    "mw_points": 694,
+    "mw_rating": 48.6,
+    "mw_points": 778,
     "divisionno": "7257",
     "division_name": "7th Girls - Division 4",
     "grade": 7,
     "gender": "F",
-    "games_played_total": 15,
-    "games_scheduled_total": 1
+    "games_played_total": 16,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47169",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "4:10 PM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7257",
+      "division_name": "7th Girls - Division 4",
+      "home_teamno": "43174",
+      "away_teamno": "44982",
+      "home_score": 32,
+      "away_score": 27,
+      "team_score": 32,
+      "opponent_score": 27,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44982",
+      "opponent_name": "D4H-Acushnet - Fairhaven (ashley)"
+    },
     {
       "gameno": "47168",
       "date": "2026-03-14",
@@ -311,25 +330,5 @@
       "opponent_name": "D4J-Norton (purple)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47169",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "4:10 PM",
-      "location": "Dana Barros - 2",
-      "divisionno": "7257",
-      "division_name": "7th Girls - Division 4",
-      "home_teamno": "43174",
-      "away_teamno": "44982",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44982",
-      "opponent_name": "D4H-Acushnet - Fairhaven (ashley)"
-    }
-  ]
+  "future_games": []
 }

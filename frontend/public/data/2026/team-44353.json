@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "44353",
   "team_name": "D2P-Belmont (maroon)",
   "town": null,
   "summary": {
     "wins": 14,
-    "losses": 14,
+    "losses": 15,
     "ties": 0,
-    "pf": 976,
-    "pa": 978,
-    "diff": -2,
-    "sos": 1544.462,
-    "sos_adj": 1587.319,
-    "power": 1652.185,
-    "rank": 6,
-    "mw_rating": 77.5,
-    "mw_points": 1085,
+    "pf": 1011,
+    "pa": 1014,
+    "diff": -3,
+    "sos": 1538.731,
+    "sos_adj": 1578.387,
+    "power": 1637.646,
+    "rank": 7,
+    "mw_rating": 73.0,
+    "mw_points": 1095,
     "divisionno": "7576",
     "division_name": "4th Boys - Division 2",
     "grade": 4,
     "gender": "M",
-    "games_played_total": 27,
-    "games_scheduled_total": 1
+    "games_played_total": 28,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47061",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "9:30 AM",
+      "location": "Dana Barros - 2",
+      "divisionno": "7583",
+      "division_name": "4th Boys - Division 5",
+      "home_teamno": "44629",
+      "away_teamno": "44353",
+      "home_score": 36,
+      "away_score": 35,
+      "team_score": 35,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44629",
+      "opponent_name": "D5T-Ashland (blue)"
+    },
     {
       "gameno": "47059",
       "date": "2026-03-14",
@@ -539,25 +558,5 @@
       "opponent_name": "D2P-Arlington (maroon)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47061",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "9:30 AM",
-      "location": "Dana Barros - 2",
-      "divisionno": "7583",
-      "division_name": "4th Boys - Division 5",
-      "home_teamno": "44629",
-      "away_teamno": "44353",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44629",
-      "opponent_name": "D5T-Ashland (blue)"
-    }
-  ]
+  "future_games": []
 }

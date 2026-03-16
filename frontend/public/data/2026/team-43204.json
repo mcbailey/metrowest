@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "43204",
   "team_name": "D5J-FLBC (blue)",
   "town": null,
   "summary": {
-    "wins": 7,
+    "wins": 8,
     "losses": 9,
     "ties": 0,
-    "pf": 577,
-    "pa": 664,
-    "diff": -87,
-    "sos": 1451.48,
-    "sos_adj": 1395.23,
-    "power": 1460.066,
+    "pf": 628,
+    "pa": 700,
+    "diff": -72,
+    "sos": 1449.417,
+    "sos_adj": 1393.534,
+    "power": 1476.203,
     "rank": 4,
-    "mw_rating": 29.3,
-    "mw_points": 440,
+    "mw_rating": 31.1,
+    "mw_points": 498,
     "divisionno": "7213",
     "division_name": "6th Boys - Division 5",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47127",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "11:30 AM",
+      "location": "Mass Premier - 4",
+      "divisionno": "7217",
+      "division_name": "6th Boys - Division 5",
+      "home_teamno": "43204",
+      "away_teamno": "44208",
+      "home_score": 51,
+      "away_score": 36,
+      "team_score": 51,
+      "opponent_score": 36,
+      "status": "final",
+      "is_home": true,
+      "opponent_teamno": "44208",
+      "opponent_name": "D5R-Southboro (gold)"
+    },
     {
       "gameno": "47126",
       "date": "2026-03-13",
@@ -330,25 +349,5 @@
       "opponent_name": "D5J-Middleborough (terrasi)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47127",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "11:30 AM",
-      "location": "Mass Premier - 4",
-      "divisionno": "7217",
-      "division_name": "6th Boys - Division 5",
-      "home_teamno": "43204",
-      "away_teamno": "44208",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": true,
-      "opponent_teamno": "44208",
-      "opponent_name": "D5R-Southboro (gold)"
-    }
-  ]
+  "future_games": []
 }

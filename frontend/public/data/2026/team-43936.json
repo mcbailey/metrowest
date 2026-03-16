@@ -1,30 +1,49 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-15",
+  "snapshot_date": "2026-03-16",
   "teamno": "43936",
   "team_name": "D3M-Brookline (white)",
   "town": null,
   "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 10,
     "ties": 0,
-    "pf": 568,
-    "pa": 639,
-    "diff": -71,
-    "sos": 1534.289,
-    "sos_adj": 1571.789,
-    "power": 1561.604,
+    "pf": 615,
+    "pa": 668,
+    "diff": -53,
+    "sos": 1531.422,
+    "sos_adj": 1569.657,
+    "power": 1577.889,
     "rank": 2,
-    "mw_rating": 66.3,
-    "mw_points": 995,
+    "mw_rating": 69.4,
+    "mw_points": 1110,
     "divisionno": "7228",
     "division_name": "6th Boys - Division 3",
     "grade": 6,
     "gender": "M",
-    "games_played_total": 16,
-    "games_scheduled_total": 1
+    "games_played_total": 17,
+    "games_scheduled_total": 0
   },
   "past_games": [
+    {
+      "gameno": "47118",
+      "date": "2026-03-15",
+      "dow": "Sun",
+      "starttime": "1:40 PM",
+      "location": "Dana Barros - 3",
+      "divisionno": "7228",
+      "division_name": "6th Boys - Division 3",
+      "home_teamno": "44329",
+      "away_teamno": "43936",
+      "home_score": 29,
+      "away_score": 47,
+      "team_score": 47,
+      "opponent_score": 29,
+      "status": "final",
+      "is_home": false,
+      "opponent_teamno": "44329",
+      "opponent_name": "D3M-Medway (blue)"
+    },
     {
       "gameno": "47116",
       "date": "2026-03-14",
@@ -330,25 +349,5 @@
       "opponent_name": "D3J-Canton (green)"
     }
   ],
-  "future_games": [
-    {
-      "gameno": "47118",
-      "date": "2026-03-15",
-      "dow": "Sun",
-      "starttime": "1:40 PM",
-      "location": "Dana Barros - 3",
-      "divisionno": "7228",
-      "division_name": "6th Boys - Division 3",
-      "home_teamno": "44329",
-      "away_teamno": "43936",
-      "home_score": null,
-      "away_score": null,
-      "team_score": null,
-      "opponent_score": null,
-      "status": "scheduled",
-      "is_home": false,
-      "opponent_teamno": "44329",
-      "opponent_name": "D3M-Medway (blue)"
-    }
-  ]
+  "future_games": []
 }
