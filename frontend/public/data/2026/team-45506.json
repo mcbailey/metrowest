@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-17",
+  "snapshot_date": "2026-03-18",
   "teamno": "45506",
   "team_name": "D2N-Mansfield (green)",
   "town": null,
@@ -60,8 +60,8 @@
       "opponent_score": 27,
       "status": "final",
       "is_home": false,
-      "opponent_teamno": "46180",
-      "opponent_name": "2NDM-Mass Premier (norfolk maki)"
+      "opponent_teamno": "45217",
+      "opponent_name": "2NDM-North Quincy (nowill)"
     },
     {
       "gameno": "393193",
