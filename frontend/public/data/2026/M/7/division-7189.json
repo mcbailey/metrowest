@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-22",
+  "snapshot_date": "2026-03-23",
   "gender": "M",
   "grade": 7,
   "divisionno": "7189",
@@ -17,12 +17,12 @@
       "pf": 729,
       "pa": 622,
       "diff": 107,
-      "sos": 1488.574,
-      "sos_adj": 1488.574,
-      "power": 1590.292,
+      "sos": 1491.032,
+      "sos_adj": 1491.032,
+      "power": 1581.592,
       "rank": 1,
-      "mw_rating": 73.8,
-      "mw_points": 1107
+      "mw_rating": 73.9,
+      "mw_points": 1108
     },
     {
       "teamno": "43695",
@@ -34,12 +34,12 @@
       "pf": 1358,
       "pa": 1143,
       "diff": 215,
-      "sos": 1514.157,
-      "sos_adj": 1529.675,
-      "power": 1556.233,
+      "sos": 1514.974,
+      "sos_adj": 1530.491,
+      "power": 1551.555,
       "rank": 2,
-      "mw_rating": 86.6,
-      "mw_points": 1126
+      "mw_rating": 86.7,
+      "mw_points": 1127
     },
     {
       "teamno": "45314",
@@ -51,12 +51,12 @@
       "pf": 1011,
       "pa": 1111,
       "diff": -100,
-      "sos": 1500.02,
-      "sos_adj": 1500.02,
-      "power": 1497.548,
+      "sos": 1500.777,
+      "sos_adj": 1500.777,
+      "power": 1497.983,
       "rank": 3,
-      "mw_rating": 50.7,
-      "mw_points": 710
+      "mw_rating": 50.8,
+      "mw_points": 711
     },
     {
       "teamno": "44423",
@@ -68,12 +68,12 @@
       "pf": 561,
       "pa": 624,
       "diff": -63,
-      "sos": 1504.083,
-      "sos_adj": 1507.929,
-      "power": 1477.364,
+      "sos": 1505.577,
+      "sos_adj": 1509.423,
+      "power": 1480.199,
       "rank": 4,
       "mw_rating": 48.9,
-      "mw_points": 635
+      "mw_points": 636
     },
     {
       "teamno": "44091",
@@ -85,12 +85,29 @@
       "pf": 619,
       "pa": 671,
       "diff": -52,
-      "sos": 1504.409,
-      "sos_adj": 1504.409,
-      "power": 1465.338,
+      "sos": 1505.486,
+      "sos_adj": 1505.486,
+      "power": 1469.183,
       "rank": 5,
-      "mw_rating": 46.9,
-      "mw_points": 610
+      "mw_rating": 47.0,
+      "mw_points": 611
+    },
+    {
+      "teamno": "43584",
+      "name": "D4J-North Quincy (skolnick)",
+      "town": null,
+      "wins": 1,
+      "losses": 13,
+      "ties": 0,
+      "pf": 418,
+      "pa": 690,
+      "diff": -272,
+      "sos": 1507.511,
+      "sos_adj": 1507.511,
+      "power": 1445.041,
+      "rank": 6,
+      "mw_rating": 25.8,
+      "mw_points": 335
     },
     {
       "teamno": "43609",
@@ -102,29 +119,12 @@
       "pf": 510,
       "pa": 679,
       "diff": -169,
-      "sos": 1504.405,
-      "sos_adj": 1500.559,
-      "power": 1424.094,
-      "rank": 6,
-      "mw_rating": 27.9,
-      "mw_points": 362
-    },
-    {
-      "teamno": "43584",
-      "name": "D4J-North Quincy (skolnick)",
-      "town": null,
-      "wins": 0,
-      "losses": 13,
-      "ties": 0,
-      "pf": 367,
-      "pa": 643,
-      "diff": -276,
-      "sos": 1510.674,
-      "sos_adj": 1510.674,
-      "power": 1423.076,
+      "sos": 1505.098,
+      "sos_adj": 1501.252,
+      "power": 1431.871,
       "rank": 7,
-      "mw_rating": 25.0,
-      "mw_points": 325
+      "mw_rating": 27.9,
+      "mw_points": 363
     }
   ]
 }
