@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-23",
+  "snapshot_date": "2026-03-24",
   "gender": "M",
   "grade": 7,
   "divisionno": "7179",
@@ -17,9 +17,9 @@
       "pf": 547,
       "pa": 497,
       "diff": 50,
-      "sos": 1458.706,
-      "sos_adj": 1408.706,
-      "power": 1475.459,
+      "sos": 1457.836,
+      "sos_adj": 1407.836,
+      "power": 1471.663,
       "rank": 1,
       "mw_rating": 49.4,
       "mw_points": 543
@@ -34,12 +34,12 @@
       "pf": 516,
       "pa": 456,
       "diff": 60,
-      "sos": 1443.294,
-      "sos_adj": 1389.127,
-      "power": 1467.981,
+      "sos": 1443.152,
+      "sos_adj": 1388.985,
+      "power": 1464.626,
       "rank": 2,
-      "mw_rating": 37.0,
-      "mw_points": 481
+      "mw_rating": 37.2,
+      "mw_points": 483
     },
     {
       "teamno": "44821",
@@ -51,9 +51,9 @@
       "pf": 550,
       "pa": 485,
       "diff": 65,
-      "sos": 1459.499,
-      "sos_adj": 1405.332,
-      "power": 1457.617,
+      "sos": 1458.133,
+      "sos_adj": 1403.966,
+      "power": 1455.397,
       "rank": 3,
       "mw_rating": 40.3,
       "mw_points": 484
@@ -68,12 +68,12 @@
       "pf": 631,
       "pa": 608,
       "diff": 23,
-      "sos": 1438.984,
-      "sos_adj": 1385.65,
-      "power": 1446.956,
+      "sos": 1439.118,
+      "sos_adj": 1385.785,
+      "power": 1445.685,
       "rank": 4,
-      "mw_rating": 34.1,
-      "mw_points": 477
+      "mw_rating": 34.2,
+      "mw_points": 479
     },
     {
       "teamno": "43126",
@@ -85,12 +85,12 @@
       "pf": 513,
       "pa": 516,
       "diff": -3,
-      "sos": 1432.094,
-      "sos_adj": 1382.094,
-      "power": 1426.725,
+      "sos": 1432.422,
+      "sos_adj": 1382.422,
+      "power": 1427.437,
       "rank": 5,
-      "mw_rating": 36.2,
-      "mw_points": 470
+      "mw_rating": 36.5,
+      "mw_points": 474
     },
     {
       "teamno": "44643",
@@ -102,29 +102,29 @@
       "pf": 546,
       "pa": 579,
       "diff": -33,
-      "sos": 1445.666,
-      "sos_adj": 1392.332,
-      "power": 1416.159,
+      "sos": 1445.132,
+      "sos_adj": 1391.799,
+      "power": 1417.968,
       "rank": 6,
-      "mw_rating": 28.9,
-      "mw_points": 404
+      "mw_rating": 29.0,
+      "mw_points": 406
     },
     {
       "teamno": "43153",
       "name": "D5H-Dighton-Rehoboth (white)",
       "town": null,
-      "wins": 9,
-      "losses": 18,
+      "wins": 11,
+      "losses": 20,
       "ties": 0,
-      "pf": 1078,
-      "pa": 1213,
-      "diff": -135,
-      "sos": 1446.328,
-      "sos_adj": 1388.921,
-      "power": 1373.686,
+      "pf": 1248,
+      "pa": 1412,
+      "diff": -164,
+      "sos": 1449.524,
+      "sos_adj": 1393.073,
+      "power": 1377.263,
       "rank": 7,
-      "mw_rating": 22.4,
-      "mw_points": 291
+      "mw_rating": 23.8,
+      "mw_points": 309
     }
   ]
 }
