@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-03-26",
+  "snapshot_date": "2026-03-27",
   "teamno": "45630",
   "team_name": "D2AH-New Bedford",
   "town": null,
@@ -248,8 +248,8 @@
       "away_teamno": "43113",
       "home_score": null,
       "away_score": null,
-      "team_score": 2,
-      "opponent_score": null,
+      "team_score": null,
+      "opponent_score": 2,
       "status": "scheduled",
       "is_home": true,
       "opponent_teamno": "43113",
