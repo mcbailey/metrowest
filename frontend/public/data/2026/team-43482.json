@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-04-14",
+  "snapshot_date": "2026-04-15",
   "teamno": "43482",
   "team_name": "D5H-Rochester (white)",
   "town": null,
@@ -267,8 +267,8 @@
       "away_teamno": "43482",
       "home_score": null,
       "away_score": null,
-      "team_score": 2,
-      "opponent_score": null,
+      "team_score": null,
+      "opponent_score": 2,
       "status": "scheduled",
       "is_home": false,
       "opponent_teamno": "43126",
