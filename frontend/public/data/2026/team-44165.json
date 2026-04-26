@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-04-25",
+  "snapshot_date": "2026-04-26",
   "teamno": "44165",
   "team_name": "D6M-Holliston (donahue - black)",
   "town": null,
@@ -267,8 +267,8 @@
       "away_teamno": "45244",
       "home_score": null,
       "away_score": null,
-      "team_score": 2,
-      "opponent_score": null,
+      "team_score": null,
+      "opponent_score": 2,
       "status": "scheduled",
       "is_home": true,
       "opponent_teamno": "45244",
