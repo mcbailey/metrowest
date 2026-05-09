@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-05-08",
+  "snapshot_date": "2026-05-09",
   "teamno": "45302",
   "team_name": "D5T-Medford (blue)",
   "town": null,
@@ -286,8 +286,8 @@
       "away_teamno": "45302",
       "home_score": null,
       "away_score": null,
-      "team_score": 2,
-      "opponent_score": null,
+      "team_score": null,
+      "opponent_score": 2,
       "status": "scheduled",
       "is_home": false,
       "opponent_teamno": "44233",
