@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-05-22",
+  "snapshot_date": "2026-05-23",
   "teamno": "44087",
   "team_name": "D4Q-Wellesley (red)",
   "town": null,
@@ -267,8 +267,8 @@
       "away_teamno": "44087",
       "home_score": null,
       "away_score": null,
-      "team_score": null,
-      "opponent_score": 2,
+      "team_score": 2,
+      "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
       "opponent_teamno": "44762",
