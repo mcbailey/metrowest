@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-05-29",
+  "snapshot_date": "2026-05-30",
   "teamno": "45082",
   "team_name": "D3H-Fall River (jordyn)",
   "town": null,
@@ -343,8 +343,8 @@
       "away_teamno": "45082",
       "home_score": null,
       "away_score": null,
-      "team_score": null,
-      "opponent_score": 0,
+      "team_score": 0,
+      "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
       "opponent_teamno": "43256",
