@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-06-07",
+  "snapshot_date": "2026-06-08",
   "teamno": "45268",
   "team_name": "D4M-Medfield (baker)",
   "town": null,
@@ -305,8 +305,8 @@
       "away_teamno": "45268",
       "home_score": null,
       "away_score": null,
-      "team_score": null,
-      "opponent_score": 2,
+      "team_score": 2,
+      "opponent_score": null,
       "status": "scheduled",
       "is_home": false,
       "opponent_teamno": "43991",
