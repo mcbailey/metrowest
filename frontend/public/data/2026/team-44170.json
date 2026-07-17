@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-07-16",
+  "snapshot_date": "2026-07-17",
   "teamno": "44170",
   "team_name": "D5Q-Holliston (mcdonough - red)",
   "town": null,
@@ -267,8 +267,8 @@
       "away_teamno": "45317",
       "home_score": null,
       "away_score": null,
-      "team_score": 2,
-      "opponent_score": null,
+      "team_score": null,
+      "opponent_score": 2,
       "status": "scheduled",
       "is_home": true,
       "opponent_teamno": "45317",
