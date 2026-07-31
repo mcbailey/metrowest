@@ -1,6 +1,6 @@
 {
   "yrseason": "2026",
-  "snapshot_date": "2026-07-30",
+  "snapshot_date": "2026-07-31",
   "teamno": "43485",
   "team_name": "D4H-Rochester",
   "town": null,
@@ -324,8 +324,8 @@
       "away_teamno": "43485",
       "home_score": null,
       "away_score": null,
-      "team_score": 0,
-      "opponent_score": null,
+      "team_score": null,
+      "opponent_score": 0,
       "status": "scheduled",
       "is_home": false,
       "opponent_teamno": "43343",
