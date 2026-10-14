@@ -946,3 +946,36 @@ a.chip {
     font-size: 0.9rem;
   }
 }
+
+/* Schedules */
+.day-heading {
+  margin: 0.4rem 0 0.35rem;
+  font-size: 0.95rem;
+  color: var(--mw-navy-700);
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.winner {
+  font-weight: 700;
+}
+
+.score {
+  font-variant-numeric: tabular-nums;
+}
+
+.games td {
+  white-space: normal;
+}
+
+details > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--mw-navy-700);
+}
+
+.tag-gap {
+  margin-left: 0.5rem;
+}

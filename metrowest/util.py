@@ -120,3 +120,10 @@ def canonical_town(name: str | None) -> str | None:
 def town_slug(name: str | None) -> str | None:
     canonical = canonical_town(name)
     return slugify(canonical) if canonical else None
+
+
+def team_path(yrseason: str | int, teamno: str, name: str | None) -> str:
+    """Site URL path for a team; mirrors teamPath() in frontend/src/paths.ts."""
+    y = int(yrseason)
+    name_slug = slugify(re.sub(r"^[A-Za-z0-9/]+-", "", name or ""))
+    return f"/{y - 1}-{str(y)[-2:]}/team/{teamno}" + (f"-{name_slug}" if name_slug else "")

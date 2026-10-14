@@ -9,7 +9,8 @@ from typing import Any
 
 from .config import RANKING_CONFIG, SCRAPE_CONFIG
 from .db import connect_db, init_db, latest_snapshot_date, list_seasons
-from .util import canonical_town, class_of, ensure_dir, season_label, town_slug
+from .schedule import season_games, write_gyms_index, write_season_schedule, write_team_calendars
+from .util import canonical_town, class_of, ensure_dir, season_label, slugify, team_path, town_slug
 
 
 def _write_json(path: Path, payload: object) -> None:
@@ -167,7 +168,7 @@ def _write_playoffs(conn, out_dir: Path, yrseason: str) -> tuple[dict[str, list[
     return results, set(by_grade)
 
 
-def _build_season(conn, out_dir: Path, yrseason: str) -> dict[str, Any] | None:
+def _build_season(conn, out_dir: Path, yrseason: str, is_current: bool = False) -> dict[str, Any] | None:
     """Write all JSON for one season. Returns the season's entry for index.json, or None if it has no rankings."""
     snapshot_date = latest_snapshot_date(conn, yrseason)
     if not snapshot_date:
@@ -286,6 +287,7 @@ def _build_season(conn, out_dir: Path, yrseason: str) -> dict[str, Any] | None:
                 "division_tag": r.get("division_tag"),
                 "divisiontier": r.get("divisiontier"),
                 "rank": r["rank"],
+                "power": round(float(r["power"]), 1),
                 "wins": r["wins"],
                 "losses": r["losses"],
                 "ties": r["ties"],
@@ -295,6 +297,22 @@ def _build_season(conn, out_dir: Path, yrseason: str) -> dict[str, Any] | None:
         key=lambda t: (t["gender"], t["grade"], t["name"].lower(), t["teamno"]),
     )
     _write_json(out_dir / yrseason / "search.json", {"yrseason": yrseason, "teams": search_rows})
+
+    league_teams = {
+        t["teamno"]: {"name": t["name"], "gender": t["gender"], "grade": t["grade"]} for t in search_rows
+    }
+    games = season_games(conn, yrseason, league_teams)
+    gym_summaries = write_season_schedule(out_dir, yrseason, games, _write_json)
+    venue_by_game = {g["id"]: g["venue"] for g in games}
+    if is_current:
+        write_team_calendars(
+            out_dir,
+            yrseason,
+            games,
+            league_teams,
+            lambda tno: f"https://mwstats.com{team_path(yrseason, tno, league_teams[tno]['name'])}/",
+            snapshot_date,
+        )
 
     linked_games = list(
         conn.execute(
@@ -394,6 +412,7 @@ def _build_season(conn, out_dir: Path, yrseason: str) -> dict[str, Any] | None:
             "opponent_teamno": str(opp_teamno) if opp_teamno not in (None, "") else None,
             "opponent_name": opponent_name,
             "forfeit": str(raw.get("forfeitgame") or "").upper() == "YES",
+            "venue": venue_by_game.get(game["gameno"]),
         }
 
         if team_score is not None and opp_score is not None:
@@ -451,6 +470,7 @@ def _build_season(conn, out_dir: Path, yrseason: str) -> dict[str, Any] | None:
         "genders": available_genders,
         "grades": available_grades,
         "team_count": len(teams_meta),
+        "gyms": gym_summaries,
         "groups": [
             {
                 "gender": gender,
@@ -551,7 +571,7 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str | None = None, rankin
         # The folder is fully generated; clear it so teams/divisions that disappeared don't linger.
         if season_dir.exists():
             shutil.rmtree(season_dir)
-        entry = _build_season(conn, out_dir, season["yrseason"])
+        entry = _build_season(conn, out_dir, season["yrseason"], is_current=bool(season.get("is_current")))
         if entry is None:
             continue
         entry["status"] = season.get("status") or "in_progress"
@@ -559,6 +579,11 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str | None = None, rankin
         entries.append(entry)
     _write_towns(conn, out_dir)
     conn.close()
+
+    # Gym directory across seasons (season entries carry their gym list until here).
+    gym_summaries = [g for e in entries for g in e.pop("gyms", [])]
+    if yrseason in (None, "auto"):
+        write_gyms_index(out_dir, gym_summaries, _write_json)
 
     if yrseason not in (None, "auto"):
         # Partial rebuild: keep the other seasons already listed in index.json.

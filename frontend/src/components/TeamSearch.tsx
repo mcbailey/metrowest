@@ -1,20 +1,12 @@
 import { useEffect, useId, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { loadJson } from "../data";
+import { loadJsonCached } from "../data";
 import { teamPath } from "../paths";
 import { genderLabel, gradeLabel } from "../season";
 import type { SearchData, SearchTeam } from "../types";
 
-const cache = new Map<string, Promise<SearchData>>();
-
 function loadSearch(season: string): Promise<SearchData> {
-  let pending = cache.get(season);
-  if (!pending) {
-    pending = loadJson<SearchData>(`data/${season}/search.json`);
-    pending.catch(() => cache.delete(season));
-    cache.set(season, pending);
-  }
-  return pending;
+  return loadJsonCached<SearchData>(`data/${season}/search.json`);
 }
 
 function haystack(team: SearchTeam): string {

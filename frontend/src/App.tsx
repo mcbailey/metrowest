@@ -3,11 +3,14 @@ import { Link, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { loadJsonCached } from "./data";
 import { DivisionPage, legacyRankingsPath } from "./routes/DivisionPage";
 import { GlossaryPage } from "./routes/GlossaryPage";
+import { GymPage } from "./routes/GymPage";
+import { GymsPage } from "./routes/GymsPage";
 import { HomePage } from "./routes/HomePage";
 import { PlayoffsPage } from "./routes/PlayoffsPage";
 import { TeamPage } from "./routes/TeamPage";
 import { TownPage } from "./routes/TownPage";
 import { TownsPage } from "./routes/TownsPage";
+import { WeekPage } from "./routes/WeekPage";
 import { currentSeason } from "./season";
 import { useSiteSchema } from "./seo";
 import type { IndexData } from "./types";
@@ -66,8 +69,14 @@ export default function App() {
           <Link to="/" className="home-link">
             Home
           </Link>
+          <Link to="/week" className="home-link">
+            This Week
+          </Link>
           <Link to="/towns" className="home-link">
             Towns
+          </Link>
+          <Link to="/gyms" className="home-link">
+            Gyms
           </Link>
           <Link to="/glossary" className="home-link">
             Glossary
@@ -90,6 +99,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<RootRoute />} />
           <Route path="/glossary" element={<GlossaryPage />} />
+          <Route path="/week" element={<WeekPage />} />
+          <Route path="/gyms" element={<GymsPage />} />
+          <Route path="/gyms/:slug" element={<GymPage />} />
           <Route path="/towns" element={<TownsPage />} />
           <Route path="/towns/:slug" element={<TownPage />} />
           <Route path="/team/:teamno" element={<TeamPage />} />

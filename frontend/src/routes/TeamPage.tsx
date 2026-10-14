@@ -2,7 +2,7 @@ import { Link, Navigate, useLocation, useNavigate, useParams } from "react-route
 import { useEffect, useMemo, useState, type CSSProperties, type ReactNode } from "react";
 import { loadJson } from "../data";
 import { ProgramHistory } from "../components/ProgramHistory";
-import { parseSeasonSlug, parseTeamSlug, playoffsPath, rankingsPath, teamPath, townPath } from "../paths";
+import { calendarUrl, gymPath, parseSeasonSlug, parseTeamSlug, playoffsPath, rankingsPath, teamPath, townPath } from "../paths";
 import { findSeason, gradeLabel } from "../season";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
 import { DivisionRankingData, DivisionsData, IndexData, RankingTeam, TeamData, TeamGame } from "../types";
@@ -1208,6 +1208,10 @@ export function TeamPage() {
             <div>Diff: {team.summary.diff}</div>
           </section>
 
+          {seasonEntry?.is_current ? (
+            <CalendarCard season={activeSeason} teamno={team.teamno} final={seasonEntry.status === "final"} />
+          ) : null}
+
           {playoffResults.length ? (
             <section className="panel">
               <h3>Playoffs</h3>
@@ -1279,7 +1283,7 @@ export function TeamPage() {
                             "-"
                           )}
                         </td>
-                        <td>{g.location ?? "TBD"}</td>
+                        <td>{g.venue ? <Link to={gymPath(g.venue)}>{g.location ?? "Gym"}</Link> : (g.location ?? "TBD")}</td>
                       </tr>
                     );
                   })}
@@ -1308,7 +1312,7 @@ export function TeamPage() {
                       <td>{g.starttime ?? "TBD"}</td>
                       <td>{renderTeamNameLink(g.opponent_teamno, g.opponent_name)}</td>
                       <td>{g.is_home === null ? "TBD" : g.is_home ? "Home" : "Away"}</td>
-                      <td>{g.location ?? "TBD"}</td>
+                      <td>{g.venue ? <Link to={gymPath(g.venue)}>{g.location ?? "Gym"}</Link> : (g.location ?? "TBD")}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -1567,5 +1571,36 @@ export function TeamPage() {
         </section>
       ) : null}
     </div>
+  );
+}
+
+function CalendarCard({ season, teamno, final }: { season: string; teamno: string; final: boolean }) {
+  const path = calendarUrl(season, teamno);
+  const webcal = `webcal://${window.location.host}${path}`;
+  return (
+    <section className="panel">
+      <h3>Add the schedule to your calendar</h3>
+      <p className="meta compact">
+        {final
+          ? "This season is complete, but you can still add its games and scores to your calendar."
+          : "Subscribe once and games, times, gyms and scores stay up to date on your phone, including reschedules."}
+      </p>
+      <div className="link-row">
+        <a className="chip" href={webcal}>
+          Apple / Outlook
+        </a>
+        <a
+          className="chip"
+          href={`https://calendar.google.com/calendar/render?cid=${encodeURIComponent(webcal)}`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Google Calendar
+        </a>
+        <a className="chip" href={path} download={`team-${teamno}.ics`}>
+          Download .ics
+        </a>
+      </div>
+    </section>
   );
 }

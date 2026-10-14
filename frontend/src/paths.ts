@@ -103,3 +103,11 @@ export function playoffsPath(yrseason: string, gender: Gender, grade: number): s
 export function townPath(slug: string): string {
   return `/towns/${slug}`;
 }
+
+export function gymPath(slug: string): string {
+  return `/gyms/${slug}`;
+}
+
+export function calendarUrl(yrseason: string, teamno: string): string {
+  return `/data/${yrseason}/calendar/team-${teamno}.ics`;
+}

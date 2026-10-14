@@ -37,6 +37,7 @@ export type SearchTeam = {
   division_tag?: string | null;
   divisiontier?: string | null;
   rank: number;
+  power?: number;
   wins: number;
   losses: number;
   ties: number;
@@ -145,6 +146,7 @@ export type TeamGame = {
   opponent_teamno: string | null;
   opponent_name: string | null;
   forfeit?: boolean;
+  venue?: string | null;
 };
 
 export type TeamPlayoffResult = {
@@ -214,4 +216,48 @@ export type PlayoffsData = {
   gender: "M" | "F";
   grade: number;
   groups: PlayoffGroup[];
+};
+
+export type ScheduleGame = {
+  id: string;
+  date: string | null;
+  time: string | null;
+  end?: string | null;
+  gender: "M" | "F";
+  grade: number;
+  home: string | null;
+  away: string | null;
+  home_name: string | null;
+  away_name: string | null;
+  home_score: number | null;
+  away_score: number | null;
+  final: boolean;
+  court: string | null;
+  venue?: string | null;
+  playoff: boolean;
+};
+
+export type WeekendData = {
+  yrseason: string;
+  saturday: string;
+  games: ScheduleGame[];
+  gyms: Record<string, string | null>;
+};
+
+export type WeekendsIndex = {
+  yrseason: string;
+  weekends: Array<{ saturday: string; games: number }>;
+};
+
+export type GymData = {
+  yrseason: string;
+  slug: string;
+  name: string;
+  address: string | null;
+  courts: string[];
+  games: ScheduleGame[];
+};
+
+export type GymsIndex = {
+  gyms: Array<{ slug: string; name: string; address: string | null; seasons: Record<string, number> }>;
 };

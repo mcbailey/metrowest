@@ -6,6 +6,7 @@
 
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { defaultCardSvg, loadCardAssets, renderPng, teamCardSvg } from "./season-cards.mjs";
 
 const SITE_URL = process.env.SITE_URL || "https://mwstats.com";
 const SITE_NAME = "MWStats | Metrowest Youth Basketball Rankings";
@@ -57,7 +58,10 @@ async function readJsonIfExists(file) {
 
 let template = "";
 
-function renderPage({ urlPath, title, description, body }) {
+const DEFAULT_IMAGE = "/cards/default.png";
+
+function renderPage({ urlPath, title, description, body, image }) {
+  const imageUrl = `${SITE_URL}${image ?? DEFAULT_IMAGE}`;
   const head = [
     `<title>${esc(title)}</title>`,
     `<meta name="description" content="${esc(description)}" />`,
@@ -66,6 +70,11 @@ function renderPage({ urlPath, title, description, body }) {
     `<meta property="og:description" content="${esc(description)}" />`,
     `<meta property="og:type" content="website" />`,
     `<meta property="og:url" content="${esc(canonicalUrl(urlPath))}" />`,
+    `<meta property="og:image" content="${esc(imageUrl)}" />`,
+    `<meta property="og:image:width" content="1200" />`,
+    `<meta property="og:image:height" content="630" />`,
+    `<meta name="twitter:card" content="summary_large_image" />`,
+    `<meta name="twitter:image" content="${esc(imageUrl)}" />`,
   ].join("\n    ");
   return template
     .replace(/<title>[\s\S]*?<\/title>/, head)
@@ -95,8 +104,11 @@ function rankingsTable(teams, yr) {
   return `<table><thead><tr><th>Rank</th><th>Team</th><th>Record</th><th>Power</th></tr></thead><tbody>${rows}</tbody></table>`;
 }
 
+const cards = [];
+
 async function buildSeasonPages(index, season) {
   const yr = season.yrseason;
+  const divisionSizes = new Map();
   const label = season.label;
   const status = season.status === "final" ? "final standings" : "current rankings";
 
@@ -110,7 +122,10 @@ async function buildSeasonPages(index, season) {
       const datasets = [];
       for (const d of divisionsPayload.divisions) {
         const ds = await readJsonIfExists(path.join(groupDir, `division-${d.divisionno}.json`));
-        if (ds) datasets.push(ds);
+        if (ds) {
+          datasets.push(ds);
+          divisionSizes.set(ds.divisionno, ds.rankings.length);
+        }
       }
 
       const aggregate = (list) =>
@@ -204,7 +219,25 @@ async function buildSeasonPages(index, season) {
       .join("");
     const playoffs = (team.playoffs ?? []).map((p) => `<li>${esc(p.result)}, ${esc(p.group_name)}</li>`).join("");
     const urlPath = teamPath(yr, team.teamno, team.team_name);
+    let image;
+    if (season.is_current) {
+      image = `/cards/${yr}/${team.teamno}.png`;
+      const top = (team.playoffs ?? []).find((p) => p.result === "Champion") ?? (team.playoffs ?? [])[0];
+      const svg = teamCardSvg({
+        name: team.team_name.replace(/\s+/g, " "),
+        group,
+        division: s.division_tag ? `Division ${s.division_tag.replace(/^D(\d+).*/, "$1")} (${s.division_tag})` : s.division_name,
+        town: team.town,
+        season: label,
+        record: record(s),
+        rank: s.rank,
+        divisionSize: divisionSizes.get(s.divisionno),
+        playoff: top ? `${top.result.toUpperCase()}  ·  ${top.group_name}` : null,
+      });
+      cards.push([path.join(DIST_DIR, "cards", yr, `${team.teamno}.png`), svg]);
+    }
     addPage({
+      image,
       urlPath,
       title: `${team.team_name} (${group}, ${label}) | MWStats`,
       description: `${team.team_name}: ${record(s)} in ${s.division_name ?? "their division"}, ranked #${s.rank ?? "-"}, ${label}. Results, schedule, power rating and program history.`,
@@ -219,6 +252,31 @@ async function buildSeasonPages(index, season) {
 }
 
 const legacyTeams = new Map();
+
+async function buildGymPages() {
+  const gyms = await readJsonIfExists(path.join(DATA_DIR, "gyms.json"));
+  if (!gyms) return;
+  addPage({
+    urlPath: "/gyms",
+    title: `Gyms | ${SITE_NAME}`,
+    description: "Every gym used for Metrowest youth basketball games, with addresses and game schedules.",
+    body: `<h1>Gyms</h1><ul>${gyms.gyms
+      .map((g) => `<li>${link(`/gyms/${g.slug}`, g.name)}${g.address ? `, ${esc(g.address)}` : ""}</li>`)
+      .join("")}</ul>`,
+  });
+  for (const g of gyms.gyms) {
+    const seasons = Object.entries(g.seasons)
+      .sort((a, b) => b[0].localeCompare(a[0]))
+      .map(([yr, n]) => `<li>${esc(seasonSlug(yr))}: ${n} games</li>`)
+      .join("");
+    addPage({
+      urlPath: `/gyms/${g.slug}`,
+      title: `${g.name} | MWStats`,
+      description: `${g.name}${g.address ? `, ${g.address}` : ""}: Metrowest youth basketball games and schedule.`,
+      body: `<h1>${esc(g.name)}</h1>${g.address ? `<p>${esc(g.address)}</p>` : ""}<ul>${seasons}</ul>`,
+    });
+  }
+}
 
 async function buildTownPages() {
   const towns = await readJsonIfExists(path.join(DATA_DIR, "towns.json"));
@@ -284,12 +342,28 @@ async function main() {
     await buildSeasonPages(index, season);
   }
   await buildTownPages();
+  await buildGymPages();
+  addPage({
+    urlPath: "/week",
+    title: `This week's games | ${SITE_NAME}`,
+    description: "Every Metrowest youth basketball game this week, by grade, with gyms and close matchups to watch.",
+    body: "<h1>This week's games</h1>",
+  });
 
   // Old /team/<id> URLs (team numbers are unique across seasons) -> their new URL.
   for (const [teamno, target] of legacyTeams) {
     const dir = path.join(DIST_DIR, "team", teamno);
     await mkdir(dir, { recursive: true });
     await writeFile(path.join(dir, "index.html"), redirectStub(target), "utf-8");
+  }
+
+  // Season cards (link previews): one per current-season team, plus the site-wide default.
+  await loadCardAssets(path.join(DIST_DIR, "mwstatslogo.png"));
+  await mkdir(path.join(DIST_DIR, "cards"), { recursive: true });
+  await writeFile(path.join(DIST_DIR, DEFAULT_IMAGE), renderPng(defaultCardSvg()));
+  for (const [file, svg] of cards) {
+    await mkdir(path.dirname(file), { recursive: true });
+    await writeFile(file, renderPng(svg));
   }
 
   // Write pages in parallel batches.
@@ -308,7 +382,9 @@ async function main() {
   await writeFile(path.join(DIST_DIR, "sitemap.xml"), sitemap, "utf-8");
   await writeFile(path.join(DIST_DIR, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`, "utf-8");
 
-  console.log(`Pre-rendered ${pages.length} pages, ${legacyTeams.size} legacy team redirects; wrote sitemap.xml, robots.txt, 404.html`);
+  console.log(
+    `Pre-rendered ${pages.length} pages, ${cards.length} season cards, ${legacyTeams.size} legacy team redirects; wrote sitemap.xml, robots.txt, 404.html`
+  );
 }
 
 main().catch((err) => {
