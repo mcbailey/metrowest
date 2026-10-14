@@ -616,7 +616,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--db-path", default=str(SCRAPE_CONFIG.db_path))
     parser.add_argument("--out", default="frontend/public/data")
     parser.add_argument("--yrseason", default=None, help="Only rebuild this season (default: all seasons)")
-    parser.add_argument("--ranking-profile", choices=("classic", "division-aware"), default=None)
+    parser.add_argument("--ranking-profile", choices=("pooled", "classic", "division-aware"), default=None)
     return parser.parse_args()
 
 

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+from collections import defaultdict
 import json
 import logging
 import os
@@ -32,7 +33,7 @@ from .db import (
     upsert_team,
     upsert_team_game,
 )
-from .ranking import compute_division_rankings
+from .ranking import compute_division_rankings, compute_pool_rankings
 from .season import detect_active_season, is_season_final
 from .util import (
     game_hash_id,
@@ -441,6 +442,8 @@ def _fill_missing_towns(conn, yrseason: str) -> None:
 
 def rank_season(conn, yrseason: str, ranking_config: RankingConfig, snapshot_date: str) -> int:
     """Compute rankings for every division in the season and store them as the season's snapshot."""
+    if ranking_config.profile == "pooled":
+        return _rank_season_pooled(conn, yrseason, ranking_config, snapshot_date)
     snapshot_rows: list[dict[str, Any]] = []
     team_meta_by_teamno = {
         str(row["teamno"]): dict(row)
@@ -495,6 +498,52 @@ def rank_season(conn, yrseason: str, ranking_config: RankingConfig, snapshot_dat
                     "mw_points": team.get("mw_points"),
                 }
             )
+
+    replace_snapshots(conn, snapshot_date, snapshot_rows)
+    return len(snapshot_rows)
+
+
+def _rank_season_pooled(conn, yrseason: str, ranking_config: RankingConfig, snapshot_date: str) -> int:
+    """Pooled profile: rate each grade/gender at once, then rank teams within their division by that rating."""
+    pools: dict[tuple[int, str], list[dict[str, Any]]] = defaultdict(list)
+    for division in get_divisions(conn, yrseason):
+        for team in get_teams_for_division(conn, str(division["divisionno"])):
+            pools[(int(division["grade"]), str(division["gender"]))].append(dict(team))
+
+    snapshot_rows: list[dict[str, Any]] = []
+    for (grade, gender), teams in pools.items():
+        teamnos = [str(t["teamno"]) for t in teams]
+        games = [dict(r) for r in get_games_for_teams(conn, teamnos, yrseason)]
+        rated = {r["teamno"]: r for r in compute_pool_rankings(teams, games, ranking_config)}
+
+        by_division: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        for t in teams:
+            by_division[str(t["divisionno"])].append(t)
+        for divisionno, members in by_division.items():
+            ordered = sorted(members, key=lambda t: (-rated[str(t["teamno"])]["power"], str(t["teamno"])))
+            for rank, t in enumerate(ordered, start=1):
+                row = rated[str(t["teamno"])]
+                snapshot_rows.append(
+                    {
+                        "yrseason": yrseason,
+                        "grade": grade,
+                        "gender": gender,
+                        "divisionno": divisionno,
+                        "teamno": row["teamno"],
+                        "wins": row["wins"],
+                        "losses": row["losses"],
+                        "ties": row["ties"],
+                        "pf": row["pf"],
+                        "pa": row["pa"],
+                        "diff": row["diff"],
+                        "sos": round(float(row["sos"]), 3),
+                        "sos_adj": round(float(row["sos_adj"]), 3),
+                        "power": round(float(row["power"]), 3),
+                        "rank": rank,
+                        "mw_rating": t.get("mw_rating"),
+                        "mw_points": t.get("mw_points"),
+                    }
+                )
 
     replace_snapshots(conn, snapshot_date, snapshot_rows)
     return len(snapshot_rows)
@@ -569,7 +618,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--grades", default=None, help="Comma-separated grades, e.g. 3,4,5,6,7,8")
     parser.add_argument("--genders", default=None, help="Comma-separated genders, e.g. M,F")
     parser.add_argument("--db-path", default=str(SCRAPE_CONFIG.db_path))
-    parser.add_argument("--ranking-profile", choices=("classic", "division-aware"), default=RANKING_CONFIG.profile)
+    parser.add_argument("--ranking-profile", choices=("pooled", "classic", "division-aware"), default=RANKING_CONFIG.profile)
     parser.add_argument("--out-json", default=None, help="Optional output folder to also generate JSON")
     parser.add_argument("--force", action="store_true", help="Scrape and re-rank even if the season is final/unchanged")
     parser.add_argument(

@@ -7,7 +7,7 @@ export function GlossaryPage() {
   usePageSeo({
     title: "Glossary | MWStats",
     description:
-      "Coach-friendly glossary for MWStats metrics: SoS, adjusted SoS, power ranking, MW rating, MW points, quality wins, bad losses, and quadrant map categories.",
+      "Coach-friendly glossary for MWStats metrics: SoS, power ranking, MW rating, MW points, quality wins, bad losses, and quadrant map categories.",
     canonicalPath: "/glossary",
     jsonLd: {
       "@context": "https://schema.org",
@@ -37,11 +37,6 @@ export function GlossaryPage() {
         <article className="glossary-item">
           <h3>SoS (Strength of Schedule)</h3>
           <p>How tough your opponents were on average. Higher SoS means you played tougher teams.</p>
-        </article>
-
-        <article className="glossary-item">
-          <h3>Adj SoS (Adjusted SoS)</h3>
-          <p>SoS with extra context for division level. Playing strong teams in stronger divisions gets more credit.</p>
         </article>
 
         <article className="glossary-item">

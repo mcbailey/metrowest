@@ -24,7 +24,18 @@ class ScrapeConfig:
 
 @dataclass(frozen=True)
 class RankingConfig:
-    profile: str = "division-aware"
+    # "pooled" (default): one rating per team across its grade and gender, fit to all games at once.
+    # "division-aware" / "classic": the earlier per-division Elo profiles, kept for comparison.
+    profile: str = "pooled"
+
+    # Pooled profile. Backtested on 2021-22..2025-26 (ratings from games before Feb 1 predicting later games):
+    # 74.5% of winners vs 70.9% for division-aware Elo. See README "Ranking Method".
+    pool_margin_cap: int = 25  # per-game score difference used is capped at this
+    pool_shrinkage: float = 3.0  # games-worth of pull toward the division level (keeps small samples sane)
+    pool_division_prior_step: float = 8.0  # fallback gap (points) between division levels with no cross games
+    pool_division_prior_weight: float = 0.5
+    pool_power_center: float = 1500.0  # each grade/gender pool is centered here
+    pool_power_per_point: float = 22.0  # power units per point of expected score difference
 
     initial_elo: float = 1500.0
     k_factor: float = 20.0

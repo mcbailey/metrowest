@@ -89,16 +89,10 @@ python -m metrowest.scrape \
 
 ### Ranking Profile Flag
 
-`--ranking-profile` controls ranking math.
+`--ranking-profile` controls ranking math. The default is set in `metrowest/config.py` (`RankingConfig.profile`).
 
-- `division-aware` (default): division-anchored seeding, upset/top-division K adjustments, 15-point MOV cap, division-adjusted SoS, weekly regression toward division baseline.
-- `classic`: original flat-1500 Elo behavior.
-
-Flag locations:
-
-- Default value: `metrowest/config.py` (`RankingConfig.profile`)
-- CLI override: `metrowest/scrape.py` (`--ranking-profile`)
-- Daily automation value: `.github/workflows/scrape_and_build.yml`
+- `pooled` (default): one rating per team across its whole grade and gender. See "Ranking Method".
+- `division-aware`, `classic`: the earlier per-division Elo profiles, kept for comparison.
 
 ### Behavior
 
@@ -118,17 +112,21 @@ Flag locations:
 
 ## Ranking Method
 
-For each division team set:
+Default (`pooled`, `metrowest/ranking.py: compute_pool_rankings`), for each grade/gender:
 
-1. Seed Elo by division baseline (`division-aware`) or 1500 (`classic`).
-2. Process final games in order.
-3. Apply dynamic K in `division-aware`:
-   - upset boost when a lower division beats a higher division,
-   - reduced volatility for D1/D2 matchups,
-   - MOV multiplier capped at 15 points.
-4. Compute SoS from opponents, plus Division-Adjusted SoS.
-5. Regress ratings weekly toward each team’s division baseline (`division-aware`).
-6. Compute power and rank teams by descending power.
+1. Fit one rating per team from every game between teams in the pool (league, non-league and playoff games;
+   forfeits excluded), so cross-division results inform everyone.
+2. Each division level has a learned effect; each team's own effect is shrunk toward it, so a team with few
+   games stays near its division's level.
+3. Power is the rating, centered at 1500 for the pool. SoS is the average Power of the opponents played.
+4. Teams are ranked within their division by Power; "All divisions" sorts the same numbers.
+
+Settings live in `RankingConfig` (`pool_*`). Backtest (ratings from games before Feb 1, predicting later games,
+2021-22 to 2025-26): 74.6% of winners picked, vs 70.9% for the previous `division-aware` profile. After changing
+settings, re-rank without scraping: `python -m metrowest.scrape --rank-only --out-json frontend/public/data`.
+
+The site describes Power only in general terms (glossary: "Overall team score used for rank. It blends your game
+results with the strength of teams you played.").
 
 ## JSON Output Contract
 

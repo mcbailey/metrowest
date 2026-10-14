@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import math
 from collections import defaultdict
+
+import numpy as np
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Any
@@ -340,3 +342,114 @@ def compute_division_rankings(
     for idx, row in enumerate(rows, start=1):
         row["rank"] = idx
     return rows
+
+
+def compute_pool_rankings(
+    teams: list[dict],
+    games: list[dict],
+    config: RankingConfig,
+) -> list[dict]:
+    """
+    Pooled profile: one rating for every team in a grade/gender, fit to all games between pool teams at once.
+
+    Each team's rating is a division-level effect plus a team effect, chosen so rating differences best match
+    game score differences (capped at config.pool_margin_cap). Team effects are shrunk toward zero (their
+    division's level) by config.pool_shrinkage games' worth, so a team with few games stays near its division.
+    Division effects are learned from cross-division games, with a weak fallback ladder for divisions that
+    never meet. Forfeits count in records but not in the rating.
+
+    Returned power is centered at config.pool_power_center for the pool; SoS is the average power of the pool
+    opponents a team played. Records (W/L/T, PF/PA) cover every final game, like the other profiles.
+    """
+    ids = [str(t["teamno"]) for t in teams]
+    idx = {t: i for i, t in enumerate(ids)}
+    tier_of = {str(t["teamno"]): _parse_tier(t.get("divisiontier")) or 99 for t in teams}
+    levels = sorted(set(tier_of.values()))
+    lix = {lvl: i for i, lvl in enumerate(levels)}
+    n_t, n_d = len(ids), len(levels)
+
+    stats = {tid: TeamStats(teamno=tid) for tid in ids}
+    opponents: dict[str, list[str]] = defaultdict(list)
+    rows: list[np.ndarray] = []
+    target: list[float] = []
+
+    for g in games:
+        if not _is_final_game(g):
+            continue
+        home, away = str(g.get("home_teamno") or ""), str(g.get("away_teamno") or "")
+        hs, as_ = int(g["home_score"]), int(g["away_score"])
+        for me, ms, os_ in ((home, hs, as_), (away, as_, hs)):
+            if me in stats:
+                st = stats[me]
+                st.pf += ms
+                st.pa += os_
+                if ms > os_:
+                    st.wins += 1
+                elif ms < os_:
+                    st.losses += 1
+                else:
+                    st.ties += 1
+        if home not in idx or away not in idx or _is_forfeit(g):
+            continue
+        opponents[home].append(away)
+        opponents[away].append(home)
+        row = np.zeros(n_t + n_d)
+        row[idx[home]] += 1.0
+        row[idx[away]] -= 1.0
+        row[n_t + lix[tier_of[home]]] += 1.0
+        row[n_t + lix[tier_of[away]]] -= 1.0
+        rows.append(row)
+        cap = config.pool_margin_cap
+        target.append(float(max(-cap, min(cap, hs - as_))))
+
+    # Shrink each team effect toward 0 (its division level).
+    shrink = math.sqrt(config.pool_shrinkage)
+    for i in range(n_t):
+        row = np.zeros(n_t + n_d)
+        row[i] = shrink
+        rows.append(row)
+        target.append(0.0)
+    # Weak fallback ladder for division effects (matters only where divisions never play each other).
+    weight = math.sqrt(config.pool_division_prior_weight)
+    for lvl, j in lix.items():
+        row = np.zeros(n_t + n_d)
+        row[n_t + j] = weight
+        rows.append(row)
+        target.append(-config.pool_division_prior_step * (j) * weight)
+
+    solution = np.linalg.lstsq(np.vstack(rows), np.array(target), rcond=None)[0]
+    points = {tid: float(solution[idx[tid]] + solution[n_t + lix[tier_of[tid]]]) for tid in ids}
+    center = sum(points.values()) / len(points) if points else 0.0
+    power = {tid: config.pool_power_center + (p - center) * config.pool_power_per_point for tid, p in points.items()}
+
+    out = []
+    for t in teams:
+        tid = str(t["teamno"])
+        opp = opponents.get(tid, [])
+        sos = sum(power[o] for o in opp) / len(opp) if opp else config.pool_power_center
+        st = stats[tid]
+        out.append(
+            {
+                "teamno": tid,
+                "name": t.get("name") or tid,
+                "town": t.get("town"),
+                "wins": st.wins,
+                "losses": st.losses,
+                "ties": st.ties,
+                "pf": st.pf,
+                "pa": st.pa,
+                "diff": st.diff,
+                "elo": power[tid],
+                "sos": sos,
+                "sos_adj": sos,
+                "power": power[tid],
+            }
+        )
+    return out
+
+
+def _is_forfeit(game: dict) -> bool:
+    raw = game.get("raw_json")
+    if isinstance(raw, str) and '"forfeitgame":"YES"' in raw.replace(" ", ""):
+        return True
+    return bool(game.get("forfeit"))

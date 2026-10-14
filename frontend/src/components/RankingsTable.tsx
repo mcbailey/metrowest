@@ -140,7 +140,6 @@ export function RankingsTable({ teams, showGroup = false, season }: Props) {
 
   const avgLabel = (value: number, games: number): string => avg(value, games).toFixed(1);
   const sosValue = (team: DisplayTeam): number => team.sos_adj ?? team.sos;
-  const sosTooltip = (team: DisplayTeam): string => `Raw SoS: ${team.sos.toFixed(1)}`;
 
   return (
     <div className="table-wrap" ref={tableWrapRef}>
@@ -184,7 +183,7 @@ export function RankingsTable({ teams, showGroup = false, season }: Props) {
                 type="button"
                 className="sort-btn"
                 onClick={() => setSort("sos")}
-                title="Showing Division-Adjusted SoS. Hover cells to see Raw SoS."
+                title="Strength of schedule: how tough the opponents were on average."
               >
                 SoS <span>{arrow("sos")}</span>
               </button>
@@ -240,7 +239,7 @@ export function RankingsTable({ teams, showGroup = false, season }: Props) {
                 <td>{team.wins}</td>
                 <td>{team.losses}</td>
                 <td>{team.ties}</td>
-                <td title={sosTooltip(team)}>{sosValue(team).toFixed(1)}</td>
+                <td>{sosValue(team).toFixed(1)}</td>
                 <td>{team.power.toFixed(1)}</td>
                 <td>{team.mw_rating === null || team.mw_rating === undefined ? "-" : team.mw_rating.toFixed(1)}</td>
                 <td>{team.mw_points === null || team.mw_points === undefined ? "-" : team.mw_points}</td>
