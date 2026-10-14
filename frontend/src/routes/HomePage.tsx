@@ -1,16 +1,16 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { TeamSearch } from "../components/TeamSearch";
-import { loadJson } from "../data";
+import { loadJsonCached } from "../data";
 import {
   currentSeason,
   findSeason,
   genderLabel,
   gradeLabel,
   loadLastView,
-  rankingsHref,
   seasonStatusText,
 } from "../season";
+import { rankingsPath } from "../paths";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
 import type { IndexData } from "../types";
 
@@ -21,7 +21,7 @@ export function HomePage() {
   const lastView = useMemo(() => loadLastView(), []);
 
   useEffect(() => {
-    loadJson<IndexData>("data/index.json")
+    loadJsonCached<IndexData>("data/index.json")
       .then((data) => {
         setIndex(data);
         setSeason(currentSeason(data)?.yrseason ?? null);
@@ -66,7 +66,7 @@ export function HomePage() {
         {lastView && lastSeason ? (
           <p className="meta compact">
             Pick up where you left off:{" "}
-            <Link to={rankingsHref(lastView)}>
+            <Link to={rankingsPath(lastView.season, lastView.gender, lastView.grade)}>
               {gradeLabel(lastView.grade)} {genderLabel(lastView.gender)}, {lastSeason.label}
             </Link>
           </p>
@@ -81,7 +81,7 @@ export function HomePage() {
             <h3>{genderLabel(gender)}</h3>
             <div className="grade-grid">
               {row.map((g) => (
-                <Link key={g.grade} className="grade-card" to={rankingsHref({ season, gender, grade: g.grade })}>
+                <Link key={g.grade} className="grade-card" to={rankingsPath(season, gender, g.grade)}>
                   <span className="grade-card-title">{gradeLabel(g.grade)}</span>
                   <span className="grade-card-meta">
                     {g.teams} teams · {g.divisions} {g.divisions === 1 ? "division" : "divisions"}

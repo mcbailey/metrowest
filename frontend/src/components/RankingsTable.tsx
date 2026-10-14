@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { teamPath } from "../paths";
 import { RankingTeam } from "../types";
 
 type DisplayTeam = RankingTeam & {
@@ -10,7 +11,7 @@ type DisplayTeam = RankingTeam & {
 type Props = {
   teams: DisplayTeam[];
   showGroup?: boolean;
-  queryString?: string;
+  season: string;
 };
 
 type SortDir = "asc" | "desc";
@@ -52,10 +53,11 @@ function nullableNumber(value: number | null | undefined, missingValue: number):
   return value === null || value === undefined ? missingValue : value;
 }
 
-export function RankingsTable({ teams, showGroup = false, queryString = "" }: Props) {
+export function RankingsTable({ teams, showGroup = false, season }: Props) {
   const [sortKey, setSortKey] = useState<SortKey>("rank");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
   const tableWrapRef = useRef<HTMLDivElement | null>(null);
+  const location = useLocation();
 
   useEffect(() => {
     if (tableWrapRef.current) {
@@ -231,7 +233,7 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
                 <td>{team.rank}</td>
                 {showGroup ? <td>{team.subgroup ?? "-"}</td> : null}
                 <td className="col-team">
-                  <Link to={`/team/${team.teamno}${queryString}`} className="team-link">
+                  <Link to={teamPath(season, team.teamno, team.name)} state={{ from: location.pathname }} className="team-link">
                     {team.name}
                   </Link>
                 </td>

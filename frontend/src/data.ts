@@ -12,3 +12,16 @@ export async function loadJson<T>(path: string): Promise<T> {
   }
   return (await response.json()) as T;
 }
+
+const jsonCache = new Map<string, Promise<unknown>>();
+
+/** Like loadJson, but each path is fetched once per page load (index.json, divisions.json, towns.json...). */
+export function loadJsonCached<T>(path: string): Promise<T> {
+  let pending = jsonCache.get(path) as Promise<T> | undefined;
+  if (!pending) {
+    pending = loadJson<T>(path);
+    pending.catch(() => jsonCache.delete(path));
+    jsonCache.set(path, pending);
+  }
+  return pending;
+}

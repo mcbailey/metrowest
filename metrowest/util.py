@@ -92,3 +92,31 @@ def season_label(yrseason: str | int) -> str:
     """2026 -> "2025-26" (seasons span the winter and are keyed by their ending year)."""
     y = int(yrseason)
     return f"{y - 1}-{str(y)[-2:]}"
+
+
+def slugify(text: str) -> str:
+    """"North Attleboro " -> "north-attleboro"."""
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
+def class_of(yrseason: str | int, grade: int) -> int:
+    """High school graduating class: 6th grade in the 2025-26 season is the class of 2032."""
+    return int(yrseason) + (12 - int(grade))
+
+
+def canonical_town(name: str | None) -> str | None:
+    """Town names drift between seasons ("RI Cranston", "Waltham Boys", "Reading_BZ", "Reading Rec");
+    reduce them to one name per town so towns can be followed across seasons."""
+    if not name:
+        return None
+    text = re.sub(r"\s+", " ", name).strip()
+    text = re.sub(r"^RI\s+", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\s+RI$", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"(_BZ|\s+Rec|\s+Boys|\s+Girls)$", "", text, flags=re.IGNORECASE)
+    text = text.replace(" / ", " - ")
+    return text.strip() or None
+
+
+def town_slug(name: str | None) -> str | None:
+    canonical = canonical_town(name)
+    return slugify(canonical) if canonical else None

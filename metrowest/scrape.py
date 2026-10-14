@@ -4,6 +4,7 @@ import argparse
 import json
 import logging
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import replace
 from datetime import date
@@ -19,9 +20,11 @@ from .db import (
     get_season,
     get_teams_for_division,
     init_db,
+    replace_playoffs,
     replace_snapshots,
     season_fingerprint,
     season_game_dates,
+    set_team_towns,
     update_season_state,
     upsert_division,
     upsert_game,
@@ -234,6 +237,101 @@ def _fetch_team_games(api: SportsiteAPI, yrseason: str, teamno: str, divisionno:
     return [r for r in rows if isinstance(r, dict) and ("gameno" in r or "gamedate" in r)]
 
 
+def _clean_town(name: Any) -> str | None:
+    text = re.sub(r"\s+", " ", str(name or "")).strip()
+    return text or None
+
+
+def _fetch_division_towns(api: SportsiteAPI, yrseason: str, divisionno: str) -> list[tuple[str, str, str | None]]:
+    """(teamno, townno, town name) for every team appearing in the division's league schedule."""
+    try:
+        rows = api.get_division_schedule(yrseason, divisionno) or []
+    except Exception as err:  # noqa: BLE001
+        LOG.warning("division schedule failed division=%s: %s", divisionno, err)
+        return []
+    out = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        for side in ("home", "away"):
+            teamno = str(row.get(f"{side}teamno") or "").strip()
+            townno = str(row.get(f"{side}townno") or "").strip()
+            if teamno and teamno != "0" and townno and townno != "0":
+                out.append((teamno, townno, _clean_town(row.get(f"{side}townname"))))
+    return out
+
+
+def _bracket_name(name: Any) -> str | None:
+    # "8 - Parkway  (red) D1J" -> "Parkway (red) D1J"; placeholders like "Winner of Game 13" are kept.
+    text = re.sub(r"\s+", " ", str(name or "")).strip()
+    text = re.sub(r"^\d+\s*-\s*", "", text)
+    return text or None
+
+
+def _none_if_zero(value: Any) -> str | None:
+    text = str(value or "").strip()
+    return None if text in ("", "0") else text
+
+
+def scrape_playoffs(api: SportsiteAPI, yrseason: str, grades: list[int], genders: list[str]) -> tuple[list[dict], list[dict]]:
+    groups: list[dict[str, Any]] = []
+    games: list[dict[str, Any]] = []
+    for gender in genders:
+        for grade in grades:
+            try:
+                rows = api.get_gender_grade_groups(yrseason, grade, gender) or []
+            except Exception as err:  # noqa: BLE001
+                LOG.warning("playoff groups failed yrseason=%s %s%s: %s", yrseason, grade, gender, err)
+                continue
+            for g in rows:
+                groupno = _none_if_zero(g.get("groupno")) if isinstance(g, dict) else None
+                if not groupno:
+                    continue
+                try:
+                    bracket = api.get_bracket_games(groupno) or []
+                except Exception as err:  # noqa: BLE001
+                    LOG.warning("bracket failed group=%s: %s", groupno, err)
+                    continue
+                bracket = [b for b in bracket if isinstance(b, dict) and b.get("tournamentgameno")]
+                if not bracket:
+                    continue
+                groups.append(
+                    {
+                        "groupno": groupno,
+                        "grade": grade,
+                        "gender": gender,
+                        "name": _clean_town(g.get("groupname")) or groupno,
+                        "numteams": to_int(bracket[0].get("numteams")),
+                    }
+                )
+                for b in bracket:
+                    when = str(b.get("gamedatetime") or "").strip()
+                    venue = str(b.get("venuename") or "").strip()
+                    games.append(
+                        {
+                            "tournamentgameno": str(b["tournamentgameno"]),
+                            "groupno": groupno,
+                            "round": to_int(b.get("bracketround")) or 0,
+                            "game": to_int(b.get("displaybracketgame")) or to_int(b.get("bracketgame")) or 0,
+                            "round_label": str(b.get("tournamentround") or "").strip() or None,
+                            "when_text": None if when in ("", "TBD") else when,
+                            "venue": None if venue in ("", "TBD") else venue,
+                            "team1_teamno": _none_if_zero(b.get("teamno1")),
+                            "team1_name": _bracket_name(b.get("team1teamname")),
+                            "team1_seed": to_int(b.get("t1seed")),
+                            "team1_score": to_int(b.get("team1score")),
+                            "team1_source_game": to_int(_none_if_zero(b.get("t1sourcegame"))),
+                            "team2_teamno": _none_if_zero(b.get("teamno2")),
+                            "team2_name": _bracket_name(b.get("team2teamname")),
+                            "team2_seed": to_int(b.get("t2seed")),
+                            "team2_score": to_int(b.get("team2score")),
+                            "team2_source_game": to_int(_none_if_zero(b.get("t2sourcegame"))),
+                            "winner_teamno": _none_if_zero(b.get("winningteamno")),
+                        }
+                    )
+    return groups, games
+
+
 def scrape_season(
     yrseason: str,
     grades: list[int],
@@ -293,6 +391,14 @@ def scrape_season(
                     team_jobs.append((teamno, divisionno))
 
             with ThreadPoolExecutor(max_workers=scrape_config.max_workers) as pool:
+                division_nos = [str(d["divisionno"]).strip() for d in divisions]
+                towns: dict[str, tuple[str, str]] = {}
+                for found in pool.map(lambda dno: _fetch_division_towns(api, yrseason, dno), division_nos):
+                    for teamno, townno, town_name in found:
+                        if town_name:
+                            towns[teamno] = (townno, town_name)
+                set_team_towns(conn, towns)
+
                 results = pool.map(lambda job: (job, _fetch_team_games(api, yrseason, *job)), team_jobs)
                 for (teamno, divisionno), rows in results:
                     for row in rows:
@@ -303,6 +409,34 @@ def scrape_season(
                         is_home = 1 if home == teamno else 0 if away == teamno else None
                         upsert_team_game(conn, teamno, game["gameno"], is_home)
             conn.commit()
+
+    _fill_missing_towns(conn, yrseason)
+    groups, games = scrape_playoffs(api, yrseason, grades, genders)
+    replace_playoffs(conn, yrseason, groups, games)
+    LOG.info("yrseason=%s playoffs: %s groups, %s games", yrseason, len(groups), len(games))
+    conn.commit()
+
+
+def _fill_missing_towns(conn, yrseason: str) -> None:
+    """Teams with no league games aren't in any division schedule; use the town number opponents report for them."""
+    names = dict(
+        conn.execute(
+            "SELECT townno, town_name FROM teams WHERE yrseason = ? AND townno IS NOT NULL GROUP BY townno", (yrseason,)
+        ).fetchall()
+    )
+    missing = conn.execute("SELECT teamno FROM teams WHERE yrseason = ? AND townno IS NULL", (yrseason,)).fetchall()
+    fills: dict[str, tuple[str, str]] = {}
+    for (teamno,) in missing:
+        row = conn.execute(
+            """SELECT json_extract(raw_json, '$.opponenttownno') FROM games
+               WHERE yrseason = ? AND json_extract(raw_json, '$.opponentteamno') = ?
+                 AND json_extract(raw_json, '$.opponenttownno') IS NOT NULL LIMIT 1""",
+            (yrseason, teamno),
+        ).fetchone()
+        townno = str(row[0]) if row and row[0] else None
+        if townno and townno in names:
+            fills[teamno] = (townno, names[townno])
+    set_team_towns(conn, fills)
 
 
 def rank_season(conn, yrseason: str, ranking_config: RankingConfig, snapshot_date: str) -> int:

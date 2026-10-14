@@ -9,7 +9,7 @@ from typing import Any
 
 from .config import RANKING_CONFIG, SCRAPE_CONFIG
 from .db import connect_db, init_db, latest_snapshot_date, list_seasons
-from .util import ensure_dir, season_label
+from .util import canonical_town, class_of, ensure_dir, season_label, town_slug
 
 
 def _write_json(path: Path, payload: object) -> None:
@@ -51,7 +51,7 @@ def _snapshot_rows(conn, yrseason: str, snapshot_date: str, include_mw: bool, in
                    s.sos, {sos_adj_col}
                    s.power, s.rank,
                    {mw_cols}
-                   t.name AS team_name, t.town AS town,
+                   t.name AS team_name, COALESCE(t.town_name, t.town) AS town,
                    d.name AS division_name, d.divisiontier, d.code AS division_code, d.tag AS division_tag
             FROM snapshots s
             JOIN teams t ON t.teamno = s.teamno
@@ -62,6 +62,109 @@ def _snapshot_rows(conn, yrseason: str, snapshot_date: str, include_mw: bool, in
             (yrseason, snapshot_date),
         )
     )
+
+
+def _round_name(rounds_from_end: int, round_no: int) -> str:
+    return {0: "final", 1: "semifinal", 2: "quarterfinal"}.get(rounds_from_end, f"round {round_no}")
+
+
+def _playoff_data(conn, yrseason: str) -> tuple[dict[str, list[dict]], dict[tuple[str, int], list[dict]]]:
+    """(each team's playoff results, bracket payloads by (gender, grade)) for a season."""
+    groups = [dict(r) for r in conn.execute(
+        "SELECT * FROM playoff_groups WHERE yrseason = ? ORDER BY gender, grade, name", (yrseason,)
+    )]
+    games_by_group: dict[str, list[dict]] = defaultdict(list)
+    for r in conn.execute(
+        """SELECT p.* FROM playoff_games p JOIN playoff_groups g ON g.groupno = p.groupno
+           WHERE g.yrseason = ? ORDER BY p.groupno, p.round, p.game""",
+        (yrseason,),
+    ):
+        games_by_group[r["groupno"]].append(dict(r))
+
+    results: dict[str, list[dict]] = defaultdict(list)
+    by_grade: dict[tuple[str, int], list[dict]] = defaultdict(list)
+    for g in groups:
+        games = games_by_group.get(g["groupno"], [])
+        if not games:
+            continue
+        last_round = max(x["round"] for x in games)
+        by_grade[(g["gender"], int(g["grade"]))].append(
+            {
+                "groupno": g["groupno"],
+                "name": g["name"],
+                "numteams": g["numteams"],
+                "rounds": last_round,
+                "games": [
+                    {
+                        "id": x["tournamentgameno"],
+                        "round": x["round"],
+                        "game": x["game"],
+                        "when": x["when_text"],
+                        "venue": x["venue"],
+                        "teams": [
+                            {
+                                "teamno": x[f"team{i}_teamno"],
+                                "name": x[f"team{i}_name"],
+                                "seed": x[f"team{i}_seed"],
+                                "score": x[f"team{i}_score"],
+                                "from_game": x[f"team{i}_source_game"],
+                            }
+                            for i in (1, 2)
+                        ],
+                        "winner": x["winner_teamno"],
+                    }
+                    for x in games
+                ],
+            }
+        )
+
+        # Each team's furthest result in this bracket.
+        seeds: dict[str, int | None] = {}
+        furthest: dict[str, dict] = {}
+        for x in games:
+            for i in (1, 2):
+                tno = x[f"team{i}_teamno"]
+                if not tno:
+                    continue
+                seeds.setdefault(tno, x[f"team{i}_seed"])
+                if tno not in furthest or x["round"] >= furthest[tno]["round"]:
+                    furthest[tno] = x
+        for tno, x in furthest.items():
+            winner = x["winner_teamno"]
+            from_end = last_round - x["round"]
+            if winner == tno and from_end == 0:
+                outcome = "Champion"
+            elif winner == tno:
+                outcome = f"Won {_round_name(from_end, x['round'])}"
+            elif winner:
+                outcome = "Runner-up" if from_end == 0 else f"Lost in {_round_name(from_end, x['round'])}"
+            else:
+                outcome = f"Reached {_round_name(from_end, x['round'])}"
+            results[tno].append(
+                {"groupno": g["groupno"], "group_name": g["name"], "seed": seeds.get(tno), "result": outcome}
+            )
+
+    # Regional brackets (North/South/Central) have no final of their own: their winners move on to a separate
+    # "Championship" bracket. Reaching the end of a regional bracket and playing in a championship means the
+    # team won its region.
+    for items in results.values():
+        if any("championship" in i["group_name"].lower() for i in items):
+            for i in items:
+                if i["result"] == "Reached final" and "championship" not in i["group_name"].lower():
+                    i["result"] = "Won region"
+
+    return results, by_grade
+
+
+def _write_playoffs(conn, out_dir: Path, yrseason: str) -> tuple[dict[str, list[dict]], set[tuple[str, int]]]:
+    """Write {season}/playoffs/{gender}/{grade}.json; return each team's playoff results and which groups have brackets."""
+    results, by_grade = _playoff_data(conn, yrseason)
+    for (gender, grade), payload in by_grade.items():
+        _write_json(
+            out_dir / yrseason / "playoffs" / gender / f"{grade}.json",
+            {"yrseason": yrseason, "gender": gender, "grade": grade, "groups": payload},
+        )
+    return results, set(by_grade)
 
 
 def _build_season(conn, out_dir: Path, yrseason: str) -> dict[str, Any] | None:
@@ -167,13 +270,16 @@ def _build_season(conn, out_dir: Path, yrseason: str) -> dict[str, Any] | None:
         for r in rows
     }
 
+    playoff_results, playoff_groups_present = _write_playoffs(conn, out_dir, yrseason)
+
     # Compact team list for the site-wide team/town search.
     search_rows = sorted(
         (
             {
                 "teamno": r["teamno"],
                 "name": r["team_name"],
-                "town": r["town"],
+                "town": canonical_town(r["town"]),
+                "town_slug": town_slug(r["town"]),
                 "gender": r["gender"],
                 "grade": int(r["grade"]),
                 "divisionno": r["divisionno"],
@@ -328,7 +434,10 @@ def _build_season(conn, out_dir: Path, yrseason: str) -> dict[str, Any] | None:
             "snapshot_date": snapshot_date,
             "teamno": tid,
             "team_name": teams_meta[tid]["name"],
-            "town": teams_meta[tid]["town"],
+            "town": canonical_town(teams_meta[tid]["town"]),
+            "town_slug": town_slug(teams_meta[tid]["town"]),
+            "class_of": class_of(yrseason, summary["grade"]) if summary["grade"] else None,
+            "playoffs": playoff_results.get(tid, []),
             "summary": summary,
             "past_games": bins["past"],
             "future_games": bins["future"],
@@ -343,10 +452,89 @@ def _build_season(conn, out_dir: Path, yrseason: str) -> dict[str, Any] | None:
         "grades": available_grades,
         "team_count": len(teams_meta),
         "groups": [
-            {"gender": gender, "grade": grade, "divisions": len(div_map), "teams": sum(len(division_rows[d]) for d in div_map)}
+            {
+                "gender": gender,
+                "grade": grade,
+                "divisions": len(div_map),
+                "teams": sum(len(division_rows[d]) for d in div_map),
+                "playoffs": (gender, grade) in playoff_groups_present,
+            }
             for (gender, grade), div_map in sorted(divisions_by_group.items(), key=lambda kv: (kv[0][0] != "M", kv[0][1]))
         ],
     }
+
+
+def _write_towns(conn, out_dir: Path) -> None:
+    """towns.json (directory) and towns/{slug}.json (every season's teams for that town)."""
+    rows = [
+        dict(r)
+        for r in conn.execute(
+            """
+            SELECT s.yrseason, s.teamno, s.gender, s.grade, s.rank, s.wins, s.losses, s.ties, s.power,
+                   t.name, t.town_name, d.tag AS division_tag, d.divisiontier,
+                   (SELECT COUNT(*) FROM snapshots x WHERE x.divisionno = s.divisionno) AS division_size
+            FROM snapshots s
+            JOIN teams t ON t.teamno = s.teamno
+            JOIN divisions d ON d.divisionno = s.divisionno
+            WHERE t.town_name IS NOT NULL
+            """
+        )
+    ]
+    playoff_by_team: dict[str, list[str]] = defaultdict(list)
+    towns: dict[str, dict[str, Any]] = {}
+    for r in rows:
+        slug = town_slug(r["town_name"])
+        town = towns.setdefault(slug, {"slug": slug, "names": defaultdict(int), "teams": []})
+        town["names"][canonical_town(r["town_name"])] += 1
+        town["teams"].append(
+            {
+                "yrseason": r["yrseason"],
+                "teamno": r["teamno"],
+                "name": r["name"],
+                "gender": r["gender"],
+                "grade": int(r["grade"]),
+                "class_of": class_of(r["yrseason"], int(r["grade"])),
+                "division_tag": r["division_tag"],
+                "divisiontier": r["divisiontier"],
+                "rank": r["rank"],
+                "division_size": r["division_size"],
+                "wins": r["wins"],
+                "losses": r["losses"],
+                "ties": r["ties"],
+                "power": round(float(r["power"]), 1),
+            }
+        )
+
+    # Playoff results per team, for town pages.
+    for season in {r["yrseason"] for r in rows}:
+        results, _ = _playoff_data(conn, season)
+        for tno, items in results.items():
+            playoff_by_team[tno] = [f"{i['result']} ({i['group_name']})" for i in items]
+
+    directory = []
+    towns_dir = out_dir / "towns"
+    if towns_dir.exists():
+        shutil.rmtree(towns_dir)
+    for slug, town in sorted(towns.items()):
+        name = max(town["names"].items(), key=lambda kv: kv[1])[0]
+        teams = sorted(
+            town["teams"], key=lambda t: (-int(t["yrseason"]), t["gender"] != "M", t["grade"], int(t["divisiontier"] or 99), t["name"])
+        )
+        for t in teams:
+            t["playoffs"] = playoff_by_team.get(t["teamno"], [])
+        seasons = sorted({t["yrseason"] for t in teams}, reverse=True)
+        _write_json(towns_dir / f"{slug}.json", {"slug": slug, "name": name, "seasons": seasons, "teams": teams})
+        latest = seasons[0]
+        directory.append(
+            {
+                "slug": slug,
+                "name": name,
+                "seasons": len(seasons),
+                "latest_season": latest,
+                "latest_teams": sum(1 for t in teams if t["yrseason"] == latest),
+            }
+        )
+    _write_json(out_dir / "towns.json", {"towns": directory})
 
 
 def build_json(db_path: Path, out_dir: Path, yrseason: str | None = None, ranking_profile: str | None = None) -> None:
@@ -369,6 +557,7 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str | None = None, rankin
         entry["status"] = season.get("status") or "in_progress"
         entry["is_current"] = bool(season.get("is_current"))
         entries.append(entry)
+    _write_towns(conn, out_dir)
     conn.close()
 
     if yrseason not in (None, "auto"):

@@ -58,13 +58,3 @@ export function loadLastView(): LastView | null {
     return null;
   }
 }
-
-export function rankingsHref(view: { season: string; gender: string; grade: number; division?: string }): string {
-  const params = new URLSearchParams({
-    season: view.season,
-    gender: view.gender,
-    grade: String(view.grade),
-    division: view.division || "ALL",
-  });
-  return `/?${params.toString()}`;
-}

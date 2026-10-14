@@ -15,7 +15,9 @@ type PageSeoInput = {
 function absoluteUrl(path: string): string {
   if (!path) return SEO_SITE_URL;
   if (path.startsWith("http://") || path.startsWith("https://")) return path;
-  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
+  let normalizedPath = path.startsWith("/") ? path : `/${path}`;
+  // Pages are pre-rendered as <path>/index.html, which GitHub Pages serves at the trailing-slash URL.
+  if (!normalizedPath.endsWith("/") && !normalizedPath.includes("?")) normalizedPath += "/";
   return `${SEO_SITE_URL}${normalizedPath}`;
 }
 

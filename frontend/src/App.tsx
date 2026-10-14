@@ -1,26 +1,40 @@
 import { useEffect, useState } from "react";
-import { Link, Route, Routes, useLocation } from "react-router-dom";
-import { loadJson } from "./data";
-import { DivisionPage } from "./routes/DivisionPage";
+import { Link, Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { loadJsonCached } from "./data";
+import { DivisionPage, legacyRankingsPath } from "./routes/DivisionPage";
 import { GlossaryPage } from "./routes/GlossaryPage";
 import { HomePage } from "./routes/HomePage";
+import { PlayoffsPage } from "./routes/PlayoffsPage";
 import { TeamPage } from "./routes/TeamPage";
+import { TownPage } from "./routes/TownPage";
+import { TownsPage } from "./routes/TownsPage";
 import { currentSeason } from "./season";
 import { useSiteSchema } from "./seo";
 import type { IndexData } from "./types";
 
-/** "/" is the landing page; "/?season=…&gender=…" (the long-standing rankings URL) shows rankings. */
+/** "/" is the landing page; old "/?season=…&gender=…" rankings links redirect to their path URLs. */
 function RootRoute() {
   const { search } = useLocation();
-  const params = new URLSearchParams(search);
-  return params.has("gender") || params.has("grade") ? <DivisionPage /> : <HomePage />;
+  const legacy = legacyRankingsPath(new URLSearchParams(search));
+  return legacy ? <Navigate to={legacy} replace /> : <HomePage />;
+}
+
+function NotFound() {
+  return (
+    <section className="panel">
+      <h2>Page not found</h2>
+      <p className="meta">
+        That page doesn't exist. Try the <Link to="/">home page</Link> or the <Link to="/towns">town list</Link>.
+      </p>
+    </section>
+  );
 }
 
 function OffSeasonNotice() {
   const [message, setMessage] = useState<string | null>(null);
 
   useEffect(() => {
-    loadJson<IndexData>("data/index.json")
+    loadJsonCached<IndexData>("data/index.json")
       .then((index) => {
         const season = currentSeason(index);
         if (season?.status !== "final") return;
@@ -41,16 +55,19 @@ export default function App() {
   return (
     <div className="page">
       <header className="topbar">
-        <div className="brand-wrap">
+        <Link to="/" className="brand-wrap">
           <img src="/mwstatslogo.png" alt="MWStats logo" className="brand-logo" />
           <div className="brand-copy">
             <p className="brand-kicker">MWStats.com</p>
             <h1>Metrowest Youth Basketball Rankings</h1>
           </div>
-        </div>
+        </Link>
         <nav className="topbar-links">
           <Link to="/" className="home-link">
             Home
+          </Link>
+          <Link to="/towns" className="home-link">
+            Towns
           </Link>
           <Link to="/glossary" className="home-link">
             Glossary
@@ -73,7 +90,14 @@ export default function App() {
         <Routes>
           <Route path="/" element={<RootRoute />} />
           <Route path="/glossary" element={<GlossaryPage />} />
+          <Route path="/towns" element={<TownsPage />} />
+          <Route path="/towns/:slug" element={<TownPage />} />
           <Route path="/team/:teamno" element={<TeamPage />} />
+          <Route path="/:season/team/:teamSlug" element={<TeamPage />} />
+          <Route path="/:season/playoffs/:gender/:grade" element={<PlayoffsPage />} />
+          <Route path="/:season/:gender/:grade" element={<DivisionPage />} />
+          <Route path="/:season/:gender/:grade/:division" element={<DivisionPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
     </div>

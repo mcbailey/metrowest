@@ -1,7 +1,9 @@
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, Navigate, useLocation, useNavigate, useParams } from "react-router-dom";
 import { useEffect, useMemo, useState, type CSSProperties, type ReactNode } from "react";
 import { loadJson } from "../data";
-import { findSeason, gradeLabel, rankingsHref } from "../season";
+import { ProgramHistory } from "../components/ProgramHistory";
+import { parseSeasonSlug, parseTeamSlug, playoffsPath, rankingsPath, teamPath, townPath } from "../paths";
+import { findSeason, gradeLabel } from "../season";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
 import { DivisionRankingData, DivisionsData, IndexData, RankingTeam, TeamData, TeamGame } from "../types";
 
@@ -617,14 +619,28 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
   };
 }
 
+const TABS = [
+  { id: "overview", label: "Overview" },
+  { id: "games", label: "Games" },
+  { id: "insights", label: "Insights" },
+  { id: "compare", label: "Compare" },
+  { id: "history", label: "History" },
+] as const;
+type TabId = (typeof TABS)[number]["id"];
+
 export function TeamPage() {
-  const { teamno } = useParams<{ teamno: string }>();
+  const params = useParams<{ season?: string; teamSlug?: string; teamno?: string }>();
+  // New URLs: /2025-26/team/44192-parkway-red. Old URLs: /team/44192?season=2026 (redirected once resolved).
+  const teamno = parseTeamSlug(params.teamSlug) ?? params.teamno ?? null;
   const location = useLocation();
+  const navigate = useNavigate();
+  const tab: TabId = (TABS.find((t) => `#${t.id}` === location.hash)?.id ?? "overview") as TabId;
 
   const [team, setTeam] = useState<TeamData | null>(null);
   const [seasonIndex, setSeasonIndex] = useState<IndexData | null>(null);
   const [activeSeason, setActiveSeason] = useState<string | null>(null);
   const [insights, setInsights] = useState<TeamInsights | null>(null);
+  const [insightsReady, setInsightsReady] = useState(false);
   const [compareError, setCompareError] = useState<string | null>(null);
   const [compareDivisionOptions, setCompareDivisionOptions] = useState<CompareDivisionOption[]>([]);
   const [selectedCompareDivisionTier, setSelectedCompareDivisionTier] = useState<string>("");
@@ -639,26 +655,20 @@ export function TeamPage() {
   const [connectionTeamNameByNo, setConnectionTeamNameByNo] = useState<Record<string, string>>({});
   const [error, setError] = useState<string | null>(null);
 
-  const seasonFromQuery = useMemo(() => {
-    const params = new URLSearchParams(location.search);
-    return params.get("season");
-  }, [location.search]);
+  const seasonFromQuery = useMemo(
+    () => parseSeasonSlug(params.season) ?? new URLSearchParams(location.search).get("season"),
+    [params.season, location.search]
+  );
 
-  // Back to the rankings view the visitor came from, or else to this team's division.
-  const cameFromRankings = new URLSearchParams(location.search).has("gender");
+  // Back to the rankings view the visitor came from (passed as link state), or else to this team's division.
+  const fromState = (location.state as { from?: string } | null)?.from;
   const backTo =
-    cameFromRankings
-      ? `/${location.search}`
-      : team && activeSeason && team.summary.gender && team.summary.grade !== null
-      ? rankingsHref({
-          season: activeSeason,
-          gender: team.summary.gender,
-          grade: team.summary.grade,
-          division: team.summary.divisionno ?? "ALL",
-        })
-      : "/";
+    fromState ??
+    (team && activeSeason && team.summary.gender && team.summary.grade !== null
+      ? rankingsPath(activeSeason, team.summary.gender, team.summary.grade)
+      : "/");
   const seasonLabelText = findSeason(seasonIndex, activeSeason)?.label;
-  const canonicalPath = teamno ? `/team/${teamno}` : "/team";
+  const canonicalPath = team && activeSeason ? teamPath(activeSeason, team.teamno, team.team_name) : location.pathname;
   const seoTitle =
     team && team.team_name
       ? `${team.team_name} | MWStats Team Profile`
@@ -716,6 +726,7 @@ export function TeamPage() {
         setError(null);
         setCompareError(null);
         setInsights(null);
+        setInsightsReady(false);
         setCompareDivisionOptions([]);
         setSelectedCompareDivisionTier("");
         setCompareTeams([]);
@@ -759,6 +770,7 @@ export function TeamPage() {
 
         const computed = await computeInsights(payload, resolvedSeason);
         setInsights(computed);
+        setInsightsReady(true);
       } catch (err) {
         setError(String(err));
       }
@@ -940,8 +952,17 @@ export function TeamPage() {
     };
   }, [selectedCompareTeam, activeSeason]);
 
+  // The connection finder downloads every team in the grade, so only load it once the Compare tab is opened.
+  const [connectionRequested, setConnectionRequested] = useState(false);
   useEffect(() => {
-    if (!team || !activeSeason) return;
+    if (tab === "compare") setConnectionRequested(true);
+  }, [tab]);
+  useEffect(() => {
+    setConnectionRequested(false);
+  }, [teamno]);
+
+  useEffect(() => {
+    if (!team || !activeSeason || !connectionRequested) return;
     if (team.summary.grade === null || team.summary.gender === null) return;
 
     const currentTeam = team;
@@ -1039,23 +1060,20 @@ export function TeamPage() {
     return () => {
       active = false;
     };
-  }, [team?.teamno, team?.summary.grade, team?.summary.gender, activeSeason]);
+  }, [team?.teamno, team?.summary.grade, team?.summary.gender, activeSeason, connectionRequested]);
 
   const connectionPath = useMemo(() => {
     if (!team || !selectedConnectionTeam) return null;
     return findConnectionPath(connectionGraph, team.teamno, selectedConnectionTeam, 7);
   }, [connectionGraph, selectedConnectionTeam, team?.teamno]);
-  const teamLinkQuery = useMemo(() => {
-    const params = new URLSearchParams(location.search);
-    if (activeSeason && !params.get("season")) {
-      params.set("season", activeSeason);
-    }
-    const text = params.toString();
-    return text ? `?${text}` : "";
-  }, [activeSeason, location.search]);
-
   if (error) return <p className="error">{error}</p>;
-  if (!team) return <p>Loading team...</p>;
+  if (!team || !activeSeason) return <p>Loading team...</p>;
+
+  // Old /team/:teamno URLs and slugs that don't match the team's name: move to the canonical URL.
+  const canonical = teamPath(activeSeason, team.teamno, team.team_name);
+  if (location.pathname !== canonical) {
+    return <Navigate to={`${canonical}${location.hash}`} replace state={location.state} />;
+  }
 
   const gp = gamesPlayed(team);
 
@@ -1106,17 +1124,20 @@ export function TeamPage() {
     if (!cleanLabel) return "TBD";
     if (!targetTeamNo) return cleanLabel;
     return (
-      <Link className="team-link" to={`/team/${targetTeamNo}${teamLinkQuery}`}>
+      <Link className="team-link" to={teamPath(activeSeason, targetTeamNo, cleanLabel)}>
         {cleanLabel}
       </Link>
     );
   };
 
+  const seasonEntry = findSeason(seasonIndex, activeSeason);
+  const playoffResults = team.playoffs ?? [];
+
   return (
     <div className={`stack ${isSouthboroughTeam ? "southborough-theme" : ""}`}>
       <p>
         <Link to={backTo} className="home-link">
-          ← Back to {cameFromRankings ? "rankings" : `${gradeLabel(team.summary.grade)} ${genderLabel(team.summary.gender)} ${team.summary.division_tag ?? "division"} rankings`}
+          ← Back to {fromState ? "rankings" : `${gradeLabel(team.summary.grade)} ${genderLabel(team.summary.gender)} rankings`}
         </Link>
       </p>
 
@@ -1126,6 +1147,12 @@ export function TeamPage() {
           {gradeLabel(team.summary.grade)} {genderLabel(team.summary.gender)} | {team.summary.division_name}
           {team.summary.division_tag ? ` (${team.summary.division_tag})` : ""}
           {seasonLabelText ? ` | ${seasonLabelText} season` : ""}
+          {team.town && team.town_slug ? (
+            <>
+              {" | "}
+              <Link to={townPath(team.town_slug)}>{team.town}</Link>
+            </>
+          ) : null}
         </p>
         <p className="meta compact">
           Division record: {team.summary.wins}-{team.summary.losses}
@@ -1150,326 +1177,395 @@ export function TeamPage() {
         ) : null}
       </section>
 
-      <section className="summary-grid panel">
-        <div>Rank: {team.summary.rank ?? "-"}</div>
-        <div>
-          W-L: {team.summary.wins}-{team.summary.losses}
-          {team.summary.ties ? `-${team.summary.ties}` : ""}
-        </div>
-        <div>SoS: {team.summary.sos.toFixed(1)}</div>
-        <div>Power: {team.summary.power.toFixed(1)}</div>
-        <div>MW Rating: {team.summary.mw_rating === null || team.summary.mw_rating === undefined ? "-" : team.summary.mw_rating.toFixed(1)}</div>
-        <div>MW Points: {team.summary.mw_points === null || team.summary.mw_points === undefined ? "-" : team.summary.mw_points}</div>
-        <div>PF/G: {avg(team.summary.pf, gp)}</div>
-        <div>PA/G: {avg(team.summary.pa, gp)}</div>
-        <div>Diff: {team.summary.diff}</div>
-      </section>
+      <nav className="tabs" aria-label="Team sections">
+        {TABS.map((t) => (
+          <button
+            type="button"
+            key={t.id}
+            className={`tab ${tab === t.id ? "tab-active" : ""}`}
+            aria-current={tab === t.id ? "page" : undefined}
+            onClick={() => navigate({ hash: t.id === "overview" ? "" : t.id }, { replace: true, state: location.state })}
+          >
+            {t.label}
+          </button>
+        ))}
+      </nav>
 
-      {insights?.divisionFit ? (
-        <section className="panel">
-          <h3>Division Fit</h3>
-          <p className="meta compact"><strong>{insights.divisionFit.verdict}</strong></p>
-          <p className="meta">
-            {insights.divisionFit.explainer}
-          </p>
-        </section>
-      ) : null}
-
-      <section className="panel">
-        <h3>Past Games</h3>
-        <div className="table-wrap">
-          <table className="games">
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Opponent</th>
-                <th>Team</th>
-                <th>Opp</th>
-                <th>W/L</th>
-                <th>Tag</th>
-                <th>Location</th>
-              </tr>
-            </thead>
-            <tbody>
-              {team.past_games.map((g) => {
-                const scores = teamAndOpponentScores(g);
-                const tag = insights?.gameOutcomeTags[g.gameno];
-                return (
-                  <tr key={g.gameno}>
-                    <td>{g.date ?? "TBD"}</td>
-                    <td>{renderTeamNameLink(g.opponent_teamno, g.opponent_name)}</td>
-                    <td>{scores.team ?? "-"}</td>
-                    <td>{scores.opp ?? "-"}</td>
-                    <td>
-                      {outcome(scores.team, scores.opp)}
-                      {g.forfeit ? <span className="meta"> (forfeit)</span> : null}
-                    </td>
-                    <td>
-                      {tag ? (
-                        <span className={`game-tag ${tag === "Quality Win" ? "game-tag-win" : "game-tag-loss"}`}>
-                          {tag}
-                        </span>
-                      ) : (
-                        "-"
-                      )}
-                    </td>
-                    <td>{g.location ?? "TBD"}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="panel">
-        <h3>Future Games</h3>
-        <div className="table-wrap">
-          <table className="games">
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Opponent</th>
-                <th>Home/Away</th>
-                <th>Location</th>
-              </tr>
-            </thead>
-            <tbody>
-              {team.future_games.map((g) => (
-                <tr key={g.gameno}>
-                  <td>{g.date ?? "TBD"}</td>
-                  <td>{g.starttime ?? "TBD"}</td>
-                  <td>{renderTeamNameLink(g.opponent_teamno, g.opponent_name)}</td>
-                  <td>{g.is_home === null ? "TBD" : g.is_home ? "Home" : "Away"}</td>
-                  <td>{g.location ?? "TBD"}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      {insights ? (
-        <section className="panel">
-          <h3>Coach Insights</h3>
-          <p className="meta compact">
-            Quality win rules: higher-division baseline win, top-15% opponent in their division tier, or beating a higher current-power opponent. Bad loss rules: lower-division baseline loss, bottom-15% opponent in their division tier, or losing to a lower current-power opponent. Bad-loss tags are suppressed for losses by 5 or fewer points and for losses to top-25% opponents overall.
-          </p>
-          <div className="summary-grid">
+      {tab === "overview" ? (
+        <>
+          <section className="summary-grid panel">
+            <div>Rank: {team.summary.rank ?? "-"}</div>
             <div>
-              Offense vs peers: {signed(insights.offenseDelta)} pts/g
-              <span className="metric-note"> (avg {insights.divisionAvgPfPerGame.toFixed(1)})</span>
+              W-L: {team.summary.wins}-{team.summary.losses}
+              {team.summary.ties ? `-${team.summary.ties}` : ""}
             </div>
-            <div>
-              Defense vs peers: {signed(insights.defenseDelta)} pts/g
-              <span className="metric-note"> (avg {insights.divisionAvgPaPerGame.toFixed(1)})</span>
-            </div>
-            <div>
-              Quality wins: {insights.qualityWins}
-              <span className="metric-note"> (weighted criteria)</span>
-            </div>
-            <div>
-              Bad losses: {insights.badLosses}
-              <span className="metric-note"> (weighted criteria)</span>
-            </div>
-            <div>
-              Last-3 trend: {insights.trendLabel}
-              <span className="metric-note"> ({signed(insights.trendDelta)} margin vs season avg)</span>
-            </div>
-            <div>
-              Volatility: {insights.volatility.toFixed(1)}
-              <span className="metric-note"> (division median {insights.divisionMedianVolatility.toFixed(1)})</span>
-            </div>
-            <div>
-              Quadrant: {insights.quadrantLabel}
-              <span className="metric-note"> ({insights.quadrantMeaning})</span>
-            </div>
-            <div>
-              Last 3 margin: {signed(insights.last3MarginAvg)}
-              <span className="metric-note"> | Season margin: {signed(insights.seasonMarginAvg)}</span>
-            </div>
-          </div>
+            <div>SoS: {team.summary.sos.toFixed(1)}</div>
+            <div>Power: {team.summary.power.toFixed(1)}</div>
+            <div>MW Rating: {team.summary.mw_rating === null || team.summary.mw_rating === undefined ? "-" : team.summary.mw_rating.toFixed(1)}</div>
+            <div>MW Points: {team.summary.mw_points === null || team.summary.mw_points === undefined ? "-" : team.summary.mw_points}</div>
+            <div>PF/G: {avg(team.summary.pf, gp)}</div>
+            <div>PA/G: {avg(team.summary.pa, gp)}</div>
+            <div>Diff: {team.summary.diff}</div>
+          </section>
 
-          <div className="quadrant-block">
-            <h4>Quadrant Map</h4>
-            <p className="meta compact">Right = higher power. Top = lower volatility (more predictable).</p>
-            <div className="quadrant-map" style={quadrantStyle}>
-              <div className="quad-cell quad-floor">
-                <strong>Floor-Raiser</strong>
-                <span>Lower power, lower volatility</span>
-              </div>
-              <div className="quad-cell quad-contender">
-                <strong>Contender</strong>
-                <span>Higher power, lower volatility</span>
-              </div>
-              <div className="quad-cell quad-underdog">
-                <strong>Underdog</strong>
-                <span>Lower power, higher volatility</span>
-              </div>
-              <div className="quad-cell quad-wildcard">
-                <strong>Wildcard</strong>
-                <span>Higher power, higher volatility</span>
-              </div>
-              <div className="team-marker" title={`${team.team_name}: ${insights.quadrantLabel}`} />
-            </div>
-          </div>
-        </section>
-      ) : null}
-
-      <section className="panel">
-        <h3>Compare With Another Team</h3>
-        <p className="meta compact">
-          Compare against teams in the same season, grade, and gender only.
-        </p>
-
-        <div className="compare-controls">
-          <label>
-            Division
-            <select
-              value={selectedCompareDivisionTier}
-              onChange={(e) => setSelectedCompareDivisionTier(e.target.value)}
-              disabled={!compareDivisionOptions.length}
-            >
-              {compareDivisionOptions.map((d) => (
-                <option key={d.tier} value={d.tier}>
-                  {d.label}
-                </option>
-              ))}
-            </select>
-          </label>
-
-          <label>
-            Team
-            <select
-              value={selectedCompareTeam}
-              onChange={(e) => setSelectedCompareTeam(e.target.value)}
-              disabled={!compareTeams.length}
-            >
-              {compareTeams.map((t) => (
-                <option key={t.teamno} value={t.teamno}>
-                  #{t.rank} {t.name}
-                </option>
-              ))}
-            </select>
-          </label>
-        </div>
-
-        {compareError ? <p className="error">{compareError}</p> : null}
-
-        {compareTeamData ? (
-          <div className="table-wrap">
-            <table className="games compare-table">
-              <thead>
-                <tr>
-                  <th>Metric</th>
-                  <th>{renderTeamNameLink(team.teamno, team.team_name)}</th>
-                  <th>{renderTeamNameLink(compareTeamData.teamno, compareTeamData.team_name)}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {comparisonRows.map((row) => {
-                  const leftClass =
-                    row.winner === "left" ? "compare-win" : row.winner === "right" ? "compare-lose" : "";
-                  const rightClass =
-                    row.winner === "right" ? "compare-win" : row.winner === "left" ? "compare-lose" : "";
-
-                  return (
-                    <tr key={row.metric}>
-                      <td>{row.metric}</td>
-                      <td className={leftClass}>{row.leftDisplay}</td>
-                      <td className={rightClass}>{row.rightDisplay}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-        ) : (
-          <p className="meta compact">Choose a division and team to compare.</p>
-        )}
-      </section>
-
-      <section className="panel">
-        <h3>Team Connection Finder</h3>
-        <p className="meta compact">
-          Select another team in the same grade and gender to find the shortest schedule connection (up to 7 games).
-        </p>
-
-        <div className="compare-controls">
-          <label>
-            Team
-            <select
-              value={selectedConnectionTeam}
-              onChange={(e) => setSelectedConnectionTeam(e.target.value)}
-              disabled={connectionLoading || !connectionTeamOptions.length}
-            >
-              {connectionTeamOptions.map((opt) => (
-                <option key={opt.teamno} value={opt.teamno}>
-                  {opt.name}
-                </option>
-              ))}
-            </select>
-          </label>
-        </div>
-
-        {connectionLoading ? <p className="meta compact">Loading teams and schedules...</p> : null}
-        {connectionError ? <p className="error">{connectionError}</p> : null}
-
-        {!connectionLoading && !connectionError && selectedConnectionTeam ? (
-          connectionPath ? (
-            connectionPath.length > 0 ? (
-              <>
+          {playoffResults.length ? (
+            <section className="panel">
+              <h3>Playoffs</h3>
+              <ul className="plain-list">
+                {playoffResults.map((r) => (
+                  <li key={r.groupno}>
+                    <strong>{r.result}</strong>, {r.group_name}
+                    {r.seed ? <span className="metric-note"> (seed {r.seed})</span> : null}
+                  </li>
+                ))}
+              </ul>
+              {team.summary.gender && team.summary.grade !== null ? (
                 <p className="meta compact">
-                  Connection found from <strong>{renderTeamNameLink(team.teamno, team.team_name)}</strong> to <strong>{renderTeamNameLink(selectedConnectionTeam, selectedConnectionTeamName)}</strong> in {connectionPath.length} game
-                  {connectionPath.length === 1 ? "" : "s"}.
+                  <Link to={playoffsPath(activeSeason, team.summary.gender, team.summary.grade)}>See the brackets</Link>
                 </p>
-                <div className="table-wrap">
-                  <table className="games">
-                    <thead>
-                      <tr>
-                        <th>Step</th>
-                        <th>Date</th>
-                        <th>Matchup</th>
-                        <th>Score</th>
-                        <th>Status</th>
-                        <th>Division</th>
-                        <th>Location</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {connectionPath.map((step, idx) => {
-                        const fromName = connectionTeamNameByNo[step.fromTeamno] ?? step.fromTeamno;
-                        const toName = connectionTeamNameByNo[step.toTeamno] ?? step.game.opponent_name ?? step.toTeamno;
-                        const scores = teamAndOpponentScores(step.game);
-                        const hasScore = scores.team !== null && scores.opp !== null;
-                        const scoreLabel = hasScore ? String(scores.team) + "-" + String(scores.opp) : "-";
-                        const statusLabel = hasScore ? "Final" : "Scheduled";
+              ) : null}
+            </section>
+          ) : null}
 
-                        return (
-                          <tr key={step.fromTeamno + "-" + step.toTeamno + "-" + step.game.gameno + "-" + String(idx)}>
-                            <td>{idx + 1}</td>
-                            <td>{step.game.date ?? "TBD"}</td>
-                            <td>{renderTeamNameLink(step.fromTeamno, fromName)} vs {renderTeamNameLink(step.toTeamno, toName)}</td>
-                            <td>{scoreLabel}</td>
-                            <td>{statusLabel}</td>
-                            <td>{step.game.division_name ?? "-"}</td>
-                            <td>{step.game.location ?? "TBD"}</td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
+          {insights?.divisionFit ? (
+            <section className="panel">
+              <h3>Division Fit</h3>
+              <p className="meta compact"><strong>{insights.divisionFit.verdict}</strong></p>
+              <p className="meta">
+                {insights.divisionFit.explainer}
+              </p>
+            </section>
+          ) : null}
+        </>
+      ) : null}
+
+      {tab === "games" ? (
+        <>
+          <section className="panel">
+            <h3>Past Games</h3>
+            <div className="table-wrap">
+              <table className="games">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Opponent</th>
+                    <th>Team</th>
+                    <th>Opp</th>
+                    <th>W/L</th>
+                    <th>Tag</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {team.past_games.map((g) => {
+                    const scores = teamAndOpponentScores(g);
+                    const tag = insights?.gameOutcomeTags[g.gameno];
+                    return (
+                      <tr key={g.gameno}>
+                        <td>{g.date ?? "TBD"}</td>
+                        <td>{renderTeamNameLink(g.opponent_teamno, g.opponent_name)}</td>
+                        <td>{scores.team ?? "-"}</td>
+                        <td>{scores.opp ?? "-"}</td>
+                        <td>
+                          {outcome(scores.team, scores.opp)}
+                          {g.forfeit ? <span className="meta"> (forfeit)</span> : null}
+                        </td>
+                        <td>
+                          {tag ? (
+                            <span className={`game-tag ${tag === "Quality Win" ? "game-tag-win" : "game-tag-loss"}`}>
+                              {tag}
+                            </span>
+                          ) : (
+                            "-"
+                          )}
+                        </td>
+                        <td>{g.location ?? "TBD"}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section className="panel">
+            <h3>{seasonEntry?.status === "final" ? "Unplayed Games" : "Upcoming Games"}</h3>
+            <div className="table-wrap">
+              <table className="games">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Opponent</th>
+                    <th>Home/Away</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {team.future_games.map((g) => (
+                    <tr key={g.gameno}>
+                      <td>{g.date ?? "TBD"}</td>
+                      <td>{g.starttime ?? "TBD"}</td>
+                      <td>{renderTeamNameLink(g.opponent_teamno, g.opponent_name)}</td>
+                      <td>{g.is_home === null ? "TBD" : g.is_home ? "Home" : "Away"}</td>
+                      <td>{g.location ?? "TBD"}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </>
+      ) : null}
+
+      {tab === "insights" ? (
+        <>
+          {insights ? (
+            <section className="panel">
+              <h3>Coach Insights</h3>
+              <p className="meta compact">
+                Quality win rules: higher-division baseline win, top-15% opponent in their division tier, or beating a higher current-power opponent. Bad loss rules: lower-division baseline loss, bottom-15% opponent in their division tier, or losing to a lower current-power opponent. Bad-loss tags are suppressed for losses by 5 or fewer points and for losses to top-25% opponents overall.
+              </p>
+              <div className="summary-grid">
+                <div>
+                  Offense vs peers: {signed(insights.offenseDelta)} pts/g
+                  <span className="metric-note"> (avg {insights.divisionAvgPfPerGame.toFixed(1)})</span>
                 </div>
-              </>
+                <div>
+                  Defense vs peers: {signed(insights.defenseDelta)} pts/g
+                  <span className="metric-note"> (avg {insights.divisionAvgPaPerGame.toFixed(1)})</span>
+                </div>
+                <div>
+                  Quality wins: {insights.qualityWins}
+                  <span className="metric-note"> (weighted criteria)</span>
+                </div>
+                <div>
+                  Bad losses: {insights.badLosses}
+                  <span className="metric-note"> (weighted criteria)</span>
+                </div>
+                <div>
+                  Last-3 trend: {insights.trendLabel}
+                  <span className="metric-note"> ({signed(insights.trendDelta)} margin vs season avg)</span>
+                </div>
+                <div>
+                  Volatility: {insights.volatility.toFixed(1)}
+                  <span className="metric-note"> (division median {insights.divisionMedianVolatility.toFixed(1)})</span>
+                </div>
+                <div>
+                  Quadrant: {insights.quadrantLabel}
+                  <span className="metric-note"> ({insights.quadrantMeaning})</span>
+                </div>
+                <div>
+                  Last 3 margin: {signed(insights.last3MarginAvg)}
+                  <span className="metric-note"> | Season margin: {signed(insights.seasonMarginAvg)}</span>
+                </div>
+              </div>
+
+              <div className="quadrant-block">
+                <h4>Quadrant Map</h4>
+                <p className="meta compact">Right = higher power. Top = lower volatility (more predictable).</p>
+                <div className="quadrant-map" style={quadrantStyle}>
+                  <div className="quad-cell quad-floor">
+                    <strong>Floor-Raiser</strong>
+                    <span>Lower power, lower volatility</span>
+                  </div>
+                  <div className="quad-cell quad-contender">
+                    <strong>Contender</strong>
+                    <span>Higher power, lower volatility</span>
+                  </div>
+                  <div className="quad-cell quad-underdog">
+                    <strong>Underdog</strong>
+                    <span>Lower power, higher volatility</span>
+                  </div>
+                  <div className="quad-cell quad-wildcard">
+                    <strong>Wildcard</strong>
+                    <span>Higher power, higher volatility</span>
+                  </div>
+                  <div className="team-marker" title={`${team.team_name}: ${insights.quadrantLabel}`} />
+                </div>
+              </div>
+            </section>
+          ) : null}
+          {!insights ? (
+            <p className="meta">{insightsReady ? "Not enough division data for insights on this team." : "Loading insights…"}</p>
+          ) : null}
+        </>
+      ) : null}
+
+      {tab === "compare" ? (
+        <>
+          <section className="panel">
+            <h3>Compare With Another Team</h3>
+            <p className="meta compact">
+              Compare against teams in the same season, grade, and gender only.
+            </p>
+
+            <div className="compare-controls">
+              <label>
+                Division
+                <select
+                  value={selectedCompareDivisionTier}
+                  onChange={(e) => setSelectedCompareDivisionTier(e.target.value)}
+                  disabled={!compareDivisionOptions.length}
+                >
+                  {compareDivisionOptions.map((d) => (
+                    <option key={d.tier} value={d.tier}>
+                      {d.label}
+                    </option>
+                  ))}
+                </select>
+              </label>
+
+              <label>
+                Team
+                <select
+                  value={selectedCompareTeam}
+                  onChange={(e) => setSelectedCompareTeam(e.target.value)}
+                  disabled={!compareTeams.length}
+                >
+                  {compareTeams.map((t) => (
+                    <option key={t.teamno} value={t.teamno}>
+                      #{t.rank} {t.name}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </div>
+
+            {compareError ? <p className="error">{compareError}</p> : null}
+
+            {compareTeamData ? (
+              <div className="table-wrap">
+                <table className="games compare-table">
+                  <thead>
+                    <tr>
+                      <th>Metric</th>
+                      <th>{renderTeamNameLink(team.teamno, team.team_name)}</th>
+                      <th>{renderTeamNameLink(compareTeamData.teamno, compareTeamData.team_name)}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {comparisonRows.map((row) => {
+                      const leftClass =
+                        row.winner === "left" ? "compare-win" : row.winner === "right" ? "compare-lose" : "";
+                      const rightClass =
+                        row.winner === "right" ? "compare-win" : row.winner === "left" ? "compare-lose" : "";
+
+                      return (
+                        <tr key={row.metric}>
+                          <td>{row.metric}</td>
+                          <td className={leftClass}>{row.leftDisplay}</td>
+                          <td className={rightClass}>{row.rightDisplay}</td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
             ) : (
-              <p className="meta compact">Selected team is the same team.</p>
-            )
+              <p className="meta compact">Choose a division and team to compare.</p>
+            )}
+          </section>
+
+          <section className="panel">
+            <h3>Team Connection Finder</h3>
+            <p className="meta compact">
+              Select another team in the same grade and gender to find the shortest schedule connection (up to 7 games).
+            </p>
+
+            <div className="compare-controls">
+              <label>
+                Team
+                <select
+                  value={selectedConnectionTeam}
+                  onChange={(e) => setSelectedConnectionTeam(e.target.value)}
+                  disabled={connectionLoading || !connectionTeamOptions.length}
+                >
+                  {connectionTeamOptions.map((opt) => (
+                    <option key={opt.teamno} value={opt.teamno}>
+                      {opt.name}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </div>
+
+            {connectionLoading ? <p className="meta compact">Loading teams and schedules...</p> : null}
+            {connectionError ? <p className="error">{connectionError}</p> : null}
+
+            {!connectionLoading && !connectionError && selectedConnectionTeam ? (
+              connectionPath ? (
+                connectionPath.length > 0 ? (
+                  <>
+                    <p className="meta compact">
+                      Connection found from <strong>{renderTeamNameLink(team.teamno, team.team_name)}</strong> to <strong>{renderTeamNameLink(selectedConnectionTeam, selectedConnectionTeamName)}</strong> in {connectionPath.length} game
+                      {connectionPath.length === 1 ? "" : "s"}.
+                    </p>
+                    <div className="table-wrap">
+                      <table className="games">
+                        <thead>
+                          <tr>
+                            <th>Step</th>
+                            <th>Date</th>
+                            <th>Matchup</th>
+                            <th>Score</th>
+                            <th>Status</th>
+                            <th>Division</th>
+                            <th>Location</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {connectionPath.map((step, idx) => {
+                            const fromName = connectionTeamNameByNo[step.fromTeamno] ?? step.fromTeamno;
+                            const toName = connectionTeamNameByNo[step.toTeamno] ?? step.game.opponent_name ?? step.toTeamno;
+                            const scores = teamAndOpponentScores(step.game);
+                            const hasScore = scores.team !== null && scores.opp !== null;
+                            const scoreLabel = hasScore ? String(scores.team) + "-" + String(scores.opp) : "-";
+                            const statusLabel = hasScore ? "Final" : "Scheduled";
+
+                            return (
+                              <tr key={step.fromTeamno + "-" + step.toTeamno + "-" + step.game.gameno + "-" + String(idx)}>
+                                <td>{idx + 1}</td>
+                                <td>{step.game.date ?? "TBD"}</td>
+                                <td>{renderTeamNameLink(step.fromTeamno, fromName)} vs {renderTeamNameLink(step.toTeamno, toName)}</td>
+                                <td>{scoreLabel}</td>
+                                <td>{statusLabel}</td>
+                                <td>{step.game.division_name ?? "-"}</td>
+                                <td>{step.game.location ?? "TBD"}</td>
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                      </table>
+                    </div>
+                  </>
+                ) : (
+                  <p className="meta compact">Selected team is the same team.</p>
+                )
+              ) : (
+                <p className="meta compact">No connection found within 7 games.</p>
+              )
+            ) : null}
+          </section>
+        </>
+      ) : null}
+
+      {tab === "history" ? (
+        <section className="panel">
+          <h3>Program History</h3>
+          {team.town_slug && team.class_of && team.summary.gender ? (
+            <ProgramHistory
+              townSlug={team.town_slug}
+              townName={team.town ?? team.town_slug}
+              gender={team.summary.gender}
+              classOf={team.class_of}
+              currentTeamno={team.teamno}
+            />
           ) : (
-            <p className="meta compact">No connection found within 7 games.</p>
-          )
-        ) : null}
-      </section>
+            <p className="meta">This team's town isn't known, so its history can't be traced.</p>
+          )}
+        </section>
+      ) : null}
     </div>
   );
 }

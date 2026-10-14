@@ -3,6 +3,7 @@ export type SeasonGroup = {
   grade: number;
   divisions: number;
   teams: number;
+  playoffs?: boolean;
 };
 
 export type SeasonEntry = {
@@ -29,6 +30,7 @@ export type SearchTeam = {
   teamno: string;
   name: string;
   town?: string | null;
+  town_slug?: string | null;
   gender: "M" | "F";
   grade: number;
   divisionno: string;
@@ -96,6 +98,9 @@ export type TeamData = {
   teamno: string;
   team_name: string;
   town?: string | null;
+  town_slug?: string | null;
+  class_of?: number | null;
+  playoffs?: TeamPlayoffResult[];
   summary: {
     wins: number;
     losses: number;
@@ -140,4 +145,73 @@ export type TeamGame = {
   opponent_teamno: string | null;
   opponent_name: string | null;
   forfeit?: boolean;
+};
+
+export type TeamPlayoffResult = {
+  groupno: string;
+  group_name: string;
+  seed: number | null;
+  result: string;
+};
+
+export type TownTeam = {
+  yrseason: string;
+  teamno: string;
+  name: string;
+  gender: "M" | "F";
+  grade: number;
+  class_of: number;
+  division_tag?: string | null;
+  divisiontier?: string | null;
+  rank: number;
+  division_size?: number;
+  wins: number;
+  losses: number;
+  ties: number;
+  power: number;
+  playoffs: string[];
+};
+
+export type TownData = {
+  slug: string;
+  name: string;
+  seasons: string[];
+  teams: TownTeam[];
+};
+
+export type TownsData = {
+  towns: Array<{ slug: string; name: string; seasons: number; latest_season: string; latest_teams: number }>;
+};
+
+export type BracketTeam = {
+  teamno: string | null;
+  name: string | null;
+  seed: number | null;
+  score: number | null;
+  from_game: number | null;
+};
+
+export type BracketGame = {
+  id: string;
+  round: number;
+  game: number;
+  when: string | null;
+  venue: string | null;
+  teams: [BracketTeam, BracketTeam];
+  winner: string | null;
+};
+
+export type PlayoffGroup = {
+  groupno: string;
+  name: string;
+  numteams: number | null;
+  rounds: number;
+  games: BracketGame[];
+};
+
+export type PlayoffsData = {
+  yrseason: string;
+  gender: "M" | "F";
+  grade: number;
+  groups: PlayoffGroup[];
 };

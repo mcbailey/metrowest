@@ -1,6 +1,7 @@
 import { useEffect, useId, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { loadJson } from "../data";
+import { teamPath } from "../paths";
 import { genderLabel, gradeLabel } from "../season";
 import type { SearchData, SearchTeam } from "../types";
 
@@ -79,7 +80,7 @@ export function TeamSearch({ season, seasonLabel, autoFocus = false }: Props) {
           {teams !== null && !shown.length ? <li className="meta">No teams match “{query.trim()}”.</li> : null}
           {shown.map((t) => (
             <li key={t.teamno}>
-              <Link to={`/team/${t.teamno}?season=${season}`} onClick={() => setQuery("")}>
+              <Link to={teamPath(season, t.teamno, t.name)} onClick={() => setQuery("")}>
                 <span className="result-name">{t.name}</span>
                 <span className="result-meta">
                   {gradeLabel(t.grade)} {genderLabel(t.gender)}

@@ -1,8 +1,17 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
 import { Filters, FilterState } from "../components/Filters";
 import { RankingsTable } from "../components/RankingsTable";
-import { loadJson } from "../data";
+import { loadJson, loadJsonCached } from "../data";
+import {
+  divisionSlug,
+  parseDivisionSlug,
+  parseGenderSlug,
+  parseGradeSlug,
+  parseSeasonSlug,
+  playoffsPath,
+  rankingsPath,
+} from "../paths";
 import { findSeason, genderLabel, gradeLabel, saveLastView, seasonStatusText } from "../season";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
 import { DivisionRankingData, DivisionsData, IndexData, RankingTeam } from "../types";
@@ -13,9 +22,9 @@ type DisplayTeam = RankingTeam & {
 };
 
 type DisplayPayload = {
+  key: string;
   title: string;
   subtitle: string;
-  snapshot: string;
   teams: DisplayTeam[];
   showGroup: boolean;
 };
@@ -25,301 +34,191 @@ function sortAndRank(teams: DisplayTeam[]): DisplayTeam[] {
   return out.map((t, idx) => ({ ...t, rank: idx + 1 }));
 }
 
-function coerceFiltersFromQuery(index: IndexData, searchParams: URLSearchParams): FilterState {
-  const fallbackSeason = index.default.yrseason;
-  const requestedSeason = searchParams.get("season") ?? fallbackSeason;
-
-  const seasonEntry =
-    index.seasons.find((s) => s.yrseason === requestedSeason) ||
-    index.seasons.find((s) => s.yrseason === fallbackSeason) ||
-    index.seasons[0];
-
-  const season = seasonEntry?.yrseason ?? fallbackSeason;
-  const genderFromQuery = searchParams.get("gender");
-  const gender: "M" | "F" =
-    genderFromQuery === "M" || genderFromQuery === "F"
-      ? genderFromQuery
-      : seasonEntry?.genders.includes(index.default.gender)
-      ? index.default.gender
-      : (seasonEntry?.genders[0] ?? "M");
-
-  const gradeFromQuery = Number(searchParams.get("grade") ?? "");
-  const grade =
-    Number.isInteger(gradeFromQuery) && seasonEntry?.grades.includes(gradeFromQuery)
-      ? gradeFromQuery
-      : seasonEntry?.grades.includes(index.default.grade)
-      ? index.default.grade
-      : (seasonEntry?.grades[0] ?? 3);
-
-  const divisionno = searchParams.get("division") ?? "ALL";
-
-  return { season, gender, grade, divisionno };
-}
-
 export function DivisionPage() {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const params = useParams<{ season: string; gender: string; grade: string; division?: string }>();
+  const navigate = useNavigate();
 
   const [index, setIndex] = useState<IndexData | null>(null);
-  const [filters, setFilters] = useState<FilterState | null>(null);
   const [divisions, setDivisions] = useState<DivisionsData | null>(null);
   const [display, setDisplay] = useState<DisplayPayload | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    loadJson<IndexData>("data/index.json")
-      .then((data) => {
-        setError(null);
-        setIndex(data);
-        setFilters(coerceFiltersFromQuery(data, searchParams));
-      })
+    loadJsonCached<IndexData>("data/index.json")
+      .then(setIndex)
       .catch((err) => setError(String(err)));
   }, []);
 
-  useEffect(() => {
-    if (!filters) return;
-
-    const params = new URLSearchParams();
-    params.set("season", filters.season);
-    params.set("gender", filters.gender);
-    params.set("grade", String(filters.grade));
-    params.set("division", filters.divisionno || "ALL");
-
-    const next = params.toString();
-    const current = searchParams.toString();
-    if (next !== current) {
-      setSearchParams(params, { replace: true });
-    }
-  }, [filters, searchParams, setSearchParams]);
+  const yrseason = parseSeasonSlug(params.season);
+  const gender = parseGenderSlug(params.gender);
+  const grade = parseGradeSlug(params.grade);
+  const seasonEntry = findSeason(index, yrseason);
+  const valid = Boolean(seasonEntry && gender && grade !== null && seasonEntry.grades.includes(grade));
+  const groupKey = valid ? `${yrseason}/${gender}/${grade}` : null;
 
   useEffect(() => {
-    if (!filters) return;
+    if (!groupKey) return;
     let active = true;
-
-    loadJson<DivisionsData>(`data/${filters.season}/${filters.gender}/${filters.grade}/divisions.json`)
+    setDivisions(null);
+    loadJsonCached<DivisionsData>(`data/${groupKey}/divisions.json`)
       .then((data) => {
-        if (!active) return;
-        setError(null);
-        setDivisions(data);
-
-        const valid = new Set([
-          "ALL",
-          ...Array.from(new Set(data.divisions.map((d) => `TIER-${d.divisiontier ?? ""}`))),
-          ...data.divisions.map((d) => d.divisionno),
-        ]);
-
-        const selected = valid.has(filters.divisionno) ? filters.divisionno : "ALL";
-        setFilters((prev) => (prev ? { ...prev, divisionno: selected } : prev));
+        if (active) setDivisions(data);
       })
       .catch((err) => {
-        if (!active) return;
-        setDisplay(null);
-        setError(String(err));
+        if (active) setError(String(err));
       });
-
     return () => {
       active = false;
     };
-  }, [filters?.season, filters?.gender, filters?.grade]);
+  }, [groupKey]);
+
+  const divisionValue = divisions && groupKey === `${divisions.yrseason}/${divisions.gender}/${divisions.grade}`
+    ? parseDivisionSlug(params.division, divisions.divisions)
+    : null;
+
+  const filters: FilterState | null =
+    valid && divisionValue !== null
+      ? { season: yrseason!, gender: gender!, grade: grade!, divisionno: divisionValue }
+      : null;
 
   useEffect(() => {
     if (!filters) return;
-    saveLastView({
-      season: filters.season,
-      gender: filters.gender,
-      grade: filters.grade,
-      division: filters.divisionno || "ALL",
-    });
-  }, [filters]);
+    saveLastView({ season: filters.season, gender: filters.gender, grade: filters.grade, division: filters.divisionno });
+  }, [filters?.season, filters?.gender, filters?.grade, filters?.divisionno]);
 
   useEffect(() => {
-    if (!filters || !divisions || !filters.divisionno) return;
-
-    const currentFilters = filters;
+    if (!filters || !divisions) return;
+    const current = filters;
     const currentDivisions = divisions;
-    const indexRef = index;
     let active = true;
 
     async function load() {
-      setError(null);
-
-      const allDivisionNos = currentDivisions.divisions.map((d) => d.divisionno);
-      const tier = currentFilters.divisionno.startsWith("TIER-")
-        ? currentFilters.divisionno.replace("TIER-", "")
-        : null;
-
+      const tier = current.divisionno.startsWith("TIER-") ? current.divisionno.slice("TIER-".length) : null;
       const targetDivisionNos =
-        currentFilters.divisionno === "ALL"
-          ? allDivisionNos
+        current.divisionno === "ALL"
+          ? currentDivisions.divisions.map((d) => d.divisionno)
           : tier !== null
           ? currentDivisions.divisions.filter((d) => (d.divisiontier ?? "") === tier).map((d) => d.divisionno)
-          : [currentFilters.divisionno];
-
-      if (!targetDivisionNos.length) {
-        if (!active) return;
-        setDisplay(null);
-        return;
-      }
+          : [current.divisionno];
 
       const results = await Promise.allSettled(
         targetDivisionNos.map((dno) =>
-          loadJson<DivisionRankingData>(
-            `data/${currentFilters.season}/${currentFilters.gender}/${currentFilters.grade}/division-${dno}.json`
-          )
+          loadJson<DivisionRankingData>(`data/${current.season}/${current.gender}/${current.grade}/division-${dno}.json`)
         )
       );
-
       if (!active) return;
 
       const datasets = results
         .filter((r): r is PromiseFulfilledResult<DivisionRankingData> => r.status === "fulfilled")
         .map((r) => r.value);
-
       if (!datasets.length) {
-        const firstError = results.find((r): r is PromiseRejectedResult => r.status === "rejected");
         setDisplay(null);
-        setError(firstError ? String(firstError.reason) : "No division data available");
+        setError("No division data available");
         return;
       }
 
-      const aggregate = currentFilters.divisionno === "ALL" || tier !== null;
-      const merged: DisplayTeam[] = [];
-      for (const ds of datasets) {
-        for (const t of ds.rankings) {
-          merged.push({
-            ...t,
-            division_label: ds.division_name,
-            subgroup: ds.tag ?? undefined,
-          });
-        }
-      }
-
-      const rankedTeams = aggregate ? sortAndRank(merged) : merged;
+      const aggregate = current.divisionno === "ALL" || tier !== null;
+      const merged: DisplayTeam[] = datasets.flatMap((ds) =>
+        ds.rankings.map((t) => ({ ...t, division_label: ds.division_name, subgroup: ds.tag ?? undefined }))
+      );
+      const teams = aggregate ? sortAndRank(merged) : merged;
+      const group = `${gradeLabel(current.grade)} ${genderLabel(current.gender)}`;
       const title =
-        currentFilters.divisionno === "ALL"
-          ? `${gradeLabel(currentFilters.grade)} ${genderLabel(currentFilters.gender)} - All Divisions`
+        current.divisionno === "ALL"
+          ? `${group} - All Divisions`
           : tier !== null
-          ? `${gradeLabel(currentFilters.grade)} ${genderLabel(currentFilters.gender)} - Division ${tier} (all groups)`
+          ? `${group} - Division ${tier} (all groups)`
           : `${datasets[0].division_name}${datasets[0].tag ? ` (${datasets[0].tag})` : ""}`;
 
-      const seasonEntry = findSeason(indexRef, currentFilters.season);
-      const subtitle = `${seasonStatusText(seasonEntry, datasets[0].snapshot_date)} · ${rankedTeams.length} teams`;
-
+      setError(null);
       setDisplay({
+        key: `${current.season}/${current.gender}/${current.grade}/${current.divisionno}`,
         title,
-        subtitle,
-        snapshot: datasets[0].snapshot_date,
-        teams: rankedTeams,
+        subtitle: `${seasonStatusText(seasonEntry, datasets[0].snapshot_date)} · ${teams.length} teams`,
+        teams,
         showGroup: aggregate,
       });
     }
 
     void load().catch((err) => {
-      if (!active) return;
-      setDisplay(null);
-      setError(String(err));
+      if (active) setError(String(err));
     });
-
     return () => {
       active = false;
     };
-  }, [filters, divisions, index]);
+  }, [filters?.season, filters?.gender, filters?.grade, filters?.divisionno, divisions, seasonEntry]);
 
   const seasonOptions = useMemo(
     () => (index?.seasons ?? []).map((s) => ({ value: s.yrseason, label: s.label })),
     [index]
   );
-
-  const genderOptions = useMemo(
-    () => [
-      { value: "M", label: "Boys" },
-      { value: "F", label: "Girls" },
-    ],
-    []
-  );
-
-  const gradeOptions = useMemo(
-    () =>
-      (index?.seasons.find((s) => s.yrseason === filters?.season)?.grades ?? []).map((g) => ({
-        value: String(g),
-        label: gradeLabel(g),
-      })),
-    [index, filters?.season]
-  );
+  const genderOptions = [
+    { value: "M", label: "Boys" },
+    { value: "F", label: "Girls" },
+  ];
+  const gradeOptions = (seasonEntry?.grades ?? []).map((g) => ({ value: String(g), label: gradeLabel(g) }));
 
   const divisionOptions = useMemo(() => {
     if (!divisions) return [];
-
-    const tierOptions = Array.from(
+    const tiers = Array.from(
       new Set(divisions.divisions.map((d) => d.divisiontier).filter((t): t is string => Boolean(t)))
-    )
-      .sort((a, b) => Number(a) - Number(b))
-      .map((tier) => ({
-        value: `TIER-${tier}`,
-        label: `Division ${tier} (all groups)`,
-      }));
-
-    const singleDivisionOptions = [...divisions.divisions]
-      .sort((a, b) => {
-        const tierA = Number(a.divisiontier ?? 0);
-        const tierB = Number(b.divisiontier ?? 0);
-        if (tierA !== tierB) return tierA - tierB;
-
-        const labelA = a.tag ?? a.divisionno;
-        const labelB = b.tag ?? b.divisionno;
-        return labelA.localeCompare(labelB) || a.divisionno.localeCompare(b.divisionno);
-      })
-      .map((d) => ({
-        value: d.divisionno,
-        label: d.tag ? `${d.tag} (Division ${d.divisiontier ?? "?"})` : d.divisionno,
-      }));
-
+    ).sort((a, b) => Number(a) - Number(b));
+    const singles = [...divisions.divisions].sort(
+      (a, b) =>
+        Number(a.divisiontier ?? 0) - Number(b.divisiontier ?? 0) ||
+        (a.tag ?? a.divisionno).localeCompare(b.tag ?? b.divisionno)
+    );
     return [
       { value: "ALL", label: "All divisions" },
-      ...tierOptions,
-      ...singleDivisionOptions,
+      ...tiers.map((tier) => ({ value: `TIER-${tier}`, label: `Division ${tier} (all groups)` })),
+      ...singles.map((d) => ({
+        value: d.divisionno,
+        label: d.tag ? `${d.tag} (Division ${d.divisiontier ?? "?"})` : d.divisionno,
+      })),
     ];
   }, [divisions]);
 
-  const queryString = useMemo(() => {
-    if (!filters) return "";
-    const params = new URLSearchParams();
-    params.set("season", filters.season);
-    params.set("gender", filters.gender);
-    params.set("grade", String(filters.grade));
-    params.set("division", filters.divisionno || "ALL");
-    return `?${params.toString()}`;
-  }, [filters]);
-
-  const seoTitle = display ? `${display.title} | MWStats` : SEO_SITE_NAME;
+  const canonicalPath = filters
+    ? rankingsPath(filters.season, filters.gender, filters.grade, filters.divisionno, divisions?.divisions)
+    : "/";
+  const seoTitle = display ? `${display.title}, ${seasonEntry?.label ?? ""} | MWStats` : SEO_SITE_NAME;
   const seoDescription = display
-    ? `${display.title}. ${display.teams.length} teams with power ranking, SoS, and game-based metrics. Updated daily.`
-    : "Metrowest youth basketball power rankings, division standings, team ratings, and schedule-driven analytics.";
-  const canonicalPath = filters ? `/${queryString}` : "/";
-  const seoJsonLd = useMemo(
-    () => ({
+    ? `${display.title} (${seasonEntry?.label}). ${display.teams.length} teams ranked by power rating, strength of schedule, and results.`
+    : "Metrowest youth basketball power rankings by grade and division.";
+  usePageSeo({
+    title: seoTitle,
+    description: seoDescription,
+    canonicalPath,
+    jsonLd: {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       name: seoTitle,
       description: seoDescription,
       url: `${SEO_SITE_URL}${canonicalPath}`,
-      isPartOf: {
-        "@type": "WebSite",
-        name: SEO_SITE_NAME,
-        url: SEO_SITE_URL,
-      },
-    }),
-    [canonicalPath, seoDescription, seoTitle]
-  );
-  usePageSeo({
-    title: seoTitle,
-    description: seoDescription,
-    canonicalPath,
-    jsonLd: seoJsonLd,
+      isPartOf: { "@type": "WebSite", name: SEO_SITE_NAME, url: SEO_SITE_URL },
+    },
   });
 
   if (error) return <p className="error">{error}</p>;
-  if (!filters || !index || !divisions || !display) return <p>Loading data...</p>;
+  if (!index) return <p>Loading data...</p>;
 
+  if (!valid) {
+    // Unknown season/grade in the URL: fall back to the closest valid page instead of an error.
+    const season = seasonEntry ?? findSeason(index, index.current) ?? index.seasons[0];
+    const g = gender ?? "M";
+    const gr = grade !== null && season.grades.includes(grade) ? grade : season.grades[season.grades.length - 1];
+    return <Navigate to={rankingsPath(season.yrseason, g, gr)} replace />;
+  }
+  if (divisions && params.division && divisionValue !== null) {
+    // Unknown division -> whole grade; numeric (old-style) division -> its code-based URL.
+    const canonicalSeg = divisionSlug(divisionValue, divisions.divisions);
+    if (canonicalSeg !== params.division) {
+      return <Navigate to={rankingsPath(yrseason!, gender!, grade!, divisionValue, divisions.divisions)} replace />;
+    }
+  }
+  if (!filters || !display) return <p>Loading data...</p>;
+
+  const group = seasonEntry?.groups?.find((x) => x.gender === filters.gender && x.grade === filters.grade);
 
   return (
     <div className="stack">
@@ -333,8 +232,12 @@ export function DivisionPage() {
           onChange={(next) => {
             // A season may not have every grade; fall back to one it has.
             const grades = findSeason(index, next.season)?.grades ?? [];
-            const grade = grades.includes(next.grade) || !grades.length ? next.grade : grades[grades.length - 1];
-            setFilters({ ...next, grade });
+            const nextGrade = grades.includes(next.grade) || !grades.length ? next.grade : grades[grades.length - 1];
+            const sameGroup =
+              next.season === filters.season && next.gender === filters.gender && nextGrade === filters.grade;
+            navigate(
+              rankingsPath(next.season, next.gender, nextGrade, sameGroup ? next.divisionno : "ALL", divisions?.divisions)
+            );
           }}
         />
       </section>
@@ -342,17 +245,32 @@ export function DivisionPage() {
       <section className="panel">
         <h2>{display.title}</h2>
         <p className="meta">{display.subtitle}</p>
-        <p className="meta compact">
-          <Link className="method-link" to={`/glossary${queryString}`}>
-            Open glossary of ranking terms
+        <p className="meta compact link-row">
+          {group?.playoffs ? (
+            <Link className="method-link" to={playoffsPath(filters.season, filters.gender, filters.grade)}>
+              Playoff brackets
+            </Link>
+          ) : null}
+          <Link className="method-link" to="/glossary">
+            Glossary of ranking terms
           </Link>
         </p>
       </section>
 
       <section className="panel">
-        <RankingsTable teams={display.teams} showGroup={display.showGroup} queryString={queryString} />
+        <RankingsTable teams={display.teams} showGroup={display.showGroup} season={filters.season} />
       </section>
-
     </div>
   );
+}
+
+/** Old query-string URLs (/?season=2026&gender=M&grade=6&division=7234) -> path URLs. */
+export function legacyRankingsPath(search: URLSearchParams): string | null {
+  const season = search.get("season");
+  const gender = search.get("gender");
+  const grade = Number(search.get("grade"));
+  if (!season || (gender !== "M" && gender !== "F") || !Number.isInteger(grade)) return null;
+  const division = search.get("division") ?? "ALL";
+  // Single divisions are numbers in old URLs; the division page resolves numeric slugs and canonicalizes them.
+  return rankingsPath(season, gender, grade, division === "ALL" ? undefined : division);
 }

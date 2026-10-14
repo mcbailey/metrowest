@@ -105,6 +105,40 @@ def init_db(conn: sqlite3.Connection) -> None:
           PRIMARY KEY(snapshot_date, teamno, divisionno)
         );
         CREATE INDEX IF NOT EXISTS idx_snapshots_division ON snapshots(snapshot_date, yrseason, gender, grade, divisionno);
+
+        CREATE TABLE IF NOT EXISTS playoff_groups(
+          groupno TEXT PRIMARY KEY,
+          yrseason TEXT NOT NULL,
+          grade INT NOT NULL,
+          gender TEXT NOT NULL,
+          name TEXT NOT NULL,
+          numteams INT,
+          updated_at TEXT NOT NULL
+        );
+        CREATE INDEX IF NOT EXISTS idx_playoff_groups_season ON playoff_groups(yrseason, gender, grade);
+
+        CREATE TABLE IF NOT EXISTS playoff_games(
+          tournamentgameno TEXT PRIMARY KEY,
+          groupno TEXT NOT NULL,
+          round INT NOT NULL,
+          game INT NOT NULL,
+          round_label TEXT,
+          when_text TEXT,
+          venue TEXT,
+          team1_teamno TEXT,
+          team1_name TEXT,
+          team1_seed INT,
+          team1_score INT,
+          team1_source_game INT,
+          team2_teamno TEXT,
+          team2_name TEXT,
+          team2_seed INT,
+          team2_score INT,
+          team2_source_game INT,
+          winner_teamno TEXT,
+          FOREIGN KEY(groupno) REFERENCES playoff_groups(groupno)
+        );
+        CREATE INDEX IF NOT EXISTS idx_playoff_games_group ON playoff_games(groupno);
         """
     )
 
@@ -119,6 +153,8 @@ def init_db(conn: sqlite3.Connection) -> None:
     _add_missing_columns(conn, "divisions", {"code": "TEXT", "tag": "TEXT"})
     # League rating/points from the standings feed, kept so rankings can be recomputed without re-scraping.
     _add_missing_columns(conn, "teams", {"mw_rating": "REAL", "mw_points": "INT"})
+    # The league's town for the team. Town numbers change every season, so towns are matched across seasons by name.
+    _add_missing_columns(conn, "teams", {"townno": "TEXT", "town_name": "TEXT"})
     # status: in_progress | final. as_of: date of the latest scored game. data_hash: fingerprint of the
     # season's games, so unchanged scrapes don't rewrite rankings or output files.
     _add_missing_columns(conn, "seasons", {"status": "TEXT", "as_of": "TEXT", "data_hash": "TEXT", "updated_at": "TEXT"})
@@ -185,7 +221,7 @@ def season_fingerprint(conn: sqlite3.Connection, yrseason: str) -> str:
     digest = hashlib.sha256()
     queries = [
         ("SELECT divisionno, grade, gender, divisiontier, name, code FROM divisions WHERE yrseason = ? ORDER BY divisionno", (yrseason,)),
-        ("SELECT teamno, divisionno, town, name, mw_rating, mw_points FROM teams WHERE yrseason = ? ORDER BY teamno", (yrseason,)),
+        ("SELECT teamno, divisionno, town, name, mw_rating, mw_points, townno, town_name FROM teams WHERE yrseason = ? ORDER BY teamno", (yrseason,)),
         (
             """SELECT gameno, date, starttime, location, divisionno, home_teamno, away_teamno, home_score, away_score, status
                FROM games WHERE yrseason = ? ORDER BY gameno""",
@@ -194,6 +230,13 @@ def season_fingerprint(conn: sqlite3.Connection, yrseason: str) -> str:
         (
             """SELECT tg.teamno, tg.gameno, tg.is_home FROM team_games tg JOIN teams t ON t.teamno = tg.teamno
                WHERE t.yrseason = ? ORDER BY tg.teamno, tg.gameno""",
+            (yrseason,),
+        ),
+        (
+            """SELECT g.groupno, g.name, g.numteams, p.tournamentgameno, p.round, p.game, p.when_text, p.team1_teamno,
+                      p.team1_score, p.team2_teamno, p.team2_score, p.winner_teamno
+               FROM playoff_groups g LEFT JOIN playoff_games p ON p.groupno = g.groupno
+               WHERE g.yrseason = ? ORDER BY g.groupno, p.tournamentgameno""",
             (yrseason,),
         ),
     ]
@@ -428,3 +471,35 @@ def latest_snapshot_date(conn: sqlite3.Connection, yrseason: str) -> str | None:
         (yrseason,),
     ).fetchone()
     return row["snapshot_date"] if row and row["snapshot_date"] else None
+
+
+def set_team_towns(conn: sqlite3.Connection, towns: dict[str, tuple[str, str]]) -> None:
+    """towns: teamno -> (townno, town_name)."""
+    conn.executemany(
+        "UPDATE teams SET townno = ?, town_name = ? WHERE teamno = ?",
+        [(townno, name, teamno) for teamno, (townno, name) in towns.items()],
+    )
+
+
+def replace_playoffs(conn: sqlite3.Connection, yrseason: str, groups: list[dict[str, Any]], games: list[dict[str, Any]]) -> None:
+    """Replace a season's playoff groups and bracket games."""
+    conn.execute(
+        "DELETE FROM playoff_games WHERE groupno IN (SELECT groupno FROM playoff_groups WHERE yrseason = ?)", (yrseason,)
+    )
+    conn.execute("DELETE FROM playoff_groups WHERE yrseason = ?", (yrseason,))
+    stamp = now_iso()
+    conn.executemany(
+        """INSERT INTO playoff_groups(groupno, yrseason, grade, gender, name, numteams, updated_at)
+           VALUES(:groupno, :yrseason, :grade, :gender, :name, :numteams, :updated_at)""",
+        [{**g, "yrseason": yrseason, "updated_at": stamp} for g in groups],
+    )
+    conn.executemany(
+        """INSERT OR REPLACE INTO playoff_games(
+             tournamentgameno, groupno, round, game, round_label, when_text, venue,
+             team1_teamno, team1_name, team1_seed, team1_score, team1_source_game,
+             team2_teamno, team2_name, team2_seed, team2_score, team2_source_game, winner_teamno)
+           VALUES(:tournamentgameno, :groupno, :round, :game, :round_label, :when_text, :venue,
+             :team1_teamno, :team1_name, :team1_seed, :team1_score, :team1_source_game,
+             :team2_teamno, :team2_name, :team2_seed, :team2_score, :team2_source_game, :winner_teamno)""",
+        games,
+    )

@@ -105,6 +105,10 @@ Flag locations:
 - Discovers tiers/divisions for each grade/gender.
 - Falls back to legacy endpoints if tier discovery fails.
 - Upserts divisions (with the league's division code, e.g. `6MD1H` / tag `D1H`), teams, and games into SQLite.
+- Records each team's town from the division schedules. Town numbers change every season, so towns are matched
+  across seasons by name, after normalizing drift like "RI Cranston" / "Waltham Boys" / "Reading_BZ".
+- Stores playoff brackets (`getGenderGradeGroups.php` + `getBracketGamesJson.php`). Playoff games are already in
+  team schedules (week `PO`) and count toward rankings; brackets are for display.
 - Fetches team schedules in parallel (6 workers).
 - De-dupes by `gameno`; if missing, creates a stable hash ID.
 - Marks missing-score games as `scheduled`; scored games as `final`.
@@ -132,9 +136,24 @@ Generated under `frontend/public/data` (rebuilt from scratch each time; not comm
 
 - `index.json`: all seasons with label (`2025-26`), status, as-of date, and per grade/gender counts
 - `{season}/search.json`: compact team list for the team/town search
+- `{season}/playoffs/{gender}/{grade}.json`: playoff brackets
+- `towns.json` and `towns/{slug}.json`: every town's teams in every season (used for town pages and program history)
 - `{season}/{gender}/{grade}/divisions.json`
 - `{season}/{gender}/{grade}/division-{divisionno}.json`
 - `{season}/team-{teamno}.json`
+
+## Site URLs
+
+Path-based URLs (old query-string links redirect):
+
+- `/2025-26/boys/6th`, `/2025-26/boys/6th/division-1`, `/2025-26/boys/6th/d1h`: rankings
+- `/2025-26/team/44192-parkway-red`: team page (tabs: overview, games, insights, compare, history)
+- `/2025-26/playoffs/boys/6th`: playoff brackets
+- `/towns`, `/towns/natick`: town pages, including "follow a class" (the same graduating class across seasons)
+
+`frontend/scripts/postbuild-seo.mjs` pre-renders an `index.html` for every one of these pages (title, description,
+canonical URL and a plain-HTML version of the content for crawlers), plus the sitemap and redirect stubs for old
+`/team/<id>` links. Its URL helpers mirror `frontend/src/paths.ts`.
 
 ## GitHub Actions
 

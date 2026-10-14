@@ -120,3 +120,16 @@ class SportsiteAPI:
                 "divisionno": str(divisionno),
             },
         )
+
+    def get_gender_grade_groups(self, yrseason: str, grade: int, gender: str) -> list[dict[str, Any]]:
+        """Playoff groups (brackets) for a grade/gender."""
+        return self._post_json(
+            "getGenderGradeGroups.php",
+            {"clientid": self.config.client_id, "yrseason": yrseason, "grade": str(grade), "gender": gender},
+        )
+
+    def get_bracket_games(self, groupno: str) -> list[dict[str, Any]]:
+        return self._post_json(
+            "getBracketGamesJson.php",
+            {"clientid": self.config.client_id, "groupno": str(groupno), "brackettype": "M"},
+        )
