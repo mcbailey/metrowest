@@ -787,13 +787,18 @@ a.chip {
   display: flex;
   gap: 0.25rem;
   overflow-x: auto;
-  border-bottom: 2px solid var(--mw-border);
+  overflow-y: hidden;
+  scrollbar-width: none;
+  /* Drawn as shadows (not borders + negative margins) so the strip never overflows vertically. */
+  box-shadow: inset 0 -2px 0 var(--mw-border);
+}
+
+.tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .tab {
   border: 0;
-  border-bottom: 3px solid transparent;
-  margin-bottom: -2px;
   background: transparent;
   color: #3a5070;
   font: inherit;
@@ -809,7 +814,7 @@ a.chip {
 
 .tab-active {
   color: var(--mw-navy-700);
-  border-bottom-color: var(--mw-red-600);
+  box-shadow: inset 0 -3px 0 var(--mw-red-600);
 }
 
 /* Towns */
