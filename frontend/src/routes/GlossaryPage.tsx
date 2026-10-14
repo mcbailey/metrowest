@@ -7,7 +7,7 @@ export function GlossaryPage() {
   usePageSeo({
     title: "Glossary | MWStats",
     description:
-      "Coach-friendly glossary for MWStats metrics: SoS, power ranking, MW rating, MW points, quality wins, bad losses, and quadrant map categories.",
+      "Coach-friendly glossary for MWStats metrics: SoS, power ranking, MW rating, MW points, quality wins, upset losses, division fit, and quadrant map categories.",
     canonicalPath: "/glossary",
     jsonLd: {
       "@context": "https://schema.org",
@@ -60,8 +60,16 @@ export function GlossaryPage() {
         </article>
 
         <article className="glossary-item">
-          <h3>Bad Losses</h3>
-          <p>Losses to weaker opponents. Close losses (5 or fewer) and losses to top-25% teams are not tagged as bad losses.</p>
+          <h3>Upset Losses</h3>
+          <p>Losses to opponents you were expected to beat. Close losses (5 or fewer) and losses to top-25% teams are not tagged.</p>
+        </article>
+
+        <article className="glossary-item">
+          <h3>Division Fit</h3>
+          <p>
+            How a team's results compare with typical teams in its division and the divisions around it: "Right at home"
+            or "Playing like" the level above or below.
+          </p>
         </article>
 
         <article className="glossary-item">

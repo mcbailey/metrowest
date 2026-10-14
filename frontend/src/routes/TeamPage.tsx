@@ -27,8 +27,8 @@ type TeamInsights = {
   divisionAvgPfPerGame: number;
   divisionAvgPaPerGame: number;
   qualityWins: number;
-  badLosses: number;
-  gameOutcomeTags: Record<string, "Quality Win" | "Bad Loss">;
+  upsetLosses: number;
+  gameOutcomeTags: Record<string, "Quality Win" | "Upset Loss">;
   seasonMarginAvg: number;
   last3MarginAvg: number;
   trendDelta: number;
@@ -535,8 +535,8 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
 
   const finals = finalGames(team.past_games);
   let qualityWins = 0;
-  let badLosses = 0;
-  const gameOutcomeTags: Record<string, "Quality Win" | "Bad Loss"> = {};
+  let upsetLosses = 0;
+  const gameOutcomeTags: Record<string, "Quality Win" | "Upset Loss"> = {};
 
   for (const g of finals) {
     const opponentTeamNo = g.game.opponent_teamno;
@@ -569,13 +569,13 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
       gameOutcomeTags[g.game.gameno] = "Quality Win";
     }
 
-    const badLossCandidate = g.teamScore < g.oppScore && (dropLoss || floor || stumble);
+    const upsetLossCandidate = g.teamScore < g.oppScore && (dropLoss || floor || stumble);
     const closeLoss = g.teamScore < g.oppScore && g.oppScore - g.teamScore <= 5;
     const lostToTop25 = g.teamScore < g.oppScore && overallTop25.has(opponentTeamNo);
 
-    if (badLossCandidate && !closeLoss && !lostToTop25) {
-      badLosses += 1;
-      gameOutcomeTags[g.game.gameno] = "Bad Loss";
+    if (upsetLossCandidate && !closeLoss && !lostToTop25) {
+      upsetLosses += 1;
+      gameOutcomeTags[g.game.gameno] = "Upset Loss";
     }
   }
 
@@ -612,7 +612,7 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
     divisionAvgPfPerGame,
     divisionAvgPaPerGame,
     qualityWins,
-    badLosses,
+    upsetLosses,
     gameOutcomeTags,
     seasonMarginAvg,
     last3MarginAvg,
@@ -1340,7 +1340,7 @@ export function TeamPage() {
             <section className="panel">
               <h3>Coach Insights</h3>
               <p className="meta compact">
-                Quality win rules: higher-division baseline win, top-15% opponent in their division tier, or beating a higher current-power opponent. Bad loss rules: lower-division baseline loss, bottom-15% opponent in their division tier, or losing to a lower current-power opponent. Bad-loss tags are suppressed for losses by 5 or fewer points and for losses to top-25% opponents overall.
+                Quality win rules: higher-division baseline win, top-15% opponent in their division tier, or beating a higher current-power opponent. Upset loss rules: lower-division baseline loss, bottom-15% opponent in their division tier, or losing to a lower current-power opponent. Upset-loss tags are skipped for losses by 5 or fewer points and for losses to top-25% opponents overall.
               </p>
               <div className="summary-grid">
                 <div>
@@ -1356,7 +1356,7 @@ export function TeamPage() {
                   <span className="metric-note"> (weighted criteria)</span>
                 </div>
                 <div>
-                  Bad losses: {insights.badLosses}
+                  Upset losses: {insights.upsetLosses}
                   <span className="metric-note"> (weighted criteria)</span>
                 </div>
                 <div>
