@@ -1,6 +1,7 @@
 import { Link, useLocation, useParams } from "react-router-dom";
 import { useEffect, useMemo, useState, type CSSProperties, type ReactNode } from "react";
 import { loadJson } from "../data";
+import { findSeason, gradeLabel, rankingsHref } from "../season";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
 import { DivisionRankingData, DivisionsData, IndexData, RankingTeam, TeamData, TeamGame } from "../types";
 
@@ -621,6 +622,7 @@ export function TeamPage() {
   const location = useLocation();
 
   const [team, setTeam] = useState<TeamData | null>(null);
+  const [seasonIndex, setSeasonIndex] = useState<IndexData | null>(null);
   const [activeSeason, setActiveSeason] = useState<string | null>(null);
   const [insights, setInsights] = useState<TeamInsights | null>(null);
   const [compareError, setCompareError] = useState<string | null>(null);
@@ -642,7 +644,20 @@ export function TeamPage() {
     return params.get("season");
   }, [location.search]);
 
-  const backTo = location.search ? `/${location.search}` : "/";
+  // Back to the rankings view the visitor came from, or else to this team's division.
+  const cameFromRankings = new URLSearchParams(location.search).has("gender");
+  const backTo =
+    cameFromRankings
+      ? `/${location.search}`
+      : team && activeSeason && team.summary.gender && team.summary.grade !== null
+      ? rankingsHref({
+          season: activeSeason,
+          gender: team.summary.gender,
+          grade: team.summary.grade,
+          division: team.summary.divisionno ?? "ALL",
+        })
+      : "/";
+  const seasonLabelText = findSeason(seasonIndex, activeSeason)?.label;
   const canonicalPath = teamno ? `/team/${teamno}` : "/team";
   const seoTitle =
     team && team.team_name
@@ -714,6 +729,7 @@ export function TeamPage() {
         setConnectionTeamNameByNo({});
 
         const index = await loadJson<IndexData>("data/index.json");
+        setSeasonIndex(index);
         const seasonCandidates = [
           seasonFromQuery,
           index.default.yrseason,
@@ -1100,14 +1116,16 @@ export function TeamPage() {
     <div className={`stack ${isSouthboroughTeam ? "southborough-theme" : ""}`}>
       <p>
         <Link to={backTo} className="home-link">
-          Back to rankings
+          ← Back to {cameFromRankings ? "rankings" : `${gradeLabel(team.summary.grade)} ${genderLabel(team.summary.gender)} ${team.summary.division_tag ?? "division"} rankings`}
         </Link>
       </p>
 
       <section className="panel">
         <h2>{team.team_name}</h2>
         <p className="meta">
-          {genderLabel(team.summary.gender)} {team.summary.grade}th | {team.summary.division_name}
+          {gradeLabel(team.summary.grade)} {genderLabel(team.summary.gender)} | {team.summary.division_name}
+          {team.summary.division_tag ? ` (${team.summary.division_tag})` : ""}
+          {seasonLabelText ? ` | ${seasonLabelText} season` : ""}
         </p>
         <p className="meta compact">
           Division record: {team.summary.wins}-{team.summary.losses}
@@ -1182,7 +1200,10 @@ export function TeamPage() {
                     <td>{renderTeamNameLink(g.opponent_teamno, g.opponent_name)}</td>
                     <td>{scores.team ?? "-"}</td>
                     <td>{scores.opp ?? "-"}</td>
-                    <td>{outcome(scores.team, scores.opp)}</td>
+                    <td>
+                      {outcome(scores.team, scores.opp)}
+                      {g.forfeit ? <span className="meta"> (forfeit)</span> : null}
+                    </td>
                     <td>
                       {tag ? (
                         <span className={`game-tag ${tag === "Quality Win" ? "game-tag-win" : "game-tag-loss"}`}>

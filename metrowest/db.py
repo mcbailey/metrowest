@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import sqlite3
+import hashlib
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -115,7 +116,21 @@ def init_db(conn: sqlite3.Connection) -> None:
     if "sos_adj" not in snapshot_cols:
         conn.execute("ALTER TABLE snapshots ADD COLUMN sos_adj REAL NOT NULL DEFAULT 0")
 
+    _add_missing_columns(conn, "divisions", {"code": "TEXT", "tag": "TEXT"})
+    # League rating/points from the standings feed, kept so rankings can be recomputed without re-scraping.
+    _add_missing_columns(conn, "teams", {"mw_rating": "REAL", "mw_points": "INT"})
+    # status: in_progress | final. as_of: date of the latest scored game. data_hash: fingerprint of the
+    # season's games, so unchanged scrapes don't rewrite rankings or output files.
+    _add_missing_columns(conn, "seasons", {"status": "TEXT", "as_of": "TEXT", "data_hash": "TEXT", "updated_at": "TEXT"})
+
     conn.commit()
+
+
+def _add_missing_columns(conn: sqlite3.Connection, table: str, columns: dict[str, str]) -> None:
+    existing = {row["name"] for row in conn.execute(f"PRAGMA table_info({table})")}
+    for name, decl in columns.items():
+        if name not in existing:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {name} {decl}")
 
 
 def now_iso() -> str:
@@ -123,17 +138,69 @@ def now_iso() -> str:
 
 
 def upsert_season(conn: sqlite3.Connection, yrseason: str, label: str, is_current: bool) -> None:
+    if is_current:
+        conn.execute("UPDATE seasons SET is_current = 0 WHERE season_id <> ?", (yrseason,))
     conn.execute(
         """
         INSERT INTO seasons(season_id, yrseason, label, is_current, discovered_at)
         VALUES(?, ?, ?, ?, ?)
         ON CONFLICT(season_id) DO UPDATE SET
           label=excluded.label,
-          is_current=excluded.is_current,
-          discovered_at=excluded.discovered_at
+          is_current=MAX(seasons.is_current, excluded.is_current)
         """,
         (yrseason, yrseason, label, int(is_current), now_iso()),
     )
+
+
+def get_season(conn: sqlite3.Connection, yrseason: str) -> sqlite3.Row | None:
+    return conn.execute("SELECT * FROM seasons WHERE season_id = ?", (yrseason,)).fetchone()
+
+
+def list_seasons(conn: sqlite3.Connection) -> list[sqlite3.Row]:
+    return list(conn.execute("SELECT * FROM seasons ORDER BY yrseason DESC"))
+
+
+def update_season_state(conn: sqlite3.Connection, yrseason: str, *, status: str, as_of: str | None, data_hash: str) -> None:
+    conn.execute(
+        "UPDATE seasons SET status = ?, as_of = ?, data_hash = ?, updated_at = ? WHERE season_id = ?",
+        (status, as_of, data_hash, now_iso(), yrseason),
+    )
+
+
+def season_game_dates(conn: sqlite3.Connection, yrseason: str) -> tuple[str | None, str | None]:
+    """(date of the latest scored game, date of the earliest unscored game)."""
+    row = conn.execute(
+        """
+        SELECT MAX(CASE WHEN status = 'final' THEN date END) AS last_final,
+               MIN(CASE WHEN status <> 'final' THEN date END) AS next_scheduled
+        FROM games WHERE yrseason = ?
+        """,
+        (yrseason,),
+    ).fetchone()
+    return row["last_final"], row["next_scheduled"]
+
+
+def season_fingerprint(conn: sqlite3.Connection, yrseason: str) -> str:
+    """Hash of everything that affects rankings or output for a season."""
+    digest = hashlib.sha256()
+    queries = [
+        ("SELECT divisionno, grade, gender, divisiontier, name, code FROM divisions WHERE yrseason = ? ORDER BY divisionno", (yrseason,)),
+        ("SELECT teamno, divisionno, town, name, mw_rating, mw_points FROM teams WHERE yrseason = ? ORDER BY teamno", (yrseason,)),
+        (
+            """SELECT gameno, date, starttime, location, divisionno, home_teamno, away_teamno, home_score, away_score, status
+               FROM games WHERE yrseason = ? ORDER BY gameno""",
+            (yrseason,),
+        ),
+        (
+            """SELECT tg.teamno, tg.gameno, tg.is_home FROM team_games tg JOIN teams t ON t.teamno = tg.teamno
+               WHERE t.yrseason = ? ORDER BY tg.teamno, tg.gameno""",
+            (yrseason,),
+        ),
+    ]
+    for sql, params in queries:
+        for row in conn.execute(sql, params):
+            digest.update(repr(tuple(row)).encode("utf-8"))
+    return digest.hexdigest()
 
 
 def upsert_division(
@@ -144,20 +211,24 @@ def upsert_division(
     gender: str,
     divisiontier: str | None,
     name: str,
+    code: str | None = None,
+    tag: str | None = None,
 ) -> None:
     conn.execute(
         """
-        INSERT INTO divisions(divisionno, yrseason, grade, gender, divisiontier, name, updated_at)
-        VALUES(?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO divisions(divisionno, yrseason, grade, gender, divisiontier, name, code, tag, updated_at)
+        VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(divisionno) DO UPDATE SET
           yrseason=excluded.yrseason,
           grade=excluded.grade,
           gender=excluded.gender,
           divisiontier=excluded.divisiontier,
           name=excluded.name,
+          code=COALESCE(excluded.code, divisions.code),
+          tag=COALESCE(excluded.tag, divisions.tag),
           updated_at=excluded.updated_at
         """,
-        (divisionno, yrseason, grade, gender, divisiontier, name, now_iso()),
+        (divisionno, yrseason, grade, gender, divisiontier, name, code, tag, now_iso()),
     )
 
 
@@ -170,11 +241,13 @@ def upsert_team(
     divisionno: str,
     town: str | None,
     name: str,
+    mw_rating: float | None = None,
+    mw_points: int | None = None,
 ) -> None:
     conn.execute(
         """
-        INSERT INTO teams(teamno, yrseason, grade, gender, divisionno, town, name, updated_at)
-        VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO teams(teamno, yrseason, grade, gender, divisionno, town, name, mw_rating, mw_points, updated_at)
+        VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(teamno) DO UPDATE SET
           yrseason=excluded.yrseason,
           grade=excluded.grade,
@@ -182,9 +255,11 @@ def upsert_team(
           divisionno=excluded.divisionno,
           town=excluded.town,
           name=excluded.name,
+          mw_rating=excluded.mw_rating,
+          mw_points=excluded.mw_points,
           updated_at=excluded.updated_at
         """,
-        (teamno, yrseason, grade, gender, divisionno, town, name, now_iso()),
+        (teamno, yrseason, grade, gender, divisionno, town, name, mw_rating, mw_points, now_iso()),
     )
 
 
@@ -246,7 +321,7 @@ def get_divisions(conn: sqlite3.Connection, yrseason: str) -> list[sqlite3.Row]:
     return list(
         conn.execute(
             """
-            SELECT divisionno, yrseason, grade, gender, divisiontier, name
+            SELECT divisionno, yrseason, grade, gender, divisiontier, name, code, tag
             FROM divisions
             WHERE yrseason = ?
             ORDER BY gender, grade, name
@@ -260,7 +335,8 @@ def get_teams_for_division(conn: sqlite3.Connection, divisionno: str) -> list[sq
     return list(
         conn.execute(
             """
-            SELECT t.teamno, t.yrseason, t.grade, t.gender, t.divisionno, t.town, t.name, d.divisiontier
+            SELECT t.teamno, t.yrseason, t.grade, t.gender, t.divisionno, t.town, t.name,
+                   t.mw_rating, t.mw_points, d.divisiontier
             FROM teams t
             JOIN divisions d ON d.divisionno = t.divisionno
             WHERE t.divisionno = ?
@@ -308,10 +384,11 @@ def get_games_for_teams(conn: sqlite3.Connection, teamnos: list[str], yrseason: 
 
 
 def replace_snapshots(conn: sqlite3.Connection, snapshot_date: str, rows: list[dict[str, Any]]) -> None:
+    """Replace the season's rankings. Only the latest snapshot per season is kept."""
     if not rows:
         return
     yrseason = rows[0]["yrseason"]
-    conn.execute("DELETE FROM snapshots WHERE snapshot_date = ? AND yrseason = ?", (snapshot_date, yrseason))
+    conn.execute("DELETE FROM snapshots WHERE yrseason = ?", (yrseason,))
     conn.executemany(
         """
         INSERT INTO snapshots(

@@ -38,6 +38,10 @@ export function Filters({
     });
   };
 
+  const pick = (key: "gender" | "grade", value: string) => {
+    onChange({ ...filters, [key]: key === "grade" ? Number(value) : value, divisionno: "" });
+  };
+
   return (
     <div className="filters">
       <label>
@@ -50,26 +54,32 @@ export function Filters({
           ))}
         </select>
       </label>
-      <label>
-        Gender
-        <select value={filters.gender} onChange={update("gender")}>
-          {genderOptions.map((o) => (
-            <option key={o.value} value={o.value}>
-              {o.label}
-            </option>
-          ))}
-        </select>
-      </label>
-      <label>
-        Grade
-        <select value={String(filters.grade)} onChange={update("grade")}>
-          {gradeOptions.map((o) => (
-            <option key={o.value} value={o.value}>
-              {o.label}
-            </option>
-          ))}
-        </select>
-      </label>
+      <div className="chip-group" role="group" aria-label="Gender">
+        {genderOptions.map((o) => (
+          <button
+            type="button"
+            key={o.value}
+            className={`chip ${filters.gender === o.value ? "chip-active" : ""}`}
+            aria-pressed={filters.gender === o.value}
+            onClick={() => pick("gender", o.value)}
+          >
+            {o.label}
+          </button>
+        ))}
+      </div>
+      <div className="chip-group" role="group" aria-label="Grade">
+        {gradeOptions.map((o) => (
+          <button
+            type="button"
+            key={o.value}
+            className={`chip ${String(filters.grade) === o.value ? "chip-active" : ""}`}
+            aria-pressed={String(filters.grade) === o.value}
+            onClick={() => pick("grade", o.value)}
+          >
+            {o.label}
+          </button>
+        ))}
+      </div>
       <label>
         Division
         <select value={filters.divisionno} onChange={update("divisionno")}>

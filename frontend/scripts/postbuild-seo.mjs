@@ -91,7 +91,8 @@ async function generateUrls() {
       if (!file.name.startsWith("team-") || !file.name.endsWith(".json")) continue;
       const teamNo = file.name.slice("team-".length, -".json".length).trim();
       if (!teamNo) continue;
-      urls.add(`/team/${teamNo}`);
+      // Team numbers are per season; the team page finds current-season teams without a season param.
+      urls.add(seasonDir.name === index.current ? `/team/${teamNo}` : `/team/${teamNo}?season=${seasonDir.name}`);
     }
   }
 

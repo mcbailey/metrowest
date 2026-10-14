@@ -1,13 +1,48 @@
+export type SeasonGroup = {
+  gender: "M" | "F";
+  grade: number;
+  divisions: number;
+  teams: number;
+};
+
+export type SeasonEntry = {
+  yrseason: string;
+  label: string;
+  status?: "final" | "in_progress" | string;
+  is_current?: boolean;
+  snapshot_date?: string;
+  team_count?: number;
+  genders: Array<"M" | "F">;
+  grades: number[];
+  groups?: SeasonGroup[];
+};
+
 export type IndexData = {
   generated_at: string | null;
   ranking_profile?: "classic" | "division-aware" | string | null;
+  current?: string | null;
   default: { yrseason: string; gender: "M" | "F"; grade: number };
-  seasons: Array<{
-    yrseason: string;
-    label: string;
-    genders: Array<"M" | "F">;
-    grades: number[];
-  }>;
+  seasons: SeasonEntry[];
+};
+
+export type SearchTeam = {
+  teamno: string;
+  name: string;
+  town?: string | null;
+  gender: "M" | "F";
+  grade: number;
+  divisionno: string;
+  division_tag?: string | null;
+  divisiontier?: string | null;
+  rank: number;
+  wins: number;
+  losses: number;
+  ties: number;
+};
+
+export type SearchData = {
+  yrseason: string;
+  teams: SearchTeam[];
 };
 
 export type DivisionsData = {
@@ -15,7 +50,13 @@ export type DivisionsData = {
   gender: "M" | "F";
   grade: number;
   snapshot_date: string;
-  divisions: Array<{ divisionno: string; name: string; divisiontier?: string | null }>;
+  divisions: Array<{
+    divisionno: string;
+    name: string;
+    divisiontier?: string | null;
+    code?: string | null;
+    tag?: string | null;
+  }>;
 };
 
 export type RankingTeam = {
@@ -44,6 +85,8 @@ export type DivisionRankingData = {
   divisionno: string;
   division_name: string;
   divisiontier?: string | null;
+  code?: string | null;
+  tag?: string | null;
   rankings: RankingTeam[];
 };
 
@@ -68,6 +111,7 @@ export type TeamData = {
     mw_points?: number | null;
     divisionno: string | null;
     division_name: string | null;
+    division_tag?: string | null;
     grade: number | null;
     gender: "M" | "F" | null;
     games_played_total?: number;
@@ -95,4 +139,5 @@ export type TeamGame = {
   is_home: boolean | null;
   opponent_teamno: string | null;
   opponent_name: string | null;
+  forfeit?: boolean;
 };

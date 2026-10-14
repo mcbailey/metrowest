@@ -2,18 +2,19 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
-from .config import SCRAPE_CONFIG
-from .db import connect_db, latest_snapshot_date
-from .util import ensure_dir
+from .config import RANKING_CONFIG, SCRAPE_CONFIG
+from .db import connect_db, init_db, latest_snapshot_date, list_seasons
+from .util import ensure_dir, season_label
 
 
 def _write_json(path: Path, payload: object) -> None:
     ensure_dir(path.parent)
-    path.write_text(json.dumps(payload, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(payload, ensure_ascii=True, separators=(",", ":")) + "\n", encoding="utf-8")
 
 
 def _safe_int(value: Any) -> int | None:
@@ -51,7 +52,7 @@ def _snapshot_rows(conn, yrseason: str, snapshot_date: str, include_mw: bool, in
                    s.power, s.rank,
                    {mw_cols}
                    t.name AS team_name, t.town AS town,
-                   d.name AS division_name, d.divisiontier
+                   d.name AS division_name, d.divisiontier, d.code AS division_code, d.tag AS division_tag
             FROM snapshots s
             JOIN teams t ON t.teamno = s.teamno
             JOIN divisions d ON d.divisionno = s.divisionno
@@ -63,34 +64,19 @@ def _snapshot_rows(conn, yrseason: str, snapshot_date: str, include_mw: bool, in
     )
 
 
-def build_json(db_path: Path, out_dir: Path, yrseason: str, ranking_profile: str | None = None) -> None:
-    conn = connect_db(db_path)
+def _build_season(conn, out_dir: Path, yrseason: str) -> dict[str, Any] | None:
+    """Write all JSON for one season. Returns the season's entry for index.json, or None if it has no rankings."""
     snapshot_date = latest_snapshot_date(conn, yrseason)
     if not snapshot_date:
-        _write_json(
-            out_dir / "index.json",
-            {
-                "generated_at": None,
-                "ranking_profile": ranking_profile,
-                "default": {"yrseason": yrseason, "gender": "M", "grade": 3},
-                "seasons": [
-                    {
-                        "yrseason": yrseason,
-                        "label": f"Season {yrseason}",
-                        "genders": ["M", "F"],
-                        "grades": [3, 4, 5, 6, 7, 8],
-                    }
-                ],
-            },
-        )
-        conn.close()
-        return
+        return None
 
     snapshot_cols = _snapshot_columns(conn)
     include_mw = "mw_rating" in snapshot_cols and "mw_points" in snapshot_cols
     include_sos_adj = "sos_adj" in snapshot_cols
 
     rows = [dict(r) for r in _snapshot_rows(conn, yrseason, snapshot_date, include_mw, include_sos_adj)]
+    if not rows:
+        return None
 
     divisions_by_group: dict[tuple[str, int], dict[str, dict]] = defaultdict(dict)
     division_rows: dict[str, list[dict]] = defaultdict(list)
@@ -104,11 +90,15 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str, ranking_profile: str
                 "divisionno": dno,
                 "name": r["division_name"],
                 "divisiontier": r.get("divisiontier"),
+                "code": r.get("division_code"),
+                "tag": r.get("division_tag"),
             }
 
         division_meta_by_no[dno] = {
             "division_name": r["division_name"],
             "divisiontier": r.get("divisiontier"),
+            "code": r.get("division_code"),
+            "tag": r.get("division_tag"),
             "grade": int(r["grade"]),
             "gender": r["gender"],
         }
@@ -135,23 +125,6 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str, ranking_profile: str
 
     available_genders = sorted({r["gender"] for r in rows})
     available_grades = sorted({int(r["grade"]) for r in rows})
-    default_gender = rows[0]["gender"] if rows else "M"
-    default_grade = int(rows[0]["grade"]) if rows else 3
-
-    index_payload = {
-        "generated_at": snapshot_date,
-        "ranking_profile": ranking_profile,
-        "default": {"yrseason": yrseason, "gender": default_gender, "grade": default_grade},
-        "seasons": [
-            {
-                "yrseason": yrseason,
-                "label": f"Season {yrseason}",
-                "genders": available_genders,
-                "grades": available_grades,
-            }
-        ],
-    }
-    _write_json(out_dir / "index.json", index_payload)
 
     for (gender, grade), div_map in divisions_by_group.items():
         divisions_payload = {
@@ -159,7 +132,10 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str, ranking_profile: str
             "gender": gender,
             "grade": grade,
             "snapshot_date": snapshot_date,
-            "divisions": sorted(div_map.values(), key=lambda d: (d.get("divisiontier") or "", d["name"], d["divisionno"])),
+            "divisions": sorted(
+                div_map.values(),
+                key=lambda d: (int(d.get("divisiontier") or 99), d.get("tag") or "", d["divisionno"]),
+            ),
         }
         _write_json(out_dir / yrseason / gender / str(grade) / "divisions.json", divisions_payload)
 
@@ -173,18 +149,11 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str, ranking_profile: str
             "divisionno": dno,
             "division_name": meta_row["division_name"],
             "divisiontier": meta_row.get("divisiontier"),
+            "code": meta_row.get("code"),
+            "tag": meta_row.get("tag"),
             "rankings": teams,
         }
         _write_json(out_dir / yrseason / meta_row["gender"] / str(meta_row["grade"]) / f"division-{dno}.json", payload)
-
-        csv_path = out_dir / yrseason / meta_row["gender"] / str(meta_row["grade"]) / f"division-{dno}.csv"
-        ensure_dir(csv_path.parent)
-        csv_lines = ["rank,teamno,name,wins,losses,ties,pf,pa,diff,sos,sos_adj,power,mw_rating,mw_points"]
-        for t in teams:
-            csv_lines.append(
-                f"{t['rank']},{t['teamno']},\"{t['name']}\",{t['wins']},{t['losses']},{t['ties']},{t['pf']},{t['pa']},{t['diff']},{t['sos']},{t['sos_adj']},{t['power']},{t.get('mw_rating', '') if t.get('mw_rating') is not None else ''},{t.get('mw_points', '') if t.get('mw_points') is not None else ''}"
-            )
-        csv_path.write_text("\n".join(csv_lines) + "\n", encoding="utf-8")
 
     teams_meta = {
         r["teamno"]: {
@@ -193,9 +162,33 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str, ranking_profile: str
             "divisionno": r["divisionno"],
             "division_name": r["division_name"],
             "divisiontier": r.get("divisiontier"),
+            "division_tag": r.get("division_tag"),
         }
         for r in rows
     }
+
+    # Compact team list for the site-wide team/town search.
+    search_rows = sorted(
+        (
+            {
+                "teamno": r["teamno"],
+                "name": r["team_name"],
+                "town": r["town"],
+                "gender": r["gender"],
+                "grade": int(r["grade"]),
+                "divisionno": r["divisionno"],
+                "division_tag": r.get("division_tag"),
+                "divisiontier": r.get("divisiontier"),
+                "rank": r["rank"],
+                "wins": r["wins"],
+                "losses": r["losses"],
+                "ties": r["ties"],
+            }
+            for r in rows
+        ),
+        key=lambda t: (t["gender"], t["grade"], t["name"].lower(), t["teamno"]),
+    )
+    _write_json(out_dir / yrseason / "search.json", {"yrseason": yrseason, "teams": search_rows})
 
     linked_games = list(
         conn.execute(
@@ -294,6 +287,7 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str, ranking_profile: str
             "is_home": is_home_value,
             "opponent_teamno": str(opp_teamno) if opp_teamno not in (None, "") else None,
             "opponent_name": opponent_name,
+            "forfeit": str(raw.get("forfeitgame") or "").upper() == "YES",
         }
 
         if team_score is not None and opp_score is not None:
@@ -323,6 +317,7 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str, ranking_profile: str
             "mw_points": int(snapshot["mw_points"]) if snapshot and snapshot.get("mw_points") is not None else None,
             "divisionno": snapshot["divisionno"] if snapshot else None,
             "division_name": snapshot["division_name"] if snapshot else None,
+            "division_tag": snapshot.get("division_tag") if snapshot else None,
             "grade": int(snapshot["grade"]) if snapshot else None,
             "gender": snapshot["gender"] if snapshot else None,
             "games_played_total": len(bins["past"]),
@@ -340,14 +335,73 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str, ranking_profile: str
         }
         _write_json(out_dir / yrseason / f"team-{tid}.json", payload)
 
+    return {
+        "yrseason": yrseason,
+        "label": season_label(yrseason),
+        "snapshot_date": snapshot_date,
+        "genders": available_genders,
+        "grades": available_grades,
+        "team_count": len(teams_meta),
+        "groups": [
+            {"gender": gender, "grade": grade, "divisions": len(div_map), "teams": sum(len(division_rows[d]) for d in div_map)}
+            for (gender, grade), div_map in sorted(divisions_by_group.items(), key=lambda kv: (kv[0][0] != "M", kv[0][1]))
+        ],
+    }
+
+
+def build_json(db_path: Path, out_dir: Path, yrseason: str | None = None, ranking_profile: str | None = None) -> None:
+    """Rebuild the site's data folder from the database: every season, or just `yrseason`."""
+    conn = connect_db(db_path)
+    init_db(conn)
+    seasons = [dict(r) for r in list_seasons(conn)]
+    targets = [s for s in seasons if yrseason in (None, "auto", s["yrseason"])]
+
+    ensure_dir(out_dir)
+    entries: list[dict[str, Any]] = []
+    for season in targets:
+        season_dir = out_dir / season["yrseason"]
+        # The folder is fully generated; clear it so teams/divisions that disappeared don't linger.
+        if season_dir.exists():
+            shutil.rmtree(season_dir)
+        entry = _build_season(conn, out_dir, season["yrseason"])
+        if entry is None:
+            continue
+        entry["status"] = season.get("status") or "in_progress"
+        entry["is_current"] = bool(season.get("is_current"))
+        entries.append(entry)
     conn.close()
+
+    if yrseason not in (None, "auto"):
+        # Partial rebuild: keep the other seasons already listed in index.json.
+        index_path = out_dir / "index.json"
+        if index_path.exists():
+            existing = json.loads(index_path.read_text(encoding="utf-8")).get("seasons", [])
+            entries += [e for e in existing if e["yrseason"] != yrseason]
+
+    entries.sort(key=lambda e: e["yrseason"], reverse=True)
+    current = next((e for e in entries if e.get("is_current")), entries[0] if entries else None)
+
+    _write_json(
+        out_dir / "index.json",
+        {
+            "generated_at": max((e["snapshot_date"] for e in entries), default=None),
+            "ranking_profile": ranking_profile or RANKING_CONFIG.profile,
+            "current": current["yrseason"] if current else None,
+            "default": {
+                "yrseason": current["yrseason"] if current else None,
+                "gender": "M",
+                "grade": 6,
+            },
+            "seasons": entries,
+        },
+    )
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build frontend JSON from SQLite")
     parser.add_argument("--db-path", default=str(SCRAPE_CONFIG.db_path))
     parser.add_argument("--out", default="frontend/public/data")
-    parser.add_argument("--yrseason", default=SCRAPE_CONFIG.default_yrseason)
+    parser.add_argument("--yrseason", default=None, help="Only rebuild this season (default: all seasons)")
     parser.add_argument("--ranking-profile", choices=("classic", "division-aware"), default=None)
     return parser.parse_args()
 

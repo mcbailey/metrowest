@@ -1,18 +1,50 @@
-name: Scrape and Build
+name: Scrape and Deploy
+
+# One workflow for everything:
+# - schedule: checks the source daily. Off-season it finds nothing new and stops without deploying.
+# - push to main: rebuilds the site from the stored database (no scrape) and deploys.
+# - manual run: scrapes and deploys; tick "force" to re-scrape and re-rank even if nothing changed.
+#
+# The SQLite database is kept as an asset on the "data" release (not in git), so the repo stays small.
 
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: Re-scrape and re-rank even if the season looks final/unchanged
+        type: boolean
+        default: false
   schedule:
     - cron: "0 11 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "frontend/**"
+      - "metrowest/**"
+      - "requirements.txt"
+      - ".github/workflows/scrape_and_build.yml"
 
 permissions:
   contents: write
   pages: write
   id-token: write
 
+concurrency:
+  group: scrape-and-deploy
+  cancel-in-progress: false
+
+env:
+  DATA_RELEASE: data
+  DB_ASSET: metrowest.sqlite.gz
+
 jobs:
-  scrape-build:
+  build:
     runs-on: ubuntu-latest
+    outputs:
+      deploy: ${{ steps.decide.outputs.deploy }}
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,50 +57,60 @@ jobs:
       - name: Install Python deps
         run: pip install -r requirements.txt
 
-      - name: Scrape + compute + JSON
+      - name: Download database
         run: |
-          python -m metrowest.scrape \
-            --yrseason 2026 \
-            --db-path data/metrowest.sqlite \
-            --ranking-profile division-aware \
-            --out-json frontend/public/data \
-            --log-level INFO
+          gh release download "$DATA_RELEASE" --pattern "$DB_ASSET" --dir data --clobber
+          gunzip -f "data/$DB_ASSET"
+
+      - name: Scrape + rank
+        id: scrape
+        if: github.event_name != 'push'
+        run: python -m metrowest.scrape --yrseason auto ${{ inputs.force && '--force' || '' }}
+
+      - name: Upload database
+        if: steps.scrape.outputs.changed == 'true'
+        run: |
+          gzip -kf data/metrowest.sqlite
+          gh release upload "$DATA_RELEASE" "data/$DB_ASSET" --clobber
+
+      - name: Decide whether to deploy
+        id: decide
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "${{ steps.scrape.outputs.changed }}" = "true" ]; then
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes; skipping deploy."
+          fi
+
+      - name: Build JSON
+        if: steps.decide.outputs.deploy == 'true'
+        run: python -m metrowest.build_json --out frontend/public/data
 
       - name: Setup Node
+        if: steps.decide.outputs.deploy == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-
-      - name: Install frontend deps
-        working-directory: frontend
-        run: npm install
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
 
       - name: Build frontend
+        if: steps.decide.outputs.deploy == 'true'
         working-directory: frontend
-        run: npm run build
-
-      - name: Commit updated data
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/metrowest.sqlite frontend/public/data
-          if ! git diff --cached --quiet; then
-            git commit -m "chore(data): daily scrape update"
-            git push
-          else
-            echo "No data changes to commit"
-          fi
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+          npm ci
+          npm run build
 
       - name: Upload Pages artifact
+        if: steps.decide.outputs.deploy == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: frontend/dist
 
   deploy:
-    needs: scrape-build
+    needs: build
+    if: needs.build.outputs.deploy == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

@@ -8,12 +8,17 @@ from pathlib import Path
 class ScrapeConfig:
     base_url: str = "https://sportsite2.com"
     client_id: str = "metrowbb"
-    default_yrseason: str = "2026"
+    # Seasons are auto-detected from the source; see metrowest/season.py.
+    default_yrseason: str = "auto"
+    backfill_first_season: int = 2020
     default_grades: tuple[int, ...] = (3, 4, 5, 6, 7, 8)
     default_genders: tuple[str, ...] = ("M", "F")
     request_timeout_s: int = 30
     request_retries: int = 3
     retry_backoff_s: float = 1.0
+    max_workers: int = 6
+    # A season is considered final once its last scored game is this old and nothing is scheduled ahead.
+    season_final_after_days: int = 21
     db_path: Path = field(default_factory=lambda: Path("data/metrowest.sqlite"))
 
 
@@ -31,6 +36,7 @@ class RankingConfig:
     base_div1_elo: float = 1650.0
     division_step_elo: float = 50.0
     grade4_special_grade: int = 4
+    # 4th grade has no Division 3 (tiers 1,2,4,5,6,7) and D2 seeds above D1; applies to every season.
     grade4_tier_baselines: dict[int, float] = field(
         default_factory=lambda: {
             1: 1600.0,

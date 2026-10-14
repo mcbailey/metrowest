@@ -1,22 +1,28 @@
 from __future__ import annotations
 
 import argparse
-from dataclasses import replace
 import json
 import logging
+import os
+from concurrent.futures import ThreadPoolExecutor
+from dataclasses import replace
 from datetime import date
 from pathlib import Path
 from typing import Any
 
 from .api import SportsiteAPI
-from .config import RANKING_CONFIG, SCRAPE_CONFIG
+from .config import RANKING_CONFIG, SCRAPE_CONFIG, RankingConfig, ScrapeConfig
 from .db import (
     connect_db,
     get_divisions,
     get_games_for_teams,
+    get_season,
     get_teams_for_division,
     init_db,
     replace_snapshots,
+    season_fingerprint,
+    season_game_dates,
+    update_season_state,
     upsert_division,
     upsert_game,
     upsert_season,
@@ -24,7 +30,17 @@ from .db import (
     upsert_team_game,
 )
 from .ranking import compute_division_rankings
-from .util import game_hash_id, normalize_date, parse_genders, parse_grades, setup_logging, to_float, to_int
+from .season import detect_active_season, is_season_final
+from .util import (
+    game_hash_id,
+    normalize_date,
+    parse_genders,
+    parse_grades,
+    season_label,
+    setup_logging,
+    to_float,
+    to_int,
+)
 
 LOG = logging.getLogger(__name__)
 
@@ -102,8 +118,23 @@ def _normalize_game(
     team_score = to_int(row.get("teamscore"))
     opp_score = to_int(row.get("opponentscore"))
 
+    # Forfeits: the league records the official result as 2-0 for the winner, even when a game was played
+    # (raw scores then disagree depending on which team's row we read). Double forfeits stay unscored.
+    forfeit = str(row.get("forfeitgame") or "").upper() == "YES"
+    wonlost = str(row.get("wonlost") or "").upper()
+    double_forfeit = str(row.get("officialscore") or "").replace(" ", "").upper() == "F,F"
+    if forfeit:
+        if double_forfeit:
+            team_score = opp_score = None
+        elif wonlost == "W":
+            team_score, opp_score = 2, 0
+        elif wonlost == "L":
+            team_score, opp_score = 0, 2
+        else:
+            team_score = opp_score = None
+
     # Some responses provide scorehome as a comma pair like "69,50".
-    if team_score is None or opp_score is None:
+    if not forfeit and (team_score is None or opp_score is None):
         pair_source = row.get("scorehome") or row.get("scoreaway")
         pair_text = str(pair_source or "")
         if "," in pair_text:
@@ -133,7 +164,7 @@ def _normalize_game(
             elif teamno == away_teamno:
                 home_score, away_score = opp_score, team_score
 
-    if home_score is None and away_score is None and score_home is not None and score_away is not None:
+    if not forfeit and home_score is None and away_score is None and score_home is not None and score_away is not None:
         home_score, away_score = score_home, score_away
 
     status = "final" if home_score is not None and away_score is not None else "scheduled"
@@ -192,89 +223,91 @@ def discover_divisions(api: SportsiteAPI, yrseason: str, grade: int, gender: str
         return []
 
 
+def _fetch_team_games(api: SportsiteAPI, yrseason: str, teamno: str, divisionno: str) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for label, fetch in (("team schedule", api.get_team_schedule), ("nl schedule", api.get_team_nl_schedule)):
+        try:
+            rows.extend(fetch(yrseason, teamno) or [])
+        except Exception as err:  # noqa: BLE001
+            LOG.warning("%s failed team=%s division=%s: %s", label, teamno, divisionno, err)
+    # Some endpoints answer "no games" with a status object instead of an empty list.
+    return [r for r in rows if isinstance(r, dict) and ("gameno" in r or "gamedate" in r)]
+
+
 def scrape_season(
     yrseason: str,
     grades: list[int],
     genders: list[str],
-    db_path: Path,
-    ranking_config = RANKING_CONFIG,
+    conn,
+    api: SportsiteAPI,
+    scrape_config: ScrapeConfig = SCRAPE_CONFIG,
 ) -> None:
-    api = SportsiteAPI(SCRAPE_CONFIG)
-    conn = connect_db(db_path)
-    init_db(conn)
-
-    upsert_season(conn, yrseason, f"Season {yrseason}", True)
-    conn.commit()
-
-    standings_metrics_by_team: dict[str, dict[str, float | int | None]] = {}
-
+    """Fetch divisions, teams and games for one season into the database."""
     for gender in genders:
         for grade in grades:
-            LOG.info("discovering divisions yrseason=%s grade=%s gender=%s", yrseason, grade, gender)
             divisions = discover_divisions(api, yrseason, grade, gender)
-            LOG.info("found %s divisions for grade=%s gender=%s", len(divisions), grade, gender)
+            divisions = [d for d in divisions if isinstance(d, dict) and str(d.get("divisionno") or "").strip()]
+            LOG.info("yrseason=%s %s%s: %s divisions", yrseason, grade, gender, len(divisions))
 
+            team_jobs: list[tuple[str, str]] = []
             for division in divisions:
-                divisionno = str(division.get("divisionno") or "").strip()
-                if not divisionno:
-                    continue
+                divisionno = str(division["divisionno"]).strip()
                 div_tier = str(division.get("divisiontier") or "").strip() or None
                 div_name = _division_name(division, grade, gender, division.get("_tiername"))
-                upsert_division(conn, divisionno, yrseason, grade, gender, div_tier, div_name)
+                upsert_division(
+                    conn,
+                    divisionno,
+                    yrseason,
+                    grade,
+                    gender,
+                    div_tier,
+                    div_name,
+                    code=str(division.get("divisionid") or "").strip() or None,
+                    tag=str(division.get("divisiontag") or "").strip() or None,
+                )
 
-                team_rows: list[dict[str, Any]] = []
                 try:
-                    team_rows = api.get_division_standings(divisionno)
+                    team_rows = api.get_division_standings(divisionno) or []
                 except Exception as err:  # noqa: BLE001
                     LOG.warning("standings failed division=%s: %s", divisionno, err)
+                    team_rows = []
 
-                seen_teamnos: set[str] = set()
                 for t in team_rows:
+                    if not isinstance(t, dict):
+                        continue
                     teamno = str(t.get("teamno") or "").strip()
                     if not teamno:
                         continue
-                    seen_teamnos.add(teamno)
-                    team_name = str(t.get("teamname") or teamno).strip()
-                    town = str(t.get("town") or "").strip() or None
+                    upsert_team(
+                        conn,
+                        teamno,
+                        yrseason,
+                        grade,
+                        gender,
+                        divisionno,
+                        str(t.get("town") or "").strip() or None,
+                        str(t.get("teamname") or teamno).strip(),
+                        mw_rating=to_float(t.get("rankthisyr")),
+                        mw_points=to_int(t.get("rankpoints")),
+                    )
+                    team_jobs.append((teamno, divisionno))
 
-                    standings_metrics_by_team[teamno] = {
-                        "mw_rating": to_float(t.get("rankthisyr")),
-                        "mw_points": to_int(t.get("rankpoints")),
-                    }
-
-                    upsert_team(conn, teamno, yrseason, grade, gender, divisionno, town, team_name)
-
-                for teamno in seen_teamnos:
-                    try:
-                        league_games = api.get_team_schedule(yrseason, teamno)
-                    except Exception as err:  # noqa: BLE001
-                        LOG.warning("team schedule failed team=%s division=%s: %s", teamno, divisionno, err)
-                        league_games = []
-                    try:
-                        nl_games = api.get_team_nl_schedule(yrseason, teamno)
-                    except Exception as err:  # noqa: BLE001
-                        LOG.warning("nl schedule failed team=%s division=%s: %s", teamno, divisionno, err)
-                        nl_games = []
-
-                    for row in [*league_games, *nl_games]:
+            with ThreadPoolExecutor(max_workers=scrape_config.max_workers) as pool:
+                results = pool.map(lambda job: (job, _fetch_team_games(api, yrseason, *job)), team_jobs)
+                for (teamno, divisionno), rows in results:
+                    for row in rows:
                         game = _normalize_game(yrseason, divisionno, teamno, divisionno, row)
                         upsert_game(conn, game)
                         home = game.get("home_teamno")
                         away = game.get("away_teamno")
-                        if home == teamno:
-                            is_home = 1
-                        elif away == teamno:
-                            is_home = 0
-                        else:
-                            is_home = None
+                        is_home = 1 if home == teamno else 0 if away == teamno else None
                         upsert_team_game(conn, teamno, game["gameno"], is_home)
+            conn.commit()
 
-                conn.commit()
 
-    snapshot_date = date.today().isoformat()
+def rank_season(conn, yrseason: str, ranking_config: RankingConfig, snapshot_date: str) -> int:
+    """Compute rankings for every division in the season and store them as the season's snapshot."""
     snapshot_rows: list[dict[str, Any]] = []
-    divisions = get_divisions(conn, yrseason)
-
     team_meta_by_teamno = {
         str(row["teamno"]): dict(row)
         for row in conn.execute(
@@ -288,11 +321,12 @@ def scrape_season(
         )
     }
 
-    for division in divisions:
+    for division in get_divisions(conn, yrseason):
         divisionno = str(division["divisionno"])
         teams = [dict(r) for r in get_teams_for_division(conn, divisionno)]
         if not teams:
             continue
+        mw_by_teamno = {str(t["teamno"]): t for t in teams}
 
         teamnos = [str(t["teamno"]) for t in teams]
         games = [dict(r) for r in get_games_for_teams(conn, teamnos, yrseason)]
@@ -305,7 +339,7 @@ def scrape_season(
         )
 
         for row in ranked:
-            standings_metrics = standings_metrics_by_team.get(str(row["teamno"]), {})
+            team = mw_by_teamno.get(str(row["teamno"]), {})
             snapshot_rows.append(
                 {
                     "yrseason": yrseason,
@@ -323,25 +357,92 @@ def scrape_season(
                     "sos_adj": round(float(row.get("sos_adj", row["sos"])), 3),
                     "power": round(float(row["power"]), 3),
                     "rank": int(row["rank"]),
-                    "mw_rating": standings_metrics.get("mw_rating"),
-                    "mw_points": standings_metrics.get("mw_points"),
+                    "mw_rating": team.get("mw_rating"),
+                    "mw_points": team.get("mw_points"),
                 }
             )
 
     replace_snapshots(conn, snapshot_date, snapshot_rows)
+    return len(snapshot_rows)
+
+
+def update_season(
+    conn,
+    api: SportsiteAPI,
+    yrseason: str,
+    grades: list[int],
+    genders: list[str],
+    ranking_config: RankingConfig,
+    *,
+    is_current: bool,
+    force_rank: bool = False,
+) -> bool:
+    """Scrape and (if anything changed) re-rank one season. Returns True when output should be rebuilt."""
+    previous = get_season(conn, yrseason)
+    upsert_season(conn, yrseason, season_label(yrseason), is_current)
     conn.commit()
-    conn.close()
-    LOG.info("completed scrape yrseason=%s with %s snapshot rows", yrseason, len(snapshot_rows))
+
+    scrape_season(yrseason, grades, genders, conn, api)
+
+    fingerprint = season_fingerprint(conn, yrseason)
+    last_final, next_scheduled = season_game_dates(conn, yrseason)
+    status = "final" if is_season_final(last_final, next_scheduled, SCRAPE_CONFIG.season_final_after_days) else "in_progress"
+    changed = force_rank or previous is None or previous["data_hash"] != fingerprint
+
+    if changed:
+        # Rankings are dated by the latest scored game, not the run date, so reruns are reproducible.
+        snapshot_date = last_final or date.today().isoformat()
+        count = rank_season(conn, yrseason, ranking_config, snapshot_date)
+        LOG.info("ranked yrseason=%s: %s teams as of %s", yrseason, count, snapshot_date)
+    else:
+        LOG.info("no changes for yrseason=%s; rankings left as is", yrseason)
+
+    status_changed = previous is None or previous["status"] != status
+    update_season_state(conn, yrseason, status=status, as_of=last_final, data_hash=fingerprint)
+    conn.commit()
+    return changed or status_changed
+
+
+def _write_github_output(**values: str) -> None:
+    path = os.environ.get("GITHUB_OUTPUT")
+    if not path:
+        return
+    with open(path, "a", encoding="utf-8") as fh:
+        for key, value in values.items():
+            fh.write(f"{key}={value}\n")
+
+
+def parse_seasons(value: str) -> list[str]:
+    """ "2026", "2020,2021" or "2020-2025" -> list of seasons."""
+    seasons: list[str] = []
+    for part in value.split(","):
+        part = part.strip()
+        if "-" in part:
+            start, end = (int(x) for x in part.split("-", 1))
+            seasons.extend(str(y) for y in range(start, end + 1))
+        elif part:
+            seasons.append(str(int(part)))
+    return seasons
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Scrape Metrowest basketball and compute rankings")
-    parser.add_argument("--yrseason", default=SCRAPE_CONFIG.default_yrseason)
+    parser.add_argument(
+        "--yrseason",
+        default=SCRAPE_CONFIG.default_yrseason,
+        help='"auto" (default: newest season with divisions), a season like 2026, or a list/range like 2020-2025',
+    )
     parser.add_argument("--grades", default=None, help="Comma-separated grades, e.g. 3,4,5,6,7,8")
     parser.add_argument("--genders", default=None, help="Comma-separated genders, e.g. M,F")
     parser.add_argument("--db-path", default=str(SCRAPE_CONFIG.db_path))
     parser.add_argument("--ranking-profile", choices=("classic", "division-aware"), default=RANKING_CONFIG.profile)
     parser.add_argument("--out-json", default=None, help="Optional output folder to also generate JSON")
+    parser.add_argument("--force", action="store_true", help="Scrape and re-rank even if the season is final/unchanged")
+    parser.add_argument(
+        "--rank-only",
+        action="store_true",
+        help="Recompute rankings from the database without scraping (e.g. after changing ranking settings)",
+    )
     parser.add_argument("--log-level", default="INFO")
     return parser.parse_args()
 
@@ -353,17 +454,70 @@ def main() -> None:
     genders = parse_genders(args.genders, SCRAPE_CONFIG.default_genders)
     db_path = Path(args.db_path)
     ranking_config = replace(RANKING_CONFIG, profile=args.ranking_profile)
-    scrape_season(args.yrseason, grades, genders, db_path, ranking_config=ranking_config)
+
+    api = SportsiteAPI(SCRAPE_CONFIG)
+    conn = connect_db(db_path)
+    init_db(conn)
+
+    if args.rank_only:
+        seasons = [r["season_id"] for r in conn.execute("SELECT season_id FROM seasons ORDER BY season_id")]
+        if args.yrseason != "auto":
+            seasons = [s for s in seasons if s in set(parse_seasons(args.yrseason))]
+        for yrseason in seasons:
+            last_final, _ = season_game_dates(conn, yrseason)
+            count = rank_season(conn, yrseason, ranking_config, last_final or date.today().isoformat())
+            conn.execute(
+                "UPDATE seasons SET data_hash = ? WHERE season_id = ?", (season_fingerprint(conn, yrseason), yrseason)
+            )
+            LOG.info("re-ranked yrseason=%s: %s teams", yrseason, count)
+        conn.commit()
+        conn.close()
+        if args.out_json:
+            from .build_json import build_json
+
+            build_json(db_path=db_path, out_dir=Path(args.out_json), ranking_profile=args.ranking_profile)
+        return
+
+    auto = args.yrseason == "auto"
+    seasons = [detect_active_season(api)] if auto else parse_seasons(args.yrseason)
+
+    changed = False
+    if auto:
+        # When a new season is detected, the previous current season is over regardless of stray unscored games.
+        for row in conn.execute(
+            "SELECT season_id FROM seasons WHERE is_current = 1 AND season_id <> ? AND COALESCE(status, '') <> 'final'",
+            (seasons[0],),
+        ).fetchall():
+            LOG.info("season %s superseded by %s; marking final", row["season_id"], seasons[0])
+            conn.execute("UPDATE seasons SET status = 'final' WHERE season_id = ?", (row["season_id"],))
+            changed = True
+        conn.commit()
+
+    for yrseason in seasons:
+        existing = get_season(conn, yrseason)
+        if auto and not args.force and existing is not None and existing["status"] == "final":
+            # Off-season: the active season is over and the next one has no divisions yet.
+            LOG.info("season %s is final; nothing to scrape until the next season is posted", yrseason)
+            continue
+        changed |= update_season(
+            conn,
+            api,
+            yrseason,
+            grades,
+            genders,
+            ranking_config,
+            is_current=auto,
+            force_rank=args.force,
+        )
+    conn.close()
+
+    _write_github_output(changed="true" if changed else "false")
+    LOG.info("done; output %s", "changed" if changed else "unchanged")
 
     if args.out_json:
         from .build_json import build_json
 
-        build_json(
-            db_path=db_path,
-            out_dir=Path(args.out_json),
-            yrseason=args.yrseason,
-            ranking_profile=args.ranking_profile,
-        )
+        build_json(db_path=db_path, out_dir=Path(args.out_json), ranking_profile=args.ranking_profile)
 
 
 if __name__ == "__main__":

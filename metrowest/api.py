@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import threading
 import time
 from typing import Any
 
@@ -14,14 +15,23 @@ LOG = logging.getLogger(__name__)
 class SportsiteAPI:
     def __init__(self, config: ScrapeConfig) -> None:
         self.config = config
-        self.session = requests.Session()
-        self.session.headers.update(
-            {
-                "User-Agent": "Mozilla/5.0",
-                "Origin": "https://metrowestbball.com",
-                "Referer": "https://metrowestbball.com/",
-            }
-        )
+        self._local = threading.local()
+
+    @property
+    def session(self) -> requests.Session:
+        # One session per thread so schedule fetches can run in parallel.
+        session = getattr(self._local, "session", None)
+        if session is None:
+            session = requests.Session()
+            session.headers.update(
+                {
+                    "User-Agent": "Mozilla/5.0",
+                    "Origin": "https://metrowestbball.com",
+                    "Referer": "https://metrowestbball.com/",
+                }
+            )
+            self._local.session = session
+        return session
 
     def _post_json(self, endpoint: str, data: dict[str, str]) -> Any:
         url = f"{self.config.base_url}/{endpoint}"
@@ -37,6 +47,10 @@ class SportsiteAPI:
                 LOG.warning("POST %s failed (attempt %s/%s): %s", endpoint, attempt, self.config.request_retries, err)
                 time.sleep(wait)
         raise RuntimeError(f"POST failed after retries for {endpoint}: {exc}")
+
+    def get_client_season_info(self) -> dict[str, Any]:
+        """Season settings for the league, e.g. {"yrseason": 2026, "adminyrseason": 2027, ...}."""
+        return self._post_json("getClientNameYrseasonJson.php", {"clientid": self.config.client_id})
 
     def get_grade_gender_div_tiers(self, yrseason: str, grade: int, gender: str) -> list[dict[str, Any]]:
         return self._post_json(

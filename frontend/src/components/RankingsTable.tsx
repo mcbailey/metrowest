@@ -153,11 +153,11 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
             {showGroup ? (
               <th>
                 <button type="button" className="sort-btn" onClick={() => setSort("subgroup")}>
-                  Group <span>{arrow("subgroup")}</span>
+                  Div <span>{arrow("subgroup")}</span>
                 </button>
               </th>
             ) : null}
-            <th>
+            <th className="col-team">
               <button type="button" className="sort-btn" onClick={() => setSort("name")}>
                 Team <span>{arrow("name")}</span>
               </button>
@@ -230,7 +230,7 @@ export function RankingsTable({ teams, showGroup = false, queryString = "" }: Pr
               <tr key={team.teamno}>
                 <td>{team.rank}</td>
                 {showGroup ? <td>{team.subgroup ?? "-"}</td> : null}
-                <td>
+                <td className="col-team">
                   <Link to={`/team/${team.teamno}${queryString}`} className="team-link">
                     {team.name}
                   </Link>

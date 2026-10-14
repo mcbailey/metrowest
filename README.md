@@ -12,10 +12,10 @@ Daily scraper + ranking pipeline for Metrowest Youth Basketball, with static JSO
 
 ## Project Layout
 
-- `metrowest/`: scraper, API client, DB, ranking, JSON builder
-- `data/metrowest.sqlite`: persisted state and snapshots
-- `frontend/`: static site consuming generated JSON
-- `.github/workflows/scrape_and_build.yml`: daily automation
+- `metrowest/`: scraper, API client, DB, ranking, JSON builder, season detection
+- `data/metrowest.sqlite`: local database (not in git; CI keeps it on the `data` GitHub release)
+- `frontend/`: static site consuming generated JSON (`frontend/public/data`, also not in git)
+- `.github/workflows/scrape_and_build.yml`: daily scrape + deploy
 
 ## Local Setup
 
@@ -32,13 +32,19 @@ Daily scraper + ranking pipeline for Metrowest Youth Basketball, with static JSO
    cd ..
    ```
 
+3. Get a database: download the one CI uses (`gh release download data --pattern metrowest.sqlite.gz --dir data && gunzip data/metrowest.sqlite.gz`), or build one from scratch with `make backfill` (about 4 minutes for 2020-2026).
+
 ## Common Commands
 
-- Scrape and build JSON:
+- Scrape the active season and build JSON:
   ```bash
   make scrape
   ```
-- Build JSON only from existing SQLite:
+- Load past seasons (default 2020-2026):
+  ```bash
+  make backfill SEASONS=2020-2026
+  ```
+- Build JSON for every season from the existing SQLite (no network):
   ```bash
   make build-json
   ```
@@ -59,14 +65,27 @@ Daily scraper + ranking pipeline for Metrowest Youth Basketball, with static JSO
 
 ```bash
 python -m metrowest.scrape \
-  --yrseason 2026 \
-  --grades 3,4,5,6,7,8 \
-  --genders M,F \
+  --yrseason auto \
   --db-path data/metrowest.sqlite \
   --ranking-profile division-aware \
-  --out-json frontend/public/data \
-  --log-level INFO
+  --out-json frontend/public/data
 ```
+
+- `--yrseason auto` (default) asks the source which seasons exist (`getClientNameYrseasonJson.php`) and scrapes the
+  newest one that has divisions posted. When the league posts 2026-27 divisions, the daily job switches to it
+  with no code change. A season can also be given explicitly (`2026`), as a list (`2020,2021`) or a range (`2020-2025`).
+- Seasons are keyed by the year they end: `2026` is the 2025-26 season.
+- `--force` re-scrapes and re-ranks even if nothing changed or the season is final.
+- `--rank-only` recomputes rankings from the database without scraping (use after changing ranking settings).
+
+### Season lifecycle
+
+- In season: every run re-scrapes the season. Rankings and output are only rebuilt when the season's data
+  actually changed (a fingerprint of divisions/teams/games is stored on the `seasons` row).
+- A season is marked `final` once its last scored game is 21+ days old and nothing is scheduled ahead.
+- Off-season (`auto` + current season final): the run makes three API calls, finds nothing new, and exits.
+  CI then skips the deploy.
+- When a new season appears, the previous one is marked final and kept for browsing.
 
 ### Ranking Profile Flag
 
@@ -85,10 +104,13 @@ Flag locations:
 
 - Discovers tiers/divisions for each grade/gender.
 - Falls back to legacy endpoints if tier discovery fails.
-- Upserts divisions, teams, and games into SQLite.
+- Upserts divisions (with the league's division code, e.g. `6MD1H` / tag `D1H`), teams, and games into SQLite.
+- Fetches team schedules in parallel (6 workers).
 - De-dupes by `gameno`; if missing, creates a stable hash ID.
 - Marks missing-score games as `scheduled`; scored games as `final`.
-- Computes per-division Elo/SoS/Power and stores daily snapshot rows.
+- Forfeits count as the league records them: 2-0 for the winner. Double forfeits stay unscored.
+- Placeholder dates (`1900-01-01`) are stored as unknown; two-digit years (`0025-11-28`) are repaired.
+- Computes per-division Elo/SoS/Power and stores one snapshot per season, dated by the season's latest scored game.
 
 ## Ranking Method
 
@@ -106,23 +128,21 @@ For each division team set:
 
 ## JSON Output Contract
 
-Generated under `frontend/public/data`:
+Generated under `frontend/public/data` (rebuilt from scratch each time; not committed):
 
-- `index.json`
+- `index.json`: all seasons with label (`2025-26`), status, as-of date, and per grade/gender counts
+- `{season}/search.json`: compact team list for the team/town search
 - `{season}/{gender}/{grade}/divisions.json`
 - `{season}/{gender}/{grade}/division-{divisionno}.json`
 - `{season}/team-{teamno}.json`
-- Optional CSV per division alongside division JSON
 
 ## GitHub Actions
 
-The workflow runs daily at **11:00 UTC** (6:00 AM Eastern Standard Time), and also supports manual trigger.
+One workflow, `.github/workflows/scrape_and_build.yml`:
 
-Steps:
+- **Daily at 11:00 UTC**: downloads the database from the `data` release, runs `--yrseason auto`, and if anything
+  changed uploads the database back and deploys. Off-season it stops after the check.
+- **Push to `main`** (frontend, scraper or workflow changes): rebuilds the site from the stored database and deploys.
+- **Manual run**: scrape + deploy; tick `force` to re-scrape and re-rank.
 
-1. Scrape + compute + generate JSON
-2. Build frontend
-3. Commit updated SQLite + JSON back to main
-4. Deploy `frontend/dist` to GitHub Pages
-
-No secrets are required; it uses `GITHUB_TOKEN`.
+Data never goes into git. The workflow uses `GITHUB_TOKEN` only; no secrets are required.

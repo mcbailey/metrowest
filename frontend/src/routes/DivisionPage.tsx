@@ -3,6 +3,7 @@ import { Link, useSearchParams } from "react-router-dom";
 import { Filters, FilterState } from "../components/Filters";
 import { RankingsTable } from "../components/RankingsTable";
 import { loadJson } from "../data";
+import { findSeason, genderLabel, gradeLabel, saveLastView, seasonStatusText } from "../season";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
 import { DivisionRankingData, DivisionsData, IndexData, RankingTeam } from "../types";
 
@@ -18,30 +19,6 @@ type DisplayPayload = {
   teams: DisplayTeam[];
   showGroup: boolean;
 };
-
-function gradeLabel(grade: number): string {
-  return `${grade}th`;
-}
-
-function genderLabel(gender: "M" | "F"): string {
-  return gender === "M" ? "Boys" : "Girls";
-}
-
-function extractSubgroup(teamName: string): string | undefined {
-  const match = /^([A-Za-z0-9]+)-/.exec(teamName);
-  return match?.[1];
-}
-
-function inferDivisionCode(teams: RankingTeam[]): string | undefined {
-  const counts: Record<string, number> = {};
-  for (const team of teams) {
-    const code = extractSubgroup(team.name);
-    if (!code) continue;
-    counts[code] = (counts[code] ?? 0) + 1;
-  }
-
-  return Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0]?.[0];
-}
 
 function sortAndRank(teams: DisplayTeam[]): DisplayTeam[] {
   const out = [...teams].sort((a, b) => b.power - a.power || b.sos - a.sos || b.diff - a.diff);
@@ -86,7 +63,6 @@ export function DivisionPage() {
   const [filters, setFilters] = useState<FilterState | null>(null);
   const [divisions, setDivisions] = useState<DivisionsData | null>(null);
   const [display, setDisplay] = useState<DisplayPayload | null>(null);
-  const [divisionCodeByNo, setDivisionCodeByNo] = useState<Record<string, string>>({});
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -124,7 +100,6 @@ export function DivisionPage() {
         if (!active) return;
         setError(null);
         setDivisions(data);
-        setDivisionCodeByNo({});
 
         const valid = new Set([
           "ALL",
@@ -147,54 +122,21 @@ export function DivisionPage() {
   }, [filters?.season, filters?.gender, filters?.grade]);
 
   useEffect(() => {
-    if (!filters || !divisions) return;
-    const currentFilters = filters;
-    const currentDivisions = divisions;
-    let active = true;
-
-    async function loadDivisionCodes() {
-      const divisionNos = currentDivisions.divisions.map((d) => d.divisionno);
-      if (!divisionNos.length) {
-        if (active) setDivisionCodeByNo({});
-        return;
-      }
-
-      const results = await Promise.allSettled(
-        divisionNos.map((dno) =>
-          loadJson<DivisionRankingData>(
-            `data/${currentFilters.season}/${currentFilters.gender}/${currentFilters.grade}/division-${dno}.json`
-          )
-        )
-      );
-
-      if (!active) return;
-
-      const nextMap: Record<string, string> = {};
-      for (let i = 0; i < results.length; i += 1) {
-        const result = results[i];
-        if (result.status !== "fulfilled") continue;
-
-        const inferred = inferDivisionCode(result.value.rankings);
-        if (inferred) {
-          nextMap[divisionNos[i]] = inferred;
-        }
-      }
-
-      setDivisionCodeByNo(nextMap);
-    }
-
-    void loadDivisionCodes();
-
-    return () => {
-      active = false;
-    };
-  }, [filters?.season, filters?.gender, filters?.grade, divisions]);
+    if (!filters) return;
+    saveLastView({
+      season: filters.season,
+      gender: filters.gender,
+      grade: filters.grade,
+      division: filters.divisionno || "ALL",
+    });
+  }, [filters]);
 
   useEffect(() => {
     if (!filters || !divisions || !filters.divisionno) return;
 
     const currentFilters = filters;
     const currentDivisions = divisions;
+    const indexRef = index;
     let active = true;
 
     async function load() {
@@ -246,7 +188,7 @@ export function DivisionPage() {
           merged.push({
             ...t,
             division_label: ds.division_name,
-            subgroup: extractSubgroup(t.name),
+            subgroup: ds.tag ?? undefined,
           });
         }
       }
@@ -256,12 +198,11 @@ export function DivisionPage() {
         currentFilters.divisionno === "ALL"
           ? `${gradeLabel(currentFilters.grade)} ${genderLabel(currentFilters.gender)} - All Divisions`
           : tier !== null
-          ? `${gradeLabel(currentFilters.grade)} ${genderLabel(currentFilters.gender)} - Division ${tier} (All Groups)`
-          : datasets[0].division_name;
+          ? `${gradeLabel(currentFilters.grade)} ${genderLabel(currentFilters.gender)} - Division ${tier} (all groups)`
+          : `${datasets[0].division_name}${datasets[0].tag ? ` (${datasets[0].tag})` : ""}`;
 
-      const subtitle = aggregate
-        ? `Snapshot: ${datasets[0].snapshot_date} | ${genderLabel(currentFilters.gender)} ${gradeLabel(currentFilters.grade)} Grade | ${rankedTeams.length} Teams`
-        : `Snapshot: ${datasets[0].snapshot_date} | ${genderLabel(datasets[0].gender)} ${gradeLabel(datasets[0].grade)} Grade`;
+      const seasonEntry = findSeason(indexRef, currentFilters.season);
+      const subtitle = `${seasonStatusText(seasonEntry, datasets[0].snapshot_date)} · ${rankedTeams.length} teams`;
 
       setDisplay({
         title,
@@ -281,7 +222,7 @@ export function DivisionPage() {
     return () => {
       active = false;
     };
-  }, [filters, divisions]);
+  }, [filters, divisions, index]);
 
   const seasonOptions = useMemo(
     () => (index?.seasons ?? []).map((s) => ({ value: s.yrseason, label: s.label })),
@@ -314,7 +255,7 @@ export function DivisionPage() {
       .sort((a, b) => Number(a) - Number(b))
       .map((tier) => ({
         value: `TIER-${tier}`,
-        label: `Division ${tier} (All Groups)`,
+        label: `Division ${tier} (all groups)`,
       }));
 
     const singleDivisionOptions = [...divisions.divisions]
@@ -323,21 +264,21 @@ export function DivisionPage() {
         const tierB = Number(b.divisiontier ?? 0);
         if (tierA !== tierB) return tierA - tierB;
 
-        const labelA = divisionCodeByNo[a.divisionno] ?? a.divisionno;
-        const labelB = divisionCodeByNo[b.divisionno] ?? b.divisionno;
+        const labelA = a.tag ?? a.divisionno;
+        const labelB = b.tag ?? b.divisionno;
         return labelA.localeCompare(labelB) || a.divisionno.localeCompare(b.divisionno);
       })
       .map((d) => ({
         value: d.divisionno,
-        label: divisionCodeByNo[d.divisionno] ?? d.divisionno,
+        label: d.tag ? `${d.tag} (Division ${d.divisiontier ?? "?"})` : d.divisionno,
       }));
 
     return [
-      { value: "ALL", label: "All Divisions (Grade/Gender)" },
+      { value: "ALL", label: "All divisions" },
       ...tierOptions,
       ...singleDivisionOptions,
     ];
-  }, [divisions, divisionCodeByNo]);
+  }, [divisions]);
 
   const queryString = useMemo(() => {
     if (!filters) return "";
@@ -389,7 +330,12 @@ export function DivisionPage() {
           genderOptions={genderOptions}
           gradeOptions={gradeOptions}
           divisionOptions={divisionOptions}
-          onChange={setFilters}
+          onChange={(next) => {
+            // A season may not have every grade; fall back to one it has.
+            const grades = findSeason(index, next.season)?.grades ?? [];
+            const grade = grades.includes(next.grade) || !grades.length ? next.grade : grades[grades.length - 1];
+            setFilters({ ...next, grade });
+          }}
         />
       </section>
 

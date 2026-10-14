@@ -6,3 +6,10 @@ node_modules/
 frontend/node_modules/
 frontend/dist/
 .DS_Store
+
+# Generated data: the database lives on the "data" GitHub release; site JSON is built in CI.
+data/*.sqlite
+data/*.sqlite-*
+data/*.sqlite.gz
+frontend/public/data/
+frontend/tsconfig.tsbuildinfo
