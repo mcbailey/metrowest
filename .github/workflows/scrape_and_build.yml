@@ -83,6 +83,11 @@ jobs:
             echo "No data changes; skipping deploy."
           fi
 
+      - name: Re-rank with current ranking code
+        # Cheap (no network) and keeps published rankings in step with the code, e.g. after a ranking change.
+        if: steps.decide.outputs.deploy == 'true'
+        run: python -m metrowest.scrape --rank-only
+
       - name: Build JSON
         if: steps.decide.outputs.deploy == 'true'
         run: python -m metrowest.build_json --out frontend/public/data
