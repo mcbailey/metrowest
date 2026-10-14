@@ -448,45 +448,57 @@ async function computeInsights(team: TeamData, season: string): Promise<TeamInsi
   }
 
   const currentDivisionTier = divisionTierByNo.get(divisionno) ?? null;
+  // Typical (median) Power per division level. Power is one scale across the grade, so a team can be compared
+  // with the levels above and below it. Levels can skip numbers (4th grade has no Division 3).
   const tierBaselineByTier = new Map<number, number>();
   for (const [tier, teams] of teamsByTier.entries()) {
-    const ratings = teams
-      .map((t) => t.mw_rating)
-      .filter((v): v is number => v !== null && v !== undefined && Number.isFinite(v));
-    if (ratings.length) {
-      tierBaselineByTier.set(tier, median(ratings));
-    }
+    const powers = teams.map((t) => t.power).filter((v) => Number.isFinite(v));
+    if (powers.length) tierBaselineByTier.set(tier, median(powers));
   }
 
-  let divisionFit: DivisionFit | null = null;
-  const currentMwRating = team.summary.mw_rating;
-  if (currentDivisionTier !== null && currentMwRating !== null && currentMwRating !== undefined) {
-    const higherTier = currentDivisionTier - 1;
-    const lowerTier = currentDivisionTier + 1;
-    const higherBaseline = tierBaselineByTier.get(higherTier);
-    const lowerBaseline = tierBaselineByTier.get(lowerTier);
+  // Level names as the league writes them ("1", or "1/2" where two divisions are combined).
+  const levelName = new Map<number, string>();
+  for (const d of divisions.divisions) {
+    const tier = Number(d.divisiontier ?? "");
+    const m = /^D(\d+(?:\/\d+)?)/.exec(d.tag ?? "");
+    if (Number.isFinite(tier) && m && !levelName.has(tier)) levelName.set(tier, m[1]);
+  }
+  const nameOf = (tier: number) => levelName.get(tier) ?? String(tier);
 
-    if (higherBaseline !== undefined && currentMwRating > higherBaseline - 5) {
+  let divisionFit: DivisionFit | null = null;
+  const levels = [...tierBaselineByTier.keys()].sort((a, b) => a - b);
+  const levelIndex = currentDivisionTier === null ? -1 : levels.indexOf(currentDivisionTier);
+  if (levelIndex >= 0 && levels.length > 1) {
+    const power = team.summary.power;
+    const own = tierBaselineByTier.get(levels[levelIndex])!;
+    const higherTier = levelIndex > 0 ? levels[levelIndex - 1] : null;
+    const lowerTier = levelIndex < levels.length - 1 ? levels[levelIndex + 1] : null;
+    const higher = higherTier !== null ? tierBaselineByTier.get(higherTier)! : null;
+    const lower = lowerTier !== null ? tierBaselineByTier.get(lowerTier)! : null;
+    // Within 10% of the gap to a neighboring level's typical team counts as playing at that level.
+    const nearHigher = higher !== null && power >= higher - 0.1 * Math.abs(higher - own);
+    const nearLower = lower !== null && power <= lower + 0.1 * Math.abs(own - lower);
+
+    if (nearHigher && higherTier !== null && higher !== null) {
       divisionFit = {
-        verdict: "Ready for Promotion",
+        verdict: `Playing like a Division ${nameOf(higherTier)} team`,
         targetDivisionTier: higherTier,
-        targetBaseline: higherBaseline,
-        explainer: `Your current rating (${currentMwRating.toFixed(1)}) is trending within the baseline range for Division ${higherTier}.`,
+        targetBaseline: higher,
+        explainer: `Results so far line up with a typical Division ${nameOf(higherTier)} team.`,
       };
-    } else if (lowerBaseline !== undefined && currentMwRating < lowerBaseline + 5) {
+    } else if (nearLower && lowerTier !== null && lower !== null) {
       divisionFit = {
-        verdict: "Division At Risk",
+        verdict: `Playing like a Division ${nameOf(lowerTier)} team`,
         targetDivisionTier: lowerTier,
-        targetBaseline: lowerBaseline,
-        explainer: `Your current rating (${currentMwRating.toFixed(1)}) is trending within the baseline range for Division ${lowerTier}.`,
+        targetBaseline: lower,
+        explainer: `Results so far line up more with a typical Division ${nameOf(lowerTier)} team.`,
       };
-    } else if (higherBaseline !== undefined || lowerBaseline !== undefined) {
-      const currentBaseline = tierBaselineByTier.get(currentDivisionTier) ?? currentMwRating;
+    } else {
       divisionFit = {
-        verdict: "On Pace for Current Division",
-        targetDivisionTier: currentDivisionTier,
-        targetBaseline: currentBaseline,
-        explainer: `Your current rating (${currentMwRating.toFixed(1)}) is tracking with the Division ${currentDivisionTier} baseline.`,
+        verdict: `Right at home in Division ${nameOf(levels[levelIndex])}`,
+        targetDivisionTier: levels[levelIndex],
+        targetBaseline: own,
+        explainer: `Results so far line up with a typical Division ${nameOf(levels[levelIndex])} team.`,
       };
     }
   }
