@@ -21,6 +21,7 @@ from .db import (
     get_season,
     get_teams_for_division,
     init_db,
+    prune_unseen_games,
     replace_playoffs,
     replace_snapshots,
     season_fingerprint,
@@ -227,15 +228,20 @@ def discover_divisions(api: SportsiteAPI, yrseason: str, grade: int, gender: str
         return []
 
 
-def _fetch_team_games(api: SportsiteAPI, yrseason: str, teamno: str, divisionno: str) -> list[dict[str, Any]]:
+def _fetch_team_games(
+    api: SportsiteAPI, yrseason: str, teamno: str, divisionno: str
+) -> tuple[list[dict[str, Any]], bool]:
+    """Return the team's game rows and whether every schedule endpoint answered."""
     rows: list[dict[str, Any]] = []
+    ok = True
     for label, fetch in (("team schedule", api.get_team_schedule), ("nl schedule", api.get_team_nl_schedule)):
         try:
             rows.extend(fetch(yrseason, teamno) or [])
         except Exception as err:  # noqa: BLE001
+            ok = False
             LOG.warning("%s failed team=%s division=%s: %s", label, teamno, divisionno, err)
     # Some endpoints answer "no games" with a status object instead of an empty list.
-    return [r for r in rows if isinstance(r, dict) and ("gameno" in r or "gamedate" in r)]
+    return [r for r in rows if isinstance(r, dict) and ("gameno" in r or "gamedate" in r)], ok
 
 
 def _clean_town(name: Any) -> str | None:
@@ -342,6 +348,8 @@ def scrape_season(
     scrape_config: ScrapeConfig = SCRAPE_CONFIG,
 ) -> None:
     """Fetch divisions, teams and games for one season into the database."""
+    confirmed_teams: set[str] = set()
+    seen_gamenos: set[str] = set()
     for gender in genders:
         for grade in grades:
             divisions = discover_divisions(api, yrseason, grade, gender)
@@ -401,15 +409,24 @@ def scrape_season(
                 set_team_towns(conn, towns)
 
                 results = pool.map(lambda job: (job, _fetch_team_games(api, yrseason, *job)), team_jobs)
-                for (teamno, divisionno), rows in results:
+                for (teamno, divisionno), (rows, ok) in results:
+                    # An empty answer may be a glitch, so only a non-empty full schedule can retire old games.
+                    if ok and rows:
+                        confirmed_teams.add(teamno)
                     for row in rows:
                         game = _normalize_game(yrseason, divisionno, teamno, divisionno, row)
+                        seen_gamenos.add(game["gameno"])
                         upsert_game(conn, game)
                         home = game.get("home_teamno")
                         away = game.get("away_teamno")
                         is_home = 1 if home == teamno else 0 if away == teamno else None
                         upsert_team_game(conn, teamno, game["gameno"], is_home)
             conn.commit()
+
+    pruned = prune_unseen_games(conn, yrseason, confirmed_teams, seen_gamenos)
+    if pruned:
+        LOG.info("yrseason=%s: removed %s games no longer on the schedule", yrseason, pruned)
+    conn.commit()
 
     _fill_missing_towns(conn, yrseason)
     groups, games = scrape_playoffs(api, yrseason, grades, genders)

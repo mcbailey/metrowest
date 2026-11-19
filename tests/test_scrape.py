@@ -79,3 +79,46 @@ class ScrapeNormalizeGameTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PruneUnseenGamesTests(unittest.TestCase):
+    def setUp(self):
+        import sqlite3
+
+        from metrowest.db import init_db, upsert_game, upsert_team_game
+
+        self.conn = sqlite3.connect(":memory:")
+        self.conn.row_factory = sqlite3.Row
+        init_db(self.conn)
+
+        def add(gameno, home, away, scores=(None, None)):
+            upsert_game(self.conn, {
+                "gameno": gameno, "yrseason": "2027", "date": "2027-01-10", "divisionno": "1",
+                "home_teamno": home, "away_teamno": away, "home_score": scores[0], "away_score": scores[1],
+                "status": "final" if scores[0] is not None else "scheduled",
+            })
+            upsert_team_game(self.conn, home, gameno, 1)
+            upsert_team_game(self.conn, away, gameno, 0)
+
+        add("new", "A", "B")
+        add("old", "A", "C")  # replaced upstream by "new"
+        add("played", "A", "D", (40, 30))  # gone upstream but already scored
+        add("other", "E", "F")  # neither team confirmed this run
+
+    def gamenos(self):
+        return {r[0] for r in self.conn.execute("SELECT gameno FROM games")}
+
+    def test_removes_only_unscored_games_missing_from_a_confirmed_schedule(self):
+        from metrowest.db import prune_unseen_games
+
+        removed = prune_unseen_games(self.conn, "2027", {"A", "B"}, {"new"})
+
+        self.assertEqual(removed, 1)
+        self.assertEqual(self.gamenos(), {"new", "played", "other"})
+        self.assertEqual(self.conn.execute("SELECT COUNT(*) FROM team_games WHERE gameno='old'").fetchone()[0], 0)
+
+    def test_nothing_confirmed_removes_nothing(self):
+        from metrowest.db import prune_unseen_games
+
+        self.assertEqual(prune_unseen_games(self.conn, "2027", set(), set()), 0)
+        self.assertEqual(len(self.gamenos()), 4)

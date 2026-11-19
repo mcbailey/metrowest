@@ -360,6 +360,47 @@ def upsert_team_game(conn: sqlite3.Connection, teamno: str, gameno: str, is_home
     )
 
 
+def prune_unseen_games(
+    conn: sqlite3.Connection, yrseason: str, confirmed_teams: set[str], seen_gamenos: set[str]
+) -> int:
+    """Delete unscored games the source no longer lists.
+
+    A game goes only if one of its teams had its full schedule fetched this run (confirmed_teams)
+    and that schedule left the game out. Scored games are never touched. Returns the number deleted.
+    """
+    if not confirmed_teams:
+        return 0
+    conn.execute("CREATE TEMP TABLE IF NOT EXISTS _confirmed_teams(teamno TEXT PRIMARY KEY)")
+    conn.execute("CREATE TEMP TABLE IF NOT EXISTS _seen_games(gameno TEXT PRIMARY KEY)")
+    conn.execute("DELETE FROM _confirmed_teams")
+    conn.execute("DELETE FROM _seen_games")
+    conn.executemany("INSERT OR IGNORE INTO _confirmed_teams VALUES(?)", [(t,) for t in confirmed_teams])
+    conn.executemany("INSERT OR IGNORE INTO _seen_games VALUES(?)", [(g,) for g in seen_gamenos])
+    stale = [
+        r[0]
+        for r in conn.execute(
+            """
+            SELECT g.gameno FROM games g
+            WHERE g.yrseason = ?
+              AND g.status != 'final'
+              AND g.gameno NOT IN (SELECT gameno FROM _seen_games)
+              AND (
+                g.home_teamno IN (SELECT teamno FROM _confirmed_teams)
+                OR g.away_teamno IN (SELECT teamno FROM _confirmed_teams)
+                OR EXISTS (
+                  SELECT 1 FROM team_games tg
+                  WHERE tg.gameno = g.gameno AND tg.teamno IN (SELECT teamno FROM _confirmed_teams)
+                )
+              )
+            """,
+            (yrseason,),
+        )
+    ]
+    conn.executemany("DELETE FROM team_games WHERE gameno = ?", [(g,) for g in stale])
+    conn.executemany("DELETE FROM games WHERE gameno = ?", [(g,) for g in stale])
+    return len(stale)
+
+
 def get_divisions(conn: sqlite3.Connection, yrseason: str) -> list[sqlite3.Row]:
     return list(
         conn.execute(
