@@ -58,3 +58,17 @@ export function loadLastView(): LastView | null {
     return null;
   }
 }
+
+/** Today's date as YYYY-MM-DD in the visitor's time zone. */
+export function todayIso(): string {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+/** "Sun, Dec 6" */
+export function shortDay(iso: string | null | undefined): string {
+  if (!iso) return "Date TBD";
+  const d = new Date(`${iso}T12:00:00`);
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+}

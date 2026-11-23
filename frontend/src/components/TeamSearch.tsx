@@ -4,6 +4,7 @@ import { loadJsonCached } from "../data";
 import { teamPath } from "../paths";
 import { genderLabel, gradeLabel } from "../season";
 import type { SearchData, SearchTeam } from "../types";
+import { TeamName } from "./TeamName";
 
 function loadSearch(season: string): Promise<SearchData> {
   return loadJsonCached<SearchData>(`data/${season}/search.json`);
@@ -19,9 +20,11 @@ type Props = {
   season: string;
   seasonLabel?: string;
   autoFocus?: boolean;
+  /** Header version: no visible label, results float over the page. */
+  compact?: boolean;
 };
 
-export function TeamSearch({ season, seasonLabel, autoFocus = false }: Props) {
+export function TeamSearch({ season, seasonLabel, autoFocus = false, compact = false }: Props) {
   const [query, setQuery] = useState("");
   const [teams, setTeams] = useState<SearchTeam[] | null>(null);
   const listId = useId();
@@ -53,8 +56,8 @@ export function TeamSearch({ season, seasonLabel, autoFocus = false }: Props) {
   const shown = results.slice(0, 12);
 
   return (
-    <div className="team-search">
-      <label className="team-search-label" htmlFor={`${listId}-input`}>
+    <div className={`team-search ${compact ? "team-search-compact" : ""}`}>
+      <label className={compact ? "visually-hidden" : "team-search-label"} htmlFor={`${listId}-input`}>
         Find a team{seasonLabel ? ` (${seasonLabel})` : ""}
       </label>
       <input
@@ -62,7 +65,7 @@ export function TeamSearch({ season, seasonLabel, autoFocus = false }: Props) {
         type="search"
         value={query}
         autoFocus={autoFocus}
-        placeholder="Town or team name, e.g. Natick 6th boys"
+        placeholder={compact ? "Find a team, e.g. Natick 6th boys" : "Town or team name, e.g. Natick 6th boys"}
         onChange={(e) => setQuery(e.target.value)}
         autoComplete="off"
       />
@@ -73,7 +76,9 @@ export function TeamSearch({ season, seasonLabel, autoFocus = false }: Props) {
           {shown.map((t) => (
             <li key={t.teamno}>
               <Link to={teamPath(season, t.teamno, t.name)} onClick={() => setQuery("")}>
-                <span className="result-name">{t.name}</span>
+                <span className="result-name">
+                  <TeamName name={t.name} />
+                </span>
                 <span className="result-meta">
                   {gradeLabel(t.grade)} {genderLabel(t.gender)}
                   {t.division_tag ? ` · ${t.division_tag}` : ""} · #{t.rank} · {t.wins}-{t.losses}

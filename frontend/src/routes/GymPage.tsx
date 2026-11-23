@@ -4,7 +4,7 @@ import { GameList } from "../components/GameList";
 import { useSeasonTeams } from "../components/useSeasonTeams";
 import { loadJsonCached } from "../data";
 import { seasonSlug } from "../paths";
-import { formatDate } from "../season";
+import { formatDate, shortDay, todayIso } from "../season";
 import { SEO_SITE_URL, usePageSeo } from "../seo";
 import { gymDescription, gymTitle } from "../seoText";
 import type { GymData, GymsIndex } from "../types";
@@ -98,7 +98,15 @@ export function GymPage() {
         ) : (
           <p className="meta">Address not listed by the league.</p>
         )}
-        {gym && gym.courts.length > 1 ? <p className="meta compact">Courts: {gym.courts.join(" · ")}</p> : null}
+        {gym && gym.courts.length > 1 && gym.courts.length <= 4 ? (
+          <p className="meta compact">Courts: {gym.courts.join(" · ")}</p>
+        ) : null}
+        {gym && gym.courts.length > 4 ? (
+          <details className="meta compact">
+            <summary>Courts ({gym.courts.length} names the league uses)</summary>
+            {gym.courts.join(" · ")}
+          </details>
+        ) : null}
         <div className="chip-group" role="group" aria-label="Season">
           {seasons.map((s) => (
             <button
@@ -116,7 +124,7 @@ export function GymPage() {
 
       <section className="panel">
         <div className="home-hero-head">
-          <h3>Games</h3>
+          <h3>{day ? `${day >= todayIso() ? "Games" : "Last games"} on ${shortDay(day)}` : "Games"}</h3>
           {days.length ? (
             <label className="season-picker">
               Day
@@ -132,7 +140,7 @@ export function GymPage() {
         </div>
         {!gym || !teams ? <p className="meta">Loading games…</p> : null}
         {gym && teams && dayGames.length ? (
-          <GameList games={dayGames} season={season} teams={teams} showVenue={false} />
+          <GameList games={dayGames} season={season} teams={teams} showVenue={false} showGroup />
         ) : null}
         {gym && teams && !dayGames.length ? <p className="meta">No dated games here this season.</p> : null}
       </section>

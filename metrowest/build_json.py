@@ -9,7 +9,14 @@ from typing import Any
 
 from .config import RANKING_CONFIG, SCRAPE_CONFIG
 from .db import connect_db, init_db, latest_snapshot_date, list_seasons
-from .schedule import gym_directory, season_games, write_gyms_index, write_season_schedule, write_team_calendars
+from .schedule import (
+    gym_directory,
+    season_games,
+    write_group_schedules,
+    write_gyms_index,
+    write_season_schedule,
+    write_team_calendars,
+)
 from .util import canonical_town, class_of, ensure_dir, season_label, slugify, team_path, town_slug
 
 
@@ -305,6 +312,9 @@ def _build_season(
     }
     games = season_games(conn, yrseason, league_teams, gym_slugs)
     gym_summaries = write_season_schedule(out_dir, yrseason, games, _write_json)
+    write_group_schedules(
+        out_dir, yrseason, games, {t["teamno"]: t for t in search_rows}, _write_json, towns=is_current
+    )
     venue_by_game = {g["id"]: g["venue"] for g in games}
     if is_current:
         write_team_calendars(

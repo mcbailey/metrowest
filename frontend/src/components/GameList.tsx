@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { gymPath, teamPath } from "../paths";
 import { formatDate, genderLabel, gradeLabel } from "../season";
 import type { ScheduleGame, SearchTeam } from "../types";
+import { TeamName } from "./TeamName";
 
 type Props = {
   games: ScheduleGame[];
@@ -11,16 +12,28 @@ type Props = {
   showVenue?: boolean;
   showGroup?: boolean;
   highlight?: Set<string>;
+  /** Most recent day first (for results). */
+  newestFirst?: boolean;
 };
 
 /** Games grouped by day, each row: time, matchup (with scores once final), and where. */
-export function GameList({ games, season, teams, gymNames = {}, showVenue = true, showGroup = true, highlight }: Props) {
+export function GameList({
+  games,
+  season,
+  teams,
+  gymNames = {},
+  showVenue = true,
+  showGroup = true,
+  highlight,
+  newestFirst = false,
+}: Props) {
   const byDay = new Map<string, ScheduleGame[]>();
   for (const g of games) {
     const key = g.date ?? "TBD";
     byDay.set(key, [...(byDay.get(key) ?? []), g]);
   }
   const days = [...byDay.keys()].sort();
+  if (newestFirst) days.reverse();
 
   return (
     <div className="stack-tight">
@@ -91,10 +104,10 @@ function Side({
     <span className={won ? "winner" : undefined}>
       {teamno && team ? (
         <Link className="team-link" to={teamPath(season, teamno, team.name)}>
-          {name}
+          <TeamName name={name} />
         </Link>
       ) : (
-        name
+        <TeamName name={name} />
       )}
       {score !== null ? <span className="score"> {score}</span> : null}
     </span>

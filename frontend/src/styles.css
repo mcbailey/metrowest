@@ -36,10 +36,9 @@ body {
 
 .topbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   margin-bottom: 1rem;
-  gap: 0.9rem;
+  gap: 0.6rem;
   padding: 0.75rem 1rem;
   border: 1px solid #1f488f;
   border-radius: 14px;
@@ -100,29 +99,6 @@ body {
   text-transform: uppercase;
   color: #8fb2ff;
   font-weight: 700;
-}
-
-.notice-banner {
-  margin-bottom: 0.9rem;
-  padding: 0.78rem 0.92rem;
-  border: 1px solid #bfd1f0;
-  border-radius: 10px;
-  background: linear-gradient(90deg, #f7faff 0%, #f2f7ff 55%, #fff4f7 100%);
-  color: #254062;
-}
-
-.notice-banner p {
-  margin: 0;
-  font-size: 0.9rem;
-}
-
-.notice-banner p + p {
-  margin-top: 0.35rem;
-}
-
-.notice-banner a {
-  color: #0f4eb3;
-  font-weight: 600;
 }
 
 main {
@@ -244,7 +220,8 @@ h3 {
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
 
-.summary-grid > div {
+.summary-grid > div,
+.summary-grid > .stat-tile {
   padding: 0.45rem 0.5rem;
   border: 1px solid #d6dff2;
   border-radius: 7px;
@@ -280,20 +257,32 @@ h3 {
     z-index: 2;
   }
 
-  .topbar {
+  .topbar-row {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.65rem;
+    gap: 0.55rem;
   }
 
-  .brand-wrap {
-    width: 100%;
+  .brand-logo {
+    width: 44px;
   }
 
+  .brand-kicker {
+    display: none;
+  }
+
+  /* One row of nav links that scrolls sideways instead of wrapping. */
   .topbar-links {
     width: 100%;
     justify-content: flex-start;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 0.45rem;
+    scrollbar-width: none;
+  }
+
+  .topbar .home-link {
+    white-space: nowrap;
+    padding: 0.3rem 0.7rem;
   }
 }
 
@@ -507,36 +496,10 @@ h3 {
   margin-top: 0.35rem;
 }
 
-.southborough-banner {
-  margin-top: 0.55rem;
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
-  border: 1px solid #d2b87a;
-  background: linear-gradient(135deg, #fff8e7 0%, #fff2d4 100%);
-  border-radius: 10px;
-  padding: 0.45rem 0.6rem;
-}
-
 .southborough-logo {
-  width: 70px;
+  width: 52px;
   height: auto;
   flex-shrink: 0;
-}
-
-.southborough-copy {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  color: #4f1327;
-}
-
-.southborough-copy strong {
-  font-size: 0.93rem;
-}
-
-.southborough-copy span {
-  font-size: 0.85rem;
 }
 
 .southborough-theme .panel {
@@ -545,6 +508,7 @@ h3 {
 }
 
 .southborough-theme .summary-grid > div,
+.southborough-theme .summary-grid > .stat-tile,
 .southborough-theme .glossary-item {
   border-color: #d5bb80;
   background: #fff7e6;
@@ -978,4 +942,247 @@ details > summary {
 
 .tag-gap {
   margin-left: 0.5rem;
+}
+
+/* Header */
+.topbar-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.topbar .home-link.active {
+  background: rgba(255, 255, 255, 0.24);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.team-search-compact {
+  position: relative;
+  max-width: none;
+}
+
+.team-search-compact input {
+  border-color: rgba(233, 242, 255, 0.4);
+  background: rgba(255, 255, 255, 0.95);
+  padding: 0.45rem 0.65rem;
+}
+
+.team-search-compact .team-search-results {
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background: #fff;
+  color: var(--mw-ink);
+  box-shadow: 0 12px 28px rgba(8, 22, 49, 0.25);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 1.5rem;
+  padding: 0.9rem 0.25rem 0;
+  border-top: 1px solid var(--mw-border);
+  color: #4a5f80;
+  font-size: 0.85rem;
+}
+
+.site-footer p {
+  margin: 0 0 0.35rem;
+}
+
+/* Team names: "Southborough White" + a small division code */
+.code-tag {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0 0.3rem;
+  border: 1px solid #c9d6ee;
+  border-radius: 4px;
+  font-size: 0.72em;
+  font-weight: 600;
+  color: #4a5f80;
+  vertical-align: 0.1em;
+  white-space: nowrap;
+}
+
+/* Team page */
+.team-head h2 {
+  margin: 0 0 0.2rem;
+}
+
+.team-head-row {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.star-btn {
+  margin-top: 0.55rem;
+  border: 1px solid #c4d3ee;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--mw-navy-700);
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 0.35rem 0.8rem;
+  cursor: pointer;
+}
+
+.star-on {
+  background: #fff6d8;
+  border-color: #e3b341;
+  color: #6b4a00;
+}
+
+.link-button {
+  border: 0;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: var(--mw-blue-600);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.next-game p {
+  margin: 0;
+}
+
+.next-game-when {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--mw-navy-700);
+}
+
+.next-game-who {
+  font-size: 1.05rem;
+  margin: 0.15rem 0 !important;
+}
+
+.game-rows {
+  list-style: none;
+  margin: 0 0 0.5rem;
+  padding: 0;
+}
+
+.game-rows li {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, auto) 1fr auto;
+  gap: 0.2rem 0.75rem;
+  padding: 0.4rem 0;
+  border-top: 1px solid #e3eaf7;
+}
+
+.game-rows li:first-child {
+  border-top: 0;
+}
+
+.game-rows-when {
+  color: #4a5f80;
+  font-size: 0.9rem;
+}
+
+.game-rows-where {
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 560px) {
+  .game-rows li {
+    grid-template-columns: 1fr auto;
+  }
+
+  .game-rows-when {
+    grid-column: 1 / -1;
+  }
+}
+
+.result-win {
+  color: #11713a;
+}
+
+.result-loss {
+  color: #a3122a;
+}
+
+.stat-tile {
+  font: inherit;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
+}
+
+.stat-label {
+  border-bottom: 1px dotted currentColor;
+}
+
+.stat-tile-open {
+  outline: 2px solid var(--mw-blue-400);
+}
+
+.stat-definition {
+  margin-top: 0.5rem;
+}
+
+/* Home: My teams */
+.my-teams {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.my-team {
+  border: 1px solid var(--mw-border);
+  border-radius: 10px;
+  padding: 0.65rem 0.75rem;
+  background: var(--mw-soft);
+}
+
+.my-team-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.my-team .next-game-when {
+  font-size: 1rem;
+  margin-top: 0.35rem;
+}
+
+/* Town page */
+.town-grade + .town-grade {
+  margin-top: 0.6rem;
+}
+
+.town-teams {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.town-teams li {
+  padding: 0.4rem 0;
+  border-top: 1px solid #e3eaf7;
+}
+
+.town-teams li:first-child {
+  border-top: 0;
+}
+
+.town-next {
+  display: block;
+  font-size: 0.88rem;
+  color: #2f4363;
 }

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { Link, NavLink, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { loadJsonCached } from "./data";
 import { DivisionPage, legacyRankingsPath } from "./routes/DivisionPage";
 import { GlossaryPage } from "./routes/GlossaryPage";
@@ -11,6 +11,7 @@ import { TeamPage } from "./routes/TeamPage";
 import { TownPage } from "./routes/TownPage";
 import { TownsPage } from "./routes/TownsPage";
 import { WeekPage } from "./routes/WeekPage";
+import { TeamSearch } from "./components/TeamSearch";
 import { currentSeason } from "./season";
 import { useSiteSchema } from "./seo";
 import type { IndexData } from "./types";
@@ -31,6 +32,20 @@ function NotFound() {
       </p>
     </section>
   );
+}
+
+/** Team search in the header, for the current season. */
+function HeaderSearch() {
+  const [season, setSeason] = useState<string | null>(null);
+  const { pathname } = useLocation();
+  useEffect(() => {
+    loadJsonCached<IndexData>("data/index.json")
+      .then((index) => setSeason(currentSeason(index)?.yrseason ?? null))
+      .catch(() => undefined);
+  }, []);
+  // The home page has its own, larger search box.
+  if (!season || pathname === "/") return null;
+  return <TeamSearch season={season} compact key={pathname} />;
 }
 
 function OffSeasonNotice() {
@@ -58,40 +73,31 @@ export default function App() {
   return (
     <div className="page">
       <header className="topbar">
-        <Link to="/" className="brand-wrap">
-          <img src="/mwstatslogo.png" alt="MWStats logo" className="brand-logo" />
-          <div className="brand-copy">
-            <p className="brand-kicker">MWStats.com</p>
-            <h1>Metrowest Youth Basketball Rankings</h1>
-          </div>
-        </Link>
-        <nav className="topbar-links">
-          <Link to="/" className="home-link">
-            Home
+        <div className="topbar-row">
+          <Link to="/" className="brand-wrap">
+            <img src="/mwstatslogo.png" alt="MWStats logo" className="brand-logo" />
+            <div className="brand-copy">
+              <p className="brand-kicker">MWStats.com</p>
+              <h1>Metrowest Youth Basketball</h1>
+            </div>
           </Link>
-          <Link to="/week" className="home-link">
-            This Week
-          </Link>
-          <Link to="/towns" className="home-link">
-            Towns
-          </Link>
-          <Link to="/gyms" className="home-link">
-            Gyms
-          </Link>
-          <Link to="/glossary" className="home-link">
-            Glossary
-          </Link>
-        </nav>
+          <nav className="topbar-links" aria-label="Site">
+            <NavLink to="/" end className="home-link">
+              Home
+            </NavLink>
+            <NavLink to="/week" className="home-link">
+              This Week
+            </NavLink>
+            <NavLink to="/towns" className="home-link">
+              Towns
+            </NavLink>
+            <NavLink to="/gyms" className="home-link">
+              Gyms
+            </NavLink>
+          </nav>
+        </div>
+        <HeaderSearch />
       </header>
-
-      <section className="notice-banner" role="note">
-        <p>
-          Data source: <a href="https://metrowestbball.com" target="_blank" rel="noreferrer">metrowestbball.com</a>. Updated daily during the season.
-        </p>
-        <p>
-          Insights and analytics are best-effort and for entertainment and curiosity only. They are discussion starters for coaches and players, not formal evaluations. Keep youth sports fun.
-        </p>
-      </section>
 
       <OffSeasonNotice />
 
@@ -112,6 +118,17 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
+
+      <footer className="site-footer">
+        <p>
+          Data from <a href="https://metrowestbball.com" target="_blank" rel="noreferrer">metrowestbball.com</a>, updated
+          daily during the season. <Link to="/glossary">How rankings work</Link>
+        </p>
+        <p>
+          Insights are best-effort and for fun: discussion starters for coaches and players, not formal evaluations. Keep
+          youth sports fun.
+        </p>
+      </footer>
     </div>
   );
 }

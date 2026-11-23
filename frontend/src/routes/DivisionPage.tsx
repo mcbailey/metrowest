@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
 import { Filters, FilterState } from "../components/Filters";
+import { DivisionSchedule } from "../components/DivisionSchedule";
 import { RankingsTable } from "../components/RankingsTable";
 import { loadJson, loadJsonCached } from "../data";
 import {
@@ -228,6 +229,17 @@ export function DivisionPage() {
   if (!filters || !display) return <p>Loading data...</p>;
 
   const group = seasonEntry?.groups?.find((x) => x.gender === filters.gender && x.grade === filters.grade);
+  const preseason = display.teams.every((t) => t.wins + t.losses + t.ties === 0);
+  // One division: its schedule. Whole grades and tiers are too many games to list.
+  const singleDivision = filters.divisionno !== "ALL" && !filters.divisionno.startsWith("TIER-");
+  const schedule = singleDivision ? (
+    <DivisionSchedule
+      season={filters.season}
+      gender={filters.gender}
+      grade={filters.grade}
+      divisionno={filters.divisionno}
+    />
+  ) : null;
 
   return (
     <div className="stack">
@@ -266,9 +278,16 @@ export function DivisionPage() {
         </p>
       </section>
 
+      {preseason ? schedule : null}
+
       <section className="panel">
+        {preseason ? (
+          <p className="meta compact">No games played yet. The order below is the preseason rating.</p>
+        ) : null}
         <RankingsTable teams={display.teams} showGroup={display.showGroup} season={filters.season} />
       </section>
+
+      {preseason ? null : schedule}
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { teamPath } from "../paths";
+import { TeamName } from "./TeamName";
 import { RankingTeam } from "../types";
 
 type DisplayTeam = RankingTeam & {
@@ -233,7 +234,7 @@ export function RankingsTable({ teams, showGroup = false, season }: Props) {
                 {showGroup ? <td>{team.subgroup ?? "-"}</td> : null}
                 <td className="col-team">
                   <Link to={teamPath(season, team.teamno, team.name)} state={{ from: location.pathname }} className="team-link">
-                    {team.name}
+                    <TeamName name={team.name} tag={false} />
                   </Link>
                 </td>
                 <td>{team.wins}</td>

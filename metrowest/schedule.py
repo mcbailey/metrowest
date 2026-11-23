@@ -213,7 +213,7 @@ def write_season_schedule(
     write_json: Callable[[Path, object], None],
 ) -> list[dict[str, Any]]:
     """Write {season}/weekends/*.json and {season}/gyms/{slug}.json; return a gym summary list for the index."""
-    public = lambda g, drop=(): {k: v for k, v in g.items() if k not in ("venue_name", "address", "league_venue", *drop)}
+    public = _public_game
 
     # Games grouped by Monday-Sunday week, keyed by the week's Saturday.
     by_weekend: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -267,6 +267,44 @@ def write_season_schedule(
         )
         summaries.append({"slug": slug, "name": name, "address": address, "yrseason": yrseason, "games": len(gym_games)})
     return summaries
+
+
+def _public_game(g: dict[str, Any], drop: tuple[str, ...] = ()) -> dict[str, Any]:
+    return {k: v for k, v in g.items() if k not in ("venue_name", "address", "league_venue", *drop)}
+
+
+def write_group_schedules(
+    out_dir: Path,
+    yrseason: str,
+    games: list[dict[str, Any]],
+    teams: dict[str, dict[str, Any]],
+    write_json: Callable[[Path, object], None],
+    towns: bool = True,
+) -> None:
+    """Every game for one division's teams ({season}/{gender}/{grade}/division-{no}-games.json) and, with `towns`,
+    for one town's teams ({season}/town-games/{slug}.json). `teams` is the season's search rows by team number."""
+    gym_names = {g["venue"]: g["venue_name"] for g in games if g["venue"] and g["league_venue"]}
+    by_division: dict[tuple[str, int, str], list[dict[str, Any]]] = defaultdict(list)
+    by_town: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for g in games:
+        sides = [teams[t] for t in (g["home"], g["away"]) if t and t in teams]
+        for key in {(t["gender"], t["grade"], t["divisionno"]) for t in sides if t.get("divisionno")}:
+            by_division[key].append(g)
+        for slug in {t["town_slug"] for t in sides if t.get("town_slug")}:
+            by_town[slug].append(g)
+
+    def payload(group: list[dict[str, Any]]) -> dict[str, Any]:
+        return {
+            "yrseason": yrseason,
+            "games": [_public_game(g) for g in group],
+            "gyms": {v: gym_names.get(v) for v in {g["venue"] for g in group if g["venue"]}},
+        }
+
+    for (gender, grade, divisionno), group in by_division.items():
+        write_json(out_dir / yrseason / gender / str(grade) / f"division-{divisionno}-games.json", payload(group))
+    if towns:
+        for slug, group in by_town.items():
+            write_json(out_dir / yrseason / "town-games" / f"{slug}.json", payload(group))
 
 
 def write_gyms_index(

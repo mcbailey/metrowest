@@ -1,10 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { GameList } from "../components/GameList";
+import { TeamName } from "../components/TeamName";
+import { useFavorites } from "../favorites";
 import { useSeasonTeams } from "../components/useSeasonTeams";
 import { loadJsonCached } from "../data";
 import { teamPath } from "../paths";
-import { currentSeason, findSeason, genderLabel, gradeLabel } from "../season";
+import { currentSeason, findSeason, genderLabel, gradeLabel, todayIso } from "../season";
+import { officialTownName } from "../seoText";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
 import type { IndexData, ScheduleGame, SearchTeam, WeekendData, WeekendsIndex } from "../types";
 
@@ -36,6 +39,9 @@ export function WeekPage() {
   const [missing, setMissing] = useState(false);
   const [gender, setGender] = useState<"ALL" | "M" | "F">("ALL");
   const [grade, setGrade] = useState<number | "ALL">("ALL");
+  const { favorites } = useFavorites();
+  // "" = every town, "mine" = starred teams, otherwise a town slug.
+  const town = params.get("town") ?? "";
 
   useEffect(() => {
     loadJsonCached<IndexData>("data/index.json").then(setIndex).catch(() => undefined);
@@ -43,7 +49,6 @@ export function WeekPage() {
 
   const season = index ? (findSeason(index, params.get("season")) ?? currentSeason(index)) : undefined;
   const yrseason = season?.yrseason ?? null;
-  const saturday = params.get("date") ?? saturdayOf(new Date());
   const teams = useSeasonTeams(yrseason);
 
   useEffect(() => {
@@ -51,8 +56,19 @@ export function WeekPage() {
     loadJsonCached<WeekendsIndex>(`data/${yrseason}/weekends.json`).then(setWeekends).catch(() => setWeekends(null));
   }, [yrseason]);
 
+  // Weeks worth browsing (skip stray one-off dates the source sometimes has).
+  const list = (weekends?.weekends ?? []).filter((w) => w.games >= 10);
+  // Without a chosen week: this week if it has games, else the next week that does, else the season's last week.
+  const thisWeek = saturdayOf(new Date());
+  const defaultWeek =
+    list.find((w) => w.saturday === thisWeek)?.saturday ??
+    list.find((w) => w.saturday > todayIso())?.saturday ??
+    list[list.length - 1]?.saturday ??
+    thisWeek;
+  const saturday = params.get("date") ?? (weekends ? defaultWeek : null);
+
   useEffect(() => {
-    if (!yrseason) return;
+    if (!yrseason || !saturday) return;
     let active = true;
     setWeekend(null);
     setMissing(false);
@@ -75,19 +91,38 @@ export function WeekPage() {
     jsonLd: { "@context": "https://schema.org", "@type": "WebPage", name: "This week", url: `${SEO_SITE_URL}/week` },
   });
 
-  const games = useMemo(
-    () =>
-      (weekend?.games ?? []).filter(
-        (g) => (gender === "ALL" || g.gender === gender) && (grade === "ALL" || g.grade === grade)
-      ),
-    [weekend, gender, grade]
-  );
+  const mine = useMemo(() => new Set(favorites.filter((f) => f.season === yrseason).map((f) => f.teamno)), [favorites, yrseason]);
+  const games = useMemo(() => {
+    const inTown = (teamno: string | null) =>
+      Boolean(teamno) && (town === "mine" ? mine.has(teamno!) : teams?.get(teamno!)?.town_slug === town);
+    return (weekend?.games ?? []).filter(
+      (g) =>
+        (gender === "ALL" || g.gender === gender) &&
+        (grade === "ALL" || g.grade === grade) &&
+        (!town || inTown(g.home) || inTown(g.away))
+    );
+  }, [weekend, gender, grade, town, teams, mine]);
+  // Towns with games this week, for the town picker.
+  const townOptions = useMemo(() => {
+    const names = new Map<string, string>();
+    for (const g of weekend?.games ?? []) {
+      for (const t of [g.home, g.away]) {
+        const team = t ? teams?.get(t) : undefined;
+        if (team?.town_slug && team.town) names.set(team.town_slug, officialTownName(team.town));
+      }
+    }
+    return [...names.entries()].sort((a, b) => a[1].localeCompare(b[1]));
+  }, [weekend, teams]);
+  const setTown = (value: string) => {
+    const nextParams = new URLSearchParams(params);
+    if (value) nextParams.set("town", value);
+    else nextParams.delete("town");
+    setParams(nextParams, { replace: true });
+  };
 
-  // Weeks worth browsing (skip stray one-off dates the source sometimes has).
-  const list = (weekends?.weekends ?? []).filter((w) => w.games >= 10);
   const pos = list.findIndex((w) => w.saturday === saturday);
-  const prev = pos > 0 ? list[pos - 1] : [...list].reverse().find((w) => w.saturday < saturday);
-  const next = pos >= 0 ? list[pos + 1] : list.find((w) => w.saturday > saturday);
+  const prev = pos > 0 ? list[pos - 1] : [...list].reverse().find((w) => saturday && w.saturday < saturday);
+  const next = pos >= 0 ? list[pos + 1] : list.find((w) => saturday && w.saturday > saturday);
   const go = (sat: string) => {
     const nextParams = new URLSearchParams(params);
     nextParams.set("date", sat);
@@ -95,7 +130,7 @@ export function WeekPage() {
     setParams(nextParams);
   };
 
-  if (!index || !season || !yrseason) return <p>Loading…</p>;
+  if (!index || !season || !yrseason || !saturday) return <p>Loading…</p>;
 
   const mon = new Date(`${saturday}T12:00:00`);
   mon.setDate(mon.getDate() - 5);
@@ -140,6 +175,18 @@ export function WeekPage() {
             </button>
           ) : null}
         </div>
+        <label className="season-picker">
+          Town
+          <select value={town} onChange={(e) => setTown(e.target.value)}>
+            <option value="">All towns</option>
+            {mine.size ? <option value="mine">★ My teams</option> : null}
+            {townOptions.map(([slug, name]) => (
+              <option key={slug} value={slug}>
+                {name}
+              </option>
+            ))}
+          </select>
+        </label>
         <div className="chip-group" role="group" aria-label="Gender">
           {(["ALL", "M", "F"] as const).map((g) => (
             <button
@@ -180,13 +227,13 @@ export function WeekPage() {
 
       {weekend && teams ? (
         <>
-          <Highlights games={games} teams={teams} season={yrseason} />
+          {town ? null : <Highlights games={games} teams={teams} season={yrseason} />}
           <section className="panel">
             <h3>All games</h3>
             {games.length ? (
               <GameList games={games} season={yrseason} teams={teams} gymNames={weekend.gyms} />
             ) : (
-              <p className="meta">No games for this grade and gender this week.</p>
+              <p className="meta">No games match these filters this week.</p>
             )}
           </section>
         </>
@@ -223,7 +270,7 @@ function Highlights({ games, teams, season }: { games: ScheduleGame[]; teams: Ma
     const t = teamno ? teams.get(teamno) : undefined;
     return t ? (
       <Link className="team-link" to={teamPath(season, t.teamno, t.name)}>
-        {t.name}
+        <TeamName name={t.name} />
       </Link>
     ) : (
       (fallback ?? "TBD")

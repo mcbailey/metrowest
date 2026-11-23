@@ -261,3 +261,10 @@ export type GymData = {
 export type GymsIndex = {
   gyms: Array<{ slug: string; name: string; address: string | null; seasons: Record<string, number> }>;
 };
+
+/** Every game for one division's or one town's teams ({season}/.../division-{no}-games.json, {season}/town-games/{slug}.json). */
+export type GroupGamesData = {
+  yrseason: string;
+  games: ScheduleGame[];
+  gyms: Record<string, string | null>;
+};

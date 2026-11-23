@@ -2,10 +2,14 @@ import { Link, Navigate, useLocation, useNavigate, useParams } from "react-route
 import { useEffect, useMemo, useState, type CSSProperties, type ReactNode } from "react";
 import { loadJson } from "../data";
 import { ProgramHistory } from "../components/ProgramHistory";
+import { StarButton } from "../components/StarButton";
+import { StatGrid } from "../components/StatGrid";
+import { TeamName } from "../components/TeamName";
+import { GameRows, NextGame, upcomingGames } from "../components/TeamSchedule";
 import { calendarUrl, gymPath, parseSeasonSlug, parseTeamSlug, playoffsPath, rankingsPath, teamPath, townPath } from "../paths";
-import { findSeason, gradeLabel } from "../season";
+import { findSeason, gradeLabel, shortDay } from "../season";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
-import { teamTitle } from "../seoText";
+import { officialTownName, teamTitle } from "../seoText";
 import { DivisionRankingData, DivisionsData, IndexData, RankingTeam, TeamData, TeamGame } from "../types";
 
 type FinalGame = {
@@ -194,6 +198,11 @@ function outcome(teamScore: number | null, oppScore: number | null): string {
   if (teamScore > oppScore) return "W";
   if (teamScore < oppScore) return "L";
   return "T";
+}
+
+/** "D5Y" -> "5" */
+function divisionTier(tag: string): string {
+  return /^D(\d+)/.exec(tag)?.[1] ?? tag;
 }
 
 function genderLabel(gender: "M" | "F" | null): string {
@@ -678,7 +687,13 @@ export function TeamPage() {
   const backTo =
     fromState ??
     (team && activeSeason && team.summary.gender && team.summary.grade !== null
-      ? rankingsPath(activeSeason, team.summary.gender, team.summary.grade)
+      ? rankingsPath(
+          activeSeason,
+          team.summary.gender,
+          team.summary.grade,
+          team.summary.divisionno ?? undefined,
+          team.summary.divisionno ? [{ divisionno: team.summary.divisionno, tag: team.summary.division_tag }] : []
+        )
       : "/");
   const seasonLabelText = findSeason(seasonIndex, activeSeason)?.label;
   const canonicalPath = team && activeSeason ? teamPath(activeSeason, team.teamno, team.team_name) : location.pathname;
@@ -1089,6 +1104,7 @@ export function TeamPage() {
   }
 
   const gp = gamesPlayed(team);
+  const upcoming = upcomingGames(team.future_games);
 
   const teamX = insights
     ? (() => {
@@ -1135,10 +1151,10 @@ export function TeamPage() {
   const renderTeamNameLink = (targetTeamNo: string | null | undefined, label: string | null | undefined): ReactNode => {
     const cleanLabel = (label ?? "").trim();
     if (!cleanLabel) return "TBD";
-    if (!targetTeamNo) return cleanLabel;
+    if (!targetTeamNo) return <TeamName name={cleanLabel} />;
     return (
       <Link className="team-link" to={teamPath(activeSeason, targetTeamNo, cleanLabel)}>
-        {cleanLabel}
+        <TeamName name={cleanLabel} />
       </Link>
     );
   };
@@ -1150,44 +1166,56 @@ export function TeamPage() {
     <div className={`stack ${isSouthboroughTeam ? "southborough-theme" : ""}`}>
       <p>
         <Link to={backTo} className="home-link">
-          ← Back to {fromState ? "rankings" : `${gradeLabel(team.summary.grade)} ${genderLabel(team.summary.gender)} rankings`}
+          ← Back to{" "}
+          {fromState
+            ? "rankings"
+            : `${gradeLabel(team.summary.grade)} ${genderLabel(team.summary.gender)} ${team.summary.division_tag ?? ""} standings`}
         </Link>
       </p>
 
-      <section className="panel">
-        <h2>{team.team_name}</h2>
-        <p className="meta">
-          {gradeLabel(team.summary.grade)} {genderLabel(team.summary.gender)} | {team.summary.division_name}
-          {team.summary.division_tag ? ` (${team.summary.division_tag})` : ""}
-          {seasonLabelText ? ` | ${seasonLabelText} season` : ""}
-          {team.town && team.town_slug ? (
-            <>
-              {" | "}
-              <Link to={townPath(team.town_slug)}>{team.town}</Link>
-            </>
-          ) : null}
-        </p>
-        <p className="meta compact">
-          Division record: {team.summary.wins}-{team.summary.losses}
-          {team.summary.ties ? `-${team.summary.ties}` : ""} | Total listed games: {team.summary.games_played_total ?? team.past_games.length} final, {team.summary.games_scheduled_total ?? team.future_games.length} upcoming
-        </p>
-        {isSouthboroughTeam ? (
-          <div className="southborough-banner" aria-label="Southborough team styling">
+      <section className="panel team-head">
+        <div className="team-head-row">
+          {isSouthboroughTeam ? (
             <img
               src="https://southboroughbasketball.teamsnapsites.com/wp-content/uploads/sites/590/2023/10/Main-Logo.png"
-              alt="Southborough Youth Basketball logo"
+              alt=""
               className="southborough-logo"
               loading="lazy"
               onError={(e) => {
                 e.currentTarget.style.display = "none";
               }}
             />
-            <div className="southborough-copy">
-              <strong>Southborough Spotlight</strong>
-              <span>Special town colors enabled: maroon, gold, and white.</span>
-            </div>
+          ) : null}
+          <div>
+            <h2>
+              <TeamName name={team.team_name} />
+            </h2>
+            <p className="meta compact">
+              {gradeLabel(team.summary.grade)} Grade {genderLabel(team.summary.gender)}
+              {team.summary.division_tag ? ` · Division ${divisionTier(team.summary.division_tag)} (${team.summary.division_tag})` : ""}
+              {seasonLabelText ? ` · ${seasonLabelText}` : ""}
+              {team.town && team.town_slug ? (
+                <>
+                  {" · "}
+                  <Link to={townPath(team.town_slug)}>{officialTownName(team.town)}</Link>
+                </>
+              ) : null}
+            </p>
+            <p className="meta compact">
+              {gp ? (
+                <>
+                  Record {team.summary.wins}-{team.summary.losses}
+                  {team.summary.ties ? `-${team.summary.ties}` : ""}
+                  {team.summary.rank ? ` · #${team.summary.rank} in division` : ""}
+                </>
+              ) : (
+                "No games played yet"
+              )}
+              {upcoming.length ? ` · ${upcoming.length} ${upcoming.length === 1 ? "game" : "games"} left` : ""}
+            </p>
           </div>
-        ) : null}
+        </div>
+        {seasonEntry?.is_current ? <StarButton season={activeSeason} teamno={team.teamno} name={team.team_name} /> : null}
       </section>
 
       <nav className="tabs" aria-label="Team sections">
@@ -1206,20 +1234,61 @@ export function TeamPage() {
 
       {tab === "overview" ? (
         <>
-          <section className="summary-grid panel">
-            <div>Rank: {team.summary.rank ?? "-"}</div>
-            <div>
-              W-L: {team.summary.wins}-{team.summary.losses}
-              {team.summary.ties ? `-${team.summary.ties}` : ""}
-            </div>
-            <div>SoS: {team.summary.sos.toFixed(1)}</div>
-            <div>Power: {team.summary.power.toFixed(1)}</div>
-            <div>MW Rating: {team.summary.mw_rating === null || team.summary.mw_rating === undefined ? "-" : team.summary.mw_rating.toFixed(1)}</div>
-            <div>MW Points: {team.summary.mw_points === null || team.summary.mw_points === undefined ? "-" : team.summary.mw_points}</div>
-            <div>PF/G: {avg(team.summary.pf, gp)}</div>
-            <div>PA/G: {avg(team.summary.pa, gp)}</div>
-            <div>Diff: {team.summary.diff}</div>
-          </section>
+          {upcoming.length && seasonEntry?.status !== "final" ? (
+            <section className="panel">
+              <h3>Next game</h3>
+              <NextGame game={upcoming[0]} season={activeSeason} />
+              {upcoming.length > 1 ? (
+                <>
+                  <h4 className="day-heading">Coming up</h4>
+                  <GameRows games={upcoming.slice(1, 4)} season={activeSeason} />
+                </>
+              ) : null}
+              <p className="meta compact">
+                <button type="button" className="link-button" onClick={() => navigate({ hash: "games" }, { replace: true, state: location.state })}>
+                  Full schedule →
+                </button>
+              </p>
+            </section>
+          ) : null}
+
+          {team.past_games.length ? (
+            <section className="panel">
+              <h3>{seasonEntry?.status === "final" ? "Results" : "Recent results"}</h3>
+              <GameRows
+                games={
+                  seasonEntry?.status === "final"
+                    ? [...team.past_games].sort((a, b) => `${a.date}`.localeCompare(`${b.date}`))
+                    : [...team.past_games].sort((a, b) => `${b.date}`.localeCompare(`${a.date}`)).slice(0, 3)
+                }
+                season={activeSeason}
+                results
+              />
+            </section>
+          ) : null}
+
+          {gp ? (
+          <StatGrid
+            stats={[
+              ["Rank", String(team.summary.rank ?? "-")],
+              ["W-L", `${team.summary.wins}-${team.summary.losses}${team.summary.ties ? `-${team.summary.ties}` : ""}`],
+              ["SoS", team.summary.sos.toFixed(1)],
+              ["Power", team.summary.power.toFixed(1)],
+              ["MW Rating", team.summary.mw_rating === null || team.summary.mw_rating === undefined ? "-" : team.summary.mw_rating.toFixed(1)],
+              ["MW Points", team.summary.mw_points === null || team.summary.mw_points === undefined ? "-" : String(team.summary.mw_points)],
+              ["PF/G", avg(team.summary.pf, gp)],
+              ["PA/G", avg(team.summary.pa, gp)],
+              ["Diff", String(team.summary.diff)],
+            ]}
+          />
+          ) : (
+            <section className="panel">
+              <p className="meta">
+                Rankings and stats fill in once games are played
+                {upcoming[0]?.date ? ` (first game ${shortDay(upcoming[0].date)})` : ""}.
+              </p>
+            </section>
+          )}
 
           {seasonEntry?.is_current ? (
             <CalendarCard season={activeSeason} teamno={team.teamno} final={seasonEntry.status === "final"} />
@@ -1244,7 +1313,7 @@ export function TeamPage() {
             </section>
           ) : null}
 
-          {insights?.divisionFit ? (
+          {insights?.divisionFit && gp >= 3 ? (
             <section className="panel">
               <h3>Division Fit</h3>
               <p className="meta compact"><strong>{insights.divisionFit.verdict}</strong></p>

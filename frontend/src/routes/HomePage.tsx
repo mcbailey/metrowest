@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
+import { MyTeams } from "../components/MyTeams";
 import { TeamSearch } from "../components/TeamSearch";
 import { loadJsonCached } from "../data";
 import {
@@ -46,10 +47,12 @@ export function HomePage() {
 
   return (
     <div className="stack">
+      {entry?.is_current ? <MyTeams /> : null}
+
       <section className="panel home-hero">
         <div className="home-hero-head">
           <div>
-            <h2>Power rankings by grade</h2>
+            <h2>Standings and rankings by grade</h2>
             <p className="meta">{seasonStatusText(entry)}</p>
           </div>
           <label className="season-picker">

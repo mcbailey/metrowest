@@ -1,12 +1,15 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import { GameList } from "../components/GameList";
 import { ProgramHistory } from "../components/ProgramHistory";
+import { TeamName } from "../components/TeamName";
+import { useSeasonTeams } from "../components/useSeasonTeams";
 import { loadJsonCached } from "../data";
 import { rankingsPath, seasonSlug, teamPath } from "../paths";
-import { genderLabel, gradeLabel } from "../season";
+import { genderLabel, gradeLabel, shortDay, todayIso } from "../season";
 import { SEO_SITE_URL, usePageSeo } from "../seo";
-import { townDescription, townTitle } from "../seoText";
-import type { TownData, TownTeam } from "../types";
+import { officialTownName, townDescription, townTitle } from "../seoText";
+import type { GroupGamesData, ScheduleGame, SearchTeam, TownData, TownTeam } from "../types";
 
 export function TownPage() {
   const { slug = "" } = useParams<{ slug: string }>();
@@ -14,6 +17,7 @@ export function TownPage() {
   const [error, setError] = useState<string | null>(null);
   const [season, setSeason] = useState<string | null>(null);
   const [cohort, setCohort] = useState<string>("");
+  const [townGames, setTownGames] = useState<GroupGamesData | null>(null);
 
   useEffect(() => {
     let active = true;
@@ -47,6 +51,44 @@ export function TownPage() {
     },
   });
 
+  // Schedule for the latest season only (that is the one with games still to play).
+  const latestSeason = town?.seasons[0] ?? null;
+  const isLatest = season !== null && season === latestSeason;
+  const seasonTeamMap = useSeasonTeams(isLatest ? season : null);
+  useEffect(() => {
+    if (!latestSeason) return;
+    let active = true;
+    setTownGames(null);
+    loadJsonCached<GroupGamesData>(`data/${latestSeason}/town-games/${slug}.json`)
+      .then((d) => active && setTownGames(d))
+      .catch(() => active && setTownGames(null));
+    return () => {
+      active = false;
+    };
+  }, [latestSeason, slug]);
+
+  // Next game for each team, and the next day (or weekend) with any games.
+  const { nextByTeam, comingUp } = useMemo(() => {
+    const today = todayIso();
+    const upcoming = (townGames?.games ?? [])
+      .filter((g) => g.date && g.date >= today && !g.final)
+      .sort((a, b) => `${a.date}`.localeCompare(`${b.date}`));
+    const nextByTeam = new Map<string, ScheduleGame>();
+    for (const g of upcoming) {
+      for (const t of [g.home, g.away]) if (t && !nextByTeam.has(t)) nextByTeam.set(t, g);
+    }
+    // The first weekend with games: its Saturday and Sunday (or a single weekday).
+    const first = upcoming[0]?.date;
+    let comingUp: ScheduleGame[] = [];
+    if (first) {
+      const end = new Date(`${first}T12:00:00`);
+      end.setDate(end.getDate() + (end.getDay() === 6 ? 1 : 0));
+      const last = end.toISOString().slice(0, 10);
+      comingUp = upcoming.filter((g) => g.date! <= last);
+    }
+    return { nextByTeam, comingUp };
+  }, [townGames]);
+
   const seasonTeams = useMemo(() => (town?.teams ?? []).filter((t) => t.yrseason === season), [town, season]);
   const cohorts = useMemo(() => {
     const seen = new Map<string, { gender: "M" | "F"; classOf: number; latestGrade: number; latestSeason: string }>();
@@ -75,7 +117,9 @@ export function TownPage() {
         </Link>
       </p>
       <section className="panel">
-        <h2>{town.name}</h2>
+        <h2>
+          {officialTownName(town.name)} youth basketball
+        </h2>
         <p className="meta">
           {town.teams.length} teams across {town.seasons.length} {town.seasons.length === 1 ? "season" : "seasons"}
         </p>
@@ -94,6 +138,16 @@ export function TownPage() {
         </div>
       </section>
 
+      {isLatest && comingUp.length && seasonTeamMap ? (
+        <section className="panel">
+          <h3>Coming up</h3>
+          <GameList games={comingUp} season={season} teams={seasonTeamMap} gymNames={townGames?.gyms} />
+          <p className="meta compact">
+            <Link to={`/week?town=${town.slug}`}>All {officialTownName(town.name)} games by week →</Link>
+          </p>
+        </section>
+      ) : null}
+
       {(["M", "F"] as const).map((gender) => {
         const teams = seasonTeams.filter((t) => t.gender === gender);
         if (!teams.length) return null;
@@ -102,7 +156,12 @@ export function TownPage() {
             <h3>
               {genderLabel(gender)}, {seasonSlug(season)}
             </h3>
-            <TownTeamsTable teams={teams} season={season} />
+            <TownTeamsList
+              teams={teams}
+              season={season}
+              nextByTeam={isLatest ? nextByTeam : undefined}
+              teamNames={seasonTeamMap}
+            />
           </section>
         );
       })}
@@ -134,47 +193,70 @@ export function TownPage() {
   );
 }
 
-function TownTeamsTable({ teams, season }: { teams: TownTeam[]; season: string }) {
+/** Teams grouped by grade: name, division, rank and record, and (current season) the next game. */
+function TownTeamsList({
+  teams,
+  season,
+  nextByTeam,
+  teamNames,
+}: {
+  teams: TownTeam[];
+  season: string;
+  nextByTeam?: Map<string, ScheduleGame>;
+  teamNames?: Map<string, SearchTeam> | null;
+}) {
+  const grades = [...new Set(teams.map((t) => t.grade))].sort((a, b) => a - b);
   return (
-    <div className="table-wrap">
-      <table className="games">
-        <thead>
-          <tr>
-            <th>Grade</th>
-            <th>Team</th>
-            <th>Division</th>
-            <th>Rank</th>
-            <th>Record</th>
-            <th>Playoffs</th>
-          </tr>
-        </thead>
-        <tbody>
-          {teams.map((t, i) => (
-            <tr key={t.teamno}>
-              <td>
-                {i === 0 || teams[i - 1].grade !== t.grade ? (
-                  <Link to={rankingsPath(season, t.gender, t.grade)}>{gradeLabel(t.grade)}</Link>
-                ) : null}
-              </td>
-              <td>
-                <Link className="team-link" to={teamPath(season, t.teamno, t.name)}>
-                  {t.name}
-                </Link>
-              </td>
-              <td>{t.division_tag ?? (t.divisiontier ? `D${t.divisiontier}` : "-")}</td>
-              <td>
-                {t.rank}
-                {t.division_size ? <span className="metric-note"> of {t.division_size}</span> : null}
-              </td>
-              <td>
-                {t.wins}-{t.losses}
-                {t.ties ? `-${t.ties}` : ""}
-              </td>
-              <td>{t.playoffs.length ? t.playoffs.join("; ") : "-"}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+    <div className="town-grades">
+      {grades.map((grade) => (
+        <div key={grade} className="town-grade">
+          <h4 className="day-heading">
+            <Link to={rankingsPath(season, teams[0].gender, grade)}>{gradeLabel(grade)} grade</Link>
+          </h4>
+          <ul className="town-teams">
+            {teams
+              .filter((t) => t.grade === grade)
+              .map((t) => {
+                const next = nextByTeam?.get(t.teamno);
+                const opponent = next ? (next.home === t.teamno ? next.away : next.home) : null;
+                return (
+                  <li key={t.teamno}>
+                    <Link className="team-link" to={teamPath(season, t.teamno, t.name)}>
+                      <strong>
+                        <TeamName name={t.name} />
+                      </strong>
+                    </Link>
+                    <span className="metric-note">
+                      {" "}
+                      {t.wins + t.losses + t.ties ? (
+                        <>
+                          {t.wins}-{t.losses}
+                          {t.ties ? `-${t.ties}` : ""} · #{t.rank}
+                          {t.division_size ? ` of ${t.division_size}` : ""}
+                        </>
+                      ) : (
+                        <>#{t.rank}{t.division_size ? ` of ${t.division_size}` : ""} preseason</>
+                      )}
+                      {t.playoffs.length ? ` · ${t.playoffs.join("; ")}` : ""}
+                    </span>
+                    {next ? (
+                      <span className="town-next">
+                        Next: {shortDay(next.date)}
+                        {next.time ? ` ${next.time}` : ""} {next.home === t.teamno ? "vs" : "@"}{" "}
+                        <TeamName name={(opponent && teamNames?.get(opponent)?.name) || nameFor(next, opponent)} tag={false} />
+                      </span>
+                    ) : null}
+                  </li>
+                );
+              })}
+          </ul>
+        </div>
+      ))}
     </div>
   );
+}
+
+function nameFor(game: ScheduleGame, teamno: string | null): string {
+  if (teamno === game.home) return game.home_name ?? "";
+  return game.away_name ?? "";
 }
