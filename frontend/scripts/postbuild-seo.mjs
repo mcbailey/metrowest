@@ -99,6 +99,11 @@ function addPage(page) {
   pages.push(page);
 }
 
+// Sitemap <lastmod>: the date of the newest games behind each page, so finished seasons keep a fixed date and
+// only pages with new results look changed. Set per season in main().
+const seasonDates = new Map();
+let latestDate = null;
+
 async function writePage(page) {
   const dir = page.urlPath === "/" ? DIST_DIR : path.join(DIST_DIR, ...page.urlPath.split("/").filter(Boolean));
   await mkdir(dir, { recursive: true });
@@ -288,7 +293,9 @@ async function buildGymPages() {
       .sort((a, b) => b[0].localeCompare(a[0]))
       .map(([yr, n]) => `<li>${esc(seasonSlug(yr))}: ${n} games</li>`)
       .join("");
+    const latestGymSeason = Object.keys(g.seasons).sort().pop();
     addPage({
+      lastmod: seasonDates.get(latestGymSeason),
       urlPath: `/gyms/${g.slug}`,
       title: gymTitle(g.name, g.address),
       description: gymDescription(g.name, g.address),
@@ -323,6 +330,7 @@ async function buildTownPages() {
       )
       .join("");
     addPage({
+      lastmod: seasonDates.get(town.seasons[0]),
       urlPath: `/towns/${town.slug}`,
       title: townTitle(town.name),
       description: townDescription(town.name),
@@ -362,8 +370,12 @@ async function main() {
     body: "<h1>Glossary of ranking terms</h1>",
   });
 
+  for (const season of index.seasons) seasonDates.set(season.yrseason, season.snapshot_date);
+  latestDate = index.generated_at;
   for (const season of index.seasons) {
+    const start = pages.length;
     await buildSeasonPages(index, season);
+    for (const p of pages.slice(start)) p.lastmod ??= season.snapshot_date;
   }
   await buildTownPages();
   await buildGymPages();
@@ -403,11 +415,16 @@ async function main() {
     await Promise.all(pages.slice(i, i + 200).map(writePage));
   }
 
-  const today = index.generated_at || new Date().toISOString().slice(0, 10);
+  // Home, This Week and the directory pages change with the newest data; the glossary has no data date.
+  const datedByLatest = new Set(["/", "/week", "/towns", "/gyms"]);
+  const lastmodFor = (p) => p.lastmod ?? (datedByLatest.has(p.urlPath) ? latestDate : null);
   const sitemap = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-    ...pages.map((p) => `  <url><loc>${esc(canonicalUrl(p.urlPath))}</loc><lastmod>${today}</lastmod></url>`),
+    ...pages.map((p) => {
+      const lastmod = lastmodFor(p);
+      return `  <url><loc>${esc(canonicalUrl(p.urlPath))}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}</url>`;
+    }),
     "</urlset>",
     "",
   ].join("\n");
