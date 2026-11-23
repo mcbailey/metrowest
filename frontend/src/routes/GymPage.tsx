@@ -5,7 +5,8 @@ import { useSeasonTeams } from "../components/useSeasonTeams";
 import { loadJsonCached } from "../data";
 import { seasonSlug } from "../paths";
 import { formatDate } from "../season";
-import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
+import { SEO_SITE_URL, usePageSeo } from "../seo";
+import { gymDescription, gymTitle } from "../seoText";
 import type { GymData, GymsIndex } from "../types";
 
 export function GymPage() {
@@ -51,10 +52,10 @@ export function GymPage() {
   }, [season, slug]);
 
   const entry = index?.gyms.find((g) => g.slug === slug);
-  const name = gym?.name ?? entry?.name ?? slug;
+  const name = entry?.name ?? gym?.name ?? slug;
   usePageSeo({
-    title: `${name} | ${SEO_SITE_NAME}`,
-    description: `${name}${entry?.address ? `, ${entry.address}` : ""}: Metrowest youth basketball games and schedule.`,
+    title: gymTitle(name, entry?.address),
+    description: gymDescription(name, entry?.address),
     canonicalPath: `/gyms/${slug}`,
     jsonLd: {
       "@context": "https://schema.org",

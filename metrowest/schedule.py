@@ -16,13 +16,15 @@ from .util import slugify
 _COURT_SUFFIX = re.compile(
     r"\s*(?:[-–,]\s*)?\(?\s*(?:court|ct\.?|gym)?\s*#?\s*\d+[a-z]?\s*\)?\s*$", re.IGNORECASE
 )
+# Some venues are listed per day of the week: "Norwood Savage Center(Sunday)".
+_DAY_SUFFIX = re.compile(r"\s*\((?:mon|tues|wednes|thurs|fri|satur|sun)days?\)\s*$", re.IGNORECASE)
 
 
 def facility_name(location: str | None) -> str | None:
     text = re.sub(r"\s+", " ", location or "").strip()
     if not text or text.upper() == "TBD":
         return None
-    stripped = _COURT_SUFFIX.sub("", text).strip(" -–,")
+    stripped = _COURT_SUFFIX.sub("", _DAY_SUFFIX.sub("", text)).strip(" -–,")
     return stripped or text
 
 
@@ -32,20 +34,35 @@ def clean_address(street: Any, citystzip: Any) -> str | None:
     return ", ".join(parts) or None
 
 
-_STREET_WORDS = {"e": "east", "w": "west", "n": "north", "s": "south", "st": "street", "rd": "road", "ave": "avenue"}
+_DIRECTIONS = {"e": "east", "w": "west", "n": "north", "s": "south"}
+# Street types are left out of the key: the league writes the same gym as "31 Oxford Rd" and "31 Oxford St".
+_STREET_TYPES = {
+    "st", "street", "rd", "road", "ave", "avenue", "dr", "drive", "ln", "lane", "blvd", "boulevard",
+    "way", "pl", "place", "ct", "court", "pkwy", "parkway", "hwy", "highway", "cir", "circle", "ter", "terrace",
+}
+
+_STATES = {"ma", "ri", "nh", "ct"}
 
 
 def address_key(address: str | None) -> str | None:
     """Rough identity for a street address: "117 E Central St, Natick" and "117 East Central Street, Natick MA"
-    both become "117-east-central-nati". Needs a street number; returns None otherwise."""
+    both become "117-east-central-nati", and "275 Prospect St Norwood MA" becomes "275-prospect-norw".
+    Needs a street number; returns None otherwise."""
     if not address:
         return None
-    street, _, city = address.partition(",")
-    words = [_STREET_WORDS.get(w, w) for w in re.findall(r"[a-z0-9]+", street.lower())]
-    if not words or not words[0].isdigit():
+    street, comma, city = address.partition(",")
+    words = [_DIRECTIONS.get(w, w) for w in re.findall(r"[a-z0-9]+", street.lower())]
+    if not words or not words[0].isdigit() or int(words[0]) == 0:
         return None
-    city_words = re.findall(r"[a-z]+", city.lower())
-    return "-".join(words[:3] + ([city_words[0][:4]] if city_words else []))
+    name, rest = [], []
+    for i, w in enumerate(words[1:], start=1):
+        if w in _STREET_TYPES and name:
+            rest = words[i + 1 :]
+            break
+        name.append(w)
+    # The town follows the street type ("31 Oxford Rd. Mansfield, MA") or the first comma.
+    city_words = [w for w in rest + re.findall(r"[a-z]+", city.lower()) if not w.isdigit() and w not in _STATES]
+    return "-".join([words[0], *name[:2]] + ([city_words[0][:4]] if city_words else []))
 
 
 def parse_time(text: Any) -> tuple[int, int] | None:
@@ -59,8 +76,11 @@ def parse_time(text: Any) -> tuple[int, int] | None:
     return hour, minute
 
 
-def season_games(conn, yrseason: str, teams: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
-    """Every game in the season, once, with names for teams outside the league."""
+def season_games(
+    conn, yrseason: str, teams: dict[str, dict[str, Any]], gym_slugs: dict[str, str] | None = None
+) -> list[dict[str, Any]]:
+    """Every game in the season, once, with names for teams outside the league. `gym_slugs` (from
+    gym_directory) keeps a gym's slug the same across seasons."""
     games = []
     for row in conn.execute(
         """SELECT gameno, date, starttime, location, home_teamno, away_teamno, home_score, away_score, status, raw_json
@@ -97,13 +117,42 @@ def season_games(conn, yrseason: str, teams: dict[str, dict[str, Any]]) -> list[
                 "league_venue": str(raw.get("week") or "").upper() != "NL",
             }
         )
-    _assign_gyms(games)
+    _assign_gyms(games, gym_slugs)
     return games
 
 
-def _assign_gyms(games: list[dict[str, Any]]) -> None:
-    """Group league venues into gyms (courts of one building, spelling variants at one address) and set each
-    game's "venue" slug. Non-league games join a gym only if their address or name matches one."""
+def _name_key(venue_name: str) -> str:
+    """ "Mansfield Field House" and "Mansfield FieldHouse" are the same venue."""
+    return "name:" + slugify(venue_name).replace("-", "")
+
+
+def gym_directory(conn) -> tuple[dict[str, str], dict[str, list[str]]]:
+    """Gyms across every season: venue key -> gym slug (see _venue_slugs), and gym slug -> other slugs its
+    venues have had, so old gym URLs can redirect."""
+    games, old_names = [], []
+    for row in conn.execute("SELECT location, raw_json FROM games"):
+        raw = json.loads(row["raw_json"] or "{}")
+        venue_name = facility_name(row["location"])
+        if not venue_name or str(raw.get("week") or "").upper() == "NL":
+            continue
+        address = clean_address(raw.get("street"), raw.get("citystzip"))
+        games.append({"venue_name": venue_name, "address": address, "league_venue": True})
+        # Gym slugs used to keep a day-of-week suffix.
+        old_names.append(_COURT_SUFFIX.sub("", re.sub(r"\s+", " ", row["location"]).strip()).strip(" -–,"))
+    slugs = _venue_slugs(games)
+    taken = set(slugs.values())
+    aliases: dict[str, set[str]] = defaultdict(set)
+    for g, old in zip(games, old_names):
+        slug = slugs[_name_key(g['venue_name'])]
+        for alias in (slugify(g["venue_name"]), slugify(old)):
+            if alias and alias not in taken:
+                aliases[slug].add(alias)
+    return slugs, {slug: sorted(names) for slug, names in aliases.items()}
+
+
+def _venue_slugs(games: list[dict[str, Any]]) -> dict[str, str]:
+    """Group league venues into gyms (courts of one building, spelling variants at one address). Returns the
+    gym slug for every "name:<venue>" and "addr:<address key>" seen."""
     parent: dict[str, str] = {}
 
     def find(x: str) -> str:
@@ -114,18 +163,26 @@ def _assign_gyms(games: list[dict[str, Any]]) -> None:
     def union(a: str, b: str) -> None:
         parent[find(a)] = find(b)
 
+    # A venue name joins an address only if it is a real share of that name's games, so a few mistyped
+    # addresses can't chain two buildings together.
+    name_games: dict[str, int] = defaultdict(int)
+    pair_games: dict[tuple[str, str], int] = defaultdict(int)
     for g in games:
         if g["league_venue"] and g["venue_name"]:
-            name_key = f"name:{slugify(g['venue_name'])}"
+            name_key = _name_key(g['venue_name'])
             find(name_key)
+            name_games[name_key] += 1
             addr = address_key(g["address"])
             if addr:
-                union(name_key, f"addr:{addr}")
+                pair_games[(name_key, f"addr:{addr}")] += 1
+    for (name_key, addr_key), n in pair_games.items():
+        if n * 10 >= name_games[name_key]:
+            union(name_key, addr_key)
 
     names_by_root: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
     for g in games:
         if g["league_venue"] and g["venue_name"]:
-            names_by_root[find(f"name:{slugify(g['venue_name'])}")][g["venue_name"]] += 1
+            names_by_root[find(_name_key(g['venue_name']))][g["venue_name"]] += 1
 
     slug_by_root: dict[str, str] = {}
     used: set[str] = set()
@@ -136,14 +193,17 @@ def _assign_gyms(games: list[dict[str, Any]]) -> None:
             slug, n = f"{base}-{n}", n + 1
         used.add(slug)
         slug_by_root[root] = slug
+    return {key: slug_by_root[find(key)] for key in list(parent) if find(key) in slug_by_root}
 
+
+def _assign_gyms(games: list[dict[str, Any]], slugs: dict[str, str] | None = None) -> None:
+    """Set each game's "venue" gym slug. Non-league games join a gym only if their address or name matches one."""
+    if slugs is None:
+        slugs = _venue_slugs(games)
     for g in games:
-        root = None
-        if g["venue_name"] and f"name:{slugify(g['venue_name'])}" in parent:
-            root = find(f"name:{slugify(g['venue_name'])}")
-        elif address_key(g["address"]) and f"addr:{address_key(g['address'])}" in parent:
-            root = find(f"addr:{address_key(g['address'])}")
-        g["venue"] = slug_by_root.get(root) if root else None
+        name_key = _name_key(g['venue_name']) if g["venue_name"] else None
+        addr = address_key(g["address"])
+        g["venue"] = slugs.get(name_key) if name_key in slugs else slugs.get(f"addr:{addr}") if addr else None
 
 
 def write_season_schedule(
@@ -185,11 +245,12 @@ def write_season_schedule(
     for slug, gym_games in by_gym.items():
         names = defaultdict(int)
         addresses = defaultdict(int)
-        for g in gym_games:
-            if g["league_venue"]:
-                names[g["venue_name"]] += 1
-                if g["address"]:
-                    addresses[g["address"]] += 1
+        # Prefer the league's own venue names; a gym can appear in a season only through non-league games.
+        named = [g for g in gym_games if g["league_venue"]] or [g for g in gym_games if g["venue_name"]] or gym_games
+        for g in named:
+            names[g["venue_name"] or slug] += 1
+            if g["address"]:
+                addresses[g["address"]] += 1
         name = max(names.items(), key=lambda kv: kv[1])[0]
         address = max(addresses.items(), key=lambda kv: kv[1])[0] if addresses else None
         courts = sorted({g["court"] for g in gym_games if g["court"] and g["league_venue"]})
@@ -208,14 +269,33 @@ def write_season_schedule(
     return summaries
 
 
-def write_gyms_index(out_dir: Path, summaries: list[dict[str, Any]], write_json: Callable[[Path, object], None]) -> None:
+def write_gyms_index(
+    out_dir: Path,
+    summaries: list[dict[str, Any]],
+    write_json: Callable[[Path, object], None],
+    aliases: dict[str, list[str]] | None = None,
+) -> None:
     gyms: dict[str, dict[str, Any]] = {}
+    names: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
     for s in summaries:
-        gym = gyms.setdefault(s["slug"], {"slug": s["slug"], "name": s["name"], "address": s["address"], "seasons": {}})
+        gym = gyms.setdefault(
+            s["slug"],
+            {
+                "slug": s["slug"],
+                "name": s["name"],
+                "address": s["address"],
+                "seasons": {},
+                "aliases": (aliases or {}).get(s["slug"], []),
+            },
+        )
         gym["seasons"][s["yrseason"]] = s["games"]
+        names[s["slug"]][s["name"]] += s["games"]
         latest = max(gym["seasons"])
         if s["yrseason"] == latest:
-            gym["name"], gym["address"] = s["name"], s["address"] or gym["address"]
+            gym["address"] = s["address"] or gym["address"]
+    # A gym merged across seasons goes by the name most of its games used.
+    for slug, gym in gyms.items():
+        gym["name"] = max(names[slug].items(), key=lambda kv: kv[1])[0]
     write_json(out_dir / "gyms.json", {"gyms": sorted(gyms.values(), key=lambda g: g["name"].lower())})
 
 

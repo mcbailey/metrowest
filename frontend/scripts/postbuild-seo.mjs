@@ -1,12 +1,25 @@
 // Post-build: pre-render a static HTML page for every route so search engines (and link previews) see real
 // titles, descriptions, canonical URLs and content. React replaces the static markup when the app loads.
-// Also writes sitemap.xml, robots.txt, 404.html (SPA fallback) and redirect stubs for old /team/<id> URLs.
+// Also writes sitemap.xml, robots.txt, 404.html (SPA fallback) and redirect stubs for old URLs: /team/<id>,
+// team URLs ending in the division code, town spellings, and gym slugs merged into one gym.
 //
 // URL helpers here mirror src/paths.ts; keep the two in sync.
 
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { defaultCardSvg, loadCardAssets, renderPng, teamCardSvg } from "./season-cards.mjs";
+import {
+  HOME_DESCRIPTION,
+  HOME_TITLE,
+  TOWN_ALIASES,
+  gymDescription,
+  gymTitle,
+  playoffsTitle,
+  rankingsTitle,
+  teamTitle,
+  townDescription,
+  townTitle,
+} from "../src/seoText.js";
 
 const SITE_URL = process.env.SITE_URL || "https://mwstats.com";
 const SITE_NAME = "MWStats | Metrowest Youth Basketball Rankings";
@@ -142,7 +155,7 @@ async function buildSeasonPages(index, season) {
       const all = aggregate(datasets);
       addPage({
         urlPath: rankingsPath(yr, gender, grade),
-        title: `${group} - All Divisions, ${label} | MWStats`,
+        title: rankingsTitle({ grade, gender, label }),
         description: `${group} youth basketball ${status} for ${label}: ${all.length} teams ranked by power rating and strength of schedule.`,
         body: `<h1>${esc(group)} power rankings, ${esc(label)}</h1><p>Divisions: ${divisionLinks}</p>${
           season.groups?.find((g) => g.gender === gender && g.grade === grade)?.playoffs
@@ -157,7 +170,7 @@ async function buildSeasonPages(index, season) {
         const teams = aggregate(datasets.filter((ds) => ds.divisiontier === tier));
         addPage({
           urlPath: rankingsPath(yr, gender, grade, `division-${tier}`),
-          title: `${group} - Division ${tier}, ${label} | MWStats`,
+          title: rankingsTitle({ grade, gender, label, tier }),
           description: `${group} Division ${tier} youth basketball ${status} for ${label}: ${teams.length} teams.`,
           body: `<h1>${esc(group)} Division ${esc(tier)}, ${esc(label)}</h1>${rankingsTable(teams, yr)}`,
         });
@@ -168,7 +181,7 @@ async function buildSeasonPages(index, season) {
         const name = `${ds.division_name}${ds.tag ? ` (${ds.tag})` : ""}`;
         addPage({
           urlPath: rankingsPath(yr, gender, grade, ds.tag ? slugify(ds.tag) : ds.divisionno),
-          title: `${name}, ${label} | MWStats`,
+          title: rankingsTitle({ grade, gender, label, tier: ds.divisiontier, tag: ds.tag }),
           description: `${name} ${status} for ${label}: ${ds.rankings.length} teams with records, power rating and strength of schedule.`,
           body: `<h1>${esc(name)}, ${esc(label)}</h1>${rankingsTable(ds.rankings, yr)}`,
         });
@@ -194,7 +207,7 @@ async function buildSeasonPages(index, season) {
           .join("");
         addPage({
           urlPath: playoffsPath(yr, gender, grade),
-          title: `${group} playoffs, ${label} | MWStats`,
+          title: playoffsTitle(grade, gender, label),
           description: `${group} playoff brackets for ${label}: seeds, scores and results for ${playoffs.groups.length} groups.`,
           body: `<h1>${esc(group)} playoffs, ${esc(label)}</h1>${sections}`,
         });
@@ -239,7 +252,7 @@ async function buildSeasonPages(index, season) {
     addPage({
       image,
       urlPath,
-      title: `${team.team_name} (${group}, ${label}) | MWStats`,
+      title: teamTitle(team.team_name, s.grade, s.gender, label),
       description: `${team.team_name}: ${record(s)} in ${s.division_name ?? "their division"}, ranked #${s.rank ?? "-"}, ${label}. Results, schedule, power rating and program history.`,
       body: `<h1>${esc(team.team_name)}</h1><p>${esc(group)} · ${esc(s.division_name ?? "")} · ${esc(label)}${
         team.town_slug ? ` · ${link(`/towns/${team.town_slug}`, team.town)}` : ""
@@ -248,10 +261,16 @@ async function buildSeasonPages(index, season) {
       }<h2>Results</h2><table><tbody>${games}</tbody></table>`,
     });
     legacyTeams.set(team.teamno, urlPath);
+    // Team URLs once ended in the division code (".../44157-holliston-wing-white-d5q"); a bare team number
+    // should also find the team.
+    redirects.set(teamPath(yr, team.teamno, null), urlPath);
+    if (s.division_tag) redirects.set(`${urlPath}-${slugify(s.division_tag)}`, urlPath);
   }
 }
 
 const legacyTeams = new Map();
+// Old or alternate URL path -> the page's current path; each gets a redirect stub.
+const redirects = new Map();
 
 async function buildGymPages() {
   const gyms = await readJsonIfExists(path.join(DATA_DIR, "gyms.json"));
@@ -271,10 +290,11 @@ async function buildGymPages() {
       .join("");
     addPage({
       urlPath: `/gyms/${g.slug}`,
-      title: `${g.name} | MWStats`,
-      description: `${g.name}${g.address ? `, ${g.address}` : ""}: Metrowest youth basketball games and schedule.`,
+      title: gymTitle(g.name, g.address),
+      description: gymDescription(g.name, g.address),
       body: `<h1>${esc(g.name)}</h1>${g.address ? `<p>${esc(g.address)}</p>` : ""}<ul>${seasons}</ul>`,
     });
+    for (const alias of g.aliases ?? []) redirects.set(`/gyms/${alias}`, `/gyms/${g.slug}`);
   }
 }
 
@@ -287,6 +307,10 @@ async function buildTownPages() {
     description: "Every town in Metrowest youth basketball, with each town's teams, rankings, and history by season.",
     body: `<h1>Towns</h1><ul>${towns.towns.map((t) => `<li>${link(`/towns/${t.slug}`, t.name)}</li>`).join("")}</ul>`,
   });
+  const slugs = new Set(towns.towns.map((t) => t.slug));
+  for (const [alias, target] of Object.entries(TOWN_ALIASES)) {
+    if (slugs.has(target) && !slugs.has(alias)) redirects.set(`/towns/${alias}`, `/towns/${target}`);
+  }
   for (const t of towns.towns) {
     const town = await readJson(path.join(DATA_DIR, "towns", `${t.slug}.json`));
     const latest = town.teams.filter((x) => x.yrseason === town.seasons[0]);
@@ -300,8 +324,8 @@ async function buildTownPages() {
       .join("");
     addPage({
       urlPath: `/towns/${town.slug}`,
-      title: `${town.name} youth basketball teams | MWStats`,
-      description: `${town.name} teams in Metrowest youth basketball: power rankings, records, and playoff results for every grade and season.`,
+      title: townTitle(town.name),
+      description: townDescription(town.name),
       body: `<h1>${esc(town.name)}</h1><p>${town.teams.length} teams across ${town.seasons.length} seasons.</p><h2>${esc(
         seasonSlug(town.seasons[0])
       )}</h2><table><tbody>${rows}</tbody></table>`,
@@ -325,8 +349,8 @@ async function main() {
 
   addPage({
     urlPath: "/",
-    title: SITE_NAME,
-    description: "Metrowest youth basketball power rankings, division standings, playoff brackets, town pages, and team history.",
+    title: HOME_TITLE,
+    description: HOME_DESCRIPTION,
     body: `<h1>Metrowest Youth Basketball Rankings</h1>${(current?.groups ?? [])
       .map((g) => `<p>${link(rankingsPath(current.yrseason, g.gender, g.grade), `${ordinal(g.grade)} ${genderLabel(g.gender)}`)}</p>`)
       .join("")}<p>${link("/towns", "Towns")} · ${link("/glossary", "Glossary")}</p>`,
@@ -357,6 +381,14 @@ async function main() {
     await writeFile(path.join(dir, "index.html"), redirectStub(target), "utf-8");
   }
 
+  const pagePaths = new Set(pages.map((p) => p.urlPath));
+  for (const [from, target] of redirects) {
+    if (pagePaths.has(from)) continue;
+    const dir = path.join(DIST_DIR, ...from.split("/").filter(Boolean));
+    await mkdir(dir, { recursive: true });
+    await writeFile(path.join(dir, "index.html"), redirectStub(target), "utf-8");
+  }
+
   // Season cards (link previews): one per current-season team, plus the site-wide default.
   await loadCardAssets(path.join(DIST_DIR, "mwstatslogo.png"));
   await mkdir(path.join(DIST_DIR, "cards"), { recursive: true });
@@ -383,7 +415,7 @@ async function main() {
   await writeFile(path.join(DIST_DIR, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`, "utf-8");
 
   console.log(
-    `Pre-rendered ${pages.length} pages, ${cards.length} season cards, ${legacyTeams.size} legacy team redirects; wrote sitemap.xml, robots.txt, 404.html`
+    `Pre-rendered ${pages.length} pages, ${cards.length} season cards, ${legacyTeams.size} legacy team redirects, ${redirects.size} other redirects; wrote sitemap.xml, robots.txt, 404.html`
   );
 }
 

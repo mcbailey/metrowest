@@ -1,6 +1,6 @@
 import unittest
 
-from metrowest.schedule import _assign_gyms, address_key, facility_name, parse_time, team_calendar
+from metrowest.schedule import _assign_gyms, _venue_slugs, address_key, facility_name, parse_time, team_calendar
 
 
 def _game(**kw):
@@ -21,12 +21,18 @@ class ScheduleTests(unittest.TestCase):
         self.assertEqual(facility_name("Foxboro Ahern Middle (Gym 2)"), "Foxboro Ahern Middle")
         self.assertEqual(facility_name("Natick Community Center"), "Natick Community Center")
         self.assertIsNone(facility_name("TBD"))
+        self.assertEqual(facility_name("Norwood Savage Center(Sunday)"), "Norwood Savage Center")
 
     def test_address_key_ignores_spelling(self):
         self.assertEqual(
             address_key("117 East Central Street, Natick"), address_key("117 E Central St, Natick MA 01760")
         )
         self.assertIsNone(address_key("Green Street, Foxborough"))
+        # Street type and missing commas don't matter.
+        self.assertEqual(address_key("31 Oxford St, Mansfield, MA 02048"), address_key("31 Oxford Road, Mansfield/MA/02048"))
+        self.assertEqual(address_key("275 Prospect St Norwood MA"), address_key("275 Prospect St., Norwood, MA 02062"))
+        self.assertNotEqual(address_key("10 Main St, Natick"), address_key("10 Main St, Needham"))
+        self.assertEqual(address_key("31 Oxford Rd. Mansfield, MA 02048"), address_key("31 Oxford St, Mansfield"))
 
     def test_parse_time(self):
         self.assertEqual(parse_time("9:20 AM"), (9, 20))
@@ -46,6 +52,25 @@ class ScheduleTests(unittest.TestCase):
         _assign_gyms(games)
         self.assertEqual({g["venue"] for g in games[:3]}, {"mass-premier"})
         self.assertIsNone(games[3]["venue"])
+
+    def test_gym_slugs_carry_across_seasons(self):
+        everything = [
+            _game(id="1", venue_name="Mansfield Fieldhouse", address="31 Oxford St, Mansfield, MA 02048"),
+            _game(id="2", venue_name="Mansfield Fieldhouse", address="31 Oxford St, Mansfield, MA 02048"),
+            _game(id="3", venue_name="MPlex", address="31 Oxford Rd, Mansfield MA"),
+        ]
+        one_season = [_game(id="3", venue_name="MPlex", address="31 Oxford Rd, Mansfield MA")]
+        _assign_gyms(one_season, _venue_slugs(everything))
+        self.assertEqual(one_season[0]["venue"], "mansfield-fieldhouse")
+
+    def test_stray_address_does_not_merge_gyms(self):
+        games = [_game(id=str(i), venue_name="Mansfield Fieldhouse", address="31 Oxford St, Mansfield") for i in range(20)]
+        games += [_game(id="x", venue_name="Mansfield Fieldhouse", address="97 Green St, Foxboro")]
+        games += [_game(id=f"p{i}", venue_name="Mass Premier", address="97 Green St, Foxboro") for i in range(5)]
+        _assign_gyms(games)
+        self.assertEqual(games[0]["venue"], "mansfield-fieldhouse")
+        self.assertEqual(games[-1]["venue"], "mass-premier")
+        self.assertIsNone(address_key("0 Main St, Foxboro"))
 
     def test_calendar_event(self):
         teams = {"1": {"name": "Natick (red)"}, "2": {"name": "Needham"}}

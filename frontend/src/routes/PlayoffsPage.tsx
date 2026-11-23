@@ -11,6 +11,7 @@ import {
 } from "../paths";
 import { findSeason, genderLabel, gradeLabel } from "../season";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
+import { playoffsTitle } from "../seoText";
 import type { BracketGame, BracketTeam, IndexData, PlayoffGroup, PlayoffsData } from "../types";
 
 function roundName(round: number, rounds: number): string {
@@ -58,7 +59,7 @@ export function PlayoffsPage() {
     gender && grade !== null ? `${gradeLabel(grade)} ${genderLabel(gender)} playoffs, ${season?.label ?? ""}` : "Playoffs";
   const canonicalPath = yrseason && gender && grade !== null ? playoffsPath(yrseason, gender, grade) : "/";
   usePageSeo({
-    title: `${title} | ${SEO_SITE_NAME}`,
+    title: gender && grade !== null ? playoffsTitle(grade, gender, season?.label ?? "") : `${title} | ${SEO_SITE_NAME}`,
     description: `${title}: brackets, seeds, and results for every playoff group.`,
     canonicalPath,
     jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", name: title, url: `${SEO_SITE_URL}${canonicalPath}` },

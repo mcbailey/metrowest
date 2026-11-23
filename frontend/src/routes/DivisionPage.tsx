@@ -14,6 +14,7 @@ import {
 } from "../paths";
 import { findSeason, genderLabel, gradeLabel, saveLastView, seasonStatusText } from "../season";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
+import { rankingsTitle } from "../seoText";
 import { DivisionRankingData, DivisionsData, IndexData, RankingTeam } from "../types";
 
 type DisplayTeam = RankingTeam & {
@@ -24,6 +25,7 @@ type DisplayTeam = RankingTeam & {
 type DisplayPayload = {
   key: string;
   title: string;
+  seoTitle: string;
   subtitle: string;
   teams: DisplayTeam[];
   showGroup: boolean;
@@ -134,6 +136,13 @@ export function DivisionPage() {
       setDisplay({
         key: `${current.season}/${current.gender}/${current.grade}/${current.divisionno}`,
         title,
+        seoTitle: rankingsTitle({
+          grade: current.grade,
+          gender: current.gender,
+          label: seasonEntry?.label ?? "",
+          tier: aggregate ? tier : datasets[0].divisiontier,
+          tag: aggregate ? null : datasets[0].tag,
+        }),
         subtitle: `${seasonStatusText(seasonEntry, datasets[0].snapshot_date)} · ${teams.length} teams`,
         teams,
         showGroup: aggregate,
@@ -181,7 +190,7 @@ export function DivisionPage() {
   const canonicalPath = filters
     ? rankingsPath(filters.season, filters.gender, filters.grade, filters.divisionno, divisions?.divisions)
     : "/";
-  const seoTitle = display ? `${display.title}, ${seasonEntry?.label ?? ""} | MWStats` : SEO_SITE_NAME;
+  const seoTitle = display ? display.seoTitle : SEO_SITE_NAME;
   const seoDescription = display
     ? `${display.title} (${seasonEntry?.label}). ${display.teams.length} teams ranked by power rating, strength of schedule, and results.`
     : "Metrowest youth basketball power rankings by grade and division.";

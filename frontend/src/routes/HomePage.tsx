@@ -12,6 +12,7 @@ import {
 } from "../season";
 import { rankingsPath } from "../paths";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
+import { HOME_DESCRIPTION, HOME_TITLE } from "../seoText";
 import type { IndexData } from "../types";
 
 export function HomePage() {
@@ -30,8 +31,8 @@ export function HomePage() {
   }, []);
 
   usePageSeo({
-    title: SEO_SITE_NAME,
-    description: "Metrowest youth basketball power rankings, division standings, team ratings, and schedule-driven analytics.",
+    title: HOME_TITLE,
+    description: HOME_DESCRIPTION,
     canonicalPath: "/",
     jsonLd: { "@context": "https://schema.org", "@type": "WebSite", name: SEO_SITE_NAME, url: SEO_SITE_URL },
   });

@@ -9,7 +9,7 @@ from typing import Any
 
 from .config import RANKING_CONFIG, SCRAPE_CONFIG
 from .db import connect_db, init_db, latest_snapshot_date, list_seasons
-from .schedule import season_games, write_gyms_index, write_season_schedule, write_team_calendars
+from .schedule import gym_directory, season_games, write_gyms_index, write_season_schedule, write_team_calendars
 from .util import canonical_town, class_of, ensure_dir, season_label, slugify, team_path, town_slug
 
 
@@ -168,7 +168,9 @@ def _write_playoffs(conn, out_dir: Path, yrseason: str) -> tuple[dict[str, list[
     return results, set(by_grade)
 
 
-def _build_season(conn, out_dir: Path, yrseason: str, is_current: bool = False) -> dict[str, Any] | None:
+def _build_season(
+    conn, out_dir: Path, yrseason: str, is_current: bool = False, gym_slugs: dict[str, str] | None = None
+) -> dict[str, Any] | None:
     """Write all JSON for one season. Returns the season's entry for index.json, or None if it has no rankings."""
     snapshot_date = latest_snapshot_date(conn, yrseason)
     if not snapshot_date:
@@ -301,7 +303,7 @@ def _build_season(conn, out_dir: Path, yrseason: str, is_current: bool = False) 
     league_teams = {
         t["teamno"]: {"name": t["name"], "gender": t["gender"], "grade": t["grade"]} for t in search_rows
     }
-    games = season_games(conn, yrseason, league_teams)
+    games = season_games(conn, yrseason, league_teams, gym_slugs)
     gym_summaries = write_season_schedule(out_dir, yrseason, games, _write_json)
     venue_by_game = {g["id"]: g["venue"] for g in games}
     if is_current:
@@ -566,12 +568,15 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str | None = None, rankin
 
     ensure_dir(out_dir)
     entries: list[dict[str, Any]] = []
+    gym_slugs, gym_aliases = gym_directory(conn)
     for season in targets:
         season_dir = out_dir / season["yrseason"]
         # The folder is fully generated; clear it so teams/divisions that disappeared don't linger.
         if season_dir.exists():
             shutil.rmtree(season_dir)
-        entry = _build_season(conn, out_dir, season["yrseason"], is_current=bool(season.get("is_current")))
+        entry = _build_season(
+            conn, out_dir, season["yrseason"], is_current=bool(season.get("is_current")), gym_slugs=gym_slugs
+        )
         if entry is None:
             continue
         entry["status"] = season.get("status") or "in_progress"
@@ -583,7 +588,7 @@ def build_json(db_path: Path, out_dir: Path, yrseason: str | None = None, rankin
     # Gym directory across seasons (season entries carry their gym list until here).
     gym_summaries = [g for e in entries for g in e.pop("gyms", [])]
     if yrseason in (None, "auto"):
-        write_gyms_index(out_dir, gym_summaries, _write_json)
+        write_gyms_index(out_dir, gym_summaries, _write_json, gym_aliases)
 
     if yrseason not in (None, "auto"):
         # Partial rebuild: keep the other seasons already listed in index.json.

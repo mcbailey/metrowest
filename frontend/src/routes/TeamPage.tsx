@@ -5,6 +5,7 @@ import { ProgramHistory } from "../components/ProgramHistory";
 import { calendarUrl, gymPath, parseSeasonSlug, parseTeamSlug, playoffsPath, rankingsPath, teamPath, townPath } from "../paths";
 import { findSeason, gradeLabel } from "../season";
 import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
+import { teamTitle } from "../seoText";
 import { DivisionRankingData, DivisionsData, IndexData, RankingTeam, TeamData, TeamGame } from "../types";
 
 type FinalGame = {
@@ -683,7 +684,7 @@ export function TeamPage() {
   const canonicalPath = team && activeSeason ? teamPath(activeSeason, team.teamno, team.team_name) : location.pathname;
   const seoTitle =
     team && team.team_name
-      ? `${team.team_name} | MWStats Team Profile`
+      ? teamTitle(team.team_name, team.summary.grade, team.summary.gender, seasonLabelText ?? "")
       : teamno
       ? `Team ${teamno} | MWStats`
       : SEO_SITE_NAME;

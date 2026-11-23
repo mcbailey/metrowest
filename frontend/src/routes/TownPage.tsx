@@ -4,7 +4,8 @@ import { ProgramHistory } from "../components/ProgramHistory";
 import { loadJsonCached } from "../data";
 import { rankingsPath, seasonSlug, teamPath } from "../paths";
 import { genderLabel, gradeLabel } from "../season";
-import { SEO_SITE_NAME, SEO_SITE_URL, usePageSeo } from "../seo";
+import { SEO_SITE_URL, usePageSeo } from "../seo";
+import { townDescription, townTitle } from "../seoText";
 import type { TownData, TownTeam } from "../types";
 
 export function TownPage() {
@@ -35,8 +36,8 @@ export function TownPage() {
 
   const name = town?.name ?? slug;
   usePageSeo({
-    title: `${name} youth basketball teams | ${SEO_SITE_NAME}`,
-    description: `${name} teams in Metrowest youth basketball: power rankings, records, and playoff results for every grade and season.`,
+    title: townTitle(name),
+    description: townDescription(name),
     canonicalPath: `/towns/${slug}`,
     jsonLd: {
       "@context": "https://schema.org",
